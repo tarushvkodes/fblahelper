@@ -1,5 +1,25 @@
 /* FBLA Helper — Main Application */
 
+// ============ UTILITIES ============
+// Fisher-Yates shuffle for uniform randomization
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Reusable AudioContext for timer alerts
+let _audioCtx = null;
+function getAudioContext() {
+  if (!_audioCtx) {
+    _audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  return _audioCtx;
+}
+
 // ============ APP STATE ============
 const App = {
   currentView: 'home',
@@ -467,7 +487,7 @@ function renderQuiz(ev) {
   }
 
   // Shuffle and pick 10 questions
-  const shuffled = [...questions].sort(() => Math.random() - 0.5).slice(0, 10);
+  const shuffled = shuffleArray(questions).slice(0, 10);
   App.quizState = {
     questions: shuffled,
     current: 0,
@@ -579,7 +599,7 @@ function renderFlashcards(ev) {
     return;
   }
 
-  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  const shuffled = shuffleArray(questions);
   App.flashcardState = { cards: shuffled, current: 0, flipped: false };
   renderFlashcard();
 }
@@ -1062,9 +1082,9 @@ function updateTimerDisplay(id) {
 }
 
 function playTimerAlert() {
-  // Simple audio beep using Web Audio API
+  // Simple audio beep using reusable Web Audio API context
   try {
-    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const ctx = getAudioContext();
     const osc = ctx.createOscillator();
     const gain = ctx.createGain();
     osc.connect(gain);
@@ -1072,7 +1092,7 @@ function playTimerAlert() {
     osc.frequency.value = 800;
     gain.gain.value = 0.3;
     osc.start();
-    setTimeout(() => { osc.stop(); ctx.close(); }, 500);
+    setTimeout(() => { osc.stop(); }, 500);
   } catch (e) {
     // Fallback: no sound
   }
