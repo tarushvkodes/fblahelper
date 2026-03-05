@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FBLA Study Hub — Your Complete Competition Companion</title>
+  <meta name="description" content="The ultimate study resource for FBLA competitors. Practice quizzes, flashcards, role play help, timers, and prep guides for all 74 competitive events.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+</head>
+<body>
+
+  <!-- Background Orbs -->
+  <div class="bg-orb"></div>
+  <div class="bg-orb"></div>
+  <div class="bg-orb"></div>
+
+  <!-- Navigation -->
+  <nav class="nav-bar" id="navbar">
+    <div class="nav-content">
+      <a class="nav-logo" onclick="navigateTo('home')">
+        <div class="nav-logo-icon">F</div>
+        FBLA Study Hub
+      </a>
+      <div class="nav-links" id="navLinks">
+        <button class="nav-link active" data-page="home" onclick="navigateTo('home')">Home</button>
+        <button class="nav-link" data-page="events" onclick="navigateTo('events')">Events</button>
+        <button class="nav-link" data-page="quiz" onclick="navigateTo('quiz')">Quizzes</button>
+        <button class="nav-link" data-page="flashcards" onclick="navigateTo('flashcards')">Flashcards</button>
+        <button class="nav-link" data-page="roleplay" onclick="navigateTo('roleplay')">Role Play</button>
+        <button class="nav-link" data-page="timer" onclick="navigateTo('timer')">Timers</button>
+        <button class="nav-link" data-page="prep" onclick="navigateTo('prep')">Prep</button>
+      </div>
+      <button class="nav-hamburger" id="hamburger" onclick="toggleMobileMenu()">☰</button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="nav-link active" data-page="home" onclick="navigateTo('home'); closeMobileMenu()">Home</button>
+    <button class="nav-link" data-page="events" onclick="navigateTo('events'); closeMobileMenu()">Events</button>
+    <button class="nav-link" data-page="quiz" onclick="navigateTo('quiz'); closeMobileMenu()">Quizzes</button>
+    <button class="nav-link" data-page="flashcards" onclick="navigateTo('flashcards'); closeMobileMenu()">Flashcards</button>
+    <button class="nav-link" data-page="roleplay" onclick="navigateTo('roleplay'); closeMobileMenu()">Role Play</button>
+    <button class="nav-link" data-page="timer" onclick="navigateTo('timer'); closeMobileMenu()">Timers</button>
+    <button class="nav-link" data-page="prep" onclick="navigateTo('prep'); closeMobileMenu()">Prep</button>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- ======================== -->
+    <!-- HOME PAGE                -->
+    <!-- ======================== -->
+    <div class="page active" id="page-home">
+      <div class="hero">
+        <div class="hero-badge">✦ 74 Events · 3,300+ Questions · Complete Resources</div>
+        <h1>Master Every<br><span class="gradient-text">FBLA Event</span></h1>
+        <p>Your all-in-one study companion for FBLA competitions. Practice quizzes, flashcards, role play prep, and timed drills — beautifully designed to help you excel.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-lg" onclick="navigateTo('events')">Explore Events →</button>
+          <button class="btn btn-secondary btn-lg" onclick="navigateTo('quiz')">Start Practicing</button>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-grid">
+        <div class="glass-card-flat stat-card">
+          <div class="stat-number blue">74</div>
+          <div class="stat-label">Competitive Events</div>
+        </div>
+        <div class="glass-card-flat stat-card">
+          <div class="stat-number purple">3,376</div>
+          <div class="stat-label">Practice Questions</div>
+        </div>
+        <div class="glass-card-flat stat-card">
+          <div class="stat-number green">35</div>
+          <div class="stat-label">Quiz Categories</div>
+        </div>
+        <div class="glass-card-flat stat-card">
+          <div class="stat-number orange">12</div>
+          <div class="stat-label">Role Play Events</div>
+        </div>
+      </div>
+
+      <!-- Features -->
+      <div class="feature-grid">
+        <div class="glass-card feature-card" data-color="blue" onclick="navigateTo('events')">
+          <div class="feature-icon blue">📚</div>
+          <h3>Event Directory</h3>
+          <p>Browse all 74 FBLA competitive events with study guides, tips, and resources for each event.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="purple" onclick="navigateTo('quiz')">
+          <div class="feature-icon purple">📝</div>
+          <h3>Practice Quizzes</h3>
+          <p>Over 3,300 questions sourced from FBLA Time across 35 categories. Test your knowledge instantly.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="green" onclick="navigateTo('flashcards')">
+          <div class="feature-icon green">🃏</div>
+          <h3>Flashcards</h3>
+          <p>Flip through key concepts and definitions. The perfect way to review before competition day.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="orange" onclick="navigateTo('roleplay')">
+          <div class="feature-icon orange">🎭</div>
+          <h3>Role Play Help</h3>
+          <p>Practice scenarios, rubric breakdowns, and expert tips for all role play and presentation events.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="red" onclick="navigateTo('timer')">
+          <div class="feature-icon red">⏱️</div>
+          <h3>Competition Timers</h3>
+          <p>Role play prep timers, presentation countdowns, and test timers with visual progress rings.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="teal" onclick="navigateTo('prep')">
+          <div class="feature-icon teal">✅</div>
+          <h3>Rubric & Prep</h3>
+          <p>Event-specific preparation checklists, rubric breakdowns, and day-of competition tips.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="indigo" onclick="navigateTo('study')">
+          <div class="feature-icon indigo">🎯</div>
+          <h3>Study Planner</h3>
+          <p>Track your progress, set study goals, and build a personalized study schedule.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="pink" onclick="navigateTo('events')">
+          <div class="feature-icon pink">🔍</div>
+          <h3>Quick Search</h3>
+          <p>Find any event, topic, or resource instantly. Everything is one search away.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- EVENTS PAGE              -->
+    <!-- ======================== -->
+    <div class="page" id="page-events">
+      <div class="section-header">
+        <h2>All FBLA Events</h2>
+        <p>Browse all 74 competitive events. Click any event for study materials, quizzes, and more.</p>
+      </div>
+
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="eventSearch" placeholder="Search events..." oninput="filterEvents()">
+      </div>
+
+      <div class="filter-bar" id="filterBar"></div>
+      <div class="events-grid" id="eventsGrid"></div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- EVENT DETAIL PAGE        -->
+    <!-- ======================== -->
+    <div class="page" id="page-event-detail">
+      <button class="section-back" onclick="navigateTo('events')">← Back to Events</button>
+      <div id="eventDetailContent"></div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- QUIZ PAGE                -->
+    <!-- ======================== -->
+    <div class="page" id="page-quiz">
+      <div class="section-header">
+        <h2>Practice Quizzes</h2>
+        <p>Test your knowledge with 3,376 questions from FBLA Time across 35 categories.</p>
+      </div>
+
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="quizSearch" placeholder="Search quiz categories..." oninput="filterQuizCategories()">
+      </div>
+
+      <div id="quizCategoryList" class="events-grid"></div>
+      <div id="quizArea" class="hidden"></div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- FLASHCARDS PAGE          -->
+    <!-- ======================== -->
+    <div class="page" id="page-flashcards">
+      <div class="section-header">
+        <h2>Flashcards</h2>
+        <p>Flip through questions and answers to reinforce your knowledge.</p>
+      </div>
+
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="flashcardSearch" placeholder="Search flashcard categories..." oninput="filterFlashcardCategories()">
+      </div>
+
+      <div id="flashcardCategoryList" class="events-grid"></div>
+      <div id="flashcardArea" class="hidden"></div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- ROLE PLAY PAGE           -->
+    <!-- ======================== -->
+    <div class="page" id="page-roleplay">
+      <div class="section-header">
+        <h2>Role Play & Presentation Help</h2>
+        <p>Practice scenarios, rubric breakdowns, and expert strategies for role play and presentation events.</p>
+      </div>
+
+      <div id="roleplayList"></div>
+      <div id="roleplayDetail" class="hidden"></div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- TIMER PAGE               -->
+    <!-- ======================== -->
+    <div class="page" id="page-timer">
+      <div class="section-header">
+        <h2>Competition Timers</h2>
+        <p>Practice under real competition conditions with customizable timers.</p>
+      </div>
+
+      <div class="feature-grid" style="margin-top:0">
+        <div class="glass-card feature-card" data-color="blue" onclick="showTimer('roleplay')">
+          <div class="feature-icon blue">🎭</div>
+          <h3>Role Play Timer</h3>
+          <p>10-minute prep + 7-minute presentation with phase tracking.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="purple" onclick="showTimer('test')">
+          <div class="feature-icon purple">📝</div>
+          <h3>Objective Test Timer</h3>
+          <p>60-minute countdown for timed objective tests.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="green" onclick="showTimer('speech')">
+          <div class="feature-icon green">🗣️</div>
+          <h3>Speech Timer</h3>
+          <p>4-5 minute speech timer with pacing indicators.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="orange" onclick="showTimer('custom')">
+          <div class="feature-icon orange">⏱️</div>
+          <h3>Custom Timer</h3>
+          <p>Set any duration for your specific practice needs.</p>
+        </div>
+      </div>
+
+      <div id="timerArea" class="hidden mt-xl"></div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- PREP PAGE                -->
+    <!-- ======================== -->
+    <div class="page" id="page-prep">
+      <div class="section-header">
+        <h2>Rubric & Competition Prep</h2>
+        <p>Everything you need to prepare for competition day.</p>
+      </div>
+
+      <div class="feature-grid" style="margin-top:0">
+        <div class="glass-card feature-card" data-color="blue" onclick="showPrep('general')">
+          <div class="feature-icon blue">📋</div>
+          <h3>General Checklist</h3>
+          <p>Universal competition prep checklist every competitor needs.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="purple" onclick="showPrep('objective')">
+          <div class="feature-icon purple">📝</div>
+          <h3>Objective Test Prep</h3>
+          <p>Strategies and rubrics for objective test events.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="green" onclick="showPrep('presentation')">
+          <div class="feature-icon green">🎤</div>
+          <h3>Presentation Prep</h3>
+          <p>Rubric breakdown and tips for presentation events.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="orange" onclick="showPrep('roleplay')">
+          <div class="feature-icon orange">🎭</div>
+          <h3>Role Play Prep</h3>
+          <p>Rubric criteria and strategy for role play events.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="red" onclick="showPrep('production')">
+          <div class="feature-icon red">💻</div>
+          <h3>Production Test Prep</h3>
+          <p>Tips for computer-based production tests.</p>
+        </div>
+        <div class="glass-card feature-card" data-color="teal" onclick="showPrep('speaking')">
+          <div class="feature-icon teal">🗣️</div>
+          <h3>Speaking Event Prep</h3>
+          <p>Rubric and strategies for public speaking events.</p>
+        </div>
+      </div>
+
+      <div id="prepArea" class="hidden mt-xl"></div>
+    </div>
+
+    <!-- ======================== -->
+    <!-- STUDY PLANNER PAGE       -->
+    <!-- ======================== -->
+    <div class="page" id="page-study">
+      <div class="section-header">
+        <h2>Study Planner</h2>
+        <p>Track your progress and plan your study sessions.</p>
+      </div>
+      <div id="studyContent"></div>
+    </div>
+
+  </main>
+
+  <!-- Scripts -->
+  <script src="events.js"></script>
+  <script src="quizdata.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
