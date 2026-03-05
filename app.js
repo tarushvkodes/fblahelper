@@ -498,7 +498,7 @@ function renderQuizQuestion() {
       </div>
 
       <div class="quiz-question">
-        <h3>${q.question}</h3>
+        <h3>${sanitize(q.question)}</h3>
         <div class="quiz-answers">
           ${answerKeys.map(key => `
             <button class="quiz-answer" onclick="selectQuizAnswer('${key}', this)" data-key="${key}">
@@ -674,7 +674,7 @@ function renderFlashcard() {
         <div class="flashcard-inner">
           <div class="flashcard-front">
             <div class="flashcard-label">Question</div>
-            <div class="flashcard-text">${card.question}</div>
+            <div class="flashcard-text">${sanitize(card.question)}</div>
             <div class="flashcard-hint">Tap to reveal answer</div>
           </div>
           <div class="flashcard-back">
