@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FBLA Helper — Your Competition Study Companion</title>
+  <meta name="description" content="The ultimate FBLA competition preparation tool. Practice quizzes, flashcards, role play scenarios, timers, study guides, and rubrics for all 74 FBLA events.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+</head>
+<body>
+
+  <!-- Animated Mesh Background -->
+  <div class="mesh-bg">
+    <div class="mesh-blob-3"></div>
+    <div class="mesh-blob-4"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <a class="nav-logo" onclick="navigate('home')">
+      <div class="nav-logo-icon">F</div>
+      <span>FBLA Helper</span>
+    </a>
+    <div class="nav-links" id="nav-links">
+      <button class="nav-link active" data-view="home" onclick="navigate('home')">Home</button>
+      <button class="nav-link" data-view="events" onclick="navigate('events')">Events</button>
+      <button class="nav-link" data-view="timer" onclick="navigate('timer')">Timer</button>
+    </div>
+    <div class="nav-search">
+      <span class="nav-search-icon">&#x1F50D;</span>
+      <input type="text" id="search-input" placeholder="Search events..." oninput="handleSearch(this.value)" autocomplete="off">
+      <div class="search-results glass-static" id="search-results"></div>
+    </div>
+    <button class="nav-hamburger" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- HOME VIEW -->
+    <div class="view active" id="view-home">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-badge">&#x1F3C6; FBLA Competition Prep</div>
+          <h1>Master Every Event.<br>Win Every Round.</h1>
+          <p>The ultimate study companion for FBLA competitors. Practice quizzes, flashcards, role play scenarios, timers, and preparation resources for all 74 competitive events.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="navigate('events')">&#x1F4DA; Browse All Events</button>
+            <button class="btn btn-secondary" onclick="navigate('timer')">&#x23F1; Competition Timer</button>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-row stagger">
+          <div class="stat-card glass">
+            <div class="stat-value" style="color: var(--blue);" id="home-event-count">74</div>
+            <div class="stat-label">Competition Events</div>
+          </div>
+          <div class="stat-card glass">
+            <div class="stat-value" style="color: var(--green);" id="home-quiz-count">1250</div>
+            <div class="stat-label">Practice Questions</div>
+          </div>
+          <div class="stat-card glass">
+            <div class="stat-value" style="color: var(--orange);">9</div>
+            <div class="stat-label">Event Categories</div>
+          </div>
+          <div class="stat-card glass">
+            <div class="stat-value" style="color: var(--purple);">&#x221E;</div>
+            <div class="stat-label">Flashcards</div>
+          </div>
+        </div>
+
+        <!-- Feature Cards -->
+        <div class="features-grid stagger">
+          <div class="feature-card glass" onclick="navigate('events')">
+            <div class="feature-icon" style="background: rgba(0, 122, 255, 0.1);">&#x1F4DD;</div>
+            <h3>Practice Quizzes</h3>
+            <p>Test your knowledge with real competition questions from past FBLA tests. Instant feedback and score tracking.</p>
+          </div>
+          <div class="feature-card glass" onclick="navigate('events')">
+            <div class="feature-icon" style="background: rgba(255, 149, 0, 0.1);">&#x1F5C2;</div>
+            <h3>Flashcards</h3>
+            <p>Study key concepts with interactive flashcards. Flip through questions and answers at your own pace.</p>
+          </div>
+          <div class="feature-card glass" onclick="navigate('events')">
+            <div class="feature-icon" style="background: rgba(255, 59, 48, 0.1);">&#x1F3AD;</div>
+            <h3>Role Play Practice</h3>
+            <p>Prepare for presentation and role play events with realistic scenarios and expert tips.</p>
+          </div>
+          <div class="feature-card glass" onclick="navigate('timer')">
+            <div class="feature-icon" style="background: rgba(90, 200, 250, 0.1);">&#x23F1;</div>
+            <h3>Competition Timer</h3>
+            <p>Practice with configurable timers. Presets for common FBLA time limits with visual warnings.</p>
+          </div>
+          <div class="feature-card glass" onclick="navigate('events')">
+            <div class="feature-icon" style="background: rgba(175, 82, 222, 0.1);">&#x1F4CB;</div>
+            <h3>Rubric &amp; Prep</h3>
+            <p>Understand scoring criteria and track your preparation progress with checklists for every event.</p>
+          </div>
+          <div class="feature-card glass" onclick="navigate('events')">
+            <div class="feature-icon" style="background: rgba(52, 199, 89, 0.1);">&#x1F4D6;</div>
+            <h3>Study Guides</h3>
+            <p>Comprehensive study guides with key concepts, strategies, and tips for every event category.</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>Built for FBLA competitors everywhere. Not affiliated with FBLA-PBL Inc.</p>
+          <p style="margin-top: 4px;">&#x1F4DA; Covering all 74 competitive events for 2025&ndash;26</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENTS VIEW -->
+    <div class="view" id="view-events">
+      <div class="container section">
+        <div class="events-header">
+          <h2>All Events</h2>
+          <div class="filter-pills" id="filter-pills">
+            <button class="filter-pill active" data-category="All" onclick="setCategory('All')">All</button>
+            <button class="filter-pill" data-category="Finance" onclick="setCategory('Finance')">&#x1F4B0; Finance</button>
+            <button class="filter-pill" data-category="Business" onclick="setCategory('Business')">&#x1F4BC; Business</button>
+            <button class="filter-pill" data-category="Technology" onclick="setCategory('Technology')">&#x1F4BB; Technology</button>
+            <button class="filter-pill" data-category="Marketing" onclick="setCategory('Marketing')">&#x1F4E3; Marketing</button>
+            <button class="filter-pill" data-category="Communication" onclick="setCategory('Communication')">&#x1F4AC; Communication</button>
+            <button class="filter-pill" data-category="Design" onclick="setCategory('Design')">&#x1F3A8; Design</button>
+            <button class="filter-pill" data-category="Leadership" onclick="setCategory('Leadership')">&#x2B50; Leadership</button>
+            <button class="filter-pill" data-category="Career Development" onclick="setCategory('Career Development')">&#x1F4C8; Career</button>
+            <button class="filter-pill" data-category="Entrepreneurship" onclick="setCategory('Entrepreneurship')">&#x1F680; Entrepreneurship</button>
+          </div>
+        </div>
+        <div class="events-grid stagger" id="events-list"></div>
+      </div>
+    </div>
+
+    <!-- TIMER VIEW -->
+    <div class="view" id="view-timer">
+      <div class="container section">
+        <div class="text-center mb-lg">
+          <h2 style="font-family: var(--font-display); font-size: 2rem; font-weight: 700;">Competition Timer</h2>
+          <p class="text-secondary">Practice with timed sessions matching FBLA competition formats</p>
+        </div>
+        <div id="timer-content"></div>
+      </div>
+    </div>
+
+    <!-- EVENT DETAIL VIEW -->
+    <div class="view" id="view-event-detail">
+      <div class="container section" id="event-detail-content"></div>
+    </div>
+
+    <!-- TOOL VIEW (Quiz, Flashcards, etc.) -->
+    <div class="view" id="view-tool">
+      <div class="container section" id="tool-content"></div>
+    </div>
+
+  </main>
+
+  <!-- Scripts -->
+  <script src="data/events.js"></script>
+  <script src="data/quizzes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
