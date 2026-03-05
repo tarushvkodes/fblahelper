@@ -84,13 +84,13 @@ function renderEventFilters() {
   const bar = document.getElementById('filterBar');
   if (!bar) return;
   bar.innerHTML = EVENT_CATEGORIES.map(cat =>
-    `<button class="filter-chip ${cat === 'All' ? 'active' : ''}" onclick="filterByCategory('${cat}')">${cat}</button>`
+    `<button class="filter-chip ${cat === 'All' ? 'active' : ''}" onclick="filterByCategory('${cat}', this)">${cat}</button>`
   ).join('');
 }
 
-function filterByCategory(category) {
+function filterByCategory(category, el) {
   document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-  event.target.classList.add('active');
+  if (el) el.classList.add('active');
   renderEvents(category === 'All' ? null : category);
 }
 
