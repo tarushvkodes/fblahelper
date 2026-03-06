@@ -464,11 +464,9 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
     ]
   };
 
-  /* Global reference resource available to all events */
-  const globalResources = [
-    { label: "CE Guide 2017-2020", path: "FBLA Time/FBLA Time/CE Guide 2017-2020.pdf", category: "reference" },
-    { label: "NAP Study Guide", path: "fblaresources/objective tests/National-Association-of-Parliamentarians-Study-Guide.pdf", category: "study-guide" }
-  ];
+  /* NAP guide — only relevant to Parliamentary Procedure events */
+  const napResource = { label: "NAP Study Guide", path: "fblaresources/objective tests/National-Association-of-Parliamentarians-Study-Guide.pdf", category: "study-guide" };
+  const parliEvents = ["Parliamentary Procedure Individual", "Parliamentary Procedure Team", "Introduction to Parliamentary Procedure"];
 
   /* Classify a filename into a readable category label */
   function classifyFile(filename) {
@@ -555,8 +553,10 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
     map["Customer Service"] = existing;
   }
 
-  /* Store global resources separately */
-  map.__global = globalResources;
+  /* Attach NAP guide to parliamentary events only */
+  parliEvents.forEach(pe => {
+    if (map[pe]) map[pe].push(napResource);
+  });
 
   return map;
 })();
@@ -2052,9 +2052,7 @@ function exportHistory() {
 /* ─── Resource Document Links ─── */
 
 function getResourcesForEvent(eventName) {
-  const eventDocs = EVENT_FILE_RESOURCES[eventName] || [];
-  const globals = EVENT_FILE_RESOURCES.__global || [];
-  return [...eventDocs, ...globals];
+  return EVENT_FILE_RESOURCES[eventName] || [];
 }
 
 function renderResources(eventName) {
