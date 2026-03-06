@@ -1899,6 +1899,11 @@ button.btn-outline:hover {
   letter-spacing: 0.04em;
 }
 
+.stats-recent-card,
+.stats-actions {
+  margin-top: 0.75rem;
+}
+
 /* --- Overview Progress Mini-Stats --- */
 
 .overview-stat-row {
