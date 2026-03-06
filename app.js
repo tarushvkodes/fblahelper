@@ -1341,13 +1341,22 @@ function renderQuestion() {
 
 function updateLiveScore() {
   const deck = state.quiz.deck;
-  const answeredIdx = Object.keys(state.quiz.answers).map((k) => Number(k));
-  let correct = 0;
-  answeredIdx.forEach((i) => {
-    const q = deck[i];
-    if (Number.isInteger(q?.answer) && q.answer === state.quiz.answers[i]) correct += 1;
-  });
-  quizUi.scoreLive.textContent = `${correct} / ${answeredIdx.length}`;
+  const answeredCount = Object.keys(state.quiz.answers).length;
+  const label = document.getElementById("quizScoreLabel");
+
+  if (state.quiz.submitted) {
+    let correct = 0;
+    Object.keys(state.quiz.answers).forEach((k) => {
+      const i = Number(k);
+      const q = deck[i];
+      if (Number.isInteger(q?.answer) && q.answer === state.quiz.answers[i]) correct += 1;
+    });
+    quizUi.scoreLive.textContent = `${correct} / ${deck.length}`;
+    if (label) label.textContent = "Score";
+  } else {
+    quizUi.scoreLive.textContent = `${answeredCount} / ${deck.length}`;
+    if (label) label.textContent = "Answered";
+  }
 }
 
 function changeQuestion(delta) {

@@ -154,7 +154,7 @@
             <p id="quizTimer" class="timer" aria-live="off" aria-atomic="true">00:00</p>
           </div>
           <div>
-            <p class="eyebrow">Score</p>
+            <p class="eyebrow" id="quizScoreLabel">Answered</p>
             <p id="quizScoreLive" aria-live="polite" aria-atomic="true">0 / 0</p>
           </div>
         </div>
@@ -381,6 +381,7 @@
   <script src="combined_question_bank.js"></script>
   <script src="ai_question_bank.js"></script>
   <script src="roleplay_reference.js"></script>
+  <script src="js/constants.js"></script>
   <script src="app.js"></script>
   <script type="module">
     import { WebHaptics } from "https://esm.sh/web-haptics@0.0.6";
