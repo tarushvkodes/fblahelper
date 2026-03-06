@@ -100,12 +100,14 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
     "Cybersecurity": "Cyber Security",
     "Economics": "Economics",
     "Entrepreneurship": "Entrepreneurship",
+    "Financial Planning": "Introduction to Financial Math",
     "Future Business Leader": "Future Business Leader",
     "Graphic Design": "Graphic Design",
     "Healthcare Administration": "Healthcare Administration",
     "Hospitality & Event Management": "Hospitality Management",
     "Impromptu Speaking": "Impromptu Speaking",
     "Insurance & Risk Management": "Insurance _ Risk Management",
+    "International Business": "Global Business",
     "Introduction to Business Communication": "Introduction to Business Communication",
     "Introduction to Business Concepts": "Introduction to Business",
     "Introduction to Business Procedures": "Introduction to Business Procedures",
@@ -122,7 +124,8 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
     "Parliamentary Procedure Team": "Parliamentary Procedure",
     "Personal Finance": "Personal Finance",
     "Securities & Investments": "Securities _ Investments",
-    "Sports & Entertainment Management": "Sports _ Entertainment Management"
+    "Sports & Entertainment Management": "Sports _ Entertainment Management",
+    "Technology Support & Services": "Help Desk"
   };
 
   /* Detailed file lists per FBLA Time folder (the actual filenames on disk).
@@ -604,6 +607,34 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
     });
     map["Customer Service"] = existing;
   }
+
+  /* Legacy folder cross-references — retired folder names linked to the closest modern event */
+  const legacyFolderLinks = {
+    "Business Management": ["Management Decision Making"],
+    "Computer Applications": ["Database Design _ Applications", "Spreadsheet Applications", "Word Processing"],
+    "Graphic Design": ["Publication Design"],
+    "Personal Finance": ["Business Calculations"]
+  };
+  Object.entries(legacyFolderLinks).forEach(([event, folders]) => {
+    const existing = map[event] || [];
+    folders.forEach(legacyFolder => {
+      [fblaTimeFiles, megaFolderFiles].forEach(source => {
+        if (!source[legacyFolder]) return;
+        const basePath = source === fblaTimeFiles
+          ? `FBLA Time/FBLA Time/${legacyFolder}`
+          : `Full FBLA Mega Folder/${legacyFolder}`;
+        source[legacyFolder].forEach(filename => {
+          const basename = filename.split("/").pop();
+          existing.push({
+            label: labelFromFile(basename),
+            path: `${basePath}/${filename}`,
+            category: classifyFile(basename)
+          });
+        });
+      });
+    });
+    map[event] = existing;
+  });
 
   /* Attach NAP guide to parliamentary events only */
   parliEvents.forEach(pe => {
