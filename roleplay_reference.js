@@ -1,5 +1,6 @@
 window.ROLEPLAY_REFERENCE = {
   officialRoleplayEvents: [
+    "Banking & Financial Systems",
     "Business Management",
     "Customer Service",
     "Entrepreneurship",
@@ -8,16 +9,22 @@ window.ROLEPLAY_REFERENCE = {
     "Human Resource Management",
     "Insurance & Risk Management",
     "International Business",
+    "Management Information Systems",
     "Marketing",
+    "Network Design",
     "Organizational Leadership",
     "Project Management",
     "Public Administration & Management",
     "Real Estate",
     "Retail Management",
     "Sports & Entertainment Management",
-    "Supply Chain Management"
+    "Supply Chain Management",
+    "Technology Support & Services"
   ],
   pdfLinks: {
+    "Banking & Financial Systems": [
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Banking-and-Financial-Systems---Sample-1.docx" }
+    ],
     "Business Management": [
       { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Business-Management---Sample-1.docx" }
     ],
@@ -56,7 +63,16 @@ window.ROLEPLAY_REFERENCE = {
     "Sports & Entertainment Management": [
       { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Sports-and-Entertainment-Management---Sample-1.docx" }
     ],
-    "Supply Chain Management": []
+    "Supply Chain Management": [],
+    "Management Information Systems": [
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Management-Information-Systems---Sample-1.docx" }
+    ],
+    "Network Design": [
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Network-Design---Sample-1.docx" }
+    ],
+    "Technology Support & Services": [
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Technology-Support--Services---Sample-1.docx" }
+    ]
   },
   curatedScenarios: {
     "Business Management": [
@@ -311,6 +327,74 @@ window.ROLEPLAY_REFERENCE = {
           "How do you avoid discounting away the brand?",
           "What should we promise sponsors that is actually measurable?",
           "How would you get more repeat attendance on low-demand nights?"
+        ]
+      }
+    ],
+    "Banking & Financial Systems": [
+      {
+        name: "Loan Portfolio Risk Review",
+        prompt: "A regional bank has seen delinquency rates climb on its small-business loan book while deposit growth is slowing. The chief lending officer asks you to present a risk-management plan that re-evaluates underwriting criteria, recommends reserve adjustments, and outlines a borrower outreach strategy — all while keeping the bank competitive in its market.",
+        sourceNote: "Grounded in the Banking & Financial Systems roleplay samples in fblaresources and the FBLA Time study materials.",
+        indicators: [
+          "Identify the key credit-risk and liquidity factors driving the problem.",
+          "Recommend underwriting, reserve, and pricing changes with clear rationale.",
+          "Outline a borrower communication and retention plan that balances risk with relationship value."
+        ],
+        judgeQuestions: [
+          "How do you decide which existing loans need immediate review?",
+          "What trade-off do you see between tightening underwriting and losing competitive market share?",
+          "How would you communicate rate or term changes to current borrowers?"
+        ]
+      }
+    ],
+    "Management Information Systems": [
+      {
+        name: "ERP Migration And Data Integrity",
+        prompt: "A mid-size manufacturer is migrating from a legacy ERP system to a cloud-based platform. Departments are worried about data loss, workflow disruptions, and re-training costs. Present a migration plan that addresses data integrity, user adoption, phased rollout, and post-launch support.",
+        sourceNote: "Grounded in the Management Information Systems roleplay samples in fblaresources and the FBLA Time MIS study materials.",
+        indicators: [
+          "Assess the data-migration risks and define validation checkpoints.",
+          "Design a phased rollout with parallel-run periods and rollback criteria.",
+          "Plan user training and support that addresses different skill levels across departments."
+        ],
+        judgeQuestions: [
+          "How do you verify data accuracy after migration?",
+          "What happens if a critical module fails during the parallel-run period?",
+          "How do you handle departments that resist switching from the legacy system?"
+        ]
+      }
+    ],
+    "Network Design": [
+      {
+        name: "Campus Network Overhaul",
+        prompt: "A growing company has outgrown its flat network. Employees report slow connections, security cameras drop offline, and guest Wi-Fi traffic can reach internal file shares. Design a segmented network that separates IoT, guest, and corporate traffic, improves throughput, and strengthens security without exceeding the approved infrastructure budget.",
+        sourceNote: "Grounded in the Network Design roleplay samples in fblaresources and the FBLA Time Networking study materials.",
+        indicators: [
+          "Identify the security and performance risks of the current flat topology.",
+          "Propose VLAN segmentation, access-control, and bandwidth-management strategies.",
+          "Justify hardware and configuration decisions within the budget constraint."
+        ],
+        judgeQuestions: [
+          "How do you prioritize traffic when bandwidth is saturated?",
+          "What prevents a compromised IoT device from reaching the corporate VLAN?",
+          "How would you phase the rollout to minimize downtime?"
+        ]
+      }
+    ],
+    "Technology Support & Services": [
+      {
+        name: "Help Desk Overload And SLA Recovery",
+        prompt: "A company's internal help desk is missing SLA response-time targets, ticket backlogs are growing, and end-user satisfaction scores are falling. Leadership wants a plan to stabilize service levels, reduce repeat tickets, and improve first-contact resolution without adding headcount. Present your recommendations.",
+        sourceNote: "Grounded in the Technology Support & Services roleplay samples in fblaresources.",
+        indicators: [
+          "Diagnose the root causes behind rising backlogs and missed SLAs.",
+          "Recommend triage, knowledge-base, and self-service changes to cut ticket volume.",
+          "Define metrics and review cadence to sustain improved service levels."
+        ],
+        judgeQuestions: [
+          "Which ticket categories would you tackle first and why?",
+          "How do you reduce repeat tickets without a big new tool investment?",
+          "What leading indicator tells you the help desk is stabilizing?"
         ]
       }
     ],
