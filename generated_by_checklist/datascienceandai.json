@@ -1,1819 +1,1805 @@
-SECTION 1 - SELECTED_EVENT
-
-* Data Science & AI
-
-SECTION 2 - NEW_FILE_NAME
-
-* generated_by_checklist/data_science_ai_batch_001.json
-
-SECTION 3 - JSON_CONTENT
 {
-"event": "Data Science & AI",
-"questions": [
-{
-"q": "Which measure of central tendency is most affected by extreme values?",
-"options": [
-"Mean",
-"Median",
-"Mode",
-"Range"
-],
-"answer": 0,
-"explain": "The mean uses all values, so extreme outliers pull it more than the median or mode.",
-"optionExplanations": [
-"Correct: Mean is sensitive to outliers because it averages all values.",
-"Incorrect: Median is resistant to outliers because it depends on order, not magnitude.",
-"Incorrect: Mode is the most frequent value and is usually unaffected by extreme values.",
-"Incorrect: Range is a measure of spread, not a central tendency measure."
-],
-"source": "official-hq"
-},
-{
-"q": "The probability of two independent events both occurring is found by:",
-"options": [
-"Adding their probabilities",
-"Multiplying their probabilities",
-"Subtracting their probabilities",
-"Dividing their probabilities"
-],
-"answer": 1,
-"explain": "For independent events, the joint probability equals the product of their probabilities.",
-"optionExplanations": [
-"Incorrect: Addition applies to mutually exclusive events for OR, not independent AND.",
-"Correct: Multiplication gives P(A and B) when A and B are independent.",
-"Incorrect: Subtraction is used for complements or adjusting overlaps, not independent AND.",
-"Incorrect: Division is not a standard rule for combining independent event probabilities."
-],
-"source": "official-hq"
-},
-{
-"q": "A normal distribution is defined by its:",
-"options": [
-"Mean and mode",
-"Mean and standard deviation",
-"Median and range",
-"Variance and mode"
-],
-"answer": 1,
-"explain": "A normal distribution is fully characterized by its mean (center) and standard deviation (spread).",
-"optionExplanations": [
-"Incorrect: Mode equals mean in a normal curve, but mode alone is not a defining parameter.",
-"Correct: Mean and standard deviation uniquely determine a normal distribution.",
-"Incorrect: Median and range do not parameterize a normal distribution.",
-"Incorrect: Variance relates to spread, but 'variance and mode' is not the standard defining pair."
-],
-"source": "official-hq"
-},
-{
-"q": "In probability, the complement of an event A represents:",
-"options": [
-"The event happening twice",
-"The event not occurring",
-"The event occurring first",
-"The event occurring with another event"
-],
-"answer": 1,
-"explain": "The complement of event A is everything in the sample space where A does not occur.",
-"optionExplanations": [
-"Incorrect: Complement is not about repeated occurrences.",
-"Correct: Complement means A does not happen.",
-"Incorrect: Complement is not about order.",
-"Incorrect: Complement is not about co-occurrence with another event."
-],
-"source": "official-hq"
-},
-{
-"q": "The standard deviation measures:",
-"options": [
-"How centered the data is around the mean",
-"The spread of data values from the mean",
-"The probability of an event occurring",
-"The relationship between two variables"
-],
-"answer": 1,
-"explain": "Standard deviation quantifies typical distance of data values from the mean.",
-"optionExplanations": [
-"Incorrect: Centering is about the mean/median, not what standard deviation measures.",
-"Correct: It measures spread around the mean.",
-"Incorrect: Probability of an event is not measured by standard deviation.",
-"Incorrect: Relationship between variables is measured by correlation/regression, not standard deviation."
-],
-"source": "official-hq"
-},
-{
-"q": "If the probability of rain is 0.3, what is the probability it will NOT rain?",
-"options": [
-"0.3",
-"0.5",
-"0.7",
-"0.9"
-],
-"answer": 2,
-"explain": "The probability of NOT raining is the complement: 1 - 0.3 = 0.7.",
-"optionExplanations": [
-"Incorrect: 0.3 is the probability it rains, not that it does not rain.",
-"Incorrect: 0.5 would imply a 50-50 chance, which is not given.",
-"Correct: Complement of 0.3 is 0.7.",
-"Incorrect: 0.9 would be the complement of 0.1, not 0.3."
-],
-"source": "official-hq"
-},
-{
-"q": "Which of the following is a continuous random variable?",
-"options": [
-"Number of books on a shelf",
-"Height of students in a class",
-"Number of defective products",
-"Count of website visits"
-],
-"answer": 1,
-"explain": "A continuous variable can take any value in an interval, such as height measured in real numbers.",
-"optionExplanations": [
-"Incorrect: Books are counted in whole numbers, so this is discrete.",
-"Correct: Height can vary continuously (e.g., 165.2 cm).",
-"Incorrect: Defect counts are discrete integers.",
-"Incorrect: Visits are counted as whole-number events, so discrete."
-],
-"source": "official-hq"
-},
-{
-"q": "In statistics, a p-value is used to:",
-"options": [
-"Determine if a result is statistically significant",
-"Measure the average of a data set",
-"Calculate the mean difference",
-"Determine probability of independence"
-],
-"answer": 0,
-"explain": "A p-value quantifies how incompatible the observed data are with the null hypothesis, helping assess significance.",
-"optionExplanations": [
-"Correct: It is used in hypothesis testing to judge statistical significance.",
-"Incorrect: Averages are computed with mean/median, not p-values.",
-"Incorrect: Mean difference is an effect size; p-values do not compute it.",
-"Incorrect: Independence is assessed with study design/tests; p-values are not 'probability of independence'."
-],
-"source": "official-hq"
-},
-{
-"q": "In AI, overfitting occurs when:",
-"options": [
-"The model is too simple",
-"The model learns noise instead of patterns",
-"The model is under-trained",
-"The dataset is too small"
-],
-"answer": 1,
-"explain": "Overfitting happens when a model fits the training data too closely, including noise, and generalizes poorly.",
-"optionExplanations": [
-"Incorrect: A too-simple model tends to underfit, not overfit.",
-"Correct: Learning noise instead of general patterns is overfitting.",
-"Incorrect: Under-training usually leads to underfitting.",
-"Incorrect: Small datasets can contribute to overfitting, but overfitting is a model behavior, not just dataset size."
-],
-"source": "official-hq"
-},
-{
-"q": "Which measure is best for comparing the spread of two datasets with different units?",
-"options": [
-"Standard deviation",
-"Coefficient of variation",
-"Mean",
-"Median"
-],
-"answer": 1,
-"explain": "The coefficient of variation (standard deviation divided by mean) is unitless, enabling comparison across units.",
-"optionExplanations": [
-"Incorrect: Standard deviation keeps the original units, making cross-unit comparison difficult.",
-"Correct: Coefficient of variation is normalized and unitless.",
-"Incorrect: Mean measures center, not spread.",
-"Incorrect: Median measures center, not spread."
-],
-"source": "official-hq"
-},
-{
-"q": "A correlation coefficient of -0.85 suggests:",
-"options": [
-"A strong positive relationship",
-"A weak negative relationship",
-"A strong negative relationship",
-"No relationship"
-],
-"answer": 2,
-"explain": "A correlation near -1 indicates a strong negative linear relationship.",
-"optionExplanations": [
-"Incorrect: Negative correlation is not positive.",
-"Incorrect: -0.85 is strong, not weak.",
-"Correct: -0.85 indicates a strong negative association.",
-"Incorrect: A correlation near 0 suggests no linear relationship."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is NOT a step in the data analysis process?",
-"options": [
-"Data collection",
-"Data cleaning",
-"Model deployment",
-"Data visualization"
-],
-"answer": 2,
-"explain": "Model deployment is typically part of ML lifecycle, not a standard step of the core data analysis process of collecting, cleaning, analyzing, and visualizing.",
-"optionExplanations": [
-"Incorrect: Collecting data is a standard early step.",
-"Incorrect: Cleaning/preprocessing is a standard step.",
-"Correct: Deployment is beyond basic analysis and is not always included.",
-"Incorrect: Visualization is commonly used to communicate findings."
-],
-"source": "official-hq"
-},
-{
-"q": "The confusion matrix is used to evaluate:",
-"options": [
-"Regression models",
-"Classification models",
-"Clustering algorithms",
-"Data cleaning methods"
-],
-"answer": 1,
-"explain": "A confusion matrix summarizes predicted vs actual classes, so it evaluates classification performance.",
-"optionExplanations": [
-"Incorrect: Regression uses error metrics like MAE/MSE, not confusion matrices.",
-"Correct: Classification outcomes can be counted as TP/FP/TN/FN in a confusion matrix.",
-"Incorrect: Clustering is typically evaluated with silhouette/Davies-Bouldin, not confusion matrices.",
-"Incorrect: Data cleaning quality is not evaluated with a confusion matrix."
-],
-"source": "official-hq"
-},
-{
-"q": "A histogram is most useful for:",
-"options": [
-"Showing frequency distribution of data",
-"Comparing two datasets",
-"Showing relationships between variables",
-"Plotting real-time changes"
-],
-"answer": 0,
-"explain": "Histograms display how often values fall into bins, showing a frequency distribution.",
-"optionExplanations": [
-"Correct: Histograms show frequency distribution across bins.",
-"Incorrect: Side-by-side plots can compare datasets, but that's not the primary use stated.",
-"Incorrect: Scatterplots show relationships between variables.",
-"Incorrect: Line charts are more typical for real-time changes over time."
-],
-"source": "official-hq"
-},
-{
-"q": "Which metric is most appropriate for measuring model accuracy in imbalanced \ndatasets?",
-"options": [
-"Accuracy",
-"Precision and recall",
-"Mean absolute error",
-"Root mean square error"
-],
-"answer": 1,
-"explain": "In imbalanced datasets, accuracy can be misleading; precision and recall (and related F1) reflect minority-class performance.",
-"optionExplanations": [
-"Incorrect: Accuracy may stay high by predicting the majority class.",
-"Correct: Precision/recall focus on positive-class errors and are better for imbalance.",
-"Incorrect: MAE is for regression, not classification imbalance.",
-"Incorrect: RMSE is for regression, not classification imbalance."
-],
-"source": "official-hq"
-},
-{
-"q": "In a relational database, which SQL clause is used to filter groups created by GROUP BY?",
-"options": [
-"WHERE",
-"HAVING",
-"ORDER BY",
-"LIMIT"
-],
-"answer": 1,
-"explain": "WHERE filters rows before grouping, while HAVING filters the grouped results after aggregation.",
-"optionExplanations": [
-"Incorrect: WHERE filters individual rows, not aggregated groups.",
-"Correct: HAVING applies conditions to aggregated groups (e.g., COUNT(*) > 5).",
-"Incorrect: ORDER BY only sorts the output.",
-"Incorrect: LIMIT restricts the number of rows returned, not group filtering."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which join returns only the rows that have matching keys in BOTH tables?",
-"options": [
-"LEFT JOIN",
-"RIGHT JOIN",
-"INNER JOIN",
-"FULL OUTER JOIN"
-],
-"answer": 2,
-"explain": "An INNER JOIN keeps rows where the join condition matches in both tables.",
-"optionExplanations": [
-"Incorrect: LEFT JOIN keeps all left-table rows even without matches.",
-"Incorrect: RIGHT JOIN keeps all right-table rows even without matches.",
-"Correct: INNER JOIN returns the intersection of matching keys.",
-"Incorrect: FULL OUTER JOIN returns matches plus non-matching rows from both sides."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of one-hot encoding a categorical feature?",
-"options": [
-"To scale numeric values between 0 and 1",
-"To convert categories into separate binary indicator variables",
-"To reduce the number of features using PCA",
-"To remove outliers from the dataset"
-],
-"answer": 1,
-"explain": "One-hot encoding represents each category as its own 0/1 column so models can use categorical information numerically.",
-"optionExplanations": [
-"Incorrect: Min-max scaling scales numeric features, not categories.",
-"Correct: It creates binary indicator columns for each category.",
-"Incorrect: PCA is a dimensionality-reduction technique, not category encoding.",
-"Incorrect: Outlier removal is a separate preprocessing step."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which technique most directly helps prevent data leakage in time-series forecasting?",
-"options": [
-"Randomly shuffling the entire dataset before splitting",
-"Using future values to fill missing past data",
-"Splitting train/validation sets by time (earlier to later)",
-"Normalizing each row independently using its own maximum"
-],
-"answer": 2,
-"explain": "Time-series models must be evaluated on future data; splitting by time avoids training on information from the future.",
-"optionExplanations": [
-"Incorrect: Shuffling can mix future observations into training.",
-"Incorrect: Using future values to fill past gaps leaks future information.",
-"Correct: A chronological split preserves causality and avoids leakage.",
-"Incorrect: Row-wise normalization does not address leakage across time."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In supervised learning, what does the label (target) represent?",
-"options": [
-"An unlabeled cluster assignment",
-"The output value the model is trained to predict",
-"A feature used only for scaling",
-"A random seed for reproducibility"
-],
-"answer": 1,
-"explain": "The label is the ground-truth output associated with each training example.",
-"optionExplanations": [
-"Incorrect: Cluster IDs are produced by unsupervised clustering, not labels in supervised learning.",
-"Correct: The target is the value/class the model learns to predict.",
-"Incorrect: Scaling uses features, not the label itself as a scaling feature.",
-"Incorrect: Random seeds control randomness but are not targets."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which evaluation metric is most appropriate for a regression problem?",
-"options": [
-"F1 score",
-"Mean absolute error (MAE)",
-"ROC-AUC",
-"Accuracy"
-],
-"answer": 1,
-"explain": "MAE measures average absolute prediction error and is designed for continuous-valued targets.",
-"optionExplanations": [
-"Incorrect: F1 is for classification, balancing precision and recall.",
-"Correct: MAE is a standard regression error metric.",
-"Incorrect: ROC-AUC is for binary classification ranking.",
-"Incorrect: Accuracy is primarily for classification."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does a high bias in a model typically indicate?",
-"options": [
-"The model is overfitting the training data",
-"The model is too simple and underfitting",
-"The model has learned the noise in the data",
-"The model has perfect generalization"
-],
-"answer": 1,
-"explain": "High bias means the model cannot capture the underlying patterns well, leading to underfitting.",
-"optionExplanations": [
-"Incorrect: Overfitting is usually associated with high variance.",
-"Correct: High bias corresponds to underfitting due to oversimplification.",
-"Incorrect: Learning noise is overfitting/high variance.",
-"Incorrect: Perfect generalization is unrealistic and not implied by high bias."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which method is commonly used to handle missing numerical values in a dataset?",
-"options": [
-"Dropping the target variable",
-"Imputing with the median or mean",
-"One-hot encoding the missing values",
-"Increasing the learning rate"
-],
-"answer": 1,
-"explain": "Imputation replaces missing numeric entries with a representative statistic like the mean or median.",
-"optionExplanations": [
-"Incorrect: Dropping the target removes what you are trying to predict.",
-"Correct: Mean/median imputation is a common baseline for missing numeric data.",
-"Incorrect: One-hot encoding applies to categorical variables, not numeric imputation.",
-"Incorrect: Learning rate affects training dynamics, not missing values."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which plot is best for visualizing the relationship between two continuous variables?",
-"options": [
-"Pie chart",
-"Histogram",
-"Scatter plot",
-"Box plot"
-],
-"answer": 2,
-"explain": "A scatter plot shows paired (x, y) points, making correlation and patterns visible.",
-"optionExplanations": [
-"Incorrect: Pie charts show parts of a whole for categorical proportions.",
-"Incorrect: Histograms show the distribution of one variable.",
-"Correct: Scatter plots display relationships between two continuous variables.",
-"Incorrect: Box plots summarize distributions, typically for one variable or by category."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In k-means clustering, what does the variable k represent?",
-"options": [
-"Number of features",
-"Number of clusters",
-"Number of training epochs",
-"Number of decision trees"
-],
-"answer": 1,
-"explain": "k is the number of clusters (centroids) the algorithm will form.",
-"optionExplanations": [
-"Incorrect: Features are dimensions, not k.",
-"Correct: k is the chosen number of clusters.",
-"Incorrect: Epochs relate to iterative training in some models, not k-means' k.",
-"Incorrect: Decision trees are used in tree-based models, not k-means."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which regularization technique adds the absolute value of coefficients to the loss function and can drive some coefficients to zero?",
-"options": [
-"Ridge (L2) regularization",
-"Lasso (L1) regularization",
-"Dropout",
-"Early stopping"
-],
-"answer": 1,
-"explain": "L1 (lasso) regularization penalizes the sum of absolute coefficients, promoting sparsity (zeros).",
-"optionExplanations": [
-"Incorrect: L2 shrinks coefficients but typically does not make them exactly zero.",
-"Correct: L1 can produce sparse models by setting some weights to zero.",
-"Incorrect: Dropout is used mainly in neural networks to drop activations during training.",
-"Incorrect: Early stopping halts training based on validation performance, not coefficient penalties."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In logistic regression, the model outputs are typically interpreted as:",
-"options": [
-"Unbounded real-valued predictions",
-"Probabilities between 0 and 1",
-"Cluster centroids",
-"Principal components"
-],
-"answer": 1,
-"explain": "Logistic regression applies a sigmoid to produce values in [0,1], often treated as class probabilities.",
-"optionExplanations": [
-"Incorrect: Logistic regression uses a bounded sigmoid output, not unbounded values.",
-"Correct: Outputs are in the 0 to 1 range and can be interpreted as probabilities.",
-"Incorrect: Centroids are associated with clustering like k-means.",
-"Incorrect: Principal components come from PCA."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of a validation set during model training?",
-"options": [
-"To fit model parameters",
-"To estimate final performance on unseen data and tune hyperparameters",
-"To increase the size of the training data by duplication",
-"To eliminate the need for preprocessing"
-],
-"answer": 1,
-"explain": "A validation set helps tune hyperparameters and monitor generalization without touching the test set.",
-"optionExplanations": [
-"Incorrect: Model parameters are fitted on the training set.",
-"Correct: Validation data is used for tuning and early stopping decisions.",
-"Incorrect: Duplicating data does not create an independent validation set.",
-"Incorrect: Preprocessing is still required regardless of validation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which technique estimates model performance by repeatedly training on folds and validating on the remaining fold?",
-"options": [
-"Bootstrapping",
-"k-fold cross-validation",
-"Grid search only",
-"Stratified sampling without training"
-],
-"answer": 1,
-"explain": "k-fold cross-validation cycles through k partitions to estimate generalization more reliably.",
-"optionExplanations": [
-"Incorrect: Bootstrapping samples with replacement and is a different resampling method.",
-"Correct: k-fold CV trains on k-1 folds and validates on the remaining fold repeatedly.",
-"Incorrect: Grid search is a hyperparameter search method that can use CV but is not CV itself.",
-"Incorrect: Stratified sampling is about preserving class proportions, not the fold training process."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "For a binary classifier, which term describes cases where the model predicts positive but the true label is negative?",
-"options": [
-"True positive",
-"False positive",
-"True negative",
-"False negative"
-],
-"answer": 1,
-"explain": "A false positive is a predicted positive outcome that is actually negative in ground truth.",
-"optionExplanations": [
-"Incorrect: True positives are correct positive predictions.",
-"Correct: False positives are incorrect positive predictions.",
-"Incorrect: True negatives are correct negative predictions.",
-"Incorrect: False negatives are predicted negative but actually positive."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a key advantage of using a confusion matrix over accuracy alone?",
-"options": [
-"It always increases model accuracy",
-"It reveals the types of errors across classes",
-"It removes the need for labeled data",
-"It guarantees fairness across demographic groups"
-],
-"answer": 1,
-"explain": "A confusion matrix breaks outcomes into TP/FP/TN/FN (or class-by-class counts), showing where mistakes occur.",
-"optionExplanations": [
-"Incorrect: A confusion matrix does not change accuracy; it reports results.",
-"Correct: It shows which classes are confused and what error types dominate.",
-"Incorrect: Confusion matrices require labels to compare predictions to truth.",
-"Incorrect: Error breakdown does not automatically guarantee fairness."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which method is MOST appropriate for scaling features to have mean 0 and standard deviation 1?",
-"options": [
-"Min-max scaling",
-"Standardization (z-score scaling)",
-"Label encoding",
-"Log transform only"
-],
-"answer": 1,
-"explain": "Standardization subtracts the mean and divides by the standard deviation to create z-scores.",
-"optionExplanations": [
-"Incorrect: Min-max scales to a fixed range such as [0,1], not mean 0 and std 1.",
-"Correct: z-score scaling yields mean 0 and standard deviation 1 (on training data).",
-"Incorrect: Label encoding converts categories to integers, not scaling numeric features.",
-"Incorrect: Log transforms change shape but do not enforce mean 0 and std 1."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In decision trees, what criterion is commonly used to choose splits for classification?",
-"options": [
-"Mean squared error",
-"Gini impurity or information gain",
-"Cosine similarity",
-"Euclidean distance to centroids"
-],
-"answer": 1,
-"explain": "Classification trees often choose splits that reduce impurity, using metrics like Gini or entropy/information gain.",
-"optionExplanations": [
-"Incorrect: MSE is typically used for regression trees.",
-"Correct: Gini/entropy measure node purity for classification splits.",
-"Incorrect: Cosine similarity is used in vector similarity, not standard tree splitting.",
-"Incorrect: Distance to centroids relates to clustering, not tree splits."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Random forests primarily reduce which issue compared to a single decision tree?",
-"options": [
-"Bias",
-"Variance",
-"Need for labeled data",
-"Number of features in the dataset"
-],
-"answer": 1,
-"explain": "By averaging many de-correlated trees, random forests reduce variance and improve generalization.",
-"optionExplanations": [
-"Incorrect: Ensembles can reduce bias in some cases, but the main benefit here is variance reduction.",
-"Correct: Bagging and feature randomness reduce variance compared to one deep tree.",
-"Incorrect: Random forests are supervised and still require labels.",
-"Incorrect: The dataset's feature count is unchanged; forests sample features per split."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In gradient boosting, new trees are typically trained to:",
-"options": [
-"Predict random noise",
-"Correct the errors (residuals) of the current ensemble",
-"Replace all previous trees",
-"Cluster the data into k groups"
-],
-"answer": 1,
-"explain": "Boosting sequentially adds models that fit the residuals to improve the ensemble's predictions.",
-"optionExplanations": [
-"Incorrect: The goal is not to model random noise.",
-"Correct: Each new learner focuses on residual errors from the current model.",
-"Incorrect: Boosting adds to the ensemble rather than replacing earlier learners.",
-"Incorrect: Clustering into k groups is unsupervised and not the boosting objective."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which neural network component introduces nonlinearity and allows modeling complex functions?",
-"options": [
-"Activation function (e.g., ReLU)",
-"Batch size",
-"Learning rate",
-"Confusion matrix"
-],
-"answer": 0,
-"explain": "Activation functions make neural networks nonlinear; without them, stacked layers collapse to a linear model.",
-"optionExplanations": [
-"Correct: ReLU/sigmoid/tanh add nonlinearity needed for complex decision boundaries.",
-"Incorrect: Batch size controls how many samples per gradient update, not nonlinearity.",
-"Incorrect: Learning rate controls step size, not function class.",
-"Incorrect: A confusion matrix is an evaluation tool, not a network component."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which optimization algorithm uses first and second moment estimates of gradients and is widely used for deep learning?",
-"options": [
-"Adam",
-"Naive Bayes",
-"k-means",
-"Apriori"
-],
-"answer": 0,
-"explain": "Adam adapts learning rates using running averages of gradients and squared gradients (moments).",
-"optionExplanations": [
-"Correct: Adam combines momentum and RMSProp-like scaling via moment estimates.",
-"Incorrect: Naive Bayes is a probabilistic classifier, not an optimizer.",
-"Incorrect: k-means is a clustering algorithm.",
-"Incorrect: Apriori is for association rule mining."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In NLP, what is the purpose of tokenization?",
-"options": [
-"To convert images into pixels",
-"To split text into units such as words or subwords for modeling",
-"To directly compute model accuracy",
-"To remove all punctuation and numbers permanently"
-],
-"answer": 1,
-"explain": "Tokenization converts raw text into discrete units (tokens) that a model can process.",
-"optionExplanations": [
-"Incorrect: Pixels relate to images, not text processing.",
-"Correct: Tokenization breaks text into model-friendly units (words/subwords/characters).",
-"Incorrect: Accuracy is computed after predictions, not by tokenization itself.",
-"Incorrect: Tokenizers may keep or normalize punctuation; they do not necessarily remove it permanently."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which vector similarity measure is commonly used for comparing text embeddings?",
-"options": [
-"Cosine similarity",
-"Chi-square test",
-"ANOVA F-statistic",
-"Durbin-Watson statistic"
-],
-"answer": 0,
-"explain": "Cosine similarity measures the angle between embedding vectors and is common for semantic similarity.",
-"optionExplanations": [
-"Correct: Cosine similarity compares direction, useful for embeddings.",
-"Incorrect: Chi-square is for categorical hypothesis tests, not embedding similarity.",
-"Incorrect: ANOVA F-statistic is for comparing means across groups.",
-"Incorrect: Durbin-Watson tests autocorrelation in regression residuals."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a major reason to use dimensionality reduction like PCA before modeling?",
-"options": [
-"To increase the number of features",
-"To remove correlated/redundant information and potentially reduce noise",
-"To guarantee perfect accuracy",
-"To convert classification problems into regression problems"
-],
-"answer": 1,
-"explain": "PCA can compress correlated features into fewer components, which may help with speed and noise reduction.",
-"optionExplanations": [
-"Incorrect: PCA reduces, not increases, dimensionality.",
-"Correct: It captures variance in fewer orthogonal components, reducing redundancy.",
-"Incorrect: No preprocessing guarantees perfect accuracy.",
-"Incorrect: PCA does not change the problem type from classification to regression."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which technique is specifically designed to select a subset of features based on their predictive power while controlling overfitting?",
-"options": [
-"Feature selection with regularization",
-"Data augmentation",
-"Image segmentation",
-"Batch normalization"
-],
-"answer": 0,
-"explain": "Regularization-based methods (like L1) can perform feature selection by shrinking irrelevant coefficients toward zero.",
-"optionExplanations": [
-"Correct: Regularization can reduce overfitting and implicitly select features.",
-"Incorrect: Data augmentation creates more varied training examples, not feature subset selection.",
-"Incorrect: Segmentation labels pixels/regions in images.",
-"Incorrect: Batch normalization stabilizes training but does not select features."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In an A/B test, what does it mean if the p-value is below the chosen significance level (alpha)?",
-"options": [
-"Fail to reject the null hypothesis",
-"Reject the null hypothesis",
-"Prove the alternative hypothesis is always true",
-"Increase the sample size until p-value rises"
-],
-"answer": 1,
-"explain": "If p < alpha, the observed difference is unlikely under the null, so you reject the null hypothesis at that alpha level.",
-"optionExplanations": [
-"Incorrect: Failing to reject happens when p >= alpha.",
-"Correct: p < alpha implies rejecting the null at the chosen significance threshold.",
-"Incorrect: Statistical significance does not prove a claim with certainty.",
-"Incorrect: You should not manipulate sample size to change conclusions after peeking."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which sampling method ensures each subgroup (stratum) is represented proportionally in the sample?",
-"options": [
-"Convenience sampling",
-"Stratified sampling",
-"Snowball sampling",
-"Systematic sampling with unknown periodicity"
-],
-"answer": 1,
-"explain": "Stratified sampling divides the population into strata and samples from each to preserve representation.",
-"optionExplanations": [
-"Incorrect: Convenience sampling selects easiest-to-reach subjects and can be biased.",
-"Correct: Stratified sampling maintains subgroup proportions or guarantees coverage.",
-"Incorrect: Snowball sampling recruits via referrals and is often used for hard-to-reach populations.",
-"Incorrect: Systematic sampling can miss patterns if periodicity exists and does not guarantee subgroup proportions."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statistic measures the linear relationship between two continuous variables and ranges from -1 to 1?",
-"options": [
-"Pearson correlation coefficient",
-"Interquartile range",
-"Skewness",
-"Kurtosis"
-],
-"answer": 0,
-"explain": "Pearson's r quantifies the strength and direction of linear association between two continuous variables.",
-"optionExplanations": [
-"Correct: Pearson r ranges from -1 (perfect negative) to +1 (perfect positive).",
-"Incorrect: IQR measures spread (middle 50%), not association.",
-"Incorrect: Skewness measures asymmetry of a distribution.",
-"Incorrect: Kurtosis measures tail heaviness/peakedness of a distribution."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which visualization is best for showing the distribution of a continuous variable and identifying outliers?",
-"options": [
-"Box plot",
-"Stacked bar chart",
-"Radar chart",
-"Sankey diagram"
-],
-"answer": 0,
-"explain": "A box plot summarizes median, quartiles, and outliers, making it well-suited for distribution and outlier detection.",
-"optionExplanations": [
-"Correct: Box plots highlight quartiles and outliers beyond whiskers.",
-"Incorrect: Stacked bars show categorical composition, not continuous distribution details.",
-"Incorrect: Radar charts compare multivariate categories, not distributions.",
-"Incorrect: Sankey diagrams show flows between categories."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary goal of anomaly detection?",
-"options": [
-"To maximize the number of clusters",
-"To identify rare or unusual observations that differ from the norm",
-"To generate synthetic training data",
-"To guarantee model interpretability"
-],
-"answer": 1,
-"explain": "Anomaly detection focuses on finding outliers or unusual patterns that may indicate errors, fraud, or novel events.",
-"optionExplanations": [
-"Incorrect: Clustering aims to group similar points, not primarily to find rare events.",
-"Correct: It flags observations that deviate strongly from expected behavior.",
-"Incorrect: Synthetic data generation is a different task (data augmentation/simulation).",
-"Incorrect: Interpretability may be desirable, but it is not the main definition of anomaly detection."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which technique is commonly used to address class imbalance during model training?",
-"options": [
-"Undersampling/oversampling or class weighting",
-"Removing the minority class entirely",
-"Using accuracy as the only metric",
-"Converting the problem into clustering"
-],
-"answer": 0,
-"explain": "Resampling or class weighting increases the model's attention to the minority class and can improve recall/precision.",
-"optionExplanations": [
-"Correct: Resampling or class weights are standard imbalance-handling techniques.",
-"Incorrect: Removing the minority class discards the very cases you usually care about.",
-"Incorrect: Using only accuracy can hide poor minority-class performance.",
-"Incorrect: Clustering changes the problem and does not directly solve supervised imbalance."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In a machine learning pipeline, why should scaling parameters (like mean and std) be computed on the training set only?",
-"options": [
-"To make the model memorize the training data",
-"To avoid leaking information from validation/test sets into training",
-"Because test sets cannot be scaled",
-"To increase the number of features"
-],
-"answer": 1,
-"explain": "Using full-dataset statistics leaks information; training-only fitting ensures evaluation remains unbiased.",
-"optionExplanations": [
-"Incorrect: Scaling is not intended to cause memorization.",
-"Correct: Fitting preprocessing on training data prevents leakage from held-out data.",
-"Incorrect: Test sets can be scaled using training parameters.",
-"Incorrect: Scaling does not change the number of features."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes the ability of a model to perform well on new, unseen data?",
-"options": [
-"Generalization",
-"Memorization",
-"Data leakage",
-"Overparameterization"
-],
-"answer": 0,
-"explain": "Generalization refers to learned patterns that transfer beyond the training set.",
-"optionExplanations": [
-"Correct: Generalization is good performance on unseen data.",
-"Incorrect: Memorization is fitting training examples without learning broader patterns.",
-"Incorrect: Data leakage is using information that should not be available at training time.",
-"Incorrect: Overparameterization describes model complexity, not performance on unseen data."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of early stopping in training ML models?",
-"options": [
-"To increase training loss",
-"To stop training when validation performance stops improving to reduce overfitting",
-"To ensure the model underfits",
-"To remove the need for hyperparameter tuning"
-],
-"answer": 1,
-"explain": "Early stopping monitors validation metrics and halts training to prevent overfitting when performance degrades or plateaus.",
-"optionExplanations": [
-"Incorrect: Early stopping aims to reduce, not increase, loss.",
-"Correct: It prevents over-training past the point of best validation performance.",
-"Incorrect: The goal is not intentional underfitting.",
-"Incorrect: Hyperparameter tuning is still often needed."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of unsupervised learning?",
-"options": [
-"Predicting house prices",
-"Classifying emails as spam or not spam",
-"Clustering customers by purchase behavior",
-"Predicting whether a patient has a disease"
-],
-"answer": 2,
-"explain": "Clustering finds structure in unlabeled data, making it an unsupervised task.",
-"optionExplanations": [
-"Incorrect: House price prediction is supervised regression with labels.",
-"Incorrect: Spam classification is supervised classification with labels.",
-"Correct: Customer clustering groups data without labels.",
-"Incorrect: Disease prediction is supervised classification with labels."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does TF-IDF primarily measure in text mining?",
-"options": [
-"The semantic meaning of a sentence",
-"How important a term is to a document relative to a collection",
-"The grammatical correctness of a paragraph",
-"The number of sentences in a document"
-],
-"answer": 1,
-"explain": "TF-IDF increases with term frequency in a document but decreases for terms common across many documents, capturing importance.",
-"optionExplanations": [
-"Incorrect: TF-IDF is lexical weighting, not deep semantics.",
-"Correct: It weights terms by document frequency to emphasize distinctive words.",
-"Incorrect: Grammar checking is separate from TF-IDF.",
-"Incorrect: TF-IDF is not a sentence-count measure."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In model interpretability, what does SHAP aim to provide?",
-"options": [
-"A database schema",
-"Feature contribution explanations based on game theory",
-"A method to compress neural networks",
-"A replacement for training data"
-],
-"answer": 1,
-"explain": "SHAP assigns each feature a contribution value to a specific prediction using Shapley values concepts.",
-"optionExplanations": [
-"Incorrect: SHAP is not about database design.",
-"Correct: SHAP explains predictions by attributing contributions to features.",
-"Incorrect: Compression is not SHAP's purpose.",
-"Incorrect: Explanations do not replace data for training."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is an example of a fairness metric for binary classification?",
-"options": [
-"Equalized odds difference",
-"Mean squared error",
-"Silhouette score",
-"Perplexity"
-],
-"answer": 0,
-"explain": "Equalized odds evaluates whether error rates (like FPR/TPR) are similar across groups, commonly used in fairness analysis.",
-"optionExplanations": [
-"Correct: Equalized odds compares model error rates across protected groups.",
-"Incorrect: MSE is a regression error metric, not a fairness metric.",
-"Incorrect: Silhouette score evaluates clustering quality.",
-"Incorrect: Perplexity evaluates language models."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary risk of using training data that is not representative of the real-world population?",
-"options": [
-"Lower compute costs",
-"Biased or poor generalization performance on underrepresented groups",
-"Guaranteed higher accuracy",
-"Automatic removal of noise"
-],
-"answer": 1,
-"explain": "Non-representative data can lead to biased models and poor performance on groups not well covered in training data.",
-"optionExplanations": [
-"Incorrect: Representativeness does not determine compute cost directly.",
-"Correct: Sampling bias can cause systematic errors and unfair outcomes.",
-"Incorrect: Non-representative data can reduce accuracy, not guarantee higher accuracy.",
-"Incorrect: Noise is not automatically removed by biased sampling."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following best describes precision in binary classification?",
-"options": [
-"TP / (TP + FP)",
-"TP / (TP + FN)",
-"(TP + TN) / (TP + TN + FP + FN)",
-"TN / (TN + FP)"
-],
-"answer": 0,
-"explain": "Precision is the fraction of predicted positives that are actually positive: TP divided by TP plus FP.",
-"optionExplanations": [
-"Correct: Precision measures how often positive predictions are correct.",
-"Incorrect: This is recall (sensitivity).",
-"Incorrect: This is accuracy.",
-"Incorrect: This is specificity (true negative rate)."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following best describes recall (sensitivity) in binary classification?",
-"options": [
-"TP / (TP + FP)",
-"TP / (TP + FN)",
-"FP / (FP + TN)",
-"TN / (TN + FN)"
-],
-"answer": 1,
-"explain": "Recall is the fraction of actual positives that are correctly identified: TP divided by TP plus FN.",
-"optionExplanations": [
-"Incorrect: This is precision.",
-"Correct: Recall measures coverage of the true positive class.",
-"Incorrect: This is false positive rate.",
-"Incorrect: This is not a standard definition of recall or specificity."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main idea behind the ROC curve?",
-"options": [
-"Plot accuracy vs. loss",
-"Plot true positive rate vs. false positive rate across thresholds",
-"Plot residuals vs. fitted values",
-"Plot cluster counts vs. k"
-],
-"answer": 1,
-"explain": "The ROC curve shows the tradeoff between TPR and FPR as the classification threshold changes.",
-"optionExplanations": [
-"Incorrect: ROC is not accuracy vs. loss.",
-"Correct: ROC plots TPR against FPR for varying thresholds.",
-"Incorrect: Residual plots are for regression diagnostics.",
-"Incorrect: k-vs-cluster metrics relate to clustering methods like the elbow method."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which metric summarizes the ROC curve into a single number between 0 and 1?",
-"options": [
-"R-squared",
-"AUC (Area Under the Curve)",
-"Adjusted R-squared",
-"F-statistic"
-],
-"answer": 1,
-"explain": "AUC measures the probability that the classifier ranks a random positive higher than a random negative, summarizing ROC performance.",
-"optionExplanations": [
-"Incorrect: R-squared is for regression fit.",
-"Correct: AUC summarizes ROC curve performance.",
-"Incorrect: Adjusted R-squared is for regression with penalty for extra predictors.",
-"Incorrect: F-statistic is used in regression/ANOVA tests."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In linear regression, multicollinearity refers to:",
-"options": [
-"A nonlinear relationship between X and y",
-"High correlation among predictor variables",
-"The presence of outliers in y only",
-"A perfect fit with zero residuals"
-],
-"answer": 1,
-"explain": "Multicollinearity occurs when predictors are highly correlated, making coefficient estimates unstable.",
-"optionExplanations": [
-"Incorrect: Nonlinearity is a different modeling issue.",
-"Correct: Multicollinearity is high correlation among predictors.",
-"Incorrect: Outliers are separate from multicollinearity.",
-"Incorrect: A perfect fit is not what multicollinearity means."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which method can help detect multicollinearity in regression models?",
-"options": [
-"Silhouette score",
-"Variance inflation factor (VIF)",
-"BLEU score",
-"Confusion matrix"
-],
-"answer": 1,
-"explain": "VIF quantifies how much variance of a coefficient is inflated due to collinearity with other predictors.",
-"optionExplanations": [
-"Incorrect: Silhouette score evaluates clustering.",
-"Correct: VIF is used to assess multicollinearity.",
-"Incorrect: BLEU is for machine translation evaluation.",
-"Incorrect: Confusion matrices evaluate classification."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does the 'elbow method' help determine in k-means clustering?",
-"options": [
-"Optimal learning rate",
-"Optimal number of clusters k",
-"Best activation function",
-"Optimal train-test split ratio"
-],
-"answer": 1,
-"explain": "The elbow method plots within-cluster sum of squares vs. k and looks for a bend (diminishing returns) to choose k.",
-"optionExplanations": [
-"Incorrect: Learning rate is for gradient-based training.",
-"Correct: It helps choose k by identifying diminishing improvement in inertia.",
-"Incorrect: Activation functions are for neural networks, not k-means.",
-"Incorrect: Train-test split ratio is for supervised evaluation, not k-means' k selection."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes the process of converting raw data into a format suitable for analysis or modeling?",
-"options": [
-"Data wrangling",
-"Backpropagation",
-"Hyperparameterization",
-"Ensembling"
-],
-"answer": 0,
-"explain": "Data wrangling includes cleaning, transforming, and structuring data for downstream use.",
-"optionExplanations": [
-"Correct: Wrangling covers cleaning and transformation steps.",
-"Incorrect: Backpropagation computes gradients in neural networks.",
-"Incorrect: Hyperparameterization is not a standard term for this process.",
-"Incorrect: Ensembling combines multiple models, not raw data processing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a key difference between supervised and unsupervised learning?",
-"options": [
-"Supervised learning uses labels; unsupervised learning does not",
-"Unsupervised learning always predicts numbers; supervised predicts categories",
-"Supervised learning never overfits; unsupervised always overfits",
-"Unsupervised learning requires more computing power in all cases"
-],
-"answer": 0,
-"explain": "Supervised learning trains with labeled targets, while unsupervised learning finds patterns without labels.",
-"optionExplanations": [
-"Correct: Labels are the defining difference.",
-"Incorrect: Both can involve numeric outputs or categories depending on the task.",
-"Incorrect: Overfitting can occur in supervised learning, and unsupervised learning has different failure modes.",
-"Incorrect: Compute needs vary by algorithm and data size; there is no universal rule."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In deep learning, what is backpropagation used for?",
-"options": [
-"To randomly initialize weights",
-"To compute gradients of the loss with respect to weights",
-"To shuffle the dataset",
-"To evaluate model fairness"
-],
-"answer": 1,
-"explain": "Backpropagation efficiently computes gradients so optimizers can update weights to reduce loss.",
-"optionExplanations": [
-"Incorrect: Initialization happens before training but is not backpropagation.",
-"Correct: It calculates gradients for weight updates.",
-"Incorrect: Shuffling is a data-loading step, not backpropagation.",
-"Incorrect: Fairness evaluation is separate from gradient computation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of neural network is most commonly used for image recognition tasks?",
-"options": [
-"Convolutional neural network (CNN)",
-"Recurrent neural network (RNN)",
-"Naive Bayes",
-"k-nearest neighbors (k-NN) only"
-],
-"answer": 0,
-"explain": "CNNs use convolutional filters to capture spatial patterns, making them well-suited for images.",
-"optionExplanations": [
-"Correct: CNNs exploit local connectivity and shared weights for images.",
-"Incorrect: RNNs are designed for sequences like text/time series.",
-"Incorrect: Naive Bayes is a probabilistic classifier, not a neural network.",
-"Incorrect: k-NN can classify images but is not the most common deep learning architecture for recognition."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes adjusting a pre-trained model on a new, smaller dataset for a related task?",
-"options": [
-"Bagging",
-"Transfer learning (fine-tuning)",
-"Data imputation",
-"Quantization"
-],
-"answer": 1,
-"explain": "Fine-tuning adapts a pre-trained model to a new domain/task with additional training on task-specific data.",
-"optionExplanations": [
-"Incorrect: Bagging is an ensemble technique.",
-"Correct: Transfer learning fine-tunes a pre-trained model to a new task.",
-"Incorrect: Imputation fills missing values, not retrain models.",
-"Incorrect: Quantization reduces numerical precision for efficiency, not task adaptation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main benefit of using embeddings for categorical or text data?",
-"options": [
-"They guarantee zero bias",
-"They provide dense numeric representations that capture similarity",
-"They eliminate the need for training data",
-"They always reduce accuracy"
-],
-"answer": 1,
-"explain": "Embeddings map items into a vector space where similar items are close, enabling models to learn semantic relationships.",
-"optionExplanations": [
-"Incorrect: Embeddings do not guarantee fairness or absence of bias.",
-"Correct: Dense vectors can encode similarity and meaning more effectively than sparse one-hot vectors.",
-"Incorrect: Models still require data to learn or use embeddings.",
-"Incorrect: Embeddings often improve performance; they do not always reduce accuracy."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In data visualization, which principle most improves readability of a chart?",
-"options": [
-"Maximize decorative elements",
-"Use clear labels and a meaningful scale",
-"Hide axes to reduce clutter",
-"Use as many colors as possible"
-],
-"answer": 1,
-"explain": "Clear labels, appropriate scales, and minimal clutter help viewers interpret the data accurately.",
-"optionExplanations": [
-"Incorrect: Decorative elements can distract from the data (chartjunk).",
-"Correct: Labels and meaningful scales improve interpretation.",
-"Incorrect: Hiding axes often makes charts harder to read and can be misleading.",
-"Incorrect: Too many colors can confuse; clarity is more important than variety."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is a common cause of concept drift in deployed ML systems?",
-"options": [
-"The model weights never change",
-"The real-world data distribution changes over time",
-"The training data is perfectly clean",
-"Using a confusion matrix during evaluation"
-],
-"answer": 1,
-"explain": "Concept drift occurs when the relationship between inputs and target changes, often due to shifting user behavior or environments.",
-"optionExplanations": [
-"Incorrect: Even fixed weights can suffer drift if the environment changes.",
-"Correct: Drift is driven by changes in data or label relationships over time.",
-"Incorrect: Clean training data does not prevent future distribution shifts.",
-"Incorrect: Evaluation tools do not cause drift."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice is MOST associated with MLOps?",
-"options": [
-"Ignoring model monitoring after deployment",
-"Versioning data, models, and tracking experiments for reproducibility",
-"Training once and never retraining",
-"Removing validation sets to speed up development"
-],
-"answer": 1,
-"explain": "MLOps emphasizes reproducibility and reliable deployment through versioning, CI/CD, and monitoring.",
-"optionExplanations": [
-"Incorrect: Monitoring is a core MLOps activity, not something to ignore.",
-"Correct: Versioning and experiment tracking support reproducible, reliable ML systems.",
-"Incorrect: Many production systems require periodic retraining.",
-"Incorrect: Validation is important for quality; removing it harms reliability."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'data governance' primarily aim to ensure in an organization?",
-"options": [
-"Higher GPU clock speeds",
-"Proper management of data quality, security, privacy, and access",
-"Automatic model training without humans",
-"Elimination of all data storage costs"
-],
-"answer": 1,
-"explain": "Data governance defines policies and controls for data quality, ownership, security, and compliance.",
-"optionExplanations": [
-"Incorrect: Hardware performance is unrelated to governance.",
-"Correct: Governance sets rules for data quality, privacy, and access control.",
-"Incorrect: Governance is about policy and oversight, not full automation of training.",
-"Incorrect: Governance cannot eliminate storage costs."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which privacy technique adds carefully calibrated noise to outputs to limit information about any single individual?",
-"options": [
-"Differential privacy",
-"Data augmentation",
-"Gradient descent",
-"Stratification"
-],
-"answer": 0,
-"explain": "Differential privacy bounds how much an individual's data can affect the output, often by adding noise.",
-"optionExplanations": [
-"Correct: Differential privacy provides a formal privacy guarantee via noise and sensitivity control.",
-"Incorrect: Data augmentation creates additional training examples, not privacy guarantees.",
-"Incorrect: Gradient descent is an optimization method.",
-"Incorrect: Stratification is a sampling approach."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In machine learning, what is a hyperparameter?",
-"options": [
-"A parameter learned directly from training data, like a weight",
-"A setting chosen before training, like k in k-NN or tree depth",
-"A guaranteed measure of model fairness",
-"A type of missing value"
-],
-"answer": 1,
-"explain": "Hyperparameters control the learning process or model capacity and are set before or during tuning, not directly learned as weights.",
-"optionExplanations": [
-"Incorrect: Weights/biases are learned parameters, not hyperparameters.",
-"Correct: k, depth, learning rate, and regularization strength are hyperparameters.",
-"Incorrect: Fairness is not guaranteed by any single hyperparameter.",
-"Incorrect: Missing values are a data quality issue, not hyperparameters."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which method is MOST suitable for detecting non-linear decision boundaries with a simple distance-based approach?",
-"options": [
-"k-nearest neighbors (k-NN)",
-"Ordinary least squares regression",
-"Single-parameter linear model",
-"Mean imputation"
-],
-"answer": 0,
-"explain": "k-NN can form complex boundaries because predictions depend on local neighborhoods rather than a single linear separator.",
-"optionExplanations": [
-"Correct: k-NN is nonparametric and can capture nonlinear patterns via neighborhoods.",
-"Incorrect: OLS regression models linear relationships to a continuous target.",
-"Incorrect: A simple linear model cannot represent complex nonlinear boundaries without feature engineering.",
-"Incorrect: Imputation addresses missing data, not decision boundaries."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which approach is best for evaluating a model when data points are not independent because they come from the same user or device?",
-"options": [
-"Randomly split individual rows regardless of user",
-"Group-aware split that keeps all rows from a user in the same fold",
-"Train on the test set for stability",
-"Use only accuracy and ignore splitting"
-],
-"answer": 1,
-"explain": "Group-aware splitting prevents leakage where information from the same entity appears in both training and evaluation sets.",
-"optionExplanations": [
-"Incorrect: Row-wise random splits can leak user-specific patterns into validation/test.",
-"Correct: Group-based splits preserve independence between train and evaluation entities.",
-"Incorrect: Training on test data invalidates evaluation.",
-"Incorrect: Proper splitting is required regardless of the metric used."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In time-series feature engineering, what does a rolling mean feature represent?",
-"options": [
-"The average of values over a fixed prior window",
-"The maximum value in the entire dataset",
-"A random sample mean",
-"The median of future values"
-],
-"answer": 0,
-"explain": "A rolling mean computes the average over a moving window of past observations, capturing local trends.",
-"optionExplanations": [
-"Correct: Rolling means summarize recent history in a fixed window.",
-"Incorrect: It is not the global maximum.",
-"Incorrect: Rolling means are deterministic from the window, not random sampling.",
-"Incorrect: Using future values would leak information."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement about normalization vs. standardization is correct?",
-"options": [
-"Normalization always yields mean 0 and std 1",
-"Standardization always scales values to [0,1]",
-"Normalization typically rescales to a range like [0,1], while standardization uses z-scores",
-"They are identical terms with no difference"
-],
-"answer": 2,
-"explain": "Normalization often rescales to a fixed range, while standardization centers and scales using mean and standard deviation.",
-"optionExplanations": [
-"Incorrect: Mean 0 and std 1 describes standardization, not normalization.",
-"Incorrect: Scaling to [0,1] describes normalization, not standardization.",
-"Correct: Normalization and standardization use different transformations and goals.",
-"Incorrect: They are related but not identical."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the purpose of a learning curve in machine learning?",
-"options": [
-"To plot GPU usage over time",
-"To show how performance changes with more training data or epochs",
-"To select k in k-means",
-"To compute p-values for hypotheses"
-],
-"answer": 1,
-"explain": "Learning curves help diagnose underfitting/overfitting by showing training and validation performance as training size or epochs change.",
-"optionExplanations": [
-"Incorrect: Hardware monitoring is not the purpose of learning curves.",
-"Correct: Learning curves visualize performance vs. training progress or data size.",
-"Incorrect: Choosing k in k-means typically uses elbow/silhouette methods.",
-"Incorrect: P-values are part of statistical testing, not learning curves."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which technique reduces overfitting by randomly dropping neurons during training in a neural network?",
-"options": [
-"Dropout",
-"Oversampling",
-"Min-max scaling",
-"One-hot encoding"
-],
-"answer": 0,
-"explain": "Dropout forces the network to rely on distributed representations by randomly disabling units during training.",
-"optionExplanations": [
-"Correct: Dropout randomly zeroes activations to reduce co-adaptation and overfitting.",
-"Incorrect: Oversampling addresses class imbalance, not neural overfitting directly.",
-"Incorrect: Min-max scaling rescales features, not network regularization.",
-"Incorrect: One-hot encoding encodes categories, not overfitting control."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In an ML experiment, why is it important to set a random seed?",
-"options": [
-"To increase model accuracy automatically",
-"To make results reproducible across runs",
-"To reduce the number of features",
-"To eliminate bias in the data"
-],
-"answer": 1,
-"explain": "Random seeds control pseudo-random processes (splits, initialization), making experiments repeatable.",
-"optionExplanations": [
-"Incorrect: A seed does not inherently improve accuracy.",
-"Correct: It improves reproducibility of stochastic processes.",
-"Incorrect: Seeds do not change feature count.",
-"Incorrect: Seeds do not remove dataset bias."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which file format is commonly used for efficient columnar storage in big data analytics?",
-"options": [
-"CSV",
-"Parquet",
-"TXT",
-"BMP"
-],
-"answer": 1,
-"explain": "Parquet is a columnar format optimized for compression and analytic queries on large datasets.",
-"optionExplanations": [
-"Incorrect: CSV is row-based text and can be inefficient at scale.",
-"Correct: Parquet is a widely used columnar storage format.",
-"Incorrect: TXT is generic plain text, not optimized columnar storage.",
-"Incorrect: BMP is an image format, not a data analytics storage format."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does ETL stand for in data engineering?",
-"options": [
-"Evaluate, Train, Launch",
-"Extract, Transform, Load",
-"Encode, Tokenize, Label",
-"Estimate, Test, Log"
-],
-"answer": 1,
-"explain": "ETL pipelines extract data from sources, transform it into usable form, and load it into a target system like a warehouse.",
-"optionExplanations": [
-"Incorrect: This is not a standard pipeline acronym.",
-"Correct: Extract, Transform, Load is the standard meaning of ETL.",
-"Incorrect: Encoding/tokenization/labeling are ML steps but not ETL.",
-"Incorrect: Estimate/test/log is not the ETL acronym."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which cloud service category is most directly used for storing large datasets for analytics (e.g., object storage)?",
-"options": [
-"Object storage",
-"DNS hosting",
-"Container orchestration only",
-"GPU driver management"
-],
-"answer": 0,
-"explain": "Object storage systems store large blobs/files reliably and cheaply, commonly used for data lakes.",
-"optionExplanations": [
-"Correct: Object storage (e.g., data lakes) is designed for large-scale dataset storage.",
-"Incorrect: DNS hosting maps names to IPs and is unrelated to storing datasets.",
-"Incorrect: Orchestration schedules containers, not primarily data storage.",
-"Incorrect: Drivers manage hardware, not data storage."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes the bias-variance tradeoff?",
-"options": [
-"Lower bias always increases accuracy without downsides",
-"Models with very low bias typically have higher variance and may overfit",
-"Variance is unrelated to overfitting",
-"Bias only occurs in neural networks"
-],
-"answer": 1,
-"explain": "As model complexity increases, bias tends to drop but variance can rise, increasing overfitting risk.",
-"optionExplanations": [
-"Incorrect: Reducing bias can increase variance, so there is a tradeoff.",
-"Correct: Low-bias models can be high-variance and overfit.",
-"Incorrect: High variance is closely related to overfitting.",
-"Incorrect: Bias exists across many model families, not only neural networks."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which technique is commonly used to balance precision and recall into a single metric?",
-"options": [
-"F1 score",
-"R-squared",
-"Adjusted R-squared",
-"MSE"
-],
-"answer": 0,
-"explain": "The F1 score is the harmonic mean of precision and recall, useful when classes are imbalanced.",
-"optionExplanations": [
-"Correct: F1 combines precision and recall into one number.",
-"Incorrect: R-squared measures variance explained in regression.",
-"Incorrect: Adjusted R-squared is a regression metric with a complexity penalty.",
-"Incorrect: MSE is a regression error metric."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In unsupervised anomaly detection, which method flags points with low local density compared to neighbors?",
-"options": [
-"DBSCAN",
-"Local Outlier Factor (LOF)",
-"Naive Bayes",
-"Linear regression"
-],
-"answer": 1,
-"explain": "LOF compares local density to that of neighbors; unusually low density indicates an outlier.",
-"optionExplanations": [
-"Incorrect: DBSCAN clusters by density but is not specifically a local outlier scoring method.",
-"Correct: LOF is designed to score points as outliers based on local density.",
-"Incorrect: Naive Bayes is supervised classification.",
-"Incorrect: Linear regression predicts continuous targets, not anomaly density scores."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes transforming features to make a linear model capture non-linear relationships (e.g., x^2, interactions)?",
-"options": [
-"Feature engineering",
-"Overfitting",
-"Label leakage",
-"Gradient clipping"
-],
-"answer": 0,
-"explain": "Feature engineering can create nonlinear transformations or interactions that allow simpler models to fit complex patterns.",
-"optionExplanations": [
-"Correct: Creating polynomial or interaction features is feature engineering.",
-"Incorrect: Overfitting is fitting noise rather than signal.",
-"Incorrect: Label leakage is using target information in inputs.",
-"Incorrect: Gradient clipping limits gradient magnitude during training."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of a holdout test set?",
-"options": [
-"To tune hyperparameters repeatedly",
-"To provide an unbiased final evaluation after model selection",
-"To increase training data size",
-"To normalize features"
-],
-"answer": 1,
-"explain": "A test set is kept untouched until the end to estimate real-world performance after decisions are made.",
-"optionExplanations": [
-"Incorrect: Tuning on the test set contaminates evaluation.",
-"Correct: The test set estimates final generalization after selection/tuning is complete.",
-"Incorrect: The test set should not be merged into training in a standard workflow.",
-"Incorrect: Normalization is a preprocessing step, not the test set's purpose."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which metric is commonly used to evaluate clustering quality by comparing within-cluster cohesion and between-cluster separation?",
-"options": [
-"Silhouette score",
-"Accuracy",
-"MAE",
-"ROC-AUC"
-],
-"answer": 0,
-"explain": "Silhouette score combines cohesion and separation into a value typically between -1 and 1 for clustering assessment.",
-"optionExplanations": [
-"Correct: Silhouette measures how similar a point is to its own cluster vs. other clusters.",
-"Incorrect: Accuracy requires labels, which clustering typically lacks.",
-"Incorrect: MAE is for regression.",
-"Incorrect: ROC-AUC is for binary classification ranking."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In association rule mining, what does 'support' measure?",
-"options": [
-"The probability of a rule being causal",
-"How frequently an itemset appears in the dataset",
-"The average purchase price",
-"The model's classification accuracy"
-],
-"answer": 1,
-"explain": "Support is the fraction of transactions that contain the itemset, indicating how common it is.",
-"optionExplanations": [
-"Incorrect: Support is frequency, not causality.",
-"Correct: It measures how often an itemset occurs in the data.",
-"Incorrect: Support is not about prices unless items are prices.",
-"Incorrect: Association rules are not evaluated with classification accuracy."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In association rules, what does 'confidence' of A -> B represent?",
-"options": [
-"P(A)",
-"P(B)",
-"P(B | A)",
-"P(A | B)"
-],
-"answer": 2,
-"explain": "Confidence is the conditional probability that B occurs given A occurs: P(B|A).",
-"optionExplanations": [
-"Incorrect: P(A) is support of A.",
-"Incorrect: P(B) is support of B.",
-"Correct: Confidence is P(B given A).",
-"Incorrect: P(A|B) is the reverse conditional probability."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which technique compresses a trained model by using fewer bits to represent weights, improving inference speed and size?",
-"options": [
-"Quantization",
-"Data normalization",
-"Stratified sampling",
-"Cross-validation"
-],
-"answer": 0,
-"explain": "Quantization reduces numerical precision (e.g., FP32 to INT8), often shrinking model size and speeding inference.",
-"optionExplanations": [
-"Correct: Quantization lowers precision to reduce size and accelerate inference.",
-"Incorrect: Normalization rescales input features, not model weight precision.",
-"Incorrect: Stratified sampling is a data sampling technique.",
-"Incorrect: Cross-validation is an evaluation method."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the role of a feature store in ML systems?",
-"options": [
-"To store GPU drivers",
-"To centrally manage and serve consistent feature definitions for training and inference",
-"To replace the need for models",
-"To anonymize all data automatically"
-],
-"answer": 1,
-"explain": "Feature stores help ensure the same feature logic is used in both training and production, improving consistency and reuse.",
-"optionExplanations": [
-"Incorrect: Feature stores are not for hardware drivers.",
-"Correct: They manage feature computation/storage for reliable training and serving.",
-"Incorrect: A feature store supports models; it does not replace them.",
-"Incorrect: Privacy requires dedicated processes; feature stores do not automatically anonymize all data."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes 'explainable AI' (XAI)?",
-"options": [
-"AI that does not require data",
-"Methods that help humans understand why a model made a prediction",
-"A guarantee that models are always correct",
-"A replacement for model evaluation"
-],
-"answer": 1,
-"explain": "XAI includes techniques that provide human-understandable reasons or feature attributions for model outputs.",
-"optionExplanations": [
-"Incorrect: All AI systems require some form of data or knowledge.",
-"Correct: XAI focuses on interpretability and explanation of model behavior.",
-"Incorrect: Explanations do not guarantee correctness.",
-"Incorrect: Explanation complements evaluation; it does not replace it."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which data type is best suited for storing timestamps in a database to support time-based queries?",
-"options": [
-"VARCHAR",
-"DATETIME/TIMESTAMP",
-"BLOB",
-"BOOLEAN"
-],
-"answer": 1,
-"explain": "A timestamp/datetime type stores time in a structured format that supports indexing and range queries.",
-"optionExplanations": [
-"Incorrect: VARCHAR stores text and makes time filtering slower and error-prone.",
-"Correct: DATETIME/TIMESTAMP supports correct time arithmetic and querying.",
-"Incorrect: BLOB is for unstructured binary data.",
-"Incorrect: BOOLEAN stores true/false, not times."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main benefit of using an index on a database column used in WHERE filters?",
-"options": [
-"It increases file size without changing speed",
-"It can speed up lookups by reducing full table scans",
-"It guarantees no duplicate values",
-"It converts the database to columnar storage"
-],
-"answer": 1,
-"explain": "Indexes create auxiliary structures that allow faster searching/filtering, often avoiding scanning every row.",
-"optionExplanations": [
-"Incorrect: Indexes may increase storage, but they can improve speed.",
-"Correct: Indexes can greatly speed filtering and joins by avoiding full scans.",
-"Incorrect: Uniqueness requires a UNIQUE constraint, not just an index.",
-"Incorrect: Indexing does not change the underlying storage format to columnar."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In a neural network, what does the term 'epoch' mean?",
-"options": [
-"One update of a single weight",
-"One full pass through the entire training dataset",
-"The number of neurons in a layer",
-"A fixed random seed value"
-],
-"answer": 1,
-"explain": "An epoch is completed when the model has processed all training examples once (usually in mini-batches).",
-"optionExplanations": [
-"Incorrect: A single weight update is a step/iteration, not necessarily an epoch.",
-"Correct: An epoch is one full pass through the training data.",
-"Incorrect: Neuron count is architecture, not an epoch definition.",
-"Incorrect: A random seed controls randomness, not training passes."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which loss function is most commonly used for binary classification with probabilistic outputs?",
-"options": [
-"Mean squared error",
-"Binary cross-entropy (log loss)",
-"Huber loss",
-"Poisson deviance"
-],
-"answer": 1,
-"explain": "Binary cross-entropy penalizes incorrect probability estimates for binary labels and is standard for logistic outputs.",
-"optionExplanations": [
-"Incorrect: MSE can be used but is not the typical choice for probabilistic binary classification.",
-"Correct: Binary cross-entropy is the standard loss for binary classification probabilities.",
-"Incorrect: Huber loss is mainly used for robust regression.",
-"Incorrect: Poisson deviance is used for count models, not standard binary classification."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does the term 'feature scaling' refer to?",
-"options": [
-"Changing the target labels to integers",
-"Transforming input features to comparable ranges or distributions",
-"Randomly shuffling rows of the dataset",
-"Replacing a model with an ensemble"
-],
-"answer": 1,
-"explain": "Feature scaling transforms input variables (e.g., standardization or normalization) so they are on comparable scales for learning algorithms.",
-"optionExplanations": [
-"Incorrect: Label encoding changes labels/categories, not feature scaling.",
-"Correct: Scaling adjusts feature ranges/distributions to improve training behavior for some models.",
-"Incorrect: Shuffling changes order, not numeric scale.",
-"Incorrect: Ensembling combines models, not scaling features."
-],
-"source": "generated-bespoke"
+  "event": "Data Science & AI",
+  "questions": [
+    {
+      "q": "Which measure of central tendency is most affected by extreme values?",
+      "options": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Range"
+      ],
+      "answer": 0,
+      "explain": "The mean uses all values, so extreme outliers pull it more than the median or mode.",
+      "optionExplanations": [
+        "Correct: Mean is sensitive to outliers because it averages all values.",
+        "Incorrect: Median is resistant to outliers because it depends on order, not magnitude.",
+        "Incorrect: Mode is the most frequent value and is usually unaffected by extreme values.",
+        "Incorrect: Range is a measure of spread, not a central tendency measure."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The probability of two independent events both occurring is found by:",
+      "options": [
+        "Adding their probabilities",
+        "Multiplying their probabilities",
+        "Subtracting their probabilities",
+        "Dividing their probabilities"
+      ],
+      "answer": 1,
+      "explain": "For independent events, the joint probability equals the product of their probabilities.",
+      "optionExplanations": [
+        "Incorrect: Addition applies to mutually exclusive events for OR, not independent AND.",
+        "Correct: Multiplication gives P(A and B) when A and B are independent.",
+        "Incorrect: Subtraction is used for complements or adjusting overlaps, not independent AND.",
+        "Incorrect: Division is not a standard rule for combining independent event probabilities."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A normal distribution is defined by its:",
+      "options": [
+        "Mean and mode",
+        "Mean and standard deviation",
+        "Median and range",
+        "Variance and mode"
+      ],
+      "answer": 1,
+      "explain": "A normal distribution is fully characterized by its mean (center) and standard deviation (spread).",
+      "optionExplanations": [
+        "Incorrect: Mode equals mean in a normal curve, but mode alone is not a defining parameter.",
+        "Correct: Mean and standard deviation uniquely determine a normal distribution.",
+        "Incorrect: Median and range do not parameterize a normal distribution.",
+        "Incorrect: Variance relates to spread, but 'variance and mode' is not the standard defining pair."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In probability, the complement of an event A represents:",
+      "options": [
+        "The event happening twice",
+        "The event not occurring",
+        "The event occurring first",
+        "The event occurring with another event"
+      ],
+      "answer": 1,
+      "explain": "The complement of event A is everything in the sample space where A does not occur.",
+      "optionExplanations": [
+        "Incorrect: Complement is not about repeated occurrences.",
+        "Correct: Complement means A does not happen.",
+        "Incorrect: Complement is not about order.",
+        "Incorrect: Complement is not about co-occurrence with another event."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The standard deviation measures:",
+      "options": [
+        "How centered the data is around the mean",
+        "The spread of data values from the mean",
+        "The probability of an event occurring",
+        "The relationship between two variables"
+      ],
+      "answer": 1,
+      "explain": "Standard deviation quantifies typical distance of data values from the mean.",
+      "optionExplanations": [
+        "Incorrect: Centering is about the mean/median, not what standard deviation measures.",
+        "Correct: It measures spread around the mean.",
+        "Incorrect: Probability of an event is not measured by standard deviation.",
+        "Incorrect: Relationship between variables is measured by correlation/regression, not standard deviation."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If the probability of rain is 0.3, what is the probability it will NOT rain?",
+      "options": [
+        "0.3",
+        "0.5",
+        "0.7",
+        "0.9"
+      ],
+      "answer": 2,
+      "explain": "The probability of NOT raining is the complement: 1 - 0.3 = 0.7.",
+      "optionExplanations": [
+        "Incorrect: 0.3 is the probability it rains, not that it does not rain.",
+        "Incorrect: 0.5 would imply a 50-50 chance, which is not given.",
+        "Correct: Complement of 0.3 is 0.7.",
+        "Incorrect: 0.9 would be the complement of 0.1, not 0.3."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is a continuous random variable?",
+      "options": [
+        "Number of books on a shelf",
+        "Height of students in a class",
+        "Number of defective products",
+        "Count of website visits"
+      ],
+      "answer": 1,
+      "explain": "A continuous variable can take any value in an interval, such as height measured in real numbers.",
+      "optionExplanations": [
+        "Incorrect: Books are counted in whole numbers, so this is discrete.",
+        "Correct: Height can vary continuously (e.g., 165.2 cm).",
+        "Incorrect: Defect counts are discrete integers.",
+        "Incorrect: Visits are counted as whole-number events, so discrete."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In statistics, a p-value is used to:",
+      "options": [
+        "Determine if a result is statistically significant",
+        "Measure the average of a data set",
+        "Calculate the mean difference",
+        "Determine probability of independence"
+      ],
+      "answer": 0,
+      "explain": "A p-value quantifies how incompatible the observed data are with the null hypothesis, helping assess significance.",
+      "optionExplanations": [
+        "Correct: It is used in hypothesis testing to judge statistical significance.",
+        "Incorrect: Averages are computed with mean/median, not p-values.",
+        "Incorrect: Mean difference is an effect size; p-values do not compute it.",
+        "Incorrect: Independence is assessed with study design/tests; p-values are not 'probability of independence'."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In AI, overfitting occurs when:",
+      "options": [
+        "The model is too simple",
+        "The model learns noise instead of patterns",
+        "The model is under-trained",
+        "The dataset is too small"
+      ],
+      "answer": 1,
+      "explain": "Overfitting happens when a model fits the training data too closely, including noise, and generalizes poorly.",
+      "optionExplanations": [
+        "Incorrect: A too-simple model tends to underfit, not overfit.",
+        "Correct: Learning noise instead of general patterns is overfitting.",
+        "Incorrect: Under-training usually leads to underfitting.",
+        "Incorrect: Small datasets can contribute to overfitting, but overfitting is a model behavior, not just dataset size."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which measure is best for comparing the spread of two datasets with different units?",
+      "options": [
+        "Standard deviation",
+        "Coefficient of variation",
+        "Mean",
+        "Median"
+      ],
+      "answer": 1,
+      "explain": "The coefficient of variation (standard deviation divided by mean) is unitless, enabling comparison across units.",
+      "optionExplanations": [
+        "Incorrect: Standard deviation keeps the original units, making cross-unit comparison difficult.",
+        "Correct: Coefficient of variation is normalized and unitless.",
+        "Incorrect: Mean measures center, not spread.",
+        "Incorrect: Median measures center, not spread."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A correlation coefficient of -0.85 suggests:",
+      "options": [
+        "A strong positive relationship",
+        "A weak negative relationship",
+        "A strong negative relationship",
+        "No relationship"
+      ],
+      "answer": 2,
+      "explain": "A correlation near -1 indicates a strong negative linear relationship.",
+      "optionExplanations": [
+        "Incorrect: Negative correlation is not positive.",
+        "Incorrect: -0.85 is strong, not weak.",
+        "Correct: -0.85 indicates a strong negative association.",
+        "Incorrect: A correlation near 0 suggests no linear relationship."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is NOT a step in the data analysis process?",
+      "options": [
+        "Data collection",
+        "Data cleaning",
+        "Model deployment",
+        "Data visualization"
+      ],
+      "answer": 2,
+      "explain": "Model deployment is typically part of ML lifecycle, not a standard step of the core data analysis process of collecting, cleaning, analyzing, and visualizing.",
+      "optionExplanations": [
+        "Incorrect: Collecting data is a standard early step.",
+        "Incorrect: Cleaning/preprocessing is a standard step.",
+        "Correct: Deployment is beyond basic analysis and is not always included.",
+        "Incorrect: Visualization is commonly used to communicate findings."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The confusion matrix is used to evaluate:",
+      "options": [
+        "Regression models",
+        "Classification models",
+        "Clustering algorithms",
+        "Data cleaning methods"
+      ],
+      "answer": 1,
+      "explain": "A confusion matrix summarizes predicted vs actual classes, so it evaluates classification performance.",
+      "optionExplanations": [
+        "Incorrect: Regression uses error metrics like MAE/MSE, not confusion matrices.",
+        "Correct: Classification outcomes can be counted as TP/FP/TN/FN in a confusion matrix.",
+        "Incorrect: Clustering is typically evaluated with silhouette/Davies-Bouldin, not confusion matrices.",
+        "Incorrect: Data cleaning quality is not evaluated with a confusion matrix."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A histogram is most useful for:",
+      "options": [
+        "Showing frequency distribution of data",
+        "Comparing two datasets",
+        "Showing relationships between variables",
+        "Plotting real-time changes"
+      ],
+      "answer": 0,
+      "explain": "Histograms display how often values fall into bins, showing a frequency distribution.",
+      "optionExplanations": [
+        "Correct: Histograms show frequency distribution across bins.",
+        "Incorrect: Side-by-side plots can compare datasets, but that's not the primary use stated.",
+        "Incorrect: Scatterplots show relationships between variables.",
+        "Incorrect: Line charts are more typical for real-time changes over time."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which metric is most appropriate for measuring model accuracy in imbalanced \ndatasets?",
+      "options": [
+        "Accuracy",
+        "Precision and recall",
+        "Mean absolute error",
+        "Root mean square error"
+      ],
+      "answer": 1,
+      "explain": "In imbalanced datasets, accuracy can be misleading; precision and recall (and related F1) reflect minority-class performance.",
+      "optionExplanations": [
+        "Incorrect: Accuracy may stay high by predicting the majority class.",
+        "Correct: Precision/recall focus on positive-class errors and are better for imbalance.",
+        "Incorrect: MAE is for regression, not classification imbalance.",
+        "Incorrect: RMSE is for regression, not classification imbalance."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In a relational database, which SQL clause is used to filter groups created by GROUP BY?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "ORDER BY",
+        "LIMIT"
+      ],
+      "answer": 1,
+      "explain": "WHERE filters rows before grouping, while HAVING filters the grouped results after aggregation.",
+      "optionExplanations": [
+        "Incorrect: WHERE filters individual rows, not aggregated groups.",
+        "Correct: HAVING applies conditions to aggregated groups (e.g., COUNT(*) > 5).",
+        "Incorrect: ORDER BY only sorts the output.",
+        "Incorrect: LIMIT restricts the number of rows returned, not group filtering."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which join returns only the rows that have matching keys in BOTH tables?",
+      "options": [
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "INNER JOIN",
+        "FULL OUTER JOIN"
+      ],
+      "answer": 2,
+      "explain": "An INNER JOIN keeps rows where the join condition matches in both tables.",
+      "optionExplanations": [
+        "Incorrect: LEFT JOIN keeps all left-table rows even without matches.",
+        "Incorrect: RIGHT JOIN keeps all right-table rows even without matches.",
+        "Correct: INNER JOIN returns the intersection of matching keys.",
+        "Incorrect: FULL OUTER JOIN returns matches plus non-matching rows from both sides."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of one-hot encoding a categorical feature?",
+      "options": [
+        "To scale numeric values between 0 and 1",
+        "To convert categories into separate binary indicator variables",
+        "To reduce the number of features using PCA",
+        "To remove outliers from the dataset"
+      ],
+      "answer": 1,
+      "explain": "One-hot encoding represents each category as its own 0/1 column so models can use categorical information numerically.",
+      "optionExplanations": [
+        "Incorrect: Min-max scaling scales numeric features, not categories.",
+        "Correct: It creates binary indicator columns for each category.",
+        "Incorrect: PCA is a dimensionality-reduction technique, not category encoding.",
+        "Incorrect: Outlier removal is a separate preprocessing step."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technique most directly helps prevent data leakage in time-series forecasting?",
+      "options": [
+        "Randomly shuffling the entire dataset before splitting",
+        "Using future values to fill missing past data",
+        "Splitting train/validation sets by time (earlier to later)",
+        "Normalizing each row independently using its own maximum"
+      ],
+      "answer": 2,
+      "explain": "Time-series models must be evaluated on future data; splitting by time avoids training on information from the future.",
+      "optionExplanations": [
+        "Incorrect: Shuffling can mix future observations into training.",
+        "Incorrect: Using future values to fill past gaps leaks future information.",
+        "Correct: A chronological split preserves causality and avoids leakage.",
+        "Incorrect: Row-wise normalization does not address leakage across time."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In supervised learning, what does the label (target) represent?",
+      "options": [
+        "An unlabeled cluster assignment",
+        "The output value the model is trained to predict",
+        "A feature used only for scaling",
+        "A random seed for reproducibility"
+      ],
+      "answer": 1,
+      "explain": "The label is the ground-truth output associated with each training example.",
+      "optionExplanations": [
+        "Incorrect: Cluster IDs are produced by unsupervised clustering, not labels in supervised learning.",
+        "Correct: The target is the value/class the model learns to predict.",
+        "Incorrect: Scaling uses features, not the label itself as a scaling feature.",
+        "Incorrect: Random seeds control randomness but are not targets."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which evaluation metric is most appropriate for a regression problem?",
+      "options": [
+        "F1 score",
+        "Mean absolute error (MAE)",
+        "ROC-AUC",
+        "Accuracy"
+      ],
+      "answer": 1,
+      "explain": "MAE measures average absolute prediction error and is designed for continuous-valued targets.",
+      "optionExplanations": [
+        "Incorrect: F1 is for classification, balancing precision and recall.",
+        "Correct: MAE is a standard regression error metric.",
+        "Incorrect: ROC-AUC is for binary classification ranking.",
+        "Incorrect: Accuracy is primarily for classification."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does a high bias in a model typically indicate?",
+      "options": [
+        "The model is overfitting the training data",
+        "The model is too simple and underfitting",
+        "The model has learned the noise in the data",
+        "The model has perfect generalization"
+      ],
+      "answer": 1,
+      "explain": "High bias means the model cannot capture the underlying patterns well, leading to underfitting.",
+      "optionExplanations": [
+        "Incorrect: Overfitting is usually associated with high variance.",
+        "Correct: High bias corresponds to underfitting due to oversimplification.",
+        "Incorrect: Learning noise is overfitting/high variance.",
+        "Incorrect: Perfect generalization is unrealistic and not implied by high bias."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which method is commonly used to handle missing numerical values in a dataset?",
+      "options": [
+        "Dropping the target variable",
+        "Imputing with the median or mean",
+        "One-hot encoding the missing values",
+        "Increasing the learning rate"
+      ],
+      "answer": 1,
+      "explain": "Imputation replaces missing numeric entries with a representative statistic like the mean or median.",
+      "optionExplanations": [
+        "Incorrect: Dropping the target removes what you are trying to predict.",
+        "Correct: Mean/median imputation is a common baseline for missing numeric data.",
+        "Incorrect: One-hot encoding applies to categorical variables, not numeric imputation.",
+        "Incorrect: Learning rate affects training dynamics, not missing values."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which plot is best for visualizing the relationship between two continuous variables?",
+      "options": [
+        "Pie chart",
+        "Histogram",
+        "Scatter plot",
+        "Box plot"
+      ],
+      "answer": 2,
+      "explain": "A scatter plot shows paired (x, y) points, making correlation and patterns visible.",
+      "optionExplanations": [
+        "Incorrect: Pie charts show parts of a whole for categorical proportions.",
+        "Incorrect: Histograms show the distribution of one variable.",
+        "Correct: Scatter plots display relationships between two continuous variables.",
+        "Incorrect: Box plots summarize distributions, typically for one variable or by category."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In k-means clustering, what does the variable k represent?",
+      "options": [
+        "Number of features",
+        "Number of clusters",
+        "Number of training epochs",
+        "Number of decision trees"
+      ],
+      "answer": 1,
+      "explain": "k is the number of clusters (centroids) the algorithm will form.",
+      "optionExplanations": [
+        "Incorrect: Features are dimensions, not k.",
+        "Correct: k is the chosen number of clusters.",
+        "Incorrect: Epochs relate to iterative training in some models, not k-means' k.",
+        "Incorrect: Decision trees are used in tree-based models, not k-means."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which regularization technique adds the absolute value of coefficients to the loss function and can drive some coefficients to zero?",
+      "options": [
+        "Ridge (L2) regularization",
+        "Lasso (L1) regularization",
+        "Dropout",
+        "Early stopping"
+      ],
+      "answer": 1,
+      "explain": "L1 (lasso) regularization penalizes the sum of absolute coefficients, promoting sparsity (zeros).",
+      "optionExplanations": [
+        "Incorrect: L2 shrinks coefficients but typically does not make them exactly zero.",
+        "Correct: L1 can produce sparse models by setting some weights to zero.",
+        "Incorrect: Dropout is used mainly in neural networks to drop activations during training.",
+        "Incorrect: Early stopping halts training based on validation performance, not coefficient penalties."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In logistic regression, the model outputs are typically interpreted as:",
+      "options": [
+        "Unbounded real-valued predictions",
+        "Probabilities between 0 and 1",
+        "Cluster centroids",
+        "Principal components"
+      ],
+      "answer": 1,
+      "explain": "Logistic regression applies a sigmoid to produce values in [0,1], often treated as class probabilities.",
+      "optionExplanations": [
+        "Incorrect: Logistic regression uses a bounded sigmoid output, not unbounded values.",
+        "Correct: Outputs are in the 0 to 1 range and can be interpreted as probabilities.",
+        "Incorrect: Centroids are associated with clustering like k-means.",
+        "Incorrect: Principal components come from PCA."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of a validation set during model training?",
+      "options": [
+        "To fit model parameters",
+        "To estimate final performance on unseen data and tune hyperparameters",
+        "To increase the size of the training data by duplication",
+        "To eliminate the need for preprocessing"
+      ],
+      "answer": 1,
+      "explain": "A validation set helps tune hyperparameters and monitor generalization without touching the test set.",
+      "optionExplanations": [
+        "Incorrect: Model parameters are fitted on the training set.",
+        "Correct: Validation data is used for tuning and early stopping decisions.",
+        "Incorrect: Duplicating data does not create an independent validation set.",
+        "Incorrect: Preprocessing is still required regardless of validation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technique estimates model performance by repeatedly training on folds and validating on the remaining fold?",
+      "options": [
+        "Bootstrapping",
+        "k-fold cross-validation",
+        "Grid search only",
+        "Stratified sampling without training"
+      ],
+      "answer": 1,
+      "explain": "k-fold cross-validation cycles through k partitions to estimate generalization more reliably.",
+      "optionExplanations": [
+        "Incorrect: Bootstrapping samples with replacement and is a different resampling method.",
+        "Correct: k-fold CV trains on k-1 folds and validates on the remaining fold repeatedly.",
+        "Incorrect: Grid search is a hyperparameter search method that can use CV but is not CV itself.",
+        "Incorrect: Stratified sampling is about preserving class proportions, not the fold training process."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "For a binary classifier, which term describes cases where the model predicts positive but the true label is negative?",
+      "options": [
+        "True positive",
+        "False positive",
+        "True negative",
+        "False negative"
+      ],
+      "answer": 1,
+      "explain": "A false positive is a predicted positive outcome that is actually negative in ground truth.",
+      "optionExplanations": [
+        "Incorrect: True positives are correct positive predictions.",
+        "Correct: False positives are incorrect positive predictions.",
+        "Incorrect: True negatives are correct negative predictions.",
+        "Incorrect: False negatives are predicted negative but actually positive."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a key advantage of using a confusion matrix over accuracy alone?",
+      "options": [
+        "It always increases model accuracy",
+        "It reveals the types of errors across classes",
+        "It removes the need for labeled data",
+        "It guarantees fairness across demographic groups"
+      ],
+      "answer": 1,
+      "explain": "A confusion matrix breaks outcomes into TP/FP/TN/FN (or class-by-class counts), showing where mistakes occur.",
+      "optionExplanations": [
+        "Incorrect: A confusion matrix does not change accuracy; it reports results.",
+        "Correct: It shows which classes are confused and what error types dominate.",
+        "Incorrect: Confusion matrices require labels to compare predictions to truth.",
+        "Incorrect: Error breakdown does not automatically guarantee fairness."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which method is MOST appropriate for scaling features to have mean 0 and standard deviation 1?",
+      "options": [
+        "Min-max scaling",
+        "Standardization (z-score scaling)",
+        "Label encoding",
+        "Log transform only"
+      ],
+      "answer": 1,
+      "explain": "Standardization subtracts the mean and divides by the standard deviation to create z-scores.",
+      "optionExplanations": [
+        "Incorrect: Min-max scales to a fixed range such as [0,1], not mean 0 and std 1.",
+        "Correct: z-score scaling yields mean 0 and standard deviation 1 (on training data).",
+        "Incorrect: Label encoding converts categories to integers, not scaling numeric features.",
+        "Incorrect: Log transforms change shape but do not enforce mean 0 and std 1."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In decision trees, what criterion is commonly used to choose splits for classification?",
+      "options": [
+        "Mean squared error",
+        "Gini impurity or information gain",
+        "Cosine similarity",
+        "Euclidean distance to centroids"
+      ],
+      "answer": 1,
+      "explain": "Classification trees often choose splits that reduce impurity, using metrics like Gini or entropy/information gain.",
+      "optionExplanations": [
+        "Incorrect: MSE is typically used for regression trees.",
+        "Correct: Gini/entropy measure node purity for classification splits.",
+        "Incorrect: Cosine similarity is used in vector similarity, not standard tree splitting.",
+        "Incorrect: Distance to centroids relates to clustering, not tree splits."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Random forests primarily reduce which issue compared to a single decision tree?",
+      "options": [
+        "Bias",
+        "Variance",
+        "Need for labeled data",
+        "Number of features in the dataset"
+      ],
+      "answer": 1,
+      "explain": "By averaging many de-correlated trees, random forests reduce variance and improve generalization.",
+      "optionExplanations": [
+        "Incorrect: Ensembles can reduce bias in some cases, but the main benefit here is variance reduction.",
+        "Correct: Bagging and feature randomness reduce variance compared to one deep tree.",
+        "Incorrect: Random forests are supervised and still require labels.",
+        "Incorrect: The dataset's feature count is unchanged; forests sample features per split."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In gradient boosting, new trees are typically trained to:",
+      "options": [
+        "Predict random noise",
+        "Correct the errors (residuals) of the current ensemble",
+        "Replace all previous trees",
+        "Cluster the data into k groups"
+      ],
+      "answer": 1,
+      "explain": "Boosting sequentially adds models that fit the residuals to improve the ensemble's predictions.",
+      "optionExplanations": [
+        "Incorrect: The goal is not to model random noise.",
+        "Correct: Each new learner focuses on residual errors from the current model.",
+        "Incorrect: Boosting adds to the ensemble rather than replacing earlier learners.",
+        "Incorrect: Clustering into k groups is unsupervised and not the boosting objective."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which neural network component introduces nonlinearity and allows modeling complex functions?",
+      "options": [
+        "Activation function (e.g., ReLU)",
+        "Batch size",
+        "Learning rate",
+        "Confusion matrix"
+      ],
+      "answer": 0,
+      "explain": "Activation functions make neural networks nonlinear; without them, stacked layers collapse to a linear model.",
+      "optionExplanations": [
+        "Correct: ReLU/sigmoid/tanh add nonlinearity needed for complex decision boundaries.",
+        "Incorrect: Batch size controls how many samples per gradient update, not nonlinearity.",
+        "Incorrect: Learning rate controls step size, not function class.",
+        "Incorrect: A confusion matrix is an evaluation tool, not a network component."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which optimization algorithm uses first and second moment estimates of gradients and is widely used for deep learning?",
+      "options": [
+        "Adam",
+        "Naive Bayes",
+        "k-means",
+        "Apriori"
+      ],
+      "answer": 0,
+      "explain": "Adam adapts learning rates using running averages of gradients and squared gradients (moments).",
+      "optionExplanations": [
+        "Correct: Adam combines momentum and RMSProp-like scaling via moment estimates.",
+        "Incorrect: Naive Bayes is a probabilistic classifier, not an optimizer.",
+        "Incorrect: k-means is a clustering algorithm.",
+        "Incorrect: Apriori is for association rule mining."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In NLP, what is the purpose of tokenization?",
+      "options": [
+        "To convert images into pixels",
+        "To split text into units such as words or subwords for modeling",
+        "To directly compute model accuracy",
+        "To remove all punctuation and numbers permanently"
+      ],
+      "answer": 1,
+      "explain": "Tokenization converts raw text into discrete units (tokens) that a model can process.",
+      "optionExplanations": [
+        "Incorrect: Pixels relate to images, not text processing.",
+        "Correct: Tokenization breaks text into model-friendly units (words/subwords/characters).",
+        "Incorrect: Accuracy is computed after predictions, not by tokenization itself.",
+        "Incorrect: Tokenizers may keep or normalize punctuation; they do not necessarily remove it permanently."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which vector similarity measure is commonly used for comparing text embeddings?",
+      "options": [
+        "Cosine similarity",
+        "Chi-square test",
+        "ANOVA F-statistic",
+        "Durbin-Watson statistic"
+      ],
+      "answer": 0,
+      "explain": "Cosine similarity measures the angle between embedding vectors and is common for semantic similarity.",
+      "optionExplanations": [
+        "Correct: Cosine similarity compares direction, useful for embeddings.",
+        "Incorrect: Chi-square is for categorical hypothesis tests, not embedding similarity.",
+        "Incorrect: ANOVA F-statistic is for comparing means across groups.",
+        "Incorrect: Durbin-Watson tests autocorrelation in regression residuals."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a major reason to use dimensionality reduction like PCA before modeling?",
+      "options": [
+        "To increase the number of features",
+        "To remove correlated/redundant information and potentially reduce noise",
+        "To guarantee perfect accuracy",
+        "To convert classification problems into regression problems"
+      ],
+      "answer": 1,
+      "explain": "PCA can compress correlated features into fewer components, which may help with speed and noise reduction.",
+      "optionExplanations": [
+        "Incorrect: PCA reduces, not increases, dimensionality.",
+        "Correct: It captures variance in fewer orthogonal components, reducing redundancy.",
+        "Incorrect: No preprocessing guarantees perfect accuracy.",
+        "Incorrect: PCA does not change the problem type from classification to regression."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technique is specifically designed to select a subset of features based on their predictive power while controlling overfitting?",
+      "options": [
+        "Feature selection with regularization",
+        "Data augmentation",
+        "Image segmentation",
+        "Batch normalization"
+      ],
+      "answer": 0,
+      "explain": "Regularization-based methods (like L1) can perform feature selection by shrinking irrelevant coefficients toward zero.",
+      "optionExplanations": [
+        "Correct: Regularization can reduce overfitting and implicitly select features.",
+        "Incorrect: Data augmentation creates more varied training examples, not feature subset selection.",
+        "Incorrect: Segmentation labels pixels/regions in images.",
+        "Incorrect: Batch normalization stabilizes training but does not select features."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In an A/B test, what does it mean if the p-value is below the chosen significance level (alpha)?",
+      "options": [
+        "Fail to reject the null hypothesis",
+        "Reject the null hypothesis",
+        "Prove the alternative hypothesis is always true",
+        "Increase the sample size until p-value rises"
+      ],
+      "answer": 1,
+      "explain": "If p < alpha, the observed difference is unlikely under the null, so you reject the null hypothesis at that alpha level.",
+      "optionExplanations": [
+        "Incorrect: Failing to reject happens when p >= alpha.",
+        "Correct: p < alpha implies rejecting the null at the chosen significance threshold.",
+        "Incorrect: Statistical significance does not prove a claim with certainty.",
+        "Incorrect: You should not manipulate sample size to change conclusions after peeking."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which sampling method ensures each subgroup (stratum) is represented proportionally in the sample?",
+      "options": [
+        "Convenience sampling",
+        "Stratified sampling",
+        "Snowball sampling",
+        "Systematic sampling with unknown periodicity"
+      ],
+      "answer": 1,
+      "explain": "Stratified sampling divides the population into strata and samples from each to preserve representation.",
+      "optionExplanations": [
+        "Incorrect: Convenience sampling selects easiest-to-reach subjects and can be biased.",
+        "Correct: Stratified sampling maintains subgroup proportions or guarantees coverage.",
+        "Incorrect: Snowball sampling recruits via referrals and is often used for hard-to-reach populations.",
+        "Incorrect: Systematic sampling can miss patterns if periodicity exists and does not guarantee subgroup proportions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statistic measures the linear relationship between two continuous variables and ranges from -1 to 1?",
+      "options": [
+        "Pearson correlation coefficient",
+        "Interquartile range",
+        "Skewness",
+        "Kurtosis"
+      ],
+      "answer": 0,
+      "explain": "Pearson's r quantifies the strength and direction of linear association between two continuous variables.",
+      "optionExplanations": [
+        "Correct: Pearson r ranges from -1 (perfect negative) to +1 (perfect positive).",
+        "Incorrect: IQR measures spread (middle 50%), not association.",
+        "Incorrect: Skewness measures asymmetry of a distribution.",
+        "Incorrect: Kurtosis measures tail heaviness/peakedness of a distribution."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which visualization is best for showing the distribution of a continuous variable and identifying outliers?",
+      "options": [
+        "Box plot",
+        "Stacked bar chart",
+        "Radar chart",
+        "Sankey diagram"
+      ],
+      "answer": 0,
+      "explain": "A box plot summarizes median, quartiles, and outliers, making it well-suited for distribution and outlier detection.",
+      "optionExplanations": [
+        "Correct: Box plots highlight quartiles and outliers beyond whiskers.",
+        "Incorrect: Stacked bars show categorical composition, not continuous distribution details.",
+        "Incorrect: Radar charts compare multivariate categories, not distributions.",
+        "Incorrect: Sankey diagrams show flows between categories."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary goal of anomaly detection?",
+      "options": [
+        "To maximize the number of clusters",
+        "To identify rare or unusual observations that differ from the norm",
+        "To generate synthetic training data",
+        "To guarantee model interpretability"
+      ],
+      "answer": 1,
+      "explain": "Anomaly detection focuses on finding outliers or unusual patterns that may indicate errors, fraud, or novel events.",
+      "optionExplanations": [
+        "Incorrect: Clustering aims to group similar points, not primarily to find rare events.",
+        "Correct: It flags observations that deviate strongly from expected behavior.",
+        "Incorrect: Synthetic data generation is a different task (data augmentation/simulation).",
+        "Incorrect: Interpretability may be desirable, but it is not the main definition of anomaly detection."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technique is commonly used to address class imbalance during model training?",
+      "options": [
+        "Undersampling/oversampling or class weighting",
+        "Removing the minority class entirely",
+        "Using accuracy as the only metric",
+        "Converting the problem into clustering"
+      ],
+      "answer": 0,
+      "explain": "Resampling or class weighting increases the model's attention to the minority class and can improve recall/precision.",
+      "optionExplanations": [
+        "Correct: Resampling or class weights are standard imbalance-handling techniques.",
+        "Incorrect: Removing the minority class discards the very cases you usually care about.",
+        "Incorrect: Using only accuracy can hide poor minority-class performance.",
+        "Incorrect: Clustering changes the problem and does not directly solve supervised imbalance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a machine learning pipeline, why should scaling parameters (like mean and std) be computed on the training set only?",
+      "options": [
+        "To make the model memorize the training data",
+        "To avoid leaking information from validation/test sets into training",
+        "Because test sets cannot be scaled",
+        "To increase the number of features"
+      ],
+      "answer": 1,
+      "explain": "Using full-dataset statistics leaks information; training-only fitting ensures evaluation remains unbiased.",
+      "optionExplanations": [
+        "Incorrect: Scaling is not intended to cause memorization.",
+        "Correct: Fitting preprocessing on training data prevents leakage from held-out data.",
+        "Incorrect: Test sets can be scaled using training parameters.",
+        "Incorrect: Scaling does not change the number of features."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the ability of a model to perform well on new, unseen data?",
+      "options": [
+        "Generalization",
+        "Memorization",
+        "Data leakage",
+        "Overparameterization"
+      ],
+      "answer": 0,
+      "explain": "Generalization refers to learned patterns that transfer beyond the training set.",
+      "optionExplanations": [
+        "Correct: Generalization is good performance on unseen data.",
+        "Incorrect: Memorization is fitting training examples without learning broader patterns.",
+        "Incorrect: Data leakage is using information that should not be available at training time.",
+        "Incorrect: Overparameterization describes model complexity, not performance on unseen data."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of early stopping in training ML models?",
+      "options": [
+        "To increase training loss",
+        "To stop training when validation performance stops improving to reduce overfitting",
+        "To ensure the model underfits",
+        "To remove the need for hyperparameter tuning"
+      ],
+      "answer": 1,
+      "explain": "Early stopping monitors validation metrics and halts training to prevent overfitting when performance degrades or plateaus.",
+      "optionExplanations": [
+        "Incorrect: Early stopping aims to reduce, not increase, loss.",
+        "Correct: It prevents over-training past the point of best validation performance.",
+        "Incorrect: The goal is not intentional underfitting.",
+        "Incorrect: Hyperparameter tuning is still often needed."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of unsupervised learning?",
+      "options": [
+        "Predicting house prices",
+        "Classifying emails as spam or not spam",
+        "Clustering customers by purchase behavior",
+        "Predicting whether a patient has a disease"
+      ],
+      "answer": 2,
+      "explain": "Clustering finds structure in unlabeled data, making it an unsupervised task.",
+      "optionExplanations": [
+        "Incorrect: House price prediction is supervised regression with labels.",
+        "Incorrect: Spam classification is supervised classification with labels.",
+        "Correct: Customer clustering groups data without labels.",
+        "Incorrect: Disease prediction is supervised classification with labels."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does TF-IDF primarily measure in text mining?",
+      "options": [
+        "The semantic meaning of a sentence",
+        "How important a term is to a document relative to a collection",
+        "The grammatical correctness of a paragraph",
+        "The number of sentences in a document"
+      ],
+      "answer": 1,
+      "explain": "TF-IDF increases with term frequency in a document but decreases for terms common across many documents, capturing importance.",
+      "optionExplanations": [
+        "Incorrect: TF-IDF is lexical weighting, not deep semantics.",
+        "Correct: It weights terms by document frequency to emphasize distinctive words.",
+        "Incorrect: Grammar checking is separate from TF-IDF.",
+        "Incorrect: TF-IDF is not a sentence-count measure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In model interpretability, what does SHAP aim to provide?",
+      "options": [
+        "A database schema",
+        "Feature contribution explanations based on game theory",
+        "A method to compress neural networks",
+        "A replacement for training data"
+      ],
+      "answer": 1,
+      "explain": "SHAP assigns each feature a contribution value to a specific prediction using Shapley values concepts.",
+      "optionExplanations": [
+        "Incorrect: SHAP is not about database design.",
+        "Correct: SHAP explains predictions by attributing contributions to features.",
+        "Incorrect: Compression is not SHAP's purpose.",
+        "Incorrect: Explanations do not replace data for training."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is an example of a fairness metric for binary classification?",
+      "options": [
+        "Equalized odds difference",
+        "Mean squared error",
+        "Silhouette score",
+        "Perplexity"
+      ],
+      "answer": 0,
+      "explain": "Equalized odds evaluates whether error rates (like FPR/TPR) are similar across groups, commonly used in fairness analysis.",
+      "optionExplanations": [
+        "Correct: Equalized odds compares model error rates across protected groups.",
+        "Incorrect: MSE is a regression error metric, not a fairness metric.",
+        "Incorrect: Silhouette score evaluates clustering quality.",
+        "Incorrect: Perplexity evaluates language models."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary risk of using training data that is not representative of the real-world population?",
+      "options": [
+        "Lower compute costs",
+        "Biased or poor generalization performance on underrepresented groups",
+        "Guaranteed higher accuracy",
+        "Automatic removal of noise"
+      ],
+      "answer": 1,
+      "explain": "Non-representative data can lead to biased models and poor performance on groups not well covered in training data.",
+      "optionExplanations": [
+        "Incorrect: Representativeness does not determine compute cost directly.",
+        "Correct: Sampling bias can cause systematic errors and unfair outcomes.",
+        "Incorrect: Non-representative data can reduce accuracy, not guarantee higher accuracy.",
+        "Incorrect: Noise is not automatically removed by biased sampling."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes precision in binary classification?",
+      "options": [
+        "TP / (TP + FP)",
+        "TP / (TP + FN)",
+        "(TP + TN) / (TP + TN + FP + FN)",
+        "TN / (TN + FP)"
+      ],
+      "answer": 0,
+      "explain": "Precision is the fraction of predicted positives that are actually positive: TP divided by TP plus FP.",
+      "optionExplanations": [
+        "Correct: Precision measures how often positive predictions are correct.",
+        "Incorrect: This is recall (sensitivity).",
+        "Incorrect: This is accuracy.",
+        "Incorrect: This is specificity (true negative rate)."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes recall (sensitivity) in binary classification?",
+      "options": [
+        "TP / (TP + FP)",
+        "TP / (TP + FN)",
+        "FP / (FP + TN)",
+        "TN / (TN + FN)"
+      ],
+      "answer": 1,
+      "explain": "Recall is the fraction of actual positives that are correctly identified: TP divided by TP plus FN.",
+      "optionExplanations": [
+        "Incorrect: This is precision.",
+        "Correct: Recall measures coverage of the true positive class.",
+        "Incorrect: This is false positive rate.",
+        "Incorrect: This is not a standard definition of recall or specificity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main idea behind the ROC curve?",
+      "options": [
+        "Plot accuracy vs. loss",
+        "Plot true positive rate vs. false positive rate across thresholds",
+        "Plot residuals vs. fitted values",
+        "Plot cluster counts vs. k"
+      ],
+      "answer": 1,
+      "explain": "The ROC curve shows the tradeoff between TPR and FPR as the classification threshold changes.",
+      "optionExplanations": [
+        "Incorrect: ROC is not accuracy vs. loss.",
+        "Correct: ROC plots TPR against FPR for varying thresholds.",
+        "Incorrect: Residual plots are for regression diagnostics.",
+        "Incorrect: k-vs-cluster metrics relate to clustering methods like the elbow method."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric summarizes the ROC curve into a single number between 0 and 1?",
+      "options": [
+        "R-squared",
+        "AUC (Area Under the Curve)",
+        "Adjusted R-squared",
+        "F-statistic"
+      ],
+      "answer": 1,
+      "explain": "AUC measures the probability that the classifier ranks a random positive higher than a random negative, summarizing ROC performance.",
+      "optionExplanations": [
+        "Incorrect: R-squared is for regression fit.",
+        "Correct: AUC summarizes ROC curve performance.",
+        "Incorrect: Adjusted R-squared is for regression with penalty for extra predictors.",
+        "Incorrect: F-statistic is used in regression/ANOVA tests."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In linear regression, multicollinearity refers to:",
+      "options": [
+        "A nonlinear relationship between X and y",
+        "High correlation among predictor variables",
+        "The presence of outliers in y only",
+        "A perfect fit with zero residuals"
+      ],
+      "answer": 1,
+      "explain": "Multicollinearity occurs when predictors are highly correlated, making coefficient estimates unstable.",
+      "optionExplanations": [
+        "Incorrect: Nonlinearity is a different modeling issue.",
+        "Correct: Multicollinearity is high correlation among predictors.",
+        "Incorrect: Outliers are separate from multicollinearity.",
+        "Incorrect: A perfect fit is not what multicollinearity means."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which method can help detect multicollinearity in regression models?",
+      "options": [
+        "Silhouette score",
+        "Variance inflation factor (VIF)",
+        "BLEU score",
+        "Confusion matrix"
+      ],
+      "answer": 1,
+      "explain": "VIF quantifies how much variance of a coefficient is inflated due to collinearity with other predictors.",
+      "optionExplanations": [
+        "Incorrect: Silhouette score evaluates clustering.",
+        "Correct: VIF is used to assess multicollinearity.",
+        "Incorrect: BLEU is for machine translation evaluation.",
+        "Incorrect: Confusion matrices evaluate classification."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does the 'elbow method' help determine in k-means clustering?",
+      "options": [
+        "Optimal learning rate",
+        "Optimal number of clusters k",
+        "Best activation function",
+        "Optimal train-test split ratio"
+      ],
+      "answer": 1,
+      "explain": "The elbow method plots within-cluster sum of squares vs. k and looks for a bend (diminishing returns) to choose k.",
+      "optionExplanations": [
+        "Incorrect: Learning rate is for gradient-based training.",
+        "Correct: It helps choose k by identifying diminishing improvement in inertia.",
+        "Incorrect: Activation functions are for neural networks, not k-means.",
+        "Incorrect: Train-test split ratio is for supervised evaluation, not k-means' k selection."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the process of converting raw data into a format suitable for analysis or modeling?",
+      "options": [
+        "Data wrangling",
+        "Backpropagation",
+        "Hyperparameterization",
+        "Ensembling"
+      ],
+      "answer": 0,
+      "explain": "Data wrangling includes cleaning, transforming, and structuring data for downstream use.",
+      "optionExplanations": [
+        "Correct: Wrangling covers cleaning and transformation steps.",
+        "Incorrect: Backpropagation computes gradients in neural networks.",
+        "Incorrect: Hyperparameterization is not a standard term for this process.",
+        "Incorrect: Ensembling combines multiple models, not raw data processing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a key difference between supervised and unsupervised learning?",
+      "options": [
+        "Supervised learning uses labels; unsupervised learning does not",
+        "Unsupervised learning always predicts numbers; supervised predicts categories",
+        "Supervised learning never overfits; unsupervised always overfits",
+        "Unsupervised learning requires more computing power in all cases"
+      ],
+      "answer": 0,
+      "explain": "Supervised learning trains with labeled targets, while unsupervised learning finds patterns without labels.",
+      "optionExplanations": [
+        "Correct: Labels are the defining difference.",
+        "Incorrect: Both can involve numeric outputs or categories depending on the task.",
+        "Incorrect: Overfitting can occur in supervised learning, and unsupervised learning has different failure modes.",
+        "Incorrect: Compute needs vary by algorithm and data size; there is no universal rule."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In deep learning, what is backpropagation used for?",
+      "options": [
+        "To randomly initialize weights",
+        "To compute gradients of the loss with respect to weights",
+        "To shuffle the dataset",
+        "To evaluate model fairness"
+      ],
+      "answer": 1,
+      "explain": "Backpropagation efficiently computes gradients so optimizers can update weights to reduce loss.",
+      "optionExplanations": [
+        "Incorrect: Initialization happens before training but is not backpropagation.",
+        "Correct: It calculates gradients for weight updates.",
+        "Incorrect: Shuffling is a data-loading step, not backpropagation.",
+        "Incorrect: Fairness evaluation is separate from gradient computation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of neural network is most commonly used for image recognition tasks?",
+      "options": [
+        "Convolutional neural network (CNN)",
+        "Recurrent neural network (RNN)",
+        "Naive Bayes",
+        "k-nearest neighbors (k-NN) only"
+      ],
+      "answer": 0,
+      "explain": "CNNs use convolutional filters to capture spatial patterns, making them well-suited for images.",
+      "optionExplanations": [
+        "Correct: CNNs exploit local connectivity and shared weights for images.",
+        "Incorrect: RNNs are designed for sequences like text/time series.",
+        "Incorrect: Naive Bayes is a probabilistic classifier, not a neural network.",
+        "Incorrect: k-NN can classify images but is not the most common deep learning architecture for recognition."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes adjusting a pre-trained model on a new, smaller dataset for a related task?",
+      "options": [
+        "Bagging",
+        "Transfer learning (fine-tuning)",
+        "Data imputation",
+        "Quantization"
+      ],
+      "answer": 1,
+      "explain": "Fine-tuning adapts a pre-trained model to a new domain/task with additional training on task-specific data.",
+      "optionExplanations": [
+        "Incorrect: Bagging is an ensemble technique.",
+        "Correct: Transfer learning fine-tunes a pre-trained model to a new task.",
+        "Incorrect: Imputation fills missing values, not retrain models.",
+        "Incorrect: Quantization reduces numerical precision for efficiency, not task adaptation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main benefit of using embeddings for categorical or text data?",
+      "options": [
+        "They guarantee zero bias",
+        "They provide dense numeric representations that capture similarity",
+        "They eliminate the need for training data",
+        "They always reduce accuracy"
+      ],
+      "answer": 1,
+      "explain": "Embeddings map items into a vector space where similar items are close, enabling models to learn semantic relationships.",
+      "optionExplanations": [
+        "Incorrect: Embeddings do not guarantee fairness or absence of bias.",
+        "Correct: Dense vectors can encode similarity and meaning more effectively than sparse one-hot vectors.",
+        "Incorrect: Models still require data to learn or use embeddings.",
+        "Incorrect: Embeddings often improve performance; they do not always reduce accuracy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In data visualization, which principle most improves readability of a chart?",
+      "options": [
+        "Maximize decorative elements",
+        "Use clear labels and a meaningful scale",
+        "Hide axes to reduce clutter",
+        "Use as many colors as possible"
+      ],
+      "answer": 1,
+      "explain": "Clear labels, appropriate scales, and minimal clutter help viewers interpret the data accurately.",
+      "optionExplanations": [
+        "Incorrect: Decorative elements can distract from the data (chartjunk).",
+        "Correct: Labels and meaningful scales improve interpretation.",
+        "Incorrect: Hiding axes often makes charts harder to read and can be misleading.",
+        "Incorrect: Too many colors can confuse; clarity is more important than variety."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a common cause of concept drift in deployed ML systems?",
+      "options": [
+        "The model weights never change",
+        "The real-world data distribution changes over time",
+        "The training data is perfectly clean",
+        "Using a confusion matrix during evaluation"
+      ],
+      "answer": 1,
+      "explain": "Concept drift occurs when the relationship between inputs and target changes, often due to shifting user behavior or environments.",
+      "optionExplanations": [
+        "Incorrect: Even fixed weights can suffer drift if the environment changes.",
+        "Correct: Drift is driven by changes in data or label relationships over time.",
+        "Incorrect: Clean training data does not prevent future distribution shifts.",
+        "Incorrect: Evaluation tools do not cause drift."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice is MOST associated with MLOps?",
+      "options": [
+        "Ignoring model monitoring after deployment",
+        "Versioning data, models, and tracking experiments for reproducibility",
+        "Training once and never retraining",
+        "Removing validation sets to speed up development"
+      ],
+      "answer": 1,
+      "explain": "MLOps emphasizes reproducibility and reliable deployment through versioning, CI/CD, and monitoring.",
+      "optionExplanations": [
+        "Incorrect: Monitoring is a core MLOps activity, not something to ignore.",
+        "Correct: Versioning and experiment tracking support reproducible, reliable ML systems.",
+        "Incorrect: Many production systems require periodic retraining.",
+        "Incorrect: Validation is important for quality; removing it harms reliability."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'data governance' primarily aim to ensure in an organization?",
+      "options": [
+        "Higher GPU clock speeds",
+        "Proper management of data quality, security, privacy, and access",
+        "Automatic model training without humans",
+        "Elimination of all data storage costs"
+      ],
+      "answer": 1,
+      "explain": "Data governance defines policies and controls for data quality, ownership, security, and compliance.",
+      "optionExplanations": [
+        "Incorrect: Hardware performance is unrelated to governance.",
+        "Correct: Governance sets rules for data quality, privacy, and access control.",
+        "Incorrect: Governance is about policy and oversight, not full automation of training.",
+        "Incorrect: Governance cannot eliminate storage costs."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which privacy technique adds carefully calibrated noise to outputs to limit information about any single individual?",
+      "options": [
+        "Differential privacy",
+        "Data augmentation",
+        "Gradient descent",
+        "Stratification"
+      ],
+      "answer": 0,
+      "explain": "Differential privacy bounds how much an individual's data can affect the output, often by adding noise.",
+      "optionExplanations": [
+        "Correct: Differential privacy provides a formal privacy guarantee via noise and sensitivity control.",
+        "Incorrect: Data augmentation creates additional training examples, not privacy guarantees.",
+        "Incorrect: Gradient descent is an optimization method.",
+        "Incorrect: Stratification is a sampling approach."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In machine learning, what is a hyperparameter?",
+      "options": [
+        "A parameter learned directly from training data, like a weight",
+        "A setting chosen before training, like k in k-NN or tree depth",
+        "A guaranteed measure of model fairness",
+        "A type of missing value"
+      ],
+      "answer": 1,
+      "explain": "Hyperparameters control the learning process or model capacity and are set before or during tuning, not directly learned as weights.",
+      "optionExplanations": [
+        "Incorrect: Weights/biases are learned parameters, not hyperparameters.",
+        "Correct: k, depth, learning rate, and regularization strength are hyperparameters.",
+        "Incorrect: Fairness is not guaranteed by any single hyperparameter.",
+        "Incorrect: Missing values are a data quality issue, not hyperparameters."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which method is MOST suitable for detecting non-linear decision boundaries with a simple distance-based approach?",
+      "options": [
+        "k-nearest neighbors (k-NN)",
+        "Ordinary least squares regression",
+        "Single-parameter linear model",
+        "Mean imputation"
+      ],
+      "answer": 0,
+      "explain": "k-NN can form complex boundaries because predictions depend on local neighborhoods rather than a single linear separator.",
+      "optionExplanations": [
+        "Correct: k-NN is nonparametric and can capture nonlinear patterns via neighborhoods.",
+        "Incorrect: OLS regression models linear relationships to a continuous target.",
+        "Incorrect: A simple linear model cannot represent complex nonlinear boundaries without feature engineering.",
+        "Incorrect: Imputation addresses missing data, not decision boundaries."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which approach is best for evaluating a model when data points are not independent because they come from the same user or device?",
+      "options": [
+        "Randomly split individual rows regardless of user",
+        "Group-aware split that keeps all rows from a user in the same fold",
+        "Train on the test set for stability",
+        "Use only accuracy and ignore splitting"
+      ],
+      "answer": 1,
+      "explain": "Group-aware splitting prevents leakage where information from the same entity appears in both training and evaluation sets.",
+      "optionExplanations": [
+        "Incorrect: Row-wise random splits can leak user-specific patterns into validation/test.",
+        "Correct: Group-based splits preserve independence between train and evaluation entities.",
+        "Incorrect: Training on test data invalidates evaluation.",
+        "Incorrect: Proper splitting is required regardless of the metric used."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In time-series feature engineering, what does a rolling mean feature represent?",
+      "options": [
+        "The average of values over a fixed prior window",
+        "The maximum value in the entire dataset",
+        "A random sample mean",
+        "The median of future values"
+      ],
+      "answer": 0,
+      "explain": "A rolling mean computes the average over a moving window of past observations, capturing local trends.",
+      "optionExplanations": [
+        "Correct: Rolling means summarize recent history in a fixed window.",
+        "Incorrect: It is not the global maximum.",
+        "Incorrect: Rolling means are deterministic from the window, not random sampling.",
+        "Incorrect: Using future values would leak information."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about normalization vs. standardization is correct?",
+      "options": [
+        "Normalization always yields mean 0 and std 1",
+        "Standardization always scales values to [0,1]",
+        "Normalization typically rescales to a range like [0,1], while standardization uses z-scores",
+        "They are identical terms with no difference"
+      ],
+      "answer": 2,
+      "explain": "Normalization often rescales to a fixed range, while standardization centers and scales using mean and standard deviation.",
+      "optionExplanations": [
+        "Incorrect: Mean 0 and std 1 describes standardization, not normalization.",
+        "Incorrect: Scaling to [0,1] describes normalization, not standardization.",
+        "Correct: Normalization and standardization use different transformations and goals.",
+        "Incorrect: They are related but not identical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a learning curve in machine learning?",
+      "options": [
+        "To plot GPU usage over time",
+        "To show how performance changes with more training data or epochs",
+        "To select k in k-means",
+        "To compute p-values for hypotheses"
+      ],
+      "answer": 1,
+      "explain": "Learning curves help diagnose underfitting/overfitting by showing training and validation performance as training size or epochs change.",
+      "optionExplanations": [
+        "Incorrect: Hardware monitoring is not the purpose of learning curves.",
+        "Correct: Learning curves visualize performance vs. training progress or data size.",
+        "Incorrect: Choosing k in k-means typically uses elbow/silhouette methods.",
+        "Incorrect: P-values are part of statistical testing, not learning curves."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technique reduces overfitting by randomly dropping neurons during training in a neural network?",
+      "options": [
+        "Dropout",
+        "Oversampling",
+        "Min-max scaling",
+        "One-hot encoding"
+      ],
+      "answer": 0,
+      "explain": "Dropout forces the network to rely on distributed representations by randomly disabling units during training.",
+      "optionExplanations": [
+        "Correct: Dropout randomly zeroes activations to reduce co-adaptation and overfitting.",
+        "Incorrect: Oversampling addresses class imbalance, not neural overfitting directly.",
+        "Incorrect: Min-max scaling rescales features, not network regularization.",
+        "Incorrect: One-hot encoding encodes categories, not overfitting control."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In an ML experiment, why is it important to set a random seed?",
+      "options": [
+        "To increase model accuracy automatically",
+        "To make results reproducible across runs",
+        "To reduce the number of features",
+        "To eliminate bias in the data"
+      ],
+      "answer": 1,
+      "explain": "Random seeds control pseudo-random processes (splits, initialization), making experiments repeatable.",
+      "optionExplanations": [
+        "Incorrect: A seed does not inherently improve accuracy.",
+        "Correct: It improves reproducibility of stochastic processes.",
+        "Incorrect: Seeds do not change feature count.",
+        "Incorrect: Seeds do not remove dataset bias."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which file format is commonly used for efficient columnar storage in big data analytics?",
+      "options": [
+        "CSV",
+        "Parquet",
+        "TXT",
+        "BMP"
+      ],
+      "answer": 1,
+      "explain": "Parquet is a columnar format optimized for compression and analytic queries on large datasets.",
+      "optionExplanations": [
+        "Incorrect: CSV is row-based text and can be inefficient at scale.",
+        "Correct: Parquet is a widely used columnar storage format.",
+        "Incorrect: TXT is generic plain text, not optimized columnar storage.",
+        "Incorrect: BMP is an image format, not a data analytics storage format."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does ETL stand for in data engineering?",
+      "options": [
+        "Evaluate, Train, Launch",
+        "Extract, Transform, Load",
+        "Encode, Tokenize, Label",
+        "Estimate, Test, Log"
+      ],
+      "answer": 1,
+      "explain": "ETL pipelines extract data from sources, transform it into usable form, and load it into a target system like a warehouse.",
+      "optionExplanations": [
+        "Incorrect: This is not a standard pipeline acronym.",
+        "Correct: Extract, Transform, Load is the standard meaning of ETL.",
+        "Incorrect: Encoding/tokenization/labeling are ML steps but not ETL.",
+        "Incorrect: Estimate/test/log is not the ETL acronym."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which cloud service category is most directly used for storing large datasets for analytics (e.g., object storage)?",
+      "options": [
+        "Object storage",
+        "DNS hosting",
+        "Container orchestration only",
+        "GPU driver management"
+      ],
+      "answer": 0,
+      "explain": "Object storage systems store large blobs/files reliably and cheaply, commonly used for data lakes.",
+      "optionExplanations": [
+        "Correct: Object storage (e.g., data lakes) is designed for large-scale dataset storage.",
+        "Incorrect: DNS hosting maps names to IPs and is unrelated to storing datasets.",
+        "Incorrect: Orchestration schedules containers, not primarily data storage.",
+        "Incorrect: Drivers manage hardware, not data storage."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes the bias-variance tradeoff?",
+      "options": [
+        "Lower bias always increases accuracy without downsides",
+        "Models with very low bias typically have higher variance and may overfit",
+        "Variance is unrelated to overfitting",
+        "Bias only occurs in neural networks"
+      ],
+      "answer": 1,
+      "explain": "As model complexity increases, bias tends to drop but variance can rise, increasing overfitting risk.",
+      "optionExplanations": [
+        "Incorrect: Reducing bias can increase variance, so there is a tradeoff.",
+        "Correct: Low-bias models can be high-variance and overfit.",
+        "Incorrect: High variance is closely related to overfitting.",
+        "Incorrect: Bias exists across many model families, not only neural networks."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technique is commonly used to balance precision and recall into a single metric?",
+      "options": [
+        "F1 score",
+        "R-squared",
+        "Adjusted R-squared",
+        "MSE"
+      ],
+      "answer": 0,
+      "explain": "The F1 score is the harmonic mean of precision and recall, useful when classes are imbalanced.",
+      "optionExplanations": [
+        "Correct: F1 combines precision and recall into one number.",
+        "Incorrect: R-squared measures variance explained in regression.",
+        "Incorrect: Adjusted R-squared is a regression metric with a complexity penalty.",
+        "Incorrect: MSE is a regression error metric."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In unsupervised anomaly detection, which method flags points with low local density compared to neighbors?",
+      "options": [
+        "DBSCAN",
+        "Local Outlier Factor (LOF)",
+        "Naive Bayes",
+        "Linear regression"
+      ],
+      "answer": 1,
+      "explain": "LOF compares local density to that of neighbors; unusually low density indicates an outlier.",
+      "optionExplanations": [
+        "Incorrect: DBSCAN clusters by density but is not specifically a local outlier scoring method.",
+        "Correct: LOF is designed to score points as outliers based on local density.",
+        "Incorrect: Naive Bayes is supervised classification.",
+        "Incorrect: Linear regression predicts continuous targets, not anomaly density scores."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes transforming features to make a linear model capture non-linear relationships (e.g., x^2, interactions)?",
+      "options": [
+        "Feature engineering",
+        "Overfitting",
+        "Label leakage",
+        "Gradient clipping"
+      ],
+      "answer": 0,
+      "explain": "Feature engineering can create nonlinear transformations or interactions that allow simpler models to fit complex patterns.",
+      "optionExplanations": [
+        "Correct: Creating polynomial or interaction features is feature engineering.",
+        "Incorrect: Overfitting is fitting noise rather than signal.",
+        "Incorrect: Label leakage is using target information in inputs.",
+        "Incorrect: Gradient clipping limits gradient magnitude during training."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of a holdout test set?",
+      "options": [
+        "To tune hyperparameters repeatedly",
+        "To provide an unbiased final evaluation after model selection",
+        "To increase training data size",
+        "To normalize features"
+      ],
+      "answer": 1,
+      "explain": "A test set is kept untouched until the end to estimate real-world performance after decisions are made.",
+      "optionExplanations": [
+        "Incorrect: Tuning on the test set contaminates evaluation.",
+        "Correct: The test set estimates final generalization after selection/tuning is complete.",
+        "Incorrect: The test set should not be merged into training in a standard workflow.",
+        "Incorrect: Normalization is a preprocessing step, not the test set's purpose."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric is commonly used to evaluate clustering quality by comparing within-cluster cohesion and between-cluster separation?",
+      "options": [
+        "Silhouette score",
+        "Accuracy",
+        "MAE",
+        "ROC-AUC"
+      ],
+      "answer": 0,
+      "explain": "Silhouette score combines cohesion and separation into a value typically between -1 and 1 for clustering assessment.",
+      "optionExplanations": [
+        "Correct: Silhouette measures how similar a point is to its own cluster vs. other clusters.",
+        "Incorrect: Accuracy requires labels, which clustering typically lacks.",
+        "Incorrect: MAE is for regression.",
+        "Incorrect: ROC-AUC is for binary classification ranking."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In association rule mining, what does 'support' measure?",
+      "options": [
+        "The probability of a rule being causal",
+        "How frequently an itemset appears in the dataset",
+        "The average purchase price",
+        "The model's classification accuracy"
+      ],
+      "answer": 1,
+      "explain": "Support is the fraction of transactions that contain the itemset, indicating how common it is.",
+      "optionExplanations": [
+        "Incorrect: Support is frequency, not causality.",
+        "Correct: It measures how often an itemset occurs in the data.",
+        "Incorrect: Support is not about prices unless items are prices.",
+        "Incorrect: Association rules are not evaluated with classification accuracy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In association rules, what does 'confidence' of A -> B represent?",
+      "options": [
+        "P(A)",
+        "P(B)",
+        "P(B | A)",
+        "P(A | B)"
+      ],
+      "answer": 2,
+      "explain": "Confidence is the conditional probability that B occurs given A occurs: P(B|A).",
+      "optionExplanations": [
+        "Incorrect: P(A) is support of A.",
+        "Incorrect: P(B) is support of B.",
+        "Correct: Confidence is P(B given A).",
+        "Incorrect: P(A|B) is the reverse conditional probability."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technique compresses a trained model by using fewer bits to represent weights, improving inference speed and size?",
+      "options": [
+        "Quantization",
+        "Data normalization",
+        "Stratified sampling",
+        "Cross-validation"
+      ],
+      "answer": 0,
+      "explain": "Quantization reduces numerical precision (e.g., FP32 to INT8), often shrinking model size and speeding inference.",
+      "optionExplanations": [
+        "Correct: Quantization lowers precision to reduce size and accelerate inference.",
+        "Incorrect: Normalization rescales input features, not model weight precision.",
+        "Incorrect: Stratified sampling is a data sampling technique.",
+        "Incorrect: Cross-validation is an evaluation method."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the role of a feature store in ML systems?",
+      "options": [
+        "To store GPU drivers",
+        "To centrally manage and serve consistent feature definitions for training and inference",
+        "To replace the need for models",
+        "To anonymize all data automatically"
+      ],
+      "answer": 1,
+      "explain": "Feature stores help ensure the same feature logic is used in both training and production, improving consistency and reuse.",
+      "optionExplanations": [
+        "Incorrect: Feature stores are not for hardware drivers.",
+        "Correct: They manage feature computation/storage for reliable training and serving.",
+        "Incorrect: A feature store supports models; it does not replace them.",
+        "Incorrect: Privacy requires dedicated processes; feature stores do not automatically anonymize all data."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes 'explainable AI' (XAI)?",
+      "options": [
+        "AI that does not require data",
+        "Methods that help humans understand why a model made a prediction",
+        "A guarantee that models are always correct",
+        "A replacement for model evaluation"
+      ],
+      "answer": 1,
+      "explain": "XAI includes techniques that provide human-understandable reasons or feature attributions for model outputs.",
+      "optionExplanations": [
+        "Incorrect: All AI systems require some form of data or knowledge.",
+        "Correct: XAI focuses on interpretability and explanation of model behavior.",
+        "Incorrect: Explanations do not guarantee correctness.",
+        "Incorrect: Explanation complements evaluation; it does not replace it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which data type is best suited for storing timestamps in a database to support time-based queries?",
+      "options": [
+        "VARCHAR",
+        "DATETIME/TIMESTAMP",
+        "BLOB",
+        "BOOLEAN"
+      ],
+      "answer": 1,
+      "explain": "A timestamp/datetime type stores time in a structured format that supports indexing and range queries.",
+      "optionExplanations": [
+        "Incorrect: VARCHAR stores text and makes time filtering slower and error-prone.",
+        "Correct: DATETIME/TIMESTAMP supports correct time arithmetic and querying.",
+        "Incorrect: BLOB is for unstructured binary data.",
+        "Incorrect: BOOLEAN stores true/false, not times."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main benefit of using an index on a database column used in WHERE filters?",
+      "options": [
+        "It increases file size without changing speed",
+        "It can speed up lookups by reducing full table scans",
+        "It guarantees no duplicate values",
+        "It converts the database to columnar storage"
+      ],
+      "answer": 1,
+      "explain": "Indexes create auxiliary structures that allow faster searching/filtering, often avoiding scanning every row.",
+      "optionExplanations": [
+        "Incorrect: Indexes may increase storage, but they can improve speed.",
+        "Correct: Indexes can greatly speed filtering and joins by avoiding full scans.",
+        "Incorrect: Uniqueness requires a UNIQUE constraint, not just an index.",
+        "Incorrect: Indexing does not change the underlying storage format to columnar."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a neural network, what does the term 'epoch' mean?",
+      "options": [
+        "One update of a single weight",
+        "One full pass through the entire training dataset",
+        "The number of neurons in a layer",
+        "A fixed random seed value"
+      ],
+      "answer": 1,
+      "explain": "An epoch is completed when the model has processed all training examples once (usually in mini-batches).",
+      "optionExplanations": [
+        "Incorrect: A single weight update is a step/iteration, not necessarily an epoch.",
+        "Correct: An epoch is one full pass through the training data.",
+        "Incorrect: Neuron count is architecture, not an epoch definition.",
+        "Incorrect: A random seed controls randomness, not training passes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which loss function is most commonly used for binary classification with probabilistic outputs?",
+      "options": [
+        "Mean squared error",
+        "Binary cross-entropy (log loss)",
+        "Huber loss",
+        "Poisson deviance"
+      ],
+      "answer": 1,
+      "explain": "Binary cross-entropy penalizes incorrect probability estimates for binary labels and is standard for logistic outputs.",
+      "optionExplanations": [
+        "Incorrect: MSE can be used but is not the typical choice for probabilistic binary classification.",
+        "Correct: Binary cross-entropy is the standard loss for binary classification probabilities.",
+        "Incorrect: Huber loss is mainly used for robust regression.",
+        "Incorrect: Poisson deviance is used for count models, not standard binary classification."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does the term 'feature scaling' refer to?",
+      "options": [
+        "Changing the target labels to integers",
+        "Transforming input features to comparable ranges or distributions",
+        "Randomly shuffling rows of the dataset",
+        "Replacing a model with an ensemble"
+      ],
+      "answer": 1,
+      "explain": "Feature scaling transforms input variables (e.g., standardization or normalization) so they are on comparable scales for learning algorithms.",
+      "optionExplanations": [
+        "Incorrect: Label encoding changes labels/categories, not feature scaling.",
+        "Correct: Scaling adjusts feature ranges/distributions to improve training behavior for some models.",
+        "Incorrect: Shuffling changes order, not numeric scale.",
+        "Incorrect: Ensembling combines models, not scaling features."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
 }
-]
-}
-
-SECTION 4 - CHECKLIST_LINE_UPDATE
-
-* [ ] Data Science & AI: 15/100 total (official 15 + historical 0; Need 85)
-* [x] Data Science & AI: 15/100 total (official 15 + historical 0; Need 85)

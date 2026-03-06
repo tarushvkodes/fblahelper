@@ -18,6 +18,7 @@ const EVENTS = [
 ];
 
 const RESOURCE_DATA = window.RESOURCE_INTERACTIVE_DATA || { objectiveQuizzes: {}, roleplayScenarios: [], productionTests: {} };
+const COMBINED_DATA = window.COMBINED_QUESTION_BANK || { banks: {} };
 const AI_DATA = window.AI_QUESTION_BANK || { banks: {} };
 
 const MEMORY_TACTICS = [
@@ -66,6 +67,57 @@ function norm(s) {
   return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function normalizeQuestionRuntime(q, fallbackSource) {
+  if (!q || typeof q.q !== "string" || !Array.isArray(q.options) || q.options.length !== 4) return null;
+  const answer = Number(q.answer);
+  if (!Number.isInteger(answer) || answer < 0 || answer > 3) return null;
+
+  const optionExplanations = Array.isArray(q.optionExplanations)
+    ? q.optionExplanations.slice(0, 4).map((value) => typeof value === "string" ? value.trim() : "")
+    : [];
+
+  return {
+    q: q.q.trim(),
+    options: q.options.map((value) => String(value).trim()),
+    answer,
+    explain: typeof q.explain === "string" ? q.explain.trim() : "",
+    optionExplanations,
+    source: typeof q.source === "string" && q.source.trim() ? q.source.trim() : fallbackSource
+  };
+}
+
+function dedupeDeck(deck) {
+  const seen = new Set();
+  return deck.filter((q) => {
+    const key = norm(q.q);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return Array.isArray(q.options) && q.options.length === 4;
+  });
+}
+
+function mergeBanks(...banks) {
+  const merged = {};
+  banks.forEach((bank) => {
+    Object.entries(bank || {}).forEach(([eventName, deck]) => {
+      const normalized = dedupeDeck((Array.isArray(deck) ? deck : [])
+        .map((question) => normalizeQuestionRuntime(question, "official-hq"))
+        .filter(Boolean));
+
+      if (!merged[eventName]) {
+        merged[eventName] = normalized;
+        return;
+      }
+
+      merged[eventName] = dedupeDeck([...merged[eventName], ...normalized]);
+    });
+  });
+  return merged;
+}
+
+const OFFICIAL_BANKS = mergeBanks(COMBINED_DATA.banks, RESOURCE_DATA.objectiveQuizzes);
+const AI_BANKS = mergeBanks(AI_DATA.banks);
+
 function inferFormat(eventName) {
   const lower = eventName.toLowerCase();
   if (lower.includes("interview") || lower.includes("speaking") || lower.includes("presentation") || lower.includes("announcement")) return "presentation";
@@ -96,49 +148,15 @@ function findBestKey(keys, eventName) {
 }
 
 function getOfficialDeck(eventName) {
-  const keys = Object.keys(RESOURCE_DATA.objectiveQuizzes || {});
+  const keys = Object.keys(OFFICIAL_BANKS || {});
   const key = findBestKey(keys, eventName);
-  return key ? RESOURCE_DATA.objectiveQuizzes[key] : [];
+  return key ? OFFICIAL_BANKS[key] : [];
 }
 
 function getAIDeck(eventName) {
-  const keys = Object.keys(AI_DATA.banks || {});
+  const keys = Object.keys(AI_BANKS || {});
   const key = findBestKey(keys, eventName);
-  return key ? AI_DATA.banks[key] : [];
-}
-
-function dedupeDeck(deck) {
-  const seen = new Set();
-  return deck.filter((q) => {
-    const key = norm(q.q);
-    if (!key || seen.has(key)) return false;
-    seen.add(key);
-    return Array.isArray(q.options) && q.options.length === 4;
-  });
-}
-
-function enrichQuestionLocally(q, source = q?.source || "official-hq") {
-  const stopWords = new Set(["the", "a", "an", "is", "are", "of", "to", "for", "in", "on", "with", "which", "what", "does", "best", "following", "and", "or", "by"]);
-  const terms = (norm(q?.q || "").split(" ").filter((w) => w.length > 3 && !stopWords.has(w)).slice(0, 4));
-  const termText = terms.length ? terms.join(", ") : "the concept in the question";
-  const correct = q?.options?.[q?.answer] || "the correct option";
-
-  const optionExplanations = (q?.options || []).map((opt, idx) => {
-    if (Array.isArray(q?.optionExplanations) && typeof q.optionExplanations[idx] === "string") return q.optionExplanations[idx];
-    const overlap = norm(opt).split(" ").filter((w) => terms.includes(w));
-    if (idx === q.answer) return `Correct. This option directly matches ${termText}.`;
-    if (overlap.length) return `Not best here. It overlaps on ${overlap.join(", ")} but misses the exact stem requirement.`;
-    return `Not correct for this item because it targets a different idea than ${termText}.`;
-  });
-
-  return {
-    ...q,
-    explain: (q?.explain && !/adapted from the official sample question set\.?/i.test(q.explain))
-      ? q.explain
-      : `${correct} is correct because it most directly answers the stem about ${termText}.`,
-    optionExplanations,
-    source
-  };
+  return key ? AI_BANKS[key] : [];
 }
 
 function getQuizBankMode() {
@@ -146,11 +164,22 @@ function getQuizBankMode() {
 }
 
 function getDeckForMode(eventName, mode) {
-  const hqDeck = dedupeDeck(getOfficialDeck(eventName).map((q) => enrichQuestionLocally({ ...q, source: "official-hq" }, "official-hq")));
+  const hqDeck = dedupeDeck(getOfficialDeck(eventName));
   if (mode !== "hq-ai") return hqDeck;
 
-  const aiDeck = dedupeDeck(getAIDeck(eventName).map((q) => enrichQuestionLocally({ ...q, source: "generated-bespoke" }, "generated-bespoke")));
+  const aiDeck = dedupeDeck(getAIDeck(eventName));
   return dedupeDeck([...hqDeck, ...aiDeck]);
+}
+
+function getEventBankBreakdown(eventName) {
+  const official = getDeckForMode(eventName, "hq");
+  const aiOnly = dedupeDeck(getAIDeck(eventName));
+  const combined = getDeckForMode(eventName, "hq-ai");
+  return {
+    official: official.length,
+    ai: aiOnly.length,
+    combined: combined.length
+  };
 }
 
 function setControlVisibility(el, show) {
@@ -169,8 +198,8 @@ function updateQuizAvailability() {
   const modeSelect = document.getElementById("quizBankMode");
   const hqOption = modeSelect.querySelector('option[value="hq"]');
   const hqAiOption = modeSelect.querySelector('option[value="hq-ai"]');
-  if (hqOption) hqOption.textContent = `HQ Only (${hqAvailable})`;
-  if (hqAiOption) hqAiOption.textContent = `HQ + AI (Cleaned) (${hqAiAvailable})`;
+  if (hqOption) hqOption.textContent = `Official Packaged (${hqAvailable})`;
+  if (hqAiOption) hqAiOption.textContent = `Official + Pregenerated AI (${hqAiAvailable})`;
 
   const btn20 = document.getElementById("launchTwentyBtn");
   const btn50 = document.getElementById("launchFiftyBtn");
@@ -207,8 +236,8 @@ function updateQuizAvailability() {
   else btnMax.classList.add("official-target");
 
   document.getElementById("officialFormatNote").textContent = mode === "hq"
-    ? `HQ-only bank active (${hqAvailable} available).`
-    : `HQ + cleaned AI bank active (${hqAiAvailable} available).`;
+    ? `Official packaged bank active (${hqAvailable} available).`
+    : `Official plus pregenerated AI bank active (${hqAiAvailable} available).`;
 }
 
 function getRoleplayDeck(eventName) {
@@ -306,12 +335,23 @@ function openEvent(eventName, tabName = "overview") {
   document.getElementById("eventFormatLabel").textContent = `${format} event workspace`;
   document.getElementById("activeEventTitle").textContent = eventName;
 
+  const breakdown = getEventBankBreakdown(eventName);
   const combinedCount = getDeckForMode(eventName, getQuizBankMode()).length;
   const roleplayCount = getRoleplayDeck(eventName).length;
 
-  document.getElementById("activeEventMeta").textContent = `${combinedCount} practice questions and ${roleplayCount} roleplay variants.`;
+  document.getElementById("activeEventMeta").textContent = `${combinedCount} available quiz questions, ${roleplayCount} roleplay variants, and packaged study tools for ${eventName}.`;
   document.getElementById("overviewRoleplayCount").textContent = `${roleplayCount} roleplay variants available.`;
   document.getElementById("overviewRoleplayHint").textContent = `Use scenario variants to practice different judge angles for ${eventName}.`;
+  document.getElementById("overviewSourceCoverage").textContent = `Official packaged: ${breakdown.official}. Pregenerated AI: ${breakdown.ai}. Combined deduped: ${breakdown.combined}.`;
+  document.getElementById("overviewQuestionAdvice").textContent = breakdown.combined >= 100
+    ? `This event has enough packaged questions for a full 100-question rep. Use Official mode first, then mix in AI for breadth.`
+    : `This event is still below 100 combined packaged questions. Start with Official mode, then use Flashcards and Roleplay Lab to reinforce gaps.`;
+  document.getElementById("overviewToolkit").innerHTML = [
+    `Run Official mode first to learn the canonical phrasing for ${eventName}.`,
+    `Use Official + Pregenerated AI mode only for additional reps from packaged banks already in the repo.`,
+    "After every exam, review misses and restate why the keyed answer wins before moving on.",
+    "Use Flashcards for rapid recall, then switch to Roleplay Lab or Production Tasks for event transfer."
+  ].map((item) => `<li>${item}</li>`).join("");
   updateQuizAvailability();
 
   buildFlashcards(eventName);
@@ -447,56 +487,27 @@ function submitExam() {
   let correct = 0;
   const reviewRows = [];
 
-  const genericExplainPattern = /adapted from the official sample question set\.?/i;
-
-  const stopWords = new Set(["the", "a", "an", "is", "are", "of", "to", "for", "in", "on", "with", "which", "what", "does", "best", "following", "and", "or", "by"]);
-
-  const focusTerms = (text) => {
-    return (text || "")
-      .toLowerCase()
-      .replace(/[^a-z0-9\s]/g, " ")
-      .split(/\s+/)
-      .filter((w) => w.length > 3 && !stopWords.has(w))
-      .slice(0, 4);
-  };
-
   const toAnswerLabel = (q, idx) => {
     if (!Number.isInteger(idx) || !q?.options?.[idx]) return "No answer selected";
     return `${String.fromCharCode(65 + idx)}. ${q.options[idx]}`;
   };
 
   const optionReason = (q, idx) => {
-    if (Array.isArray(q?.optionExplanations) && typeof q.optionExplanations[idx] === "string") {
+    if (Array.isArray(q?.optionExplanations) && typeof q.optionExplanations[idx] === "string" && q.optionExplanations[idx].trim()) {
       return `${toAnswerLabel(q, idx)}: ${q.optionExplanations[idx]}`;
     }
 
-    const optionLabel = toAnswerLabel(q, idx);
-    const terms = focusTerms(q.q);
-    const termText = terms.length ? terms.join(", ") : "the key concept in the prompt";
-    const optionWords = norm(q.options[idx]).split(" ");
-    const shared = terms.filter((t) => optionWords.includes(t));
-
-    if (!Number.isInteger(q?.answer)) {
-      return `${optionLabel}: Compare this choice against ${termText} to verify fit.`;
-    }
-    if (idx === q.answer) {
-      return `${optionLabel}: Correct because it aligns with ${termText}${shared.length ? ` and directly reflects ${shared.join(", ")}` : ""}.`;
-    }
-    if (shared.length) {
-      return `${optionLabel}: Looks plausible because it shares ${shared.join(", ")}, but it does not fully satisfy the stem requirement.`;
-    }
-    return `${optionLabel}: Not selected because it points to a different idea than ${termText}.`;
+    if (idx === q.answer) return `${toAnswerLabel(q, idx)}: This is the keyed correct option from the packaged bank.`;
+    return `${toAnswerLabel(q, idx)}: This is not the keyed answer in the packaged bank for this item.`;
   };
 
   const toExplanation = (q) => {
-    if (q?.explain && !genericExplainPattern.test(q.explain)) return q.explain;
-    if (Number.isInteger(q?.answer) && q?.options?.[q.answer]) {
-      const terms = focusTerms(q.q);
-      const termText = terms.length ? terms.join(", ") : "the concept tested by the stem";
-      return `This item tests ${termText}. ${toAnswerLabel(q, q.answer)} is the strongest match because it directly addresses that requirement.`;
-    }
-    return "Review this concept and compare your choice with official guidance.";
+    if (q?.explain && q.explain.trim()) return q.explain.trim();
+    if (Number.isInteger(q?.answer)) return `Packaged bank answer key: ${toAnswerLabel(q, q.answer)}.`;
+    return "Packaged bank feedback is not available for this item.";
   };
+
+  const missedTopics = [];
 
   deck.forEach((q, i) => {
     if (!Number.isInteger(q.answer)) return;
@@ -504,6 +515,7 @@ function submitExam() {
     const picked = state.quiz.answers[i];
     const isCorrect = picked === q.answer;
     if (isCorrect) correct += 1;
+    else missedTopics.push(q.q);
 
     const optionFeedback = q.options
       .map((_, idx) => `<li>${optionReason(q, idx)}</li>`)
@@ -523,10 +535,20 @@ function submitExam() {
 
   const pct = total ? Math.round((correct / total) * 100) : 0;
   const verdict = pct >= 85 ? "Nationals pace" : pct >= 70 ? "Solid" : "Needs reinforcement";
+  const recoveryAdvice = pct >= 85
+    ? "Run a second set in Official + Pregenerated AI mode to widen coverage without changing the event focus."
+    : pct >= 70
+      ? "Review every miss, flip through flashcards for this event, then rerun a shorter timed set in Official mode."
+      : "Slow down. Review the missed items, restate the correct answer out loud, and use the Flashcards and Prep Checklist before another full exam.";
+  const missPreview = missedTopics.length
+    ? `<p><strong>Missed prompts to revisit:</strong> ${missedTopics.slice(0, 3).join(" | ")}${missedTopics.length > 3 ? " ..." : ""}</p>`
+    : "";
 
   document.getElementById("examResults").innerHTML = `
     <h3>Exam Result</h3>
     <p><strong>${correct}/${total}</strong> (${pct}%) - ${verdict}</p>
+    <p><strong>Recovery advice:</strong> ${recoveryAdvice}</p>
+    ${missPreview}
     <p class="eyebrow">Question Review</p>
     <div class="exam-review">${reviewRows.join("")}</div>
   `;
@@ -592,9 +614,13 @@ function renderRoleplay(eventName) {
 function buildFlashcards(eventName) {
   const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, 18);
   const generated = base.map((q) => {
-    const back = Number.isInteger(q.answer)
+    const answerLine = Number.isInteger(q.answer)
       ? `${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}`
-      : "Review this concept and explain your choice out loud.";
+      : "No packaged answer available.";
+    const explainLine = q.explain && q.explain.trim()
+      ? q.explain.trim()
+      : "Use this card to restate why the keyed answer is strongest before moving on.";
+    const back = `${answerLine}\n\n${explainLine}`;
     return { front: q.q, back };
   });
 

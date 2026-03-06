@@ -1,1187 +1,1625 @@
-SECTION 1 - SELECTED_EVENT
-Journalism
-
-SECTION 2 - NEW_FILE_NAME
-generated_by_checklist/journalism_batch_001.json
-
-SECTION 3 - JSON_CONTENT
 {
-"event": "Journalism",
-"questions": [
-{
-"q": "A newspaper reduces its number of printed editions per week to save costs. This decision primarily reflects which economic factor?",
-"options": ["Production costs", "Advertising revenue", "Circulation ethics", "Syndication rights"],
-"answer": 0,
-"explain": "Reducing print frequency to save money is most directly tied to lowering production costs such as printing, paper, and distribution.",
-"optionExplanations": [
-"Correct because printing fewer editions reduces direct operating expenses.",
-"Advertising revenue affects income, but the question focuses on cutting costs.",
-"Circulation ethics is not a standard economic cost factor.",
-"Syndication rights concern content licensing, not routine print production expenses."
-],
-"source": "official-hq"
-},
-{
-"q": "A local TV station offers a special advertising package to local businesses to cover a major festival. This is an example of:",
-"options": ["News sponsorship", "Branded content", "Public service announcement", "Editorial independence"],
-"answer": 0,
-"explain": "A special package tied to coverage of an event is a sponsorship arrangement in which advertisers support or associate with coverage.",
-"optionExplanations": [
-"Correct because the station is linking advertiser support to event coverage.",
-"Branded content is advertiser-created or heavily advertiser-shaped content, which is not stated here.",
-"A public service announcement is informational messaging for the public, not a paid ad package.",
-"Editorial independence is a principle, not a revenue product."
-],
-"source": "official-hq"
-},
-{
-"q": "Which revenue stream is most affected when online readers use ad-blocking software?",
-"options": ["Subscription fees", "Classified advertising", "Digital display ads", "Syndication rights"],
-"answer": 2,
-"explain": "Ad-blocking software prevents many banner and display advertisements from loading, directly reducing digital display ad impressions and revenue.",
-"optionExplanations": [
-"Subscription fees are usually unaffected by ad-blocking because readers pay directly.",
-"Classified advertising is a category of ads, but ad blockers most directly reduce display ad delivery.",
-"Correct because digital display ads are often blocked before readers see them.",
-"Syndication rights revenue comes from licensing content, not on-page ad views."
-],
-"source": "official-hq"
-},
-{
-"q": "A news outlet's primary source of income from placing another company's stories on their platform comes from:",
-"options": ["Subscription royalties", "Wire service fees", "Syndication revenue", "Licensing contracts"],
-"answer": 2,
-"explain": "Syndication revenue refers to money earned through distributing or carrying content across platforms and outlets.",
-"optionExplanations": [
-"Subscription royalties is not the standard term for this type of arrangement.",
-"Wire service fees are typically what an outlet pays to a service like AP, not its own income from placing others' stories.",
-"Correct because syndication involves distributing content or carrying content under business agreements.",
-"Licensing contracts are related, but the standard journalism revenue term here is syndication revenue."
-],
-"source": "official-hq"
-},
-{
-"q": "When a newspaper partners with a sports team to produce a special supplement, what ethical challenge might arise?",
-"options": ["Plagiarism risk", "Conflict of interest", "Lack of sources", "Fair use violation"],
-"answer": 1,
-"explain": "A partnership with a covered subject can create a conflict of interest by making the newsroom appear less independent.",
-"optionExplanations": [
-"Plagiarism involves using someone else's work without credit, which is not the main issue here.",
-"Correct because a business partnership with a subject can compromise or appear to compromise editorial independence.",
-"A supplement can still have plenty of sources, so this is not the central ethical concern.",
-"Fair use relates to copyright exceptions, not the key issue created by the partnership."
-],
-"source": "official-hq"
-},
-{
-"q": "A newsroom faces budget cuts and considers laying off photojournalists while relying on freelancers. Which concern is most relevant?",
-"options": ["Reduced editorial independence", "Decreased visual consistency", "Increased wire service usage", "Loss of investigative depth"],
-"answer": 1,
-"explain": "Replacing staff photojournalists with freelancers can reduce consistency in visual style, standards, and day-to-day coordination.",
-"optionExplanations": [
-"Editorial independence is not the most direct effect of using freelancers for photos.",
-"Correct because staffing changes can make image quality, style, and workflow less consistent.",
-"Wire services provide outside content, but the scenario specifically mentions freelancers.",
-"Investigative depth is more directly tied to reporting resources than visual staffing."
-],
-"source": "official-hq"
-},
-{
-"q": "Why might a digital news start-up focus on building a niche audience?",
-"options": ["To avoid paying licensing fees", "To attract targeted advertisers", "To reduce legal liability", "To bypass copyright laws"],
-"answer": 1,
-"explain": "A niche audience is valuable because advertisers often pay more to reach a clearly defined, relevant group.",
-"optionExplanations": [
-"Audience focus does not eliminate licensing fees.",
-"Correct because a specific audience can be sold to advertisers seeking that exact market.",
-"Niche targeting does not itself reduce legal liability.",
-"No audience strategy allows a company to bypass copyright law."
-],
-"source": "official-hq"
-},
-{
-"q": "Paywalls are designed primarily to:",
-"options": ["Increase audience size", "Generate subscription revenue", "Reduce printing costs", "Comply with government regulations"],
-"answer": 1,
-"explain": "Paywalls restrict access to content unless users pay, making them a tool for generating subscription revenue.",
-"optionExplanations": [
-"Paywalls may reduce audience size rather than increase it.",
-"Correct because the main purpose is to convert readers into paying subscribers.",
-"A paywall is a digital revenue strategy, not a direct print-cost reduction tool.",
-"Paywalls are business decisions, not generally required by law."
-],
-"source": "official-hq"
-},
-{
-"q": "A newspaper offers bundled print and digital subscriptions at a lower price than purchasing separately. This is an example of:",
-"options": ["Cross-promotion", "Price discrimination", "Product bundling", "Market segmentation"],
-"answer": 2,
-"explain": "Selling print and digital together at a combined price is product bundling.",
-"optionExplanations": [
-"Cross-promotion involves promoting one product through another, but this question is about pricing two products together.",
-"Price discrimination means charging different prices to different buyers, which is not the main feature here.",
-"Correct because multiple products are packaged together for a single combined offer.",
-"Market segmentation is dividing customers into groups, not the pricing tactic described."
-],
-"source": "official-hq"
-},
-{
-"q": "What is a potential downside for a news organization that relies heavily on sponsored content?",
-"options": ["Loss of audience trust", "Increased printing costs", "Reduced web traffic", "Higher subscription rates"],
-"answer": 0,
-"explain": "Heavy reliance on sponsored content can blur the line between advertising and journalism, weakening audience trust.",
-"optionExplanations": [
-"Correct because readers may question whether coverage is independent.",
-"Sponsored content does not inherently raise printing costs.",
-"Web traffic might not decrease and can even rise, so this is not the main risk.",
-"Subscription rates are pricing decisions, not a direct consequence of sponsored content."
-],
-"source": "official-hq"
-},
-{
-"q": "Which headline follows AP Style correctly?",
-"options": ["Mayor Announces New Library in the Downtown Area", "Mayor announces new library in downtown area", "Mayor announces New Library in Downtown area", "mayor announces new library in Downtown area"],
-"answer": 1,
-"explain": "AP headlines generally use sentence-style capitalization rather than capitalizing most words.",
-"optionExplanations": [
-"This uses title-style capitalization rather than the AP-preferred sentence style in this context.",
-"Correct because only the first word and proper nouns are capitalized.",
-"This incorrectly capitalizes common nouns in the middle of the headline.",
-"This incorrectly leaves the first word lowercase and capitalizes downtown improperly."
-],
-"source": "official-hq"
-},
-{
-"q": "In AP Style, which sentence is correct?",
-"options": ["She lives at 315 west oak street.", "She lives at 315 West Oak Street.", "She lives at 315 W. oak street.", "She lives at 315 West oak Street."],
-"answer": 1,
-"explain": "In AP style for a numbered address, directional and street elements are capitalized appropriately, producing West Oak Street.",
-"optionExplanations": [
-"This incorrectly leaves proper address words lowercase.",
-"Correct because the address is capitalized properly.",
-"This mixes an abbreviation with incorrect lowercase street words.",
-"This incorrectly leaves Oak lowercase."
-],
-"source": "official-hq"
-},
-{
-"q": "Which sentence uses the correct past tense form for broadcast?",
-"options": ["The station broadcasted the show live.", "The station broadcasts the show live.", "The station broadcast the show live.", "The station has broadcasted the show live."],
-"answer": 2,
-"explain": "Broadcast is commonly used as both the present and past tense verb in standard journalism usage.",
-"optionExplanations": [
-"Broadcasted is often considered nonstandard in news style.",
-"This is present tense, not past tense.",
-"Correct because broadcast is the standard past tense form.",
-"This uses a nonpreferred past participle form in journalism style."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is the correct way to abbreviate Avenue in an address according to AP Style?",
-"options": ["Ave.", "Av.", "Avn.", "Ave"],
-"answer": 0,
-"explain": "AP style abbreviates Avenue as Ave. when used with a numbered address.",
-"optionExplanations": [
-"Correct because Ave. is the standard AP abbreviation in numbered addresses.",
-"Av. is not the standard AP abbreviation.",
-"Avn. is not used in AP style.",
-"The abbreviation takes a period in AP style."
-],
-"source": "official-hq"
-},
-{
-"q": "In AP Style, how should numbers 10 and above be written in text?",
-"options": ["As numerals", "As words", "Either words or numerals", "Roman numerals"],
-"answer": 0,
-"explain": "AP style generally uses numerals for 10 and above and spells out one through nine in most ordinary contexts.",
-"optionExplanations": [
-"Correct because AP style prefers numerals for 10 and above.",
-"Words are generally used for one through nine, not 10 and above.",
-"AP style gives a general rule rather than making them interchangeable.",
-"Roman numerals are not the standard format for ordinary numbers in news writing."
-],
-"source": "official-hq"
-},
-{
-"q": "Which sentence correctly uses a possessive for a plural noun ending in s?",
-"options": ["The teachers' lounge was recently renovated.", "The teacher's lounge was recently renovated.", "The teachers lounge was recently renovated.", "The teachers's lounge was recently renovated."],
-"answer": 0,
-"explain": "For a plural noun ending in s, the possessive is formed by adding only an apostrophe.",
-"optionExplanations": [
-"Correct because teachers' shows possession by multiple teachers.",
-"Teacher's is singular possessive, not plural possessive.",
-"This lacks the apostrophe needed for possession.",
-"Adding apostrophe plus s after a plural noun ending in s is incorrect here."
-],
-"source": "official-hq"
-},
-{
-"q": "In a news story, which sentence maintains objectivity?",
-"options": ["The mayor's brilliant proposal will save the city millions.", "The mayor proposed a plan projected to save the city millions.", "The mayor's plan is unquestionably the best choice for the city.", "The mayor's foolish plan will cost taxpayers dearly."],
-"answer": 1,
-"explain": "Objective reporting states the proposal and its projected effect without loaded praise or criticism.",
-"optionExplanations": [
-"Brilliant is subjective and editorializes.",
-"Correct because it reports the plan in neutral language.",
-"Unquestionably the best choice is opinion, not objective reporting.",
-"Foolish and dearly are loaded and biased terms."
-],
-"source": "official-hq"
-},
-{
-"q": "Which punctuation mark is used in AP Style for an abrupt change in thought?",
-"options": ["Colon", "Semicolon", "Em dash", "Parentheses"],
-"answer": 2,
-"explain": "An em dash is commonly used to indicate a sharp break or sudden change in thought.",
-"optionExplanations": [
-"A colon usually introduces an explanation or list, not an abrupt break.",
-"A semicolon links closely related clauses, not a sudden interruption.",
-"Correct because an em dash marks an abrupt shift or interruption.",
-"Parentheses add side information but do not usually signal an abrupt change."
-],
-"source": "official-hq"
-},
-{
-"q": "Which sentence correctly uses the Oxford comma according to AP Style?",
-"options": ["The flag is red, white, and blue.", "The flag is red, white and blue.", "The flag is red and white, and blue.", "The flag, is red, white and blue."],
-"answer": 1,
-"explain": "AP style generally omits the serial comma before the final item in a simple series.",
-"optionExplanations": [
-"This includes the serial comma, which AP style usually omits.",
-"Correct because AP style normally writes a simple series without the Oxford comma.",
-"This punctuation is incorrect for a simple series.",
-"This adds an unnecessary comma after flag."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is the correct attribution for a quote in AP Style?",
-"options": ["We will win, said the coach.", "We will win, the coach said.", "a and b are both correct", "We will win. the coach said."],
-"answer": 2,
-"explain": "Both said the coach and the coach said can be acceptable quotation attributions in standard AP style usage.",
-"optionExplanations": [
-"This can be acceptable attribution formatting.",
-"This can also be acceptable attribution formatting.",
-"Correct because both versions are acceptable.",
-"This punctuation is incorrect because the period placement is wrong."
-],
-"source": "official-hq"
-},
-{
-"q": "A reporter is sued for publishing false statements about a local business. Which legal concept applies?",
-"options": ["Slander", "Libel", "Invasion of privacy", "Copyright infringement"],
-"answer": 1,
-"explain": "Libel is defamation in written or published form, while slander is spoken defamation.",
-"optionExplanations": [
-"Slander applies to spoken defamatory statements, not written publication.",
-"Correct because the false statements were published in written form.",
-"Invasion of privacy is a different tort involving improper disclosure or intrusion.",
-"Copyright infringement concerns unauthorized use of protected works."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is a defense against a libel claim?",
-"options": ["Prior restraint", "Truth", "Malice", "Anonymous sourcing"],
-"answer": 1,
-"explain": "Truth is a core defense to libel because a statement that is true is not defamatory in the legal sense.",
-"optionExplanations": [
-"Prior restraint concerns government suppression before publication, not a defense to libel.",
-"Correct because true statements generally cannot support a successful libel claim.",
-"Malice helps establish liability for some plaintiffs; it is not a defense.",
-"Anonymous sourcing is a reporting method, not a legal defense by itself."
-],
-"source": "official-hq"
-},
-{
-"q": "A photographer takes a picture of a protest in a public park. Can the image be published without consent?",
-"options": ["Yes, because it's a public setting", "No, all individuals must consent", "Only if the protest was newsworthy", "Only if the photographer had a press badge"],
-"answer": 0,
-"explain": "People in public settings generally have a reduced expectation of privacy, so news photographs from public events can usually be published without individual consent.",
-"optionExplanations": [
-"Correct because public protests in public places are generally open to news coverage.",
-"There is no general rule requiring consent from every person in a public news photo.",
-"Newsworthiness strengthens the case, but public setting alone usually permits publication.",
-"A press badge is not what determines publication legality."
-],
-"source": "official-hq"
-},
-{
-"q": "A reporter uses a hidden camera in a restaurant to expose health violations. Which ethical issue might this raise?",
-"options": ["Plagiarism", "Conflict of interest", "Deceptive reporting", "Misattribution"],
-"answer": 2,
-"explain": "Using a hidden camera involves deception because the reporting method conceals the journalist's identity or purpose.",
-"optionExplanations": [
-"Plagiarism involves copying another's work without credit, which is unrelated here.",
-"Conflict of interest concerns divided loyalties, not covert newsgathering.",
-"Correct because the hidden camera method relies on deception.",
-"Misattribution means crediting information to the wrong source."
-],
-"source": "official-hq"
-},
-{
-"q": "The fair comment defense protects journalists who:",
-"options": ["Report facts without sources", "Express opinions on matters of public interest", "Use copyrighted material", "Publish private facts"],
-"answer": 1,
-"explain": "Fair comment protects opinion on matters of public concern when it is clearly opinion rather than false factual assertion.",
-"optionExplanations": [
-"Unsourced factual reporting is not what the doctrine protects.",
-"Correct because fair comment concerns protected opinion on public matters.",
-"Copyright use is governed by fair use, not fair comment.",
-"Publishing private facts raises privacy concerns rather than triggering this defense."
-],
-"source": "official-hq"
-},
-{
-"q": "Which scenario best describes prior restraint?",
-"options": ["A court orders a newspaper not to publish an upcoming article", "A journalist edits their own article before submission", "An editor rejects a story for lack of sources", "A newspaper issues a correction after publication"],
-"answer": 0,
-"explain": "Prior restraint occurs when the government or a court stops publication before it happens.",
-"optionExplanations": [
-"Correct because it prevents publication in advance.",
-"A writer revising a story is ordinary editing, not prior restraint.",
-"Editorial rejection by a newsroom is not government suppression.",
-"A correction happens after publication, not before it."
-],
-"source": "official-hq"
-},
-{
-"q": "Which of the following is a form of invasion of privacy?",
-"options": ["Printing true but embarrassing facts about someone", "Publishing a public official's voting record", "Photographing a parade from the sidewalk", "Quoting a city council meeting"],
-"answer": 0,
-"explain": "Public disclosure of private facts can be an invasion of privacy even when the facts are true, if they are highly offensive and not of legitimate public concern.",
-"optionExplanations": [
-"Correct because disclosure of private, embarrassing facts is a recognized privacy tort.",
-"A public official's voting record is a public matter.",
-"Parades in public are generally open to photography.",
-"City council meetings are public proceedings and may be quoted."
-],
-"source": "official-hq"
-},
-{
-"q": "Which case established the actual malice standard for public figures?",
-"options": ["Tinker v. Des Moines", "Near v. Minnesota", "New York Times v. Sullivan", "Hazelwood v. Kuhlmeier"],
-"answer": 2,
-"explain": "New York Times v. Sullivan established that public officials, and later public figures, must prove actual malice in defamation cases.",
-"optionExplanations": [
-"Tinker concerned student speech rights, not libel standards.",
-"Near addressed prior restraint, not actual malice.",
-"Correct because this case created the actual malice standard.",
-"Hazelwood concerned school-sponsored student speech."
-],
-"source": "official-hq"
-},
-{
-"q": "Which ethical principle requires journalists to separate news from advertising?",
-"options": ["Transparency", "Independence", "Fairness", "Accountability"],
-"answer": 1,
-"explain": "Independence requires journalists to avoid influence from advertisers and to keep editorial content distinct from advertising.",
-"optionExplanations": [
-"Transparency involves openness, but separation from advertisers is most directly tied to independence.",
-"Correct because independent journalism must remain separate from commercial influence.",
-"Fairness concerns balanced treatment, not primarily ad separation.",
-"Accountability means correcting errors and answering for decisions."
-],
-"source": "official-hq"
-},
-{
-"q": "A reporter includes unverified rumors in a story about a celebrity. Which ethical standard is being violated?",
-"options": ["Seek truth and report it", "Minimize harm", "Act independently", "Be accountable"],
-"answer": 0,
-"explain": "Publishing unverified rumors fails the duty to verify information and seek truth before reporting.",
-"optionExplanations": [
-"Correct because journalists are expected to verify facts before publication.",
-"Minimize harm may also matter, but the clearest violation is failure to verify truth.",
-"Act independently concerns avoiding improper influence, not verification.",
-"Accountability matters after mistakes, but the initial problem is lack of verification."
-],
-"source": "official-hq"
-},
-{
-"q": "Which question is NOT one of the Five Ws and One H?",
-"options": ["Where", "When", "Which", "Why"],
-"answer": 2,
-"explain": "The standard set is who, what, when, where, why, and how. Which is not one of them.",
-"optionExplanations": [
-"Where is one of the standard reporting questions.",
-"When is one of the standard reporting questions.",
-"Correct because which is not part of the classic set.",
-"Why is one of the standard reporting questions."
-],
-"source": "official-hq"
-},
-{
-"q": "The lead of a news story should primarily:",
-"options": ["Provide background details", "Summarize the most important facts", "Offer the reporter's opinion", "Introduce sources"],
-"answer": 1,
-"explain": "A news lead gives readers the key facts quickly so they understand the central development immediately.",
-"optionExplanations": [
-"Background usually comes later after the most important facts.",
-"Correct because the lead summarizes the essential information first.",
-"A straight news lead should not present the reporter's opinion.",
-"Sources may appear in the lead, but introducing them is not its main purpose."
-],
-"source": "official-hq"
-},
-{
-"q": "Which of the following is a feature story?",
-"options": ["Breaking news about a fire", "An in-depth profile of a local artist", "A crime report from the police blotter", "A brief weather update"],
-"answer": 1,
-"explain": "A feature story usually explores a subject in depth with narrative detail and human interest, such as a profile.",
-"optionExplanations": [
-"Breaking fire coverage is spot news rather than a feature.",
-"Correct because profiles are classic feature-story material.",
-"A police blotter item is brief routine news, not a feature.",
-"A short weather update is informational rather than feature writing."
-],
-"source": "official-hq"
-},
-{
-"q": "An inverted pyramid structure places:",
-"options": ["The least important facts first", "The most important facts first", "Facts in chronological order", "Opinion before facts"],
-"answer": 1,
-"explain": "The inverted pyramid begins with the most important information and then moves to supporting details.",
-"optionExplanations": [
-"This is the opposite of inverted pyramid structure.",
-"Correct because readers get the most essential facts immediately.",
-"Chronological order is a different organizing method.",
-"Opinion should not come before facts in a straight news story."
-],
-"source": "official-hq"
-},
-{
-"q": "A beat reporter is responsible for:",
-"options": ["Covering a specific topic or area", "Editing wire service stories", "Writing editorials", "Designing the newspaper layout"],
-"answer": 0,
-"explain": "A beat reporter consistently covers a particular subject area such as courts, education, or city hall.",
-"optionExplanations": [
-"Correct because a beat is a defined reporting area.",
-"Editing wire copy is typically an editor's task.",
-"Editorials are opinion writing rather than beat reporting.",
-"Layout work belongs to design or production staff."
-],
-"source": "official-hq"
-},
-{
-"q": "Which type of lead uses a short, attention-grabbing sentence?",
-"options": ["Anecdotal lead", "Summary lead", "Question lead", "Punch lead"],
-"answer": 3,
-"explain": "A punch lead is brief and striking, designed to grab attention immediately.",
-"optionExplanations": [
-"An anecdotal lead starts with a short story or scene.",
-"A summary lead emphasizes core facts rather than punchiness.",
-"A question lead asks the reader something, which is different.",
-"Correct because a punch lead is short and forceful."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is the most credible type of source?",
-"options": ["Anonymous tipster", "Eyewitness to the event", "Social media post", "Opinion column"],
-"answer": 1,
-"explain": "A firsthand eyewitness source generally has direct knowledge of the event, making that source more credible than secondhand or opinion-based sources.",
-"optionExplanations": [
-"Anonymous tipsters can be useful but require stronger verification.",
-"Correct because an eyewitness has direct, firsthand experience.",
-"A social media post may be unreliable or unverifiable.",
-"An opinion column is commentary, not direct evidence."
-],
-"source": "official-hq"
-},
-{
-"q": "A sidebar in journalism is:",
-"options": ["A smaller, related story accompanying a main article", "A section of the editorial page", "A photo caption", "A graphic element"],
-"answer": 0,
-"explain": "A sidebar is a short related piece that supports or expands on the main story.",
-"optionExplanations": [
-"Correct because a sidebar adds context or a related angle to the main piece.",
-"An editorial page section is not what sidebar means in this context.",
-"A caption identifies or explains a photo, not a related story.",
-"A graphic element may appear near a story, but it is not itself a sidebar."
-],
-"source": "official-hq"
-},
-{
-"q": "The primary goal of fact-checking is to:",
-"options": ["Correct typos", "Ensure accuracy", "Improve writing style", "Shorten articles"],
-"answer": 1,
-"explain": "Fact-checking verifies names, dates, claims, and details to ensure the information is accurate.",
-"optionExplanations": [
-"Typos matter, but fact-checking is broader than proofreading.",
-"Correct because the main purpose is to verify factual correctness.",
-"Writing style may improve during editing, but that is not the main goal of fact-checking.",
-"Fact-checking is not aimed at shortening stories."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is an example of bias in reporting?",
-"options": ["Including multiple perspectives on an issue", "Using loaded language to describe a source", "Providing direct quotes from both sides", "Clearly separating facts from opinion"],
-"answer": 1,
-"explain": "Loaded language signals judgment and can steer the audience toward a particular view, making it a form of bias.",
-"optionExplanations": [
-"Including multiple perspectives usually reduces bias.",
-"Correct because emotionally charged wording can distort neutrality.",
-"Direct quotes from both sides can support balance rather than bias.",
-"Separating fact from opinion is good practice, not bias."
-],
-"source": "official-hq"
-},
-{
-"q": "Which invention most directly contributed to the spread of newspapers in the 15th century?",
-"options": ["Telegraph", "Printing press", "Typewriter", "Rotary press"],
-"answer": 1,
-"explain": "The printing press made mass reproduction of written material possible and transformed the spread of news.",
-"optionExplanations": [
-"The telegraph came centuries later.",
-"Correct because movable type printing enabled widespread newspaper production.",
-"The typewriter did not cause the 15th century spread of newspapers.",
-"The rotary press was a later improvement, not the 15th century breakthrough."
-],
-"source": "official-hq"
-},
-{
-"q": "Which newspaper is often credited with pioneering yellow journalism?",
-"options": ["The New York Times", "The Washington Post", "New York World", "The Wall Street Journal"],
-"answer": 2,
-"explain": "Joseph Pulitzer's New York World is commonly associated with the rise of sensational yellow journalism.",
-"optionExplanations": [
-"The New York Times is not the classic example associated with yellow journalism.",
-"The Washington Post is not the newspaper most often credited here.",
-"Correct because the New York World is a leading historical example.",
-"The Wall Street Journal is known for business news, not pioneering yellow journalism."
-],
-"source": "official-hq"
-},
-{
-"q": "Who is known as the Father of Modern Journalism?",
-"options": ["Joseph Pulitzer", "Edward R. Murrow", "Benjamin Franklin", "William Randolph Hearst"],
-"answer": 0,
-"explain": "Joseph Pulitzer is widely recognized for shaping modern news practices and journalism education.",
-"optionExplanations": [
-"Correct because Pulitzer's influence on reporting and journalism standards was foundational.",
-"Murrow is a major broadcast journalism figure, but not usually given this title.",
-"Franklin was an early publisher, but not the figure typically identified with this title.",
-"Hearst was influential, especially in yellow journalism, but not usually called the Father of Modern Journalism."
-],
-"source": "official-hq"
-},
-{
-"q": "Which event significantly boosted radio news coverage in the 1930s?",
-"options": ["The Great Depression", "The sinking of the Titanic", "The Hindenburg disaster", "The moon landing"],
-"answer": 2,
-"explain": "The Hindenburg disaster became one of the most famous early radio news moments and highlighted the power of broadcast reporting.",
-"optionExplanations": [
-"The Great Depression was historically important, but the question asks for an event strongly tied to radio coverage impact.",
-"Titanic coverage predated the 1930s.",
-"Correct because the 1937 Hindenburg disaster became a landmark in radio journalism history.",
-"The moon landing occurred much later and was primarily associated with television as well."
-],
-"source": "official-hq"
-},
-{
-"q": "Which 1970s scandal demonstrated the power of investigative journalism in the U.S.?",
-"options": ["Iran-Contra", "Watergate", "Whitewater", "Pentagon Papers"],
-"answer": 1,
-"explain": "Watergate is the most famous example of investigative reporting exposing major political wrongdoing in the 1970s.",
-"optionExplanations": [
-"Iran-Contra occurred in the 1980s.",
-"Correct because Watergate showed how investigative reporting could uncover abuse of power.",
-"Whitewater was a later controversy.",
-"The Pentagon Papers were highly important, but the scandal most associated with the 1970s investigative journalism lesson is Watergate."
-],
-"source": "official-hq"
-},
-{
-"q": "What was the main purpose of the penny press in the 19th century?",
-"options": ["Deliver political propaganda", "Make news affordable for the masses", "Support business advertising", "Distribute government notices"],
-"answer": 1,
-"explain": "The penny press lowered the price of newspapers so ordinary people could afford them, greatly expanding readership.",
-"optionExplanations": [
-"Some papers had political views, but affordability was the defining purpose.",
-"Correct because low-cost newspapers brought news to a broad mass audience.",
-"Advertising became important, but the central point was cheap access for readers.",
-"Government notices were not the main purpose of the penny press."
-],
-"source": "official-hq"
-},
-{
-"q": "Which war marked the first extensive use of television reporting?",
-"options": ["Korean War", "Vietnam War", "Gulf War", "Iraq War"],
-"answer": 1,
-"explain": "The Vietnam War is widely regarded as the first war covered extensively on television for the public at home.",
-"optionExplanations": [
-"Television existed during the Korean War, but coverage was not as extensive or defining.",
-"Correct because Vietnam became known as the television war.",
-"The Gulf War was later and notable for live cable coverage, but not the first extensive television war coverage.",
-"The Iraq War occurred much later."
-],
-"source": "official-hq"
-},
-{
-"q": "Ida B. Wells was best known for her investigative reporting on:",
-"options": ["Political corruption", "Labor strikes", "Lynching", "Women's suffrage"],
-"answer": 2,
-"explain": "Ida B. Wells used investigative journalism to expose and document lynching in the United States.",
-"optionExplanations": [
-"She addressed injustice broadly, but this was not her signature investigative focus.",
-"Labor strikes were not the main subject for which she is best known.",
-"Correct because her anti-lynching reporting is central to her legacy.",
-"Women's rights mattered to her, but lynching was the reporting issue most associated with her work."
-],
-"source": "official-hq"
-},
-{
-"q": "What significant journalism milestone occurred in 1996?",
-"options": ["First televised presidential debate", "Launch of CNN", "First online-only news outlet launched", "Introduction of AP Stylebook"],
-"answer": 2,
-"explain": "1996 is commonly associated with early online-only news publication milestones, reflecting the digital shift in journalism.",
-"optionExplanations": [
-"The first televised presidential debate happened much earlier.",
-"CNN launched in 1980.",
-"Correct because 1996 marked an important step in online-only news development.",
-"The AP Stylebook existed long before 1996."
-],
-"source": "official-hq"
-},
-{
-"q": "Which early American newspaper was the first to publish on a regular schedule?",
-"options": ["Publick Occurrences", "The New-England Courant", "The Pennsylvania Gazette", "The Boston News-Letter"],
-"answer": 3,
-"explain": "The Boston News-Letter is widely recognized as the first continuously published newspaper in British North America on a regular schedule.",
-"optionExplanations": [
-"Publick Occurrences published only once before being shut down.",
-"The New-England Courant came later.",
-"The Pennsylvania Gazette was influential but not first on a regular schedule.",
-"Correct because the Boston News-Letter became the first regularly published newspaper in the colonies."
-],
-"source": "official-hq"
-},
-{
-"q": "A correction differs from a retraction because a correction usually:",
-"options": ["Fixes a limited error while leaving the story standing", "Removes all related content from the website", "Admits the entire article was fabricated", "Requires court approval before publication"],
-"answer": 0,
-"explain": "A correction addresses a specific mistake, while a retraction withdraws the piece or a central claim because the problem is much more serious.",
-"optionExplanations": [
-"Correct because corrections are used for discrete factual errors.",
-"Corrections do not usually require removing everything.",
-"Fabrication would more likely trigger a retraction or major editor's note.",
-"Newsrooms do not need court approval to publish ordinary corrections."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which newsroom role is primarily responsible for assigning stories and supervising coverage decisions during the day?",
-"options": ["Copy editor", "Managing editor", "Photo caption writer", "Columnist"],
-"answer": 1,
-"explain": "A managing editor or assigning editor oversees daily news operations, assigns coverage, and coordinates newsroom priorities.",
-"optionExplanations": [
-"A copy editor focuses on clarity, grammar, style, and accuracy of text.",
-"Correct because this role manages day-to-day coverage and assignments.",
-"Caption writing is too narrow and not the main supervisory role.",
-"A columnist writes opinion pieces rather than managing the newsroom."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of a nut graf in feature writing?",
-"options": ["To identify the photographer", "To summarize why the story matters", "To list all sources used", "To provide a legal disclaimer"],
-"answer": 1,
-"explain": "A nut graf tells readers the central point of the story and explains its significance after an opening anecdote or scene.",
-"optionExplanations": [
-"Photographer identification belongs in a credit line, not the nut graf.",
-"Correct because the nut graf explains the story's focus and relevance.",
-"Sources are not usually listed in a nut graf.",
-"Legal disclaimers are not the purpose of feature structure."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following best describes a primary source in journalism?",
-"options": ["A textbook summarizing an issue", "A witness who directly experienced the event", "A blog post quoting other reports", "An editorial interpreting the news"],
-"answer": 1,
-"explain": "A primary source provides firsthand evidence or direct experience rather than a summary or opinion about the event.",
-"optionExplanations": [
-"A textbook is a secondary source because it synthesizes information.",
-"Correct because direct participants or witnesses are primary sources.",
-"A blog that quotes others is a secondary or tertiary source.",
-"An editorial offers interpretation, not primary evidence."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "When a reporter verifies a viral image by checking metadata, location clues, and reverse image results, the reporter is practicing:",
-"options": ["Source laundering", "Verification", "Sensationalism", "Syndication"],
-"answer": 1,
-"explain": "Checking metadata and context clues is part of verification, the process of confirming whether information is authentic and accurate.",
-"optionExplanations": [
-"Source laundering refers to obscuring the origin of information, which is the opposite of this process.",
-"Correct because the reporter is confirming authenticity and context.",
-"Sensationalism exaggerates for attention and is unrelated to this method.",
-"Syndication is content distribution across outlets."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the clearest problem with using a single anonymous source for a major accusation without corroboration?",
-"options": ["It makes the headline too long", "It weakens reliability and increases legal and ethical risk", "It guarantees the story will be exclusive", "It removes any need for editing"],
-"answer": 1,
-"explain": "Major accusations require strong verification because a lone anonymous source can be unreliable and can expose the newsroom to serious ethical and legal problems.",
-"optionExplanations": [
-"Headline length is not the central issue.",
-"Correct because lack of corroboration makes the claim less reliable and riskier to publish.",
-"An exclusive can still be inaccurate or irresponsible.",
-"Editing remains essential regardless of sourcing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In AP Style, which is the preferred abbreviation for September in a full date?",
-"options": ["Sept.", "Sep.", "September", "Spt."],
-"answer": 0,
-"explain": "AP style abbreviates certain months, including September, as Sept. when used with a specific date.",
-"optionExplanations": [
-"Correct because Sept. is the AP abbreviation in a full date.",
-"Sep. is not the standard AP abbreviation.",
-"September may be spelled out in some contexts, but the AP abbreviation in a full date is Sept.",
-"Spt. is not an AP abbreviation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which sentence follows AP number style most closely in ordinary text?",
-"options": ["Nine students attended and 12 left early.", "9 students attended and twelve left early.", "Nine students attended and twelve left early.", "9 students attended and 12 left early."],
-"answer": 0,
-"explain": "AP style generally spells out one through nine and uses numerals for 10 and above, so nine and 12 is correct.",
-"optionExplanations": [
-"Correct because nine is spelled out and 12 is written as a numeral.",
-"This reverses the AP rule for ordinary numbers.",
-"Twelve should generally appear as 12 in ordinary AP style text.",
-"Nine should generally be spelled out in ordinary AP style text."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A story that begins with a scene, develops a character, and unfolds over several sections is most likely using:",
-"options": ["Narrative structure", "Inverted pyramid only", "Bullet-point structure", "Question-and-answer structure"],
-"answer": 0,
-"explain": "Scene-setting and character development are hallmarks of narrative journalism rather than a strict inverted pyramid format.",
-"optionExplanations": [
-"Correct because narrative structure builds story through scenes and progression.",
-"The inverted pyramid prioritizes immediate facts rather than scene-based unfolding.",
-"Bullet points are not the defining structure here.",
-"Question-and-answer format is used for interviews, not this described story form."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a common purpose of an embargo in journalism?",
-"options": ["To hide advertising rates", "To delay publication until a specified time", "To block all public records requests", "To guarantee anonymity for every source"],
-"answer": 1,
-"explain": "An embargo lets journalists receive information in advance but requires them not to publish it until a stated date or time.",
-"optionExplanations": [
-"Advertising rates have nothing to do with embargoes.",
-"Correct because embargoes are time-based publication restrictions agreed to by journalists.",
-"Embargoes do not affect public records law.",
-"Embargoes do not automatically grant anonymity."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best reflects the difference between objectivity and fairness in reporting?",
-"options": ["Objectivity means hiding all facts, while fairness means publishing opinions", "Objectivity focuses on neutral presentation, while fairness focuses on giving relevant sides a just hearing", "Objectivity and fairness mean exactly the same thing in every context", "Fairness means agreeing with official sources"],
-"answer": 1,
-"explain": "Objectivity emphasizes neutral presentation and evidence-based reporting, while fairness emphasizes appropriate, balanced treatment of relevant viewpoints.",
-"optionExplanations": [
-"This misdefines both terms.",
-"Correct because the two ideas overlap but are not identical.",
-"They are related but not identical concepts.",
-"Fairness does not require agreement with officials."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which government record would most likely be requested through a public records law by a city hall reporter?",
-"options": ["A private family's diary", "A mayor's office email about a public contract", "A doctor's confidential patient file", "A student's personal text messages"],
-"answer": 1,
-"explain": "Public records laws commonly allow journalists to seek government documents related to official business, such as emails about contracts.",
-"optionExplanations": [
-"A private diary is not a government record.",
-"Correct because official communications about public contracts are often subject to records laws.",
-"Patient medical files are protected by privacy laws.",
-"Personal text messages are not automatically public records."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary job of a copy editor?",
-"options": ["To gather eyewitness interviews", "To check style, grammar, clarity, and consistency", "To manage the printing press", "To negotiate advertising purchases"],
-"answer": 1,
-"explain": "Copy editors improve text quality by enforcing style, correcting errors, and sharpening clarity and consistency.",
-"optionExplanations": [
-"Gathering interviews is mainly a reporter's job.",
-"Correct because copy editors refine and check the written copy.",
-"Press operation is a production task, not copy editing.",
-"Ad sales are part of the business side, not editorial copy editing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A photo caption should primarily do which of the following?",
-"options": ["Offer the writer's opinion about the scene", "Identify the key people and explain what is happening", "Repeat the entire article verbatim", "Include unrelated background trivia"],
-"answer": 1,
-"explain": "A caption should identify subjects and explain the action or context shown in the image clearly and accurately.",
-"optionExplanations": [
-"Captions should stay factual, not opinionated.",
-"Correct because readers need to know who is pictured and what is happening.",
-"Captions should complement, not duplicate, the full story.",
-"Unrelated trivia distracts from the image's journalistic purpose."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following would be the strongest lead for a breaking news story about a school board vote?",
-"options": ["Community members have debated education policy for years in many places", "The school board voted 5-2 Tuesday to approve a new attendance boundary plan affecting three schools", "The issue of attendance boundaries is very emotional and complicated", "Parents, students, and teachers all came to the meeting, which lasted a long time and included many comments"],
-"answer": 1,
-"explain": "A strong breaking news lead gives the key action, vote count, timing, and impact right away.",
-"optionExplanations": [
-"This is too broad and delayed for a breaking news lead.",
-"Correct because it delivers the most important facts efficiently.",
-"This is vague and evaluative rather than specific.",
-"This includes details but buries the central news."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "When a journalist paraphrases a source accurately, the journalist should still:",
-"options": ["Attribute the information when needed", "Omit the source to sound more authoritative", "Add opinion to make it clearer", "Change the meaning slightly to improve flow"],
-"answer": 0,
-"explain": "Accurate paraphrasing does not remove the need for attribution when information comes from a source rather than the reporter's direct knowledge.",
-"optionExplanations": [
-"Correct because attribution remains important even without a direct quote.",
-"Omitting the source can mislead readers about where the information came from.",
-"Adding opinion undermines neutral paraphrase.",
-"Changing meaning is inaccurate and unethical."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which situation best illustrates a conflict of interest for a reporter?",
-"options": ["Covering a company in which the reporter owns stock", "Interviewing two experts for the same story", "Writing under a deadline", "Using AP style guidelines"],
-"answer": 0,
-"explain": "Owning stock in a company being covered creates a personal financial interest that can compromise or appear to compromise impartiality.",
-"optionExplanations": [
-"Correct because personal financial ties can affect or appear to affect coverage.",
-"Interviewing multiple experts is routine reporting practice.",
-"Deadline pressure is common but not a conflict of interest by itself.",
-"Following style rules is standard newsroom practice."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the most likely purpose of a media kit sold by a news organization?",
-"options": ["To train reporters on legal ethics", "To provide advertisers with audience and ad placement information", "To archive all published corrections", "To certify freelancers as staff journalists"],
-"answer": 1,
-"explain": "Media kits help potential advertisers evaluate a publication by showing audience data, formats, rates, and ad opportunities.",
-"optionExplanations": [
-"Ethics training is not the primary purpose of a media kit.",
-"Correct because advertisers use media kits to assess marketing value.",
-"Corrections are usually posted separately, not compiled as a sales tool.",
-"A media kit does not certify employment status."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Why is attribution especially important when reporting on controversial claims?",
-"options": ["It increases the font size automatically", "It tells readers who is making the claim and allows them to assess credibility", "It prevents editors from changing the story", "It guarantees the claim is true"],
-"answer": 1,
-"explain": "Attribution identifies the source of a claim so readers can evaluate the claim's authority, motive, and reliability.",
-"optionExplanations": [
-"Typography has nothing to do with attribution's purpose.",
-"Correct because attribution provides context and accountability for claims.",
-"Editors can still revise attributed stories.",
-"Attribution does not make a claim true; verification is still needed."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is the best example of editorializing in a straight news story?",
-"options": ["The council approved the proposal after a two-hour debate", "The council finally approved the much-needed proposal after a chaotic debate", "The council voted 6-1 on the proposal", "The council meeting began at 7 p.m."],
-"answer": 1,
-"explain": "Words such as finally, much-needed, and chaotic insert judgment and tone rather than neutral reporting.",
-"optionExplanations": [
-"This sentence reports a factual event neutrally.",
-"Correct because it uses loaded, opinion-like phrasing.",
-"This is a straightforward factual statement.",
-"This is a neutral time detail."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which headline is most appropriate for a hard news article?",
-"options": ["A wild ride through city hall drama", "City council approves $12 million school renovation plan", "You will not believe what happened at the zoning meeting", "This shocking budget twist changes everything"],
-"answer": 1,
-"explain": "Hard news headlines should be clear, factual, and specific rather than sensational or clickbait-oriented.",
-"optionExplanations": [
-"This is vague and dramatic rather than precise.",
-"Correct because it states the key action and amount clearly.",
-"This is clickbait, not a professional hard news headline.",
-"This is sensational and vague."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In journalism law, slander refers to defamation that is primarily:",
-"options": ["Published in writing", "Spoken aloud", "Displayed in a photo", "Stored in a public record"],
-"answer": 1,
-"explain": "Slander is spoken defamation, while libel is written or otherwise published defamation.",
-"optionExplanations": [
-"Written defamation is generally libel.",
-"Correct because slander is the spoken form of defamation.",
-"A photo alone does not define slander.",
-"Public records are unrelated to the spoken versus written distinction."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A reporter who receives a tip should generally do what first before publishing?",
-"options": ["Assume the tip is true if it sounds urgent", "Seek verification from documents, direct evidence, or additional sources", "Post it on social media to crowdsource confirmation", "Remove all names and publish immediately"],
-"answer": 1,
-"explain": "Verification is the first responsibility; tips are leads, not proof.",
-"optionExplanations": [
-"Urgency is not a substitute for verification.",
-"Correct because responsible reporting requires confirmation before publication.",
-"Public speculation can spread misinformation.",
-"Anonymizing details does not solve the problem of unverified information."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes a pre-publication review focused on whether a story is legally risky?",
-"options": ["Copy fitting", "Legal review", "Color correction", "Beat mapping"],
-"answer": 1,
-"explain": "Legal review examines a story for risks such as defamation, privacy violations, or copyright issues before publication.",
-"optionExplanations": [
-"Copy fitting is about space and layout.",
-"Correct because attorneys or editors may review high-risk stories for legal concerns.",
-"Color correction relates to image editing.",
-"Beat mapping is not the standard term for this process."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is one major advantage of beat reporting?",
-"options": ["It eliminates the need for editors", "It helps reporters build expertise and trusted source networks in a subject area", "It prevents all bias automatically", "It guarantees every story will be exclusive"],
-"answer": 1,
-"explain": "Covering the same area over time allows reporters to develop knowledge, context, and reliable sources.",
-"optionExplanations": [
-"Editors remain necessary regardless of beat structure.",
-"Correct because specialization improves depth and sourcing.",
-"No reporting system automatically eliminates bias.",
-"Beat knowledge may help with exclusives, but it does not guarantee them."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which phrase best defines transparency in journalism?",
-"options": ["Never explaining newsroom decisions", "Being open about methods, corrections, and possible limitations", "Refusing to use anonymous sources under any circumstance", "Publishing every interview transcript in full"],
-"answer": 1,
-"explain": "Transparency means openly explaining how reporting was done, what is known, what is uncertain, and when corrections are needed.",
-"optionExplanations": [
-"That is the opposite of transparency.",
-"Correct because transparency involves openness about process and limitations.",
-"Anonymous sources may sometimes be justified; transparency is broader than a ban.",
-"Publishing every transcript is not required for transparency."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is most likely a secondary source?",
-"options": ["An official budget document", "A witness interview", "A scholarly book analyzing earlier reports", "Audio from the event itself"],
-"answer": 2,
-"explain": "A book that interprets and synthesizes earlier information is a secondary source rather than firsthand evidence.",
-"optionExplanations": [
-"An original budget document is a primary source.",
-"A witness interview is firsthand evidence and therefore primary.",
-"Correct because analysis built from prior sources is secondary.",
-"Original event audio is direct evidence and therefore primary."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main ethical reason to minimize harm in journalism?",
-"options": ["To make stories shorter", "To reduce unnecessary damage while still reporting newsworthy facts", "To avoid covering controversial subjects entirely", "To guarantee that no source will ever be upset"],
-"answer": 1,
-"explain": "Minimizing harm means recognizing the impact of reporting and avoiding needless damage without abandoning truthful reporting on matters of public interest.",
-"optionExplanations": [
-"Story length is not the ethical principle here.",
-"Correct because journalists should report truth while avoiding unnecessary harm.",
-"Ethics does not require avoiding all difficult topics.",
-"Some subjects may still be upset; the goal is to avoid unnecessary harm, not all discomfort."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A publication labels paid material as Sponsored. This label is mainly intended to:",
-"options": ["Increase libel protection", "Help readers distinguish advertising from independent editorial content", "Replace the need for an editor", "Avoid paying taxes on the ad sale"],
-"answer": 1,
-"explain": "Labeling sponsored material helps preserve trust by making clear that the content is paid or promotional rather than independent reporting.",
-"optionExplanations": [
-"Sponsorship labels do not mainly function as libel protection.",
-"Correct because readers need to know when content is paid.",
-"Editors are still needed for standards and oversight.",
-"Tax treatment is not the purpose of the label."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which newsroom technology change most directly accelerated real-time publishing on the web?",
-"options": ["Linotype machines", "Content management systems", "Typewriters", "Darkroom enlargers"],
-"answer": 1,
-"explain": "Content management systems let newsrooms create, edit, and publish digital stories quickly to websites and apps.",
-"optionExplanations": [
-"Linotype machines were important for print production, not web publishing.",
-"Correct because CMS platforms streamline rapid digital publishing.",
-"Typewriters predate digital newsroom workflows.",
-"Darkroom enlargers relate to film photography, not web publishing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is the best reason to use multiple independent sources on a complex investigation?",
-"options": ["To make the article longer", "To strengthen accuracy and reduce the chance of relying on one flawed account", "To avoid writing a lead", "To eliminate the need for documents"],
-"answer": 1,
-"explain": "Independent sourcing helps confirm facts and protects the story from depending too heavily on one possibly mistaken or biased source.",
-"optionExplanations": [
-"Length is not the purpose of multiple sourcing.",
-"Correct because corroboration improves reliability.",
-"A lead is still required in most story formats.",
-"Documents may still be essential even with multiple human sources."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does it mean to go off the record?",
-"options": ["The information can be used freely without naming the source", "The information cannot be published as part of the agreed conversation", "The information becomes public once recorded", "The information may only be used in a headline"],
-"answer": 1,
-"explain": "Off the record generally means the information is not to be published, assuming both journalist and source agreed to that ground rule beforehand.",
-"optionExplanations": [
-"That better matches not for attribution or background in some contexts, not off the record.",
-"Correct because off the record means the material is not for publication.",
-"Recording something does not automatically make it public.",
-"There is no rule limiting it only to headlines."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice most directly helps a newsroom avoid plagiarism?",
-"options": ["Attributing sourced ideas and language and using quotation marks for direct quotes", "Publishing first and correcting later", "Removing all hyperlinks", "Relying only on anonymous tips"],
-"answer": 0,
-"explain": "Proper attribution and clear quotation of borrowed language are the core safeguards against plagiarism.",
-"optionExplanations": [
-"Correct because crediting sources and marking direct quotations prevent misrepresentation of authorship.",
-"Publishing first does not prevent plagiarism.",
-"Hyperlinks are not the essence of plagiarism prevention.",
-"Anonymous tips do not address copying someone else's words or ideas."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A story centered on data, charts, and statistical trends is most likely to benefit from which journalistic skill?",
-"options": ["Data literacy", "Broadcast voice training", "Studio lighting design", "Headline rhyme"],
-"answer": 0,
-"explain": "Data literacy helps journalists interpret datasets, avoid misleading conclusions, and present quantitative information accurately.",
-"optionExplanations": [
-"Correct because quantitative reporting depends on understanding and explaining data well.",
-"Broadcast voice is useful on air but not the main skill for data-driven analysis.",
-"Studio lighting is unrelated to data interpretation.",
-"Headline rhyme is not a core journalistic skill."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which description best fits watchdog journalism?",
-"options": ["Coverage that entertains audiences with celebrity content", "Reporting that monitors institutions and exposes wrongdoing or failures of accountability", "Stories that only summarize press releases", "Coverage limited to lifestyle features"],
-"answer": 1,
-"explain": "Watchdog journalism serves the public by scrutinizing powerful institutions and revealing misconduct, waste, or abuse.",
-"optionExplanations": [
-"Celebrity entertainment coverage is not watchdog journalism.",
-"Correct because watchdog reporting holds institutions accountable.",
-"Press release summaries are passive and not watchdog work.",
-"Lifestyle features are a different category of journalism."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is the strongest example of a news peg for a feature story?",
-"options": ["The reporter likes the topic", "The story connects to a current event, anniversary, or new development", "The writer needs a byline this week", "The story has no clear relevance to readers"],
-"answer": 1,
-"explain": "A news peg is the timely reason for publishing a story now, often tied to a current event, anniversary, or fresh development.",
-"optionExplanations": [
-"Personal preference is not a valid news peg.",
-"Correct because timeliness gives readers a reason to care now.",
-"A writer's schedule is not a journalistic news peg.",
-"Lack of relevance weakens, rather than strengthens, a story idea."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Why do many newsrooms separate the editorial department from the advertising department?",
-"options": ["To reduce internet speed problems", "To preserve editorial independence and credibility", "To limit photo usage", "To avoid using deadlines"],
-"answer": 1,
-"explain": "Keeping business and editorial functions separate helps prevent advertisers from influencing news judgments.",
-"optionExplanations": [
-"Network speed is unrelated to this structural separation.",
-"Correct because the separation protects trust and independence.",
-"Photo usage is not the primary reason.",
-"Deadlines exist in both departments."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which part of a story most often contains the supporting context, background, and less urgent details after the lead?",
-"options": ["The kicker", "The body", "The masthead", "The byline"],
-"answer": 1,
-"explain": "After the lead, the body of the story typically develops context, evidence, quotes, and secondary details.",
-"optionExplanations": [
-"A kicker is often the ending or final note, not the main section for background.",
-"Correct because the body carries the story's supporting material.",
-"The masthead lists publication information, not story content.",
-"The byline names the author."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which historical development most helped create 24-hour television news coverage?",
-"options": ["The end of the penny press", "The rise of cable news networks", "The invention of the telegraph", "The use of hand-set type"],
-"answer": 1,
-"explain": "Cable news networks made around-the-clock televised news programming practical and widely available.",
-"optionExplanations": [
-"The penny press era is unrelated to 24-hour television news.",
-"Correct because cable made continuous TV news economically and technically viable.",
-"The telegraph sped information in the 19th century but did not create 24-hour television news.",
-"Hand-set type belongs to print production history."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A reporter receives a document from an interested party. What is the most responsible next step?",
-"options": ["Publish it immediately because documents are always true", "Authenticate the document and seek independent confirmation of its contents", "Destroy the document to avoid bias", "Quote only the most dramatic line without context"],
-"answer": 1,
-"explain": "Documents can be forged, incomplete, or misleading, so journalists should verify authenticity and confirm the claims they contain.",
-"optionExplanations": [
-"Documents can still be false or misleading.",
-"Correct because verification and corroboration are essential.",
-"Destroying evidence is not responsible reporting.",
-"Selective quotation without context can mislead readers."
-],
-"source": "generated-bespoke"
+  "event": "Journalism",
+  "questions": [
+    {
+      "q": "A newspaper reduces its number of printed editions per week to save costs. This decision primarily reflects which economic factor?",
+      "options": [
+        "Production costs",
+        "Advertising revenue",
+        "Circulation ethics",
+        "Syndication rights"
+      ],
+      "answer": 0,
+      "explain": "Reducing print frequency to save money is most directly tied to lowering production costs such as printing, paper, and distribution.",
+      "optionExplanations": [
+        "Correct because printing fewer editions reduces direct operating expenses.",
+        "Advertising revenue affects income, but the question focuses on cutting costs.",
+        "Circulation ethics is not a standard economic cost factor.",
+        "Syndication rights concern content licensing, not routine print production expenses."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A local TV station offers a special advertising package to local businesses to cover a major festival. This is an example of:",
+      "options": [
+        "News sponsorship",
+        "Branded content",
+        "Public service announcement",
+        "Editorial independence"
+      ],
+      "answer": 0,
+      "explain": "A special package tied to coverage of an event is a sponsorship arrangement in which advertisers support or associate with coverage.",
+      "optionExplanations": [
+        "Correct because the station is linking advertiser support to event coverage.",
+        "Branded content is advertiser-created or heavily advertiser-shaped content, which is not stated here.",
+        "A public service announcement is informational messaging for the public, not a paid ad package.",
+        "Editorial independence is a principle, not a revenue product."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which revenue stream is most affected when online readers use ad-blocking software?",
+      "options": [
+        "Subscription fees",
+        "Classified advertising",
+        "Digital display ads",
+        "Syndication rights"
+      ],
+      "answer": 2,
+      "explain": "Ad-blocking software prevents many banner and display advertisements from loading, directly reducing digital display ad impressions and revenue.",
+      "optionExplanations": [
+        "Subscription fees are usually unaffected by ad-blocking because readers pay directly.",
+        "Classified advertising is a category of ads, but ad blockers most directly reduce display ad delivery.",
+        "Correct because digital display ads are often blocked before readers see them.",
+        "Syndication rights revenue comes from licensing content, not on-page ad views."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A news outlet's primary source of income from placing another company's stories on their platform comes from:",
+      "options": [
+        "Subscription royalties",
+        "Wire service fees",
+        "Syndication revenue",
+        "Licensing contracts"
+      ],
+      "answer": 2,
+      "explain": "Syndication revenue refers to money earned through distributing or carrying content across platforms and outlets.",
+      "optionExplanations": [
+        "Subscription royalties is not the standard term for this type of arrangement.",
+        "Wire service fees are typically what an outlet pays to a service like AP, not its own income from placing others' stories.",
+        "Correct because syndication involves distributing content or carrying content under business agreements.",
+        "Licensing contracts are related, but the standard journalism revenue term here is syndication revenue."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "When a newspaper partners with a sports team to produce a special supplement, what ethical challenge might arise?",
+      "options": [
+        "Plagiarism risk",
+        "Conflict of interest",
+        "Lack of sources",
+        "Fair use violation"
+      ],
+      "answer": 1,
+      "explain": "A partnership with a covered subject can create a conflict of interest by making the newsroom appear less independent.",
+      "optionExplanations": [
+        "Plagiarism involves using someone else's work without credit, which is not the main issue here.",
+        "Correct because a business partnership with a subject can compromise or appear to compromise editorial independence.",
+        "A supplement can still have plenty of sources, so this is not the central ethical concern.",
+        "Fair use relates to copyright exceptions, not the key issue created by the partnership."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A newsroom faces budget cuts and considers laying off photojournalists while relying on freelancers. Which concern is most relevant?",
+      "options": [
+        "Reduced editorial independence",
+        "Decreased visual consistency",
+        "Increased wire service usage",
+        "Loss of investigative depth"
+      ],
+      "answer": 1,
+      "explain": "Replacing staff photojournalists with freelancers can reduce consistency in visual style, standards, and day-to-day coordination.",
+      "optionExplanations": [
+        "Editorial independence is not the most direct effect of using freelancers for photos.",
+        "Correct because staffing changes can make image quality, style, and workflow less consistent.",
+        "Wire services provide outside content, but the scenario specifically mentions freelancers.",
+        "Investigative depth is more directly tied to reporting resources than visual staffing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Why might a digital news start-up focus on building a niche audience?",
+      "options": [
+        "To avoid paying licensing fees",
+        "To attract targeted advertisers",
+        "To reduce legal liability",
+        "To bypass copyright laws"
+      ],
+      "answer": 1,
+      "explain": "A niche audience is valuable because advertisers often pay more to reach a clearly defined, relevant group.",
+      "optionExplanations": [
+        "Audience focus does not eliminate licensing fees.",
+        "Correct because a specific audience can be sold to advertisers seeking that exact market.",
+        "Niche targeting does not itself reduce legal liability.",
+        "No audience strategy allows a company to bypass copyright law."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Paywalls are designed primarily to:",
+      "options": [
+        "Increase audience size",
+        "Generate subscription revenue",
+        "Reduce printing costs",
+        "Comply with government regulations"
+      ],
+      "answer": 1,
+      "explain": "Paywalls restrict access to content unless users pay, making them a tool for generating subscription revenue.",
+      "optionExplanations": [
+        "Paywalls may reduce audience size rather than increase it.",
+        "Correct because the main purpose is to convert readers into paying subscribers.",
+        "A paywall is a digital revenue strategy, not a direct print-cost reduction tool.",
+        "Paywalls are business decisions, not generally required by law."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A newspaper offers bundled print and digital subscriptions at a lower price than purchasing separately. This is an example of:",
+      "options": [
+        "Cross-promotion",
+        "Price discrimination",
+        "Product bundling",
+        "Market segmentation"
+      ],
+      "answer": 2,
+      "explain": "Selling print and digital together at a combined price is product bundling.",
+      "optionExplanations": [
+        "Cross-promotion involves promoting one product through another, but this question is about pricing two products together.",
+        "Price discrimination means charging different prices to different buyers, which is not the main feature here.",
+        "Correct because multiple products are packaged together for a single combined offer.",
+        "Market segmentation is dividing customers into groups, not the pricing tactic described."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is a potential downside for a news organization that relies heavily on sponsored content?",
+      "options": [
+        "Loss of audience trust",
+        "Increased printing costs",
+        "Reduced web traffic",
+        "Higher subscription rates"
+      ],
+      "answer": 0,
+      "explain": "Heavy reliance on sponsored content can blur the line between advertising and journalism, weakening audience trust.",
+      "optionExplanations": [
+        "Correct because readers may question whether coverage is independent.",
+        "Sponsored content does not inherently raise printing costs.",
+        "Web traffic might not decrease and can even rise, so this is not the main risk.",
+        "Subscription rates are pricing decisions, not a direct consequence of sponsored content."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which headline follows AP Style correctly?",
+      "options": [
+        "Mayor Announces New Library in the Downtown Area",
+        "Mayor announces new library in downtown area",
+        "Mayor announces New Library in Downtown area",
+        "mayor announces new library in Downtown area"
+      ],
+      "answer": 1,
+      "explain": "AP headlines generally use sentence-style capitalization rather than capitalizing most words.",
+      "optionExplanations": [
+        "This uses title-style capitalization rather than the AP-preferred sentence style in this context.",
+        "Correct because only the first word and proper nouns are capitalized.",
+        "This incorrectly capitalizes common nouns in the middle of the headline.",
+        "This incorrectly leaves the first word lowercase and capitalizes downtown improperly."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In AP Style, which sentence is correct?",
+      "options": [
+        "She lives at 315 west oak street.",
+        "She lives at 315 West Oak Street.",
+        "She lives at 315 W. oak street.",
+        "She lives at 315 West oak Street."
+      ],
+      "answer": 1,
+      "explain": "In AP style for a numbered address, directional and street elements are capitalized appropriately, producing West Oak Street.",
+      "optionExplanations": [
+        "This incorrectly leaves proper address words lowercase.",
+        "Correct because the address is capitalized properly.",
+        "This mixes an abbreviation with incorrect lowercase street words.",
+        "This incorrectly leaves Oak lowercase."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which sentence uses the correct past tense form for broadcast?",
+      "options": [
+        "The station broadcasted the show live.",
+        "The station broadcasts the show live.",
+        "The station broadcast the show live.",
+        "The station has broadcasted the show live."
+      ],
+      "answer": 2,
+      "explain": "Broadcast is commonly used as both the present and past tense verb in standard journalism usage.",
+      "optionExplanations": [
+        "Broadcasted is often considered nonstandard in news style.",
+        "This is present tense, not past tense.",
+        "Correct because broadcast is the standard past tense form.",
+        "This uses a nonpreferred past participle form in journalism style."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is the correct way to abbreviate Avenue in an address according to AP Style?",
+      "options": [
+        "Ave.",
+        "Av.",
+        "Avn.",
+        "Ave"
+      ],
+      "answer": 0,
+      "explain": "AP style abbreviates Avenue as Ave. when used with a numbered address.",
+      "optionExplanations": [
+        "Correct because Ave. is the standard AP abbreviation in numbered addresses.",
+        "Av. is not the standard AP abbreviation.",
+        "Avn. is not used in AP style.",
+        "The abbreviation takes a period in AP style."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In AP Style, how should numbers 10 and above be written in text?",
+      "options": [
+        "As numerals",
+        "As words",
+        "Either words or numerals",
+        "Roman numerals"
+      ],
+      "answer": 0,
+      "explain": "AP style generally uses numerals for 10 and above and spells out one through nine in most ordinary contexts.",
+      "optionExplanations": [
+        "Correct because AP style prefers numerals for 10 and above.",
+        "Words are generally used for one through nine, not 10 and above.",
+        "AP style gives a general rule rather than making them interchangeable.",
+        "Roman numerals are not the standard format for ordinary numbers in news writing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which sentence correctly uses a possessive for a plural noun ending in s?",
+      "options": [
+        "The teachers' lounge was recently renovated.",
+        "The teacher's lounge was recently renovated.",
+        "The teachers lounge was recently renovated.",
+        "The teachers's lounge was recently renovated."
+      ],
+      "answer": 0,
+      "explain": "For a plural noun ending in s, the possessive is formed by adding only an apostrophe.",
+      "optionExplanations": [
+        "Correct because teachers' shows possession by multiple teachers.",
+        "Teacher's is singular possessive, not plural possessive.",
+        "This lacks the apostrophe needed for possession.",
+        "Adding apostrophe plus s after a plural noun ending in s is incorrect here."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In a news story, which sentence maintains objectivity?",
+      "options": [
+        "The mayor's brilliant proposal will save the city millions.",
+        "The mayor proposed a plan projected to save the city millions.",
+        "The mayor's plan is unquestionably the best choice for the city.",
+        "The mayor's foolish plan will cost taxpayers dearly."
+      ],
+      "answer": 1,
+      "explain": "Objective reporting states the proposal and its projected effect without loaded praise or criticism.",
+      "optionExplanations": [
+        "Brilliant is subjective and editorializes.",
+        "Correct because it reports the plan in neutral language.",
+        "Unquestionably the best choice is opinion, not objective reporting.",
+        "Foolish and dearly are loaded and biased terms."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which punctuation mark is used in AP Style for an abrupt change in thought?",
+      "options": [
+        "Colon",
+        "Semicolon",
+        "Em dash",
+        "Parentheses"
+      ],
+      "answer": 2,
+      "explain": "An em dash is commonly used to indicate a sharp break or sudden change in thought.",
+      "optionExplanations": [
+        "A colon usually introduces an explanation or list, not an abrupt break.",
+        "A semicolon links closely related clauses, not a sudden interruption.",
+        "Correct because an em dash marks an abrupt shift or interruption.",
+        "Parentheses add side information but do not usually signal an abrupt change."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which sentence correctly uses the Oxford comma according to AP Style?",
+      "options": [
+        "The flag is red, white, and blue.",
+        "The flag is red, white and blue.",
+        "The flag is red and white, and blue.",
+        "The flag, is red, white and blue."
+      ],
+      "answer": 1,
+      "explain": "AP style generally omits the serial comma before the final item in a simple series.",
+      "optionExplanations": [
+        "This includes the serial comma, which AP style usually omits.",
+        "Correct because AP style normally writes a simple series without the Oxford comma.",
+        "This punctuation is incorrect for a simple series.",
+        "This adds an unnecessary comma after flag."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is the correct attribution for a quote in AP Style?",
+      "options": [
+        "We will win, said the coach.",
+        "We will win, the coach said.",
+        "a and b are both correct",
+        "We will win. the coach said."
+      ],
+      "answer": 2,
+      "explain": "Both said the coach and the coach said can be acceptable quotation attributions in standard AP style usage.",
+      "optionExplanations": [
+        "This can be acceptable attribution formatting.",
+        "This can also be acceptable attribution formatting.",
+        "Correct because both versions are acceptable.",
+        "This punctuation is incorrect because the period placement is wrong."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A reporter is sued for publishing false statements about a local business. Which legal concept applies?",
+      "options": [
+        "Slander",
+        "Libel",
+        "Invasion of privacy",
+        "Copyright infringement"
+      ],
+      "answer": 1,
+      "explain": "Libel is defamation in written or published form, while slander is spoken defamation.",
+      "optionExplanations": [
+        "Slander applies to spoken defamatory statements, not written publication.",
+        "Correct because the false statements were published in written form.",
+        "Invasion of privacy is a different tort involving improper disclosure or intrusion.",
+        "Copyright infringement concerns unauthorized use of protected works."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a defense against a libel claim?",
+      "options": [
+        "Prior restraint",
+        "Truth",
+        "Malice",
+        "Anonymous sourcing"
+      ],
+      "answer": 1,
+      "explain": "Truth is a core defense to libel because a statement that is true is not defamatory in the legal sense.",
+      "optionExplanations": [
+        "Prior restraint concerns government suppression before publication, not a defense to libel.",
+        "Correct because true statements generally cannot support a successful libel claim.",
+        "Malice helps establish liability for some plaintiffs; it is not a defense.",
+        "Anonymous sourcing is a reporting method, not a legal defense by itself."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A photographer takes a picture of a protest in a public park. Can the image be published without consent?",
+      "options": [
+        "Yes, because it's a public setting",
+        "No, all individuals must consent",
+        "Only if the protest was newsworthy",
+        "Only if the photographer had a press badge"
+      ],
+      "answer": 0,
+      "explain": "People in public settings generally have a reduced expectation of privacy, so news photographs from public events can usually be published without individual consent.",
+      "optionExplanations": [
+        "Correct because public protests in public places are generally open to news coverage.",
+        "There is no general rule requiring consent from every person in a public news photo.",
+        "Newsworthiness strengthens the case, but public setting alone usually permits publication.",
+        "A press badge is not what determines publication legality."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A reporter uses a hidden camera in a restaurant to expose health violations. Which ethical issue might this raise?",
+      "options": [
+        "Plagiarism",
+        "Conflict of interest",
+        "Deceptive reporting",
+        "Misattribution"
+      ],
+      "answer": 2,
+      "explain": "Using a hidden camera involves deception because the reporting method conceals the journalist's identity or purpose.",
+      "optionExplanations": [
+        "Plagiarism involves copying another's work without credit, which is unrelated here.",
+        "Conflict of interest concerns divided loyalties, not covert newsgathering.",
+        "Correct because the hidden camera method relies on deception.",
+        "Misattribution means crediting information to the wrong source."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The fair comment defense protects journalists who:",
+      "options": [
+        "Report facts without sources",
+        "Express opinions on matters of public interest",
+        "Use copyrighted material",
+        "Publish private facts"
+      ],
+      "answer": 1,
+      "explain": "Fair comment protects opinion on matters of public concern when it is clearly opinion rather than false factual assertion.",
+      "optionExplanations": [
+        "Unsourced factual reporting is not what the doctrine protects.",
+        "Correct because fair comment concerns protected opinion on public matters.",
+        "Copyright use is governed by fair use, not fair comment.",
+        "Publishing private facts raises privacy concerns rather than triggering this defense."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which scenario best describes prior restraint?",
+      "options": [
+        "A court orders a newspaper not to publish an upcoming article",
+        "A journalist edits their own article before submission",
+        "An editor rejects a story for lack of sources",
+        "A newspaper issues a correction after publication"
+      ],
+      "answer": 0,
+      "explain": "Prior restraint occurs when the government or a court stops publication before it happens.",
+      "optionExplanations": [
+        "Correct because it prevents publication in advance.",
+        "A writer revising a story is ordinary editing, not prior restraint.",
+        "Editorial rejection by a newsroom is not government suppression.",
+        "A correction happens after publication, not before it."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is a form of invasion of privacy?",
+      "options": [
+        "Printing true but embarrassing facts about someone",
+        "Publishing a public official's voting record",
+        "Photographing a parade from the sidewalk",
+        "Quoting a city council meeting"
+      ],
+      "answer": 0,
+      "explain": "Public disclosure of private facts can be an invasion of privacy even when the facts are true, if they are highly offensive and not of legitimate public concern.",
+      "optionExplanations": [
+        "Correct because disclosure of private, embarrassing facts is a recognized privacy tort.",
+        "A public official's voting record is a public matter.",
+        "Parades in public are generally open to photography.",
+        "City council meetings are public proceedings and may be quoted."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which case established the actual malice standard for public figures?",
+      "options": [
+        "Tinker v. Des Moines",
+        "Near v. Minnesota",
+        "New York Times v. Sullivan",
+        "Hazelwood v. Kuhlmeier"
+      ],
+      "answer": 2,
+      "explain": "New York Times v. Sullivan established that public officials, and later public figures, must prove actual malice in defamation cases.",
+      "optionExplanations": [
+        "Tinker concerned student speech rights, not libel standards.",
+        "Near addressed prior restraint, not actual malice.",
+        "Correct because this case created the actual malice standard.",
+        "Hazelwood concerned school-sponsored student speech."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which ethical principle requires journalists to separate news from advertising?",
+      "options": [
+        "Transparency",
+        "Independence",
+        "Fairness",
+        "Accountability"
+      ],
+      "answer": 1,
+      "explain": "Independence requires journalists to avoid influence from advertisers and to keep editorial content distinct from advertising.",
+      "optionExplanations": [
+        "Transparency involves openness, but separation from advertisers is most directly tied to independence.",
+        "Correct because independent journalism must remain separate from commercial influence.",
+        "Fairness concerns balanced treatment, not primarily ad separation.",
+        "Accountability means correcting errors and answering for decisions."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A reporter includes unverified rumors in a story about a celebrity. Which ethical standard is being violated?",
+      "options": [
+        "Seek truth and report it",
+        "Minimize harm",
+        "Act independently",
+        "Be accountable"
+      ],
+      "answer": 0,
+      "explain": "Publishing unverified rumors fails the duty to verify information and seek truth before reporting.",
+      "optionExplanations": [
+        "Correct because journalists are expected to verify facts before publication.",
+        "Minimize harm may also matter, but the clearest violation is failure to verify truth.",
+        "Act independently concerns avoiding improper influence, not verification.",
+        "Accountability matters after mistakes, but the initial problem is lack of verification."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which question is NOT one of the Five Ws and One H?",
+      "options": [
+        "Where",
+        "When",
+        "Which",
+        "Why"
+      ],
+      "answer": 2,
+      "explain": "The standard set is who, what, when, where, why, and how. Which is not one of them.",
+      "optionExplanations": [
+        "Where is one of the standard reporting questions.",
+        "When is one of the standard reporting questions.",
+        "Correct because which is not part of the classic set.",
+        "Why is one of the standard reporting questions."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The lead of a news story should primarily:",
+      "options": [
+        "Provide background details",
+        "Summarize the most important facts",
+        "Offer the reporter's opinion",
+        "Introduce sources"
+      ],
+      "answer": 1,
+      "explain": "A news lead gives readers the key facts quickly so they understand the central development immediately.",
+      "optionExplanations": [
+        "Background usually comes later after the most important facts.",
+        "Correct because the lead summarizes the essential information first.",
+        "A straight news lead should not present the reporter's opinion.",
+        "Sources may appear in the lead, but introducing them is not its main purpose."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is a feature story?",
+      "options": [
+        "Breaking news about a fire",
+        "An in-depth profile of a local artist",
+        "A crime report from the police blotter",
+        "A brief weather update"
+      ],
+      "answer": 1,
+      "explain": "A feature story usually explores a subject in depth with narrative detail and human interest, such as a profile.",
+      "optionExplanations": [
+        "Breaking fire coverage is spot news rather than a feature.",
+        "Correct because profiles are classic feature-story material.",
+        "A police blotter item is brief routine news, not a feature.",
+        "A short weather update is informational rather than feature writing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "An inverted pyramid structure places:",
+      "options": [
+        "The least important facts first",
+        "The most important facts first",
+        "Facts in chronological order",
+        "Opinion before facts"
+      ],
+      "answer": 1,
+      "explain": "The inverted pyramid begins with the most important information and then moves to supporting details.",
+      "optionExplanations": [
+        "This is the opposite of inverted pyramid structure.",
+        "Correct because readers get the most essential facts immediately.",
+        "Chronological order is a different organizing method.",
+        "Opinion should not come before facts in a straight news story."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A beat reporter is responsible for:",
+      "options": [
+        "Covering a specific topic or area",
+        "Editing wire service stories",
+        "Writing editorials",
+        "Designing the newspaper layout"
+      ],
+      "answer": 0,
+      "explain": "A beat reporter consistently covers a particular subject area such as courts, education, or city hall.",
+      "optionExplanations": [
+        "Correct because a beat is a defined reporting area.",
+        "Editing wire copy is typically an editor's task.",
+        "Editorials are opinion writing rather than beat reporting.",
+        "Layout work belongs to design or production staff."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which type of lead uses a short, attention-grabbing sentence?",
+      "options": [
+        "Anecdotal lead",
+        "Summary lead",
+        "Question lead",
+        "Punch lead"
+      ],
+      "answer": 3,
+      "explain": "A punch lead is brief and striking, designed to grab attention immediately.",
+      "optionExplanations": [
+        "An anecdotal lead starts with a short story or scene.",
+        "A summary lead emphasizes core facts rather than punchiness.",
+        "A question lead asks the reader something, which is different.",
+        "Correct because a punch lead is short and forceful."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is the most credible type of source?",
+      "options": [
+        "Anonymous tipster",
+        "Eyewitness to the event",
+        "Social media post",
+        "Opinion column"
+      ],
+      "answer": 1,
+      "explain": "A firsthand eyewitness source generally has direct knowledge of the event, making that source more credible than secondhand or opinion-based sources.",
+      "optionExplanations": [
+        "Anonymous tipsters can be useful but require stronger verification.",
+        "Correct because an eyewitness has direct, firsthand experience.",
+        "A social media post may be unreliable or unverifiable.",
+        "An opinion column is commentary, not direct evidence."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A sidebar in journalism is:",
+      "options": [
+        "A smaller, related story accompanying a main article",
+        "A section of the editorial page",
+        "A photo caption",
+        "A graphic element"
+      ],
+      "answer": 0,
+      "explain": "A sidebar is a short related piece that supports or expands on the main story.",
+      "optionExplanations": [
+        "Correct because a sidebar adds context or a related angle to the main piece.",
+        "An editorial page section is not what sidebar means in this context.",
+        "A caption identifies or explains a photo, not a related story.",
+        "A graphic element may appear near a story, but it is not itself a sidebar."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The primary goal of fact-checking is to:",
+      "options": [
+        "Correct typos",
+        "Ensure accuracy",
+        "Improve writing style",
+        "Shorten articles"
+      ],
+      "answer": 1,
+      "explain": "Fact-checking verifies names, dates, claims, and details to ensure the information is accurate.",
+      "optionExplanations": [
+        "Typos matter, but fact-checking is broader than proofreading.",
+        "Correct because the main purpose is to verify factual correctness.",
+        "Writing style may improve during editing, but that is not the main goal of fact-checking.",
+        "Fact-checking is not aimed at shortening stories."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of bias in reporting?",
+      "options": [
+        "Including multiple perspectives on an issue",
+        "Using loaded language to describe a source",
+        "Providing direct quotes from both sides",
+        "Clearly separating facts from opinion"
+      ],
+      "answer": 1,
+      "explain": "Loaded language signals judgment and can steer the audience toward a particular view, making it a form of bias.",
+      "optionExplanations": [
+        "Including multiple perspectives usually reduces bias.",
+        "Correct because emotionally charged wording can distort neutrality.",
+        "Direct quotes from both sides can support balance rather than bias.",
+        "Separating fact from opinion is good practice, not bias."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which invention most directly contributed to the spread of newspapers in the 15th century?",
+      "options": [
+        "Telegraph",
+        "Printing press",
+        "Typewriter",
+        "Rotary press"
+      ],
+      "answer": 1,
+      "explain": "The printing press made mass reproduction of written material possible and transformed the spread of news.",
+      "optionExplanations": [
+        "The telegraph came centuries later.",
+        "Correct because movable type printing enabled widespread newspaper production.",
+        "The typewriter did not cause the 15th century spread of newspapers.",
+        "The rotary press was a later improvement, not the 15th century breakthrough."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which newspaper is often credited with pioneering yellow journalism?",
+      "options": [
+        "The New York Times",
+        "The Washington Post",
+        "New York World",
+        "The Wall Street Journal"
+      ],
+      "answer": 2,
+      "explain": "Joseph Pulitzer's New York World is commonly associated with the rise of sensational yellow journalism.",
+      "optionExplanations": [
+        "The New York Times is not the classic example associated with yellow journalism.",
+        "The Washington Post is not the newspaper most often credited here.",
+        "Correct because the New York World is a leading historical example.",
+        "The Wall Street Journal is known for business news, not pioneering yellow journalism."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Who is known as the Father of Modern Journalism?",
+      "options": [
+        "Joseph Pulitzer",
+        "Edward R. Murrow",
+        "Benjamin Franklin",
+        "William Randolph Hearst"
+      ],
+      "answer": 0,
+      "explain": "Joseph Pulitzer is widely recognized for shaping modern news practices and journalism education.",
+      "optionExplanations": [
+        "Correct because Pulitzer's influence on reporting and journalism standards was foundational.",
+        "Murrow is a major broadcast journalism figure, but not usually given this title.",
+        "Franklin was an early publisher, but not the figure typically identified with this title.",
+        "Hearst was influential, especially in yellow journalism, but not usually called the Father of Modern Journalism."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which event significantly boosted radio news coverage in the 1930s?",
+      "options": [
+        "The Great Depression",
+        "The sinking of the Titanic",
+        "The Hindenburg disaster",
+        "The moon landing"
+      ],
+      "answer": 2,
+      "explain": "The Hindenburg disaster became one of the most famous early radio news moments and highlighted the power of broadcast reporting.",
+      "optionExplanations": [
+        "The Great Depression was historically important, but the question asks for an event strongly tied to radio coverage impact.",
+        "Titanic coverage predated the 1930s.",
+        "Correct because the 1937 Hindenburg disaster became a landmark in radio journalism history.",
+        "The moon landing occurred much later and was primarily associated with television as well."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which 1970s scandal demonstrated the power of investigative journalism in the U.S.?",
+      "options": [
+        "Iran-Contra",
+        "Watergate",
+        "Whitewater",
+        "Pentagon Papers"
+      ],
+      "answer": 1,
+      "explain": "Watergate is the most famous example of investigative reporting exposing major political wrongdoing in the 1970s.",
+      "optionExplanations": [
+        "Iran-Contra occurred in the 1980s.",
+        "Correct because Watergate showed how investigative reporting could uncover abuse of power.",
+        "Whitewater was a later controversy.",
+        "The Pentagon Papers were highly important, but the scandal most associated with the 1970s investigative journalism lesson is Watergate."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What was the main purpose of the penny press in the 19th century?",
+      "options": [
+        "Deliver political propaganda",
+        "Make news affordable for the masses",
+        "Support business advertising",
+        "Distribute government notices"
+      ],
+      "answer": 1,
+      "explain": "The penny press lowered the price of newspapers so ordinary people could afford them, greatly expanding readership.",
+      "optionExplanations": [
+        "Some papers had political views, but affordability was the defining purpose.",
+        "Correct because low-cost newspapers brought news to a broad mass audience.",
+        "Advertising became important, but the central point was cheap access for readers.",
+        "Government notices were not the main purpose of the penny press."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which war marked the first extensive use of television reporting?",
+      "options": [
+        "Korean War",
+        "Vietnam War",
+        "Gulf War",
+        "Iraq War"
+      ],
+      "answer": 1,
+      "explain": "The Vietnam War is widely regarded as the first war covered extensively on television for the public at home.",
+      "optionExplanations": [
+        "Television existed during the Korean War, but coverage was not as extensive or defining.",
+        "Correct because Vietnam became known as the television war.",
+        "The Gulf War was later and notable for live cable coverage, but not the first extensive television war coverage.",
+        "The Iraq War occurred much later."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Ida B. Wells was best known for her investigative reporting on:",
+      "options": [
+        "Political corruption",
+        "Labor strikes",
+        "Lynching",
+        "Women's suffrage"
+      ],
+      "answer": 2,
+      "explain": "Ida B. Wells used investigative journalism to expose and document lynching in the United States.",
+      "optionExplanations": [
+        "She addressed injustice broadly, but this was not her signature investigative focus.",
+        "Labor strikes were not the main subject for which she is best known.",
+        "Correct because her anti-lynching reporting is central to her legacy.",
+        "Women's rights mattered to her, but lynching was the reporting issue most associated with her work."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What significant journalism milestone occurred in 1996?",
+      "options": [
+        "First televised presidential debate",
+        "Launch of CNN",
+        "First online-only news outlet launched",
+        "Introduction of AP Stylebook"
+      ],
+      "answer": 2,
+      "explain": "1996 is commonly associated with early online-only news publication milestones, reflecting the digital shift in journalism.",
+      "optionExplanations": [
+        "The first televised presidential debate happened much earlier.",
+        "CNN launched in 1980.",
+        "Correct because 1996 marked an important step in online-only news development.",
+        "The AP Stylebook existed long before 1996."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which early American newspaper was the first to publish on a regular schedule?",
+      "options": [
+        "Publick Occurrences",
+        "The New-England Courant",
+        "The Pennsylvania Gazette",
+        "The Boston News-Letter"
+      ],
+      "answer": 3,
+      "explain": "The Boston News-Letter is widely recognized as the first continuously published newspaper in British North America on a regular schedule.",
+      "optionExplanations": [
+        "Publick Occurrences published only once before being shut down.",
+        "The New-England Courant came later.",
+        "The Pennsylvania Gazette was influential but not first on a regular schedule.",
+        "Correct because the Boston News-Letter became the first regularly published newspaper in the colonies."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A correction differs from a retraction because a correction usually:",
+      "options": [
+        "Fixes a limited error while leaving the story standing",
+        "Removes all related content from the website",
+        "Admits the entire article was fabricated",
+        "Requires court approval before publication"
+      ],
+      "answer": 0,
+      "explain": "A correction addresses a specific mistake, while a retraction withdraws the piece or a central claim because the problem is much more serious.",
+      "optionExplanations": [
+        "Correct because corrections are used for discrete factual errors.",
+        "Corrections do not usually require removing everything.",
+        "Fabrication would more likely trigger a retraction or major editor's note.",
+        "Newsrooms do not need court approval to publish ordinary corrections."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which newsroom role is primarily responsible for assigning stories and supervising coverage decisions during the day?",
+      "options": [
+        "Copy editor",
+        "Managing editor",
+        "Photo caption writer",
+        "Columnist"
+      ],
+      "answer": 1,
+      "explain": "A managing editor or assigning editor oversees daily news operations, assigns coverage, and coordinates newsroom priorities.",
+      "optionExplanations": [
+        "A copy editor focuses on clarity, grammar, style, and accuracy of text.",
+        "Correct because this role manages day-to-day coverage and assignments.",
+        "Caption writing is too narrow and not the main supervisory role.",
+        "A columnist writes opinion pieces rather than managing the newsroom."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of a nut graf in feature writing?",
+      "options": [
+        "To identify the photographer",
+        "To summarize why the story matters",
+        "To list all sources used",
+        "To provide a legal disclaimer"
+      ],
+      "answer": 1,
+      "explain": "A nut graf tells readers the central point of the story and explains its significance after an opening anecdote or scene.",
+      "optionExplanations": [
+        "Photographer identification belongs in a credit line, not the nut graf.",
+        "Correct because the nut graf explains the story's focus and relevance.",
+        "Sources are not usually listed in a nut graf.",
+        "Legal disclaimers are not the purpose of feature structure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes a primary source in journalism?",
+      "options": [
+        "A textbook summarizing an issue",
+        "A witness who directly experienced the event",
+        "A blog post quoting other reports",
+        "An editorial interpreting the news"
+      ],
+      "answer": 1,
+      "explain": "A primary source provides firsthand evidence or direct experience rather than a summary or opinion about the event.",
+      "optionExplanations": [
+        "A textbook is a secondary source because it synthesizes information.",
+        "Correct because direct participants or witnesses are primary sources.",
+        "A blog that quotes others is a secondary or tertiary source.",
+        "An editorial offers interpretation, not primary evidence."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a reporter verifies a viral image by checking metadata, location clues, and reverse image results, the reporter is practicing:",
+      "options": [
+        "Source laundering",
+        "Verification",
+        "Sensationalism",
+        "Syndication"
+      ],
+      "answer": 1,
+      "explain": "Checking metadata and context clues is part of verification, the process of confirming whether information is authentic and accurate.",
+      "optionExplanations": [
+        "Source laundering refers to obscuring the origin of information, which is the opposite of this process.",
+        "Correct because the reporter is confirming authenticity and context.",
+        "Sensationalism exaggerates for attention and is unrelated to this method.",
+        "Syndication is content distribution across outlets."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the clearest problem with using a single anonymous source for a major accusation without corroboration?",
+      "options": [
+        "It makes the headline too long",
+        "It weakens reliability and increases legal and ethical risk",
+        "It guarantees the story will be exclusive",
+        "It removes any need for editing"
+      ],
+      "answer": 1,
+      "explain": "Major accusations require strong verification because a lone anonymous source can be unreliable and can expose the newsroom to serious ethical and legal problems.",
+      "optionExplanations": [
+        "Headline length is not the central issue.",
+        "Correct because lack of corroboration makes the claim less reliable and riskier to publish.",
+        "An exclusive can still be inaccurate or irresponsible.",
+        "Editing remains essential regardless of sourcing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In AP Style, which is the preferred abbreviation for September in a full date?",
+      "options": [
+        "Sept.",
+        "Sep.",
+        "September",
+        "Spt."
+      ],
+      "answer": 0,
+      "explain": "AP style abbreviates certain months, including September, as Sept. when used with a specific date.",
+      "optionExplanations": [
+        "Correct because Sept. is the AP abbreviation in a full date.",
+        "Sep. is not the standard AP abbreviation.",
+        "September may be spelled out in some contexts, but the AP abbreviation in a full date is Sept.",
+        "Spt. is not an AP abbreviation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which sentence follows AP number style most closely in ordinary text?",
+      "options": [
+        "Nine students attended and 12 left early.",
+        "9 students attended and twelve left early.",
+        "Nine students attended and twelve left early.",
+        "9 students attended and 12 left early."
+      ],
+      "answer": 0,
+      "explain": "AP style generally spells out one through nine and uses numerals for 10 and above, so nine and 12 is correct.",
+      "optionExplanations": [
+        "Correct because nine is spelled out and 12 is written as a numeral.",
+        "This reverses the AP rule for ordinary numbers.",
+        "Twelve should generally appear as 12 in ordinary AP style text.",
+        "Nine should generally be spelled out in ordinary AP style text."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A story that begins with a scene, develops a character, and unfolds over several sections is most likely using:",
+      "options": [
+        "Narrative structure",
+        "Inverted pyramid only",
+        "Bullet-point structure",
+        "Question-and-answer structure"
+      ],
+      "answer": 0,
+      "explain": "Scene-setting and character development are hallmarks of narrative journalism rather than a strict inverted pyramid format.",
+      "optionExplanations": [
+        "Correct because narrative structure builds story through scenes and progression.",
+        "The inverted pyramid prioritizes immediate facts rather than scene-based unfolding.",
+        "Bullet points are not the defining structure here.",
+        "Question-and-answer format is used for interviews, not this described story form."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a common purpose of an embargo in journalism?",
+      "options": [
+        "To hide advertising rates",
+        "To delay publication until a specified time",
+        "To block all public records requests",
+        "To guarantee anonymity for every source"
+      ],
+      "answer": 1,
+      "explain": "An embargo lets journalists receive information in advance but requires them not to publish it until a stated date or time.",
+      "optionExplanations": [
+        "Advertising rates have nothing to do with embargoes.",
+        "Correct because embargoes are time-based publication restrictions agreed to by journalists.",
+        "Embargoes do not affect public records law.",
+        "Embargoes do not automatically grant anonymity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best reflects the difference between objectivity and fairness in reporting?",
+      "options": [
+        "Objectivity means hiding all facts, while fairness means publishing opinions",
+        "Objectivity focuses on neutral presentation, while fairness focuses on giving relevant sides a just hearing",
+        "Objectivity and fairness mean exactly the same thing in every context",
+        "Fairness means agreeing with official sources"
+      ],
+      "answer": 1,
+      "explain": "Objectivity emphasizes neutral presentation and evidence-based reporting, while fairness emphasizes appropriate, balanced treatment of relevant viewpoints.",
+      "optionExplanations": [
+        "This misdefines both terms.",
+        "Correct because the two ideas overlap but are not identical.",
+        "They are related but not identical concepts.",
+        "Fairness does not require agreement with officials."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which government record would most likely be requested through a public records law by a city hall reporter?",
+      "options": [
+        "A private family's diary",
+        "A mayor's office email about a public contract",
+        "A doctor's confidential patient file",
+        "A student's personal text messages"
+      ],
+      "answer": 1,
+      "explain": "Public records laws commonly allow journalists to seek government documents related to official business, such as emails about contracts.",
+      "optionExplanations": [
+        "A private diary is not a government record.",
+        "Correct because official communications about public contracts are often subject to records laws.",
+        "Patient medical files are protected by privacy laws.",
+        "Personal text messages are not automatically public records."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary job of a copy editor?",
+      "options": [
+        "To gather eyewitness interviews",
+        "To check style, grammar, clarity, and consistency",
+        "To manage the printing press",
+        "To negotiate advertising purchases"
+      ],
+      "answer": 1,
+      "explain": "Copy editors improve text quality by enforcing style, correcting errors, and sharpening clarity and consistency.",
+      "optionExplanations": [
+        "Gathering interviews is mainly a reporter's job.",
+        "Correct because copy editors refine and check the written copy.",
+        "Press operation is a production task, not copy editing.",
+        "Ad sales are part of the business side, not editorial copy editing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A photo caption should primarily do which of the following?",
+      "options": [
+        "Offer the writer's opinion about the scene",
+        "Identify the key people and explain what is happening",
+        "Repeat the entire article verbatim",
+        "Include unrelated background trivia"
+      ],
+      "answer": 1,
+      "explain": "A caption should identify subjects and explain the action or context shown in the image clearly and accurately.",
+      "optionExplanations": [
+        "Captions should stay factual, not opinionated.",
+        "Correct because readers need to know who is pictured and what is happening.",
+        "Captions should complement, not duplicate, the full story.",
+        "Unrelated trivia distracts from the image's journalistic purpose."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would be the strongest lead for a breaking news story about a school board vote?",
+      "options": [
+        "Community members have debated education policy for years in many places",
+        "The school board voted 5-2 Tuesday to approve a new attendance boundary plan affecting three schools",
+        "The issue of attendance boundaries is very emotional and complicated",
+        "Parents, students, and teachers all came to the meeting, which lasted a long time and included many comments"
+      ],
+      "answer": 1,
+      "explain": "A strong breaking news lead gives the key action, vote count, timing, and impact right away.",
+      "optionExplanations": [
+        "This is too broad and delayed for a breaking news lead.",
+        "Correct because it delivers the most important facts efficiently.",
+        "This is vague and evaluative rather than specific.",
+        "This includes details but buries the central news."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a journalist paraphrases a source accurately, the journalist should still:",
+      "options": [
+        "Attribute the information when needed",
+        "Omit the source to sound more authoritative",
+        "Add opinion to make it clearer",
+        "Change the meaning slightly to improve flow"
+      ],
+      "answer": 0,
+      "explain": "Accurate paraphrasing does not remove the need for attribution when information comes from a source rather than the reporter's direct knowledge.",
+      "optionExplanations": [
+        "Correct because attribution remains important even without a direct quote.",
+        "Omitting the source can mislead readers about where the information came from.",
+        "Adding opinion undermines neutral paraphrase.",
+        "Changing meaning is inaccurate and unethical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which situation best illustrates a conflict of interest for a reporter?",
+      "options": [
+        "Covering a company in which the reporter owns stock",
+        "Interviewing two experts for the same story",
+        "Writing under a deadline",
+        "Using AP style guidelines"
+      ],
+      "answer": 0,
+      "explain": "Owning stock in a company being covered creates a personal financial interest that can compromise or appear to compromise impartiality.",
+      "optionExplanations": [
+        "Correct because personal financial ties can affect or appear to affect coverage.",
+        "Interviewing multiple experts is routine reporting practice.",
+        "Deadline pressure is common but not a conflict of interest by itself.",
+        "Following style rules is standard newsroom practice."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most likely purpose of a media kit sold by a news organization?",
+      "options": [
+        "To train reporters on legal ethics",
+        "To provide advertisers with audience and ad placement information",
+        "To archive all published corrections",
+        "To certify freelancers as staff journalists"
+      ],
+      "answer": 1,
+      "explain": "Media kits help potential advertisers evaluate a publication by showing audience data, formats, rates, and ad opportunities.",
+      "optionExplanations": [
+        "Ethics training is not the primary purpose of a media kit.",
+        "Correct because advertisers use media kits to assess marketing value.",
+        "Corrections are usually posted separately, not compiled as a sales tool.",
+        "A media kit does not certify employment status."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is attribution especially important when reporting on controversial claims?",
+      "options": [
+        "It increases the font size automatically",
+        "It tells readers who is making the claim and allows them to assess credibility",
+        "It prevents editors from changing the story",
+        "It guarantees the claim is true"
+      ],
+      "answer": 1,
+      "explain": "Attribution identifies the source of a claim so readers can evaluate the claim's authority, motive, and reliability.",
+      "optionExplanations": [
+        "Typography has nothing to do with attribution's purpose.",
+        "Correct because attribution provides context and accountability for claims.",
+        "Editors can still revise attributed stories.",
+        "Attribution does not make a claim true; verification is still needed."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the best example of editorializing in a straight news story?",
+      "options": [
+        "The council approved the proposal after a two-hour debate",
+        "The council finally approved the much-needed proposal after a chaotic debate",
+        "The council voted 6-1 on the proposal",
+        "The council meeting began at 7 p.m."
+      ],
+      "answer": 1,
+      "explain": "Words such as finally, much-needed, and chaotic insert judgment and tone rather than neutral reporting.",
+      "optionExplanations": [
+        "This sentence reports a factual event neutrally.",
+        "Correct because it uses loaded, opinion-like phrasing.",
+        "This is a straightforward factual statement.",
+        "This is a neutral time detail."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which headline is most appropriate for a hard news article?",
+      "options": [
+        "A wild ride through city hall drama",
+        "City council approves $12 million school renovation plan",
+        "You will not believe what happened at the zoning meeting",
+        "This shocking budget twist changes everything"
+      ],
+      "answer": 1,
+      "explain": "Hard news headlines should be clear, factual, and specific rather than sensational or clickbait-oriented.",
+      "optionExplanations": [
+        "This is vague and dramatic rather than precise.",
+        "Correct because it states the key action and amount clearly.",
+        "This is clickbait, not a professional hard news headline.",
+        "This is sensational and vague."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In journalism law, slander refers to defamation that is primarily:",
+      "options": [
+        "Published in writing",
+        "Spoken aloud",
+        "Displayed in a photo",
+        "Stored in a public record"
+      ],
+      "answer": 1,
+      "explain": "Slander is spoken defamation, while libel is written or otherwise published defamation.",
+      "optionExplanations": [
+        "Written defamation is generally libel.",
+        "Correct because slander is the spoken form of defamation.",
+        "A photo alone does not define slander.",
+        "Public records are unrelated to the spoken versus written distinction."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A reporter who receives a tip should generally do what first before publishing?",
+      "options": [
+        "Assume the tip is true if it sounds urgent",
+        "Seek verification from documents, direct evidence, or additional sources",
+        "Post it on social media to crowdsource confirmation",
+        "Remove all names and publish immediately"
+      ],
+      "answer": 1,
+      "explain": "Verification is the first responsibility; tips are leads, not proof.",
+      "optionExplanations": [
+        "Urgency is not a substitute for verification.",
+        "Correct because responsible reporting requires confirmation before publication.",
+        "Public speculation can spread misinformation.",
+        "Anonymizing details does not solve the problem of unverified information."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes a pre-publication review focused on whether a story is legally risky?",
+      "options": [
+        "Copy fitting",
+        "Legal review",
+        "Color correction",
+        "Beat mapping"
+      ],
+      "answer": 1,
+      "explain": "Legal review examines a story for risks such as defamation, privacy violations, or copyright issues before publication.",
+      "optionExplanations": [
+        "Copy fitting is about space and layout.",
+        "Correct because attorneys or editors may review high-risk stories for legal concerns.",
+        "Color correction relates to image editing.",
+        "Beat mapping is not the standard term for this process."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is one major advantage of beat reporting?",
+      "options": [
+        "It eliminates the need for editors",
+        "It helps reporters build expertise and trusted source networks in a subject area",
+        "It prevents all bias automatically",
+        "It guarantees every story will be exclusive"
+      ],
+      "answer": 1,
+      "explain": "Covering the same area over time allows reporters to develop knowledge, context, and reliable sources.",
+      "optionExplanations": [
+        "Editors remain necessary regardless of beat structure.",
+        "Correct because specialization improves depth and sourcing.",
+        "No reporting system automatically eliminates bias.",
+        "Beat knowledge may help with exclusives, but it does not guarantee them."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which phrase best defines transparency in journalism?",
+      "options": [
+        "Never explaining newsroom decisions",
+        "Being open about methods, corrections, and possible limitations",
+        "Refusing to use anonymous sources under any circumstance",
+        "Publishing every interview transcript in full"
+      ],
+      "answer": 1,
+      "explain": "Transparency means openly explaining how reporting was done, what is known, what is uncertain, and when corrections are needed.",
+      "optionExplanations": [
+        "That is the opposite of transparency.",
+        "Correct because transparency involves openness about process and limitations.",
+        "Anonymous sources may sometimes be justified; transparency is broader than a ban.",
+        "Publishing every transcript is not required for transparency."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is most likely a secondary source?",
+      "options": [
+        "An official budget document",
+        "A witness interview",
+        "A scholarly book analyzing earlier reports",
+        "Audio from the event itself"
+      ],
+      "answer": 2,
+      "explain": "A book that interprets and synthesizes earlier information is a secondary source rather than firsthand evidence.",
+      "optionExplanations": [
+        "An original budget document is a primary source.",
+        "A witness interview is firsthand evidence and therefore primary.",
+        "Correct because analysis built from prior sources is secondary.",
+        "Original event audio is direct evidence and therefore primary."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main ethical reason to minimize harm in journalism?",
+      "options": [
+        "To make stories shorter",
+        "To reduce unnecessary damage while still reporting newsworthy facts",
+        "To avoid covering controversial subjects entirely",
+        "To guarantee that no source will ever be upset"
+      ],
+      "answer": 1,
+      "explain": "Minimizing harm means recognizing the impact of reporting and avoiding needless damage without abandoning truthful reporting on matters of public interest.",
+      "optionExplanations": [
+        "Story length is not the ethical principle here.",
+        "Correct because journalists should report truth while avoiding unnecessary harm.",
+        "Ethics does not require avoiding all difficult topics.",
+        "Some subjects may still be upset; the goal is to avoid unnecessary harm, not all discomfort."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A publication labels paid material as Sponsored. This label is mainly intended to:",
+      "options": [
+        "Increase libel protection",
+        "Help readers distinguish advertising from independent editorial content",
+        "Replace the need for an editor",
+        "Avoid paying taxes on the ad sale"
+      ],
+      "answer": 1,
+      "explain": "Labeling sponsored material helps preserve trust by making clear that the content is paid or promotional rather than independent reporting.",
+      "optionExplanations": [
+        "Sponsorship labels do not mainly function as libel protection.",
+        "Correct because readers need to know when content is paid.",
+        "Editors are still needed for standards and oversight.",
+        "Tax treatment is not the purpose of the label."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which newsroom technology change most directly accelerated real-time publishing on the web?",
+      "options": [
+        "Linotype machines",
+        "Content management systems",
+        "Typewriters",
+        "Darkroom enlargers"
+      ],
+      "answer": 1,
+      "explain": "Content management systems let newsrooms create, edit, and publish digital stories quickly to websites and apps.",
+      "optionExplanations": [
+        "Linotype machines were important for print production, not web publishing.",
+        "Correct because CMS platforms streamline rapid digital publishing.",
+        "Typewriters predate digital newsroom workflows.",
+        "Darkroom enlargers relate to film photography, not web publishing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the best reason to use multiple independent sources on a complex investigation?",
+      "options": [
+        "To make the article longer",
+        "To strengthen accuracy and reduce the chance of relying on one flawed account",
+        "To avoid writing a lead",
+        "To eliminate the need for documents"
+      ],
+      "answer": 1,
+      "explain": "Independent sourcing helps confirm facts and protects the story from depending too heavily on one possibly mistaken or biased source.",
+      "optionExplanations": [
+        "Length is not the purpose of multiple sourcing.",
+        "Correct because corroboration improves reliability.",
+        "A lead is still required in most story formats.",
+        "Documents may still be essential even with multiple human sources."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does it mean to go off the record?",
+      "options": [
+        "The information can be used freely without naming the source",
+        "The information cannot be published as part of the agreed conversation",
+        "The information becomes public once recorded",
+        "The information may only be used in a headline"
+      ],
+      "answer": 1,
+      "explain": "Off the record generally means the information is not to be published, assuming both journalist and source agreed to that ground rule beforehand.",
+      "optionExplanations": [
+        "That better matches not for attribution or background in some contexts, not off the record.",
+        "Correct because off the record means the material is not for publication.",
+        "Recording something does not automatically make it public.",
+        "There is no rule limiting it only to headlines."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice most directly helps a newsroom avoid plagiarism?",
+      "options": [
+        "Attributing sourced ideas and language and using quotation marks for direct quotes",
+        "Publishing first and correcting later",
+        "Removing all hyperlinks",
+        "Relying only on anonymous tips"
+      ],
+      "answer": 0,
+      "explain": "Proper attribution and clear quotation of borrowed language are the core safeguards against plagiarism.",
+      "optionExplanations": [
+        "Correct because crediting sources and marking direct quotations prevent misrepresentation of authorship.",
+        "Publishing first does not prevent plagiarism.",
+        "Hyperlinks are not the essence of plagiarism prevention.",
+        "Anonymous tips do not address copying someone else's words or ideas."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A story centered on data, charts, and statistical trends is most likely to benefit from which journalistic skill?",
+      "options": [
+        "Data literacy",
+        "Broadcast voice training",
+        "Studio lighting design",
+        "Headline rhyme"
+      ],
+      "answer": 0,
+      "explain": "Data literacy helps journalists interpret datasets, avoid misleading conclusions, and present quantitative information accurately.",
+      "optionExplanations": [
+        "Correct because quantitative reporting depends on understanding and explaining data well.",
+        "Broadcast voice is useful on air but not the main skill for data-driven analysis.",
+        "Studio lighting is unrelated to data interpretation.",
+        "Headline rhyme is not a core journalistic skill."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which description best fits watchdog journalism?",
+      "options": [
+        "Coverage that entertains audiences with celebrity content",
+        "Reporting that monitors institutions and exposes wrongdoing or failures of accountability",
+        "Stories that only summarize press releases",
+        "Coverage limited to lifestyle features"
+      ],
+      "answer": 1,
+      "explain": "Watchdog journalism serves the public by scrutinizing powerful institutions and revealing misconduct, waste, or abuse.",
+      "optionExplanations": [
+        "Celebrity entertainment coverage is not watchdog journalism.",
+        "Correct because watchdog reporting holds institutions accountable.",
+        "Press release summaries are passive and not watchdog work.",
+        "Lifestyle features are a different category of journalism."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the strongest example of a news peg for a feature story?",
+      "options": [
+        "The reporter likes the topic",
+        "The story connects to a current event, anniversary, or new development",
+        "The writer needs a byline this week",
+        "The story has no clear relevance to readers"
+      ],
+      "answer": 1,
+      "explain": "A news peg is the timely reason for publishing a story now, often tied to a current event, anniversary, or fresh development.",
+      "optionExplanations": [
+        "Personal preference is not a valid news peg.",
+        "Correct because timeliness gives readers a reason to care now.",
+        "A writer's schedule is not a journalistic news peg.",
+        "Lack of relevance weakens, rather than strengthens, a story idea."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why do many newsrooms separate the editorial department from the advertising department?",
+      "options": [
+        "To reduce internet speed problems",
+        "To preserve editorial independence and credibility",
+        "To limit photo usage",
+        "To avoid using deadlines"
+      ],
+      "answer": 1,
+      "explain": "Keeping business and editorial functions separate helps prevent advertisers from influencing news judgments.",
+      "optionExplanations": [
+        "Network speed is unrelated to this structural separation.",
+        "Correct because the separation protects trust and independence.",
+        "Photo usage is not the primary reason.",
+        "Deadlines exist in both departments."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which part of a story most often contains the supporting context, background, and less urgent details after the lead?",
+      "options": [
+        "The kicker",
+        "The body",
+        "The masthead",
+        "The byline"
+      ],
+      "answer": 1,
+      "explain": "After the lead, the body of the story typically develops context, evidence, quotes, and secondary details.",
+      "optionExplanations": [
+        "A kicker is often the ending or final note, not the main section for background.",
+        "Correct because the body carries the story's supporting material.",
+        "The masthead lists publication information, not story content.",
+        "The byline names the author."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which historical development most helped create 24-hour television news coverage?",
+      "options": [
+        "The end of the penny press",
+        "The rise of cable news networks",
+        "The invention of the telegraph",
+        "The use of hand-set type"
+      ],
+      "answer": 1,
+      "explain": "Cable news networks made around-the-clock televised news programming practical and widely available.",
+      "optionExplanations": [
+        "The penny press era is unrelated to 24-hour television news.",
+        "Correct because cable made continuous TV news economically and technically viable.",
+        "The telegraph sped information in the 19th century but did not create 24-hour television news.",
+        "Hand-set type belongs to print production history."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A reporter receives a document from an interested party. What is the most responsible next step?",
+      "options": [
+        "Publish it immediately because documents are always true",
+        "Authenticate the document and seek independent confirmation of its contents",
+        "Destroy the document to avoid bias",
+        "Quote only the most dramatic line without context"
+      ],
+      "answer": 1,
+      "explain": "Documents can be forged, incomplete, or misleading, so journalists should verify authenticity and confirm the claims they contain.",
+      "optionExplanations": [
+        "Documents can still be false or misleading.",
+        "Correct because verification and corroboration are essential.",
+        "Destroying evidence is not responsible reporting.",
+        "Selective quotation without context can mislead readers."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
 }
-]
-}
-
-SECTION 4 - CHECKLIST_LINE_UPDATE
-
-* [ ] Journalism: 15/100 total (official 15 + historical 0; Need 85)
-* [x] Journalism: 15/100 total (official 15 + historical 0; Need 85)

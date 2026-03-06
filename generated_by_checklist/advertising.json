@@ -1,1819 +1,1805 @@
-SECTION 1 - SELECTED_EVENT
-
-* Advertising
-
-SECTION 2 - NEW_FILE_NAME
-
-* generated_by_checklist/advertising_batch_001.json
-
-SECTION 3 - JSON_CONTENT
 {
-"event": "Advertising",
-"questions": [
-{
-"q": "Which element of the marketing mix focuses on the communication of a product's value to consumers?",
-"options": [
-"Product",
-"Price",
-"Place",
-"Promotion"
-],
-"answer": 3,
-"explain": "Promotion is the part of the marketing mix that communicates value and persuades customers through advertising, sales promotion, PR, and related tactics.",
-"optionExplanations": [
-"Product is the good/service itself, including features and branding decisions.",
-"Price is what customers pay and includes discounts and pricing strategy.",
-"Place is distribution: where and how the product is made available.",
-"Promotion is communication used to inform, persuade, and remind buyers."
-],
-"source": "official-hq"
-},
-{
-"q": "Extending a product line typically aims to:",
-"options": [
-"Reduce the number of product options available",
-"Increase market saturation and meet varied consumer needs",
-"Limit distribution channels",
-"Eliminate competition"
-],
-"answer": 1,
-"explain": "Product line extensions add variations (sizes, flavors, models) to serve more segments and increase shelf presence and sales opportunities.",
-"optionExplanations": [
-"Reducing options is the opposite of a line extension and is more like line pruning.",
-"Line extensions broaden choices to reach more needs and capture more market share.",
-"Limiting channels is a distribution decision, not the main goal of extending a line.",
-"A line extension may respond to competition, but it does not eliminate it."
-],
-"source": "official-hq"
-},
-{
-"q": "Which of the following is not considered a function of packaging?",
-"options": [
-"Protecting the product",
-"Providing information",
-"Acting as a silent salesperson",
-"Determining the advertising budget"
-],
-"answer": 3,
-"explain": "Packaging protects, informs, and attracts buyers, but it does not set how much money the firm spends on advertising.",
-"optionExplanations": [
-"Protection is a core packaging function, preventing damage and contamination.",
-"Labels and packaging provide required and helpful product information.",
-"Attractive design can influence purchase at the shelf, acting as a 'silent salesperson.'",
-"Advertising budgets are set by marketing/finance planning, not by packaging."
-],
-"source": "official-hq"
-},
-{
-"q": "In marketing, positioning refers to:",
-"options": [
-"Physically placing the product in a store",
-"Pricing the product lower than competitors",
-"Creating a distinct image in the consumer's mind",
-"Deciding which sales promotions to use"
-],
-"answer": 2,
-"explain": "Positioning is about the brand's intended place in the customer's mind relative to competitors (e.g., 'premium,' 'fast,' 'eco-friendly').",
-"optionExplanations": [
-"Shelf placement is merchandising, not positioning.",
-"Low pricing is a pricing tactic; positioning could be low-cost, but the definition is broader.",
-"Positioning creates a distinctive perception and value proposition in consumers' minds.",
-"Sales promotions are part of promotion tactics, not the definition of positioning."
-],
-"source": "official-hq"
-},
-{
-"q": "In the sales process, which step occurs immediately after presenting the product?",
-"options": [
-"Closing the sale",
-"Overcoming objections",
-"Following up",
-"Determining customer needs"
-],
-"answer": 1,
-"explain": "After a presentation, the salesperson typically addresses concerns and questions, which is overcoming objections, before attempting to close.",
-"optionExplanations": [
-"Closing usually comes after objections are addressed and the buyer is ready to commit.",
-"Overcoming objections directly follows the presentation in many selling models.",
-"Follow-up usually occurs after the sale to ensure satisfaction and repeat business.",
-"Determining needs happens earlier during the approach/needs assessment stage."
-],
-"source": "official-hq"
-},
-{
-"q": "A primary purpose of sales promotions is to:",
-"options": [
-"Replace long-term advertising campaigns",
-"Generate immediate consumer action",
-"Reduce overall brand awareness",
-"Eliminate personal selling needs"
-],
-"answer": 1,
-"explain": "Sales promotions are designed to create short-term urgency (coupons, limited-time offers) to trigger immediate purchases or trials.",
-"optionExplanations": [
-"Sales promotions supplement advertising; they do not replace long-term brand-building campaigns.",
-"Immediate action is the classic goal: boost sales quickly or encourage trial.",
-"Promotions can increase awareness; they do not aim to reduce it.",
-"Personal selling is still useful; promotions do not eliminate the need for it."
-],
-"source": "official-hq"
-},
-{
-"q": "Which traditional advertising medium typically offers the broadest reach in a short time?",
-"options": [
-"Radio",
-"Television",
-"Direct mail",
-"Brochures"
-],
-"answer": 1,
-"explain": "Television can reach very large audiences quickly, especially through major networks and widely watched events.",
-"optionExplanations": [
-"Radio can reach many people, but typically with smaller reach per spot than TV in a short window.",
-"Television combines sight, sound, and mass audiences, enabling broad reach fast.",
-"Direct mail is targeted but slow and limited by mailing lists.",
-"Brochures are usually distributed selectively and do not provide mass reach quickly."
-],
-"source": "official-hq"
-},
-{
-"q": "Cinema advertising is classified as:",
-"options": [
-"Traditional media",
-"Outdoor media",
-"Alternative media",
-"Direct marketing"
-],
-"answer": 2,
-"explain": "Cinema ads are considered alternative media because they are not part of the classic 'big four' traditional mass media categories.",
-"optionExplanations": [
-"Traditional media usually refers to TV, radio, print, and outdoor in many marketing texts.",
-"Outdoor media is billboards and similar out-of-home placements, not movie theaters.",
-"Cinema placements are commonly grouped as alternative or nontraditional media.",
-"Direct marketing involves direct contact like email, mail, or telemarketing."
-],
-"source": "official-hq"
-},
-{
-"q": "A major advantage of transit advertising is:",
-"options": [
-"High flexibility in changing creative designs daily",
-"Captive audience in high-traffic areas",
-"Lower cost per impression than online advertising",
-"High audience selectivity"
-],
-"answer": 1,
-"explain": "Transit ads (buses, subways) are seen repeatedly by commuters, creating a captive audience in busy, high-traffic locations.",
-"optionExplanations": [
-"Transit creative is not typically changed daily; production/placement has lead times.",
-"High-traffic routes and repeated exposure create a captive, frequently reached audience.",
-"Online ads often have very low marginal costs; transit is not inherently lower CPI than online.",
-"Transit is usually broad, not highly selective, compared with targeted digital media."
-],
-"source": "official-hq"
-},
-{
-"q": "Branding is critical because it:",
-"options": [
-"Reduces the need for promotion",
-"Helps establish customer loyalty and recognition",
-"Eliminates the need for packaging",
-"Guarantees the lowest price"
-],
-"answer": 1,
-"explain": "Branding differentiates a product and builds recognition and trust, which supports repeat purchase and loyalty.",
-"optionExplanations": [
-"Strong brands still rely on promotion to communicate and stay top-of-mind.",
-"Branding builds recognition, perceived value, and loyalty over time.",
-"Packaging supports branding, but branding does not eliminate packaging needs.",
-"A strong brand can command higher prices; it does not guarantee the lowest price."
-],
-"source": "official-hq"
-},
-{
-"q": "Which economic condition typically leads to increased price sensitivity among consumers?",
-"options": [
-"Economic boom",
-"Inflation",
-"Recession",
-"Deflation"
-],
-"answer": 2,
-"explain": "During a recession, incomes and confidence often drop, so consumers become more cautious and price-sensitive.",
-"optionExplanations": [
-"In a boom, consumers are often less price-sensitive due to higher confidence and income.",
-"Inflation raises prices but does not always increase sensitivity the way job/income risk does.",
-"Recessions increase budget constraints, making buyers compare prices more closely.",
-"Deflation can affect spending, but the standard association with high sensitivity is recession."
-],
-"source": "official-hq"
-},
-{
-"q": "The promotional mix does not include:",
-"options": [
-"Public relations",
-"Personal selling",
-"Research and development",
-"Sales promotion"
-],
-"answer": 2,
-"explain": "Research and development is part of creating products, not part of the promotional tools used to communicate with customers.",
-"optionExplanations": [
-"Public relations is a promotional tool that manages reputation and earned media.",
-"Personal selling is a promotional tool involving direct interaction with buyers.",
-"R&D is about product development, not promotion or communication to the market.",
-"Sales promotion is a promotional tool using short-term incentives."
-],
-"source": "official-hq"
-},
-{
-"q": "One key advantage of advertising over public relations is:",
-"options": [
-"Lower cost",
-"Greater message control",
-"Higher credibility",
-"Faster audience trust building"
-],
-"answer": 1,
-"explain": "Paid advertising lets the sponsor control the exact message, timing, and placement, unlike PR which is mediated by third parties.",
-"optionExplanations": [
-"PR can be lower cost, but advertising is often more expensive than earned media.",
-"Advertising is paid space/time, so the advertiser controls wording, visuals, and schedule.",
-"PR often has higher credibility because it is not paid media.",
-"Trust may build faster with credible PR; advertising does not guarantee faster trust."
-],
-"source": "official-hq"
-},
-{
-"q": "Which step of an advertising plan involves setting measurable goals?",
-"options": [
-"Creative strategy",
-"SWOT analysis",
-"Advertising objectives",
-"Execution"
-],
-"answer": 2,
-"explain": "Advertising objectives define specific, measurable goals (e.g., increase awareness by X% or generate Y leads) that guide the plan.",
-"optionExplanations": [
-"Creative strategy focuses on message and tone, not setting measurable goals.",
-"SWOT is situational analysis, not the goal-setting step.",
-"Objectives state what the campaign should accomplish and are often measurable.",
-"Execution is implementing the plan after goals and strategies are set."
-],
-"source": "official-hq"
-},
-{
-"q": "Performing a SWOT analysis helps advertisers:",
-"options": [
-"Determine shipping costs",
-"Identify strengths, weaknesses, opportunities, and threats",
-"Select supply chain partners",
-"Choose the best pricing strategy"
-],
-"answer": 1,
-"explain": "SWOT is a structured assessment of internal strengths/weaknesses and external opportunities/threats to inform strategy.",
-"optionExplanations": [
-"Shipping costs are logistics, not the purpose of SWOT.",
-"SWOT explicitly stands for Strengths, Weaknesses, Opportunities, Threats.",
-"Supply chain partner selection can be informed by SWOT but is not its definition.",
-"Pricing strategy is one decision SWOT may inform, but SWOT is broader than pricing."
-],
-"source": "official-hq"
-},
-{
-"q": "What is the primary purpose of a creative brief in an advertising campaign?",
-"options": [
-"To summarize the campaign's goals, audience, message, and constraints for the creative team",
-"To calculate payroll taxes for the advertising department",
-"To file a trademark application with the USPTO",
-"To determine the company's quarterly inventory turnover"
-],
-"answer": 0,
-"explain": "A creative brief aligns stakeholders by clearly defining the objective, target audience, key message, and required deliverables before creative work begins.",
-"optionExplanations": [
-"Correct: It guides copywriters/designers on what to produce and why.",
-"Incorrect: Payroll taxes are an accounting function, not a creative-planning document.",
-"Incorrect: Trademarks may be relevant to branding, but a creative brief is not a legal filing.",
-"Incorrect: Inventory turnover is an operations metric unrelated to the creative brief."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In media planning, what does CPM measure?",
-"options": [
-"Cost per click on a digital advertisement",
-"Cost to reach one thousand impressions",
-"Cost per lead generated by a landing page",
-"Cost per sale after a promotional discount"
-],
-"answer": 1,
-"explain": "CPM stands for cost per mille and represents the cost of delivering 1,000 impressions.",
-"optionExplanations": [
-"Incorrect: Cost per click is CPC, not CPM.",
-"Correct: CPM is the price per 1,000 ad impressions.",
-"Incorrect: Cost per lead is CPL.",
-"Incorrect: Cost per sale is commonly tracked as CPA or cost per acquisition."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which metric best indicates how often an ad is shown compared to how often it is clicked?",
-"options": [
-"Click-through rate (CTR)",
-"Conversion rate",
-"Share of voice",
-"Brand recall"
-],
-"answer": 0,
-"explain": "CTR is clicks divided by impressions, showing the rate at which viewers click after seeing the ad.",
-"optionExplanations": [
-"Correct: CTR directly compares clicks to impressions.",
-"Incorrect: Conversion rate compares conversions to clicks or visits, not impressions to clicks.",
-"Incorrect: Share of voice compares brand advertising presence to competitors.",
-"Incorrect: Brand recall is a survey-based awareness measure, not an impression-to-click metric."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A/B testing in digital advertising is primarily used to:",
-"options": [
-"Randomly increase ad spend until sales rise",
-"Compare two variants to determine which performs better on a chosen metric",
-"Guarantee that an ad will go viral",
-"Replace the need for target audience research"
-],
-"answer": 1,
-"explain": "A/B testing isolates one change (like headline or image) to see which version yields better results.",
-"optionExplanations": [
-"Incorrect: A/B testing is controlled comparison, not random spending changes.",
-"Correct: It measures performance differences between two versions using data.",
-"Incorrect: Testing cannot guarantee virality.",
-"Incorrect: Testing complements research; it does not replace audience analysis."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of advertising is most associated with influencer posts that are paid and must be disclosed?",
-"options": [
-"Native advertising",
-"Public service advertising",
-"Cooperative advertising",
-"Trade advertising"
-],
-"answer": 0,
-"explain": "Paid influencer content is often delivered in the same style as platform content, making it a form of native advertising that should include disclosure.",
-"optionExplanations": [
-"Correct: Native ads match the look/feel of the surrounding content and require clear labeling when sponsored.",
-"Incorrect: Public service advertising promotes social causes rather than paid product promotion.",
-"Incorrect: Cooperative advertising is cost-shared by manufacturers and retailers.",
-"Incorrect: Trade advertising targets intermediaries (wholesalers/retailers), not consumers via influencers."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In the advertising planning process, the step that comes immediately before selecting media channels is typically:",
-"options": [
-"Developing the target audience profile and objectives",
-"Setting the accounting budget for office supplies",
-"Shipping the product to distribution centers",
-"Writing a customer service policy manual"
-],
-"answer": 0,
-"explain": "Media choices depend on who you are trying to reach and what the campaign must accomplish, so audience and objectives are set before media selection.",
-"optionExplanations": [
-"Correct: Audience and objectives drive where and how you advertise.",
-"Incorrect: Office-supply budgeting is unrelated to media planning.",
-"Incorrect: Distribution logistics are part of operations, not ad planning sequence.",
-"Incorrect: Customer service policy is not a prerequisite for media selection."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'reach' mean in advertising metrics?",
-"options": [
-"The total number of times an ad is displayed",
-"The number of unique individuals exposed to the ad at least once",
-"The percentage of viewers who remember the slogan",
-"The number of sales calls made by a salesperson"
-],
-"answer": 1,
-"explain": "Reach measures how many distinct people (or households) see the ad during a period, not how many total exposures occur.",
-"optionExplanations": [
-"Incorrect: Total displays are impressions, not reach.",
-"Correct: Reach counts unique people reached at least once.",
-"Incorrect: Remembering a slogan is recall, usually measured via surveys.",
-"Incorrect: Sales calls are a personal selling activity, not an ad exposure metric."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes how many times, on average, a reached person sees the advertisement?",
-"options": [
-"Frequency",
-"Positioning",
-"Elasticity",
-"Churn"
-],
-"answer": 0,
-"explain": "Frequency is the average number of exposures among those reached and is often paired with reach in media planning.",
-"optionExplanations": [
-"Correct: Frequency is average exposures per reached person.",
-"Incorrect: Positioning is brand perception in the consumer's mind.",
-"Incorrect: Elasticity measures demand sensitivity to price changes.",
-"Incorrect: Churn is customer attrition, typically in subscriptions."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "When a company advertises a product and includes a retailer's name, and the retailer shares the cost, this is called:",
-"options": [
-"Cooperative advertising",
-"Institutional advertising",
-"Guerrilla marketing",
-"Direct-response advertising"
-],
-"answer": 0,
-"explain": "Cooperative advertising is a cost-sharing arrangement between a manufacturer and a reseller (retailer/wholesaler) for ads featuring both.",
-"optionExplanations": [
-"Correct: Co-op ads split costs and often use approved templates or reimbursement programs.",
-"Incorrect: Institutional ads promote the organization's image rather than a shared manufacturer-retailer promotion.",
-"Incorrect: Guerrilla marketing relies on unconventional tactics, not cost-sharing with a retailer.",
-"Incorrect: Direct-response ads aim for immediate action but do not inherently involve cost-sharing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which legal concept requires that advertising claims be supported by evidence, especially for objective product performance statements?",
-"options": [
-"Substantiation",
-"Double jeopardy",
-"Force majeure",
-"Consideration"
-],
-"answer": 0,
-"explain": "Advertisers must have a reasonable basis (substantiation) for objective claims, such as test results or reliable studies.",
-"optionExplanations": [
-"Correct: Substantiation means having proof for claims before making them.",
-"Incorrect: Double jeopardy is criminal law related to being tried twice.",
-"Incorrect: Force majeure is a contract clause for uncontrollable events.",
-"Incorrect: Consideration is the value exchanged in a contract."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of an objective advertising claim that typically requires substantiation?",
-"options": [
-"'Best-tasting coffee in the world'",
-"'Our detergent removes 30% more stains than Brand X in lab tests'",
-"'A refreshing choice for your morning'",
-"'A brand you'll love'"
-],
-"answer": 1,
-"explain": "A quantified comparative performance claim is objective and must be supported by reliable evidence such as controlled tests.",
-"optionExplanations": [
-"Incorrect: 'Best-tasting' is largely subjective puffery and hard to prove objectively.",
-"Correct: A measurable '30% more' comparative claim requires test-based support.",
-"Incorrect: 'Refreshing' is subjective and usually considered puffery.",
-"Incorrect: 'You'll love' is subjective opinion, not a factual performance statement."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In digital advertising, what is a 'conversion' most commonly?",
-"options": [
-"A view of the company's homepage",
-"A desired action such as a purchase, signup, or download",
-"A comment left on a social media post",
-"A change in the company's accounting method"
-],
-"answer": 1,
-"explain": "A conversion is the completion of a campaign goal, like buying, registering, or installing an app.",
-"optionExplanations": [
-"Incorrect: A homepage view is a visit, not necessarily a goal completion.",
-"Correct: Conversions are defined as valuable actions tied to objectives.",
-"Incorrect: Comments may signal engagement but are not always the defined conversion.",
-"Incorrect: Accounting methods are unrelated to ad conversion tracking."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which targeting method shows ads to users based on their past browsing behavior, such as viewing product pages?",
-"options": [
-"Behavioral targeting (retargeting)",
-"Geofencing only",
-"Contextual targeting only",
-"Random rotation targeting"
-],
-"answer": 0,
-"explain": "Retargeting uses cookies/identifiers to show ads to people who previously interacted with a site or product, increasing relevance.",
-"optionExplanations": [
-"Correct: Retargeting/behavioral targeting uses prior actions to tailor ads.",
-"Incorrect: Geofencing uses location boundaries, not browsing history.",
-"Incorrect: Contextual targeting matches content on a page, not a user's past behavior.",
-"Incorrect: Random rotation is not a standard targeting approach and would ignore relevance."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main advantage of contextual targeting?",
-"options": [
-"It can target people who never use the internet",
-"It places ads alongside content that is relevant to the ad message",
-"It guarantees the lowest possible CPM",
-"It prevents any need for ad creative review"
-],
-"answer": 1,
-"explain": "Contextual targeting matches ads to the topic of the page or content being consumed, which can improve relevance without relying on user tracking.",
-"optionExplanations": [
-"Incorrect: Contextual targeting is an online technique; it does not reach offline-only audiences.",
-"Correct: Matching ad to content context improves alignment and relevance.",
-"Incorrect: CPM depends on inventory and demand; relevance does not guarantee the lowest cost.",
-"Incorrect: Creative still must be reviewed for quality, compliance, and brand safety."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following best describes 'brand safety' in digital advertising?",
-"options": [
-"Ensuring ads are printed on recycled paper",
-"Preventing ads from appearing next to content that could harm the brand's reputation",
-"Making sure the brand name is registered as a trademark",
-"Guaranteeing that ads cannot be blocked by users"
-],
-"answer": 1,
-"explain": "Brand safety focuses on controlling placements so ads do not appear near inappropriate, misleading, or harmful content.",
-"optionExplanations": [
-"Incorrect: Recycled paper relates to sustainability in print, not brand safety in placements.",
-"Correct: It is about avoiding harmful adjacency and unsafe environments for the brand.",
-"Incorrect: Trademark registration is a legal protection, not a placement control concept.",
-"Incorrect: Ad blocking is a technical/user choice issue, not guaranteed by brand safety."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A call to action (CTA) in an advertisement is:",
-"options": [
-"The legal disclaimer at the bottom of a print ad",
-"The part that tells the audience what to do next, such as 'Buy now' or 'Learn more'",
-"The product's manufacturing instructions",
-"The competitor comparison chart"
-],
-"answer": 1,
-"explain": "A CTA prompts the consumer to take a specific next step, which is central to direct-response and many digital campaigns.",
-"optionExplanations": [
-"Incorrect: Disclaimers disclose required information but do not necessarily direct action.",
-"Correct: CTAs instruct the audience on the desired next action.",
-"Incorrect: Manufacturing instructions are for production, not consumer response.",
-"Incorrect: Comparison charts can inform but are not the action prompt itself."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which media buying method typically involves automated, real-time bidding for ad impressions?",
-"options": [
-"Programmatic advertising",
-"Cooperative advertising",
-"Trade promotion",
-"Personal selling"
-],
-"answer": 0,
-"explain": "Programmatic advertising uses software platforms to buy and place ads, often through real-time auctions for impressions.",
-"optionExplanations": [
-"Correct: Programmatic includes RTB and automated placement decisions.",
-"Incorrect: Co-op advertising is a cost-sharing arrangement, not an auction-based system.",
-"Incorrect: Trade promotion targets intermediaries with incentives, not automated ad auctions.",
-"Incorrect: Personal selling is direct human-to-human sales, not media buying."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In print advertising, which element most directly improves readability for long blocks of text?",
-"options": [
-"Increasing the amount of decorative script font used",
-"Using appropriate font size, line spacing, and contrast",
-"Removing all headings and subheadings",
-"Placing text over a busy, low-contrast background image"
-],
-"answer": 1,
-"explain": "Legibility depends on typography choices such as size, leading, and contrast, which help readers process text comfortably.",
-"optionExplanations": [
-"Incorrect: Decorative script fonts often reduce readability in body text.",
-"Correct: Size, spacing, and contrast are key drivers of legibility.",
-"Incorrect: Headings help scanning and structure; removing them usually hurts readability.",
-"Incorrect: Busy, low-contrast backgrounds make text hard to read."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of advertising primarily promotes the company or organization rather than a specific product?",
-"options": [
-"Institutional (corporate) advertising",
-"Product advertising",
-"Direct-response advertising",
-"Cooperative advertising"
-],
-"answer": 0,
-"explain": "Institutional advertising focuses on building the organization's image, values, or reputation instead of driving sales of one item.",
-"optionExplanations": [
-"Correct: Corporate/institutional ads build brand image and goodwill.",
-"Incorrect: Product advertising promotes a specific good or service.",
-"Incorrect: Direct-response ads seek immediate action like calling or clicking.",
-"Incorrect: Co-op ads are cost-shared with a retailer and usually feature specific products."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which research method is most likely to measure consumers' attitudes toward an ad after viewing it?",
-"options": [
-"A post-exposure survey",
-"A physical inventory count",
-"A bank reconciliation",
-"A depreciation schedule"
-],
-"answer": 0,
-"explain": "Surveys can measure attitudes, recall, and persuasion after exposure; the other options are accounting/operations tasks.",
-"optionExplanations": [
-"Correct: Surveys capture perceptions and attitudes directly from viewers.",
-"Incorrect: Inventory counts measure stock levels, not ad attitudes.",
-"Incorrect: Bank reconciliations compare cash records to bank statements.",
-"Incorrect: Depreciation schedules allocate asset cost over time."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A unique selling proposition (USP) is best defined as:",
-"options": [
-"A promise that a product is always the cheapest",
-"A clear, distinctive benefit that sets a product apart from competitors",
-"A requirement that ads include a coupon",
-"A rule that logos must be placed in the top-left corner"
-],
-"answer": 1,
-"explain": "A USP is the core differentiating benefit or reason-to-believe that makes the offering stand out and motivates purchase.",
-"optionExplanations": [
-"Incorrect: Being the cheapest is one possible positioning, not the definition of a USP.",
-"Correct: A USP highlights a unique, compelling benefit compared with alternatives.",
-"Incorrect: Coupons are a sales promotion tool, not a USP requirement.",
-"Incorrect: Logo placement rules are design guidelines, not a USP."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which stage of the buyer's journey is most associated with comparing alternatives and reading reviews before purchasing?",
-"options": [
-"Awareness",
-"Consideration",
-"Retention",
-"Advocacy"
-],
-"answer": 1,
-"explain": "In the consideration stage, consumers evaluate options and information (features, reviews, price) before deciding.",
-"optionExplanations": [
-"Incorrect: Awareness is when the consumer first learns about a need or brand.",
-"Correct: Consideration involves evaluating and comparing possible solutions.",
-"Incorrect: Retention occurs after purchase and focuses on keeping customers.",
-"Incorrect: Advocacy is when satisfied customers recommend the brand to others."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main goal of 'top-of-funnel' advertising?",
-"options": [
-"Increase long-term awareness and interest among a broad audience",
-"Finalize contract terms with suppliers",
-"Collect overdue accounts receivable",
-"Reduce the number of product SKUs"
-],
-"answer": 0,
-"explain": "Top-of-funnel ads are designed to introduce the brand and generate awareness, setting up later stages like consideration and conversion.",
-"optionExplanations": [
-"Correct: It focuses on awareness and initial engagement with many potential customers.",
-"Incorrect: Supplier contracts are procurement, not funnel marketing.",
-"Incorrect: Accounts receivable collection is an accounting/finance task.",
-"Incorrect: SKU reduction is product management/operations, not funnel advertising."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is a key characteristic of 'puffery' in advertising?",
-"options": [
-"It makes specific, measurable claims that must be proven",
-"It uses subjective opinions that reasonable consumers do not treat as literal facts",
-"It is always illegal under advertising law",
-"It requires a government certification seal"
-],
-"answer": 1,
-"explain": "Puffery involves exaggerated, subjective statements (e.g., 'the best ever') that are not objectively verifiable and are generally allowed.",
-"optionExplanations": [
-"Incorrect: Specific measurable claims typically require substantiation.",
-"Correct: Puffery is subjective opinion, not a precise factual claim.",
-"Incorrect: Puffery is generally legal; illegality depends on deception about facts.",
-"Incorrect: Certification seals relate to verified claims, not puffery."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In social media advertising, what is 'engagement' most commonly referring to?",
-"options": [
-"Interactions such as likes, comments, shares, saves, or clicks",
-"The company's yearly profit",
-"The number of pallets shipped to stores",
-"The interest rate on a business loan"
-],
-"answer": 0,
-"explain": "Engagement metrics track how users interact with content rather than only viewing it.",
-"optionExplanations": [
-"Correct: These interactions indicate active response to the content.",
-"Incorrect: Profit is a financial outcome, not a social metric.",
-"Incorrect: Pallets shipped is a logistics measure.",
-"Incorrect: Loan interest rates are finance terms unrelated to social engagement."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which format is best described as an advertisement that looks like a regular news article or editorial content but is paid for by a sponsor?",
-"options": [
-"Advertorial",
-"Billboard",
-"Jingle",
-"Coupon"
-],
-"answer": 0,
-"explain": "An advertorial is paid promotional content designed to resemble editorial material, and it should be clearly labeled to avoid deception.",
-"optionExplanations": [
-"Correct: Advertorials mimic editorial style while promoting a sponsor.",
-"Incorrect: Billboards are outdoor placements, not article-style ads.",
-"Incorrect: Jingles are audio branding elements, not article-format content.",
-"Incorrect: Coupons provide discounts, not editorial-style messaging."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following best describes 'market segmentation' for advertising?",
-"options": [
-"Dividing a market into smaller groups with similar characteristics to target messages more effectively",
-"Selling the same product to every consumer with identical messaging",
-"Reducing the price of a product by 50%",
-"Switching from digital ads to only print ads"
-],
-"answer": 0,
-"explain": "Segmentation groups consumers by traits like demographics, behaviors, or needs so ads can be tailored for relevance and efficiency.",
-"optionExplanations": [
-"Correct: Segmentation enables targeted strategies for different groups.",
-"Incorrect: Identical messaging to everyone ignores differences in needs and behaviors.",
-"Incorrect: A price cut is a pricing tactic, not segmentation.",
-"Incorrect: Changing media type does not define segmentation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which demographic variable is most directly related to consumer income levels?",
-"options": [
-"Geographic region",
-"Psychographic lifestyle",
-"Household income",
-"Brand loyalty score"
-],
-"answer": 2,
-"explain": "Household income is a demographic measure that directly quantifies buying power.",
-"optionExplanations": [
-"Incorrect: Geography describes location, not income by itself.",
-"Incorrect: Psychographics describe attitudes and lifestyles, not income levels.",
-"Correct: Household income directly measures income level.",
-"Incorrect: Loyalty is a behavioral metric, not a demographic income measure."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "When a campaign objective is to generate immediate sales leads, which ad type is usually most appropriate?",
-"options": [
-"Direct-response advertising",
-"Institutional advertising",
-"Public relations only",
-"Product packaging redesign"
-],
-"answer": 0,
-"explain": "Direct-response advertising uses offers and CTAs to prompt immediate action, such as filling out a form or calling.",
-"optionExplanations": [
-"Correct: It is designed to capture leads or orders right away.",
-"Incorrect: Institutional ads build image more than immediate response.",
-"Incorrect: PR can help awareness but is not designed solely for immediate lead capture.",
-"Incorrect: Packaging redesign is a product strategy, not an ad type for lead capture."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a common reason advertisers use a media 'flight' schedule?",
-"options": [
-"To run ads continuously at the same level all year",
-"To run ads in bursts with breaks in between to manage budget or seasonality",
-"To avoid measuring campaign performance",
-"To eliminate the need for creative development"
-],
-"answer": 1,
-"explain": "Flighting concentrates ads during peak periods and pauses during off times, often used for seasonal products or limited budgets.",
-"optionExplanations": [
-"Incorrect: Continuous scheduling is the opposite of flighting.",
-"Correct: Flighting is on-and-off scheduling with planned gaps.",
-"Incorrect: Performance measurement is still important regardless of scheduling.",
-"Incorrect: Creative is still required; flighting only changes timing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A 'pulsing' media schedule is best described as:",
-"options": [
-"No advertising at all for most of the year",
-"Continuous advertising with periodic increases during peak times",
-"Only advertising through billboards",
-"Only advertising through influencers"
-],
-"answer": 1,
-"explain": "Pulsing maintains a baseline level of ads year-round and adds heavier spending during high-demand periods.",
-"optionExplanations": [
-"Incorrect: That describes a sporadic or seasonal approach, not pulsing.",
-"Correct: Baseline plus bursts is the definition of pulsing.",
-"Incorrect: Pulsing is about timing and weight, not a single medium choice.",
-"Incorrect: Pulsing can apply to any channel, not only influencers."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In video ads, what is the primary purpose of a 'hook' in the first few seconds?",
-"options": [
-"To comply with accounting standards",
-"To capture attention quickly and reduce viewer drop-off",
-"To increase the product's manufacturing speed",
-"To avoid including a brand name"
-],
-"answer": 1,
-"explain": "A strong opening hook grabs attention and keeps viewers watching long enough to receive the message.",
-"optionExplanations": [
-"Incorrect: Accounting standards do not dictate ad openings.",
-"Correct: Early attention is critical due to short attention spans and skip behavior.",
-"Incorrect: Manufacturing speed is unrelated to video creative structure.",
-"Incorrect: Branding is often included early; the hook does not require avoiding the brand name."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which pricing tactic is most associated with advertising a product at $9.99 instead of $10.00?",
-"options": [
-"Prestige pricing",
-"Odd-even pricing (psychological pricing)",
-"Skimming pricing",
-"Penetration pricing"
-],
-"answer": 1,
-"explain": "Odd-even pricing uses prices ending in 9 or 99 to create a perception of a lower price than a round number.",
-"optionExplanations": [
-"Incorrect: Prestige pricing uses higher, rounder prices to signal quality/luxury.",
-"Correct: $9.99 is a classic odd-even psychological pricing tactic.",
-"Incorrect: Skimming sets a high initial price to maximize early profits.",
-"Incorrect: Penetration sets a low price to rapidly gain market share, not specifically 9-ending prices."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of a 'testimonial' in advertising?",
-"options": [
-"A chart of product ingredients",
-"A customer stating how the product helped them and why they recommend it",
-"A list of company office locations",
-"A barcode printed on the package"
-],
-"answer": 1,
-"explain": "Testimonials use statements from users or endorsers to build credibility and social proof.",
-"optionExplanations": [
-"Incorrect: Ingredients are informational content, not an endorsement.",
-"Correct: A personal endorsement describing benefits is a testimonial.",
-"Incorrect: Office locations provide contact info, not a testimonial.",
-"Incorrect: Barcodes are for scanning and inventory control, not endorsements."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which element is MOST important for ensuring an ad's message is consistent across multiple channels (TV, social, print)?",
-"options": [
-"Integrated marketing communications (IMC)",
-"Randomized budgeting",
-"Just-in-time inventory",
-"Double-entry bookkeeping"
-],
-"answer": 0,
-"explain": "IMC coordinates messaging and branding across channels so audiences receive a unified, coherent message.",
-"optionExplanations": [
-"Correct: IMC aligns creative, tone, and timing across touchpoints.",
-"Incorrect: Randomized budgeting is not a marketing communications principle.",
-"Incorrect: Just-in-time inventory is an operations method, not messaging consistency.",
-"Incorrect: Double-entry bookkeeping is an accounting system, not an advertising framework."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of a brand style guide for advertising teams?",
-"options": [
-"To standardize visual and verbal brand elements like logo use, colors, and tone",
-"To set employee vacation policies",
-"To calculate the cost of goods sold",
-"To determine product warranty repairs"
-],
-"answer": 0,
-"explain": "Style guides ensure consistent brand presentation so campaigns look and sound like the same brand across designers, agencies, and platforms.",
-"optionExplanations": [
-"Correct: It defines rules for typography, color, voice, and logo usage.",
-"Incorrect: HR policies are not the purpose of a style guide.",
-"Incorrect: COGS is a finance metric unrelated to brand identity standards.",
-"Incorrect: Warranty repair procedures are operations/service documents."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is a common KPI for email advertising campaigns?",
-"options": [
-"Open rate",
-"Employee turnover rate",
-"Machine downtime",
-"Accounts payable aging"
-],
-"answer": 0,
-"explain": "Open rate measures what percentage of delivered emails are opened, a core email performance metric.",
-"optionExplanations": [
-"Correct: It is directly tracked by email platforms and reflects subject line and sender effectiveness.",
-"Incorrect: Turnover rate measures staffing, not email performance.",
-"Incorrect: Downtime measures production reliability, not marketing outcomes.",
-"Incorrect: AP aging is an accounting report unrelated to email campaigns."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In online advertising, CPC stands for:",
-"options": [
-"Cost per conversion",
-"Cost per click",
-"Customer profit contribution",
-"Campaign performance coefficient"
-],
-"answer": 1,
-"explain": "CPC is the amount paid for each click on an advertisement.",
-"optionExplanations": [
-"Incorrect: Cost per conversion is more closely tied to CPA or cost per acquisition.",
-"Correct: CPC is cost per click.",
-"Incorrect: Customer profit contribution is not a standard ad pricing acronym.",
-"Incorrect: Campaign performance coefficient is not a standard metric."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which metric is MOST directly used to evaluate how effective a landing page is at turning visitors into leads or customers?",
-"options": [
-"Bounce rate",
-"Conversion rate",
-"Impressions",
-"Reach"
-],
-"answer": 1,
-"explain": "Conversion rate indicates the percentage of visitors who complete the desired action on the landing page.",
-"optionExplanations": [
-"Incorrect: Bounce rate indicates leaving quickly, which can be informative but not the direct 'turning into leads' measure.",
-"Correct: Conversion rate measures successful completions of the goal.",
-"Incorrect: Impressions refer to ad displays, not landing page outcomes.",
-"Incorrect: Reach counts unique people exposed to the ad, not page performance."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A 'bounce' on a website is typically defined as:",
-"options": [
-"A visitor leaving after viewing only one page without further interaction",
-"A visitor purchasing multiple items",
-"A visitor sharing the page on social media",
-"A visitor calling customer support"
-],
-"answer": 0,
-"explain": "A bounce is a single-page session where the user leaves without taking additional actions, often used to assess relevance and usability.",
-"optionExplanations": [
-"Correct: It is a one-page visit with no further engagement.",
-"Incorrect: Multiple purchases indicate high engagement, not a bounce.",
-"Incorrect: Sharing is engagement, not a bounce.",
-"Incorrect: Calling support is an off-site interaction and not the definition of a bounce."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of 'earned media'?",
-"options": [
-"A paid Instagram ad",
-"A newspaper article covering the company without payment for placement",
-"A billboard rental purchased for a month",
-"A sponsored search ad at the top of Google"
-],
-"answer": 1,
-"explain": "Earned media is publicity gained through third-party coverage or sharing, not paid placement.",
-"optionExplanations": [
-"Incorrect: Paid social ads are paid media.",
-"Correct: Unpaid editorial coverage is earned media.",
-"Incorrect: Billboards are paid placements.",
-"Incorrect: Sponsored search ads are paid media."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary difference between 'owned media' and 'paid media'?",
-"options": [
-"Owned media is controlled by the brand (website, email list), while paid media is purchased placement (ads)",
-"Owned media is always cheaper than paid media",
-"Owned media cannot be measured, while paid media can",
-"Owned media is illegal for businesses"
-],
-"answer": 0,
-"explain": "Owned media consists of channels the brand controls, whereas paid media requires buying space/time from a platform or publisher.",
-"optionExplanations": [
-"Correct: Control/ownership of the channel is the key distinction.",
-"Incorrect: Costs vary; owned media still has production and maintenance costs.",
-"Incorrect: Both can be measured with analytics.",
-"Incorrect: Owned media like websites and social pages is legal and common."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is a common goal of remarketing (retargeting) campaigns?",
-"options": [
-"Reach people who have never heard of the brand",
-"Re-engage users who previously visited or interacted but did not convert",
-"Eliminate the need for a website",
-"Avoid using any audience data"
-],
-"answer": 1,
-"explain": "Retargeting focuses on prospects who already showed interest, increasing the chance of conversion by reminding them and addressing objections.",
-"optionExplanations": [
-"Incorrect: That is a goal of awareness campaigns more than remarketing.",
-"Correct: It targets prior visitors/engagers to encourage completion of the desired action.",
-"Incorrect: Remarketing typically drives people back to a website or app to convert.",
-"Incorrect: Remarketing relies on some form of audience identification or interaction signals."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In advertising, what is a 'media mix'?",
-"options": [
-"A combination of different media channels used in a campaign, such as TV, social, and print",
-"A mixture of chemicals used to print magazines",
-"A list of employee job titles",
-"A method for balancing a checkbook"
-],
-"answer": 0,
-"explain": "A media mix is the planned blend of channels selected to reach the target audience efficiently and meet objectives.",
-"optionExplanations": [
-"Correct: It describes how budget and placements are distributed across channels.",
-"Incorrect: Printing chemicals are not the concept of media mix.",
-"Incorrect: Job titles are an HR organizational chart item.",
-"Incorrect: Checkbook balancing is personal finance/accounting, not advertising."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following best describes 'media fragmentation'?",
-"options": [
-"Consumers concentrating their attention on a single TV channel",
-"Audiences splitting across many channels and platforms, making it harder to reach everyone with one medium",
-"A company printing ads in one newspaper only",
-"A brand using only one message across platforms"
-],
-"answer": 1,
-"explain": "Media fragmentation occurs as more platforms and niche channels exist, so audiences are dispersed and require multi-channel planning.",
-"optionExplanations": [
-"Incorrect: That describes concentrated audiences, the opposite of fragmentation.",
-"Correct: Fragmentation means the audience is spread across many outlets.",
-"Incorrect: Printing in one newspaper is a media choice, not fragmentation itself.",
-"Incorrect: Using one message is an IMC strategy, not fragmentation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of a media 'impression cap' (frequency capping) in digital advertising?",
-"options": [
-"To increase the number of times a single user sees an ad as much as possible",
-"To limit how many times a user is shown the same ad within a period",
-"To prevent the advertiser from tracking conversions",
-"To guarantee 100% viewability"
-],
-"answer": 1,
-"explain": "Frequency capping reduces ad fatigue and wasted spend by limiting repeated exposures to the same user.",
-"optionExplanations": [
-"Incorrect: Unlimited repetition can annoy users and waste budget.",
-"Correct: Caps control exposure frequency per user over time.",
-"Incorrect: Conversion tracking can still occur with caps in place.",
-"Incorrect: Viewability depends on whether the ad was actually seen, not only how often it is served."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes the point at which additional advertising exposures produce little or no additional persuasive effect?",
-"options": [
-"Diminishing returns",
-"Economies of scale",
-"Perfect competition",
-"Elastic demand"
-],
-"answer": 0,
-"explain": "After a certain frequency, each additional exposure tends to add less incremental impact, a classic case of diminishing returns.",
-"optionExplanations": [
-"Correct: Incremental benefit declines as exposure increases.",
-"Incorrect: Economies of scale refer to lower average cost with higher production volume.",
-"Incorrect: Perfect competition is a market structure concept, not ad effectiveness.",
-"Incorrect: Elastic demand refers to sensitivity of quantity demanded to price changes."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A common reason for using a celebrity endorsement is to:",
-"options": [
-"Transfer the endorser's credibility or appeal to the brand",
-"Eliminate the need for product quality",
-"Avoid any legal disclosure requirements",
-"Guarantee that all consumers will like the ad"
-],
-"answer": 0,
-"explain": "Endorsements leverage attention, trust, and associations (expertise, attractiveness) to influence attitudes toward the brand.",
-"optionExplanations": [
-"Correct: The goal is association and increased persuasion/attention.",
-"Incorrect: Endorsements cannot replace actual product performance.",
-"Incorrect: Many endorsements require disclosures, especially if paid or sponsored.",
-"Incorrect: No ad can guarantee universal approval."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In advertising ethics, 'bait-and-switch' refers to:",
-"options": [
-"Offering a product at a low advertised price but pressuring customers to buy a higher-priced item because the advertised item is unavailable",
-"Giving customers a discount for returning a used product",
-"Switching from print ads to digital ads",
-"Using two different slogans in the same campaign"
-],
-"answer": 0,
-"explain": "Bait-and-switch is deceptive because the advertiser lures customers with one offer and then steers them to a different, usually more expensive, purchase.",
-"optionExplanations": [
-"Correct: It involves advertising an attractive offer and then switching to another product due to claimed unavailability or pressure tactics.",
-"Incorrect: Refund/return discounts are not the bait-and-switch practice.",
-"Incorrect: Channel switching is a strategy decision, not deception.",
-"Incorrect: Two slogans may be inconsistent, but it is not bait-and-switch."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which element of an advertisement is MOST likely to be required for compliance when promoting a limited-time discount?",
-"options": [
-"A clear statement of the key terms, such as dates and any significant restrictions",
-"A poem describing the founder's childhood",
-"A list of the company's competitors",
-"A statement that the offer lasts forever"
-],
-"answer": 0,
-"explain": "Clear disclosures of material terms help prevent deception by informing consumers about limitations like time window, eligibility, or quantity.",
-"optionExplanations": [
-"Correct: Material terms (dates, restrictions) must be disclosed clearly.",
-"Incorrect: Creative storytelling is optional and not a compliance requirement.",
-"Incorrect: Listing competitors is not a standard compliance requirement.",
-"Incorrect: Claiming an offer lasts forever would be misleading if untrue."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of 'comparative advertising'?",
-"options": [
-"A brand describes its own product features without mentioning competitors",
-"A brand claims its product lasts longer than a named competitor based on testing",
-"A brand changes its logo color",
-"A brand sponsors a community event without promoting products"
-],
-"answer": 1,
-"explain": "Comparative advertising explicitly compares a product to competitors, and it must be truthful and supported when claims are objective.",
-"optionExplanations": [
-"Incorrect: No competitor comparison is made.",
-"Correct: It compares performance against a named competitor using a claim that should be substantiated.",
-"Incorrect: Logo color changes are branding decisions, not comparative claims.",
-"Incorrect: Sponsorship without promotion is not comparative advertising."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of an advertising 'budget'?",
-"options": [
-"To decide the company's legal structure",
-"To allocate resources for advertising activities and control spending",
-"To determine employee health benefits",
-"To calculate product depreciation"
-],
-"answer": 1,
-"explain": "An advertising budget sets how much will be spent and on what, helping plan and control campaign costs.",
-"optionExplanations": [
-"Incorrect: Legal structure decisions are corporate governance matters.",
-"Correct: Budgets allocate funds across channels, creative, and timing and help control costs.",
-"Incorrect: Health benefits are HR compensation decisions.",
-"Incorrect: Depreciation is an accounting calculation for assets."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which budgeting method sets advertising spending as a percentage of sales (past or forecast)?",
-"options": [
-"Objective-and-task method",
-"Percentage-of-sales method",
-"Competitive parity method",
-"Zero-based budgeting method"
-],
-"answer": 1,
-"explain": "The percentage-of-sales method ties ad spending directly to sales levels, using a fixed percent.",
-"optionExplanations": [
-"Incorrect: Objective-and-task starts with goals and tasks, then costs them out.",
-"Correct: It uses sales as the base for determining the budget.",
-"Incorrect: Competitive parity matches competitors' spending levels.",
-"Incorrect: Zero-based starts from zero and justifies each expense."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which budgeting method is generally considered the MOST logical because it starts with goals and calculates the cost to achieve them?",
-"options": [
-"Objective-and-task method",
-"All-you-can-afford method",
-"Percentage-of-sales method",
-"Arbitrary method"
-],
-"answer": 0,
-"explain": "Objective-and-task links spending to specific objectives and the tasks required to accomplish them, making it strategy-driven.",
-"optionExplanations": [
-"Correct: It budgets by identifying tasks needed to meet objectives and estimating their costs.",
-"Incorrect: All-you-can-afford is constrained by leftover funds and may underfund objectives.",
-"Incorrect: Percentage-of-sales follows sales rather than needed activity to meet goals.",
-"Incorrect: Arbitrary budgets are not based on analysis or objectives."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is a key advantage of digital advertising over print advertising?",
-"options": [
-"It cannot be measured",
-"It allows detailed targeting and real-time performance measurement",
-"It always has higher credibility than earned media",
-"It never requires creative assets"
-],
-"answer": 1,
-"explain": "Digital platforms can target specific audiences and provide immediate analytics (impressions, clicks, conversions) to optimize campaigns.",
-"optionExplanations": [
-"Incorrect: Digital ads are highly measurable using platform analytics.",
-"Correct: Targeting and real-time measurement/optimization are major digital advantages.",
-"Incorrect: Earned media often has higher credibility because it is not paid placement.",
-"Incorrect: Digital still requires creative like images, video, or copy."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In search engine marketing, what does a 'keyword' represent?",
-"options": [
-"A mandatory legal disclosure",
-"A word or phrase advertisers bid on to trigger ads for relevant searches",
-"A type of warehouse inventory label",
-"A discount code used at checkout"
-],
-"answer": 1,
-"explain": "Keywords are search terms used in paid search to match user intent and display relevant ads.",
-"optionExplanations": [
-"Incorrect: Disclosures are separate from search matching.",
-"Correct: Advertisers bid on keywords to show ads when users search those terms.",
-"Incorrect: Warehouse labels are operational identifiers, not ad triggers.",
-"Incorrect: Discount codes apply at purchase, not ad display triggers."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of negative keywords in paid search advertising?",
-"options": [
-"To increase the number of irrelevant impressions",
-"To prevent ads from showing on searches that are not relevant to the offer",
-"To make ads display in a larger font",
-"To automatically increase bids for every keyword"
-],
-"answer": 1,
-"explain": "Negative keywords filter out unwanted queries, improving relevance and reducing wasted spend.",
-"optionExplanations": [
-"Incorrect: The goal is to reduce irrelevant impressions, not increase them.",
-"Correct: They exclude specific terms so ads do not show for mismatched intent.",
-"Incorrect: Font size is controlled by platform formats, not negative keywords.",
-"Incorrect: Bid automation is separate from negative keyword settings."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which ad pricing model charges the advertiser when a user actually clicks the ad?",
-"options": [
-"CPM",
-"CPC",
-"Flat annual fee regardless of performance",
-"CPA based on impressions only"
-],
-"answer": 1,
-"explain": "CPC pricing charges per click, meaning the advertiser pays when a user clicks.",
-"optionExplanations": [
-"Incorrect: CPM charges per 1,000 impressions, not clicks.",
-"Correct: CPC is cost per click.",
-"Incorrect: Flat fees are not performance-triggered.",
-"Incorrect: CPA is cost per acquisition/action, not impressions only."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which metric is MOST appropriate for evaluating a brand-awareness campaign on video platforms?",
-"options": [
-"View-through rate (VTR) and completed views",
-"Number of returned products",
-"Warehouse picking accuracy",
-"Days sales outstanding (DSO)"
-],
-"answer": 0,
-"explain": "Awareness campaigns on video often prioritize views and completion metrics that indicate message exposure, rather than direct purchases.",
-"optionExplanations": [
-"Correct: VTR/completions show how many people watched and how fully they consumed the message.",
-"Incorrect: Returns relate to product satisfaction after purchase.",
-"Incorrect: Picking accuracy is a logistics metric.",
-"Incorrect: DSO is an accounts receivable metric."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In online video advertising, 'viewability' generally refers to whether:",
-"options": [
-"The ad was legally approved by a lawyer",
-"The ad was actually viewable on the screen for a minimum time/percentage",
-"The ad used a high-resolution camera",
-"The ad mentioned the brand name three times"
-],
-"answer": 1,
-"explain": "Viewability standards assess whether an impression had the opportunity to be seen (e.g., enough of the ad in view for long enough).",
-"optionExplanations": [
-"Incorrect: Legal approval is compliance, not viewability measurement.",
-"Correct: It measures whether the ad was in view and had a chance to be seen.",
-"Incorrect: Camera resolution is a production detail, not viewability.",
-"Incorrect: Brand name mentions do not determine whether an ad was viewable."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice is most likely to improve Quality Score in many paid search platforms?",
-"options": [
-"Using irrelevant landing pages that do not match the ad",
-"Improving ad relevance, expected CTR, and landing page experience",
-"Bidding on every keyword regardless of intent",
-"Writing ads with no keywords in the text"
-],
-"answer": 1,
-"explain": "Quality Score is influenced by relevance and user experience signals, so aligning keywords, ads, and landing pages typically improves it.",
-"optionExplanations": [
-"Incorrect: Irrelevant landing pages usually worsen user experience and quality metrics.",
-"Correct: Relevance and good landing page experience generally raise Quality Score.",
-"Incorrect: Broad, untargeted bidding can hurt relevance and performance.",
-"Incorrect: Keyword-to-ad relevance is often important for matching intent."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A 'brand lift' study is designed to measure:",
-"options": [
-"Changes in consumer awareness, consideration, or intent after exposure to advertising",
-"How much inventory was lifted by forklifts",
-"The increase in employee wages",
-"The tax impact of advertising expenses"
-],
-"answer": 0,
-"explain": "Brand lift studies compare exposed vs. control groups to estimate how ads change awareness, favorability, or purchase intent.",
-"optionExplanations": [
-"Correct: It measures attitudinal/intent changes attributable to ads.",
-"Incorrect: Forklifts and inventory lifting are unrelated to marketing research.",
-"Incorrect: Wage increases are HR/finance matters.",
-"Incorrect: Tax impact is accounting, not the purpose of a brand lift study."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of a 'lead magnet' used in advertising?",
-"options": [
-"A free downloadable guide offered in exchange for an email address",
-"A forklift used to move products",
-"A billboard placed on a highway",
-"A trademark registration certificate"
-],
-"answer": 0,
-"explain": "Lead magnets offer something of value to encourage prospects to provide contact information, supporting lead generation.",
-"optionExplanations": [
-"Correct: The guide is the incentive that captures the lead's contact info.",
-"Incorrect: Forklifts are warehouse equipment, not marketing incentives.",
-"Incorrect: A billboard is awareness media, not an exchange for contact info.",
-"Incorrect: Trademark certificates are legal documents, not lead incentives."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In advertising, what is the main purpose of a 'value proposition' statement?",
-"options": [
-"To list every feature of the product in technical detail",
-"To clearly explain why the customer should choose the product and what benefit it delivers",
-"To calculate the company's break-even point",
-"To describe the company's office dress code"
-],
-"answer": 1,
-"explain": "A value proposition communicates the key benefit and differentiator that makes the offer worthwhile to the target customer.",
-"optionExplanations": [
-"Incorrect: Feature lists are not the same as the core customer value promise.",
-"Correct: It states the benefit and reason-to-believe for choosing the offer.",
-"Incorrect: Break-even calculations are finance analyses.",
-"Incorrect: Dress code is an HR policy."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which persuasion principle is most directly used when an ad says 'Limited quantities available'?",
-"options": [
-"Scarcity",
-"Reciprocity",
-"Anchoring",
-"Cognitive dissonance"
-],
-"answer": 0,
-"explain": "Scarcity messaging increases perceived value and urgency by suggesting availability is limited.",
-"optionExplanations": [
-"Correct: Scarcity is about limited availability driving urgency.",
-"Incorrect: Reciprocity involves returning a favor (e.g., free sample leading to purchase).",
-"Incorrect: Anchoring is using an initial reference point for price/value comparisons.",
-"Incorrect: Cognitive dissonance refers to discomfort from conflicting beliefs/behaviors."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A 'house ad' is best described as:",
-"options": [
-"An ad placed by a company to promote its own products or content within its own media properties",
-"An ad for real estate listings only",
-"An ad that must be printed on home paper",
-"An ad purchased by a competitor"
-],
-"answer": 0,
-"explain": "House ads promote the publisher's or company's own offerings, often run in the company's own channels or inventory.",
-"optionExplanations": [
-"Correct: It uses owned inventory to advertise the company's own products/services.",
-"Incorrect: Real estate ads are a category, not the definition of a house ad.",
-"Incorrect: Paper type is irrelevant.",
-"Incorrect: Competitor ads are not house ads."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is a key risk of using humor in advertising?",
-"options": [
-"It can distract from the brand message if the joke is remembered but the brand is not",
-"It automatically violates advertising regulations",
-"It eliminates the need for targeting",
-"It guarantees higher conversions in every industry"
-],
-"answer": 0,
-"explain": "Humor can improve attention, but if it overwhelms the message, viewers may remember the joke and forget the product or call to action.",
-"optionExplanations": [
-"Correct: Entertainment can overshadow message retention if not integrated with the brand.",
-"Incorrect: Humor is not inherently illegal; it depends on content and claims.",
-"Incorrect: Targeting is still needed to reach the right audience.",
-"Incorrect: Humor does not guarantee performance across contexts."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which design principle best helps an advertisement guide the viewer's eye to the most important information first?",
-"options": [
-"Visual hierarchy",
-"Randomization",
-"Depreciation",
-"Liquidity"
-],
-"answer": 0,
-"explain": "Visual hierarchy uses size, contrast, placement, and whitespace to prioritize information and guide attention.",
-"optionExplanations": [
-"Correct: Hierarchy orders elements so viewers notice key parts first.",
-"Incorrect: Randomization does not create purposeful guidance of attention.",
-"Incorrect: Depreciation is an accounting concept.",
-"Incorrect: Liquidity is a finance concept."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In advertising copywriting, the term 'headline' refers to:",
-"options": [
-"The first and most prominent line of text meant to capture attention and communicate the main idea",
-"A list of legal citations",
-"The barcode number for the product",
-"The shipping label on a package"
-],
-"answer": 0,
-"explain": "Headlines are designed to attract attention and communicate the core message quickly.",
-"optionExplanations": [
-"Correct: Headlines are the primary attention-getting text element.",
-"Incorrect: Legal citations are not the purpose of a headline.",
-"Incorrect: Barcodes identify products for scanning, not messaging.",
-"Incorrect: Shipping labels are logistics, not advertising copy."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of 'copy' in an advertisement?",
-"options": [
-"The written text used to persuade or inform, such as product descriptions and CTAs",
-"The camera used to film the ad",
-"The invoice sent to a supplier",
-"The warehouse layout diagram"
-],
-"answer": 0,
-"explain": "Advertising copy is the textual content in an ad, including headlines, body text, and calls to action.",
-"optionExplanations": [
-"Correct: Copy refers to the written words in the advertisement.",
-"Incorrect: Cameras are production equipment, not copy.",
-"Incorrect: Supplier invoices are accounting documents.",
-"Incorrect: Warehouse layouts are operations documents."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following BEST describes 'tone of voice' in advertising?",
-"options": [
-"The physical volume level of a TV commercial",
-"The consistent personality and style of language a brand uses in its messaging",
-"The number of images in a print ad",
-"The interest rate used in a financing offer"
-],
-"answer": 1,
-"explain": "Tone of voice reflects how a brand sounds (e.g., formal, playful, authoritative) and should be consistent across communications.",
-"optionExplanations": [
-"Incorrect: Volume is an audio setting, not a language style concept.",
-"Correct: It is the brand's consistent language personality and style.",
-"Incorrect: Image count is a design choice, not tone of voice.",
-"Incorrect: Interest rates are financial terms, not language style."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of including a 'disclaimer' in certain advertisements?",
-"options": [
-"To hide important information from consumers",
-"To disclose material terms or limitations needed to prevent the ad from being misleading",
-"To make the ad longer so it costs more",
-"To replace the need for customer service"
-],
-"answer": 1,
-"explain": "Disclaimers disclose key conditions (e.g., 'results may vary,' eligibility, fees) so consumers are not misled by incomplete claims.",
-"optionExplanations": [
-"Incorrect: Disclaimers should clarify, not hide, material information.",
-"Correct: They provide necessary limitations or terms to ensure transparency.",
-"Incorrect: Length is not the purpose of a disclaimer.",
-"Incorrect: Customer service is still needed regardless of disclaimers."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of 'geotargeting' in advertising?",
-"options": [
-"Showing ads only to users located within a specific city or radius",
-"Showing ads only to people who paid cash",
-"Showing ads only during leap years",
-"Showing ads only to customers who bought the product ten times"
-],
-"answer": 0,
-"explain": "Geotargeting uses a user's location data to control where ads appear.",
-"optionExplanations": [
-"Correct: Location-based delivery is the defining feature of geotargeting.",
-"Incorrect: Payment method is not a location-based targeting approach.",
-"Incorrect: Time-based oddities like leap years are not geotargeting.",
-"Incorrect: Purchase frequency targeting is behavioral targeting, not location targeting."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is 'geofencing' most commonly used for in mobile advertising?",
-"options": [
-"Creating a virtual boundary so ads or notifications trigger when users enter or exit an area",
-"Increasing the physical height of a fence around a store",
-"Preventing any ads from being shown near a competitor",
-"Automatically printing coupons on receipts"
-],
-"answer": 0,
-"explain": "Geofencing sets a GPS-based boundary to deliver ads or messages to devices in a defined location area.",
-"optionExplanations": [
-"Correct: It uses virtual boundaries to trigger targeting based on presence in an area.",
-"Incorrect: Physical fences are not part of mobile advertising.",
-"Incorrect: You cannot fully prevent competitor proximity ads; geofencing is about targeting your boundary.",
-"Incorrect: Receipt printing is a point-of-sale function, not geofencing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In advertising, which term describes the percentage of people who take the desired action after clicking an ad?",
-"options": [
-"Conversion rate",
-"Reach",
-"Impressions",
-"CPM"
-],
-"answer": 0,
-"explain": "Conversion rate measures how many clickers (or visitors) complete the target action such as purchase or signup.",
-"optionExplanations": [
-"Correct: It is conversions divided by clicks/visits, depending on definition.",
-"Incorrect: Reach is unique exposures, not post-click actions.",
-"Incorrect: Impressions are views/serves, not actions.",
-"Incorrect: CPM is a cost metric per 1,000 impressions."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following best describes an 'omnichannel' advertising strategy?",
-"options": [
-"Using only one channel to avoid complexity",
-"Creating a seamless, connected experience across channels where messages and data work together",
-"Advertising only through TV and radio",
-"Avoiding customer data entirely"
-],
-"answer": 1,
-"explain": "Omnichannel strategies coordinate channels (online and offline) so the customer experience is consistent and integrated across touchpoints.",
-"optionExplanations": [
-"Incorrect: Omnichannel is multi-channel and coordinated, not single-channel.",
-"Correct: It integrates messaging and experience across channels using connected planning and data.",
-"Incorrect: TV/radio-only is not omnichannel.",
-"Incorrect: Omnichannel often uses data to connect experiences; it does not inherently avoid it."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A common reason to use a QR code in a print advertisement is to:",
-"options": [
-"Increase the printing cost without benefit",
-"Make it easy for readers to access a landing page or offer with a quick scan",
-"Replace the brand name in the ad",
-"Prevent the ad from being shared digitally"
-],
-"answer": 1,
-"explain": "QR codes bridge offline-to-online by providing a fast path to a URL, coupon, video, or signup page.",
-"optionExplanations": [
-"Incorrect: The purpose is utility and response, not unnecessary cost.",
-"Correct: It creates a convenient link from print to digital action.",
-"Incorrect: QR codes supplement, not replace, brand identification.",
-"Incorrect: QR codes often encourage digital sharing and access."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is a key benefit of using customer personas in advertising planning?",
-"options": [
-"They guarantee a campaign will succeed",
-"They help teams tailor messages to specific audience needs, motivations, and behaviors",
-"They eliminate the need for measurement and analytics",
-"They are only used for accounting audits"
-],
-"answer": 1,
-"explain": "Personas synthesize research into representative profiles that guide targeting, messaging, and creative choices.",
-"optionExplanations": [
-"Incorrect: Personas improve focus but cannot guarantee outcomes.",
-"Correct: They support more relevant messaging and channel choices by clarifying who the audience is.",
-"Incorrect: Measurement is still necessary to validate and optimize.",
-"Incorrect: Personas are marketing tools, not audit documents."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In advertising, what is the difference between 'features' and 'benefits'?",
-"options": [
-"Features describe what the product is or has; benefits describe what the customer gains from it",
-"Features are always emotional; benefits are always technical",
-"Features are illegal to mention; benefits are required by law",
-"Features are only used in radio ads; benefits are only used in print ads"
-],
-"answer": 0,
-"explain": "Features are attributes (e.g., 'battery lasts 12 hours'); benefits translate those attributes into value for the customer (e.g., 'use it all day without charging').",
-"optionExplanations": [
-"Correct: Features are attributes; benefits are the value/outcome for the user.",
-"Incorrect: Either can be technical or emotional depending on framing.",
-"Incorrect: Mentioning features is legal; neither is universally required by law.",
-"Incorrect: Both can be used in any medium."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of appeal focuses on logic, facts, and evidence in an advertisement?",
-"options": [
-"Rational appeal",
-"Emotional appeal",
-"Fear appeal only",
-"Bandwagon appeal only"
-],
-"answer": 0,
-"explain": "Rational appeals use information like performance, price, and features to persuade through logic and evidence.",
-"optionExplanations": [
-"Correct: It relies on factual information and reasoning.",
-"Incorrect: Emotional appeals focus on feelings like joy, pride, or nostalgia.",
-"Incorrect: Fear is one emotional tactic, not the general logic-based approach.",
-"Incorrect: Bandwagon appeals rely on popularity, not primarily on facts and evidence."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which appeal is MOST associated with showing many people using a product to suggest it is popular and widely accepted?",
-"options": [
-"Bandwagon appeal",
-"Scarcity appeal",
-"Technical appeal",
-"Guarantee appeal"
-],
-"answer": 0,
-"explain": "Bandwagon appeals persuade by implying that many others have chosen the product, encouraging the audience to join the majority.",
-"optionExplanations": [
-"Correct: It emphasizes popularity and social acceptance.",
-"Incorrect: Scarcity emphasizes limited availability, not popularity.",
-"Incorrect: Technical appeals emphasize specs and expertise, not social proof.",
-"Incorrect: Guarantees reduce perceived risk but do not imply popularity."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In advertising measurement, ROI is best defined as:",
-"options": [
-"A measure of how much profit or value is generated relative to the cost of the campaign",
-"A measure of how many times an ad was printed",
-"A measure of employee satisfaction",
-"A measure of how fast a product ships"
-],
-"answer": 0,
-"explain": "Return on investment compares the net benefit (profit/value) produced by advertising to the money spent to run it.",
-"optionExplanations": [
-"Correct: ROI relates gains (or net returns) to investment cost.",
-"Incorrect: Printing counts are not ROI.",
-"Incorrect: Employee satisfaction is an HR metric.",
-"Incorrect: Shipping speed is an operations metric."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is an example of a 'key message' in an ad campaign?",
-"options": [
-"The main point the audience should remember, such as the product's primary benefit or promise",
-"The list of every employee in the company",
-"The warehouse address where products are stored",
-"The serial number of the cash register"
-],
-"answer": 0,
-"explain": "A key message is the central takeaway the campaign wants consumers to remember and associate with the brand.",
-"optionExplanations": [
-"Correct: It is the campaign's core takeaway and promise.",
-"Incorrect: Employee lists are internal records, not campaign messaging.",
-"Incorrect: Warehouse addresses are logistics details.",
-"Incorrect: Serial numbers are equipment identifiers, not messages."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes an ad that encourages users to take an action immediately, such as calling a number or visiting a URL to order?",
-"options": [
-"Direct-response advertising",
-"Institutional advertising",
-"Public relations",
-"Trade advertising"
-],
-"answer": 0,
-"explain": "Direct-response ads include strong CTAs and response mechanisms to drive immediate measurable actions.",
-"optionExplanations": [
-"Correct: It is designed to generate an immediate response (call, click, order).",
-"Incorrect: Institutional ads focus on company image rather than immediate action.",
-"Incorrect: PR is earned media/reputation management, not a paid direct-response format.",
-"Incorrect: Trade advertising targets intermediaries, not direct consumer response."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is the BEST example of 'positioning statement' content?",
-"options": [
-"'Our brand is the premium, eco-friendly option for commuters who want style and sustainability'",
-"'We will file taxes by April 15'",
-"'Our warehouse ships 10,000 units per day'",
-"'The company has 250 employees'"
-],
-"answer": 0,
-"explain": "A positioning statement defines the target audience and the distinctive value the brand offers relative to alternatives.",
-"optionExplanations": [
-"Correct: It identifies audience and differentiator (premium + eco-friendly) for commuters.",
-"Incorrect: Tax filing is a finance/legal task, not brand positioning.",
-"Incorrect: Shipping volume is operational capacity, not positioning.",
-"Incorrect: Employee count is a company fact, not a market position."
-],
-"source": "generated-bespoke"
+  "event": "Advertising",
+  "questions": [
+    {
+      "q": "Which element of the marketing mix focuses on the communication of a product's value to consumers?",
+      "options": [
+        "Product",
+        "Price",
+        "Place",
+        "Promotion"
+      ],
+      "answer": 3,
+      "explain": "Promotion is the part of the marketing mix that communicates value and persuades customers through advertising, sales promotion, PR, and related tactics.",
+      "optionExplanations": [
+        "Product is the good/service itself, including features and branding decisions.",
+        "Price is what customers pay and includes discounts and pricing strategy.",
+        "Place is distribution: where and how the product is made available.",
+        "Promotion is communication used to inform, persuade, and remind buyers."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Extending a product line typically aims to:",
+      "options": [
+        "Reduce the number of product options available",
+        "Increase market saturation and meet varied consumer needs",
+        "Limit distribution channels",
+        "Eliminate competition"
+      ],
+      "answer": 1,
+      "explain": "Product line extensions add variations (sizes, flavors, models) to serve more segments and increase shelf presence and sales opportunities.",
+      "optionExplanations": [
+        "Reducing options is the opposite of a line extension and is more like line pruning.",
+        "Line extensions broaden choices to reach more needs and capture more market share.",
+        "Limiting channels is a distribution decision, not the main goal of extending a line.",
+        "A line extension may respond to competition, but it does not eliminate it."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is not considered a function of packaging?",
+      "options": [
+        "Protecting the product",
+        "Providing information",
+        "Acting as a silent salesperson",
+        "Determining the advertising budget"
+      ],
+      "answer": 3,
+      "explain": "Packaging protects, informs, and attracts buyers, but it does not set how much money the firm spends on advertising.",
+      "optionExplanations": [
+        "Protection is a core packaging function, preventing damage and contamination.",
+        "Labels and packaging provide required and helpful product information.",
+        "Attractive design can influence purchase at the shelf, acting as a 'silent salesperson.'",
+        "Advertising budgets are set by marketing/finance planning, not by packaging."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In marketing, positioning refers to:",
+      "options": [
+        "Physically placing the product in a store",
+        "Pricing the product lower than competitors",
+        "Creating a distinct image in the consumer's mind",
+        "Deciding which sales promotions to use"
+      ],
+      "answer": 2,
+      "explain": "Positioning is about the brand's intended place in the customer's mind relative to competitors (e.g., 'premium,' 'fast,' 'eco-friendly').",
+      "optionExplanations": [
+        "Shelf placement is merchandising, not positioning.",
+        "Low pricing is a pricing tactic; positioning could be low-cost, but the definition is broader.",
+        "Positioning creates a distinctive perception and value proposition in consumers' minds.",
+        "Sales promotions are part of promotion tactics, not the definition of positioning."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In the sales process, which step occurs immediately after presenting the product?",
+      "options": [
+        "Closing the sale",
+        "Overcoming objections",
+        "Following up",
+        "Determining customer needs"
+      ],
+      "answer": 1,
+      "explain": "After a presentation, the salesperson typically addresses concerns and questions, which is overcoming objections, before attempting to close.",
+      "optionExplanations": [
+        "Closing usually comes after objections are addressed and the buyer is ready to commit.",
+        "Overcoming objections directly follows the presentation in many selling models.",
+        "Follow-up usually occurs after the sale to ensure satisfaction and repeat business.",
+        "Determining needs happens earlier during the approach/needs assessment stage."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A primary purpose of sales promotions is to:",
+      "options": [
+        "Replace long-term advertising campaigns",
+        "Generate immediate consumer action",
+        "Reduce overall brand awareness",
+        "Eliminate personal selling needs"
+      ],
+      "answer": 1,
+      "explain": "Sales promotions are designed to create short-term urgency (coupons, limited-time offers) to trigger immediate purchases or trials.",
+      "optionExplanations": [
+        "Sales promotions supplement advertising; they do not replace long-term brand-building campaigns.",
+        "Immediate action is the classic goal: boost sales quickly or encourage trial.",
+        "Promotions can increase awareness; they do not aim to reduce it.",
+        "Personal selling is still useful; promotions do not eliminate the need for it."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which traditional advertising medium typically offers the broadest reach in a short time?",
+      "options": [
+        "Radio",
+        "Television",
+        "Direct mail",
+        "Brochures"
+      ],
+      "answer": 1,
+      "explain": "Television can reach very large audiences quickly, especially through major networks and widely watched events.",
+      "optionExplanations": [
+        "Radio can reach many people, but typically with smaller reach per spot than TV in a short window.",
+        "Television combines sight, sound, and mass audiences, enabling broad reach fast.",
+        "Direct mail is targeted but slow and limited by mailing lists.",
+        "Brochures are usually distributed selectively and do not provide mass reach quickly."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Cinema advertising is classified as:",
+      "options": [
+        "Traditional media",
+        "Outdoor media",
+        "Alternative media",
+        "Direct marketing"
+      ],
+      "answer": 2,
+      "explain": "Cinema ads are considered alternative media because they are not part of the classic 'big four' traditional mass media categories.",
+      "optionExplanations": [
+        "Traditional media usually refers to TV, radio, print, and outdoor in many marketing texts.",
+        "Outdoor media is billboards and similar out-of-home placements, not movie theaters.",
+        "Cinema placements are commonly grouped as alternative or nontraditional media.",
+        "Direct marketing involves direct contact like email, mail, or telemarketing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A major advantage of transit advertising is:",
+      "options": [
+        "High flexibility in changing creative designs daily",
+        "Captive audience in high-traffic areas",
+        "Lower cost per impression than online advertising",
+        "High audience selectivity"
+      ],
+      "answer": 1,
+      "explain": "Transit ads (buses, subways) are seen repeatedly by commuters, creating a captive audience in busy, high-traffic locations.",
+      "optionExplanations": [
+        "Transit creative is not typically changed daily; production/placement has lead times.",
+        "High-traffic routes and repeated exposure create a captive, frequently reached audience.",
+        "Online ads often have very low marginal costs; transit is not inherently lower CPI than online.",
+        "Transit is usually broad, not highly selective, compared with targeted digital media."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Branding is critical because it:",
+      "options": [
+        "Reduces the need for promotion",
+        "Helps establish customer loyalty and recognition",
+        "Eliminates the need for packaging",
+        "Guarantees the lowest price"
+      ],
+      "answer": 1,
+      "explain": "Branding differentiates a product and builds recognition and trust, which supports repeat purchase and loyalty.",
+      "optionExplanations": [
+        "Strong brands still rely on promotion to communicate and stay top-of-mind.",
+        "Branding builds recognition, perceived value, and loyalty over time.",
+        "Packaging supports branding, but branding does not eliminate packaging needs.",
+        "A strong brand can command higher prices; it does not guarantee the lowest price."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which economic condition typically leads to increased price sensitivity among consumers?",
+      "options": [
+        "Economic boom",
+        "Inflation",
+        "Recession",
+        "Deflation"
+      ],
+      "answer": 2,
+      "explain": "During a recession, incomes and confidence often drop, so consumers become more cautious and price-sensitive.",
+      "optionExplanations": [
+        "In a boom, consumers are often less price-sensitive due to higher confidence and income.",
+        "Inflation raises prices but does not always increase sensitivity the way job/income risk does.",
+        "Recessions increase budget constraints, making buyers compare prices more closely.",
+        "Deflation can affect spending, but the standard association with high sensitivity is recession."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The promotional mix does not include:",
+      "options": [
+        "Public relations",
+        "Personal selling",
+        "Research and development",
+        "Sales promotion"
+      ],
+      "answer": 2,
+      "explain": "Research and development is part of creating products, not part of the promotional tools used to communicate with customers.",
+      "optionExplanations": [
+        "Public relations is a promotional tool that manages reputation and earned media.",
+        "Personal selling is a promotional tool involving direct interaction with buyers.",
+        "R&D is about product development, not promotion or communication to the market.",
+        "Sales promotion is a promotional tool using short-term incentives."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "One key advantage of advertising over public relations is:",
+      "options": [
+        "Lower cost",
+        "Greater message control",
+        "Higher credibility",
+        "Faster audience trust building"
+      ],
+      "answer": 1,
+      "explain": "Paid advertising lets the sponsor control the exact message, timing, and placement, unlike PR which is mediated by third parties.",
+      "optionExplanations": [
+        "PR can be lower cost, but advertising is often more expensive than earned media.",
+        "Advertising is paid space/time, so the advertiser controls wording, visuals, and schedule.",
+        "PR often has higher credibility because it is not paid media.",
+        "Trust may build faster with credible PR; advertising does not guarantee faster trust."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which step of an advertising plan involves setting measurable goals?",
+      "options": [
+        "Creative strategy",
+        "SWOT analysis",
+        "Advertising objectives",
+        "Execution"
+      ],
+      "answer": 2,
+      "explain": "Advertising objectives define specific, measurable goals (e.g., increase awareness by X% or generate Y leads) that guide the plan.",
+      "optionExplanations": [
+        "Creative strategy focuses on message and tone, not setting measurable goals.",
+        "SWOT is situational analysis, not the goal-setting step.",
+        "Objectives state what the campaign should accomplish and are often measurable.",
+        "Execution is implementing the plan after goals and strategies are set."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Performing a SWOT analysis helps advertisers:",
+      "options": [
+        "Determine shipping costs",
+        "Identify strengths, weaknesses, opportunities, and threats",
+        "Select supply chain partners",
+        "Choose the best pricing strategy"
+      ],
+      "answer": 1,
+      "explain": "SWOT is a structured assessment of internal strengths/weaknesses and external opportunities/threats to inform strategy.",
+      "optionExplanations": [
+        "Shipping costs are logistics, not the purpose of SWOT.",
+        "SWOT explicitly stands for Strengths, Weaknesses, Opportunities, Threats.",
+        "Supply chain partner selection can be informed by SWOT but is not its definition.",
+        "Pricing strategy is one decision SWOT may inform, but SWOT is broader than pricing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the primary purpose of a creative brief in an advertising campaign?",
+      "options": [
+        "To summarize the campaign's goals, audience, message, and constraints for the creative team",
+        "To calculate payroll taxes for the advertising department",
+        "To file a trademark application with the USPTO",
+        "To determine the company's quarterly inventory turnover"
+      ],
+      "answer": 0,
+      "explain": "A creative brief aligns stakeholders by clearly defining the objective, target audience, key message, and required deliverables before creative work begins.",
+      "optionExplanations": [
+        "Correct: It guides copywriters/designers on what to produce and why.",
+        "Incorrect: Payroll taxes are an accounting function, not a creative-planning document.",
+        "Incorrect: Trademarks may be relevant to branding, but a creative brief is not a legal filing.",
+        "Incorrect: Inventory turnover is an operations metric unrelated to the creative brief."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In media planning, what does CPM measure?",
+      "options": [
+        "Cost per click on a digital advertisement",
+        "Cost to reach one thousand impressions",
+        "Cost per lead generated by a landing page",
+        "Cost per sale after a promotional discount"
+      ],
+      "answer": 1,
+      "explain": "CPM stands for cost per mille and represents the cost of delivering 1,000 impressions.",
+      "optionExplanations": [
+        "Incorrect: Cost per click is CPC, not CPM.",
+        "Correct: CPM is the price per 1,000 ad impressions.",
+        "Incorrect: Cost per lead is CPL.",
+        "Incorrect: Cost per sale is commonly tracked as CPA or cost per acquisition."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric best indicates how often an ad is shown compared to how often it is clicked?",
+      "options": [
+        "Click-through rate (CTR)",
+        "Conversion rate",
+        "Share of voice",
+        "Brand recall"
+      ],
+      "answer": 0,
+      "explain": "CTR is clicks divided by impressions, showing the rate at which viewers click after seeing the ad.",
+      "optionExplanations": [
+        "Correct: CTR directly compares clicks to impressions.",
+        "Incorrect: Conversion rate compares conversions to clicks or visits, not impressions to clicks.",
+        "Incorrect: Share of voice compares brand advertising presence to competitors.",
+        "Incorrect: Brand recall is a survey-based awareness measure, not an impression-to-click metric."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A/B testing in digital advertising is primarily used to:",
+      "options": [
+        "Randomly increase ad spend until sales rise",
+        "Compare two variants to determine which performs better on a chosen metric",
+        "Guarantee that an ad will go viral",
+        "Replace the need for target audience research"
+      ],
+      "answer": 1,
+      "explain": "A/B testing isolates one change (like headline or image) to see which version yields better results.",
+      "optionExplanations": [
+        "Incorrect: A/B testing is controlled comparison, not random spending changes.",
+        "Correct: It measures performance differences between two versions using data.",
+        "Incorrect: Testing cannot guarantee virality.",
+        "Incorrect: Testing complements research; it does not replace audience analysis."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of advertising is most associated with influencer posts that are paid and must be disclosed?",
+      "options": [
+        "Native advertising",
+        "Public service advertising",
+        "Cooperative advertising",
+        "Trade advertising"
+      ],
+      "answer": 0,
+      "explain": "Paid influencer content is often delivered in the same style as platform content, making it a form of native advertising that should include disclosure.",
+      "optionExplanations": [
+        "Correct: Native ads match the look/feel of the surrounding content and require clear labeling when sponsored.",
+        "Incorrect: Public service advertising promotes social causes rather than paid product promotion.",
+        "Incorrect: Cooperative advertising is cost-shared by manufacturers and retailers.",
+        "Incorrect: Trade advertising targets intermediaries (wholesalers/retailers), not consumers via influencers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In the advertising planning process, the step that comes immediately before selecting media channels is typically:",
+      "options": [
+        "Developing the target audience profile and objectives",
+        "Setting the accounting budget for office supplies",
+        "Shipping the product to distribution centers",
+        "Writing a customer service policy manual"
+      ],
+      "answer": 0,
+      "explain": "Media choices depend on who you are trying to reach and what the campaign must accomplish, so audience and objectives are set before media selection.",
+      "optionExplanations": [
+        "Correct: Audience and objectives drive where and how you advertise.",
+        "Incorrect: Office-supply budgeting is unrelated to media planning.",
+        "Incorrect: Distribution logistics are part of operations, not ad planning sequence.",
+        "Incorrect: Customer service policy is not a prerequisite for media selection."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'reach' mean in advertising metrics?",
+      "options": [
+        "The total number of times an ad is displayed",
+        "The number of unique individuals exposed to the ad at least once",
+        "The percentage of viewers who remember the slogan",
+        "The number of sales calls made by a salesperson"
+      ],
+      "answer": 1,
+      "explain": "Reach measures how many distinct people (or households) see the ad during a period, not how many total exposures occur.",
+      "optionExplanations": [
+        "Incorrect: Total displays are impressions, not reach.",
+        "Correct: Reach counts unique people reached at least once.",
+        "Incorrect: Remembering a slogan is recall, usually measured via surveys.",
+        "Incorrect: Sales calls are a personal selling activity, not an ad exposure metric."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes how many times, on average, a reached person sees the advertisement?",
+      "options": [
+        "Frequency",
+        "Positioning",
+        "Elasticity",
+        "Churn"
+      ],
+      "answer": 0,
+      "explain": "Frequency is the average number of exposures among those reached and is often paired with reach in media planning.",
+      "optionExplanations": [
+        "Correct: Frequency is average exposures per reached person.",
+        "Incorrect: Positioning is brand perception in the consumer's mind.",
+        "Incorrect: Elasticity measures demand sensitivity to price changes.",
+        "Incorrect: Churn is customer attrition, typically in subscriptions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a company advertises a product and includes a retailer's name, and the retailer shares the cost, this is called:",
+      "options": [
+        "Cooperative advertising",
+        "Institutional advertising",
+        "Guerrilla marketing",
+        "Direct-response advertising"
+      ],
+      "answer": 0,
+      "explain": "Cooperative advertising is a cost-sharing arrangement between a manufacturer and a reseller (retailer/wholesaler) for ads featuring both.",
+      "optionExplanations": [
+        "Correct: Co-op ads split costs and often use approved templates or reimbursement programs.",
+        "Incorrect: Institutional ads promote the organization's image rather than a shared manufacturer-retailer promotion.",
+        "Incorrect: Guerrilla marketing relies on unconventional tactics, not cost-sharing with a retailer.",
+        "Incorrect: Direct-response ads aim for immediate action but do not inherently involve cost-sharing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which legal concept requires that advertising claims be supported by evidence, especially for objective product performance statements?",
+      "options": [
+        "Substantiation",
+        "Double jeopardy",
+        "Force majeure",
+        "Consideration"
+      ],
+      "answer": 0,
+      "explain": "Advertisers must have a reasonable basis (substantiation) for objective claims, such as test results or reliable studies.",
+      "optionExplanations": [
+        "Correct: Substantiation means having proof for claims before making them.",
+        "Incorrect: Double jeopardy is criminal law related to being tried twice.",
+        "Incorrect: Force majeure is a contract clause for uncontrollable events.",
+        "Incorrect: Consideration is the value exchanged in a contract."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of an objective advertising claim that typically requires substantiation?",
+      "options": [
+        "'Best-tasting coffee in the world'",
+        "'Our detergent removes 30% more stains than Brand X in lab tests'",
+        "'A refreshing choice for your morning'",
+        "'A brand you'll love'"
+      ],
+      "answer": 1,
+      "explain": "A quantified comparative performance claim is objective and must be supported by reliable evidence such as controlled tests.",
+      "optionExplanations": [
+        "Incorrect: 'Best-tasting' is largely subjective puffery and hard to prove objectively.",
+        "Correct: A measurable '30% more' comparative claim requires test-based support.",
+        "Incorrect: 'Refreshing' is subjective and usually considered puffery.",
+        "Incorrect: 'You'll love' is subjective opinion, not a factual performance statement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In digital advertising, what is a 'conversion' most commonly?",
+      "options": [
+        "A view of the company's homepage",
+        "A desired action such as a purchase, signup, or download",
+        "A comment left on a social media post",
+        "A change in the company's accounting method"
+      ],
+      "answer": 1,
+      "explain": "A conversion is the completion of a campaign goal, like buying, registering, or installing an app.",
+      "optionExplanations": [
+        "Incorrect: A homepage view is a visit, not necessarily a goal completion.",
+        "Correct: Conversions are defined as valuable actions tied to objectives.",
+        "Incorrect: Comments may signal engagement but are not always the defined conversion.",
+        "Incorrect: Accounting methods are unrelated to ad conversion tracking."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which targeting method shows ads to users based on their past browsing behavior, such as viewing product pages?",
+      "options": [
+        "Behavioral targeting (retargeting)",
+        "Geofencing only",
+        "Contextual targeting only",
+        "Random rotation targeting"
+      ],
+      "answer": 0,
+      "explain": "Retargeting uses cookies/identifiers to show ads to people who previously interacted with a site or product, increasing relevance.",
+      "optionExplanations": [
+        "Correct: Retargeting/behavioral targeting uses prior actions to tailor ads.",
+        "Incorrect: Geofencing uses location boundaries, not browsing history.",
+        "Incorrect: Contextual targeting matches content on a page, not a user's past behavior.",
+        "Incorrect: Random rotation is not a standard targeting approach and would ignore relevance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main advantage of contextual targeting?",
+      "options": [
+        "It can target people who never use the internet",
+        "It places ads alongside content that is relevant to the ad message",
+        "It guarantees the lowest possible CPM",
+        "It prevents any need for ad creative review"
+      ],
+      "answer": 1,
+      "explain": "Contextual targeting matches ads to the topic of the page or content being consumed, which can improve relevance without relying on user tracking.",
+      "optionExplanations": [
+        "Incorrect: Contextual targeting is an online technique; it does not reach offline-only audiences.",
+        "Correct: Matching ad to content context improves alignment and relevance.",
+        "Incorrect: CPM depends on inventory and demand; relevance does not guarantee the lowest cost.",
+        "Incorrect: Creative still must be reviewed for quality, compliance, and brand safety."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes 'brand safety' in digital advertising?",
+      "options": [
+        "Ensuring ads are printed on recycled paper",
+        "Preventing ads from appearing next to content that could harm the brand's reputation",
+        "Making sure the brand name is registered as a trademark",
+        "Guaranteeing that ads cannot be blocked by users"
+      ],
+      "answer": 1,
+      "explain": "Brand safety focuses on controlling placements so ads do not appear near inappropriate, misleading, or harmful content.",
+      "optionExplanations": [
+        "Incorrect: Recycled paper relates to sustainability in print, not brand safety in placements.",
+        "Correct: It is about avoiding harmful adjacency and unsafe environments for the brand.",
+        "Incorrect: Trademark registration is a legal protection, not a placement control concept.",
+        "Incorrect: Ad blocking is a technical/user choice issue, not guaranteed by brand safety."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A call to action (CTA) in an advertisement is:",
+      "options": [
+        "The legal disclaimer at the bottom of a print ad",
+        "The part that tells the audience what to do next, such as 'Buy now' or 'Learn more'",
+        "The product's manufacturing instructions",
+        "The competitor comparison chart"
+      ],
+      "answer": 1,
+      "explain": "A CTA prompts the consumer to take a specific next step, which is central to direct-response and many digital campaigns.",
+      "optionExplanations": [
+        "Incorrect: Disclaimers disclose required information but do not necessarily direct action.",
+        "Correct: CTAs instruct the audience on the desired next action.",
+        "Incorrect: Manufacturing instructions are for production, not consumer response.",
+        "Incorrect: Comparison charts can inform but are not the action prompt itself."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which media buying method typically involves automated, real-time bidding for ad impressions?",
+      "options": [
+        "Programmatic advertising",
+        "Cooperative advertising",
+        "Trade promotion",
+        "Personal selling"
+      ],
+      "answer": 0,
+      "explain": "Programmatic advertising uses software platforms to buy and place ads, often through real-time auctions for impressions.",
+      "optionExplanations": [
+        "Correct: Programmatic includes RTB and automated placement decisions.",
+        "Incorrect: Co-op advertising is a cost-sharing arrangement, not an auction-based system.",
+        "Incorrect: Trade promotion targets intermediaries with incentives, not automated ad auctions.",
+        "Incorrect: Personal selling is direct human-to-human sales, not media buying."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In print advertising, which element most directly improves readability for long blocks of text?",
+      "options": [
+        "Increasing the amount of decorative script font used",
+        "Using appropriate font size, line spacing, and contrast",
+        "Removing all headings and subheadings",
+        "Placing text over a busy, low-contrast background image"
+      ],
+      "answer": 1,
+      "explain": "Legibility depends on typography choices such as size, leading, and contrast, which help readers process text comfortably.",
+      "optionExplanations": [
+        "Incorrect: Decorative script fonts often reduce readability in body text.",
+        "Correct: Size, spacing, and contrast are key drivers of legibility.",
+        "Incorrect: Headings help scanning and structure; removing them usually hurts readability.",
+        "Incorrect: Busy, low-contrast backgrounds make text hard to read."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of advertising primarily promotes the company or organization rather than a specific product?",
+      "options": [
+        "Institutional (corporate) advertising",
+        "Product advertising",
+        "Direct-response advertising",
+        "Cooperative advertising"
+      ],
+      "answer": 0,
+      "explain": "Institutional advertising focuses on building the organization's image, values, or reputation instead of driving sales of one item.",
+      "optionExplanations": [
+        "Correct: Corporate/institutional ads build brand image and goodwill.",
+        "Incorrect: Product advertising promotes a specific good or service.",
+        "Incorrect: Direct-response ads seek immediate action like calling or clicking.",
+        "Incorrect: Co-op ads are cost-shared with a retailer and usually feature specific products."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which research method is most likely to measure consumers' attitudes toward an ad after viewing it?",
+      "options": [
+        "A post-exposure survey",
+        "A physical inventory count",
+        "A bank reconciliation",
+        "A depreciation schedule"
+      ],
+      "answer": 0,
+      "explain": "Surveys can measure attitudes, recall, and persuasion after exposure; the other options are accounting/operations tasks.",
+      "optionExplanations": [
+        "Correct: Surveys capture perceptions and attitudes directly from viewers.",
+        "Incorrect: Inventory counts measure stock levels, not ad attitudes.",
+        "Incorrect: Bank reconciliations compare cash records to bank statements.",
+        "Incorrect: Depreciation schedules allocate asset cost over time."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A unique selling proposition (USP) is best defined as:",
+      "options": [
+        "A promise that a product is always the cheapest",
+        "A clear, distinctive benefit that sets a product apart from competitors",
+        "A requirement that ads include a coupon",
+        "A rule that logos must be placed in the top-left corner"
+      ],
+      "answer": 1,
+      "explain": "A USP is the core differentiating benefit or reason-to-believe that makes the offering stand out and motivates purchase.",
+      "optionExplanations": [
+        "Incorrect: Being the cheapest is one possible positioning, not the definition of a USP.",
+        "Correct: A USP highlights a unique, compelling benefit compared with alternatives.",
+        "Incorrect: Coupons are a sales promotion tool, not a USP requirement.",
+        "Incorrect: Logo placement rules are design guidelines, not a USP."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which stage of the buyer's journey is most associated with comparing alternatives and reading reviews before purchasing?",
+      "options": [
+        "Awareness",
+        "Consideration",
+        "Retention",
+        "Advocacy"
+      ],
+      "answer": 1,
+      "explain": "In the consideration stage, consumers evaluate options and information (features, reviews, price) before deciding.",
+      "optionExplanations": [
+        "Incorrect: Awareness is when the consumer first learns about a need or brand.",
+        "Correct: Consideration involves evaluating and comparing possible solutions.",
+        "Incorrect: Retention occurs after purchase and focuses on keeping customers.",
+        "Incorrect: Advocacy is when satisfied customers recommend the brand to others."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main goal of 'top-of-funnel' advertising?",
+      "options": [
+        "Increase long-term awareness and interest among a broad audience",
+        "Finalize contract terms with suppliers",
+        "Collect overdue accounts receivable",
+        "Reduce the number of product SKUs"
+      ],
+      "answer": 0,
+      "explain": "Top-of-funnel ads are designed to introduce the brand and generate awareness, setting up later stages like consideration and conversion.",
+      "optionExplanations": [
+        "Correct: It focuses on awareness and initial engagement with many potential customers.",
+        "Incorrect: Supplier contracts are procurement, not funnel marketing.",
+        "Incorrect: Accounts receivable collection is an accounting/finance task.",
+        "Incorrect: SKU reduction is product management/operations, not funnel advertising."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a key characteristic of 'puffery' in advertising?",
+      "options": [
+        "It makes specific, measurable claims that must be proven",
+        "It uses subjective opinions that reasonable consumers do not treat as literal facts",
+        "It is always illegal under advertising law",
+        "It requires a government certification seal"
+      ],
+      "answer": 1,
+      "explain": "Puffery involves exaggerated, subjective statements (e.g., 'the best ever') that are not objectively verifiable and are generally allowed.",
+      "optionExplanations": [
+        "Incorrect: Specific measurable claims typically require substantiation.",
+        "Correct: Puffery is subjective opinion, not a precise factual claim.",
+        "Incorrect: Puffery is generally legal; illegality depends on deception about facts.",
+        "Incorrect: Certification seals relate to verified claims, not puffery."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In social media advertising, what is 'engagement' most commonly referring to?",
+      "options": [
+        "Interactions such as likes, comments, shares, saves, or clicks",
+        "The company's yearly profit",
+        "The number of pallets shipped to stores",
+        "The interest rate on a business loan"
+      ],
+      "answer": 0,
+      "explain": "Engagement metrics track how users interact with content rather than only viewing it.",
+      "optionExplanations": [
+        "Correct: These interactions indicate active response to the content.",
+        "Incorrect: Profit is a financial outcome, not a social metric.",
+        "Incorrect: Pallets shipped is a logistics measure.",
+        "Incorrect: Loan interest rates are finance terms unrelated to social engagement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which format is best described as an advertisement that looks like a regular news article or editorial content but is paid for by a sponsor?",
+      "options": [
+        "Advertorial",
+        "Billboard",
+        "Jingle",
+        "Coupon"
+      ],
+      "answer": 0,
+      "explain": "An advertorial is paid promotional content designed to resemble editorial material, and it should be clearly labeled to avoid deception.",
+      "optionExplanations": [
+        "Correct: Advertorials mimic editorial style while promoting a sponsor.",
+        "Incorrect: Billboards are outdoor placements, not article-style ads.",
+        "Incorrect: Jingles are audio branding elements, not article-format content.",
+        "Incorrect: Coupons provide discounts, not editorial-style messaging."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes 'market segmentation' for advertising?",
+      "options": [
+        "Dividing a market into smaller groups with similar characteristics to target messages more effectively",
+        "Selling the same product to every consumer with identical messaging",
+        "Reducing the price of a product by 50%",
+        "Switching from digital ads to only print ads"
+      ],
+      "answer": 0,
+      "explain": "Segmentation groups consumers by traits like demographics, behaviors, or needs so ads can be tailored for relevance and efficiency.",
+      "optionExplanations": [
+        "Correct: Segmentation enables targeted strategies for different groups.",
+        "Incorrect: Identical messaging to everyone ignores differences in needs and behaviors.",
+        "Incorrect: A price cut is a pricing tactic, not segmentation.",
+        "Incorrect: Changing media type does not define segmentation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which demographic variable is most directly related to consumer income levels?",
+      "options": [
+        "Geographic region",
+        "Psychographic lifestyle",
+        "Household income",
+        "Brand loyalty score"
+      ],
+      "answer": 2,
+      "explain": "Household income is a demographic measure that directly quantifies buying power.",
+      "optionExplanations": [
+        "Incorrect: Geography describes location, not income by itself.",
+        "Incorrect: Psychographics describe attitudes and lifestyles, not income levels.",
+        "Correct: Household income directly measures income level.",
+        "Incorrect: Loyalty is a behavioral metric, not a demographic income measure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a campaign objective is to generate immediate sales leads, which ad type is usually most appropriate?",
+      "options": [
+        "Direct-response advertising",
+        "Institutional advertising",
+        "Public relations only",
+        "Product packaging redesign"
+      ],
+      "answer": 0,
+      "explain": "Direct-response advertising uses offers and CTAs to prompt immediate action, such as filling out a form or calling.",
+      "optionExplanations": [
+        "Correct: It is designed to capture leads or orders right away.",
+        "Incorrect: Institutional ads build image more than immediate response.",
+        "Incorrect: PR can help awareness but is not designed solely for immediate lead capture.",
+        "Incorrect: Packaging redesign is a product strategy, not an ad type for lead capture."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a common reason advertisers use a media 'flight' schedule?",
+      "options": [
+        "To run ads continuously at the same level all year",
+        "To run ads in bursts with breaks in between to manage budget or seasonality",
+        "To avoid measuring campaign performance",
+        "To eliminate the need for creative development"
+      ],
+      "answer": 1,
+      "explain": "Flighting concentrates ads during peak periods and pauses during off times, often used for seasonal products or limited budgets.",
+      "optionExplanations": [
+        "Incorrect: Continuous scheduling is the opposite of flighting.",
+        "Correct: Flighting is on-and-off scheduling with planned gaps.",
+        "Incorrect: Performance measurement is still important regardless of scheduling.",
+        "Incorrect: Creative is still required; flighting only changes timing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A 'pulsing' media schedule is best described as:",
+      "options": [
+        "No advertising at all for most of the year",
+        "Continuous advertising with periodic increases during peak times",
+        "Only advertising through billboards",
+        "Only advertising through influencers"
+      ],
+      "answer": 1,
+      "explain": "Pulsing maintains a baseline level of ads year-round and adds heavier spending during high-demand periods.",
+      "optionExplanations": [
+        "Incorrect: That describes a sporadic or seasonal approach, not pulsing.",
+        "Correct: Baseline plus bursts is the definition of pulsing.",
+        "Incorrect: Pulsing is about timing and weight, not a single medium choice.",
+        "Incorrect: Pulsing can apply to any channel, not only influencers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In video ads, what is the primary purpose of a 'hook' in the first few seconds?",
+      "options": [
+        "To comply with accounting standards",
+        "To capture attention quickly and reduce viewer drop-off",
+        "To increase the product's manufacturing speed",
+        "To avoid including a brand name"
+      ],
+      "answer": 1,
+      "explain": "A strong opening hook grabs attention and keeps viewers watching long enough to receive the message.",
+      "optionExplanations": [
+        "Incorrect: Accounting standards do not dictate ad openings.",
+        "Correct: Early attention is critical due to short attention spans and skip behavior.",
+        "Incorrect: Manufacturing speed is unrelated to video creative structure.",
+        "Incorrect: Branding is often included early; the hook does not require avoiding the brand name."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which pricing tactic is most associated with advertising a product at $9.99 instead of $10.00?",
+      "options": [
+        "Prestige pricing",
+        "Odd-even pricing (psychological pricing)",
+        "Skimming pricing",
+        "Penetration pricing"
+      ],
+      "answer": 1,
+      "explain": "Odd-even pricing uses prices ending in 9 or 99 to create a perception of a lower price than a round number.",
+      "optionExplanations": [
+        "Incorrect: Prestige pricing uses higher, rounder prices to signal quality/luxury.",
+        "Correct: $9.99 is a classic odd-even psychological pricing tactic.",
+        "Incorrect: Skimming sets a high initial price to maximize early profits.",
+        "Incorrect: Penetration sets a low price to rapidly gain market share, not specifically 9-ending prices."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of a 'testimonial' in advertising?",
+      "options": [
+        "A chart of product ingredients",
+        "A customer stating how the product helped them and why they recommend it",
+        "A list of company office locations",
+        "A barcode printed on the package"
+      ],
+      "answer": 1,
+      "explain": "Testimonials use statements from users or endorsers to build credibility and social proof.",
+      "optionExplanations": [
+        "Incorrect: Ingredients are informational content, not an endorsement.",
+        "Correct: A personal endorsement describing benefits is a testimonial.",
+        "Incorrect: Office locations provide contact info, not a testimonial.",
+        "Incorrect: Barcodes are for scanning and inventory control, not endorsements."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which element is MOST important for ensuring an ad's message is consistent across multiple channels (TV, social, print)?",
+      "options": [
+        "Integrated marketing communications (IMC)",
+        "Randomized budgeting",
+        "Just-in-time inventory",
+        "Double-entry bookkeeping"
+      ],
+      "answer": 0,
+      "explain": "IMC coordinates messaging and branding across channels so audiences receive a unified, coherent message.",
+      "optionExplanations": [
+        "Correct: IMC aligns creative, tone, and timing across touchpoints.",
+        "Incorrect: Randomized budgeting is not a marketing communications principle.",
+        "Incorrect: Just-in-time inventory is an operations method, not messaging consistency.",
+        "Incorrect: Double-entry bookkeeping is an accounting system, not an advertising framework."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of a brand style guide for advertising teams?",
+      "options": [
+        "To standardize visual and verbal brand elements like logo use, colors, and tone",
+        "To set employee vacation policies",
+        "To calculate the cost of goods sold",
+        "To determine product warranty repairs"
+      ],
+      "answer": 0,
+      "explain": "Style guides ensure consistent brand presentation so campaigns look and sound like the same brand across designers, agencies, and platforms.",
+      "optionExplanations": [
+        "Correct: It defines rules for typography, color, voice, and logo usage.",
+        "Incorrect: HR policies are not the purpose of a style guide.",
+        "Incorrect: COGS is a finance metric unrelated to brand identity standards.",
+        "Incorrect: Warranty repair procedures are operations/service documents."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a common KPI for email advertising campaigns?",
+      "options": [
+        "Open rate",
+        "Employee turnover rate",
+        "Machine downtime",
+        "Accounts payable aging"
+      ],
+      "answer": 0,
+      "explain": "Open rate measures what percentage of delivered emails are opened, a core email performance metric.",
+      "optionExplanations": [
+        "Correct: It is directly tracked by email platforms and reflects subject line and sender effectiveness.",
+        "Incorrect: Turnover rate measures staffing, not email performance.",
+        "Incorrect: Downtime measures production reliability, not marketing outcomes.",
+        "Incorrect: AP aging is an accounting report unrelated to email campaigns."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In online advertising, CPC stands for:",
+      "options": [
+        "Cost per conversion",
+        "Cost per click",
+        "Customer profit contribution",
+        "Campaign performance coefficient"
+      ],
+      "answer": 1,
+      "explain": "CPC is the amount paid for each click on an advertisement.",
+      "optionExplanations": [
+        "Incorrect: Cost per conversion is more closely tied to CPA or cost per acquisition.",
+        "Correct: CPC is cost per click.",
+        "Incorrect: Customer profit contribution is not a standard ad pricing acronym.",
+        "Incorrect: Campaign performance coefficient is not a standard metric."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric is MOST directly used to evaluate how effective a landing page is at turning visitors into leads or customers?",
+      "options": [
+        "Bounce rate",
+        "Conversion rate",
+        "Impressions",
+        "Reach"
+      ],
+      "answer": 1,
+      "explain": "Conversion rate indicates the percentage of visitors who complete the desired action on the landing page.",
+      "optionExplanations": [
+        "Incorrect: Bounce rate indicates leaving quickly, which can be informative but not the direct 'turning into leads' measure.",
+        "Correct: Conversion rate measures successful completions of the goal.",
+        "Incorrect: Impressions refer to ad displays, not landing page outcomes.",
+        "Incorrect: Reach counts unique people exposed to the ad, not page performance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A 'bounce' on a website is typically defined as:",
+      "options": [
+        "A visitor leaving after viewing only one page without further interaction",
+        "A visitor purchasing multiple items",
+        "A visitor sharing the page on social media",
+        "A visitor calling customer support"
+      ],
+      "answer": 0,
+      "explain": "A bounce is a single-page session where the user leaves without taking additional actions, often used to assess relevance and usability.",
+      "optionExplanations": [
+        "Correct: It is a one-page visit with no further engagement.",
+        "Incorrect: Multiple purchases indicate high engagement, not a bounce.",
+        "Incorrect: Sharing is engagement, not a bounce.",
+        "Incorrect: Calling support is an off-site interaction and not the definition of a bounce."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of 'earned media'?",
+      "options": [
+        "A paid Instagram ad",
+        "A newspaper article covering the company without payment for placement",
+        "A billboard rental purchased for a month",
+        "A sponsored search ad at the top of Google"
+      ],
+      "answer": 1,
+      "explain": "Earned media is publicity gained through third-party coverage or sharing, not paid placement.",
+      "optionExplanations": [
+        "Incorrect: Paid social ads are paid media.",
+        "Correct: Unpaid editorial coverage is earned media.",
+        "Incorrect: Billboards are paid placements.",
+        "Incorrect: Sponsored search ads are paid media."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary difference between 'owned media' and 'paid media'?",
+      "options": [
+        "Owned media is controlled by the brand (website, email list), while paid media is purchased placement (ads)",
+        "Owned media is always cheaper than paid media",
+        "Owned media cannot be measured, while paid media can",
+        "Owned media is illegal for businesses"
+      ],
+      "answer": 0,
+      "explain": "Owned media consists of channels the brand controls, whereas paid media requires buying space/time from a platform or publisher.",
+      "optionExplanations": [
+        "Correct: Control/ownership of the channel is the key distinction.",
+        "Incorrect: Costs vary; owned media still has production and maintenance costs.",
+        "Incorrect: Both can be measured with analytics.",
+        "Incorrect: Owned media like websites and social pages is legal and common."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a common goal of remarketing (retargeting) campaigns?",
+      "options": [
+        "Reach people who have never heard of the brand",
+        "Re-engage users who previously visited or interacted but did not convert",
+        "Eliminate the need for a website",
+        "Avoid using any audience data"
+      ],
+      "answer": 1,
+      "explain": "Retargeting focuses on prospects who already showed interest, increasing the chance of conversion by reminding them and addressing objections.",
+      "optionExplanations": [
+        "Incorrect: That is a goal of awareness campaigns more than remarketing.",
+        "Correct: It targets prior visitors/engagers to encourage completion of the desired action.",
+        "Incorrect: Remarketing typically drives people back to a website or app to convert.",
+        "Incorrect: Remarketing relies on some form of audience identification or interaction signals."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In advertising, what is a 'media mix'?",
+      "options": [
+        "A combination of different media channels used in a campaign, such as TV, social, and print",
+        "A mixture of chemicals used to print magazines",
+        "A list of employee job titles",
+        "A method for balancing a checkbook"
+      ],
+      "answer": 0,
+      "explain": "A media mix is the planned blend of channels selected to reach the target audience efficiently and meet objectives.",
+      "optionExplanations": [
+        "Correct: It describes how budget and placements are distributed across channels.",
+        "Incorrect: Printing chemicals are not the concept of media mix.",
+        "Incorrect: Job titles are an HR organizational chart item.",
+        "Incorrect: Checkbook balancing is personal finance/accounting, not advertising."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes 'media fragmentation'?",
+      "options": [
+        "Consumers concentrating their attention on a single TV channel",
+        "Audiences splitting across many channels and platforms, making it harder to reach everyone with one medium",
+        "A company printing ads in one newspaper only",
+        "A brand using only one message across platforms"
+      ],
+      "answer": 1,
+      "explain": "Media fragmentation occurs as more platforms and niche channels exist, so audiences are dispersed and require multi-channel planning.",
+      "optionExplanations": [
+        "Incorrect: That describes concentrated audiences, the opposite of fragmentation.",
+        "Correct: Fragmentation means the audience is spread across many outlets.",
+        "Incorrect: Printing in one newspaper is a media choice, not fragmentation itself.",
+        "Incorrect: Using one message is an IMC strategy, not fragmentation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of a media 'impression cap' (frequency capping) in digital advertising?",
+      "options": [
+        "To increase the number of times a single user sees an ad as much as possible",
+        "To limit how many times a user is shown the same ad within a period",
+        "To prevent the advertiser from tracking conversions",
+        "To guarantee 100% viewability"
+      ],
+      "answer": 1,
+      "explain": "Frequency capping reduces ad fatigue and wasted spend by limiting repeated exposures to the same user.",
+      "optionExplanations": [
+        "Incorrect: Unlimited repetition can annoy users and waste budget.",
+        "Correct: Caps control exposure frequency per user over time.",
+        "Incorrect: Conversion tracking can still occur with caps in place.",
+        "Incorrect: Viewability depends on whether the ad was actually seen, not only how often it is served."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the point at which additional advertising exposures produce little or no additional persuasive effect?",
+      "options": [
+        "Diminishing returns",
+        "Economies of scale",
+        "Perfect competition",
+        "Elastic demand"
+      ],
+      "answer": 0,
+      "explain": "After a certain frequency, each additional exposure tends to add less incremental impact, a classic case of diminishing returns.",
+      "optionExplanations": [
+        "Correct: Incremental benefit declines as exposure increases.",
+        "Incorrect: Economies of scale refer to lower average cost with higher production volume.",
+        "Incorrect: Perfect competition is a market structure concept, not ad effectiveness.",
+        "Incorrect: Elastic demand refers to sensitivity of quantity demanded to price changes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A common reason for using a celebrity endorsement is to:",
+      "options": [
+        "Transfer the endorser's credibility or appeal to the brand",
+        "Eliminate the need for product quality",
+        "Avoid any legal disclosure requirements",
+        "Guarantee that all consumers will like the ad"
+      ],
+      "answer": 0,
+      "explain": "Endorsements leverage attention, trust, and associations (expertise, attractiveness) to influence attitudes toward the brand.",
+      "optionExplanations": [
+        "Correct: The goal is association and increased persuasion/attention.",
+        "Incorrect: Endorsements cannot replace actual product performance.",
+        "Incorrect: Many endorsements require disclosures, especially if paid or sponsored.",
+        "Incorrect: No ad can guarantee universal approval."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In advertising ethics, 'bait-and-switch' refers to:",
+      "options": [
+        "Offering a product at a low advertised price but pressuring customers to buy a higher-priced item because the advertised item is unavailable",
+        "Giving customers a discount for returning a used product",
+        "Switching from print ads to digital ads",
+        "Using two different slogans in the same campaign"
+      ],
+      "answer": 0,
+      "explain": "Bait-and-switch is deceptive because the advertiser lures customers with one offer and then steers them to a different, usually more expensive, purchase.",
+      "optionExplanations": [
+        "Correct: It involves advertising an attractive offer and then switching to another product due to claimed unavailability or pressure tactics.",
+        "Incorrect: Refund/return discounts are not the bait-and-switch practice.",
+        "Incorrect: Channel switching is a strategy decision, not deception.",
+        "Incorrect: Two slogans may be inconsistent, but it is not bait-and-switch."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which element of an advertisement is MOST likely to be required for compliance when promoting a limited-time discount?",
+      "options": [
+        "A clear statement of the key terms, such as dates and any significant restrictions",
+        "A poem describing the founder's childhood",
+        "A list of the company's competitors",
+        "A statement that the offer lasts forever"
+      ],
+      "answer": 0,
+      "explain": "Clear disclosures of material terms help prevent deception by informing consumers about limitations like time window, eligibility, or quantity.",
+      "optionExplanations": [
+        "Correct: Material terms (dates, restrictions) must be disclosed clearly.",
+        "Incorrect: Creative storytelling is optional and not a compliance requirement.",
+        "Incorrect: Listing competitors is not a standard compliance requirement.",
+        "Incorrect: Claiming an offer lasts forever would be misleading if untrue."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of 'comparative advertising'?",
+      "options": [
+        "A brand describes its own product features without mentioning competitors",
+        "A brand claims its product lasts longer than a named competitor based on testing",
+        "A brand changes its logo color",
+        "A brand sponsors a community event without promoting products"
+      ],
+      "answer": 1,
+      "explain": "Comparative advertising explicitly compares a product to competitors, and it must be truthful and supported when claims are objective.",
+      "optionExplanations": [
+        "Incorrect: No competitor comparison is made.",
+        "Correct: It compares performance against a named competitor using a claim that should be substantiated.",
+        "Incorrect: Logo color changes are branding decisions, not comparative claims.",
+        "Incorrect: Sponsorship without promotion is not comparative advertising."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of an advertising 'budget'?",
+      "options": [
+        "To decide the company's legal structure",
+        "To allocate resources for advertising activities and control spending",
+        "To determine employee health benefits",
+        "To calculate product depreciation"
+      ],
+      "answer": 1,
+      "explain": "An advertising budget sets how much will be spent and on what, helping plan and control campaign costs.",
+      "optionExplanations": [
+        "Incorrect: Legal structure decisions are corporate governance matters.",
+        "Correct: Budgets allocate funds across channels, creative, and timing and help control costs.",
+        "Incorrect: Health benefits are HR compensation decisions.",
+        "Incorrect: Depreciation is an accounting calculation for assets."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which budgeting method sets advertising spending as a percentage of sales (past or forecast)?",
+      "options": [
+        "Objective-and-task method",
+        "Percentage-of-sales method",
+        "Competitive parity method",
+        "Zero-based budgeting method"
+      ],
+      "answer": 1,
+      "explain": "The percentage-of-sales method ties ad spending directly to sales levels, using a fixed percent.",
+      "optionExplanations": [
+        "Incorrect: Objective-and-task starts with goals and tasks, then costs them out.",
+        "Correct: It uses sales as the base for determining the budget.",
+        "Incorrect: Competitive parity matches competitors' spending levels.",
+        "Incorrect: Zero-based starts from zero and justifies each expense."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which budgeting method is generally considered the MOST logical because it starts with goals and calculates the cost to achieve them?",
+      "options": [
+        "Objective-and-task method",
+        "All-you-can-afford method",
+        "Percentage-of-sales method",
+        "Arbitrary method"
+      ],
+      "answer": 0,
+      "explain": "Objective-and-task links spending to specific objectives and the tasks required to accomplish them, making it strategy-driven.",
+      "optionExplanations": [
+        "Correct: It budgets by identifying tasks needed to meet objectives and estimating their costs.",
+        "Incorrect: All-you-can-afford is constrained by leftover funds and may underfund objectives.",
+        "Incorrect: Percentage-of-sales follows sales rather than needed activity to meet goals.",
+        "Incorrect: Arbitrary budgets are not based on analysis or objectives."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a key advantage of digital advertising over print advertising?",
+      "options": [
+        "It cannot be measured",
+        "It allows detailed targeting and real-time performance measurement",
+        "It always has higher credibility than earned media",
+        "It never requires creative assets"
+      ],
+      "answer": 1,
+      "explain": "Digital platforms can target specific audiences and provide immediate analytics (impressions, clicks, conversions) to optimize campaigns.",
+      "optionExplanations": [
+        "Incorrect: Digital ads are highly measurable using platform analytics.",
+        "Correct: Targeting and real-time measurement/optimization are major digital advantages.",
+        "Incorrect: Earned media often has higher credibility because it is not paid placement.",
+        "Incorrect: Digital still requires creative like images, video, or copy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In search engine marketing, what does a 'keyword' represent?",
+      "options": [
+        "A mandatory legal disclosure",
+        "A word or phrase advertisers bid on to trigger ads for relevant searches",
+        "A type of warehouse inventory label",
+        "A discount code used at checkout"
+      ],
+      "answer": 1,
+      "explain": "Keywords are search terms used in paid search to match user intent and display relevant ads.",
+      "optionExplanations": [
+        "Incorrect: Disclosures are separate from search matching.",
+        "Correct: Advertisers bid on keywords to show ads when users search those terms.",
+        "Incorrect: Warehouse labels are operational identifiers, not ad triggers.",
+        "Incorrect: Discount codes apply at purchase, not ad display triggers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of negative keywords in paid search advertising?",
+      "options": [
+        "To increase the number of irrelevant impressions",
+        "To prevent ads from showing on searches that are not relevant to the offer",
+        "To make ads display in a larger font",
+        "To automatically increase bids for every keyword"
+      ],
+      "answer": 1,
+      "explain": "Negative keywords filter out unwanted queries, improving relevance and reducing wasted spend.",
+      "optionExplanations": [
+        "Incorrect: The goal is to reduce irrelevant impressions, not increase them.",
+        "Correct: They exclude specific terms so ads do not show for mismatched intent.",
+        "Incorrect: Font size is controlled by platform formats, not negative keywords.",
+        "Incorrect: Bid automation is separate from negative keyword settings."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ad pricing model charges the advertiser when a user actually clicks the ad?",
+      "options": [
+        "CPM",
+        "CPC",
+        "Flat annual fee regardless of performance",
+        "CPA based on impressions only"
+      ],
+      "answer": 1,
+      "explain": "CPC pricing charges per click, meaning the advertiser pays when a user clicks.",
+      "optionExplanations": [
+        "Incorrect: CPM charges per 1,000 impressions, not clicks.",
+        "Correct: CPC is cost per click.",
+        "Incorrect: Flat fees are not performance-triggered.",
+        "Incorrect: CPA is cost per acquisition/action, not impressions only."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric is MOST appropriate for evaluating a brand-awareness campaign on video platforms?",
+      "options": [
+        "View-through rate (VTR) and completed views",
+        "Number of returned products",
+        "Warehouse picking accuracy",
+        "Days sales outstanding (DSO)"
+      ],
+      "answer": 0,
+      "explain": "Awareness campaigns on video often prioritize views and completion metrics that indicate message exposure, rather than direct purchases.",
+      "optionExplanations": [
+        "Correct: VTR/completions show how many people watched and how fully they consumed the message.",
+        "Incorrect: Returns relate to product satisfaction after purchase.",
+        "Incorrect: Picking accuracy is a logistics metric.",
+        "Incorrect: DSO is an accounts receivable metric."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In online video advertising, 'viewability' generally refers to whether:",
+      "options": [
+        "The ad was legally approved by a lawyer",
+        "The ad was actually viewable on the screen for a minimum time/percentage",
+        "The ad used a high-resolution camera",
+        "The ad mentioned the brand name three times"
+      ],
+      "answer": 1,
+      "explain": "Viewability standards assess whether an impression had the opportunity to be seen (e.g., enough of the ad in view for long enough).",
+      "optionExplanations": [
+        "Incorrect: Legal approval is compliance, not viewability measurement.",
+        "Correct: It measures whether the ad was in view and had a chance to be seen.",
+        "Incorrect: Camera resolution is a production detail, not viewability.",
+        "Incorrect: Brand name mentions do not determine whether an ad was viewable."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice is most likely to improve Quality Score in many paid search platforms?",
+      "options": [
+        "Using irrelevant landing pages that do not match the ad",
+        "Improving ad relevance, expected CTR, and landing page experience",
+        "Bidding on every keyword regardless of intent",
+        "Writing ads with no keywords in the text"
+      ],
+      "answer": 1,
+      "explain": "Quality Score is influenced by relevance and user experience signals, so aligning keywords, ads, and landing pages typically improves it.",
+      "optionExplanations": [
+        "Incorrect: Irrelevant landing pages usually worsen user experience and quality metrics.",
+        "Correct: Relevance and good landing page experience generally raise Quality Score.",
+        "Incorrect: Broad, untargeted bidding can hurt relevance and performance.",
+        "Incorrect: Keyword-to-ad relevance is often important for matching intent."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A 'brand lift' study is designed to measure:",
+      "options": [
+        "Changes in consumer awareness, consideration, or intent after exposure to advertising",
+        "How much inventory was lifted by forklifts",
+        "The increase in employee wages",
+        "The tax impact of advertising expenses"
+      ],
+      "answer": 0,
+      "explain": "Brand lift studies compare exposed vs. control groups to estimate how ads change awareness, favorability, or purchase intent.",
+      "optionExplanations": [
+        "Correct: It measures attitudinal/intent changes attributable to ads.",
+        "Incorrect: Forklifts and inventory lifting are unrelated to marketing research.",
+        "Incorrect: Wage increases are HR/finance matters.",
+        "Incorrect: Tax impact is accounting, not the purpose of a brand lift study."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a 'lead magnet' used in advertising?",
+      "options": [
+        "A free downloadable guide offered in exchange for an email address",
+        "A forklift used to move products",
+        "A billboard placed on a highway",
+        "A trademark registration certificate"
+      ],
+      "answer": 0,
+      "explain": "Lead magnets offer something of value to encourage prospects to provide contact information, supporting lead generation.",
+      "optionExplanations": [
+        "Correct: The guide is the incentive that captures the lead's contact info.",
+        "Incorrect: Forklifts are warehouse equipment, not marketing incentives.",
+        "Incorrect: A billboard is awareness media, not an exchange for contact info.",
+        "Incorrect: Trademark certificates are legal documents, not lead incentives."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In advertising, what is the main purpose of a 'value proposition' statement?",
+      "options": [
+        "To list every feature of the product in technical detail",
+        "To clearly explain why the customer should choose the product and what benefit it delivers",
+        "To calculate the company's break-even point",
+        "To describe the company's office dress code"
+      ],
+      "answer": 1,
+      "explain": "A value proposition communicates the key benefit and differentiator that makes the offer worthwhile to the target customer.",
+      "optionExplanations": [
+        "Incorrect: Feature lists are not the same as the core customer value promise.",
+        "Correct: It states the benefit and reason-to-believe for choosing the offer.",
+        "Incorrect: Break-even calculations are finance analyses.",
+        "Incorrect: Dress code is an HR policy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which persuasion principle is most directly used when an ad says 'Limited quantities available'?",
+      "options": [
+        "Scarcity",
+        "Reciprocity",
+        "Anchoring",
+        "Cognitive dissonance"
+      ],
+      "answer": 0,
+      "explain": "Scarcity messaging increases perceived value and urgency by suggesting availability is limited.",
+      "optionExplanations": [
+        "Correct: Scarcity is about limited availability driving urgency.",
+        "Incorrect: Reciprocity involves returning a favor (e.g., free sample leading to purchase).",
+        "Incorrect: Anchoring is using an initial reference point for price/value comparisons.",
+        "Incorrect: Cognitive dissonance refers to discomfort from conflicting beliefs/behaviors."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A 'house ad' is best described as:",
+      "options": [
+        "An ad placed by a company to promote its own products or content within its own media properties",
+        "An ad for real estate listings only",
+        "An ad that must be printed on home paper",
+        "An ad purchased by a competitor"
+      ],
+      "answer": 0,
+      "explain": "House ads promote the publisher's or company's own offerings, often run in the company's own channels or inventory.",
+      "optionExplanations": [
+        "Correct: It uses owned inventory to advertise the company's own products/services.",
+        "Incorrect: Real estate ads are a category, not the definition of a house ad.",
+        "Incorrect: Paper type is irrelevant.",
+        "Incorrect: Competitor ads are not house ads."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a key risk of using humor in advertising?",
+      "options": [
+        "It can distract from the brand message if the joke is remembered but the brand is not",
+        "It automatically violates advertising regulations",
+        "It eliminates the need for targeting",
+        "It guarantees higher conversions in every industry"
+      ],
+      "answer": 0,
+      "explain": "Humor can improve attention, but if it overwhelms the message, viewers may remember the joke and forget the product or call to action.",
+      "optionExplanations": [
+        "Correct: Entertainment can overshadow message retention if not integrated with the brand.",
+        "Incorrect: Humor is not inherently illegal; it depends on content and claims.",
+        "Incorrect: Targeting is still needed to reach the right audience.",
+        "Incorrect: Humor does not guarantee performance across contexts."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which design principle best helps an advertisement guide the viewer's eye to the most important information first?",
+      "options": [
+        "Visual hierarchy",
+        "Randomization",
+        "Depreciation",
+        "Liquidity"
+      ],
+      "answer": 0,
+      "explain": "Visual hierarchy uses size, contrast, placement, and whitespace to prioritize information and guide attention.",
+      "optionExplanations": [
+        "Correct: Hierarchy orders elements so viewers notice key parts first.",
+        "Incorrect: Randomization does not create purposeful guidance of attention.",
+        "Incorrect: Depreciation is an accounting concept.",
+        "Incorrect: Liquidity is a finance concept."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In advertising copywriting, the term 'headline' refers to:",
+      "options": [
+        "The first and most prominent line of text meant to capture attention and communicate the main idea",
+        "A list of legal citations",
+        "The barcode number for the product",
+        "The shipping label on a package"
+      ],
+      "answer": 0,
+      "explain": "Headlines are designed to attract attention and communicate the core message quickly.",
+      "optionExplanations": [
+        "Correct: Headlines are the primary attention-getting text element.",
+        "Incorrect: Legal citations are not the purpose of a headline.",
+        "Incorrect: Barcodes identify products for scanning, not messaging.",
+        "Incorrect: Shipping labels are logistics, not advertising copy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of 'copy' in an advertisement?",
+      "options": [
+        "The written text used to persuade or inform, such as product descriptions and CTAs",
+        "The camera used to film the ad",
+        "The invoice sent to a supplier",
+        "The warehouse layout diagram"
+      ],
+      "answer": 0,
+      "explain": "Advertising copy is the textual content in an ad, including headlines, body text, and calls to action.",
+      "optionExplanations": [
+        "Correct: Copy refers to the written words in the advertisement.",
+        "Incorrect: Cameras are production equipment, not copy.",
+        "Incorrect: Supplier invoices are accounting documents.",
+        "Incorrect: Warehouse layouts are operations documents."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following BEST describes 'tone of voice' in advertising?",
+      "options": [
+        "The physical volume level of a TV commercial",
+        "The consistent personality and style of language a brand uses in its messaging",
+        "The number of images in a print ad",
+        "The interest rate used in a financing offer"
+      ],
+      "answer": 1,
+      "explain": "Tone of voice reflects how a brand sounds (e.g., formal, playful, authoritative) and should be consistent across communications.",
+      "optionExplanations": [
+        "Incorrect: Volume is an audio setting, not a language style concept.",
+        "Correct: It is the brand's consistent language personality and style.",
+        "Incorrect: Image count is a design choice, not tone of voice.",
+        "Incorrect: Interest rates are financial terms, not language style."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of including a 'disclaimer' in certain advertisements?",
+      "options": [
+        "To hide important information from consumers",
+        "To disclose material terms or limitations needed to prevent the ad from being misleading",
+        "To make the ad longer so it costs more",
+        "To replace the need for customer service"
+      ],
+      "answer": 1,
+      "explain": "Disclaimers disclose key conditions (e.g., 'results may vary,' eligibility, fees) so consumers are not misled by incomplete claims.",
+      "optionExplanations": [
+        "Incorrect: Disclaimers should clarify, not hide, material information.",
+        "Correct: They provide necessary limitations or terms to ensure transparency.",
+        "Incorrect: Length is not the purpose of a disclaimer.",
+        "Incorrect: Customer service is still needed regardless of disclaimers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of 'geotargeting' in advertising?",
+      "options": [
+        "Showing ads only to users located within a specific city or radius",
+        "Showing ads only to people who paid cash",
+        "Showing ads only during leap years",
+        "Showing ads only to customers who bought the product ten times"
+      ],
+      "answer": 0,
+      "explain": "Geotargeting uses a user's location data to control where ads appear.",
+      "optionExplanations": [
+        "Correct: Location-based delivery is the defining feature of geotargeting.",
+        "Incorrect: Payment method is not a location-based targeting approach.",
+        "Incorrect: Time-based oddities like leap years are not geotargeting.",
+        "Incorrect: Purchase frequency targeting is behavioral targeting, not location targeting."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is 'geofencing' most commonly used for in mobile advertising?",
+      "options": [
+        "Creating a virtual boundary so ads or notifications trigger when users enter or exit an area",
+        "Increasing the physical height of a fence around a store",
+        "Preventing any ads from being shown near a competitor",
+        "Automatically printing coupons on receipts"
+      ],
+      "answer": 0,
+      "explain": "Geofencing sets a GPS-based boundary to deliver ads or messages to devices in a defined location area.",
+      "optionExplanations": [
+        "Correct: It uses virtual boundaries to trigger targeting based on presence in an area.",
+        "Incorrect: Physical fences are not part of mobile advertising.",
+        "Incorrect: You cannot fully prevent competitor proximity ads; geofencing is about targeting your boundary.",
+        "Incorrect: Receipt printing is a point-of-sale function, not geofencing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In advertising, which term describes the percentage of people who take the desired action after clicking an ad?",
+      "options": [
+        "Conversion rate",
+        "Reach",
+        "Impressions",
+        "CPM"
+      ],
+      "answer": 0,
+      "explain": "Conversion rate measures how many clickers (or visitors) complete the target action such as purchase or signup.",
+      "optionExplanations": [
+        "Correct: It is conversions divided by clicks/visits, depending on definition.",
+        "Incorrect: Reach is unique exposures, not post-click actions.",
+        "Incorrect: Impressions are views/serves, not actions.",
+        "Incorrect: CPM is a cost metric per 1,000 impressions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes an 'omnichannel' advertising strategy?",
+      "options": [
+        "Using only one channel to avoid complexity",
+        "Creating a seamless, connected experience across channels where messages and data work together",
+        "Advertising only through TV and radio",
+        "Avoiding customer data entirely"
+      ],
+      "answer": 1,
+      "explain": "Omnichannel strategies coordinate channels (online and offline) so the customer experience is consistent and integrated across touchpoints.",
+      "optionExplanations": [
+        "Incorrect: Omnichannel is multi-channel and coordinated, not single-channel.",
+        "Correct: It integrates messaging and experience across channels using connected planning and data.",
+        "Incorrect: TV/radio-only is not omnichannel.",
+        "Incorrect: Omnichannel often uses data to connect experiences; it does not inherently avoid it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A common reason to use a QR code in a print advertisement is to:",
+      "options": [
+        "Increase the printing cost without benefit",
+        "Make it easy for readers to access a landing page or offer with a quick scan",
+        "Replace the brand name in the ad",
+        "Prevent the ad from being shared digitally"
+      ],
+      "answer": 1,
+      "explain": "QR codes bridge offline-to-online by providing a fast path to a URL, coupon, video, or signup page.",
+      "optionExplanations": [
+        "Incorrect: The purpose is utility and response, not unnecessary cost.",
+        "Correct: It creates a convenient link from print to digital action.",
+        "Incorrect: QR codes supplement, not replace, brand identification.",
+        "Incorrect: QR codes often encourage digital sharing and access."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a key benefit of using customer personas in advertising planning?",
+      "options": [
+        "They guarantee a campaign will succeed",
+        "They help teams tailor messages to specific audience needs, motivations, and behaviors",
+        "They eliminate the need for measurement and analytics",
+        "They are only used for accounting audits"
+      ],
+      "answer": 1,
+      "explain": "Personas synthesize research into representative profiles that guide targeting, messaging, and creative choices.",
+      "optionExplanations": [
+        "Incorrect: Personas improve focus but cannot guarantee outcomes.",
+        "Correct: They support more relevant messaging and channel choices by clarifying who the audience is.",
+        "Incorrect: Measurement is still necessary to validate and optimize.",
+        "Incorrect: Personas are marketing tools, not audit documents."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In advertising, what is the difference between 'features' and 'benefits'?",
+      "options": [
+        "Features describe what the product is or has; benefits describe what the customer gains from it",
+        "Features are always emotional; benefits are always technical",
+        "Features are illegal to mention; benefits are required by law",
+        "Features are only used in radio ads; benefits are only used in print ads"
+      ],
+      "answer": 0,
+      "explain": "Features are attributes (e.g., 'battery lasts 12 hours'); benefits translate those attributes into value for the customer (e.g., 'use it all day without charging').",
+      "optionExplanations": [
+        "Correct: Features are attributes; benefits are the value/outcome for the user.",
+        "Incorrect: Either can be technical or emotional depending on framing.",
+        "Incorrect: Mentioning features is legal; neither is universally required by law.",
+        "Incorrect: Both can be used in any medium."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of appeal focuses on logic, facts, and evidence in an advertisement?",
+      "options": [
+        "Rational appeal",
+        "Emotional appeal",
+        "Fear appeal only",
+        "Bandwagon appeal only"
+      ],
+      "answer": 0,
+      "explain": "Rational appeals use information like performance, price, and features to persuade through logic and evidence.",
+      "optionExplanations": [
+        "Correct: It relies on factual information and reasoning.",
+        "Incorrect: Emotional appeals focus on feelings like joy, pride, or nostalgia.",
+        "Incorrect: Fear is one emotional tactic, not the general logic-based approach.",
+        "Incorrect: Bandwagon appeals rely on popularity, not primarily on facts and evidence."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which appeal is MOST associated with showing many people using a product to suggest it is popular and widely accepted?",
+      "options": [
+        "Bandwagon appeal",
+        "Scarcity appeal",
+        "Technical appeal",
+        "Guarantee appeal"
+      ],
+      "answer": 0,
+      "explain": "Bandwagon appeals persuade by implying that many others have chosen the product, encouraging the audience to join the majority.",
+      "optionExplanations": [
+        "Correct: It emphasizes popularity and social acceptance.",
+        "Incorrect: Scarcity emphasizes limited availability, not popularity.",
+        "Incorrect: Technical appeals emphasize specs and expertise, not social proof.",
+        "Incorrect: Guarantees reduce perceived risk but do not imply popularity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In advertising measurement, ROI is best defined as:",
+      "options": [
+        "A measure of how much profit or value is generated relative to the cost of the campaign",
+        "A measure of how many times an ad was printed",
+        "A measure of employee satisfaction",
+        "A measure of how fast a product ships"
+      ],
+      "answer": 0,
+      "explain": "Return on investment compares the net benefit (profit/value) produced by advertising to the money spent to run it.",
+      "optionExplanations": [
+        "Correct: ROI relates gains (or net returns) to investment cost.",
+        "Incorrect: Printing counts are not ROI.",
+        "Incorrect: Employee satisfaction is an HR metric.",
+        "Incorrect: Shipping speed is an operations metric."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a 'key message' in an ad campaign?",
+      "options": [
+        "The main point the audience should remember, such as the product's primary benefit or promise",
+        "The list of every employee in the company",
+        "The warehouse address where products are stored",
+        "The serial number of the cash register"
+      ],
+      "answer": 0,
+      "explain": "A key message is the central takeaway the campaign wants consumers to remember and associate with the brand.",
+      "optionExplanations": [
+        "Correct: It is the campaign's core takeaway and promise.",
+        "Incorrect: Employee lists are internal records, not campaign messaging.",
+        "Incorrect: Warehouse addresses are logistics details.",
+        "Incorrect: Serial numbers are equipment identifiers, not messages."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes an ad that encourages users to take an action immediately, such as calling a number or visiting a URL to order?",
+      "options": [
+        "Direct-response advertising",
+        "Institutional advertising",
+        "Public relations",
+        "Trade advertising"
+      ],
+      "answer": 0,
+      "explain": "Direct-response ads include strong CTAs and response mechanisms to drive immediate measurable actions.",
+      "optionExplanations": [
+        "Correct: It is designed to generate an immediate response (call, click, order).",
+        "Incorrect: Institutional ads focus on company image rather than immediate action.",
+        "Incorrect: PR is earned media/reputation management, not a paid direct-response format.",
+        "Incorrect: Trade advertising targets intermediaries, not direct consumer response."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the BEST example of 'positioning statement' content?",
+      "options": [
+        "'Our brand is the premium, eco-friendly option for commuters who want style and sustainability'",
+        "'We will file taxes by April 15'",
+        "'Our warehouse ships 10,000 units per day'",
+        "'The company has 250 employees'"
+      ],
+      "answer": 0,
+      "explain": "A positioning statement defines the target audience and the distinctive value the brand offers relative to alternatives.",
+      "optionExplanations": [
+        "Correct: It identifies audience and differentiator (premium + eco-friendly) for commuters.",
+        "Incorrect: Tax filing is a finance/legal task, not brand positioning.",
+        "Incorrect: Shipping volume is operational capacity, not positioning.",
+        "Incorrect: Employee count is a company fact, not a market position."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
 }
-]
-}
-
-SECTION 4 - CHECKLIST_LINE_UPDATE
-
-* [ ] Advertising: 15/100 total (official 15 + historical 0; Need 85)
-* [x] Advertising: 15/100 total (official 15 + historical 0; Need 85)

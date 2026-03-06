@@ -1,1817 +1,1805 @@
-SECTION 1 - SELECTED_EVENT
-Healthcare Administration
-
-SECTION 2 - NEW_FILE_NAME
-generated_by_checklist/healthcare-administration_batch_001.json
-
-SECTION 3 - JSON_CONTENT
 {
-"event": "Healthcare Administration",
-"questions": [
-{
-"q": "A healthcare office's policy and procedures manual should be reviewed and updated:",
-"options": [
-"Every five years",
-"Only when new staff are hired",
-"Annually or when regulations change",
-"Only during accreditation reviews"
-],
-"answer": 2,
-"explain": "Most medical offices review written policies at least yearly and whenever laws, payer rules, or clinical regulations change.",
-"optionExplanations": [
-"A 5-year cycle is too infrequent; procedures and regulations change more often.",
-"Hiring does not determine when policies must be updated; compliance changes can occur anytime.",
-"Annual review plus updates when regulations change keeps procedures current and compliant.",
-"Accreditation reviews are not the only trigger; policies should be current before any survey."
-],
-"source": "official-hq"
-},
-{
-"q": "Which scheduling method is most effective for minimizing patient wait time while maximizing provider efficiency?",
-"options": [
-"Wave scheduling",
-"Double booking",
-"Open hours scheduling",
-"First-come, first-served"
-],
-"answer": 0,
-"explain": "Wave scheduling books several patients at the start of an hour and then staggers others, reducing idle provider time while limiting long waits when managed correctly.",
-"optionExplanations": [
-"Wave scheduling balances flow by grouping arrivals and using the hour to work through them efficiently.",
-"Double booking often increases wait times and can overwhelm staff unless used only for specific short visits.",
-"Open hours encourages walk-ins but can create unpredictable surges and longer waits.",
-"First-come, first-served ignores visit length and provider availability, increasing bottlenecks."
-],
-"source": "official-hq"
-},
-{
-"q": "A tickler file in healthcare administration is primarily used to:",
-"options": [
-"Store patient billing information",
-"Provide reminders for future actions or follow-ups",
-"Track medical errors",
-"Record staff attendance"
-],
-"answer": 1,
-"explain": "A tickler file is a reminder system for time-sensitive tasks such as follow-up calls, authorizations, renewals, or reports due.",
-"optionExplanations": [
-"Billing records belong in the accounting or practice management system, not a tickler file.",
-"Tickler files are designed to prompt staff to complete future actions on a specific date.",
-"Medical error tracking is part of quality/risk management systems, not a tickler file.",
-"Attendance tracking is an HR function and uses timekeeping systems."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is the most important step when implementing a new electronic appointment system?",
-"options": [
-"Distributing login credentials without training",
-"Conducting staff training and testing the system before launch",
-"Eliminating paper backups immediately",
-"Posting instructions for patients online only"
-],
-"answer": 1,
-"explain": "Training staff and testing workflows before go-live prevents scheduling errors, lost appointments, and downtime.",
-"optionExplanations": [
-"Credentials alone do not ensure correct use; untrained users increase errors and support requests.",
-"Training and pre-launch testing validate templates, permissions, and day-to-day workflows.",
-"Removing paper backups immediately can be risky during transition; contingency plans are needed.",
-"Patient-facing instructions do not replace internal staff readiness and system testing."
-],
-"source": "official-hq"
-},
-{
-"q": "To maintain HIPAA compliance, a sign-in sheet in a medical office should:",
-"options": [
-"Include only the patient's name and appointment time",
-"List diagnosis information for billing",
-"Display insurance numbers for efficiency",
-"Be posted on a public bulletin board"
-],
-"answer": 0,
-"explain": "HIPAA requires minimizing unnecessary disclosure; a sign-in sheet should not expose diagnoses or identifiers beyond what is needed to manage flow.",
-"optionExplanations": [
-"Name and appointment time are typically sufficient for check-in without revealing protected details.",
-"Diagnoses are protected health information and should not be displayed on a sign-in sheet.",
-"Insurance numbers are identifiers and should not be visible to other patients.",
-"Public display increases unauthorized disclosure risk and is not appropriate."
-],
-"source": "official-hq"
-},
-{
-"q": "When a physician is unexpectedly absent, the best first step for the office manager is to:",
-"options": [
-"Cancel all appointments immediately",
-"Notify patients, offer rescheduling, and reassign urgent cases to other providers",
-"Postpone all patient visits until the physician returns",
-"Ask patients to wait in the lobby indefinitely"
-],
-"answer": 1,
-"explain": "The office should communicate quickly, preserve access for urgent needs, and re-route care rather than leaving patients without options.",
-"optionExplanations": [
-"Immediate cancellation without triage can delay urgent care and harm patient satisfaction.",
-"Notify and reschedule, and ensure urgent cases are covered by another qualified provider or facility.",
-"Blanket postponement ignores clinical urgency and continuity of care needs.",
-"Keeping patients waiting without a plan is unsafe and unprofessional."
-],
-"source": "official-hq"
-},
-{
-"q": "The prefix brady- in medical terminology means:",
-"options": [
-"Fast",
-"Slow",
-"Irregular",
-"Absent"
-],
-"answer": 1,
-"explain": "In medical terminology, the prefix 'brady-' means slow (e.g., bradycardia = slow heart rate).",
-"optionExplanations": [
-"'Tachy-' is the prefix for fast, not brady-.",
-"Brady- means slow.",
-"Irregular is commonly described by 'arrhythmia' or similar terms, not brady-.",
-"Absent would be described with terms like 'a-' or 'an-' depending on the word."
-],
-"source": "official-hq"
-},
-{
-"q": "The medical term hepatomegaly refers to:",
-"options": [
-"Inflammation of the kidney",
-"Enlargement of the liver",
-"Disease of the pancreas",
-"Hardening of the arteries"
-],
-"answer": 1,
-"explain": "Hepato- refers to the liver and -megaly means enlargement, so hepatomegaly is enlargement of the liver.",
-"optionExplanations": [
-"Kidney inflammation is nephritis (nephr- = kidney, -itis = inflammation).",
-"Hepatomegaly literally means enlarged liver.",
-"Pancreas disease uses pancreat- as the root (e.g., pancreatitis).",
-"Hardening of arteries is arteriosclerosis/atherosclerosis."
-],
-"source": "official-hq"
-},
-{
-"q": "The root word derm refers to:",
-"options": [
-"Skin",
-"Heart",
-"Bone",
-"Lung"
-],
-"answer": 0,
-"explain": "The root 'derm' means skin, as in dermatology.",
-"optionExplanations": [
-"Derm refers to skin tissue.",
-"Heart is cardi-.",
-"Bone is oste-.",
-"Lung is pneum- or pulmon-."
-],
-"source": "official-hq"
-},
-{
-"q": "The suffix -ectomy means:",
-"options": [
-"Surgical removal",
-"Inflammation",
-"Enlargement",
-"Disease"
-],
-"answer": 0,
-"explain": "The suffix '-ectomy' means surgical removal of a body part (e.g., appendectomy).",
-"optionExplanations": [
-"-ectomy indicates surgical removal.",
-"Inflammation is -itis.",
-"Enlargement is -megaly.",
-"Disease is -osis in many terms."
-],
-"source": "official-hq"
-},
-{
-"q": "A patient diagnosed with tachycardia has:",
-"options": [
-"Slow breathing rate",
-"Rapid heart rate",
-"High blood pressure",
-"Low blood sugar"
-],
-"answer": 1,
-"explain": "Tachycardia means an abnormally rapid heart rate (tachy- = fast, -cardia = heart condition).",
-"optionExplanations": [
-"Breathing rate relates to terms like tachypnea or bradypnea, not tachycardia.",
-"Tachycardia specifically refers to a fast heart rate.",
-"High blood pressure is hypertension.",
-"Low blood sugar is hypoglycemia."
-],
-"source": "official-hq"
-},
-{
-"q": "Which law protects patient privacy and governs the use of health information?",
-"options": [
-"OSHA",
-"HIPAA",
-"ADA",
-"HITECH"
-],
-"answer": 1,
-"explain": "HIPAA sets national standards for protecting individually identifiable health information and regulating its use and disclosure.",
-"optionExplanations": [
-"OSHA focuses on workplace safety, not patient privacy.",
-"HIPAA is the primary U.S. law governing privacy and security of health information.",
-"ADA addresses disability discrimination and accommodations.",
-"HITECH strengthened health IT and HIPAA enforcement, but HIPAA is the core privacy law."
-],
-"source": "official-hq"
-},
-{
-"q": "Informed consent requires that the patient:",
-"options": [
-"Signs a form without explanation",
-"Understands the risks, benefits, and alternatives to treatment",
-"Gives consent verbally only",
-"Agrees after the procedure has started"
-],
-"answer": 1,
-"explain": "Informed consent means the patient receives understandable information and voluntarily agrees after understanding risks, benefits, and alternatives.",
-"optionExplanations": [
-"A signature without explanation is not informed consent.",
-"Understanding risks, benefits, and alternatives is the key requirement for informed consent.",
-"Consent may be written and sometimes verbal, but it must still be informed and documented appropriately.",
-"Consent must be obtained before the procedure, not after it begins."
-],
-"source": "official-hq"
-},
-{
-"q": "The Good Samaritan Law generally protects:",
-"options": [
-"Medical professionals from malpractice claims in their workplace",
-"Individuals who provide emergency care in good faith without compensation",
-"Hospitals from liability in patient disputes",
-"Patients from paying for emergency services"
-],
-"answer": 1,
-"explain": "Good Samaritan laws generally protect people who render emergency aid in good faith, typically outside a formal care setting, from certain liability.",
-"optionExplanations": [
-"Workplace malpractice coverage depends on professional standards and insurance, not Good Samaritan laws.",
-"These laws are intended to encourage emergency assistance by limiting liability when acting in good faith.",
-"Hospitals have separate liability rules; Good Samaritan laws are not a blanket shield for facilities.",
-"Payment for emergency services is governed by other laws and policies, not Good Samaritan laws."
-],
-"source": "official-hq"
-},
-{
-"q": "Which is an example of a breach of confidentiality?",
-"options": [
-"Sharing patient details with another provider involved in care",
-"Discussing a patient's diagnosis in a public elevator",
-"Reviewing a patient's chart during treatment",
-"Obtaining patient consent for information release"
-],
-"answer": 1,
-"explain": "Discussing identifiable patient information in a public place is an unauthorized disclosure and violates confidentiality.",
-"optionExplanations": [
-"Sharing information for treatment with involved providers is generally permitted under HIPAA.",
-"Public discussion where others can overhear is a common confidentiality breach.",
-"Chart review for treatment is a permitted use when access is role-appropriate.",
-"Releasing information with proper patient authorization is permitted."
-],
-"source": "official-hq"
-},
-{
-"q": "Under HIPAA, the minimum necessary standard generally applies when a covered entity uses or discloses PHI for which purpose?",
-"options": [
-"Treatment",
-"Payment",
-"Healthcare operations",
-"All uses and disclosures, including treatment"
-],
-"answer": 2,
-"explain": "HIPAA's minimum necessary standard applies to most uses/disclosures for payment and operations, but it generally does not apply to disclosures for treatment.",
-"optionExplanations": [
-"Treatment disclosures are typically exempt from minimum necessary to avoid interfering with care.",
-"Payment-related use/disclosure is subject to minimum necessary, so this is not the best choice alone.",
-"Healthcare operations are subject to the minimum necessary requirement in most cases.",
-"Minimum necessary does not apply to all disclosures (e.g., treatment exemptions)."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which document is most commonly used to authorize release of a patient's protected health information to a third party?",
-"options": [
-"Advance directive",
-"Informed consent form",
-"HIPAA authorization",
-"Incident report"
-],
-"answer": 2,
-"explain": "A HIPAA authorization is the specific written permission that allows disclosure of PHI to named recipients for stated purposes.",
-"optionExplanations": [
-"Advance directives address future care decisions, not routine PHI disclosure.",
-"Informed consent covers permission for treatment/procedures, not general PHI release.",
-"A HIPAA authorization is designed for releasing PHI to third parties outside routine treatment/payment/operations.",
-"Incident reports document events; they are not patient authorizations."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In revenue cycle management, which step occurs immediately after services are documented and coded?",
-"options": [
-"Claim submission to the payer",
-"Patient registration",
-"Charge capture/entry",
-"Payment posting"
-],
-"answer": 2,
-"explain": "After documentation and coding, charges are captured/entered into the billing system before the claim is transmitted.",
-"optionExplanations": [
-"Claims are submitted after charges are captured and prepared in the system.",
-"Registration happens before the visit and before coding.",
-"Charge capture/entry is the immediate step that turns coded services into billable charges.",
-"Payment posting happens after the payer processes the claim."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of a denial management process in a medical office?",
-"options": [
-"To reduce clinical documentation requirements",
-"To appeal or correct rejected/denied claims to obtain payment",
-"To eliminate patient copays",
-"To assign ICD-10 codes automatically"
-],
-"answer": 1,
-"explain": "Denial management focuses on identifying why claims were denied and taking corrective action (e.g., appeals, corrections) to recover reimbursement.",
-"optionExplanations": [
-"Denial management does not reduce documentation needs; it often highlights documentation gaps.",
-"Correcting and appealing denials is the core objective to secure appropriate reimbursement.",
-"Copays are set by benefit plans and patient responsibility rules, not denial workflows.",
-"Coding tools may help, but denial management is broader than automatic code assignment."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of protected health information (PHI) under HIPAA?",
-"options": [
-"A patient's appointment time listed by last name only",
-"A de-identified dataset with all 18 identifiers removed",
-"A lab result linked to a patient's name or medical record number",
-"A newspaper article about influenza season"
-],
-"answer": 2,
-"explain": "PHI includes individually identifiable health information; a lab result tied to a patient identifier qualifies as PHI.",
-"optionExplanations": [
-"A sign-in list using only last name can still be identifying; however, this example is ambiguous compared with an explicit identifier plus clinical data.",
-"Properly de-identified data is not PHI.",
-"Clinical data linked to an identifier (name or MRN) is PHI.",
-"General news is not patient-specific health information."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of insurance plan typically requires the patient to choose a primary care provider (PCP) and obtain referrals for specialists?",
-"options": [
-"PPO",
-"HMO",
-"Indemnity fee-for-service",
-"Workers' compensation"
-],
-"answer": 1,
-"explain": "HMOs commonly use a gatekeeper PCP model where referrals are needed for many specialist services.",
-"optionExplanations": [
-"PPOs usually allow self-referral to specialists, though incentives may apply.",
-"HMOs typically require a PCP and referrals to manage access and costs.",
-"Indemnity plans generally allow broad choice without referral structures.",
-"Workers' compensation is a coverage type for work-related injuries, not a referral-based network model."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In medical billing, what does the term 'copayment' mean?",
-"options": [
-"A fixed amount the patient pays at the time of service",
-"A percentage of allowed charges the patient pays",
-"The amount the payer refuses to cover",
-"A provider discount applied before billing"
-],
-"answer": 0,
-"explain": "A copayment (copay) is a set dollar amount the patient owes for a covered service, often due at check-in or check-out.",
-"optionExplanations": [
-"Copays are fixed-dollar obligations set by the health plan.",
-"A percentage paid by the patient is coinsurance, not a copay.",
-"A payer refusal to cover is a denial or non-covered charge.",
-"Provider discounts are contractual adjustments, not copays."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which identifier is primarily used to link all documentation for a specific patient within an electronic health record (EHR) system?",
-"options": [
-"CPT code",
-"Medical record number (MRN)",
-"National Drug Code (NDC)",
-"Tax identification number (TIN)"
-],
-"answer": 1,
-"explain": "The MRN is the patient-specific identifier used by the facility/practice to tie encounters, notes, labs, and billing to the correct person.",
-"optionExplanations": [
-"CPT codes describe services, not patients.",
-"MRNs are used to uniquely identify and link a patient's record within a practice or facility.",
-"NDC identifies medication products, not patients.",
-"A TIN identifies a business entity for tax and billing, not a patient."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the best action if a patient requests a copy of their medical records and the office has a HIPAA-compliant process in place?",
-"options": [
-"Refuse unless the patient explains why they need the records",
-"Provide access within the required timeframe after verifying identity and documenting the request",
-"Release records only to the patient's employer",
-"Tell the patient to obtain the records from the insurance company"
-],
-"answer": 1,
-"explain": "HIPAA grants patients the right to access their records; offices should verify identity, document the request, and provide access within required time limits.",
-"optionExplanations": [
-"Patients generally do not have to justify a request for their own records.",
-"Verification, documentation, and timely access are core requirements for compliant release to the patient.",
-"Employers are not automatically entitled to records and usually require a valid authorization.",
-"Insurers may have claims data, but the provider is responsible for the designated record set they maintain."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which federal program primarily provides health coverage to individuals age 65 and older and certain disabled individuals?",
-"options": [
-"Medicaid",
-"Medicare",
-"TRICARE",
-"CHIP"
-],
-"answer": 1,
-"explain": "Medicare is the federal health insurance program for most people 65+ and some younger people with disabilities or ESRD.",
-"optionExplanations": [
-"Medicaid is needs-based and jointly funded by states and the federal government.",
-"Medicare is primarily age- and disability-based federal coverage.",
-"TRICARE serves military members and families.",
-"CHIP covers eligible children in low-income families who do not qualify for Medicaid."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of an Advance Beneficiary Notice (ABN) in Medicare billing?",
-"options": [
-"To enroll a patient in Medicare Part D",
-"To notify a patient that Medicare may not pay for a service and the patient may be responsible",
-"To authorize release of PHI",
-"To document patient satisfaction"
-],
-"answer": 1,
-"explain": "An ABN informs a Medicare beneficiary that a service may be non-covered, allowing the patient to decide and accept financial responsibility if they proceed.",
-"optionExplanations": [
-"Part D enrollment is handled through plan selection, not an ABN.",
-"ABNs are used to warn of possible noncoverage and shift liability appropriately when rules are followed.",
-"PHI release uses HIPAA authorizations, not ABNs.",
-"Patient satisfaction surveys do not determine Medicare coverage liability."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action best reduces the risk of patient misidentification during check-in?",
-"options": [
-"Asking 'Are you John Smith?' and waiting for confirmation",
-"Verifying at least two identifiers such as full name and date of birth",
-"Relying on the appointment schedule alone",
-"Using room number as the identifier"
-],
-"answer": 1,
-"explain": "Best practice is to verify two patient identifiers (e.g., full name and DOB) rather than using a leading question or a single source.",
-"optionExplanations": [
-"Leading questions can prompt incorrect confirmation, especially in busy waiting rooms.",
-"Two identifiers reduce the chance of mixing up patients with similar names.",
-"Schedules can contain errors and do not confirm identity in the moment.",
-"Room numbers are logistical details, not patient identifiers."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which office report would most directly help a manager identify excessive no-show rates by provider or appointment type?",
-"options": [
-"A/R aging report",
-"Appointment status report (scheduled, checked-in, canceled, no-show)",
-"General ledger",
-"Inventory usage log"
-],
-"answer": 1,
-"explain": "Appointment status reports track outcomes like no-shows and cancellations and can be filtered by provider, location, or visit type.",
-"optionExplanations": [
-"A/R aging is for unpaid balances by time bucket, not scheduling outcomes.",
-"Appointment status data directly measures no-show patterns.",
-"General ledger summarizes accounting transactions, not appointment outcomes.",
-"Inventory logs track supplies, not attendance."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In medical coding, which code set is primarily used to report procedures and services performed by physicians and other providers?",
-"options": [
-"ICD-10-CM",
-"CPT",
-"HCPCS Level II only",
-"SNOMED CT"
-],
-"answer": 1,
-"explain": "CPT codes are the standard for reporting many medical procedures and professional services in the U.S.",
-"optionExplanations": [
-"ICD-10-CM is primarily used to report diagnoses/reasons for visits, not most professional procedures.",
-"CPT codes describe many professional procedures and services on outpatient/physician claims.",
-"HCPCS Level II mainly covers supplies, equipment, and certain services (e.g., ambulance); it does not replace CPT for most procedures.",
-"SNOMED CT is a clinical terminology used in records, not the standard procedure code set for claims submission."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which code set is primarily used to report a patient's diagnosis on outpatient and professional claims?",
-"options": [
-"ICD-10-CM",
-"CPT",
-"NDC",
-"DRG"
-],
-"answer": 0,
-"explain": "ICD-10-CM codes describe diagnoses and reasons for visits on outpatient/professional claims.",
-"optionExplanations": [
-"ICD-10-CM is used to code diagnoses in the U.S.",
-"CPT codes procedures/services, not diagnoses.",
-"NDC identifies drug products, not diagnoses.",
-"DRGs are inpatient payment groupers, not outpatient diagnosis codes."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does an accounts receivable (A/R) aging report primarily show?",
-"options": [
-"Patient satisfaction scores by month",
-"Outstanding balances grouped by how long they have been unpaid",
-"Daily appointment volume",
-"Employee hours worked"
-],
-"answer": 1,
-"explain": "An A/R aging report categorizes unpaid balances into time buckets (e.g., 0-30, 31-60, 61-90 days) to prioritize follow-up and collections.",
-"optionExplanations": [
-"Satisfaction scores are gathered via surveys, not A/R aging.",
-"A/R aging focuses on unpaid balances and their age.",
-"Appointment volume is shown in scheduling/encounter reports.",
-"Employee hours are tracked by timekeeping systems."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of a 'pre-authorization' requirement?",
-"options": [
-"A patient pays a copay at check-in",
-"The payer must approve a planned MRI before it is performed",
-"The patient signs a HIPAA authorization",
-"The provider posts a payment to an account"
-],
-"answer": 1,
-"explain": "Pre-authorization means the insurer requires approval in advance for certain services to be covered.",
-"optionExplanations": [
-"Copays are patient cost-sharing, not prior approval.",
-"Many plans require prior authorization for high-cost imaging like MRIs.",
-"HIPAA authorizations relate to information release, not coverage approval.",
-"Posting a payment is an accounting action, not an approval requirement."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In a medical office, which task is most appropriate to delegate to a trained medical assistant rather than the billing specialist?",
-"options": [
-"Posting EOB payments",
-"Verifying insurance eligibility",
-"Taking and recording vital signs",
-"Submitting electronic claims"
-],
-"answer": 2,
-"explain": "Taking vital signs is a clinical support duty commonly performed by medical assistants, while billing tasks are handled by billing staff.",
-"optionExplanations": [
-"Posting EOB payments is a billing/accounts task.",
-"Eligibility verification is often a front-desk/billing function, not a clinical task.",
-"Vital signs collection is within typical medical assistant scope (with training and policy compliance).",
-"Claim submission is a billing function."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes the purpose of OSHA in a healthcare workplace?",
-"options": [
-"It governs patient privacy disclosures",
-"It sets workplace safety standards to reduce hazards and injuries",
-"It determines insurance reimbursement rates",
-"It licenses physicians"
-],
-"answer": 1,
-"explain": "OSHA focuses on protecting workers by regulating safety practices (e.g., bloodborne pathogen standards, sharps safety).",
-"optionExplanations": [
-"Patient privacy is governed by HIPAA and related laws.",
-"OSHA sets and enforces workplace safety standards.",
-"Reimbursement is set by payer contracts and regulations, not OSHA.",
-"Professional licensing is handled by state boards."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action best supports compliance with the OSHA Bloodborne Pathogens Standard?",
-"options": [
-"Storing used sharps in regular trash bins",
-"Using approved sharps containers and documenting exposure control procedures",
-"Allowing food in specimen processing areas",
-"Reusing single-use needles after cleaning"
-],
-"answer": 1,
-"explain": "Proper sharps disposal and an exposure control plan are central OSHA requirements to reduce occupational exposure risk.",
-"optionExplanations": [
-"Sharps must go into puncture-resistant sharps containers, not regular trash.",
-"Sharps containers and a documented exposure control plan are required elements of compliance.",
-"Eating in contaminated areas increases exposure risk and is prohibited by policy.",
-"Reusing needles is unsafe and violates standard precautions and policy."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of standard precautions in a healthcare setting?",
-"options": [
-"To treat every patient as if they have a highly contagious airborne disease",
-"To assume all blood and certain body fluids are potentially infectious and use protective measures accordingly",
-"To eliminate the need for hand hygiene",
-"To allow reuse of personal protective equipment (PPE) indefinitely"
-],
-"answer": 1,
-"explain": "Standard precautions require treating blood and certain body fluids as potentially infectious and using hand hygiene and PPE based on anticipated exposure.",
-"optionExplanations": [
-"Airborne precautions are a specific transmission-based category and are not assumed for all patients.",
-"Standard precautions assume potential infection risk for blood/body fluids and guide PPE/hand hygiene use.",
-"Hand hygiene is a core component, not eliminated.",
-"PPE use follows manufacturer and infection control guidance; indefinite reuse is not appropriate."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which field on an insurance card most directly helps a biller route a claim to the correct payer system?",
-"options": [
-"Group number and member ID",
-"Patient height and weight",
-"Pharmacy pickup location",
-"Appointment date"
-],
-"answer": 0,
-"explain": "Member ID and group number identify the insured and plan, helping the office submit claims to the correct payer and plan product.",
-"optionExplanations": [
-"Group and member IDs are key identifiers for eligibility and claim submission.",
-"Height and weight are clinical data, not payer routing information.",
-"Pharmacy location is unrelated to medical claim routing.",
-"The appointment date is needed on a claim but does not identify the payer or plan."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best description of a payer Explanation of Benefits (EOB)?",
-"options": [
-"A marketing brochure from the insurer",
-"A statement showing how a claim was processed, including allowed amounts and patient responsibility",
-"A prescription label",
-"A provider's internal audit report"
-],
-"answer": 1,
-"explain": "An EOB summarizes claim adjudication, including what was billed, allowed, paid, adjusted, and what the patient may owe.",
-"optionExplanations": [
-"EOBs are not marketing materials; they are claim processing statements.",
-"This is the correct definition of an EOB.",
-"Prescription labels relate to dispensing medications.",
-"Internal audits are provider tools and are not payer EOBs."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which scheduling metric most directly reflects access to care for new patients?",
-"options": [
-"Average days to third next available appointment",
-"Percentage of claims denied",
-"Inventory turnover ratio",
-"Number of staff meetings held"
-],
-"answer": 0,
-"explain": "Third next available appointment is a common access metric because it reduces distortion from last-minute openings or cancellations.",
-"optionExplanations": [
-"This metric is widely used to assess appointment access and backlog.",
-"Denial rates relate to billing performance, not scheduling access.",
-"Inventory turnover is a supply metric, not patient access.",
-"Meetings do not measure access to care."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "When scanning paper documents into an EHR, what practice best supports accurate indexing and retrieval?",
-"options": [
-"Scanning all documents into one large file with no labels",
-"Using standardized document types, dates, and patient identifiers during indexing",
-"Saving files on personal desktops for quick access",
-"Deleting originals immediately without quality checks"
-],
-"answer": 1,
-"explain": "Standardized indexing (document type, date, patient) improves searchability and reduces misfiled records.",
-"optionExplanations": [
-"Unlabeled bulk files are hard to retrieve and increase risk of missing information.",
-"Standard document taxonomy and accurate patient/date indexing support reliable retrieval.",
-"Personal desktops are insecure and bypass retention and access controls.",
-"Quality checks should confirm readability and correct patient assignment before destroying originals."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes the difference between a copayment and coinsurance?",
-"options": [
-"Copayment is a percentage; coinsurance is a fixed amount",
-"Copayment is a fixed amount; coinsurance is a percentage of allowed charges",
-"They are the same concept",
-"Coinsurance applies only to prescription drugs"
-],
-"answer": 1,
-"explain": "A copayment is typically a fixed dollar amount, while coinsurance is a percentage of the allowed amount after deductibles are met (depending on plan).",
-"optionExplanations": [
-"This reverses the definitions.",
-"This matches standard definitions used in most health plans.",
-"They are different forms of cost sharing.",
-"Coinsurance can apply to many medical services, not only prescriptions."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which patient balance is most appropriate to collect at check-in when the office has verified eligibility and benefits?",
-"options": [
-"The entire estimated charge for the visit regardless of benefits",
-"The required copay and any known past-due balance",
-"No payment of any kind",
-"Only the deductible for future visits"
-],
-"answer": 1,
-"explain": "Collecting the known copay and any confirmed outstanding balance at check-in improves cash flow and reduces later collections while staying consistent with plan rules.",
-"optionExplanations": [
-"Collecting the full charge can violate payer contracts and is usually unnecessary.",
-"Copay and confirmed past-due balances are standard to collect at check-in when policy allows.",
-"Many practices collect copays; skipping all payments increases receivables.",
-"Deductibles may apply, but collecting 'only' deductible for future visits is not a standard approach."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice best supports confidentiality when leaving a voicemail for a patient?",
-"options": [
-"Stating the patient's diagnosis and test results in detail",
-"Leaving only minimal information and a callback number without sensitive details",
-"Asking a neighbor to deliver the message",
-"Texting PHI to an unverified number"
-],
-"answer": 1,
-"explain": "Best practice is to limit voicemail content to minimal necessary information and request a callback, unless the patient has explicitly agreed to receive detailed messages.",
-"optionExplanations": [
-"Detailed clinical information can be overheard and may violate privacy expectations.",
-"Minimal information with a callback number reduces the risk of unauthorized disclosure.",
-"Sharing through a neighbor is not appropriate.",
-"Unverified texting can expose PHI and is not a secure method without safeguards and consent."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of role-based access controls in an EHR?",
-"options": [
-"To speed up internet connections",
-"To ensure users can access only the minimum information needed for their job duties",
-"To eliminate the need for passwords",
-"To allow patients to edit clinical notes freely"
-],
-"answer": 1,
-"explain": "Role-based access limits system permissions to what each job role requires, supporting privacy and security.",
-"optionExplanations": [
-"Internet speed is unrelated to access controls.",
-"Limiting access by role is a core security principle and supports HIPAA safeguards.",
-"Passwords are still needed; role-based controls govern authorization, not authentication.",
-"Patient portals may allow limited input, but patients do not freely edit provider notes in standard workflows."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In a typical clinic workflow, which task should occur before a claim is submitted to reduce denials?",
-"options": [
-"Post payments",
-"Verify patient demographics and insurance eligibility",
-"Send the account to collections immediately",
-"Close the practice for the day"
-],
-"answer": 1,
-"explain": "Correct demographics and verified eligibility reduce front-end errors that commonly cause claim rejections and denials.",
-"optionExplanations": [
-"Payment posting happens after adjudication, not before submission.",
-"Eligibility and demographic verification are key front-end steps to reduce denials.",
-"Collections is a late-stage step, not a pre-submission step.",
-"Closing the practice is unrelated to claim quality."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best description of a 'clean claim'?",
-"options": [
-"A claim submitted on paper only",
-"A claim that is complete, accurate, and meets payer requirements for processing without manual intervention",
-"A claim with no patient responsibility",
-"A claim that includes only diagnosis codes"
-],
-"answer": 1,
-"explain": "A clean claim has all required information and valid codes so the payer can process it without requesting corrections.",
-"optionExplanations": [
-"A claim can be clean whether sent electronically or on paper; paper-only does not define cleanliness.",
-"A clean claim has all required data and valid codes so it can be processed without requests for correction.",
-"Clean claims can still result in copays/deductibles/coinsurance; patient responsibility does not make a claim unclean.",
-"Claims require procedures/services and other fields; diagnosis-only claims are incomplete and often rejected."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which office policy most directly reduces the risk of a HIPAA privacy incident at the front desk?",
-"options": [
-"Calling out full diagnoses in the waiting room",
-"Positioning computer screens away from public view and using privacy filters when needed",
-"Sharing passwords among staff for convenience",
-"Printing schedules and leaving them on unattended counters"
-],
-"answer": 1,
-"explain": "Shielding screens from public view and using privacy filters reduces incidental disclosure of PHI to other patients and visitors.",
-"optionExplanations": [
-"Announcing diagnoses publicly is a clear privacy risk.",
-"Screen positioning and privacy filters are practical safeguards against incidental disclosure.",
-"Shared passwords undermine audit trails and access controls.",
-"Unattended printed schedules can expose PHI."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best definition of 'protected health information' (PHI) in an office setting?",
-"options": [
-"Any information about the office building",
-"Individually identifiable health information in any form (paper, electronic, or oral)",
-"Only electronic lab results",
-"Only information created by a physician"
-],
-"answer": 1,
-"explain": "PHI includes identifiable health information in any medium, not just electronic records or physician-created notes.",
-"optionExplanations": [
-"Building information is not health information about a person.",
-"This matches the broad HIPAA concept of identifiable health information across media.",
-"PHI is not limited to electronic lab results.",
-"PHI can be created by many workforce members, not only physicians."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A patient requests that their spouse be allowed to discuss billing questions with the office. What is the most appropriate administrative step?",
-"options": [
-"Refuse all discussion with anyone but the patient forever",
-"Document the patient's permission using the office's authorized contact process or a written authorization as required",
-"Give the spouse full portal access without verification",
-"Discuss billing details in the waiting room to save time"
-],
-"answer": 1,
-"explain": "Offices typically document permitted contacts or obtain appropriate authorization so staff can verify who is allowed to receive information.",
-"optionExplanations": [
-"Patients can authorize others; a blanket refusal is not required.",
-"Documenting permission and verifying identity supports privacy compliance while meeting the patient's request.",
-"Granting portal access requires formal identity verification and permissions; it should not be done informally.",
-"Public discussions risk unauthorized disclosure."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which metric best measures how quickly a practice collects money owed after services are provided?",
-"options": [
-"Days in accounts receivable (days in A/R)",
-"Number of exam rooms",
-"Average patient age",
-"Number of procedure codes billed"
-],
-"answer": 0,
-"explain": "Days in A/R reflects the average time it takes to collect payment after charges are posted and is a key revenue cycle performance indicator.",
-"optionExplanations": [
-"Days in A/R directly measures collection speed.",
-"Exam rooms affect capacity, not collection timing.",
-"Patient age does not measure collections.",
-"Number of codes billed measures volume, not collection speed."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action best helps prevent duplicate patient records in an EHR?",
-"options": [
-"Creating a new record for every visit",
-"Searching for an existing patient and matching identifiers before creating a new chart",
-"Allowing patients to choose any MRN they want",
-"Disabling all demographic fields"
-],
-"answer": 1,
-"explain": "Duplicate records are reduced by careful search and verification (name, DOB, address, phone) before creating a new record.",
-"optionExplanations": [
-"Creating new records each time guarantees duplicates.",
-"Searching and verifying identifiers prevents duplicates and safety risks.",
-"MRNs are system-assigned, not chosen by patients.",
-"Disabling demographics removes the data needed to match patients correctly."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of a Notice of Privacy Practices (NPP) in a healthcare office?",
-"options": [
-"To list physician salaries",
-"To explain how the practice may use and disclose PHI and the patient's privacy rights",
-"To provide medical advice",
-"To advertise office hours only"
-],
-"answer": 1,
-"explain": "HIPAA requires covered entities to provide an NPP that describes uses/disclosures of PHI and patient rights.",
-"optionExplanations": [
-"Salaries are not the purpose of the NPP.",
-"The NPP explains PHI handling and patient rights under HIPAA.",
-"Medical advice is provided by clinicians, not in the NPP.",
-"Office hours may be included elsewhere, but the NPP is about privacy practices."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of healthcare operations under HIPAA?",
-"options": [
-"A nurse consulting another nurse about a patient's medication",
-"A practice conducting a quality improvement review of appointment wait times",
-"A patient requesting their lab results",
-"A provider ordering a lab test"
-],
-"answer": 1,
-"explain": "Quality assessment and improvement activities are considered healthcare operations under HIPAA.",
-"optionExplanations": [
-"Consultation about medication is treatment, not operations.",
-"Quality improvement is a classic healthcare operations activity.",
-"Patient access requests are patient rights, not operations.",
-"Ordering labs is treatment."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which front-desk action most directly improves claim acceptance on first submission?",
-"options": [
-"Skipping insurance verification to save time",
-"Collecting complete demographics and scanning the current insurance card",
-"Entering only the patient's first name",
-"Using last year's policy information"
-],
-"answer": 1,
-"explain": "Accurate demographics and current payer information (member ID, group, payer address/portal) reduce rejections due to eligibility and data errors.",
-"optionExplanations": [
-"Skipping verification increases errors and rework.",
-"Complete demographics and current insurance data are among the highest-impact clean-claim steps.",
-"Incomplete names increase matching and billing errors.",
-"Old policy information can cause eligibility failures and claim rejections."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main reason practices perform insurance eligibility verification before the visit?",
-"options": [
-"To diagnose the patient",
-"To confirm coverage, effective dates, benefits, and patient cost-sharing",
-"To change the patient's plan",
-"To eliminate the need for coding"
-],
-"answer": 1,
-"explain": "Eligibility verification confirms whether services are covered and what the patient's financial responsibility will be, reducing surprises and denials.",
-"optionExplanations": [
-"Diagnosis is a clinical function, not an insurance verification purpose.",
-"Coverage, benefits, and cost-sharing confirmation are the core goals.",
-"Practices cannot change a patient's plan through verification.",
-"Coding is still required for billing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which schedule template best supports a mix of short follow-up visits and longer new-patient exams?",
-"options": [
-"Using the same time length for every visit type",
-"Using visit-type-specific time blocks (e.g., 15-min follow-up, 30-45-min new patient)",
-"Booking only walk-ins",
-"Scheduling all long visits at the end of the day with no breaks"
-],
-"answer": 1,
-"explain": "Template design that matches appointment length to visit type improves flow, reduces waiting, and helps providers stay on time.",
-"optionExplanations": [
-"Equal lengths for all visits ignores complexity differences and creates delays.",
-"Visit-type-specific blocks align time needed with services provided and improve efficiency.",
-"Only walk-ins is unpredictable and can increase wait times.",
-"Stacking long visits at the end can create late running and staff overtime."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement about documentation supports medical necessity for billing purposes?",
-"options": [
-"Only the diagnosis code matters",
-"Documentation should support why the service was needed and what was performed",
-"Billing staff can create clinical documentation after the fact",
-"Medical necessity is determined only by patient request"
-],
-"answer": 1,
-"explain": "Medical necessity requires documentation of the reason for service and the work performed, consistent with payer rules and coding standards.",
-"optionExplanations": [
-"Procedure coding and documentation matter; diagnosis alone is not sufficient.",
-"Accurate documentation connecting reason and service supports medical necessity.",
-"Clinical staff must document; billing staff should not fabricate documentation.",
-"Patient request alone does not establish medical necessity under payer policies."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a common purpose of a medical office incident report?",
-"options": [
-"To bill the patient for an error",
-"To document unusual events (e.g., falls, exposure, adverse events) for risk management follow-up",
-"To replace the patient's medical record",
-"To advertise services"
-],
-"answer": 1,
-"explain": "Incident reports capture facts about unexpected events to support investigation, corrective action, and safety improvement.",
-"optionExplanations": [
-"Incident reports are not billing tools.",
-"They document events for risk management and quality improvement.",
-"They do not replace clinical documentation in the medical record.",
-"They are not marketing materials."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which best describes a 'chain of custody' requirement in healthcare administration?",
-"options": [
-"A process for tracking who handled a specimen or evidence item from collection to final disposition",
-"A method for scheduling surgeries",
-"A rule for setting copays",
-"A way to file insurance claims faster"
-],
-"answer": 0,
-"explain": "Chain of custody documents transfers and handling to maintain integrity and traceability, often used for lab specimens in legal contexts or controlled substances.",
-"optionExplanations": [
-"This is the correct definition and purpose.",
-"Scheduling is unrelated to custody tracking.",
-"Copays are benefit design features, not custody rules.",
-"Claims processing speed is unrelated to custody documentation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of a 'breach' under HIPAA?",
-"options": [
-"A staff member accesses the EHR only for assigned patients",
-"An encrypted laptop is stolen and the encryption keys are not compromised",
-"Unsecured PHI is emailed to the wrong recipient outside the practice",
-"A provider discusses treatment with another provider involved in care"
-],
-"answer": 2,
-"explain": "Sending unsecured PHI to the wrong recipient is an unauthorized disclosure and is a common reportable breach risk depending on the assessment.",
-"optionExplanations": [
-"Role-appropriate access for assigned patients is permitted.",
-"If strong encryption is in place, the incident may not meet the definition of a breach because PHI is not unsecured.",
-"Unsecured PHI sent to an unauthorized recipient is a likely breach scenario.",
-"Treatment discussions among involved providers are generally permitted uses/disclosures."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which policy best supports secure disposal of documents containing PHI?",
-"options": [
-"Placing them in open recycling bins",
-"Shredding or using a locked shredding bin with an approved destruction process",
-"Taking them home to dispose later",
-"Leaving them on the printer for staff to pick up"
-],
-"answer": 1,
-"explain": "Secure disposal requires a controlled process (locked bins, shredding, vendor agreements) to prevent unauthorized access to PHI.",
-"optionExplanations": [
-"Open bins allow unauthorized access to PHI.",
-"Locked shredding and verified destruction reduce disclosure risk and support compliance.",
-"Taking PHI home increases risk and is usually prohibited by policy.",
-"Unattended printouts can expose PHI to the public or unauthorized staff."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of an internal audit trail in an EHR?",
-"options": [
-"To reduce appointment times",
-"To record user actions (viewing, editing) for security monitoring and compliance",
-"To set insurance premiums",
-"To automatically diagnose patients"
-],
-"answer": 1,
-"explain": "Audit trails log access and changes, helping detect inappropriate access, support investigations, and meet security requirements.",
-"optionExplanations": [
-"Audit trails do not shorten visits directly.",
-"Logging user activity supports monitoring and compliance.",
-"Premiums are set by insurers, not EHR audit trails.",
-"EHRs do not diagnose automatically; clinicians do."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best definition of 'credentialing' in a healthcare practice context?",
-"options": [
-"Training a new employee on office policies",
-"Verifying a provider's qualifications and enrolling them with payers",
-"Assigning ICD-10 codes",
-"Ordering medical supplies"
-],
-"answer": 1,
-"explain": "Credentialing involves verifying licensure, education, and training, and often includes payer enrollment so services can be billed.",
-"optionExplanations": [
-"Policy training is onboarding, not credentialing.",
-"This matches common healthcare administration usage of credentialing and payer enrollment.",
-"Coding is separate from credentialing.",
-"Supply ordering is an inventory function."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which process most directly helps ensure that laboratory test results are attached to the correct patient's chart?",
-"options": [
-"Entering results without identifiers to save time",
-"Using barcoded specimen labels and verifying patient identifiers at collection and result posting",
-"Allowing patients to label specimens themselves without verification",
-"Posting all results into a shared folder"
-],
-"answer": 1,
-"explain": "Barcode labeling and identifier verification at key handoffs reduce mix-ups and support accurate result posting.",
-"optionExplanations": [
-"Missing identifiers increases misfile risk.",
-"Barcode labeling with two-identifier verification is a standard safety practice.",
-"Patient-only labeling without verification is unsafe.",
-"Shared folders are insecure and do not ensure correct chart association."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a common consequence of incomplete demographic data (e.g., missing address or DOB) in the billing system?",
-"options": [
-"Faster claim processing",
-"Increased claim rejections and difficulty collecting patient balances",
-"Automatic upgrades in insurance coverage",
-"Reduced need for authorization"
-],
-"answer": 1,
-"explain": "Missing demographics often lead to eligibility issues, claim rejections, returned statements, and collections problems.",
-"optionExplanations": [
-"Incomplete data does not speed processing; it causes rework.",
-"Payers often reject claims with missing or mismatched demographics, and billing statements may not reach patients.",
-"Coverage upgrades do not occur from missing data.",
-"Authorization requirements are plan rules, not reduced by missing demographics."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which communication technique is most appropriate when explaining a billing statement to a patient who is confused about charges?",
-"options": [
-"Use as many technical abbreviations as possible",
-"Explain line items in plain language and confirm understanding",
-"Refuse to answer and refer them to the payer for all questions",
-"Discuss another patient's bill as an example"
-],
-"answer": 1,
-"explain": "Clear, plain-language explanations reduce confusion and complaints, and checking understanding ensures the patient knows next steps.",
-"optionExplanations": [
-"Technical abbreviations can increase confusion.",
-"Plain-language explanations with teach-back/confirmation is best practice.",
-"Some payer questions may require the payer, but offices should explain their own charges and provide guidance.",
-"Discussing another patient's bill would be a privacy violation."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best definition of a 'deductible' in health insurance?",
-"options": [
-"A fixed amount paid per visit",
-"The amount the patient must pay out of pocket before the plan begins paying for covered services (subject to plan rules)",
-"The portion the provider writes off",
-"A penalty for missing appointments"
-],
-"answer": 1,
-"explain": "A deductible is the amount the insured pays before coverage begins paying, though many plans exempt preventive services or apply different rules.",
-"optionExplanations": [
-"Fixed per-visit payments are copays.",
-"This is the standard definition of a deductible.",
-"Provider write-offs are contractual adjustments, not deductibles.",
-"No-show penalties are office fees, not insurance deductibles."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best way to reduce long check-in lines during peak clinic hours?",
-"options": [
-"Require every patient to fill forms on paper each visit",
-"Use pre-registration, online forms, and verify insurance before arrival",
-"Schedule all patients for the same time",
-"Turn off the appointment reminder system"
-],
-"answer": 1,
-"explain": "Pre-registration and online forms shift work earlier, shorten front-desk time, and reduce congestion.",
-"optionExplanations": [
-"Repeating paper forms increases front-desk workload.",
-"Pre-registration and advance verification reduce on-site processing time.",
-"Scheduling everyone at the same time increases congestion.",
-"Reminder systems reduce no-shows and help manage flow; turning them off can worsen inefficiency."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes the process of matching incoming payments to specific charges and updating the patient's account balance?",
-"options": [
-"Charge capture",
-"Payment posting",
-"Utilization review",
-"Clinical triage"
-],
-"answer": 1,
-"explain": "Payment posting applies payer and patient payments (and adjustments) to charges so balances and A/R are accurate.",
-"optionExplanations": [
-"Charge capture records billable services, not payments.",
-"Payment posting records and applies payments/adjustments to accounts.",
-"Utilization review evaluates medical necessity/appropriateness, not posting payments.",
-"Clinical triage prioritizes patient care needs, not accounting."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best description of an 'allowed amount' on an EOB?",
-"options": [
-"The provider's full charge",
-"The maximum amount the payer recognizes for the service under the contract",
-"The patient's deductible amount",
-"The office's supply cost"
-],
-"answer": 1,
-"explain": "The allowed amount is the contracted or payer-determined amount on which payment and patient responsibility are calculated.",
-"optionExplanations": [
-"Charged amount can be higher than allowed; it is not the same.",
-"Allowed amount is the payer-recognized amount used to calculate reimbursement.",
-"Deductible is patient responsibility, not the allowed amount definition.",
-"Supply cost is internal and unrelated to payer allowed amounts."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is an example of a contractual adjustment in medical billing?",
-"options": [
-"A patient paying a copay",
-"Writing off the difference between the provider's charge and the payer's allowed amount per contract",
-"A physician documenting a diagnosis",
-"A patient no-show fee"
-],
-"answer": 1,
-"explain": "Contractual adjustments reflect required write-offs under payer agreements when charges exceed the allowed amount.",
-"optionExplanations": [
-"Copays are patient payments, not adjustments.",
-"The contractual write-off is a standard adjustment tied to payer contracts.",
-"Clinical documentation is not an accounting adjustment.",
-"No-show fees are office charges, not contractual adjustments."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which scheduling reminder method typically reduces no-show rates most effectively while staying privacy-conscious?",
-"options": [
-"No reminders at all",
-"Automated reminders (text/call/email) with minimal PHI and an easy way to confirm or reschedule",
-"Posting patient names and times on social media",
-"Only mailing reminders one day before the visit"
-],
-"answer": 1,
-"explain": "Automated reminders sent ahead of time, with minimal details and convenient response options, are commonly associated with fewer no-shows and fewer last-minute cancellations.",
-"optionExplanations": [
-"No reminders generally increases no-shows.",
-"Automated, privacy-conscious reminders allow patients to act and reduce missed appointments.",
-"Public posting is a privacy violation.",
-"Mail is slow and unreliable for short notice; one-day mailing is not practical."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the most appropriate way to handle an angry patient who is upset about waiting?",
-"options": [
-"Argue about whose fault it is",
-"Listen, apologize for the delay, provide an estimated wait time, and offer options if available",
-"Ignore the patient until they calm down",
-"Disclose another patient's reason for delay"
-],
-"answer": 1,
-"explain": "De-escalation includes listening, acknowledging, and offering information and options without revealing other patients' information.",
-"optionExplanations": [
-"Arguing escalates conflict and harms service recovery.",
-"Acknowledging, giving an estimate, and offering options is a standard customer-service approach.",
-"Ignoring can increase frustration.",
-"Explaining another patient's situation would breach confidentiality."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a key element of an effective exposure control plan under OSHA?",
-"options": [
-"A list of patient diagnoses",
-"Procedures for handling sharps and post-exposure follow-up",
-"Provider fee schedules",
-"Insurance benefit summaries"
-],
-"answer": 1,
-"explain": "Exposure control plans include engineering/work practice controls, PPE, sharps handling, and steps to take after an exposure incident.",
-"optionExplanations": [
-"Patient diagnoses are not part of staff exposure control plans.",
-"Sharps handling and post-exposure procedures are central plan components.",
-"Fee schedules are financial documents.",
-"Benefits summaries relate to insurance, not occupational exposure control."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which role is typically responsible for ensuring CPT and ICD-10 codes are supported by documentation before billing?",
-"options": [
-"Environmental services",
-"Coding/billing staff working with clinicians as needed",
-"Patients in the waiting room",
-"The parking attendant"
-],
-"answer": 1,
-"explain": "Coding and billing staff validate codes against documentation and payer rules, often querying clinicians for clarification when needed.",
-"optionExplanations": [
-"Environmental services focuses on cleaning and facility support.",
-"Coding/billing staff are responsible for code accuracy and documentation support checks.",
-"Patients do not code their own encounters in standard workflows.",
-"Parking attendants are not involved in billing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice best supports accurate time-based billing (when applicable) for certain services?",
-"options": [
-"Estimating time from memory days later",
-"Documenting start/stop times or total time on the date of service per policy",
-"Leaving time blank because codes are enough",
-"Recording time only if the patient requests it"
-],
-"answer": 1,
-"explain": "Time-based services require contemporaneous documentation of time according to payer and coding rules to support billing.",
-"optionExplanations": [
-"Delayed estimates are unreliable and may not meet audit standards.",
-"Documenting time on the date of service supports compliance for time-based codes.",
-"Time cannot be omitted when time determines code selection.",
-"Patient request is not the criterion; payer rules are."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a common administrative use of the term 'utilization review'?",
-"options": [
-"Deciding which staff member answers phones",
-"Evaluating whether services are medically necessary and appropriate under coverage rules",
-"Choosing which brand of printer to buy",
-"Assigning exam rooms randomly"
-],
-"answer": 1,
-"explain": "Utilization review evaluates appropriateness and medical necessity for services, often tied to payer coverage and authorization decisions.",
-"optionExplanations": [
-"Phone coverage is staffing, not utilization review.",
-"This matches the standard meaning of utilization review.",
-"Printer choices are procurement decisions.",
-"Random room assignment is unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the best definition of a 'referral' in healthcare administration?",
-"options": [
-"A patient paying a bill",
-"A provider's recommendation and request for a patient to receive services from another provider or facility",
-"A change of office address",
-"A type of insurance denial"
-],
-"answer": 1,
-"explain": "A referral is a formal request from one provider to another for evaluation or treatment, often required for coverage in some plan types.",
-"optionExplanations": [
-"Billing payments are not referrals.",
-"This is the correct definition of a clinical/administrative referral.",
-"Address changes are administrative updates, not referrals.",
-"Denials are payer decisions, not referrals."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action best supports compliance with records retention requirements?",
-"options": [
-"Deleting records as soon as the balance is paid",
-"Following a written retention schedule based on applicable laws and contracts, and documenting destruction when permitted",
-"Keeping all records forever with no organization",
-"Storing PHI on personal USB drives"
-],
-"answer": 1,
-"explain": "Retention schedules align with legal and contractual requirements; controlled destruction with documentation reduces risk when records are eligible to be disposed.",
-"optionExplanations": [
-"Payment status does not determine legal retention requirements.",
-"A written retention schedule and documented destruction are best practice.",
-"Keeping everything forever increases risk, cost, and retrieval problems.",
-"Personal USB storage is insecure and often prohibited."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of 'front-end' revenue cycle activity?",
-"options": [
-"Appealing a denied claim",
-"Verifying eligibility and collecting copays at check-in",
-"Posting payer payments",
-"Sending accounts to collections"
-],
-"answer": 1,
-"explain": "Front-end activities occur before or at the visit and include registration, eligibility verification, and point-of-service collections.",
-"optionExplanations": [
-"Appeals occur after denial, which is back-end work.",
-"Eligibility verification and POS collections are classic front-end activities.",
-"Payment posting is mid/back-end after adjudication.",
-"Collections is a late-stage back-end activity."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best description of 'back-end' revenue cycle activity?",
-"options": [
-"Scheduling new appointments",
-"Claim follow-up, denial appeals, and patient collections after adjudication",
-"Taking vital signs",
-"Rooming patients"
-],
-"answer": 1,
-"explain": "Back-end tasks happen after claims are submitted and processed, focusing on payment posting, follow-up, and collections.",
-"optionExplanations": [
-"Scheduling is a front-office operation, not back-end billing.",
-"Follow-up, appeals, and collections are back-end revenue cycle functions.",
-"Vital signs are clinical support tasks.",
-"Rooming patients is clinical flow, not revenue cycle back-end work."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best way to protect PHI when printing documents at the front desk?",
-"options": [
-"Use any printer and leave documents in the output tray",
-"Use secure print release (badge/PIN) and retrieve printouts immediately",
-"Email the document to a personal account to print later",
-"Print extra copies in case someone loses one"
-],
-"answer": 1,
-"explain": "Secure print release and immediate retrieval reduce the chance that PHI is viewed by unauthorized people.",
-"optionExplanations": [
-"Unattended printouts are a common source of privacy incidents.",
-"Secure release and prompt pickup are strong administrative safeguards.",
-"Personal email introduces security and policy issues.",
-"Extra copies increase exposure risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A patient asks for an estimate of out-of-pocket cost for a procedure. Which information is most important to provide a reasonable estimate?",
-"options": [
-"Only the provider's standard charge",
-"The payer's allowed amount and the patient's remaining deductible/coinsurance and copay rules",
-"The office rent cost",
-"The patient's social media profile"
-],
-"answer": 1,
-"explain": "Out-of-pocket estimates depend on allowed amounts and the patient's benefits (deductible remaining, coinsurance, copay), not just the provider's sticker price.",
-"optionExplanations": [
-"Standard charges may not match allowed amounts and do not reflect benefits.",
-"Allowed amount plus benefits information supports a realistic estimate.",
-"Office overhead does not determine patient responsibility under insurance.",
-"Social media is irrelevant."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of a 'quality assurance' activity in a healthcare office?",
-"options": [
-"Ignoring patient complaints",
-"Reviewing a sample of charts for documentation completeness and correcting recurring issues",
-"Reducing hand hygiene compliance checks",
-"Sharing passwords to speed work"
-],
-"answer": 1,
-"explain": "Quality assurance includes monitoring processes (like documentation) and implementing corrective actions to improve performance and compliance.",
-"optionExplanations": [
-"Ignoring complaints undermines improvement.",
-"Chart audits for completeness and corrective action are standard QA activities.",
-"Reducing safety checks increases risk.",
-"Sharing passwords harms security and compliance."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action best supports patient-centered communication for individuals with limited English proficiency?",
-"options": [
-"Use family members as interpreters for all conversations",
-"Offer qualified interpreter services and provide translated key documents when available",
-"Speak louder in English",
-"Avoid discussing treatment options"
-],
-"answer": 1,
-"explain": "Qualified interpreter services improve understanding and reduce errors; using family members can introduce privacy and accuracy concerns.",
-"optionExplanations": [
-"Family interpreters may be inappropriate and can compromise privacy/accuracy; qualified services are preferred.",
-"Interpreter services and translated materials support informed decisions.",
-"Volume does not improve comprehension of a language barrier.",
-"Avoiding options undermines informed consent and patient rights."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a common administrative control for protecting electronic PHI (ePHI) on mobile devices?",
-"options": [
-"Disabling passwords to speed access",
-"Using device encryption and remote wipe capabilities under a mobile device policy",
-"Sharing devices among staff without logins",
-"Turning off updates permanently"
-],
-"answer": 1,
-"explain": "Encryption and remote wipe reduce risk if a device is lost or stolen and are common safeguards in mobile device policies.",
-"optionExplanations": [
-"Removing passwords reduces security.",
-"Encryption and remote wipe are widely used controls for ePHI protection.",
-"Shared devices without logins prevent accountability and increase unauthorized access risk.",
-"Disabling updates can leave security vulnerabilities unpatched."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best description of 'incident-to' billing in a physician office context (general concept)?",
-"options": [
-"Billing a service as if performed by a physician under specific supervision and payer rules",
-"Billing only for supplies",
-"Billing a patient for parking",
-"Billing only for inpatient stays"
-],
-"answer": 0,
-"explain": "Incident-to billing allows certain services performed by auxiliary personnel to be billed under a physician/NPI when supervision and documentation requirements are met (subject to payer rules).",
-"optionExplanations": [
-"This captures the general concept; details depend on payer and setting rules.",
-"Supplies may be billed, but incident-to is not limited to supplies.",
-"Parking is not a medical service billing concept.",
-"Incident-to is generally an outpatient/professional billing concept, not inpatient-only."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which report would be most useful to identify which payers are taking the longest to pay claims?",
-"options": [
-"Payer turnaround time report by days from submission to payment",
-"Clinic floor plan",
-"Employee directory",
-"Patient satisfaction survey"
-],
-"answer": 0,
-"explain": "A payer turnaround time report shows average days to payment by payer, helping target follow-up and contracting discussions.",
-"optionExplanations": [
-"This report directly measures payment speed by payer.",
-"Floor plans do not show payment behavior.",
-"Directories do not track claims.",
-"Satisfaction surveys are not payer payment metrics."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of a compliant email practice when communicating with a patient about scheduling?",
-"options": [
-"Emailing the full visit note in plain text",
-"Using an approved secure messaging/portal system or encrypted email per policy and limiting details",
-"Sending the patient's diagnosis to a group email list",
-"Including the patient's Social Security number for identification"
-],
-"answer": 1,
-"explain": "Secure messaging or encryption with limited details reduces privacy risk and aligns with common HIPAA safeguard practices.",
-"optionExplanations": [
-"Sending full clinical notes in plain text email is high risk and often noncompliant with policy.",
-"Using approved secure channels and limiting content is best practice.",
-"Group emails can disclose PHI to others.",
-"SSNs are highly sensitive and should not be shared unnecessarily."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In a typical clinic, which document is used to record a patient's consent to treat and general office policies (often separate from procedure-specific consent)?",
-"options": [
-"General consent for treatment form",
-"EOB",
-"A/R aging report",
-"OSHA exposure log"
-],
-"answer": 0,
-"explain": "Many practices use a general consent form to document consent to treat and acknowledgment of office policies; procedures may require additional informed consent forms.",
-"optionExplanations": [
-"General consent forms cover broad consent and acknowledgments.",
-"EOBs are insurer statements, not consent documents.",
-"A/R aging is a billing report.",
-"Exposure logs track employee exposures, not patient consent."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best reason to maintain a backup and downtime procedure for an EHR?",
-"options": [
-"To avoid training staff",
-"To continue safe operations and documentation if the system is unavailable",
-"To eliminate the need for privacy safeguards",
-"To increase claim denials"
-],
-"answer": 1,
-"explain": "Downtime procedures ensure patient care and critical documentation can continue during outages and that data can be reconciled afterward.",
-"optionExplanations": [
-"Training is still required regardless of downtime plans.",
-"Backup and downtime planning supports continuity of operations and patient safety.",
-"Safeguards are still required; downtime can increase risk if unmanaged.",
-"Denials increase with poor documentation; downtime planning aims to prevent that."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which step is most appropriate when correcting an error in a patient's demographic record?",
-"options": [
-"Delete the entire patient record",
-"Follow the system's correction process, document the change, and preserve auditability",
-"Ask another patient for the correct information",
-"Ignore it because demographics do not affect billing"
-],
-"answer": 1,
-"explain": "Correcting demographics should be done through controlled edits that maintain audit trails and prevent mismatches in claims and clinical records.",
-"optionExplanations": [
-"Deleting records can create safety and legal issues.",
-"Controlled correction with auditability is the appropriate approach.",
-"Another patient's information is not a valid source and creates privacy risk.",
-"Demographics directly affect billing, identification, and communication."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a common purpose of claim 'scrubbing' software?",
-"options": [
-"To remove diagnoses from claims",
-"To check claims for missing/invalid data and coding edits before submission",
-"To replace the need for eligibility verification",
-"To generate clinical treatment plans"
-],
-"answer": 1,
-"explain": "Claim scrubbers apply edits and rules to catch errors (missing modifiers, invalid codes, demographic issues) before the claim is sent.",
-"optionExplanations": [
-"Diagnoses are required for claims; scrubbers do not remove them.",
-"Pre-submission edits are the main purpose of claim scrubbing.",
-"Eligibility verification is still needed; scrubbers do not confirm coverage.",
-"Treatment plans are clinical, not claim scrubbing outputs."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best definition of 'coordination of benefits' (COB)?",
-"options": [
-"Choosing the cheapest appointment time",
-"Determining which insurance plan pays first when a patient has multiple coverages",
-"A method for coding procedures",
-"A requirement to use telehealth"
-],
-"answer": 1,
-"explain": "COB rules determine primary vs secondary payer responsibility when more than one plan covers the patient.",
-"optionExplanations": [
-"Appointment time selection is unrelated.",
-"This is the standard meaning of coordination of benefits.",
-"COB is not a coding method.",
-"Telehealth use is not determined by COB."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which scenario most clearly requires coordination of benefits processing?",
-"options": [
-"A self-pay patient with no insurance",
-"A patient covered by both a personal employer plan and a spouse's plan",
-"A patient who pays cash for a copay",
-"A patient who changes address"
-],
-"answer": 1,
-"explain": "When a patient has two active insurance plans, the office must coordinate which payer is primary and how secondary payment works.",
-"optionExplanations": [
-"With no insurance, COB does not apply.",
-"Two active plans require COB determination.",
-"Paying a copay does not imply multiple plans.",
-"Address changes do not require COB."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best reason to collect and document a patient's preferred pharmacy in the registration workflow?",
-"options": [
-"To reduce HIPAA requirements",
-"To support accurate e-prescribing and reduce delays in medication fulfillment",
-"To increase deductible amounts",
-"To avoid documenting allergies"
-],
-"answer": 1,
-"explain": "Preferred pharmacy information helps route prescriptions correctly and reduces follow-up calls and delays.",
-"optionExplanations": [
-"Privacy requirements still apply regardless of pharmacy preference.",
-"Accurate pharmacy selection supports e-prescribing workflows and patient convenience.",
-"Deductibles are plan features and are not affected by pharmacy documentation.",
-"Allergy documentation is still required for safe care."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the most appropriate action when a payer requests medical records to support a claim review?",
-"options": [
-"Send the entire chart for all years without checking scope",
-"Send only the requested relevant records using the approved secure method and document what was sent",
-"Refuse all requests from payers",
-"Post the records to a public file-sharing link"
-],
-"answer": 1,
-"explain": "Offices should disclose only what is needed for the request, use secure transmission, and document the disclosure per policy.",
-"optionExplanations": [
-"Over-disclosure increases privacy risk and may exceed the request.",
-"Relevant, minimum-necessary records via secure methods with documentation is appropriate.",
-"Payers may be permitted recipients for payment activities; blanket refusal can cause denials.",
-"Public links are insecure and not appropriate for PHI."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a common function of a patient portal in an EHR system?",
-"options": [
-"Allowing anyone to view any patient's records",
-"Providing patients access to certain results, messages, and appointment functions after identity verification",
-"Automatically approving prior authorizations",
-"Replacing the need for clinical documentation"
-],
-"answer": 1,
-"explain": "Patient portals provide secure, authenticated access to limited information and functions for the patient (and authorized proxies).",
-"optionExplanations": [
-"Portals require authentication and do not allow open access.",
-"This describes standard portal functionality and security model.",
-"Prior authorizations are payer processes; portals do not automatically approve them.",
-"Clinical documentation is still created by clinicians; portals do not replace it."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice best helps reduce the risk of medication list errors during intake?",
-"options": [
-"Skip medication review if the visit is short",
-"Perform medication reconciliation by asking the patient to confirm current medications and doses and updating the record",
-"Assume last year's list is still correct",
-"Only record over-the-counter medications"
-],
-"answer": 1,
-"explain": "Medication reconciliation improves accuracy by confirming current meds, doses, and changes at each relevant encounter.",
-"optionExplanations": [
-"Skipping review increases error risk.",
-"Confirming and updating the list is the standard reconciliation approach.",
-"Old lists may be outdated and unsafe.",
-"OTC meds can matter, but limiting to OTC misses prescriptions and supplements that affect care."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which scheduling practice best supports equitable access when appointment slots are limited?",
-"options": [
-"Give all openings to the first caller with no triage",
-"Use a documented triage policy for urgent needs and maintain a waitlist/cancellation list process",
-"Only schedule patients who pay cash",
-"Cancel all follow-ups indefinitely"
-],
-"answer": 1,
-"explain": "A triage policy and waitlist process help prioritize urgent care needs fairly while filling openings efficiently when cancellations occur.",
-"optionExplanations": [
-"No triage can delay urgent cases and may be unfair.",
-"Triage and waitlist processes are common, documented methods to manage scarce appointment capacity.",
-"Scheduling based on payment method raises ethical and contractual concerns.",
-"Eliminating follow-ups can harm continuity of care."
-],
-"source": "generated-bespoke"
+  "event": "Healthcare Administration",
+  "questions": [
+    {
+      "q": "A healthcare office's policy and procedures manual should be reviewed and updated:",
+      "options": [
+        "Every five years",
+        "Only when new staff are hired",
+        "Annually or when regulations change",
+        "Only during accreditation reviews"
+      ],
+      "answer": 2,
+      "explain": "Most medical offices review written policies at least yearly and whenever laws, payer rules, or clinical regulations change.",
+      "optionExplanations": [
+        "A 5-year cycle is too infrequent; procedures and regulations change more often.",
+        "Hiring does not determine when policies must be updated; compliance changes can occur anytime.",
+        "Annual review plus updates when regulations change keeps procedures current and compliant.",
+        "Accreditation reviews are not the only trigger; policies should be current before any survey."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which scheduling method is most effective for minimizing patient wait time while maximizing provider efficiency?",
+      "options": [
+        "Wave scheduling",
+        "Double booking",
+        "Open hours scheduling",
+        "First-come, first-served"
+      ],
+      "answer": 0,
+      "explain": "Wave scheduling books several patients at the start of an hour and then staggers others, reducing idle provider time while limiting long waits when managed correctly.",
+      "optionExplanations": [
+        "Wave scheduling balances flow by grouping arrivals and using the hour to work through them efficiently.",
+        "Double booking often increases wait times and can overwhelm staff unless used only for specific short visits.",
+        "Open hours encourages walk-ins but can create unpredictable surges and longer waits.",
+        "First-come, first-served ignores visit length and provider availability, increasing bottlenecks."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A tickler file in healthcare administration is primarily used to:",
+      "options": [
+        "Store patient billing information",
+        "Provide reminders for future actions or follow-ups",
+        "Track medical errors",
+        "Record staff attendance"
+      ],
+      "answer": 1,
+      "explain": "A tickler file is a reminder system for time-sensitive tasks such as follow-up calls, authorizations, renewals, or reports due.",
+      "optionExplanations": [
+        "Billing records belong in the accounting or practice management system, not a tickler file.",
+        "Tickler files are designed to prompt staff to complete future actions on a specific date.",
+        "Medical error tracking is part of quality/risk management systems, not a tickler file.",
+        "Attendance tracking is an HR function and uses timekeeping systems."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is the most important step when implementing a new electronic appointment system?",
+      "options": [
+        "Distributing login credentials without training",
+        "Conducting staff training and testing the system before launch",
+        "Eliminating paper backups immediately",
+        "Posting instructions for patients online only"
+      ],
+      "answer": 1,
+      "explain": "Training staff and testing workflows before go-live prevents scheduling errors, lost appointments, and downtime.",
+      "optionExplanations": [
+        "Credentials alone do not ensure correct use; untrained users increase errors and support requests.",
+        "Training and pre-launch testing validate templates, permissions, and day-to-day workflows.",
+        "Removing paper backups immediately can be risky during transition; contingency plans are needed.",
+        "Patient-facing instructions do not replace internal staff readiness and system testing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "To maintain HIPAA compliance, a sign-in sheet in a medical office should:",
+      "options": [
+        "Include only the patient's name and appointment time",
+        "List diagnosis information for billing",
+        "Display insurance numbers for efficiency",
+        "Be posted on a public bulletin board"
+      ],
+      "answer": 0,
+      "explain": "HIPAA requires minimizing unnecessary disclosure; a sign-in sheet should not expose diagnoses or identifiers beyond what is needed to manage flow.",
+      "optionExplanations": [
+        "Name and appointment time are typically sufficient for check-in without revealing protected details.",
+        "Diagnoses are protected health information and should not be displayed on a sign-in sheet.",
+        "Insurance numbers are identifiers and should not be visible to other patients.",
+        "Public display increases unauthorized disclosure risk and is not appropriate."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "When a physician is unexpectedly absent, the best first step for the office manager is to:",
+      "options": [
+        "Cancel all appointments immediately",
+        "Notify patients, offer rescheduling, and reassign urgent cases to other providers",
+        "Postpone all patient visits until the physician returns",
+        "Ask patients to wait in the lobby indefinitely"
+      ],
+      "answer": 1,
+      "explain": "The office should communicate quickly, preserve access for urgent needs, and re-route care rather than leaving patients without options.",
+      "optionExplanations": [
+        "Immediate cancellation without triage can delay urgent care and harm patient satisfaction.",
+        "Notify and reschedule, and ensure urgent cases are covered by another qualified provider or facility.",
+        "Blanket postponement ignores clinical urgency and continuity of care needs.",
+        "Keeping patients waiting without a plan is unsafe and unprofessional."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The prefix brady- in medical terminology means:",
+      "options": [
+        "Fast",
+        "Slow",
+        "Irregular",
+        "Absent"
+      ],
+      "answer": 1,
+      "explain": "In medical terminology, the prefix 'brady-' means slow (e.g., bradycardia = slow heart rate).",
+      "optionExplanations": [
+        "'Tachy-' is the prefix for fast, not brady-.",
+        "Brady- means slow.",
+        "Irregular is commonly described by 'arrhythmia' or similar terms, not brady-.",
+        "Absent would be described with terms like 'a-' or 'an-' depending on the word."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The medical term hepatomegaly refers to:",
+      "options": [
+        "Inflammation of the kidney",
+        "Enlargement of the liver",
+        "Disease of the pancreas",
+        "Hardening of the arteries"
+      ],
+      "answer": 1,
+      "explain": "Hepato- refers to the liver and -megaly means enlargement, so hepatomegaly is enlargement of the liver.",
+      "optionExplanations": [
+        "Kidney inflammation is nephritis (nephr- = kidney, -itis = inflammation).",
+        "Hepatomegaly literally means enlarged liver.",
+        "Pancreas disease uses pancreat- as the root (e.g., pancreatitis).",
+        "Hardening of arteries is arteriosclerosis/atherosclerosis."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The root word derm refers to:",
+      "options": [
+        "Skin",
+        "Heart",
+        "Bone",
+        "Lung"
+      ],
+      "answer": 0,
+      "explain": "The root 'derm' means skin, as in dermatology.",
+      "optionExplanations": [
+        "Derm refers to skin tissue.",
+        "Heart is cardi-.",
+        "Bone is oste-.",
+        "Lung is pneum- or pulmon-."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The suffix -ectomy means:",
+      "options": [
+        "Surgical removal",
+        "Inflammation",
+        "Enlargement",
+        "Disease"
+      ],
+      "answer": 0,
+      "explain": "The suffix '-ectomy' means surgical removal of a body part (e.g., appendectomy).",
+      "optionExplanations": [
+        "-ectomy indicates surgical removal.",
+        "Inflammation is -itis.",
+        "Enlargement is -megaly.",
+        "Disease is -osis in many terms."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A patient diagnosed with tachycardia has:",
+      "options": [
+        "Slow breathing rate",
+        "Rapid heart rate",
+        "High blood pressure",
+        "Low blood sugar"
+      ],
+      "answer": 1,
+      "explain": "Tachycardia means an abnormally rapid heart rate (tachy- = fast, -cardia = heart condition).",
+      "optionExplanations": [
+        "Breathing rate relates to terms like tachypnea or bradypnea, not tachycardia.",
+        "Tachycardia specifically refers to a fast heart rate.",
+        "High blood pressure is hypertension.",
+        "Low blood sugar is hypoglycemia."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which law protects patient privacy and governs the use of health information?",
+      "options": [
+        "OSHA",
+        "HIPAA",
+        "ADA",
+        "HITECH"
+      ],
+      "answer": 1,
+      "explain": "HIPAA sets national standards for protecting individually identifiable health information and regulating its use and disclosure.",
+      "optionExplanations": [
+        "OSHA focuses on workplace safety, not patient privacy.",
+        "HIPAA is the primary U.S. law governing privacy and security of health information.",
+        "ADA addresses disability discrimination and accommodations.",
+        "HITECH strengthened health IT and HIPAA enforcement, but HIPAA is the core privacy law."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Informed consent requires that the patient:",
+      "options": [
+        "Signs a form without explanation",
+        "Understands the risks, benefits, and alternatives to treatment",
+        "Gives consent verbally only",
+        "Agrees after the procedure has started"
+      ],
+      "answer": 1,
+      "explain": "Informed consent means the patient receives understandable information and voluntarily agrees after understanding risks, benefits, and alternatives.",
+      "optionExplanations": [
+        "A signature without explanation is not informed consent.",
+        "Understanding risks, benefits, and alternatives is the key requirement for informed consent.",
+        "Consent may be written and sometimes verbal, but it must still be informed and documented appropriately.",
+        "Consent must be obtained before the procedure, not after it begins."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The Good Samaritan Law generally protects:",
+      "options": [
+        "Medical professionals from malpractice claims in their workplace",
+        "Individuals who provide emergency care in good faith without compensation",
+        "Hospitals from liability in patient disputes",
+        "Patients from paying for emergency services"
+      ],
+      "answer": 1,
+      "explain": "Good Samaritan laws generally protect people who render emergency aid in good faith, typically outside a formal care setting, from certain liability.",
+      "optionExplanations": [
+        "Workplace malpractice coverage depends on professional standards and insurance, not Good Samaritan laws.",
+        "These laws are intended to encourage emergency assistance by limiting liability when acting in good faith.",
+        "Hospitals have separate liability rules; Good Samaritan laws are not a blanket shield for facilities.",
+        "Payment for emergency services is governed by other laws and policies, not Good Samaritan laws."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of a breach of confidentiality?",
+      "options": [
+        "Sharing patient details with another provider involved in care",
+        "Discussing a patient's diagnosis in a public elevator",
+        "Reviewing a patient's chart during treatment",
+        "Obtaining patient consent for information release"
+      ],
+      "answer": 1,
+      "explain": "Discussing identifiable patient information in a public place is an unauthorized disclosure and violates confidentiality.",
+      "optionExplanations": [
+        "Sharing information for treatment with involved providers is generally permitted under HIPAA.",
+        "Public discussion where others can overhear is a common confidentiality breach.",
+        "Chart review for treatment is a permitted use when access is role-appropriate.",
+        "Releasing information with proper patient authorization is permitted."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Under HIPAA, the minimum necessary standard generally applies when a covered entity uses or discloses PHI for which purpose?",
+      "options": [
+        "Treatment",
+        "Payment",
+        "Healthcare operations",
+        "All uses and disclosures, including treatment"
+      ],
+      "answer": 2,
+      "explain": "HIPAA's minimum necessary standard applies to most uses/disclosures for payment and operations, but it generally does not apply to disclosures for treatment.",
+      "optionExplanations": [
+        "Treatment disclosures are typically exempt from minimum necessary to avoid interfering with care.",
+        "Payment-related use/disclosure is subject to minimum necessary, so this is not the best choice alone.",
+        "Healthcare operations are subject to the minimum necessary requirement in most cases.",
+        "Minimum necessary does not apply to all disclosures (e.g., treatment exemptions)."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which document is most commonly used to authorize release of a patient's protected health information to a third party?",
+      "options": [
+        "Advance directive",
+        "Informed consent form",
+        "HIPAA authorization",
+        "Incident report"
+      ],
+      "answer": 2,
+      "explain": "A HIPAA authorization is the specific written permission that allows disclosure of PHI to named recipients for stated purposes.",
+      "optionExplanations": [
+        "Advance directives address future care decisions, not routine PHI disclosure.",
+        "Informed consent covers permission for treatment/procedures, not general PHI release.",
+        "A HIPAA authorization is designed for releasing PHI to third parties outside routine treatment/payment/operations.",
+        "Incident reports document events; they are not patient authorizations."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In revenue cycle management, which step occurs immediately after services are documented and coded?",
+      "options": [
+        "Claim submission to the payer",
+        "Patient registration",
+        "Charge capture/entry",
+        "Payment posting"
+      ],
+      "answer": 2,
+      "explain": "After documentation and coding, charges are captured/entered into the billing system before the claim is transmitted.",
+      "optionExplanations": [
+        "Claims are submitted after charges are captured and prepared in the system.",
+        "Registration happens before the visit and before coding.",
+        "Charge capture/entry is the immediate step that turns coded services into billable charges.",
+        "Payment posting happens after the payer processes the claim."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of a denial management process in a medical office?",
+      "options": [
+        "To reduce clinical documentation requirements",
+        "To appeal or correct rejected/denied claims to obtain payment",
+        "To eliminate patient copays",
+        "To assign ICD-10 codes automatically"
+      ],
+      "answer": 1,
+      "explain": "Denial management focuses on identifying why claims were denied and taking corrective action (e.g., appeals, corrections) to recover reimbursement.",
+      "optionExplanations": [
+        "Denial management does not reduce documentation needs; it often highlights documentation gaps.",
+        "Correcting and appealing denials is the core objective to secure appropriate reimbursement.",
+        "Copays are set by benefit plans and patient responsibility rules, not denial workflows.",
+        "Coding tools may help, but denial management is broader than automatic code assignment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of protected health information (PHI) under HIPAA?",
+      "options": [
+        "A patient's appointment time listed by last name only",
+        "A de-identified dataset with all 18 identifiers removed",
+        "A lab result linked to a patient's name or medical record number",
+        "A newspaper article about influenza season"
+      ],
+      "answer": 2,
+      "explain": "PHI includes individually identifiable health information; a lab result tied to a patient identifier qualifies as PHI.",
+      "optionExplanations": [
+        "A sign-in list using only last name can still be identifying; however, this example is ambiguous compared with an explicit identifier plus clinical data.",
+        "Properly de-identified data is not PHI.",
+        "Clinical data linked to an identifier (name or MRN) is PHI.",
+        "General news is not patient-specific health information."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of insurance plan typically requires the patient to choose a primary care provider (PCP) and obtain referrals for specialists?",
+      "options": [
+        "PPO",
+        "HMO",
+        "Indemnity fee-for-service",
+        "Workers' compensation"
+      ],
+      "answer": 1,
+      "explain": "HMOs commonly use a gatekeeper PCP model where referrals are needed for many specialist services.",
+      "optionExplanations": [
+        "PPOs usually allow self-referral to specialists, though incentives may apply.",
+        "HMOs typically require a PCP and referrals to manage access and costs.",
+        "Indemnity plans generally allow broad choice without referral structures.",
+        "Workers' compensation is a coverage type for work-related injuries, not a referral-based network model."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In medical billing, what does the term 'copayment' mean?",
+      "options": [
+        "A fixed amount the patient pays at the time of service",
+        "A percentage of allowed charges the patient pays",
+        "The amount the payer refuses to cover",
+        "A provider discount applied before billing"
+      ],
+      "answer": 0,
+      "explain": "A copayment (copay) is a set dollar amount the patient owes for a covered service, often due at check-in or check-out.",
+      "optionExplanations": [
+        "Copays are fixed-dollar obligations set by the health plan.",
+        "A percentage paid by the patient is coinsurance, not a copay.",
+        "A payer refusal to cover is a denial or non-covered charge.",
+        "Provider discounts are contractual adjustments, not copays."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which identifier is primarily used to link all documentation for a specific patient within an electronic health record (EHR) system?",
+      "options": [
+        "CPT code",
+        "Medical record number (MRN)",
+        "National Drug Code (NDC)",
+        "Tax identification number (TIN)"
+      ],
+      "answer": 1,
+      "explain": "The MRN is the patient-specific identifier used by the facility/practice to tie encounters, notes, labs, and billing to the correct person.",
+      "optionExplanations": [
+        "CPT codes describe services, not patients.",
+        "MRNs are used to uniquely identify and link a patient's record within a practice or facility.",
+        "NDC identifies medication products, not patients.",
+        "A TIN identifies a business entity for tax and billing, not a patient."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the best action if a patient requests a copy of their medical records and the office has a HIPAA-compliant process in place?",
+      "options": [
+        "Refuse unless the patient explains why they need the records",
+        "Provide access within the required timeframe after verifying identity and documenting the request",
+        "Release records only to the patient's employer",
+        "Tell the patient to obtain the records from the insurance company"
+      ],
+      "answer": 1,
+      "explain": "HIPAA grants patients the right to access their records; offices should verify identity, document the request, and provide access within required time limits.",
+      "optionExplanations": [
+        "Patients generally do not have to justify a request for their own records.",
+        "Verification, documentation, and timely access are core requirements for compliant release to the patient.",
+        "Employers are not automatically entitled to records and usually require a valid authorization.",
+        "Insurers may have claims data, but the provider is responsible for the designated record set they maintain."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which federal program primarily provides health coverage to individuals age 65 and older and certain disabled individuals?",
+      "options": [
+        "Medicaid",
+        "Medicare",
+        "TRICARE",
+        "CHIP"
+      ],
+      "answer": 1,
+      "explain": "Medicare is the federal health insurance program for most people 65+ and some younger people with disabilities or ESRD.",
+      "optionExplanations": [
+        "Medicaid is needs-based and jointly funded by states and the federal government.",
+        "Medicare is primarily age- and disability-based federal coverage.",
+        "TRICARE serves military members and families.",
+        "CHIP covers eligible children in low-income families who do not qualify for Medicaid."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of an Advance Beneficiary Notice (ABN) in Medicare billing?",
+      "options": [
+        "To enroll a patient in Medicare Part D",
+        "To notify a patient that Medicare may not pay for a service and the patient may be responsible",
+        "To authorize release of PHI",
+        "To document patient satisfaction"
+      ],
+      "answer": 1,
+      "explain": "An ABN informs a Medicare beneficiary that a service may be non-covered, allowing the patient to decide and accept financial responsibility if they proceed.",
+      "optionExplanations": [
+        "Part D enrollment is handled through plan selection, not an ABN.",
+        "ABNs are used to warn of possible noncoverage and shift liability appropriately when rules are followed.",
+        "PHI release uses HIPAA authorizations, not ABNs.",
+        "Patient satisfaction surveys do not determine Medicare coverage liability."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best reduces the risk of patient misidentification during check-in?",
+      "options": [
+        "Asking 'Are you John Smith?' and waiting for confirmation",
+        "Verifying at least two identifiers such as full name and date of birth",
+        "Relying on the appointment schedule alone",
+        "Using room number as the identifier"
+      ],
+      "answer": 1,
+      "explain": "Best practice is to verify two patient identifiers (e.g., full name and DOB) rather than using a leading question or a single source.",
+      "optionExplanations": [
+        "Leading questions can prompt incorrect confirmation, especially in busy waiting rooms.",
+        "Two identifiers reduce the chance of mixing up patients with similar names.",
+        "Schedules can contain errors and do not confirm identity in the moment.",
+        "Room numbers are logistical details, not patient identifiers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which office report would most directly help a manager identify excessive no-show rates by provider or appointment type?",
+      "options": [
+        "A/R aging report",
+        "Appointment status report (scheduled, checked-in, canceled, no-show)",
+        "General ledger",
+        "Inventory usage log"
+      ],
+      "answer": 1,
+      "explain": "Appointment status reports track outcomes like no-shows and cancellations and can be filtered by provider, location, or visit type.",
+      "optionExplanations": [
+        "A/R aging is for unpaid balances by time bucket, not scheduling outcomes.",
+        "Appointment status data directly measures no-show patterns.",
+        "General ledger summarizes accounting transactions, not appointment outcomes.",
+        "Inventory logs track supplies, not attendance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In medical coding, which code set is primarily used to report procedures and services performed by physicians and other providers?",
+      "options": [
+        "ICD-10-CM",
+        "CPT",
+        "HCPCS Level II only",
+        "SNOMED CT"
+      ],
+      "answer": 1,
+      "explain": "CPT codes are the standard for reporting many medical procedures and professional services in the U.S.",
+      "optionExplanations": [
+        "ICD-10-CM is primarily used to report diagnoses/reasons for visits, not most professional procedures.",
+        "CPT codes describe many professional procedures and services on outpatient/physician claims.",
+        "HCPCS Level II mainly covers supplies, equipment, and certain services (e.g., ambulance); it does not replace CPT for most procedures.",
+        "SNOMED CT is a clinical terminology used in records, not the standard procedure code set for claims submission."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which code set is primarily used to report a patient's diagnosis on outpatient and professional claims?",
+      "options": [
+        "ICD-10-CM",
+        "CPT",
+        "NDC",
+        "DRG"
+      ],
+      "answer": 0,
+      "explain": "ICD-10-CM codes describe diagnoses and reasons for visits on outpatient/professional claims.",
+      "optionExplanations": [
+        "ICD-10-CM is used to code diagnoses in the U.S.",
+        "CPT codes procedures/services, not diagnoses.",
+        "NDC identifies drug products, not diagnoses.",
+        "DRGs are inpatient payment groupers, not outpatient diagnosis codes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does an accounts receivable (A/R) aging report primarily show?",
+      "options": [
+        "Patient satisfaction scores by month",
+        "Outstanding balances grouped by how long they have been unpaid",
+        "Daily appointment volume",
+        "Employee hours worked"
+      ],
+      "answer": 1,
+      "explain": "An A/R aging report categorizes unpaid balances into time buckets (e.g., 0-30, 31-60, 61-90 days) to prioritize follow-up and collections.",
+      "optionExplanations": [
+        "Satisfaction scores are gathered via surveys, not A/R aging.",
+        "A/R aging focuses on unpaid balances and their age.",
+        "Appointment volume is shown in scheduling/encounter reports.",
+        "Employee hours are tracked by timekeeping systems."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of a 'pre-authorization' requirement?",
+      "options": [
+        "A patient pays a copay at check-in",
+        "The payer must approve a planned MRI before it is performed",
+        "The patient signs a HIPAA authorization",
+        "The provider posts a payment to an account"
+      ],
+      "answer": 1,
+      "explain": "Pre-authorization means the insurer requires approval in advance for certain services to be covered.",
+      "optionExplanations": [
+        "Copays are patient cost-sharing, not prior approval.",
+        "Many plans require prior authorization for high-cost imaging like MRIs.",
+        "HIPAA authorizations relate to information release, not coverage approval.",
+        "Posting a payment is an accounting action, not an approval requirement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a medical office, which task is most appropriate to delegate to a trained medical assistant rather than the billing specialist?",
+      "options": [
+        "Posting EOB payments",
+        "Verifying insurance eligibility",
+        "Taking and recording vital signs",
+        "Submitting electronic claims"
+      ],
+      "answer": 2,
+      "explain": "Taking vital signs is a clinical support duty commonly performed by medical assistants, while billing tasks are handled by billing staff.",
+      "optionExplanations": [
+        "Posting EOB payments is a billing/accounts task.",
+        "Eligibility verification is often a front-desk/billing function, not a clinical task.",
+        "Vital signs collection is within typical medical assistant scope (with training and policy compliance).",
+        "Claim submission is a billing function."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes the purpose of OSHA in a healthcare workplace?",
+      "options": [
+        "It governs patient privacy disclosures",
+        "It sets workplace safety standards to reduce hazards and injuries",
+        "It determines insurance reimbursement rates",
+        "It licenses physicians"
+      ],
+      "answer": 1,
+      "explain": "OSHA focuses on protecting workers by regulating safety practices (e.g., bloodborne pathogen standards, sharps safety).",
+      "optionExplanations": [
+        "Patient privacy is governed by HIPAA and related laws.",
+        "OSHA sets and enforces workplace safety standards.",
+        "Reimbursement is set by payer contracts and regulations, not OSHA.",
+        "Professional licensing is handled by state boards."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best supports compliance with the OSHA Bloodborne Pathogens Standard?",
+      "options": [
+        "Storing used sharps in regular trash bins",
+        "Using approved sharps containers and documenting exposure control procedures",
+        "Allowing food in specimen processing areas",
+        "Reusing single-use needles after cleaning"
+      ],
+      "answer": 1,
+      "explain": "Proper sharps disposal and an exposure control plan are central OSHA requirements to reduce occupational exposure risk.",
+      "optionExplanations": [
+        "Sharps must go into puncture-resistant sharps containers, not regular trash.",
+        "Sharps containers and a documented exposure control plan are required elements of compliance.",
+        "Eating in contaminated areas increases exposure risk and is prohibited by policy.",
+        "Reusing needles is unsafe and violates standard precautions and policy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of standard precautions in a healthcare setting?",
+      "options": [
+        "To treat every patient as if they have a highly contagious airborne disease",
+        "To assume all blood and certain body fluids are potentially infectious and use protective measures accordingly",
+        "To eliminate the need for hand hygiene",
+        "To allow reuse of personal protective equipment (PPE) indefinitely"
+      ],
+      "answer": 1,
+      "explain": "Standard precautions require treating blood and certain body fluids as potentially infectious and using hand hygiene and PPE based on anticipated exposure.",
+      "optionExplanations": [
+        "Airborne precautions are a specific transmission-based category and are not assumed for all patients.",
+        "Standard precautions assume potential infection risk for blood/body fluids and guide PPE/hand hygiene use.",
+        "Hand hygiene is a core component, not eliminated.",
+        "PPE use follows manufacturer and infection control guidance; indefinite reuse is not appropriate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which field on an insurance card most directly helps a biller route a claim to the correct payer system?",
+      "options": [
+        "Group number and member ID",
+        "Patient height and weight",
+        "Pharmacy pickup location",
+        "Appointment date"
+      ],
+      "answer": 0,
+      "explain": "Member ID and group number identify the insured and plan, helping the office submit claims to the correct payer and plan product.",
+      "optionExplanations": [
+        "Group and member IDs are key identifiers for eligibility and claim submission.",
+        "Height and weight are clinical data, not payer routing information.",
+        "Pharmacy location is unrelated to medical claim routing.",
+        "The appointment date is needed on a claim but does not identify the payer or plan."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best description of a payer Explanation of Benefits (EOB)?",
+      "options": [
+        "A marketing brochure from the insurer",
+        "A statement showing how a claim was processed, including allowed amounts and patient responsibility",
+        "A prescription label",
+        "A provider's internal audit report"
+      ],
+      "answer": 1,
+      "explain": "An EOB summarizes claim adjudication, including what was billed, allowed, paid, adjusted, and what the patient may owe.",
+      "optionExplanations": [
+        "EOBs are not marketing materials; they are claim processing statements.",
+        "This is the correct definition of an EOB.",
+        "Prescription labels relate to dispensing medications.",
+        "Internal audits are provider tools and are not payer EOBs."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scheduling metric most directly reflects access to care for new patients?",
+      "options": [
+        "Average days to third next available appointment",
+        "Percentage of claims denied",
+        "Inventory turnover ratio",
+        "Number of staff meetings held"
+      ],
+      "answer": 0,
+      "explain": "Third next available appointment is a common access metric because it reduces distortion from last-minute openings or cancellations.",
+      "optionExplanations": [
+        "This metric is widely used to assess appointment access and backlog.",
+        "Denial rates relate to billing performance, not scheduling access.",
+        "Inventory turnover is a supply metric, not patient access.",
+        "Meetings do not measure access to care."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When scanning paper documents into an EHR, what practice best supports accurate indexing and retrieval?",
+      "options": [
+        "Scanning all documents into one large file with no labels",
+        "Using standardized document types, dates, and patient identifiers during indexing",
+        "Saving files on personal desktops for quick access",
+        "Deleting originals immediately without quality checks"
+      ],
+      "answer": 1,
+      "explain": "Standardized indexing (document type, date, patient) improves searchability and reduces misfiled records.",
+      "optionExplanations": [
+        "Unlabeled bulk files are hard to retrieve and increase risk of missing information.",
+        "Standard document taxonomy and accurate patient/date indexing support reliable retrieval.",
+        "Personal desktops are insecure and bypass retention and access controls.",
+        "Quality checks should confirm readability and correct patient assignment before destroying originals."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes the difference between a copayment and coinsurance?",
+      "options": [
+        "Copayment is a percentage; coinsurance is a fixed amount",
+        "Copayment is a fixed amount; coinsurance is a percentage of allowed charges",
+        "They are the same concept",
+        "Coinsurance applies only to prescription drugs"
+      ],
+      "answer": 1,
+      "explain": "A copayment is typically a fixed dollar amount, while coinsurance is a percentage of the allowed amount after deductibles are met (depending on plan).",
+      "optionExplanations": [
+        "This reverses the definitions.",
+        "This matches standard definitions used in most health plans.",
+        "They are different forms of cost sharing.",
+        "Coinsurance can apply to many medical services, not only prescriptions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which patient balance is most appropriate to collect at check-in when the office has verified eligibility and benefits?",
+      "options": [
+        "The entire estimated charge for the visit regardless of benefits",
+        "The required copay and any known past-due balance",
+        "No payment of any kind",
+        "Only the deductible for future visits"
+      ],
+      "answer": 1,
+      "explain": "Collecting the known copay and any confirmed outstanding balance at check-in improves cash flow and reduces later collections while staying consistent with plan rules.",
+      "optionExplanations": [
+        "Collecting the full charge can violate payer contracts and is usually unnecessary.",
+        "Copay and confirmed past-due balances are standard to collect at check-in when policy allows.",
+        "Many practices collect copays; skipping all payments increases receivables.",
+        "Deductibles may apply, but collecting 'only' deductible for future visits is not a standard approach."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best supports confidentiality when leaving a voicemail for a patient?",
+      "options": [
+        "Stating the patient's diagnosis and test results in detail",
+        "Leaving only minimal information and a callback number without sensitive details",
+        "Asking a neighbor to deliver the message",
+        "Texting PHI to an unverified number"
+      ],
+      "answer": 1,
+      "explain": "Best practice is to limit voicemail content to minimal necessary information and request a callback, unless the patient has explicitly agreed to receive detailed messages.",
+      "optionExplanations": [
+        "Detailed clinical information can be overheard and may violate privacy expectations.",
+        "Minimal information with a callback number reduces the risk of unauthorized disclosure.",
+        "Sharing through a neighbor is not appropriate.",
+        "Unverified texting can expose PHI and is not a secure method without safeguards and consent."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of role-based access controls in an EHR?",
+      "options": [
+        "To speed up internet connections",
+        "To ensure users can access only the minimum information needed for their job duties",
+        "To eliminate the need for passwords",
+        "To allow patients to edit clinical notes freely"
+      ],
+      "answer": 1,
+      "explain": "Role-based access limits system permissions to what each job role requires, supporting privacy and security.",
+      "optionExplanations": [
+        "Internet speed is unrelated to access controls.",
+        "Limiting access by role is a core security principle and supports HIPAA safeguards.",
+        "Passwords are still needed; role-based controls govern authorization, not authentication.",
+        "Patient portals may allow limited input, but patients do not freely edit provider notes in standard workflows."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a typical clinic workflow, which task should occur before a claim is submitted to reduce denials?",
+      "options": [
+        "Post payments",
+        "Verify patient demographics and insurance eligibility",
+        "Send the account to collections immediately",
+        "Close the practice for the day"
+      ],
+      "answer": 1,
+      "explain": "Correct demographics and verified eligibility reduce front-end errors that commonly cause claim rejections and denials.",
+      "optionExplanations": [
+        "Payment posting happens after adjudication, not before submission.",
+        "Eligibility and demographic verification are key front-end steps to reduce denials.",
+        "Collections is a late-stage step, not a pre-submission step.",
+        "Closing the practice is unrelated to claim quality."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best description of a 'clean claim'?",
+      "options": [
+        "A claim submitted on paper only",
+        "A claim that is complete, accurate, and meets payer requirements for processing without manual intervention",
+        "A claim with no patient responsibility",
+        "A claim that includes only diagnosis codes"
+      ],
+      "answer": 1,
+      "explain": "A clean claim has all required information and valid codes so the payer can process it without requesting corrections.",
+      "optionExplanations": [
+        "A claim can be clean whether sent electronically or on paper; paper-only does not define cleanliness.",
+        "A clean claim has all required data and valid codes so it can be processed without requests for correction.",
+        "Clean claims can still result in copays/deductibles/coinsurance; patient responsibility does not make a claim unclean.",
+        "Claims require procedures/services and other fields; diagnosis-only claims are incomplete and often rejected."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which office policy most directly reduces the risk of a HIPAA privacy incident at the front desk?",
+      "options": [
+        "Calling out full diagnoses in the waiting room",
+        "Positioning computer screens away from public view and using privacy filters when needed",
+        "Sharing passwords among staff for convenience",
+        "Printing schedules and leaving them on unattended counters"
+      ],
+      "answer": 1,
+      "explain": "Shielding screens from public view and using privacy filters reduces incidental disclosure of PHI to other patients and visitors.",
+      "optionExplanations": [
+        "Announcing diagnoses publicly is a clear privacy risk.",
+        "Screen positioning and privacy filters are practical safeguards against incidental disclosure.",
+        "Shared passwords undermine audit trails and access controls.",
+        "Unattended printed schedules can expose PHI."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best definition of 'protected health information' (PHI) in an office setting?",
+      "options": [
+        "Any information about the office building",
+        "Individually identifiable health information in any form (paper, electronic, or oral)",
+        "Only electronic lab results",
+        "Only information created by a physician"
+      ],
+      "answer": 1,
+      "explain": "PHI includes identifiable health information in any medium, not just electronic records or physician-created notes.",
+      "optionExplanations": [
+        "Building information is not health information about a person.",
+        "This matches the broad HIPAA concept of identifiable health information across media.",
+        "PHI is not limited to electronic lab results.",
+        "PHI can be created by many workforce members, not only physicians."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A patient requests that their spouse be allowed to discuss billing questions with the office. What is the most appropriate administrative step?",
+      "options": [
+        "Refuse all discussion with anyone but the patient forever",
+        "Document the patient's permission using the office's authorized contact process or a written authorization as required",
+        "Give the spouse full portal access without verification",
+        "Discuss billing details in the waiting room to save time"
+      ],
+      "answer": 1,
+      "explain": "Offices typically document permitted contacts or obtain appropriate authorization so staff can verify who is allowed to receive information.",
+      "optionExplanations": [
+        "Patients can authorize others; a blanket refusal is not required.",
+        "Documenting permission and verifying identity supports privacy compliance while meeting the patient's request.",
+        "Granting portal access requires formal identity verification and permissions; it should not be done informally.",
+        "Public discussions risk unauthorized disclosure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric best measures how quickly a practice collects money owed after services are provided?",
+      "options": [
+        "Days in accounts receivable (days in A/R)",
+        "Number of exam rooms",
+        "Average patient age",
+        "Number of procedure codes billed"
+      ],
+      "answer": 0,
+      "explain": "Days in A/R reflects the average time it takes to collect payment after charges are posted and is a key revenue cycle performance indicator.",
+      "optionExplanations": [
+        "Days in A/R directly measures collection speed.",
+        "Exam rooms affect capacity, not collection timing.",
+        "Patient age does not measure collections.",
+        "Number of codes billed measures volume, not collection speed."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best helps prevent duplicate patient records in an EHR?",
+      "options": [
+        "Creating a new record for every visit",
+        "Searching for an existing patient and matching identifiers before creating a new chart",
+        "Allowing patients to choose any MRN they want",
+        "Disabling all demographic fields"
+      ],
+      "answer": 1,
+      "explain": "Duplicate records are reduced by careful search and verification (name, DOB, address, phone) before creating a new record.",
+      "optionExplanations": [
+        "Creating new records each time guarantees duplicates.",
+        "Searching and verifying identifiers prevents duplicates and safety risks.",
+        "MRNs are system-assigned, not chosen by patients.",
+        "Disabling demographics removes the data needed to match patients correctly."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of a Notice of Privacy Practices (NPP) in a healthcare office?",
+      "options": [
+        "To list physician salaries",
+        "To explain how the practice may use and disclose PHI and the patient's privacy rights",
+        "To provide medical advice",
+        "To advertise office hours only"
+      ],
+      "answer": 1,
+      "explain": "HIPAA requires covered entities to provide an NPP that describes uses/disclosures of PHI and patient rights.",
+      "optionExplanations": [
+        "Salaries are not the purpose of the NPP.",
+        "The NPP explains PHI handling and patient rights under HIPAA.",
+        "Medical advice is provided by clinicians, not in the NPP.",
+        "Office hours may be included elsewhere, but the NPP is about privacy practices."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of healthcare operations under HIPAA?",
+      "options": [
+        "A nurse consulting another nurse about a patient's medication",
+        "A practice conducting a quality improvement review of appointment wait times",
+        "A patient requesting their lab results",
+        "A provider ordering a lab test"
+      ],
+      "answer": 1,
+      "explain": "Quality assessment and improvement activities are considered healthcare operations under HIPAA.",
+      "optionExplanations": [
+        "Consultation about medication is treatment, not operations.",
+        "Quality improvement is a classic healthcare operations activity.",
+        "Patient access requests are patient rights, not operations.",
+        "Ordering labs is treatment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which front-desk action most directly improves claim acceptance on first submission?",
+      "options": [
+        "Skipping insurance verification to save time",
+        "Collecting complete demographics and scanning the current insurance card",
+        "Entering only the patient's first name",
+        "Using last year's policy information"
+      ],
+      "answer": 1,
+      "explain": "Accurate demographics and current payer information (member ID, group, payer address/portal) reduce rejections due to eligibility and data errors.",
+      "optionExplanations": [
+        "Skipping verification increases errors and rework.",
+        "Complete demographics and current insurance data are among the highest-impact clean-claim steps.",
+        "Incomplete names increase matching and billing errors.",
+        "Old policy information can cause eligibility failures and claim rejections."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main reason practices perform insurance eligibility verification before the visit?",
+      "options": [
+        "To diagnose the patient",
+        "To confirm coverage, effective dates, benefits, and patient cost-sharing",
+        "To change the patient's plan",
+        "To eliminate the need for coding"
+      ],
+      "answer": 1,
+      "explain": "Eligibility verification confirms whether services are covered and what the patient's financial responsibility will be, reducing surprises and denials.",
+      "optionExplanations": [
+        "Diagnosis is a clinical function, not an insurance verification purpose.",
+        "Coverage, benefits, and cost-sharing confirmation are the core goals.",
+        "Practices cannot change a patient's plan through verification.",
+        "Coding is still required for billing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which schedule template best supports a mix of short follow-up visits and longer new-patient exams?",
+      "options": [
+        "Using the same time length for every visit type",
+        "Using visit-type-specific time blocks (e.g., 15-min follow-up, 30-45-min new patient)",
+        "Booking only walk-ins",
+        "Scheduling all long visits at the end of the day with no breaks"
+      ],
+      "answer": 1,
+      "explain": "Template design that matches appointment length to visit type improves flow, reduces waiting, and helps providers stay on time.",
+      "optionExplanations": [
+        "Equal lengths for all visits ignores complexity differences and creates delays.",
+        "Visit-type-specific blocks align time needed with services provided and improve efficiency.",
+        "Only walk-ins is unpredictable and can increase wait times.",
+        "Stacking long visits at the end can create late running and staff overtime."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about documentation supports medical necessity for billing purposes?",
+      "options": [
+        "Only the diagnosis code matters",
+        "Documentation should support why the service was needed and what was performed",
+        "Billing staff can create clinical documentation after the fact",
+        "Medical necessity is determined only by patient request"
+      ],
+      "answer": 1,
+      "explain": "Medical necessity requires documentation of the reason for service and the work performed, consistent with payer rules and coding standards.",
+      "optionExplanations": [
+        "Procedure coding and documentation matter; diagnosis alone is not sufficient.",
+        "Accurate documentation connecting reason and service supports medical necessity.",
+        "Clinical staff must document; billing staff should not fabricate documentation.",
+        "Patient request alone does not establish medical necessity under payer policies."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a common purpose of a medical office incident report?",
+      "options": [
+        "To bill the patient for an error",
+        "To document unusual events (e.g., falls, exposure, adverse events) for risk management follow-up",
+        "To replace the patient's medical record",
+        "To advertise services"
+      ],
+      "answer": 1,
+      "explain": "Incident reports capture facts about unexpected events to support investigation, corrective action, and safety improvement.",
+      "optionExplanations": [
+        "Incident reports are not billing tools.",
+        "They document events for risk management and quality improvement.",
+        "They do not replace clinical documentation in the medical record.",
+        "They are not marketing materials."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which best describes a 'chain of custody' requirement in healthcare administration?",
+      "options": [
+        "A process for tracking who handled a specimen or evidence item from collection to final disposition",
+        "A method for scheduling surgeries",
+        "A rule for setting copays",
+        "A way to file insurance claims faster"
+      ],
+      "answer": 0,
+      "explain": "Chain of custody documents transfers and handling to maintain integrity and traceability, often used for lab specimens in legal contexts or controlled substances.",
+      "optionExplanations": [
+        "This is the correct definition and purpose.",
+        "Scheduling is unrelated to custody tracking.",
+        "Copays are benefit design features, not custody rules.",
+        "Claims processing speed is unrelated to custody documentation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of a 'breach' under HIPAA?",
+      "options": [
+        "A staff member accesses the EHR only for assigned patients",
+        "An encrypted laptop is stolen and the encryption keys are not compromised",
+        "Unsecured PHI is emailed to the wrong recipient outside the practice",
+        "A provider discusses treatment with another provider involved in care"
+      ],
+      "answer": 2,
+      "explain": "Sending unsecured PHI to the wrong recipient is an unauthorized disclosure and is a common reportable breach risk depending on the assessment.",
+      "optionExplanations": [
+        "Role-appropriate access for assigned patients is permitted.",
+        "If strong encryption is in place, the incident may not meet the definition of a breach because PHI is not unsecured.",
+        "Unsecured PHI sent to an unauthorized recipient is a likely breach scenario.",
+        "Treatment discussions among involved providers are generally permitted uses/disclosures."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which policy best supports secure disposal of documents containing PHI?",
+      "options": [
+        "Placing them in open recycling bins",
+        "Shredding or using a locked shredding bin with an approved destruction process",
+        "Taking them home to dispose later",
+        "Leaving them on the printer for staff to pick up"
+      ],
+      "answer": 1,
+      "explain": "Secure disposal requires a controlled process (locked bins, shredding, vendor agreements) to prevent unauthorized access to PHI.",
+      "optionExplanations": [
+        "Open bins allow unauthorized access to PHI.",
+        "Locked shredding and verified destruction reduce disclosure risk and support compliance.",
+        "Taking PHI home increases risk and is usually prohibited by policy.",
+        "Unattended printouts can expose PHI to the public or unauthorized staff."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of an internal audit trail in an EHR?",
+      "options": [
+        "To reduce appointment times",
+        "To record user actions (viewing, editing) for security monitoring and compliance",
+        "To set insurance premiums",
+        "To automatically diagnose patients"
+      ],
+      "answer": 1,
+      "explain": "Audit trails log access and changes, helping detect inappropriate access, support investigations, and meet security requirements.",
+      "optionExplanations": [
+        "Audit trails do not shorten visits directly.",
+        "Logging user activity supports monitoring and compliance.",
+        "Premiums are set by insurers, not EHR audit trails.",
+        "EHRs do not diagnose automatically; clinicians do."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best definition of 'credentialing' in a healthcare practice context?",
+      "options": [
+        "Training a new employee on office policies",
+        "Verifying a provider's qualifications and enrolling them with payers",
+        "Assigning ICD-10 codes",
+        "Ordering medical supplies"
+      ],
+      "answer": 1,
+      "explain": "Credentialing involves verifying licensure, education, and training, and often includes payer enrollment so services can be billed.",
+      "optionExplanations": [
+        "Policy training is onboarding, not credentialing.",
+        "This matches common healthcare administration usage of credentialing and payer enrollment.",
+        "Coding is separate from credentialing.",
+        "Supply ordering is an inventory function."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which process most directly helps ensure that laboratory test results are attached to the correct patient's chart?",
+      "options": [
+        "Entering results without identifiers to save time",
+        "Using barcoded specimen labels and verifying patient identifiers at collection and result posting",
+        "Allowing patients to label specimens themselves without verification",
+        "Posting all results into a shared folder"
+      ],
+      "answer": 1,
+      "explain": "Barcode labeling and identifier verification at key handoffs reduce mix-ups and support accurate result posting.",
+      "optionExplanations": [
+        "Missing identifiers increases misfile risk.",
+        "Barcode labeling with two-identifier verification is a standard safety practice.",
+        "Patient-only labeling without verification is unsafe.",
+        "Shared folders are insecure and do not ensure correct chart association."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a common consequence of incomplete demographic data (e.g., missing address or DOB) in the billing system?",
+      "options": [
+        "Faster claim processing",
+        "Increased claim rejections and difficulty collecting patient balances",
+        "Automatic upgrades in insurance coverage",
+        "Reduced need for authorization"
+      ],
+      "answer": 1,
+      "explain": "Missing demographics often lead to eligibility issues, claim rejections, returned statements, and collections problems.",
+      "optionExplanations": [
+        "Incomplete data does not speed processing; it causes rework.",
+        "Payers often reject claims with missing or mismatched demographics, and billing statements may not reach patients.",
+        "Coverage upgrades do not occur from missing data.",
+        "Authorization requirements are plan rules, not reduced by missing demographics."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which communication technique is most appropriate when explaining a billing statement to a patient who is confused about charges?",
+      "options": [
+        "Use as many technical abbreviations as possible",
+        "Explain line items in plain language and confirm understanding",
+        "Refuse to answer and refer them to the payer for all questions",
+        "Discuss another patient's bill as an example"
+      ],
+      "answer": 1,
+      "explain": "Clear, plain-language explanations reduce confusion and complaints, and checking understanding ensures the patient knows next steps.",
+      "optionExplanations": [
+        "Technical abbreviations can increase confusion.",
+        "Plain-language explanations with teach-back/confirmation is best practice.",
+        "Some payer questions may require the payer, but offices should explain their own charges and provide guidance.",
+        "Discussing another patient's bill would be a privacy violation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best definition of a 'deductible' in health insurance?",
+      "options": [
+        "A fixed amount paid per visit",
+        "The amount the patient must pay out of pocket before the plan begins paying for covered services (subject to plan rules)",
+        "The portion the provider writes off",
+        "A penalty for missing appointments"
+      ],
+      "answer": 1,
+      "explain": "A deductible is the amount the insured pays before coverage begins paying, though many plans exempt preventive services or apply different rules.",
+      "optionExplanations": [
+        "Fixed per-visit payments are copays.",
+        "This is the standard definition of a deductible.",
+        "Provider write-offs are contractual adjustments, not deductibles.",
+        "No-show penalties are office fees, not insurance deductibles."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best way to reduce long check-in lines during peak clinic hours?",
+      "options": [
+        "Require every patient to fill forms on paper each visit",
+        "Use pre-registration, online forms, and verify insurance before arrival",
+        "Schedule all patients for the same time",
+        "Turn off the appointment reminder system"
+      ],
+      "answer": 1,
+      "explain": "Pre-registration and online forms shift work earlier, shorten front-desk time, and reduce congestion.",
+      "optionExplanations": [
+        "Repeating paper forms increases front-desk workload.",
+        "Pre-registration and advance verification reduce on-site processing time.",
+        "Scheduling everyone at the same time increases congestion.",
+        "Reminder systems reduce no-shows and help manage flow; turning them off can worsen inefficiency."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the process of matching incoming payments to specific charges and updating the patient's account balance?",
+      "options": [
+        "Charge capture",
+        "Payment posting",
+        "Utilization review",
+        "Clinical triage"
+      ],
+      "answer": 1,
+      "explain": "Payment posting applies payer and patient payments (and adjustments) to charges so balances and A/R are accurate.",
+      "optionExplanations": [
+        "Charge capture records billable services, not payments.",
+        "Payment posting records and applies payments/adjustments to accounts.",
+        "Utilization review evaluates medical necessity/appropriateness, not posting payments.",
+        "Clinical triage prioritizes patient care needs, not accounting."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best description of an 'allowed amount' on an EOB?",
+      "options": [
+        "The provider's full charge",
+        "The maximum amount the payer recognizes for the service under the contract",
+        "The patient's deductible amount",
+        "The office's supply cost"
+      ],
+      "answer": 1,
+      "explain": "The allowed amount is the contracted or payer-determined amount on which payment and patient responsibility are calculated.",
+      "optionExplanations": [
+        "Charged amount can be higher than allowed; it is not the same.",
+        "Allowed amount is the payer-recognized amount used to calculate reimbursement.",
+        "Deductible is patient responsibility, not the allowed amount definition.",
+        "Supply cost is internal and unrelated to payer allowed amounts."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is an example of a contractual adjustment in medical billing?",
+      "options": [
+        "A patient paying a copay",
+        "Writing off the difference between the provider's charge and the payer's allowed amount per contract",
+        "A physician documenting a diagnosis",
+        "A patient no-show fee"
+      ],
+      "answer": 1,
+      "explain": "Contractual adjustments reflect required write-offs under payer agreements when charges exceed the allowed amount.",
+      "optionExplanations": [
+        "Copays are patient payments, not adjustments.",
+        "The contractual write-off is a standard adjustment tied to payer contracts.",
+        "Clinical documentation is not an accounting adjustment.",
+        "No-show fees are office charges, not contractual adjustments."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scheduling reminder method typically reduces no-show rates most effectively while staying privacy-conscious?",
+      "options": [
+        "No reminders at all",
+        "Automated reminders (text/call/email) with minimal PHI and an easy way to confirm or reschedule",
+        "Posting patient names and times on social media",
+        "Only mailing reminders one day before the visit"
+      ],
+      "answer": 1,
+      "explain": "Automated reminders sent ahead of time, with minimal details and convenient response options, are commonly associated with fewer no-shows and fewer last-minute cancellations.",
+      "optionExplanations": [
+        "No reminders generally increases no-shows.",
+        "Automated, privacy-conscious reminders allow patients to act and reduce missed appointments.",
+        "Public posting is a privacy violation.",
+        "Mail is slow and unreliable for short notice; one-day mailing is not practical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the most appropriate way to handle an angry patient who is upset about waiting?",
+      "options": [
+        "Argue about whose fault it is",
+        "Listen, apologize for the delay, provide an estimated wait time, and offer options if available",
+        "Ignore the patient until they calm down",
+        "Disclose another patient's reason for delay"
+      ],
+      "answer": 1,
+      "explain": "De-escalation includes listening, acknowledging, and offering information and options without revealing other patients' information.",
+      "optionExplanations": [
+        "Arguing escalates conflict and harms service recovery.",
+        "Acknowledging, giving an estimate, and offering options is a standard customer-service approach.",
+        "Ignoring can increase frustration.",
+        "Explaining another patient's situation would breach confidentiality."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a key element of an effective exposure control plan under OSHA?",
+      "options": [
+        "A list of patient diagnoses",
+        "Procedures for handling sharps and post-exposure follow-up",
+        "Provider fee schedules",
+        "Insurance benefit summaries"
+      ],
+      "answer": 1,
+      "explain": "Exposure control plans include engineering/work practice controls, PPE, sharps handling, and steps to take after an exposure incident.",
+      "optionExplanations": [
+        "Patient diagnoses are not part of staff exposure control plans.",
+        "Sharps handling and post-exposure procedures are central plan components.",
+        "Fee schedules are financial documents.",
+        "Benefits summaries relate to insurance, not occupational exposure control."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which role is typically responsible for ensuring CPT and ICD-10 codes are supported by documentation before billing?",
+      "options": [
+        "Environmental services",
+        "Coding/billing staff working with clinicians as needed",
+        "Patients in the waiting room",
+        "The parking attendant"
+      ],
+      "answer": 1,
+      "explain": "Coding and billing staff validate codes against documentation and payer rules, often querying clinicians for clarification when needed.",
+      "optionExplanations": [
+        "Environmental services focuses on cleaning and facility support.",
+        "Coding/billing staff are responsible for code accuracy and documentation support checks.",
+        "Patients do not code their own encounters in standard workflows.",
+        "Parking attendants are not involved in billing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best supports accurate time-based billing (when applicable) for certain services?",
+      "options": [
+        "Estimating time from memory days later",
+        "Documenting start/stop times or total time on the date of service per policy",
+        "Leaving time blank because codes are enough",
+        "Recording time only if the patient requests it"
+      ],
+      "answer": 1,
+      "explain": "Time-based services require contemporaneous documentation of time according to payer and coding rules to support billing.",
+      "optionExplanations": [
+        "Delayed estimates are unreliable and may not meet audit standards.",
+        "Documenting time on the date of service supports compliance for time-based codes.",
+        "Time cannot be omitted when time determines code selection.",
+        "Patient request is not the criterion; payer rules are."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a common administrative use of the term 'utilization review'?",
+      "options": [
+        "Deciding which staff member answers phones",
+        "Evaluating whether services are medically necessary and appropriate under coverage rules",
+        "Choosing which brand of printer to buy",
+        "Assigning exam rooms randomly"
+      ],
+      "answer": 1,
+      "explain": "Utilization review evaluates appropriateness and medical necessity for services, often tied to payer coverage and authorization decisions.",
+      "optionExplanations": [
+        "Phone coverage is staffing, not utilization review.",
+        "This matches the standard meaning of utilization review.",
+        "Printer choices are procurement decisions.",
+        "Random room assignment is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the best definition of a 'referral' in healthcare administration?",
+      "options": [
+        "A patient paying a bill",
+        "A provider's recommendation and request for a patient to receive services from another provider or facility",
+        "A change of office address",
+        "A type of insurance denial"
+      ],
+      "answer": 1,
+      "explain": "A referral is a formal request from one provider to another for evaluation or treatment, often required for coverage in some plan types.",
+      "optionExplanations": [
+        "Billing payments are not referrals.",
+        "This is the correct definition of a clinical/administrative referral.",
+        "Address changes are administrative updates, not referrals.",
+        "Denials are payer decisions, not referrals."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best supports compliance with records retention requirements?",
+      "options": [
+        "Deleting records as soon as the balance is paid",
+        "Following a written retention schedule based on applicable laws and contracts, and documenting destruction when permitted",
+        "Keeping all records forever with no organization",
+        "Storing PHI on personal USB drives"
+      ],
+      "answer": 1,
+      "explain": "Retention schedules align with legal and contractual requirements; controlled destruction with documentation reduces risk when records are eligible to be disposed.",
+      "optionExplanations": [
+        "Payment status does not determine legal retention requirements.",
+        "A written retention schedule and documented destruction are best practice.",
+        "Keeping everything forever increases risk, cost, and retrieval problems.",
+        "Personal USB storage is insecure and often prohibited."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of 'front-end' revenue cycle activity?",
+      "options": [
+        "Appealing a denied claim",
+        "Verifying eligibility and collecting copays at check-in",
+        "Posting payer payments",
+        "Sending accounts to collections"
+      ],
+      "answer": 1,
+      "explain": "Front-end activities occur before or at the visit and include registration, eligibility verification, and point-of-service collections.",
+      "optionExplanations": [
+        "Appeals occur after denial, which is back-end work.",
+        "Eligibility verification and POS collections are classic front-end activities.",
+        "Payment posting is mid/back-end after adjudication.",
+        "Collections is a late-stage back-end activity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best description of 'back-end' revenue cycle activity?",
+      "options": [
+        "Scheduling new appointments",
+        "Claim follow-up, denial appeals, and patient collections after adjudication",
+        "Taking vital signs",
+        "Rooming patients"
+      ],
+      "answer": 1,
+      "explain": "Back-end tasks happen after claims are submitted and processed, focusing on payment posting, follow-up, and collections.",
+      "optionExplanations": [
+        "Scheduling is a front-office operation, not back-end billing.",
+        "Follow-up, appeals, and collections are back-end revenue cycle functions.",
+        "Vital signs are clinical support tasks.",
+        "Rooming patients is clinical flow, not revenue cycle back-end work."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best way to protect PHI when printing documents at the front desk?",
+      "options": [
+        "Use any printer and leave documents in the output tray",
+        "Use secure print release (badge/PIN) and retrieve printouts immediately",
+        "Email the document to a personal account to print later",
+        "Print extra copies in case someone loses one"
+      ],
+      "answer": 1,
+      "explain": "Secure print release and immediate retrieval reduce the chance that PHI is viewed by unauthorized people.",
+      "optionExplanations": [
+        "Unattended printouts are a common source of privacy incidents.",
+        "Secure release and prompt pickup are strong administrative safeguards.",
+        "Personal email introduces security and policy issues.",
+        "Extra copies increase exposure risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A patient asks for an estimate of out-of-pocket cost for a procedure. Which information is most important to provide a reasonable estimate?",
+      "options": [
+        "Only the provider's standard charge",
+        "The payer's allowed amount and the patient's remaining deductible/coinsurance and copay rules",
+        "The office rent cost",
+        "The patient's social media profile"
+      ],
+      "answer": 1,
+      "explain": "Out-of-pocket estimates depend on allowed amounts and the patient's benefits (deductible remaining, coinsurance, copay), not just the provider's sticker price.",
+      "optionExplanations": [
+        "Standard charges may not match allowed amounts and do not reflect benefits.",
+        "Allowed amount plus benefits information supports a realistic estimate.",
+        "Office overhead does not determine patient responsibility under insurance.",
+        "Social media is irrelevant."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of a 'quality assurance' activity in a healthcare office?",
+      "options": [
+        "Ignoring patient complaints",
+        "Reviewing a sample of charts for documentation completeness and correcting recurring issues",
+        "Reducing hand hygiene compliance checks",
+        "Sharing passwords to speed work"
+      ],
+      "answer": 1,
+      "explain": "Quality assurance includes monitoring processes (like documentation) and implementing corrective actions to improve performance and compliance.",
+      "optionExplanations": [
+        "Ignoring complaints undermines improvement.",
+        "Chart audits for completeness and corrective action are standard QA activities.",
+        "Reducing safety checks increases risk.",
+        "Sharing passwords harms security and compliance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best supports patient-centered communication for individuals with limited English proficiency?",
+      "options": [
+        "Use family members as interpreters for all conversations",
+        "Offer qualified interpreter services and provide translated key documents when available",
+        "Speak louder in English",
+        "Avoid discussing treatment options"
+      ],
+      "answer": 1,
+      "explain": "Qualified interpreter services improve understanding and reduce errors; using family members can introduce privacy and accuracy concerns.",
+      "optionExplanations": [
+        "Family interpreters may be inappropriate and can compromise privacy/accuracy; qualified services are preferred.",
+        "Interpreter services and translated materials support informed decisions.",
+        "Volume does not improve comprehension of a language barrier.",
+        "Avoiding options undermines informed consent and patient rights."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a common administrative control for protecting electronic PHI (ePHI) on mobile devices?",
+      "options": [
+        "Disabling passwords to speed access",
+        "Using device encryption and remote wipe capabilities under a mobile device policy",
+        "Sharing devices among staff without logins",
+        "Turning off updates permanently"
+      ],
+      "answer": 1,
+      "explain": "Encryption and remote wipe reduce risk if a device is lost or stolen and are common safeguards in mobile device policies.",
+      "optionExplanations": [
+        "Removing passwords reduces security.",
+        "Encryption and remote wipe are widely used controls for ePHI protection.",
+        "Shared devices without logins prevent accountability and increase unauthorized access risk.",
+        "Disabling updates can leave security vulnerabilities unpatched."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best description of 'incident-to' billing in a physician office context (general concept)?",
+      "options": [
+        "Billing a service as if performed by a physician under specific supervision and payer rules",
+        "Billing only for supplies",
+        "Billing a patient for parking",
+        "Billing only for inpatient stays"
+      ],
+      "answer": 0,
+      "explain": "Incident-to billing allows certain services performed by auxiliary personnel to be billed under a physician/NPI when supervision and documentation requirements are met (subject to payer rules).",
+      "optionExplanations": [
+        "This captures the general concept; details depend on payer and setting rules.",
+        "Supplies may be billed, but incident-to is not limited to supplies.",
+        "Parking is not a medical service billing concept.",
+        "Incident-to is generally an outpatient/professional billing concept, not inpatient-only."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which report would be most useful to identify which payers are taking the longest to pay claims?",
+      "options": [
+        "Payer turnaround time report by days from submission to payment",
+        "Clinic floor plan",
+        "Employee directory",
+        "Patient satisfaction survey"
+      ],
+      "answer": 0,
+      "explain": "A payer turnaround time report shows average days to payment by payer, helping target follow-up and contracting discussions.",
+      "optionExplanations": [
+        "This report directly measures payment speed by payer.",
+        "Floor plans do not show payment behavior.",
+        "Directories do not track claims.",
+        "Satisfaction surveys are not payer payment metrics."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of a compliant email practice when communicating with a patient about scheduling?",
+      "options": [
+        "Emailing the full visit note in plain text",
+        "Using an approved secure messaging/portal system or encrypted email per policy and limiting details",
+        "Sending the patient's diagnosis to a group email list",
+        "Including the patient's Social Security number for identification"
+      ],
+      "answer": 1,
+      "explain": "Secure messaging or encryption with limited details reduces privacy risk and aligns with common HIPAA safeguard practices.",
+      "optionExplanations": [
+        "Sending full clinical notes in plain text email is high risk and often noncompliant with policy.",
+        "Using approved secure channels and limiting content is best practice.",
+        "Group emails can disclose PHI to others.",
+        "SSNs are highly sensitive and should not be shared unnecessarily."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a typical clinic, which document is used to record a patient's consent to treat and general office policies (often separate from procedure-specific consent)?",
+      "options": [
+        "General consent for treatment form",
+        "EOB",
+        "A/R aging report",
+        "OSHA exposure log"
+      ],
+      "answer": 0,
+      "explain": "Many practices use a general consent form to document consent to treat and acknowledgment of office policies; procedures may require additional informed consent forms.",
+      "optionExplanations": [
+        "General consent forms cover broad consent and acknowledgments.",
+        "EOBs are insurer statements, not consent documents.",
+        "A/R aging is a billing report.",
+        "Exposure logs track employee exposures, not patient consent."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best reason to maintain a backup and downtime procedure for an EHR?",
+      "options": [
+        "To avoid training staff",
+        "To continue safe operations and documentation if the system is unavailable",
+        "To eliminate the need for privacy safeguards",
+        "To increase claim denials"
+      ],
+      "answer": 1,
+      "explain": "Downtime procedures ensure patient care and critical documentation can continue during outages and that data can be reconciled afterward.",
+      "optionExplanations": [
+        "Training is still required regardless of downtime plans.",
+        "Backup and downtime planning supports continuity of operations and patient safety.",
+        "Safeguards are still required; downtime can increase risk if unmanaged.",
+        "Denials increase with poor documentation; downtime planning aims to prevent that."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which step is most appropriate when correcting an error in a patient's demographic record?",
+      "options": [
+        "Delete the entire patient record",
+        "Follow the system's correction process, document the change, and preserve auditability",
+        "Ask another patient for the correct information",
+        "Ignore it because demographics do not affect billing"
+      ],
+      "answer": 1,
+      "explain": "Correcting demographics should be done through controlled edits that maintain audit trails and prevent mismatches in claims and clinical records.",
+      "optionExplanations": [
+        "Deleting records can create safety and legal issues.",
+        "Controlled correction with auditability is the appropriate approach.",
+        "Another patient's information is not a valid source and creates privacy risk.",
+        "Demographics directly affect billing, identification, and communication."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a common purpose of claim 'scrubbing' software?",
+      "options": [
+        "To remove diagnoses from claims",
+        "To check claims for missing/invalid data and coding edits before submission",
+        "To replace the need for eligibility verification",
+        "To generate clinical treatment plans"
+      ],
+      "answer": 1,
+      "explain": "Claim scrubbers apply edits and rules to catch errors (missing modifiers, invalid codes, demographic issues) before the claim is sent.",
+      "optionExplanations": [
+        "Diagnoses are required for claims; scrubbers do not remove them.",
+        "Pre-submission edits are the main purpose of claim scrubbing.",
+        "Eligibility verification is still needed; scrubbers do not confirm coverage.",
+        "Treatment plans are clinical, not claim scrubbing outputs."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best definition of 'coordination of benefits' (COB)?",
+      "options": [
+        "Choosing the cheapest appointment time",
+        "Determining which insurance plan pays first when a patient has multiple coverages",
+        "A method for coding procedures",
+        "A requirement to use telehealth"
+      ],
+      "answer": 1,
+      "explain": "COB rules determine primary vs secondary payer responsibility when more than one plan covers the patient.",
+      "optionExplanations": [
+        "Appointment time selection is unrelated.",
+        "This is the standard meaning of coordination of benefits.",
+        "COB is not a coding method.",
+        "Telehealth use is not determined by COB."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scenario most clearly requires coordination of benefits processing?",
+      "options": [
+        "A self-pay patient with no insurance",
+        "A patient covered by both a personal employer plan and a spouse's plan",
+        "A patient who pays cash for a copay",
+        "A patient who changes address"
+      ],
+      "answer": 1,
+      "explain": "When a patient has two active insurance plans, the office must coordinate which payer is primary and how secondary payment works.",
+      "optionExplanations": [
+        "With no insurance, COB does not apply.",
+        "Two active plans require COB determination.",
+        "Paying a copay does not imply multiple plans.",
+        "Address changes do not require COB."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best reason to collect and document a patient's preferred pharmacy in the registration workflow?",
+      "options": [
+        "To reduce HIPAA requirements",
+        "To support accurate e-prescribing and reduce delays in medication fulfillment",
+        "To increase deductible amounts",
+        "To avoid documenting allergies"
+      ],
+      "answer": 1,
+      "explain": "Preferred pharmacy information helps route prescriptions correctly and reduces follow-up calls and delays.",
+      "optionExplanations": [
+        "Privacy requirements still apply regardless of pharmacy preference.",
+        "Accurate pharmacy selection supports e-prescribing workflows and patient convenience.",
+        "Deductibles are plan features and are not affected by pharmacy documentation.",
+        "Allergy documentation is still required for safe care."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the most appropriate action when a payer requests medical records to support a claim review?",
+      "options": [
+        "Send the entire chart for all years without checking scope",
+        "Send only the requested relevant records using the approved secure method and document what was sent",
+        "Refuse all requests from payers",
+        "Post the records to a public file-sharing link"
+      ],
+      "answer": 1,
+      "explain": "Offices should disclose only what is needed for the request, use secure transmission, and document the disclosure per policy.",
+      "optionExplanations": [
+        "Over-disclosure increases privacy risk and may exceed the request.",
+        "Relevant, minimum-necessary records via secure methods with documentation is appropriate.",
+        "Payers may be permitted recipients for payment activities; blanket refusal can cause denials.",
+        "Public links are insecure and not appropriate for PHI."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a common function of a patient portal in an EHR system?",
+      "options": [
+        "Allowing anyone to view any patient's records",
+        "Providing patients access to certain results, messages, and appointment functions after identity verification",
+        "Automatically approving prior authorizations",
+        "Replacing the need for clinical documentation"
+      ],
+      "answer": 1,
+      "explain": "Patient portals provide secure, authenticated access to limited information and functions for the patient (and authorized proxies).",
+      "optionExplanations": [
+        "Portals require authentication and do not allow open access.",
+        "This describes standard portal functionality and security model.",
+        "Prior authorizations are payer processes; portals do not automatically approve them.",
+        "Clinical documentation is still created by clinicians; portals do not replace it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best helps reduce the risk of medication list errors during intake?",
+      "options": [
+        "Skip medication review if the visit is short",
+        "Perform medication reconciliation by asking the patient to confirm current medications and doses and updating the record",
+        "Assume last year's list is still correct",
+        "Only record over-the-counter medications"
+      ],
+      "answer": 1,
+      "explain": "Medication reconciliation improves accuracy by confirming current meds, doses, and changes at each relevant encounter.",
+      "optionExplanations": [
+        "Skipping review increases error risk.",
+        "Confirming and updating the list is the standard reconciliation approach.",
+        "Old lists may be outdated and unsafe.",
+        "OTC meds can matter, but limiting to OTC misses prescriptions and supplements that affect care."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scheduling practice best supports equitable access when appointment slots are limited?",
+      "options": [
+        "Give all openings to the first caller with no triage",
+        "Use a documented triage policy for urgent needs and maintain a waitlist/cancellation list process",
+        "Only schedule patients who pay cash",
+        "Cancel all follow-ups indefinitely"
+      ],
+      "answer": 1,
+      "explain": "A triage policy and waitlist process help prioritize urgent care needs fairly while filling openings efficiently when cancellations occur.",
+      "optionExplanations": [
+        "No triage can delay urgent cases and may be unfair.",
+        "Triage and waitlist processes are common, documented methods to manage scarce appointment capacity.",
+        "Scheduling based on payment method raises ethical and contractual concerns.",
+        "Eliminating follow-ups can harm continuity of care."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
 }
-]
-}
-
-SECTION 4 - CHECKLIST_LINE_UPDATE
-
-* [ ] Healthcare Administration: 15/100 total (official 15 + historical 0; Need 85)
-* [x] Healthcare Administration: 15/100 total (official 15 + historical 0; Need 85)

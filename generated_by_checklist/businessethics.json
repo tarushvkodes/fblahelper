@@ -150,8 +150,8 @@
       "options": [
         "Identifying the salary you want in your next job",
         "Determining which principles guide your decisions",
-        "Listing hobbies for a r\u00e9sum\u00e9",
-        "Tracking how much overtime you\u2019ve worked"
+        "Listing hobbies for a résumé",
+        "Tracking how much overtime you’ve worked"
       ],
       "answer": 1,
       "explain": "Assessing personal values means clarifying the principles that guide your choices (e.g., honesty, fairness, respect) so you can act consistently.",
@@ -204,7 +204,7 @@
       "options": [
         "Ignoring company policies",
         "Following procedures and fulfilling duties",
-        "Taking credit for others\u2019 work",
+        "Taking credit for others’ work",
         "Spreading rumors"
       ],
       "answer": 1,

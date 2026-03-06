@@ -1,2447 +1,1805 @@
-SECTION 1 - SELECTED_EVENT
-Financial Planning
-
-SECTION 2 - NEW_FILE_NAME
-generated_by_checklist/financial-planning_batch_001.json
-
-SECTION 3 - JSON_CONTENT
 {
-"event": "Financial Planning",
-"questions": [
-{
-"q": "In a zero-based budget, how much of your monthly income should remain unassigned at the end of the budgeting process?",
-"options": [
-"$0",
-"At least 10%",
-"At least $100",
-"Only discretionary income"
-],
-"answer": 0,
-"explain": "A zero-based budget allocates every dollar of income to a category so the remaining unassigned amount is zero.",
-"optionExplanations": [
-"Correct: zero-based means income minus allocations equals $0.",
-"Incorrect: saving can be a category, but the goal is not leaving income unassigned.",
-"Incorrect: a fixed leftover dollar amount is not the definition.",
-"Incorrect: discretionary money is also assigned (e.g., entertainment)."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which budget category is most directly used to plan for irregular, predictable expenses such as annual insurance premiums?",
-"options": [
-"Sinking fund",
-"Emergency fund",
-"Checking account buffer",
-"Debt snowball"
-],
-"answer": 0,
-"explain": "A sinking fund is set aside gradually for a known future expense that occurs irregularly.",
-"optionExplanations": [
-"Correct: sinking funds cover planned irregular expenses.",
-"Incorrect: emergency funds are for unexpected disruptions.",
-"Incorrect: a buffer is a small cushion for timing, not a planned annual bill.",
-"Incorrect: debt snowball is a repayment method."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of an emergency fund in a personal financial plan?",
-"options": [
-"To cover unexpected essential expenses",
-"To maximize investment returns",
-"To avoid paying sales tax",
-"To increase credit utilization"
-],
-"answer": 0,
-"explain": "Emergency funds provide liquidity to handle unexpected essential costs (job loss, medical bills, urgent repairs) without new debt.",
-"optionExplanations": [
-"Correct: it is a cash reserve for surprises.",
-"Incorrect: investing focuses on return, not short-term stability.",
-"Incorrect: taxes are unrelated.",
-"Incorrect: higher utilization usually hurts credit scores."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If a worker receives a 3% raise and prices rise 4% over the same period, what happens to the worker's purchasing power (real income)?",
-"options": [
-"It decreases",
-"It increases",
-"It stays the same",
-"It becomes negative"
-],
-"answer": 0,
-"explain": "Purchasing power depends on real (inflation-adjusted) income; a 3% raise below 4% inflation reduces real income.",
-"optionExplanations": [
-"Correct: real income falls when wage growth < inflation.",
-"Incorrect: that would require the raise to exceed inflation.",
-"Incorrect: equal rates would keep it the same.",
-"Incorrect: income does not become negative from inflation alone."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which tool best helps track where money actually went after the month ends?",
-"options": [
-"Spending log (expense tracking)",
-"Net worth statement",
-"Insurance declaration page",
-"Mortgage amortization schedule"
-],
-"answer": 0,
-"explain": "Expense tracking records transactions so you can compare actual spending to your plan.",
-"optionExplanations": [
-"Correct: logs categorize actual spending.",
-"Incorrect: net worth shows assets minus liabilities at a point in time.",
-"Incorrect: declarations list insurance coverage terms.",
-"Incorrect: amortization schedules show loan principal/interest over time."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A common guideline suggests keeping an emergency fund equal to how many months of essential expenses?",
-"options": [
-"3 to 6 months",
-"1 to 2 weeks",
-"12 to 18 months",
-"Exactly 1 month"
-],
-"answer": 0,
-"explain": "Many personal finance recommendations start with 3-6 months of essential expenses for typical households.",
-"optionExplanations": [
-"Correct: this is the commonly cited starter range.",
-"Incorrect: weeks are usually too small for job loss or major repairs.",
-"Incorrect: that range may be appropriate for special cases but is not the common baseline.",
-"Incorrect: one month is often a minimum starting goal, not the guideline range."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the most liquid asset?",
-"options": [
-"Cash in a checking account",
-"A certificate of deposit with an early-withdrawal penalty",
-"A house",
-"A collectible artwork"
-],
-"answer": 0,
-"explain": "Liquidity is how quickly an asset can be used for payments without significant loss; checking cash is immediately spendable.",
-"optionExplanations": [
-"Correct: checking funds are available on demand.",
-"Incorrect: CDs are less liquid due to penalties/terms.",
-"Incorrect: selling a house takes time and costs.",
-"Incorrect: collectibles can be hard to sell quickly at fair value."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'pay yourself first' usually mean in a saving plan?",
-"options": [
-"Automatically saving before spending on non-essentials",
-"Paying bills in alphabetical order",
-"Using credit before cash",
-"Only saving if money is left over"
-],
-"answer": 0,
-"explain": "It means prioritizing savings (often via automatic transfers) before discretionary spending occurs.",
-"optionExplanations": [
-"Correct: automate saving early in the cash flow.",
-"Incorrect: bill order is unrelated.",
-"Incorrect: using credit first is not the idea.",
-"Incorrect: saving only leftovers typically reduces consistency."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which ratio is commonly used to assess short-term financial resilience?",
-"options": [
-"Liquidity ratio (liquid assets / monthly expenses)",
-"Debt-to-income ratio",
-"Price-to-earnings ratio",
-"Inventory turnover"
-],
-"answer": 0,
-"explain": "Liquidity ratio compares liquid assets to monthly expenses to estimate how long you can cover bills without income.",
-"optionExplanations": [
-"Correct: that ratio measures short-term coverage.",
-"Incorrect: DTI is about debt burden relative to income.",
-"Incorrect: P/E is for valuing stocks.",
-"Incorrect: inventory turnover is a business metric."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If a budget shows a monthly deficit, which change most directly fixes it without borrowing?",
-"options": [
-"Reduce expenses or increase income",
-"Increase credit card limits",
-"Delay paying all bills",
-"Move money from a retirement account penalty-free"
-],
-"answer": 0,
-"explain": "A deficit means spending exceeds income; the sustainable fix is lowering spending and/or raising income.",
-"optionExplanations": [
-"Correct: the deficit is solved by changing cash flow.",
-"Incorrect: more credit does not change income vs spending.",
-"Incorrect: skipping bills creates late fees and may worsen the deficit.",
-"Incorrect: early retirement withdrawals can trigger taxes/penalties and are not penalty-free."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the key difference between simple interest and compound interest?",
-"options": [
-"Compound interest earns interest on previously earned interest",
-"Simple interest changes the interest rate each month",
-"Compound interest has no principal",
-"Simple interest only applies to loans"
-],
-"answer": 0,
-"explain": "Compound interest includes interest-on-interest, while simple interest is calculated only on the principal.",
-"optionExplanations": [
-"Correct: compounding adds interest on accumulated interest.",
-"Incorrect: rate changes are separate from simple vs compound.",
-"Incorrect: both have principal.",
-"Incorrect: both can apply to savings or loans depending on product."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If interest is compounded monthly, how many compounding periods occur in one year?",
-"options": [
-"12",
-"1",
-"4",
-"365"
-],
-"answer": 0,
-"explain": "Monthly compounding means interest is applied 12 times per year.",
-"optionExplanations": [
-"Correct: 12 months in a year.",
-"Incorrect: that would be annual compounding.",
-"Incorrect: that would be quarterly compounding.",
-"Incorrect: that would be daily compounding."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does APY (annual percentage yield) include that APR may not?",
-"options": [
-"The effect of compounding",
-"The borrower's credit score",
-"The bank's profit margin",
-"Only the nominal rate"
-],
-"answer": 0,
-"explain": "APY reflects compounding over a year, while APR is often a nominal annual rate without compounding effects.",
-"optionExplanations": [
-"Correct: APY accounts for compounding.",
-"Incorrect: credit score affects offered rates but is not built into APY definition.",
-"Incorrect: profit margin is not the definition.",
-"Incorrect: nominal rate is closer to APR, not APY."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action increases the effective annual return on a savings account, assuming the stated rate is unchanged?",
-"options": [
-"More frequent compounding",
-"Withdrawing interest each month",
-"Increasing account fees",
-"Reducing the number of compounding periods"
-],
-"answer": 0,
-"explain": "Holding the nominal rate constant, more frequent compounding increases effective yield.",
-"optionExplanations": [
-"Correct: more compounding increases effective return.",
-"Incorrect: withdrawing reduces the balance available to compound.",
-"Incorrect: fees reduce net return.",
-"Incorrect: fewer compounding periods reduce effective yield."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A 'high-yield' savings account is typically best used for money that is:",
-"options": [
-"Needed in the short term but should earn interest",
-"Locked away for decades",
-"Intended for high-risk growth",
-"Only for paying taxes"
-],
-"answer": 0,
-"explain": "High-yield savings is liquid and lower risk, suitable for short-term goals and reserves.",
-"optionExplanations": [
-"Correct: liquid savings for near-term needs.",
-"Incorrect: decades-long goals are often better matched to long-term investments.",
-"Incorrect: savings accounts are not high-risk growth vehicles.",
-"Incorrect: it can be used for taxes, but that is not the typical defining use."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which factor is generally the largest component of a FICO credit score?",
-"options": [
-"Payment history",
-"Number of credit inquiries",
-"Type of residence",
-"Marital status"
-],
-"answer": 0,
-"explain": "Payment history is typically the most heavily weighted factor in FICO scoring models.",
-"optionExplanations": [
-"Correct: on-time payments matter most.",
-"Incorrect: inquiries matter but usually less than payment history.",
-"Incorrect: residence type is not a scoring factor.",
-"Incorrect: marital status is not used."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is 'credit utilization' on revolving credit?",
-"options": [
-"Balance divided by credit limit",
-"Credit limit divided by balance",
-"Number of accounts divided by income",
-"Interest rate divided by balance"
-],
-"answer": 0,
-"explain": "Utilization is the proportion of available revolving credit that is being used.",
-"optionExplanations": [
-"Correct: balance / limit.",
-"Incorrect: inverse ratio.",
-"Incorrect: not a standard definition.",
-"Incorrect: unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which utilization level is generally considered better for credit scores, all else equal?",
-"options": [
-"Below 30%",
-"Exactly 50%",
-"Above 80%",
-"Any level is identical"
-],
-"answer": 0,
-"explain": "Lower utilization signals less reliance on revolving debt; many guidelines cite keeping it under about 30%.",
-"optionExplanations": [
-"Correct: under ~30% is commonly recommended.",
-"Incorrect: 50% is higher and often worse.",
-"Incorrect: 80% is usually considered high risk.",
-"Incorrect: utilization is a score factor."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If you pay only the minimum on a credit card balance, what is the most likely outcome?",
-"options": [
-"You pay more total interest over time",
-"Your APR immediately drops to 0%",
-"The balance is forgiven after 12 months",
-"Your credit limit is automatically reduced to $0"
-],
-"answer": 0,
-"explain": "Minimum payments extend repayment time, causing more interest to accrue.",
-"optionExplanations": [
-"Correct: slower payoff increases interest cost.",
-"Incorrect: APR does not drop to 0% just for paying minimum.",
-"Incorrect: balances are not automatically forgiven.",
-"Incorrect: limits are not automatically reduced to zero by rule."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the 'debt snowball' repayment method?",
-"options": [
-"Paying off the smallest balances first while paying minimums on others",
-"Paying off the highest interest rate first",
-"Consolidating all debts into a mortgage",
-"Not paying any debt until you can pay it all at once"
-],
-"answer": 0,
-"explain": "Debt snowball prioritizes smallest balances to build momentum, while maintaining minimum payments on other debts.",
-"optionExplanations": [
-"Correct: smallest balance first.",
-"Incorrect: highest rate first is the debt avalanche.",
-"Incorrect: mortgage consolidation is not the method definition.",
-"Incorrect: delaying payments creates defaults and fees."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the 'debt avalanche' repayment method?",
-"options": [
-"Paying off the highest interest rate debt first",
-"Paying off the newest debt first",
-"Paying off debts in random order",
-"Refinancing every debt monthly"
-],
-"answer": 0,
-"explain": "Debt avalanche prioritizes the highest APR debt first to minimize interest cost.",
-"optionExplanations": [
-"Correct: highest rate first.",
-"Incorrect: not the definition.",
-"Incorrect: not a method.",
-"Incorrect: frequent refinancing is not the method and often impossible."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which loan feature most directly reduces the total interest paid, assuming the interest rate is unchanged?",
-"options": [
-"Making extra principal payments",
-"Choosing a longer term",
-"Skipping the first payment",
-"Using interest-only payments"
-],
-"answer": 0,
-"explain": "Extra principal payments reduce the outstanding balance faster, lowering interest accrual over the life of the loan.",
-"optionExplanations": [
-"Correct: principal reduction lowers future interest.",
-"Incorrect: longer terms usually increase total interest.",
-"Incorrect: skipping a payment typically adds interest/fees.",
-"Incorrect: interest-only delays principal payoff and raises total interest."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a secured loan?",
-"options": [
-"A loan backed by collateral",
-"A loan with no credit check",
-"A loan with zero interest",
-"A loan offered only to businesses"
-],
-"answer": 0,
-"explain": "Secured loans are backed by collateral that the lender can claim if the borrower defaults.",
-"optionExplanations": [
-"Correct: collateral-backed.",
-"Incorrect: credit checks may still occur; not the definition.",
-"Incorrect: secured does not mean zero interest.",
-"Incorrect: individuals also use secured loans (auto, mortgage)."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is an example of unsecured debt?",
-"options": [
-"Credit card balance",
-"Auto loan",
-"Mortgage",
-"Pawn loan"
-],
-"answer": 0,
-"explain": "Credit cards are typically unsecured; auto loans, mortgages, and pawn loans are secured by collateral.",
-"optionExplanations": [
-"Correct: credit cards are usually not collateral-backed.",
-"Incorrect: auto loans are secured by the vehicle.",
-"Incorrect: mortgages are secured by the home.",
-"Incorrect: pawn loans are secured by the pawned item."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A loan's amortization schedule shows:",
-"options": [
-"How each payment is split between interest and principal over time",
-"The borrower's credit score over time",
-"The home's market value forecast",
-"The tax bracket for each year"
-],
-"answer": 0,
-"explain": "Amortization schedules detail payment breakdown and remaining balance across the loan term.",
-"optionExplanations": [
-"Correct: interest vs principal split.",
-"Incorrect: credit scores are unrelated.",
-"Incorrect: market value is not part of amortization.",
-"Incorrect: taxes are unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'refinancing' most directly mean for a borrower?",
-"options": [
-"Replacing an existing loan with a new loan, often with different terms",
-"Paying a loan using a credit card",
-"Skipping payments without penalties",
-"Transferring collateral ownership to the bank"
-],
-"answer": 0,
-"explain": "Refinancing replaces the current loan with a new one, potentially changing rate, term, or payment.",
-"optionExplanations": [
-"Correct: new loan replaces old.",
-"Incorrect: that's a payment method, not refinancing.",
-"Incorrect: skipping payments is delinquency.",
-"Incorrect: collateral transfer is foreclosure/repossession, not refinancing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a potential downside of extending a loan term when refinancing?",
-"options": [
-"You may pay more total interest",
-"Your monthly payment always increases",
-"Your interest rate must become variable",
-"The loan becomes automatically forgiven"
-],
-"answer": 0,
-"explain": "A longer term can lower monthly payments but often increases total interest paid over the life of the loan.",
-"optionExplanations": [
-"Correct: more time for interest to accrue.",
-"Incorrect: longer terms often decrease the monthly payment.",
-"Incorrect: rates can be fixed or variable; not required.",
-"Incorrect: loans are not forgiven by extending term."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main difference between a fixed-rate and an adjustable-rate mortgage (ARM)?",
-"options": [
-"The interest rate can change on an ARM after an initial period",
-"A fixed-rate mortgage has no closing costs",
-"An ARM cannot be refinanced",
-"A fixed-rate mortgage always has a shorter term"
-],
-"answer": 0,
-"explain": "Fixed-rate mortgages keep the same rate; ARMs can adjust based on an index after a set period.",
-"optionExplanations": [
-"Correct: ARM rates can change later.",
-"Incorrect: both can have closing costs.",
-"Incorrect: ARMs can often be refinanced.",
-"Incorrect: term length varies for both."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice best helps avoid paying credit card interest in most billing cycles?",
-"options": [
-"Pay the statement balance in full by the due date",
-"Make the minimum payment early",
-"Open a second credit card",
-"Request a higher APR"
-],
-"answer": 0,
-"explain": "Paying the full statement balance by the due date typically avoids interest on purchases during the grace period.",
-"optionExplanations": [
-"Correct: full statement balance avoids purchase interest in many cases.",
-"Incorrect: minimum payments still leave a balance accruing interest.",
-"Incorrect: more cards do not prevent interest on an unpaid balance.",
-"Incorrect: higher APR increases interest cost."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A 'hard inquiry' is usually created when you:",
-"options": [
-"Apply for new credit",
-"Pay a bill online",
-"Check your own credit score",
-"Receive a bank statement"
-],
-"answer": 0,
-"explain": "Hard inquiries are generated by lenders when you apply for credit and they review your report for underwriting.",
-"optionExplanations": [
-"Correct: credit application triggers lender pull.",
-"Incorrect: bill pay does not create inquiries.",
-"Incorrect: checking your own score is a soft inquiry.",
-"Incorrect: statements do not create inquiries."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the purpose of a credit report dispute process?",
-"options": [
-"To correct inaccurate information on a credit report",
-"To raise your credit limit automatically",
-"To eliminate all debt",
-"To change your tax filing status"
-],
-"answer": 0,
-"explain": "Disputes allow consumers to challenge errors so credit bureaus and furnishers can investigate and correct inaccuracies.",
-"optionExplanations": [
-"Correct: disputes fix errors.",
-"Incorrect: limits are set by issuers, not disputes.",
-"Incorrect: disputes do not erase valid debt.",
-"Incorrect: tax status is unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If you cosign a loan, you are:",
-"options": [
-"Legally responsible for repayment if the primary borrower does not pay",
-"Guaranteed a lower interest rate on your own loans",
-"Entitled to the borrowed cash",
-"Protected from any credit impact"
-],
-"answer": 0,
-"explain": "Cosigners share liability; missed payments can affect the cosigner's credit and the lender can seek repayment from them.",
-"optionExplanations": [
-"Correct: cosigner shares responsibility.",
-"Incorrect: no guaranteed benefit on other loans.",
-"Incorrect: cosigning does not grant ownership of funds.",
-"Incorrect: cosigners can be impacted."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes a 'grace period' on many credit cards?",
-"options": [
-"Time to pay the statement balance without interest on new purchases if paid in full",
-"A period when minimum payments are optional",
-"Time when late fees are waived even if you pay nothing",
-"A period when your APR is permanently reduced"
-],
-"answer": 0,
-"explain": "Many cards offer a grace period on purchases when the previous statement balance is paid in full by the due date.",
-"optionExplanations": [
-"Correct: interest-free window on purchases with full payment conditions.",
-"Incorrect: minimum payments are still required to avoid delinquency.",
-"Incorrect: not paying still triggers late fees and interest.",
-"Incorrect: grace periods do not permanently reduce APR."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main reason diversification can reduce investment risk?",
-"options": [
-"Different assets may not move together, reducing the impact of any single loss",
-"It guarantees a positive return",
-"It eliminates inflation",
-"It prevents all market downturns"
-],
-"answer": 0,
-"explain": "Holding assets with imperfect correlation can reduce portfolio volatility because losses in one may be offset by gains in another.",
-"optionExplanations": [
-"Correct: correlation effects reduce concentration risk.",
-"Incorrect: diversification does not guarantee gains.",
-"Incorrect: it does not remove inflation.",
-"Incorrect: it cannot prevent market declines."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which investment is generally considered the most volatile?",
-"options": [
-"Individual stocks",
-"U.S. Treasury bills",
-"FDIC-insured savings accounts",
-"Certificates of deposit held to maturity"
-],
-"answer": 0,
-"explain": "Individual stocks can fluctuate significantly based on company and market factors, making them more volatile than cash-like products.",
-"optionExplanations": [
-"Correct: single-company stocks can swing widely.",
-"Incorrect: T-bills are short-term government debt with low volatility if held to maturity.",
-"Incorrect: insured savings is stable.",
-"Incorrect: CDs held to maturity have predictable principal/interest."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'asset allocation' refer to?",
-"options": [
-"How a portfolio is divided among asset classes like stocks, bonds, and cash",
-"Choosing the best single stock",
-"Timing the market daily",
-"Only investing in local companies"
-],
-"answer": 0,
-"explain": "Asset allocation is the mix of asset classes, which strongly influences risk and return.",
-"optionExplanations": [
-"Correct: allocation across asset classes.",
-"Incorrect: picking one stock is security selection.",
-"Incorrect: market timing is not allocation.",
-"Incorrect: geographic focus is not the definition."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A bond's 'coupon rate' is:",
-"options": [
-"The stated interest rate paid on the bond's face value",
-"The price the bond sells for on the market",
-"The number of years until maturity",
-"The tax rate on bond interest"
-],
-"answer": 0,
-"explain": "Coupon rate is the annual interest payment as a percentage of the bond's par (face) value.",
-"optionExplanations": [
-"Correct: coupon = stated interest on par.",
-"Incorrect: price can differ from par.",
-"Incorrect: maturity is time until repayment.",
-"Incorrect: taxes depend on jurisdiction and bond type."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If market interest rates rise, what typically happens to the price of existing bonds with fixed coupons?",
-"options": [
-"Their prices fall",
-"Their prices rise",
-"Their prices stay exactly the same",
-"They are automatically converted to stocks"
-],
-"answer": 0,
-"explain": "When new bonds offer higher yields, older fixed-coupon bonds become less attractive, so their market prices generally fall to match yields.",
-"optionExplanations": [
-"Correct: price and yields move inversely for fixed-rate bonds.",
-"Incorrect: rising rates usually push fixed bond prices down.",
-"Incorrect: prices can change with rates.",
-"Incorrect: bonds are not converted to stocks."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is an index fund designed to do?",
-"options": [
-"Track the performance of a market index",
-"Guarantee returns above the market",
-"Avoid owning any securities",
-"Only invest in bonds"
-],
-"answer": 0,
-"explain": "Index funds aim to match an index's holdings/returns (before fees) rather than beat it through active selection.",
-"optionExplanations": [
-"Correct: replicate an index.",
-"Incorrect: no guarantee to outperform.",
-"Incorrect: index funds hold securities.",
-"Incorrect: indexes can represent many asset classes, not only bonds."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a typical advantage of ETFs compared with traditional mutual funds?",
-"options": [
-"They can trade intraday like stocks",
-"They always have lower risk",
-"They are never taxed",
-"They cannot be diversified"
-],
-"answer": 0,
-"explain": "ETFs trade throughout the day on exchanges, while many mutual funds transact once per day at NAV.",
-"optionExplanations": [
-"Correct: intraday trading is a key structural difference.",
-"Incorrect: risk depends on holdings.",
-"Incorrect: ETFs can still have tax consequences.",
-"Incorrect: ETFs can be highly diversified."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is dollar-cost averaging?",
-"options": [
-"Investing a fixed amount at regular intervals regardless of price",
-"Investing only when prices are at their peak",
-"Borrowing money to invest",
-"Selling winners and keeping losers"
-],
-"answer": 0,
-"explain": "Dollar-cost averaging spreads purchases over time, reducing the risk of investing a lump sum at an unfavorable price.",
-"optionExplanations": [
-"Correct: fixed periodic investing.",
-"Incorrect: peaks are not the strategy.",
-"Incorrect: borrowing to invest is leverage/margin.",
-"Incorrect: selling winners/keeping losers is not DCA."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which retirement account type is typically funded with after-tax dollars and can offer tax-free qualified withdrawals?",
-"options": [
-"Roth IRA",
-"Traditional IRA",
-"Taxable brokerage account",
-"401(k) loan"
-],
-"answer": 0,
-"explain": "Roth IRAs are funded with after-tax contributions; qualified withdrawals in retirement are generally tax-free under current rules.",
-"optionExplanations": [
-"Correct: Roth structure = after-tax in, tax-free qualified out.",
-"Incorrect: traditional IRAs are often pre-tax or deductible with taxable withdrawals.",
-"Incorrect: taxable accounts do not provide tax-free qualified retirement withdrawals by default.",
-"Incorrect: a 401(k) loan is borrowing from a plan, not an account type."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A 'target-date fund' generally adjusts its holdings by:",
-"options": [
-"Becoming more conservative as the target year approaches",
-"Becoming more aggressive as the target year approaches",
-"Switching from stocks to collectibles",
-"Eliminating all bonds immediately"
-],
-"answer": 0,
-"explain": "Target-date funds follow a glide path that usually shifts from higher stock allocation to more bonds/cash as retirement nears.",
-"optionExplanations": [
-"Correct: glide path toward lower risk near target date.",
-"Incorrect: most become less aggressive, not more.",
-"Incorrect: collectibles are not the defining shift.",
-"Incorrect: they typically do not eliminate bonds; they often add them."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary role of inflation in retirement planning?",
-"options": [
-"It reduces the future purchasing power of fixed dollar amounts",
-"It guarantees higher investment returns",
-"It eliminates the need for saving",
-"It makes all debts costless"
-],
-"answer": 0,
-"explain": "Inflation means future dollars buy less, so retirement goals must account for higher future costs.",
-"optionExplanations": [
-"Correct: inflation erodes purchasing power.",
-"Incorrect: returns are not guaranteed to beat inflation.",
-"Incorrect: inflation does not remove the need to save.",
-"Incorrect: inflation can reduce real debt burden but does not make debts costless."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'risk tolerance' describe in investing?",
-"options": [
-"How much investment loss an investor can emotionally and financially withstand",
-"The guaranteed return an investor expects",
-"The legal limit on brokerage accounts",
-"The bond coupon rate"
-],
-"answer": 0,
-"explain": "Risk tolerance combines ability and willingness to accept volatility and potential losses.",
-"optionExplanations": [
-"Correct: tolerance for volatility/loss.",
-"Incorrect: no returns are guaranteed.",
-"Incorrect: not a legal limit term.",
-"Incorrect: unrelated to bond coupon."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which metric measures an investment's return relative to risk by using excess return over a risk-free rate per unit of volatility?",
-"options": [
-"Sharpe ratio",
-"Current ratio",
-"Gross margin",
-"Beta coefficient"
-],
-"answer": 0,
-"explain": "The Sharpe ratio is (portfolio return - risk-free rate) divided by return standard deviation.",
-"optionExplanations": [
-"Correct: Sharpe uses excess return per unit volatility.",
-"Incorrect: current ratio is liquidity for businesses.",
-"Incorrect: gross margin is profitability.",
-"Incorrect: beta measures market sensitivity, not excess return per volatility."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a brokerage account 'dividend'?",
-"options": [
-"A distribution of a company's profits to shareholders",
-"A fee charged for holding stocks",
-"A guaranteed interest payment from the government",
-"The principal repayment of a bond"
-],
-"answer": 0,
-"explain": "Dividends are payments a corporation may make to shareholders from profits/retained earnings, typically in cash or stock.",
-"optionExplanations": [
-"Correct: dividends are shareholder distributions.",
-"Incorrect: fees are separate (commissions/expense ratios).",
-"Incorrect: government interest relates to bonds, not dividends.",
-"Incorrect: bond principal repayment is redemption at maturity."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement about capital gains tax is generally true in the U.S. context?",
-"options": [
-"Long-term gains are often taxed at different rates than short-term gains",
-"Capital gains are never taxed",
-"All gains are taxed the same regardless of holding period",
-"Capital gains apply only to wages"
-],
-"answer": 0,
-"explain": "U.S. tax rules typically distinguish long-term (held >1 year) from short-term gains, often with different rates.",
-"optionExplanations": [
-"Correct: holding period can change the tax rate.",
-"Incorrect: gains can be taxable depending on account type and rules.",
-"Incorrect: holding period often matters.",
-"Incorrect: wages are ordinary income, not capital gains."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a deductible in an insurance policy?",
-"options": [
-"The amount the policyholder pays before insurance coverage begins paying",
-"The monthly premium paid to the insurer",
-"The maximum the insurer will ever pay",
-"A fee for canceling the policy"
-],
-"answer": 0,
-"explain": "A deductible is the out-of-pocket amount the insured must pay on a covered claim before the insurer pays benefits.",
-"optionExplanations": [
-"Correct: pay this first on a claim.",
-"Incorrect: premium is the regular payment for coverage.",
-"Incorrect: maximum insurer payment is a policy limit.",
-"Incorrect: cancellation fees are separate."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of insurance is specifically designed to replace income if you cannot work due to illness or injury?",
-"options": [
-"Disability insurance",
-"Liability insurance",
-"Collision insurance",
-"Title insurance"
-],
-"answer": 0,
-"explain": "Disability insurance provides income replacement when a covered disability prevents working.",
-"optionExplanations": [
-"Correct: income replacement coverage.",
-"Incorrect: liability covers legal responsibility to others.",
-"Incorrect: collision covers vehicle damage from crashes.",
-"Incorrect: title insurance protects against property title defects."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of term life insurance?",
-"options": [
-"Provide a death benefit for a specific time period at typically lower cost",
-"Build cash value for borrowing",
-"Cover car repairs after accidents",
-"Guarantee investment returns"
-],
-"answer": 0,
-"explain": "Term life insurance provides coverage for a set term (e.g., 10-30 years) and usually has no cash value component.",
-"optionExplanations": [
-"Correct: time-limited death benefit.",
-"Incorrect: cash value is associated with permanent life policies.",
-"Incorrect: car repairs are auto insurance.",
-"Incorrect: life insurance is not an investment guarantee."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In auto insurance, 'liability coverage' primarily pays for:",
-"options": [
-"Injuries and property damage you cause to others",
-"Repairs to your own car regardless of fault",
-"Routine maintenance like oil changes",
-"Traffic tickets and fines"
-],
-"answer": 0,
-"explain": "Liability insurance covers damages you are legally responsible for causing to other people or their property.",
-"optionExplanations": [
-"Correct: pays others' damages when you are at fault.",
-"Incorrect: that is collision/comprehensive or other coverages.",
-"Incorrect: maintenance is not insurable in standard auto policies.",
-"Incorrect: tickets/fines are generally not covered."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the purpose of renters insurance?",
-"options": [
-"Cover personal belongings and liability in a rented home",
-"Pay the landlord's mortgage",
-"Cover the building structure owned by the landlord",
-"Replace health insurance"
-],
-"answer": 0,
-"explain": "Renters insurance typically covers a tenant's personal property and liability; the building is usually insured by the landlord.",
-"optionExplanations": [
-"Correct: tenant belongings + liability.",
-"Incorrect: it does not pay the landlord's mortgage.",
-"Incorrect: building coverage is typically the owner's policy.",
-"Incorrect: it does not replace health insurance."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which document best summarizes your taxable income and withholding from an employer in the U.S.?",
-"options": [
-"Form W-2",
-"Form 1099-INT",
-"Form 1040-ES",
-"Form 941"
-],
-"answer": 0,
-"explain": "A W-2 reports wages and tax withholding for employees; 1099-INT reports interest; 1040-ES is estimated tax; 941 is employer payroll reporting.",
-"optionExplanations": [
-"Correct: W-2 is the employee wage/withholding form.",
-"Incorrect: 1099-INT is for interest income.",
-"Incorrect: 1040-ES is used to pay estimated taxes.",
-"Incorrect: 941 is filed by employers for payroll taxes."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of withholding on a paycheck?",
-"options": [
-"Prepay income taxes throughout the year",
-"Increase take-home pay",
-"Avoid filing a tax return",
-"Eliminate all tax liability"
-],
-"answer": 0,
-"explain": "Withholding is a pay-as-you-go system that sends part of wages to the government to cover expected tax liability.",
-"optionExplanations": [
-"Correct: it prepays taxes.",
-"Incorrect: withholding reduces take-home pay.",
-"Incorrect: many people still must file returns.",
-"Incorrect: it does not automatically eliminate liability; it estimates it."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is generally considered a 'needs' expense in a basic budget?",
-"options": [
-"Rent or housing payment",
-"Streaming subscriptions",
-"Concert tickets",
-"Upgrading a phone annually"
-],
-"answer": 0,
-"explain": "Needs are essential for living and working; housing is a core need compared with discretionary entertainment or upgrades.",
-"optionExplanations": [
-"Correct: housing is typically essential.",
-"Incorrect: streaming is discretionary.",
-"Incorrect: concerts are discretionary.",
-"Incorrect: frequent phone upgrades are usually discretionary."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is 'opportunity cost' in personal finance?",
-"options": [
-"The value of the best alternative you give up when choosing an option",
-"The fee for using an ATM",
-"The interest charged on a loan",
-"The legal cost of a contract"
-],
-"answer": 0,
-"explain": "Opportunity cost is the benefit you forgo by not selecting the next-best alternative.",
-"optionExplanations": [
-"Correct: foregone alternative value.",
-"Incorrect: ATM fees are explicit costs, not opportunity cost.",
-"Incorrect: interest is borrowing cost, not opportunity cost definition.",
-"Incorrect: legal costs are explicit costs."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which practice most directly reduces the risk of identity theft affecting your credit report?",
-"options": [
-"Placing a credit freeze with major credit bureaus",
-"Keeping a higher credit card balance",
-"Sharing your Social Security number by email",
-"Using the same password everywhere"
-],
-"answer": 0,
-"explain": "A credit freeze restricts new creditors from accessing your report, making it harder to open new accounts fraudulently.",
-"optionExplanations": [
-"Correct: freeze blocks most new-account openings.",
-"Incorrect: higher balances do not reduce identity risk.",
-"Incorrect: sharing SSN by email increases risk.",
-"Incorrect: reused passwords increase account compromise risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In estate planning, a 'beneficiary designation' is most commonly used to specify who receives:",
-"options": [
-"Certain accounts like life insurance proceeds and retirement accounts",
-"Your monthly utility bills",
-"Your credit card points only",
-"Your vehicle's maintenance records"
-],
-"answer": 0,
-"explain": "Beneficiary designations direct who receives proceeds from specific financial products, often outside the will process.",
-"optionExplanations": [
-"Correct: life insurance/retirement accounts often use beneficiaries.",
-"Incorrect: bills are obligations, not distributed assets.",
-"Incorrect: points may have separate rules and are not the standard meaning.",
-"Incorrect: records are not a distributable financial asset."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main advantage of using a will in financial planning?",
-"options": [
-"It provides instructions for distributing assets after death",
-"It guarantees assets avoid probate",
-"It replaces the need for insurance",
-"It automatically reduces income tax rates"
-],
-"answer": 0,
-"explain": "A will states how assets should be distributed; some assets may still go through probate depending on jurisdiction and ownership.",
-"optionExplanations": [
-"Correct: distribution instructions.",
-"Incorrect: a will does not necessarily avoid probate.",
-"Incorrect: insurance serves different risks.",
-"Incorrect: wills do not change income tax rates."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which retirement plan feature refers to an employer matching some of an employee's contributions?",
-"options": [
-"Employer match",
-"Expense ratio",
-"Vesting schedule",
-"Call provision"
-],
-"answer": 0,
-"explain": "An employer match is when the employer contributes to the plan based on the employee's contributions, often up to a limit.",
-"optionExplanations": [
-"Correct: match = employer contributions tied to employee contributions.",
-"Incorrect: expense ratio is a fund fee.",
-"Incorrect: vesting is ownership timing of employer contributions.",
-"Incorrect: call provisions relate to bonds."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'vesting' typically determine in an employer-sponsored retirement plan?",
-"options": [
-"When the employee fully owns employer contributions",
-"The investment's daily price",
-"Whether the account earns interest",
-"The tax filing deadline"
-],
-"answer": 0,
-"explain": "Vesting schedules set when employer contributions become the employee's nonforfeitable property.",
-"optionExplanations": [
-"Correct: ownership of employer contributions over time.",
-"Incorrect: pricing is market-driven.",
-"Incorrect: interest depends on investments, not vesting.",
-"Incorrect: tax deadlines are unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of account is typically used for tax-advantaged health expenses in the U.S. when paired with a high-deductible health plan?",
-"options": [
-"Health Savings Account (HSA)",
-"529 plan",
-"UTMA account",
-"Certificate of deposit"
-],
-"answer": 0,
-"explain": "HSAs are designed for qualified medical expenses and are generally associated with high-deductible health plans.",
-"optionExplanations": [
-"Correct: HSA for medical costs with HDHP.",
-"Incorrect: 529 plans are for education.",
-"Incorrect: UTMA is a custodial account for minors.",
-"Incorrect: CDs are savings products without health-specific tax rules."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which step is typically first in the personal financial planning process?",
-"options": [
-"Set measurable financial goals",
-"Buy insurance policies",
-"Select individual stocks",
-"Apply for a mortgage"
-],
-"answer": 0,
-"explain": "Financial planning usually begins by defining goals, constraints, and priorities so later decisions align with objectives.",
-"optionExplanations": [
-"Correct: goal setting drives the plan.",
-"Incorrect: insurance selection comes after risk assessment and goals.",
-"Incorrect: stock selection is later and may not be needed.",
-"Incorrect: borrowing decisions should follow a broader plan."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A SMART financial goal should be:",
-"options": [
-"Specific, Measurable, Achievable, Relevant, Time-bound",
-"Safe, Marketable, Aggressive, Risk-free, Tax-free",
-"Simple, Minimal, Automatic, Random, Temporary",
-"Savings-only, Mortgage-only, Asset-only, Retirement-only, Travel-only"
-],
-"answer": 0,
-"explain": "SMART is a common framework for writing goals that can be tracked and executed over time.",
-"optionExplanations": [
-"Correct: the standard SMART acronym.",
-"Incorrect: not the SMART framework.",
-"Incorrect: not SMART.",
-"Incorrect: not SMART."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes net worth?",
-"options": [
-"Assets minus liabilities",
-"Income minus taxes",
-"Savings minus investments",
-"Expenses minus income"
-],
-"answer": 0,
-"explain": "Net worth is calculated by subtracting total liabilities from total assets.",
-"optionExplanations": [
-"Correct: assets - liabilities.",
-"Incorrect: income minus taxes is after-tax income.",
-"Incorrect: savings and investments are both assets; subtracting them is not net worth.",
-"Incorrect: expenses minus income is the negative of cash flow."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If someone's assets total $40,000 and liabilities total $55,000, what is their net worth?",
-"options": [
-"- $15,000",
-"$15,000",
-"$95,000",
-"$0"
-],
-"answer": 0,
-"explain": "Net worth equals assets minus liabilities: $40,000 - $55,000 = -$15,000.",
-"optionExplanations": [
-"Correct: 40,000 - 55,000 = -15,000.",
-"Incorrect: sign is wrong.",
-"Incorrect: that adds instead of subtracting.",
-"Incorrect: it is not zero unless assets equal liabilities."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of a short-term financial goal?",
-"options": [
-"Save $600 for a new laptop within 6 months",
-"Save $500,000 for retirement",
-"Pay off a 30-year mortgage",
-"Fund a child's college in 15 years"
-],
-"answer": 0,
-"explain": "Short-term goals are typically within a year; saving for a laptop in 6 months fits that timeframe.",
-"optionExplanations": [
-"Correct: 6 months is short-term.",
-"Incorrect: retirement is long-term.",
-"Incorrect: mortgages are long-term.",
-"Incorrect: college funding over 15 years is long-term."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action best helps align a financial plan with changing life circumstances?",
-"options": [
-"Review and update the plan periodically",
-"Never change the plan once written",
-"Increase risk by concentrating investments",
-"Ignore inflation assumptions"
-],
-"answer": 0,
-"explain": "Financial plans should be revisited as income, goals, markets, and family needs change.",
-"optionExplanations": [
-"Correct: periodic reviews keep the plan relevant.",
-"Incorrect: rigidity can make the plan outdated.",
-"Incorrect: concentration increases risk and may not match goals.",
-"Incorrect: ignoring inflation can underfund goals."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of a personal balance sheet in financial planning?",
-"options": [
-"To list assets and liabilities at a point in time",
-"To calculate monthly cash flow",
-"To compute interest on a loan",
-"To set a credit card APR"
-],
-"answer": 0,
-"explain": "A personal balance sheet summarizes what you own (assets) and owe (liabilities) at a specific date.",
-"optionExplanations": [
-"Correct: snapshot of assets and debts.",
-"Incorrect: cash flow is income vs expenses over a period.",
-"Incorrect: interest computation is separate.",
-"Incorrect: APR is set by lenders, not balance sheets."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is most likely to be considered a 'fixed expense' in a monthly budget?",
-"options": [
-"Rent payment",
-"Groceries",
-"Gasoline",
-"Entertainment"
-],
-"answer": 0,
-"explain": "Fixed expenses are consistent from month to month; rent is often the same amount, unlike variable categories.",
-"optionExplanations": [
-"Correct: rent is typically fixed for the lease term.",
-"Incorrect: groceries vary.",
-"Incorrect: gasoline varies with usage and prices.",
-"Incorrect: entertainment is discretionary and variable."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of setting a financial 'time horizon' for a goal?",
-"options": [
-"To choose appropriate risk level and investment choices based on when the money is needed",
-"To determine your credit score",
-"To set your employer's pay rate",
-"To calculate sales tax"
-],
-"answer": 0,
-"explain": "Time horizon affects suitable risk and liquidity; shorter horizons usually require more stability and liquidity.",
-"optionExplanations": [
-"Correct: timing drives risk/liquidity choices.",
-"Incorrect: credit score is unrelated.",
-"Incorrect: pay rates are not set by your horizon.",
-"Incorrect: sales tax is unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes 'liquidity risk' in a personal financial plan?",
-"options": [
-"The risk of needing cash but having assets that cannot be quickly converted without loss",
-"The risk that inflation becomes zero",
-"The risk that a credit card offers rewards",
-"The risk that a bank prints money"
-],
-"answer": 0,
-"explain": "Liquidity risk is the chance you cannot access cash quickly because assets are illiquid or would require selling at a discount.",
-"optionExplanations": [
-"Correct: difficulty converting to cash when needed.",
-"Incorrect: inflation levels are separate.",
-"Incorrect: rewards programs are not a risk concept here.",
-"Incorrect: money printing is a macroeconomic concept, not personal liquidity risk definition."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of insurance protects you if you are sued for causing injury or property damage to someone else?",
-"options": [
-"Liability insurance",
-"Gap insurance",
-"Comprehensive auto insurance",
-"Warranty coverage"
-],
-"answer": 0,
-"explain": "Liability insurance covers claims for damages you are legally responsible for causing to others.",
-"optionExplanations": [
-"Correct: liability covers third-party claims.",
-"Incorrect: gap covers difference between car value and loan balance after total loss.",
-"Incorrect: comprehensive covers non-collision damage to your car.",
-"Incorrect: warranties cover product repairs, not lawsuits."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of an umbrella insurance policy?",
-"options": [
-"Provide additional liability coverage above underlying policy limits",
-"Cover routine doctor visits",
-"Insure the market value of stocks",
-"Eliminate the need for auto insurance"
-],
-"answer": 0,
-"explain": "Umbrella policies add extra liability protection once underlying auto/home limits are exhausted.",
-"optionExplanations": [
-"Correct: extra liability layer.",
-"Incorrect: routine health expenses are not umbrella coverage.",
-"Incorrect: investments are not insured this way.",
-"Incorrect: umbrella requires underlying coverage; it does not replace it."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes the maximum amount an insurer will pay for a covered loss?",
-"options": [
-"Policy limit",
-"Premium",
-"Deductible",
-"Coinsurance"
-],
-"answer": 0,
-"explain": "A policy limit is the cap on the insurer's payout for a covered claim.",
-"optionExplanations": [
-"Correct: limit is the maximum payout.",
-"Incorrect: premium is what you pay for coverage.",
-"Incorrect: deductible is what you pay first.",
-"Incorrect: coinsurance is a cost-sharing percentage in some policies."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If an investor wants lower interest-rate risk in a bond portfolio, they would generally choose bonds with:",
-"options": [
-"Shorter maturities",
-"Longer maturities",
-"Higher coupons only",
-"Lower credit quality"
-],
-"answer": 0,
-"explain": "Shorter-maturity bonds are less sensitive to interest rate changes than longer-maturity bonds.",
-"optionExplanations": [
-"Correct: shorter duration reduces rate sensitivity.",
-"Incorrect: longer maturities increase rate risk.",
-"Incorrect: coupon level alone does not remove rate risk.",
-"Incorrect: lower credit quality increases credit risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is 'credit risk' for a bond investor?",
-"options": [
-"The risk the issuer will fail to make interest or principal payments",
-"The risk that inflation falls",
-"The risk that bond prices never change",
-"The risk that dividends are reduced"
-],
-"answer": 0,
-"explain": "Credit risk is default risk: the issuer might not pay as promised.",
-"optionExplanations": [
-"Correct: issuer default/nonpayment risk.",
-"Incorrect: inflation risk is different.",
-"Incorrect: bond prices can change; this is not a defined risk.",
-"Incorrect: dividends are for stocks, not bonds."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A mutual fund's 'expense ratio' represents:",
-"options": [
-"Annual fund operating fees as a percentage of assets",
-"The fund's guaranteed return",
-"The amount of taxes withheld",
-"The number of shares outstanding"
-],
-"answer": 0,
-"explain": "Expense ratios are ongoing fees charged by the fund, expressed as a percentage of assets under management.",
-"optionExplanations": [
-"Correct: ongoing annual fee percentage.",
-"Incorrect: fees do not guarantee return.",
-"Incorrect: withholding is payroll-related, not fund fees.",
-"Incorrect: shares outstanding is separate."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which account is most commonly used in the U.S. to save for qualified education expenses with tax advantages?",
-"options": [
-"529 plan",
-"Roth IRA",
-"Checking account",
-"Auto loan"
-],
-"answer": 0,
-"explain": "529 plans are designed for education savings and can offer tax advantages for qualified expenses.",
-"optionExplanations": [
-"Correct: 529 is education-focused.",
-"Incorrect: Roth IRAs are primarily retirement accounts.",
-"Incorrect: checking offers no special education tax treatment.",
-"Incorrect: a loan is borrowing, not saving."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In budgeting, the '50/30/20 rule' usually allocates 20% of after-tax income to:",
-"options": [
-"Savings and debt repayment",
-"Housing only",
-"Entertainment only",
-"Taxes only"
-],
-"answer": 0,
-"explain": "Under the 50/30/20 guideline, 20% typically goes to savings and debt payments, with 50% needs and 30% wants.",
-"optionExplanations": [
-"Correct: 20% = savings/debt goals.",
-"Incorrect: housing is part of needs, not the 20% bucket.",
-"Incorrect: entertainment is in wants.",
-"Incorrect: taxes are not the 20% bucket in the common framing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of a 'spending cap' category in a budget?",
-"options": [
-"Set a maximum amount you will spend in that category",
-"Guarantee the lowest price for purchases",
-"Increase your credit score automatically",
-"Eliminate the need to track transactions"
-],
-"answer": 0,
-"explain": "A spending cap sets a limit so you can control variable expenses and avoid overspending.",
-"optionExplanations": [
-"Correct: cap = maximum allowed spend.",
-"Incorrect: it does not guarantee prices.",
-"Incorrect: budgeting may help indirectly, but it does not automatically raise scores.",
-"Incorrect: caps still require tracking to enforce."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement about FDIC insurance is generally correct for U.S. bank deposits?",
-"options": [
-"It protects depositors up to certain limits if the bank fails",
-"It guarantees stock market returns",
-"It covers losses from identity theft",
-"It applies to crypto assets held on an exchange"
-],
-"answer": 0,
-"explain": "FDIC insurance covers eligible bank deposit accounts up to coverage limits if an insured bank fails.",
-"optionExplanations": [
-"Correct: protects deposits if the bank fails.",
-"Incorrect: it does not cover investments like stocks.",
-"Incorrect: identity theft losses are not what FDIC insures.",
-"Incorrect: FDIC does not generally insure crypto exchange holdings."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main reason to compare 'net pay' rather than 'gross pay' when building a monthly budget?",
-"options": [
-"Net pay reflects the money actually available after deductions",
-"Gross pay includes overtime only",
-"Net pay is always higher than gross pay",
-"Gross pay excludes benefits"
-],
-"answer": 0,
-"explain": "Budgets are paid with take-home pay; net pay accounts for taxes and other payroll deductions.",
-"optionExplanations": [
-"Correct: net is spendable take-home.",
-"Incorrect: gross pay can include overtime too.",
-"Incorrect: net is usually lower due to deductions.",
-"Incorrect: gross pay may or may not exclude benefits depending on context; the key is deductions."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is typically considered a 'variable interest rate' product?",
-"options": [
-"Adjustable-rate mortgage",
-"30-year fixed mortgage",
-"Fixed-rate student loan",
-"Fixed annuity payout"
-],
-"answer": 0,
-"explain": "An adjustable-rate mortgage has an interest rate that can change based on an index and adjustment rules.",
-"optionExplanations": [
-"Correct: ARM rate varies.",
-"Incorrect: fixed mortgage rate does not change.",
-"Incorrect: fixed-rate loans do not change rates.",
-"Incorrect: fixed payouts are not variable rate products."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If you make a larger down payment on a home, the most direct effect is usually:",
-"options": [
-"A smaller loan amount and potentially lower monthly payment",
-"A higher loan-to-value ratio",
-"A guaranteed higher home price",
-"A required higher interest rate"
-],
-"answer": 0,
-"explain": "A bigger down payment reduces principal borrowed, often lowering monthly payments and loan-to-value.",
-"optionExplanations": [
-"Correct: less borrowed reduces payment burden.",
-"Incorrect: LTV generally decreases, not increases.",
-"Incorrect: down payment does not set the sale price.",
-"Incorrect: larger down payments can sometimes help rates, not require higher rates."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does PMI (private mortgage insurance) typically protect?",
-"options": [
-"The lender if the borrower defaults",
-"The borrower if home prices fall",
-"The real estate agent's commission",
-"The homeowner's property tax bill"
-],
-"answer": 0,
-"explain": "PMI protects the lender against losses when borrowers have low down payments and default; it does not protect the borrower.",
-"optionExplanations": [
-"Correct: PMI protects lender default risk.",
-"Incorrect: PMI does not insure the borrower against price declines.",
-"Incorrect: commissions are not insured by PMI.",
-"Incorrect: property taxes are not covered by PMI."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a common sign of 'predatory lending'?",
-"options": [
-"Fees and terms that are not clearly disclosed and are excessively costly",
-"A loan with a written contract",
-"A lender that checks your income",
-"A loan with a fixed interest rate"
-],
-"answer": 0,
-"explain": "Predatory lending often involves deceptive or unfair terms, hidden fees, and unaffordable costs for the borrower.",
-"optionExplanations": [
-"Correct: lack of transparency and excessive costs are red flags.",
-"Incorrect: written contracts are normal; the issue is unfair/deceptive terms.",
-"Incorrect: verifying income is standard underwriting.",
-"Incorrect: fixed rates are not inherently predatory."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of account is primarily intended for day-to-day transactions?",
-"options": [
-"Checking account",
-"Certificate of deposit",
-"Treasury bond",
-"Retirement annuity"
-],
-"answer": 0,
-"explain": "Checking accounts are designed for frequent deposits, withdrawals, and payments.",
-"optionExplanations": [
-"Correct: checking is transactional.",
-"Incorrect: CDs are time deposits with limits/penalties.",
-"Incorrect: bonds are investments, not transaction accounts.",
-"Incorrect: annuities are long-term contracts."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a 'balance transfer' on a credit card?",
-"options": [
-"Moving an existing debt balance from one card to another, often to seek a lower rate",
-"Transferring money from checking to savings",
-"Paying your statement balance in full",
-"Raising your credit limit automatically"
-],
-"answer": 0,
-"explain": "Balance transfers shift revolving debt to a new card, sometimes with promotional APR terms.",
-"optionExplanations": [
-"Correct: debt moved between cards.",
-"Incorrect: that's a bank transfer, not balance transfer.",
-"Incorrect: paying in full is repayment, not transfer.",
-"Incorrect: credit limits do not automatically increase from a transfer."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If a credit card offers 0% APR for 12 months on balance transfers, what fee is still commonly charged?",
-"options": [
-"A balance transfer fee (often a percentage of the amount transferred)",
-"A mandatory annual tax payment",
-"A mortgage origination fee",
-"A vehicle registration fee"
-],
-"answer": 0,
-"explain": "Promotional APR offers often still include a balance transfer fee, commonly around 3%-5% depending on issuer and offer.",
-"optionExplanations": [
-"Correct: balance transfers commonly have percentage fees.",
-"Incorrect: taxes are unrelated.",
-"Incorrect: origination fees relate to loans, not cards.",
-"Incorrect: registration fees relate to vehicles."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'principal' mean in a loan context?",
-"options": [
-"The original amount borrowed or the remaining unpaid balance before interest",
-"The monthly interest charge only",
-"The bank's profit",
-"The late fee amount"
-],
-"answer": 0,
-"explain": "Principal is the amount owed excluding interest; payments reduce principal and interest over time.",
-"optionExplanations": [
-"Correct: borrowed amount/unpaid balance excluding interest.",
-"Incorrect: interest is separate from principal.",
-"Incorrect: profit is not the definition.",
-"Incorrect: late fees are separate charges."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which investment account feature most directly improves long-term outcomes by reducing costs, all else equal?",
-"options": [
-"Lower fees/expense ratios",
-"More frequent trading",
-"Higher commissions",
-"Holding concentrated positions"
-],
-"answer": 0,
-"explain": "Lower ongoing fees mean more of the portfolio's return stays invested and compounds over time.",
-"optionExplanations": [
-"Correct: lower costs leave more return to compound.",
-"Incorrect: frequent trading can add costs and taxes.",
-"Incorrect: higher commissions reduce returns.",
-"Incorrect: concentration increases idiosyncratic risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of a 'benefit-cost analysis' for a major financial decision?",
-"options": [
-"Compare expected benefits to total costs to decide if the choice is worthwhile",
-"Guarantee the cheapest option is always best",
-"Replace the need for a budget",
-"Determine your credit score"
-],
-"answer": 0,
-"explain": "Benefit-cost analysis weighs the expected value of benefits against all relevant costs (including opportunity costs) to inform decisions.",
-"optionExplanations": [
-"Correct: systematic comparison of benefits and costs.",
-"Incorrect: cheapest is not always best; value matters.",
-"Incorrect: budgets serve different purposes.",
-"Incorrect: credit scores are unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is an example of 'systematic risk' that diversification cannot fully eliminate?",
-"options": [
-"A broad market recession",
-"One company losing a lawsuit",
-"A single stock price drop due to bad earnings",
-"A specific bank account being hacked"
-],
-"answer": 0,
-"explain": "Systematic risk affects the entire market (e.g., recessions) and cannot be diversified away like company-specific risk.",
-"optionExplanations": [
-"Correct: market-wide downturn is systematic.",
-"Incorrect: a lawsuit is company-specific risk.",
-"Incorrect: bad earnings for one company is unsystematic risk.",
-"Incorrect: hacking is an operational/security risk, not market systematic risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is 'rebalancing' in portfolio management?",
-"options": [
-"Adjusting holdings back toward a target asset allocation",
-"Buying only assets that went up last week",
-"Selling everything during a downturn",
-"Switching all holdings to cash permanently"
-],
-"answer": 0,
-"explain": "Rebalancing restores the intended mix of assets after market moves change weights, helping manage risk.",
-"optionExplanations": [
-"Correct: bring weights back to target.",
-"Incorrect: chasing recent winners is not rebalancing.",
-"Incorrect: selling everything is liquidation, not rebalancing.",
-"Incorrect: permanent cash shift is a strategy change, not rebalancing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes a 'tax-advantaged' account?",
-"options": [
-"An account that provides tax benefits such as deduction, deferral, or tax-free qualified withdrawals",
-"Any account with a high interest rate",
-"An account that is illegal to report",
-"An account that guarantees refunds"
-],
-"answer": 0,
-"explain": "Tax-advantaged accounts are structured by law to provide specific tax benefits for certain purposes (retirement, health, education).",
-"optionExplanations": [
-"Correct: defined by tax benefits.",
-"Incorrect: interest rate alone does not create tax advantage.",
-"Incorrect: illegal/non-reported accounts are not tax-advantaged by definition.",
-"Incorrect: no account guarantees refunds."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the most direct reason a financial planner may recommend insurance as part of a plan?",
-"options": [
-"To transfer certain financial risks to an insurer for a premium",
-"To increase investment volatility",
-"To raise credit utilization",
-"To ensure all spending categories are variable"
-],
-"answer": 0,
-"explain": "Insurance transfers risk of large losses (medical, liability, property, death, disability) in exchange for premiums.",
-"optionExplanations": [
-"Correct: risk transfer mechanism.",
-"Incorrect: insurance is generally for risk reduction, not volatility increase.",
-"Incorrect: utilization is unrelated.",
-"Incorrect: insurance does not affect whether expenses are variable."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "When evaluating job offers, which compensation element is most likely to affect long-term retirement savings directly?",
-"options": [
-"Employer retirement match percentage",
-"Free snacks",
-"Office dress code",
-"Parking lot size"
-],
-"answer": 0,
-"explain": "Employer matches increase retirement contributions, boosting long-term savings and compounding.",
-"optionExplanations": [
-"Correct: match adds money to retirement savings.",
-"Incorrect: snacks have minimal long-term financial impact.",
-"Incorrect: dress code is not a retirement lever.",
-"Incorrect: parking size is unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best description of 'financial risk capacity'?",
-"options": [
-"How much risk you can afford to take based on income, assets, and obligations",
-"How exciting an investment feels",
-"The legal maximum risk allowed",
-"A measure of stock dividends"
-],
-"answer": 0,
-"explain": "Risk capacity is the objective ability to take risk without jeopardizing goals, separate from emotional risk tolerance.",
-"optionExplanations": [
-"Correct: affordability of risk given finances.",
-"Incorrect: excitement is not a planning metric.",
-"Incorrect: no universal legal maximum in this sense.",
-"Incorrect: dividends are unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of setting a financial 'time horizon' for a goal?",
-"options": [
-"To choose appropriate risk level and investment choices based on when the money is needed",
-"To determine your credit score",
-"To set your employer's pay rate",
-"To calculate sales tax"
-],
-"answer": 0,
-"explain": "Time horizon affects suitable risk and liquidity; shorter horizons usually require more stability and liquidity.",
-"optionExplanations": [
-"Correct: timing drives risk/liquidity choices.",
-"Incorrect: credit score is unrelated.",
-"Incorrect: pay rates are not set by your horizon.",
-"Incorrect: sales tax is unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes 'liquidity risk' in a personal financial plan?",
-"options": [
-"The risk of needing cash but having assets that cannot be quickly converted without loss",
-"The risk that inflation becomes zero",
-"The risk that a credit card offers rewards",
-"The risk that a bank prints money"
-],
-"answer": 0,
-"explain": "Liquidity risk is the chance you cannot access cash quickly because assets are illiquid or would require selling at a discount.",
-"optionExplanations": [
-"Correct: difficulty converting to cash when needed.",
-"Incorrect: inflation levels are separate.",
-"Incorrect: rewards programs are not a risk concept here.",
-"Incorrect: money printing is a macroeconomic concept, not personal liquidity risk definition."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes a 'tax-advantaged' account?",
-"options": [
-"An account that provides tax benefits such as deduction, deferral, or tax-free qualified withdrawals",
-"Any account with a high interest rate",
-"An account that is illegal to report",
-"An account that guarantees refunds"
-],
-"answer": 0,
-"explain": "Tax-advantaged accounts are structured by law to provide specific tax benefits for certain purposes (retirement, health, education).",
-"optionExplanations": [
-"Correct: defined by tax benefits.",
-"Incorrect: interest rate alone does not create tax advantage.",
-"Incorrect: illegal/non-reported accounts are not tax-advantaged by definition.",
-"Incorrect: no account guarantees refunds."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is 'rebalancing' in portfolio management?",
-"options": [
-"Adjusting holdings back toward a target asset allocation",
-"Buying only assets that went up last week",
-"Selling everything during a downturn",
-"Switching all holdings to cash permanently"
-],
-"answer": 0,
-"explain": "Rebalancing restores the intended mix of assets after market moves change weights, helping manage risk.",
-"optionExplanations": [
-"Correct: bring weights back to target.",
-"Incorrect: chasing recent winners is not rebalancing.",
-"Incorrect: selling everything is liquidation, not rebalancing.",
-"Incorrect: permanent cash shift is a strategy change, not rebalancing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is an example of 'systematic risk' that diversification cannot fully eliminate?",
-"options": [
-"A broad market recession",
-"One company losing a lawsuit",
-"A single stock price drop due to bad earnings",
-"A specific bank account being hacked"
-],
-"answer": 0,
-"explain": "Systematic risk affects the entire market (e.g., recessions) and cannot be diversified away like company-specific risk.",
-"optionExplanations": [
-"Correct: market-wide downturn is systematic.",
-"Incorrect: a lawsuit is company-specific risk.",
-"Incorrect: bad earnings for one company is unsystematic risk.",
-"Incorrect: hacking is an operational/security risk, not market systematic risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the primary purpose of a 'benefit-cost analysis' for a major financial decision?",
-"options": [
-"Compare expected benefits to total costs to decide if the choice is worthwhile",
-"Guarantee the cheapest option is always best",
-"Replace the need for a budget",
-"Determine your credit score"
-],
-"answer": 0,
-"explain": "Benefit-cost analysis weighs the expected value of benefits against all relevant costs (including opportunity costs) to inform decisions.",
-"optionExplanations": [
-"Correct: systematic comparison of benefits and costs.",
-"Incorrect: cheapest is not always best; value matters.",
-"Incorrect: budgets serve different purposes.",
-"Incorrect: credit scores are unrelated."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which investment account feature most directly improves long-term outcomes by reducing costs, all else equal?",
-"options": [
-"Lower fees/expense ratios",
-"More frequent trading",
-"Higher commissions",
-"Holding concentrated positions"
-],
-"answer": 0,
-"explain": "Lower ongoing fees mean more of the portfolio's return stays invested and compounds over time.",
-"optionExplanations": [
-"Correct: lower costs leave more return to compound.",
-"Incorrect: frequent trading can add costs and taxes.",
-"Incorrect: higher commissions reduce returns.",
-"Incorrect: concentration increases idiosyncratic risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does 'principal' mean in a loan context?",
-"options": [
-"The original amount borrowed or the remaining unpaid balance before interest",
-"The monthly interest charge only",
-"The bank's profit",
-"The late fee amount"
-],
-"answer": 0,
-"explain": "Principal is the amount owed excluding interest; payments reduce principal and interest over time.",
-"optionExplanations": [
-"Correct: borrowed amount/unpaid balance excluding interest.",
-"Incorrect: interest is separate from principal.",
-"Incorrect: profit is not the definition.",
-"Incorrect: late fees are separate charges."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If a credit card offers 0% APR for 12 months on balance transfers, what fee is still commonly charged?",
-"options": [
-"A balance transfer fee (often a percentage of the amount transferred)",
-"A mandatory annual tax payment",
-"A mortgage origination fee",
-"A vehicle registration fee"
-],
-"answer": 0,
-"explain": "Promotional APR offers often still include a balance transfer fee, commonly around 3%-5% depending on issuer and offer.",
-"optionExplanations": [
-"Correct: balance transfers commonly have percentage fees.",
-"Incorrect: taxes are unrelated.",
-"Incorrect: origination fees relate to loans, not cards.",
-"Incorrect: registration fees relate to vehicles."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is a 'balance transfer' on a credit card?",
-"options": [
-"Moving an existing debt balance from one card to another, often to seek a lower rate",
-"Transferring money from checking to savings",
-"Paying your statement balance in full",
-"Raising your credit limit automatically"
-],
-"answer": 0,
-"explain": "Balance transfers shift revolving debt to a new card, sometimes with promotional APR terms.",
-"optionExplanations": [
-"Correct: debt moved between cards.",
-"Incorrect: that's a bank transfer, not balance transfer.",
-"Incorrect: paying in full is repayment, not transfer.",
-"Incorrect: credit limits do not automatically increase from a transfer."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of account is primarily intended for day-to-day transactions?",
-"options": [
-"Checking account",
-"Certificate of deposit",
-"Treasury bond",
-"Retirement annuity"
-],
-"answer": 0,
-"explain": "Checking accounts are designed for frequent deposits, withdrawals, and payments.",
-"optionExplanations": [
-"Correct: checking is transactional.",
-"Incorrect: CDs are time deposits with limits/penalties.",
-"Incorrect: bonds are investments, not transaction accounts.",
-"Incorrect: annuities are long-term contracts."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is a common sign of 'predatory lending'?",
-"options": [
-"Fees and terms that are not clearly disclosed and are excessively costly",
-"A loan with a written contract",
-"A lender that checks your income",
-"A loan with a fixed interest rate"
-],
-"answer": 0,
-"explain": "Predatory lending often involves deceptive or unfair terms, hidden fees, and unaffordable costs for the borrower.",
-"optionExplanations": [
-"Correct: lack of transparency and excessive costs are red flags.",
-"Incorrect: written contracts are normal; the issue is unfair/deceptive terms.",
-"Incorrect: verifying income is standard underwriting.",
-"Incorrect: fixed rates are not inherently predatory."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What does PMI (private mortgage insurance) typically protect?",
-"options": [
-"The lender if the borrower defaults",
-"The borrower if home prices fall",
-"The real estate agent's commission",
-"The homeowner's property tax bill"
-],
-"answer": 0,
-"explain": "PMI protects the lender against losses when borrowers have low down payments and default; it does not protect the borrower.",
-"optionExplanations": [
-"Correct: PMI protects lender default risk.",
-"Incorrect: PMI does not insure the borrower against price declines.",
-"Incorrect: commissions are not insured by PMI.",
-"Incorrect: property taxes are not covered by PMI."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If you make a larger down payment on a home, the most direct effect is usually:",
-"options": [
-"A smaller loan amount and potentially lower monthly payment",
-"A higher loan-to-value ratio",
-"A guaranteed higher home price",
-"A required higher interest rate"
-],
-"answer": 0,
-"explain": "A bigger down payment reduces principal borrowed, often lowering monthly payments and loan-to-value.",
-"optionExplanations": [
-"Correct: less borrowed reduces payment burden.",
-"Incorrect: LTV generally decreases, not increases.",
-"Incorrect: down payment does not set the sale price.",
-"Incorrect: larger down payments can sometimes help rates, not require higher rates."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is typically considered a 'variable interest rate' product?",
-"options": [
-"Adjustable-rate mortgage",
-"30-year fixed mortgage",
-"Fixed-rate student loan",
-"Fixed annuity payout"
-],
-"answer": 0,
-"explain": "An adjustable-rate mortgage has an interest rate that can change based on an index and adjustment rules.",
-"optionExplanations": [
-"Correct: ARM rate varies.",
-"Incorrect: fixed mortgage rate does not change.",
-"Incorrect: fixed-rate loans do not change rates.",
-"Incorrect: fixed payouts are not variable rate products."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main reason to compare 'net pay' rather than 'gross pay' when building a monthly budget?",
-"options": [
-"Net pay reflects the money actually available after deductions",
-"Gross pay includes overtime only",
-"Net pay is always higher than gross pay",
-"Gross pay excludes benefits"
-],
-"answer": 0,
-"explain": "Budgets are paid with take-home pay; net pay accounts for taxes and other payroll deductions.",
-"optionExplanations": [
-"Correct: net is spendable take-home.",
-"Incorrect: gross pay can include overtime too.",
-"Incorrect: net is usually lower due to deductions.",
-"Incorrect: gross pay may or may not exclude benefits depending on context; the key is deductions."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement about FDIC insurance is generally correct for U.S. bank deposits?",
-"options": [
-"It protects depositors up to certain limits if the bank fails",
-"It guarantees stock market returns",
-"It covers losses from identity theft",
-"It applies to crypto assets held on an exchange"
-],
-"answer": 0,
-"explain": "FDIC insurance covers eligible bank deposit accounts up to coverage limits if an insured bank fails.",
-"optionExplanations": [
-"Correct: protects deposits if the bank fails.",
-"Incorrect: it does not cover investments like stocks.",
-"Incorrect: identity theft losses are not what FDIC insures.",
-"Incorrect: FDIC does not generally insure crypto exchange holdings."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of a 'spending cap' category in a budget?",
-"options": [
-"Set a maximum amount you will spend in that category",
-"Guarantee the lowest price for purchases",
-"Increase your credit score automatically",
-"Eliminate the need to track transactions"
-],
-"answer": 0,
-"explain": "A spending cap sets a limit so you can control variable expenses and avoid overspending.",
-"optionExplanations": [
-"Correct: cap = maximum allowed spend.",
-"Incorrect: it does not guarantee prices.",
-"Incorrect: budgeting may help indirectly, but it does not automatically raise scores.",
-"Incorrect: caps still require tracking to enforce."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "In budgeting, the '50/30/20 rule' usually allocates 20% of after-tax income to:",
-"options": [
-"Savings and debt repayment",
-"Housing only",
-"Entertainment only",
-"Taxes only"
-],
-"answer": 0,
-"explain": "Under the 50/30/20 guideline, 20% typically goes to savings and debt payments, with 50% needs and 30% wants.",
-"optionExplanations": [
-"Correct: 20% = savings/debt goals.",
-"Incorrect: housing is part of needs, not the 20% bucket.",
-"Incorrect: entertainment is in wants.",
-"Incorrect: taxes are not the 20% bucket in the common framing."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which account is most commonly used in the U.S. to save for qualified education expenses with tax advantages?",
-"options": [
-"529 plan",
-"Roth IRA",
-"Checking account",
-"Auto loan"
-],
-"answer": 0,
-"explain": "529 plans are designed for education savings and can offer tax advantages for qualified expenses.",
-"optionExplanations": [
-"Correct: 529 is education-focused.",
-"Incorrect: Roth IRAs are primarily retirement accounts.",
-"Incorrect: checking offers no special education tax treatment.",
-"Incorrect: a loan is borrowing, not saving."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A mutual fund's 'expense ratio' represents:",
-"options": [
-"Annual fund operating fees as a percentage of assets",
-"The fund's guaranteed return",
-"The amount of taxes withheld",
-"The number of shares outstanding"
-],
-"answer": 0,
-"explain": "Expense ratios are ongoing fees charged by the fund, expressed as a percentage of assets under management.",
-"optionExplanations": [
-"Correct: ongoing annual fee percentage.",
-"Incorrect: fees do not guarantee return.",
-"Incorrect: withholding is payroll-related, not fund fees.",
-"Incorrect: shares outstanding is separate."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is 'credit risk' for a bond investor?",
-"options": [
-"The risk the issuer will fail to make interest or principal payments",
-"The risk that inflation falls",
-"The risk that bond prices never change",
-"The risk that dividends are reduced"
-],
-"answer": 0,
-"explain": "Credit risk is default risk: the issuer might not pay as promised.",
-"optionExplanations": [
-"Correct: issuer default/nonpayment risk.",
-"Incorrect: inflation risk is different.",
-"Incorrect: bond prices can change; this is not a defined risk.",
-"Incorrect: dividends are for stocks, not bonds."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If an investor wants lower interest-rate risk in a bond portfolio, they would generally choose bonds with:",
-"options": [
-"Shorter maturities",
-"Longer maturities",
-"Higher coupons only",
-"Lower credit quality"
-],
-"answer": 0,
-"explain": "Shorter-maturity bonds are less sensitive to interest rate changes than longer-maturity bonds.",
-"optionExplanations": [
-"Correct: shorter duration reduces rate sensitivity.",
-"Incorrect: longer maturities increase rate risk.",
-"Incorrect: coupon level alone does not remove rate risk.",
-"Incorrect: lower credit quality increases credit risk."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which term describes the maximum amount an insurer will pay for a covered loss?",
-"options": [
-"Policy limit",
-"Premium",
-"Deductible",
-"Coinsurance"
-],
-"answer": 0,
-"explain": "A policy limit is the cap on the insurer's payout for a covered claim.",
-"optionExplanations": [
-"Correct: limit is the maximum payout.",
-"Incorrect: premium is what you pay for coverage.",
-"Incorrect: deductible is what you pay first.",
-"Incorrect: coinsurance is a cost-sharing percentage in some policies."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of an umbrella insurance policy?",
-"options": [
-"Provide additional liability coverage above underlying policy limits",
-"Cover routine doctor visits",
-"Insure the market value of stocks",
-"Eliminate the need for auto insurance"
-],
-"answer": 0,
-"explain": "Umbrella policies add extra liability protection once underlying auto/home limits are exhausted.",
-"optionExplanations": [
-"Correct: extra liability layer.",
-"Incorrect: routine health expenses are not umbrella coverage.",
-"Incorrect: investments are not insured this way.",
-"Incorrect: umbrella requires underlying coverage; it does not replace it."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which type of insurance protects you if you are sued for causing injury or property damage to someone else?",
-"options": [
-"Liability insurance",
-"Gap insurance",
-"Comprehensive auto insurance",
-"Warranty coverage"
-],
-"answer": 0,
-"explain": "Liability insurance covers claims for damages you are legally responsible for causing to others.",
-"optionExplanations": [
-"Correct: liability covers third-party claims.",
-"Incorrect: gap covers difference between car value and loan balance after total loss.",
-"Incorrect: comprehensive covers non-collision damage to your car.",
-"Incorrect: warranties cover product repairs, not lawsuits."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes 'liquidity risk' in a personal financial plan?",
-"options": [
-"The risk of needing cash but having assets that cannot be quickly converted without loss",
-"The risk that inflation becomes zero",
-"The risk that a credit card offers rewards",
-"The risk that a bank prints money"
-],
-"answer": 0,
-"explain": "Liquidity risk is the chance you cannot access cash quickly because assets are illiquid or would require selling at a discount.",
-"optionExplanations": [
-"Correct: difficulty converting to cash when needed.",
-"Incorrect: inflation levels are separate.",
-"Incorrect: rewards programs are not a risk concept here.",
-"Incorrect: money printing is a macroeconomic concept, not personal liquidity risk definition."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which of the following is most likely to be considered a 'fixed expense' in a monthly budget?",
-"options": [
-"Rent payment",
-"Groceries",
-"Gasoline",
-"Entertainment"
-],
-"answer": 0,
-"explain": "Fixed expenses are consistent from month to month; rent is often the same amount, unlike variable categories.",
-"optionExplanations": [
-"Correct: rent is typically fixed for the lease term.",
-"Incorrect: groceries vary.",
-"Incorrect: gasoline varies with usage and prices.",
-"Incorrect: entertainment is discretionary and variable."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "What is the main purpose of a personal balance sheet in financial planning?",
-"options": [
-"To list assets and liabilities at a point in time",
-"To calculate monthly cash flow",
-"To compute interest on a loan",
-"To set a credit card APR"
-],
-"answer": 0,
-"explain": "A personal balance sheet summarizes what you own (assets) and owe (liabilities) at a specific date.",
-"optionExplanations": [
-"Correct: snapshot of assets and debts.",
-"Incorrect: cash flow is income vs expenses over a period.",
-"Incorrect: interest computation is separate.",
-"Incorrect: APR is set by lenders, not balance sheets."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which action best helps align a financial plan with changing life circumstances?",
-"options": [
-"Review and update the plan periodically",
-"Never change the plan once written",
-"Increase risk by concentrating investments",
-"Ignore inflation assumptions"
-],
-"answer": 0,
-"explain": "Financial plans should be revisited as income, goals, markets, and family needs change.",
-"optionExplanations": [
-"Correct: periodic reviews keep the plan relevant.",
-"Incorrect: rigidity can make the plan outdated.",
-"Incorrect: concentration increases risk and may not match goals.",
-"Incorrect: ignoring inflation can underfund goals."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which is the best example of a short-term financial goal?",
-"options": [
-"Save $600 for a new laptop within 6 months",
-"Save $500,000 for retirement",
-"Pay off a 30-year mortgage",
-"Fund a child's college in 15 years"
-],
-"answer": 0,
-"explain": "Short-term goals are typically within a year; saving for a laptop in 6 months fits that timeframe.",
-"optionExplanations": [
-"Correct: 6 months is short-term.",
-"Incorrect: retirement is long-term.",
-"Incorrect: mortgages are long-term.",
-"Incorrect: college funding over 15 years is long-term."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "If someone's assets total $40,000 and liabilities total $55,000, what is their net worth?",
-"options": [
-"- $15,000",
-"$15,000",
-"$95,000",
-"$0"
-],
-"answer": 0,
-"explain": "Net worth equals assets minus liabilities: $40,000 - $55,000 = -$15,000.",
-"optionExplanations": [
-"Correct: 40,000 - 55,000 = -15,000.",
-"Incorrect: sign is wrong.",
-"Incorrect: that adds instead of subtracting.",
-"Incorrect: it is not zero unless assets equal liabilities."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which statement best describes net worth?",
-"options": [
-"Assets minus liabilities",
-"Income minus taxes",
-"Savings minus investments",
-"Expenses minus income"
-],
-"answer": 0,
-"explain": "Net worth is calculated by subtracting total liabilities from total assets.",
-"optionExplanations": [
-"Correct: assets - liabilities.",
-"Incorrect: income minus taxes is after-tax income.",
-"Incorrect: savings and investments are both assets; subtracting them is not net worth.",
-"Incorrect: expenses minus income is the negative of cash flow."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "A SMART financial goal should be:",
-"options": [
-"Specific, Measurable, Achievable, Relevant, Time-bound",
-"Safe, Marketable, Aggressive, Risk-free, Tax-free",
-"Simple, Minimal, Automatic, Random, Temporary",
-"Savings-only, Mortgage-only, Asset-only, Retirement-only, Travel-only"
-],
-"answer": 0,
-"explain": "SMART is a common framework for writing goals that can be tracked and executed over time.",
-"optionExplanations": [
-"Correct: the standard SMART acronym.",
-"Incorrect: not the SMART framework.",
-"Incorrect: not SMART.",
-"Incorrect: not SMART."
-],
-"source": "generated-bespoke"
-},
-{
-"q": "Which step is typically first in the personal financial planning process?",
-"options": [
-"Set measurable financial goals",
-"Buy insurance policies",
-"Select individual stocks",
-"Apply for a mortgage"
-],
-"answer": 0,
-"explain": "Financial planning usually begins by defining goals, constraints, and priorities so later decisions align with objectives.",
-"optionExplanations": [
-"Correct: goal setting drives the plan.",
-"Incorrect: insurance selection comes after risk assessment and goals.",
-"Incorrect: stock selection is later and may not be needed.",
-"Incorrect: borrowing decisions should follow a broader plan."
-],
-"source": "generated-bespoke"
+  "event": "Financial Planning",
+  "questions": [
+    {
+      "q": "In a zero-based budget, how much of your monthly income should remain unassigned at the end of the budgeting process?",
+      "options": [
+        "$0",
+        "At least 10%",
+        "At least $100",
+        "Only discretionary income"
+      ],
+      "answer": 0,
+      "explain": "A zero-based budget allocates every dollar of income to a category so the remaining unassigned amount is zero.",
+      "optionExplanations": [
+        "Correct: zero-based means income minus allocations equals $0.",
+        "Incorrect: saving can be a category, but the goal is not leaving income unassigned.",
+        "Incorrect: a fixed leftover dollar amount is not the definition.",
+        "Incorrect: discretionary money is also assigned (e.g., entertainment)."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which budget category is most directly used to plan for irregular, predictable expenses such as annual insurance premiums?",
+      "options": [
+        "Sinking fund",
+        "Emergency fund",
+        "Checking account buffer",
+        "Debt snowball"
+      ],
+      "answer": 0,
+      "explain": "A sinking fund is set aside gradually for a known future expense that occurs irregularly.",
+      "optionExplanations": [
+        "Correct: sinking funds cover planned irregular expenses.",
+        "Incorrect: emergency funds are for unexpected disruptions.",
+        "Incorrect: a buffer is a small cushion for timing, not a planned annual bill.",
+        "Incorrect: debt snowball is a repayment method."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of an emergency fund in a personal financial plan?",
+      "options": [
+        "To cover unexpected essential expenses",
+        "To maximize investment returns",
+        "To avoid paying sales tax",
+        "To increase credit utilization"
+      ],
+      "answer": 0,
+      "explain": "Emergency funds provide liquidity to handle unexpected essential costs (job loss, medical bills, urgent repairs) without new debt.",
+      "optionExplanations": [
+        "Correct: it is a cash reserve for surprises.",
+        "Incorrect: investing focuses on return, not short-term stability.",
+        "Incorrect: taxes are unrelated.",
+        "Incorrect: higher utilization usually hurts credit scores."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a worker receives a 3% raise and prices rise 4% over the same period, what happens to the worker's purchasing power (real income)?",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It stays the same",
+        "It becomes negative"
+      ],
+      "answer": 0,
+      "explain": "Purchasing power depends on real (inflation-adjusted) income; a 3% raise below 4% inflation reduces real income.",
+      "optionExplanations": [
+        "Correct: real income falls when wage growth < inflation.",
+        "Incorrect: that would require the raise to exceed inflation.",
+        "Incorrect: equal rates would keep it the same.",
+        "Incorrect: income does not become negative from inflation alone."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which tool best helps track where money actually went after the month ends?",
+      "options": [
+        "Spending log (expense tracking)",
+        "Net worth statement",
+        "Insurance declaration page",
+        "Mortgage amortization schedule"
+      ],
+      "answer": 0,
+      "explain": "Expense tracking records transactions so you can compare actual spending to your plan.",
+      "optionExplanations": [
+        "Correct: logs categorize actual spending.",
+        "Incorrect: net worth shows assets minus liabilities at a point in time.",
+        "Incorrect: declarations list insurance coverage terms.",
+        "Incorrect: amortization schedules show loan principal/interest over time."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A common guideline suggests keeping an emergency fund equal to how many months of essential expenses?",
+      "options": [
+        "3 to 6 months",
+        "1 to 2 weeks",
+        "12 to 18 months",
+        "Exactly 1 month"
+      ],
+      "answer": 0,
+      "explain": "Many personal finance recommendations start with 3-6 months of essential expenses for typical households.",
+      "optionExplanations": [
+        "Correct: this is the commonly cited starter range.",
+        "Incorrect: weeks are usually too small for job loss or major repairs.",
+        "Incorrect: that range may be appropriate for special cases but is not the common baseline.",
+        "Incorrect: one month is often a minimum starting goal, not the guideline range."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the most liquid asset?",
+      "options": [
+        "Cash in a checking account",
+        "A certificate of deposit with an early-withdrawal penalty",
+        "A house",
+        "A collectible artwork"
+      ],
+      "answer": 0,
+      "explain": "Liquidity is how quickly an asset can be used for payments without significant loss; checking cash is immediately spendable.",
+      "optionExplanations": [
+        "Correct: checking funds are available on demand.",
+        "Incorrect: CDs are less liquid due to penalties/terms.",
+        "Incorrect: selling a house takes time and costs.",
+        "Incorrect: collectibles can be hard to sell quickly at fair value."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'pay yourself first' usually mean in a saving plan?",
+      "options": [
+        "Automatically saving before spending on non-essentials",
+        "Paying bills in alphabetical order",
+        "Using credit before cash",
+        "Only saving if money is left over"
+      ],
+      "answer": 0,
+      "explain": "It means prioritizing savings (often via automatic transfers) before discretionary spending occurs.",
+      "optionExplanations": [
+        "Correct: automate saving early in the cash flow.",
+        "Incorrect: bill order is unrelated.",
+        "Incorrect: using credit first is not the idea.",
+        "Incorrect: saving only leftovers typically reduces consistency."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ratio is commonly used to assess short-term financial resilience?",
+      "options": [
+        "Liquidity ratio (liquid assets / monthly expenses)",
+        "Debt-to-income ratio",
+        "Price-to-earnings ratio",
+        "Inventory turnover"
+      ],
+      "answer": 0,
+      "explain": "Liquidity ratio compares liquid assets to monthly expenses to estimate how long you can cover bills without income.",
+      "optionExplanations": [
+        "Correct: that ratio measures short-term coverage.",
+        "Incorrect: DTI is about debt burden relative to income.",
+        "Incorrect: P/E is for valuing stocks.",
+        "Incorrect: inventory turnover is a business metric."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a budget shows a monthly deficit, which change most directly fixes it without borrowing?",
+      "options": [
+        "Reduce expenses or increase income",
+        "Increase credit card limits",
+        "Delay paying all bills",
+        "Move money from a retirement account penalty-free"
+      ],
+      "answer": 0,
+      "explain": "A deficit means spending exceeds income; the sustainable fix is lowering spending and/or raising income.",
+      "optionExplanations": [
+        "Correct: the deficit is solved by changing cash flow.",
+        "Incorrect: more credit does not change income vs spending.",
+        "Incorrect: skipping bills creates late fees and may worsen the deficit.",
+        "Incorrect: early retirement withdrawals can trigger taxes/penalties and are not penalty-free."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the key difference between simple interest and compound interest?",
+      "options": [
+        "Compound interest earns interest on previously earned interest",
+        "Simple interest changes the interest rate each month",
+        "Compound interest has no principal",
+        "Simple interest only applies to loans"
+      ],
+      "answer": 0,
+      "explain": "Compound interest includes interest-on-interest, while simple interest is calculated only on the principal.",
+      "optionExplanations": [
+        "Correct: compounding adds interest on accumulated interest.",
+        "Incorrect: rate changes are separate from simple vs compound.",
+        "Incorrect: both have principal.",
+        "Incorrect: both can apply to savings or loans depending on product."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If interest is compounded monthly, how many compounding periods occur in one year?",
+      "options": [
+        "12",
+        "1",
+        "4",
+        "365"
+      ],
+      "answer": 0,
+      "explain": "Monthly compounding means interest is applied 12 times per year.",
+      "optionExplanations": [
+        "Correct: 12 months in a year.",
+        "Incorrect: that would be annual compounding.",
+        "Incorrect: that would be quarterly compounding.",
+        "Incorrect: that would be daily compounding."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does APY (annual percentage yield) include that APR may not?",
+      "options": [
+        "The effect of compounding",
+        "The borrower's credit score",
+        "The bank's profit margin",
+        "Only the nominal rate"
+      ],
+      "answer": 0,
+      "explain": "APY reflects compounding over a year, while APR is often a nominal annual rate without compounding effects.",
+      "optionExplanations": [
+        "Correct: APY accounts for compounding.",
+        "Incorrect: credit score affects offered rates but is not built into APY definition.",
+        "Incorrect: profit margin is not the definition.",
+        "Incorrect: nominal rate is closer to APR, not APY."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action increases the effective annual return on a savings account, assuming the stated rate is unchanged?",
+      "options": [
+        "More frequent compounding",
+        "Withdrawing interest each month",
+        "Increasing account fees",
+        "Reducing the number of compounding periods"
+      ],
+      "answer": 0,
+      "explain": "Holding the nominal rate constant, more frequent compounding increases effective yield.",
+      "optionExplanations": [
+        "Correct: more compounding increases effective return.",
+        "Incorrect: withdrawing reduces the balance available to compound.",
+        "Incorrect: fees reduce net return.",
+        "Incorrect: fewer compounding periods reduce effective yield."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A 'high-yield' savings account is typically best used for money that is:",
+      "options": [
+        "Needed in the short term but should earn interest",
+        "Locked away for decades",
+        "Intended for high-risk growth",
+        "Only for paying taxes"
+      ],
+      "answer": 0,
+      "explain": "High-yield savings is liquid and lower risk, suitable for short-term goals and reserves.",
+      "optionExplanations": [
+        "Correct: liquid savings for near-term needs.",
+        "Incorrect: decades-long goals are often better matched to long-term investments.",
+        "Incorrect: savings accounts are not high-risk growth vehicles.",
+        "Incorrect: it can be used for taxes, but that is not the typical defining use."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which factor is generally the largest component of a FICO credit score?",
+      "options": [
+        "Payment history",
+        "Number of credit inquiries",
+        "Type of residence",
+        "Marital status"
+      ],
+      "answer": 0,
+      "explain": "Payment history is typically the most heavily weighted factor in FICO scoring models.",
+      "optionExplanations": [
+        "Correct: on-time payments matter most.",
+        "Incorrect: inquiries matter but usually less than payment history.",
+        "Incorrect: residence type is not a scoring factor.",
+        "Incorrect: marital status is not used."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is 'credit utilization' on revolving credit?",
+      "options": [
+        "Balance divided by credit limit",
+        "Credit limit divided by balance",
+        "Number of accounts divided by income",
+        "Interest rate divided by balance"
+      ],
+      "answer": 0,
+      "explain": "Utilization is the proportion of available revolving credit that is being used.",
+      "optionExplanations": [
+        "Correct: balance / limit.",
+        "Incorrect: inverse ratio.",
+        "Incorrect: not a standard definition.",
+        "Incorrect: unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which utilization level is generally considered better for credit scores, all else equal?",
+      "options": [
+        "Below 30%",
+        "Exactly 50%",
+        "Above 80%",
+        "Any level is identical"
+      ],
+      "answer": 0,
+      "explain": "Lower utilization signals less reliance on revolving debt; many guidelines cite keeping it under about 30%.",
+      "optionExplanations": [
+        "Correct: under ~30% is commonly recommended.",
+        "Incorrect: 50% is higher and often worse.",
+        "Incorrect: 80% is usually considered high risk.",
+        "Incorrect: utilization is a score factor."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If you pay only the minimum on a credit card balance, what is the most likely outcome?",
+      "options": [
+        "You pay more total interest over time",
+        "Your APR immediately drops to 0%",
+        "The balance is forgiven after 12 months",
+        "Your credit limit is automatically reduced to $0"
+      ],
+      "answer": 0,
+      "explain": "Minimum payments extend repayment time, causing more interest to accrue.",
+      "optionExplanations": [
+        "Correct: slower payoff increases interest cost.",
+        "Incorrect: APR does not drop to 0% just for paying minimum.",
+        "Incorrect: balances are not automatically forgiven.",
+        "Incorrect: limits are not automatically reduced to zero by rule."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the 'debt snowball' repayment method?",
+      "options": [
+        "Paying off the smallest balances first while paying minimums on others",
+        "Paying off the highest interest rate first",
+        "Consolidating all debts into a mortgage",
+        "Not paying any debt until you can pay it all at once"
+      ],
+      "answer": 0,
+      "explain": "Debt snowball prioritizes smallest balances to build momentum, while maintaining minimum payments on other debts.",
+      "optionExplanations": [
+        "Correct: smallest balance first.",
+        "Incorrect: highest rate first is the debt avalanche.",
+        "Incorrect: mortgage consolidation is not the method definition.",
+        "Incorrect: delaying payments creates defaults and fees."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the 'debt avalanche' repayment method?",
+      "options": [
+        "Paying off the highest interest rate debt first",
+        "Paying off the newest debt first",
+        "Paying off debts in random order",
+        "Refinancing every debt monthly"
+      ],
+      "answer": 0,
+      "explain": "Debt avalanche prioritizes the highest APR debt first to minimize interest cost.",
+      "optionExplanations": [
+        "Correct: highest rate first.",
+        "Incorrect: not the definition.",
+        "Incorrect: not a method.",
+        "Incorrect: frequent refinancing is not the method and often impossible."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which loan feature most directly reduces the total interest paid, assuming the interest rate is unchanged?",
+      "options": [
+        "Making extra principal payments",
+        "Choosing a longer term",
+        "Skipping the first payment",
+        "Using interest-only payments"
+      ],
+      "answer": 0,
+      "explain": "Extra principal payments reduce the outstanding balance faster, lowering interest accrual over the life of the loan.",
+      "optionExplanations": [
+        "Correct: principal reduction lowers future interest.",
+        "Incorrect: longer terms usually increase total interest.",
+        "Incorrect: skipping a payment typically adds interest/fees.",
+        "Incorrect: interest-only delays principal payoff and raises total interest."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a secured loan?",
+      "options": [
+        "A loan backed by collateral",
+        "A loan with no credit check",
+        "A loan with zero interest",
+        "A loan offered only to businesses"
+      ],
+      "answer": 0,
+      "explain": "Secured loans are backed by collateral that the lender can claim if the borrower defaults.",
+      "optionExplanations": [
+        "Correct: collateral-backed.",
+        "Incorrect: credit checks may still occur; not the definition.",
+        "Incorrect: secured does not mean zero interest.",
+        "Incorrect: individuals also use secured loans (auto, mortgage)."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is an example of unsecured debt?",
+      "options": [
+        "Credit card balance",
+        "Auto loan",
+        "Mortgage",
+        "Pawn loan"
+      ],
+      "answer": 0,
+      "explain": "Credit cards are typically unsecured; auto loans, mortgages, and pawn loans are secured by collateral.",
+      "optionExplanations": [
+        "Correct: credit cards are usually not collateral-backed.",
+        "Incorrect: auto loans are secured by the vehicle.",
+        "Incorrect: mortgages are secured by the home.",
+        "Incorrect: pawn loans are secured by the pawned item."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A loan's amortization schedule shows:",
+      "options": [
+        "How each payment is split between interest and principal over time",
+        "The borrower's credit score over time",
+        "The home's market value forecast",
+        "The tax bracket for each year"
+      ],
+      "answer": 0,
+      "explain": "Amortization schedules detail payment breakdown and remaining balance across the loan term.",
+      "optionExplanations": [
+        "Correct: interest vs principal split.",
+        "Incorrect: credit scores are unrelated.",
+        "Incorrect: market value is not part of amortization.",
+        "Incorrect: taxes are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'refinancing' most directly mean for a borrower?",
+      "options": [
+        "Replacing an existing loan with a new loan, often with different terms",
+        "Paying a loan using a credit card",
+        "Skipping payments without penalties",
+        "Transferring collateral ownership to the bank"
+      ],
+      "answer": 0,
+      "explain": "Refinancing replaces the current loan with a new one, potentially changing rate, term, or payment.",
+      "optionExplanations": [
+        "Correct: new loan replaces old.",
+        "Incorrect: that's a payment method, not refinancing.",
+        "Incorrect: skipping payments is delinquency.",
+        "Incorrect: collateral transfer is foreclosure/repossession, not refinancing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a potential downside of extending a loan term when refinancing?",
+      "options": [
+        "You may pay more total interest",
+        "Your monthly payment always increases",
+        "Your interest rate must become variable",
+        "The loan becomes automatically forgiven"
+      ],
+      "answer": 0,
+      "explain": "A longer term can lower monthly payments but often increases total interest paid over the life of the loan.",
+      "optionExplanations": [
+        "Correct: more time for interest to accrue.",
+        "Incorrect: longer terms often decrease the monthly payment.",
+        "Incorrect: rates can be fixed or variable; not required.",
+        "Incorrect: loans are not forgiven by extending term."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main difference between a fixed-rate and an adjustable-rate mortgage (ARM)?",
+      "options": [
+        "The interest rate can change on an ARM after an initial period",
+        "A fixed-rate mortgage has no closing costs",
+        "An ARM cannot be refinanced",
+        "A fixed-rate mortgage always has a shorter term"
+      ],
+      "answer": 0,
+      "explain": "Fixed-rate mortgages keep the same rate; ARMs can adjust based on an index after a set period.",
+      "optionExplanations": [
+        "Correct: ARM rates can change later.",
+        "Incorrect: both can have closing costs.",
+        "Incorrect: ARMs can often be refinanced.",
+        "Incorrect: term length varies for both."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best helps avoid paying credit card interest in most billing cycles?",
+      "options": [
+        "Pay the statement balance in full by the due date",
+        "Make the minimum payment early",
+        "Open a second credit card",
+        "Request a higher APR"
+      ],
+      "answer": 0,
+      "explain": "Paying the full statement balance by the due date typically avoids interest on purchases during the grace period.",
+      "optionExplanations": [
+        "Correct: full statement balance avoids purchase interest in many cases.",
+        "Incorrect: minimum payments still leave a balance accruing interest.",
+        "Incorrect: more cards do not prevent interest on an unpaid balance.",
+        "Incorrect: higher APR increases interest cost."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A 'hard inquiry' is usually created when you:",
+      "options": [
+        "Apply for new credit",
+        "Pay a bill online",
+        "Check your own credit score",
+        "Receive a bank statement"
+      ],
+      "answer": 0,
+      "explain": "Hard inquiries are generated by lenders when you apply for credit and they review your report for underwriting.",
+      "optionExplanations": [
+        "Correct: credit application triggers lender pull.",
+        "Incorrect: bill pay does not create inquiries.",
+        "Incorrect: checking your own score is a soft inquiry.",
+        "Incorrect: statements do not create inquiries."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a credit report dispute process?",
+      "options": [
+        "To correct inaccurate information on a credit report",
+        "To raise your credit limit automatically",
+        "To eliminate all debt",
+        "To change your tax filing status"
+      ],
+      "answer": 0,
+      "explain": "Disputes allow consumers to challenge errors so credit bureaus and furnishers can investigate and correct inaccuracies.",
+      "optionExplanations": [
+        "Correct: disputes fix errors.",
+        "Incorrect: limits are set by issuers, not disputes.",
+        "Incorrect: disputes do not erase valid debt.",
+        "Incorrect: tax status is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If you cosign a loan, you are:",
+      "options": [
+        "Legally responsible for repayment if the primary borrower does not pay",
+        "Guaranteed a lower interest rate on your own loans",
+        "Entitled to the borrowed cash",
+        "Protected from any credit impact"
+      ],
+      "answer": 0,
+      "explain": "Cosigners share liability; missed payments can affect the cosigner's credit and the lender can seek repayment from them.",
+      "optionExplanations": [
+        "Correct: cosigner shares responsibility.",
+        "Incorrect: no guaranteed benefit on other loans.",
+        "Incorrect: cosigning does not grant ownership of funds.",
+        "Incorrect: cosigners can be impacted."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes a 'grace period' on many credit cards?",
+      "options": [
+        "Time to pay the statement balance without interest on new purchases if paid in full",
+        "A period when minimum payments are optional",
+        "Time when late fees are waived even if you pay nothing",
+        "A period when your APR is permanently reduced"
+      ],
+      "answer": 0,
+      "explain": "Many cards offer a grace period on purchases when the previous statement balance is paid in full by the due date.",
+      "optionExplanations": [
+        "Correct: interest-free window on purchases with full payment conditions.",
+        "Incorrect: minimum payments are still required to avoid delinquency.",
+        "Incorrect: not paying still triggers late fees and interest.",
+        "Incorrect: grace periods do not permanently reduce APR."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main reason diversification can reduce investment risk?",
+      "options": [
+        "Different assets may not move together, reducing the impact of any single loss",
+        "It guarantees a positive return",
+        "It eliminates inflation",
+        "It prevents all market downturns"
+      ],
+      "answer": 0,
+      "explain": "Holding assets with imperfect correlation can reduce portfolio volatility because losses in one may be offset by gains in another.",
+      "optionExplanations": [
+        "Correct: correlation effects reduce concentration risk.",
+        "Incorrect: diversification does not guarantee gains.",
+        "Incorrect: it does not remove inflation.",
+        "Incorrect: it cannot prevent market declines."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which investment is generally considered the most volatile?",
+      "options": [
+        "Individual stocks",
+        "U.S. Treasury bills",
+        "FDIC-insured savings accounts",
+        "Certificates of deposit held to maturity"
+      ],
+      "answer": 0,
+      "explain": "Individual stocks can fluctuate significantly based on company and market factors, making them more volatile than cash-like products.",
+      "optionExplanations": [
+        "Correct: single-company stocks can swing widely.",
+        "Incorrect: T-bills are short-term government debt with low volatility if held to maturity.",
+        "Incorrect: insured savings is stable.",
+        "Incorrect: CDs held to maturity have predictable principal/interest."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'asset allocation' refer to?",
+      "options": [
+        "How a portfolio is divided among asset classes like stocks, bonds, and cash",
+        "Choosing the best single stock",
+        "Timing the market daily",
+        "Only investing in local companies"
+      ],
+      "answer": 0,
+      "explain": "Asset allocation is the mix of asset classes, which strongly influences risk and return.",
+      "optionExplanations": [
+        "Correct: allocation across asset classes.",
+        "Incorrect: picking one stock is security selection.",
+        "Incorrect: market timing is not allocation.",
+        "Incorrect: geographic focus is not the definition."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A bond's 'coupon rate' is:",
+      "options": [
+        "The stated interest rate paid on the bond's face value",
+        "The price the bond sells for on the market",
+        "The number of years until maturity",
+        "The tax rate on bond interest"
+      ],
+      "answer": 0,
+      "explain": "Coupon rate is the annual interest payment as a percentage of the bond's par (face) value.",
+      "optionExplanations": [
+        "Correct: coupon = stated interest on par.",
+        "Incorrect: price can differ from par.",
+        "Incorrect: maturity is time until repayment.",
+        "Incorrect: taxes depend on jurisdiction and bond type."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If market interest rates rise, what typically happens to the price of existing bonds with fixed coupons?",
+      "options": [
+        "Their prices fall",
+        "Their prices rise",
+        "Their prices stay exactly the same",
+        "They are automatically converted to stocks"
+      ],
+      "answer": 0,
+      "explain": "When new bonds offer higher yields, older fixed-coupon bonds become less attractive, so their market prices generally fall to match yields.",
+      "optionExplanations": [
+        "Correct: price and yields move inversely for fixed-rate bonds.",
+        "Incorrect: rising rates usually push fixed bond prices down.",
+        "Incorrect: prices can change with rates.",
+        "Incorrect: bonds are not converted to stocks."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an index fund designed to do?",
+      "options": [
+        "Track the performance of a market index",
+        "Guarantee returns above the market",
+        "Avoid owning any securities",
+        "Only invest in bonds"
+      ],
+      "answer": 0,
+      "explain": "Index funds aim to match an index's holdings/returns (before fees) rather than beat it through active selection.",
+      "optionExplanations": [
+        "Correct: replicate an index.",
+        "Incorrect: no guarantee to outperform.",
+        "Incorrect: index funds hold securities.",
+        "Incorrect: indexes can represent many asset classes, not only bonds."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a typical advantage of ETFs compared with traditional mutual funds?",
+      "options": [
+        "They can trade intraday like stocks",
+        "They always have lower risk",
+        "They are never taxed",
+        "They cannot be diversified"
+      ],
+      "answer": 0,
+      "explain": "ETFs trade throughout the day on exchanges, while many mutual funds transact once per day at NAV.",
+      "optionExplanations": [
+        "Correct: intraday trading is a key structural difference.",
+        "Incorrect: risk depends on holdings.",
+        "Incorrect: ETFs can still have tax consequences.",
+        "Incorrect: ETFs can be highly diversified."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is dollar-cost averaging?",
+      "options": [
+        "Investing a fixed amount at regular intervals regardless of price",
+        "Investing only when prices are at their peak",
+        "Borrowing money to invest",
+        "Selling winners and keeping losers"
+      ],
+      "answer": 0,
+      "explain": "Dollar-cost averaging spreads purchases over time, reducing the risk of investing a lump sum at an unfavorable price.",
+      "optionExplanations": [
+        "Correct: fixed periodic investing.",
+        "Incorrect: peaks are not the strategy.",
+        "Incorrect: borrowing to invest is leverage/margin.",
+        "Incorrect: selling winners/keeping losers is not DCA."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which retirement account type is typically funded with after-tax dollars and can offer tax-free qualified withdrawals?",
+      "options": [
+        "Roth IRA",
+        "Traditional IRA",
+        "Taxable brokerage account",
+        "401(k) loan"
+      ],
+      "answer": 0,
+      "explain": "Roth IRAs are funded with after-tax contributions; qualified withdrawals in retirement are generally tax-free under current rules.",
+      "optionExplanations": [
+        "Correct: Roth structure = after-tax in, tax-free qualified out.",
+        "Incorrect: traditional IRAs are often pre-tax or deductible with taxable withdrawals.",
+        "Incorrect: taxable accounts do not provide tax-free qualified retirement withdrawals by default.",
+        "Incorrect: a 401(k) loan is borrowing from a plan, not an account type."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A 'target-date fund' generally adjusts its holdings by:",
+      "options": [
+        "Becoming more conservative as the target year approaches",
+        "Becoming more aggressive as the target year approaches",
+        "Switching from stocks to collectibles",
+        "Eliminating all bonds immediately"
+      ],
+      "answer": 0,
+      "explain": "Target-date funds follow a glide path that usually shifts from higher stock allocation to more bonds/cash as retirement nears.",
+      "optionExplanations": [
+        "Correct: glide path toward lower risk near target date.",
+        "Incorrect: most become less aggressive, not more.",
+        "Incorrect: collectibles are not the defining shift.",
+        "Incorrect: they typically do not eliminate bonds; they often add them."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary role of inflation in retirement planning?",
+      "options": [
+        "It reduces the future purchasing power of fixed dollar amounts",
+        "It guarantees higher investment returns",
+        "It eliminates the need for saving",
+        "It makes all debts costless"
+      ],
+      "answer": 0,
+      "explain": "Inflation means future dollars buy less, so retirement goals must account for higher future costs.",
+      "optionExplanations": [
+        "Correct: inflation erodes purchasing power.",
+        "Incorrect: returns are not guaranteed to beat inflation.",
+        "Incorrect: inflation does not remove the need to save.",
+        "Incorrect: inflation can reduce real debt burden but does not make debts costless."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'risk tolerance' describe in investing?",
+      "options": [
+        "How much investment loss an investor can emotionally and financially withstand",
+        "The guaranteed return an investor expects",
+        "The legal limit on brokerage accounts",
+        "The bond coupon rate"
+      ],
+      "answer": 0,
+      "explain": "Risk tolerance combines ability and willingness to accept volatility and potential losses.",
+      "optionExplanations": [
+        "Correct: tolerance for volatility/loss.",
+        "Incorrect: no returns are guaranteed.",
+        "Incorrect: not a legal limit term.",
+        "Incorrect: unrelated to bond coupon."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric measures an investment's return relative to risk by using excess return over a risk-free rate per unit of volatility?",
+      "options": [
+        "Sharpe ratio",
+        "Current ratio",
+        "Gross margin",
+        "Beta coefficient"
+      ],
+      "answer": 0,
+      "explain": "The Sharpe ratio is (portfolio return - risk-free rate) divided by return standard deviation.",
+      "optionExplanations": [
+        "Correct: Sharpe uses excess return per unit volatility.",
+        "Incorrect: current ratio is liquidity for businesses.",
+        "Incorrect: gross margin is profitability.",
+        "Incorrect: beta measures market sensitivity, not excess return per volatility."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a brokerage account 'dividend'?",
+      "options": [
+        "A distribution of a company's profits to shareholders",
+        "A fee charged for holding stocks",
+        "A guaranteed interest payment from the government",
+        "The principal repayment of a bond"
+      ],
+      "answer": 0,
+      "explain": "Dividends are payments a corporation may make to shareholders from profits/retained earnings, typically in cash or stock.",
+      "optionExplanations": [
+        "Correct: dividends are shareholder distributions.",
+        "Incorrect: fees are separate (commissions/expense ratios).",
+        "Incorrect: government interest relates to bonds, not dividends.",
+        "Incorrect: bond principal repayment is redemption at maturity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about capital gains tax is generally true in the U.S. context?",
+      "options": [
+        "Long-term gains are often taxed at different rates than short-term gains",
+        "Capital gains are never taxed",
+        "All gains are taxed the same regardless of holding period",
+        "Capital gains apply only to wages"
+      ],
+      "answer": 0,
+      "explain": "U.S. tax rules typically distinguish long-term (held >1 year) from short-term gains, often with different rates.",
+      "optionExplanations": [
+        "Correct: holding period can change the tax rate.",
+        "Incorrect: gains can be taxable depending on account type and rules.",
+        "Incorrect: holding period often matters.",
+        "Incorrect: wages are ordinary income, not capital gains."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a deductible in an insurance policy?",
+      "options": [
+        "The amount the policyholder pays before insurance coverage begins paying",
+        "The monthly premium paid to the insurer",
+        "The maximum the insurer will ever pay",
+        "A fee for canceling the policy"
+      ],
+      "answer": 0,
+      "explain": "A deductible is the out-of-pocket amount the insured must pay on a covered claim before the insurer pays benefits.",
+      "optionExplanations": [
+        "Correct: pay this first on a claim.",
+        "Incorrect: premium is the regular payment for coverage.",
+        "Incorrect: maximum insurer payment is a policy limit.",
+        "Incorrect: cancellation fees are separate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of insurance is specifically designed to replace income if you cannot work due to illness or injury?",
+      "options": [
+        "Disability insurance",
+        "Liability insurance",
+        "Collision insurance",
+        "Title insurance"
+      ],
+      "answer": 0,
+      "explain": "Disability insurance provides income replacement when a covered disability prevents working.",
+      "optionExplanations": [
+        "Correct: income replacement coverage.",
+        "Incorrect: liability covers legal responsibility to others.",
+        "Incorrect: collision covers vehicle damage from crashes.",
+        "Incorrect: title insurance protects against property title defects."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of term life insurance?",
+      "options": [
+        "Provide a death benefit for a specific time period at typically lower cost",
+        "Build cash value for borrowing",
+        "Cover car repairs after accidents",
+        "Guarantee investment returns"
+      ],
+      "answer": 0,
+      "explain": "Term life insurance provides coverage for a set term (e.g., 10-30 years) and usually has no cash value component.",
+      "optionExplanations": [
+        "Correct: time-limited death benefit.",
+        "Incorrect: cash value is associated with permanent life policies.",
+        "Incorrect: car repairs are auto insurance.",
+        "Incorrect: life insurance is not an investment guarantee."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In auto insurance, 'liability coverage' primarily pays for:",
+      "options": [
+        "Injuries and property damage you cause to others",
+        "Repairs to your own car regardless of fault",
+        "Routine maintenance like oil changes",
+        "Traffic tickets and fines"
+      ],
+      "answer": 0,
+      "explain": "Liability insurance covers damages you are legally responsible for causing to other people or their property.",
+      "optionExplanations": [
+        "Correct: pays others' damages when you are at fault.",
+        "Incorrect: that is collision/comprehensive or other coverages.",
+        "Incorrect: maintenance is not insurable in standard auto policies.",
+        "Incorrect: tickets/fines are generally not covered."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of renters insurance?",
+      "options": [
+        "Cover personal belongings and liability in a rented home",
+        "Pay the landlord's mortgage",
+        "Cover the building structure owned by the landlord",
+        "Replace health insurance"
+      ],
+      "answer": 0,
+      "explain": "Renters insurance typically covers a tenant's personal property and liability; the building is usually insured by the landlord.",
+      "optionExplanations": [
+        "Correct: tenant belongings + liability.",
+        "Incorrect: it does not pay the landlord's mortgage.",
+        "Incorrect: building coverage is typically the owner's policy.",
+        "Incorrect: it does not replace health insurance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which document best summarizes your taxable income and withholding from an employer in the U.S.?",
+      "options": [
+        "Form W-2",
+        "Form 1099-INT",
+        "Form 1040-ES",
+        "Form 941"
+      ],
+      "answer": 0,
+      "explain": "A W-2 reports wages and tax withholding for employees; 1099-INT reports interest; 1040-ES is estimated tax; 941 is employer payroll reporting.",
+      "optionExplanations": [
+        "Correct: W-2 is the employee wage/withholding form.",
+        "Incorrect: 1099-INT is for interest income.",
+        "Incorrect: 1040-ES is used to pay estimated taxes.",
+        "Incorrect: 941 is filed by employers for payroll taxes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of withholding on a paycheck?",
+      "options": [
+        "Prepay income taxes throughout the year",
+        "Increase take-home pay",
+        "Avoid filing a tax return",
+        "Eliminate all tax liability"
+      ],
+      "answer": 0,
+      "explain": "Withholding is a pay-as-you-go system that sends part of wages to the government to cover expected tax liability.",
+      "optionExplanations": [
+        "Correct: it prepays taxes.",
+        "Incorrect: withholding reduces take-home pay.",
+        "Incorrect: many people still must file returns.",
+        "Incorrect: it does not automatically eliminate liability; it estimates it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is generally considered a 'needs' expense in a basic budget?",
+      "options": [
+        "Rent or housing payment",
+        "Streaming subscriptions",
+        "Concert tickets",
+        "Upgrading a phone annually"
+      ],
+      "answer": 0,
+      "explain": "Needs are essential for living and working; housing is a core need compared with discretionary entertainment or upgrades.",
+      "optionExplanations": [
+        "Correct: housing is typically essential.",
+        "Incorrect: streaming is discretionary.",
+        "Incorrect: concerts are discretionary.",
+        "Incorrect: frequent phone upgrades are usually discretionary."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is 'opportunity cost' in personal finance?",
+      "options": [
+        "The value of the best alternative you give up when choosing an option",
+        "The fee for using an ATM",
+        "The interest charged on a loan",
+        "The legal cost of a contract"
+      ],
+      "answer": 0,
+      "explain": "Opportunity cost is the benefit you forgo by not selecting the next-best alternative.",
+      "optionExplanations": [
+        "Correct: foregone alternative value.",
+        "Incorrect: ATM fees are explicit costs, not opportunity cost.",
+        "Incorrect: interest is borrowing cost, not opportunity cost definition.",
+        "Incorrect: legal costs are explicit costs."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice most directly reduces the risk of identity theft affecting your credit report?",
+      "options": [
+        "Placing a credit freeze with major credit bureaus",
+        "Keeping a higher credit card balance",
+        "Sharing your Social Security number by email",
+        "Using the same password everywhere"
+      ],
+      "answer": 0,
+      "explain": "A credit freeze restricts new creditors from accessing your report, making it harder to open new accounts fraudulently.",
+      "optionExplanations": [
+        "Correct: freeze blocks most new-account openings.",
+        "Incorrect: higher balances do not reduce identity risk.",
+        "Incorrect: sharing SSN by email increases risk.",
+        "Incorrect: reused passwords increase account compromise risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In estate planning, a 'beneficiary designation' is most commonly used to specify who receives:",
+      "options": [
+        "Certain accounts like life insurance proceeds and retirement accounts",
+        "Your monthly utility bills",
+        "Your credit card points only",
+        "Your vehicle's maintenance records"
+      ],
+      "answer": 0,
+      "explain": "Beneficiary designations direct who receives proceeds from specific financial products, often outside the will process.",
+      "optionExplanations": [
+        "Correct: life insurance/retirement accounts often use beneficiaries.",
+        "Incorrect: bills are obligations, not distributed assets.",
+        "Incorrect: points may have separate rules and are not the standard meaning.",
+        "Incorrect: records are not a distributable financial asset."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main advantage of using a will in financial planning?",
+      "options": [
+        "It provides instructions for distributing assets after death",
+        "It guarantees assets avoid probate",
+        "It replaces the need for insurance",
+        "It automatically reduces income tax rates"
+      ],
+      "answer": 0,
+      "explain": "A will states how assets should be distributed; some assets may still go through probate depending on jurisdiction and ownership.",
+      "optionExplanations": [
+        "Correct: distribution instructions.",
+        "Incorrect: a will does not necessarily avoid probate.",
+        "Incorrect: insurance serves different risks.",
+        "Incorrect: wills do not change income tax rates."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which retirement plan feature refers to an employer matching some of an employee's contributions?",
+      "options": [
+        "Employer match",
+        "Expense ratio",
+        "Vesting schedule",
+        "Call provision"
+      ],
+      "answer": 0,
+      "explain": "An employer match is when the employer contributes to the plan based on the employee's contributions, often up to a limit.",
+      "optionExplanations": [
+        "Correct: match = employer contributions tied to employee contributions.",
+        "Incorrect: expense ratio is a fund fee.",
+        "Incorrect: vesting is ownership timing of employer contributions.",
+        "Incorrect: call provisions relate to bonds."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'vesting' typically determine in an employer-sponsored retirement plan?",
+      "options": [
+        "When the employee fully owns employer contributions",
+        "The investment's daily price",
+        "Whether the account earns interest",
+        "The tax filing deadline"
+      ],
+      "answer": 0,
+      "explain": "Vesting schedules set when employer contributions become the employee's nonforfeitable property.",
+      "optionExplanations": [
+        "Correct: ownership of employer contributions over time.",
+        "Incorrect: pricing is market-driven.",
+        "Incorrect: interest depends on investments, not vesting.",
+        "Incorrect: tax deadlines are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of account is typically used for tax-advantaged health expenses in the U.S. when paired with a high-deductible health plan?",
+      "options": [
+        "Health Savings Account (HSA)",
+        "529 plan",
+        "UTMA account",
+        "Certificate of deposit"
+      ],
+      "answer": 0,
+      "explain": "HSAs are designed for qualified medical expenses and are generally associated with high-deductible health plans.",
+      "optionExplanations": [
+        "Correct: HSA for medical costs with HDHP.",
+        "Incorrect: 529 plans are for education.",
+        "Incorrect: UTMA is a custodial account for minors.",
+        "Incorrect: CDs are savings products without health-specific tax rules."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which step is typically first in the personal financial planning process?",
+      "options": [
+        "Set measurable financial goals",
+        "Buy insurance policies",
+        "Select individual stocks",
+        "Apply for a mortgage"
+      ],
+      "answer": 0,
+      "explain": "Financial planning usually begins by defining goals, constraints, and priorities so later decisions align with objectives.",
+      "optionExplanations": [
+        "Correct: goal setting drives the plan.",
+        "Incorrect: insurance selection comes after risk assessment and goals.",
+        "Incorrect: stock selection is later and may not be needed.",
+        "Incorrect: borrowing decisions should follow a broader plan."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A SMART financial goal should be:",
+      "options": [
+        "Specific, Measurable, Achievable, Relevant, Time-bound",
+        "Safe, Marketable, Aggressive, Risk-free, Tax-free",
+        "Simple, Minimal, Automatic, Random, Temporary",
+        "Savings-only, Mortgage-only, Asset-only, Retirement-only, Travel-only"
+      ],
+      "answer": 0,
+      "explain": "SMART is a common framework for writing goals that can be tracked and executed over time.",
+      "optionExplanations": [
+        "Correct: the standard SMART acronym.",
+        "Incorrect: not the SMART framework.",
+        "Incorrect: not SMART.",
+        "Incorrect: not SMART."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes net worth?",
+      "options": [
+        "Assets minus liabilities",
+        "Income minus taxes",
+        "Savings minus investments",
+        "Expenses minus income"
+      ],
+      "answer": 0,
+      "explain": "Net worth is calculated by subtracting total liabilities from total assets.",
+      "optionExplanations": [
+        "Correct: assets - liabilities.",
+        "Incorrect: income minus taxes is after-tax income.",
+        "Incorrect: savings and investments are both assets; subtracting them is not net worth.",
+        "Incorrect: expenses minus income is the negative of cash flow."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If someone's assets total $40,000 and liabilities total $55,000, what is their net worth?",
+      "options": [
+        "- $15,000",
+        "$15,000",
+        "$95,000",
+        "$0"
+      ],
+      "answer": 0,
+      "explain": "Net worth equals assets minus liabilities: $40,000 - $55,000 = -$15,000.",
+      "optionExplanations": [
+        "Correct: 40,000 - 55,000 = -15,000.",
+        "Incorrect: sign is wrong.",
+        "Incorrect: that adds instead of subtracting.",
+        "Incorrect: it is not zero unless assets equal liabilities."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of a short-term financial goal?",
+      "options": [
+        "Save $600 for a new laptop within 6 months",
+        "Save $500,000 for retirement",
+        "Pay off a 30-year mortgage",
+        "Fund a child's college in 15 years"
+      ],
+      "answer": 0,
+      "explain": "Short-term goals are typically within a year; saving for a laptop in 6 months fits that timeframe.",
+      "optionExplanations": [
+        "Correct: 6 months is short-term.",
+        "Incorrect: retirement is long-term.",
+        "Incorrect: mortgages are long-term.",
+        "Incorrect: college funding over 15 years is long-term."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best helps align a financial plan with changing life circumstances?",
+      "options": [
+        "Review and update the plan periodically",
+        "Never change the plan once written",
+        "Increase risk by concentrating investments",
+        "Ignore inflation assumptions"
+      ],
+      "answer": 0,
+      "explain": "Financial plans should be revisited as income, goals, markets, and family needs change.",
+      "optionExplanations": [
+        "Correct: periodic reviews keep the plan relevant.",
+        "Incorrect: rigidity can make the plan outdated.",
+        "Incorrect: concentration increases risk and may not match goals.",
+        "Incorrect: ignoring inflation can underfund goals."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of a personal balance sheet in financial planning?",
+      "options": [
+        "To list assets and liabilities at a point in time",
+        "To calculate monthly cash flow",
+        "To compute interest on a loan",
+        "To set a credit card APR"
+      ],
+      "answer": 0,
+      "explain": "A personal balance sheet summarizes what you own (assets) and owe (liabilities) at a specific date.",
+      "optionExplanations": [
+        "Correct: snapshot of assets and debts.",
+        "Incorrect: cash flow is income vs expenses over a period.",
+        "Incorrect: interest computation is separate.",
+        "Incorrect: APR is set by lenders, not balance sheets."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is most likely to be considered a 'fixed expense' in a monthly budget?",
+      "options": [
+        "Rent payment",
+        "Groceries",
+        "Gasoline",
+        "Entertainment"
+      ],
+      "answer": 0,
+      "explain": "Fixed expenses are consistent from month to month; rent is often the same amount, unlike variable categories.",
+      "optionExplanations": [
+        "Correct: rent is typically fixed for the lease term.",
+        "Incorrect: groceries vary.",
+        "Incorrect: gasoline varies with usage and prices.",
+        "Incorrect: entertainment is discretionary and variable."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of setting a financial 'time horizon' for a goal?",
+      "options": [
+        "To choose appropriate risk level and investment choices based on when the money is needed",
+        "To determine your credit score",
+        "To set your employer's pay rate",
+        "To calculate sales tax"
+      ],
+      "answer": 0,
+      "explain": "Time horizon affects suitable risk and liquidity; shorter horizons usually require more stability and liquidity.",
+      "optionExplanations": [
+        "Correct: timing drives risk/liquidity choices.",
+        "Incorrect: credit score is unrelated.",
+        "Incorrect: pay rates are not set by your horizon.",
+        "Incorrect: sales tax is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes 'liquidity risk' in a personal financial plan?",
+      "options": [
+        "The risk of needing cash but having assets that cannot be quickly converted without loss",
+        "The risk that inflation becomes zero",
+        "The risk that a credit card offers rewards",
+        "The risk that a bank prints money"
+      ],
+      "answer": 0,
+      "explain": "Liquidity risk is the chance you cannot access cash quickly because assets are illiquid or would require selling at a discount.",
+      "optionExplanations": [
+        "Correct: difficulty converting to cash when needed.",
+        "Incorrect: inflation levels are separate.",
+        "Incorrect: rewards programs are not a risk concept here.",
+        "Incorrect: money printing is a macroeconomic concept, not personal liquidity risk definition."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of insurance protects you if you are sued for causing injury or property damage to someone else?",
+      "options": [
+        "Liability insurance",
+        "Gap insurance",
+        "Comprehensive auto insurance",
+        "Warranty coverage"
+      ],
+      "answer": 0,
+      "explain": "Liability insurance covers claims for damages you are legally responsible for causing to others.",
+      "optionExplanations": [
+        "Correct: liability covers third-party claims.",
+        "Incorrect: gap covers difference between car value and loan balance after total loss.",
+        "Incorrect: comprehensive covers non-collision damage to your car.",
+        "Incorrect: warranties cover product repairs, not lawsuits."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of an umbrella insurance policy?",
+      "options": [
+        "Provide additional liability coverage above underlying policy limits",
+        "Cover routine doctor visits",
+        "Insure the market value of stocks",
+        "Eliminate the need for auto insurance"
+      ],
+      "answer": 0,
+      "explain": "Umbrella policies add extra liability protection once underlying auto/home limits are exhausted.",
+      "optionExplanations": [
+        "Correct: extra liability layer.",
+        "Incorrect: routine health expenses are not umbrella coverage.",
+        "Incorrect: investments are not insured this way.",
+        "Incorrect: umbrella requires underlying coverage; it does not replace it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the maximum amount an insurer will pay for a covered loss?",
+      "options": [
+        "Policy limit",
+        "Premium",
+        "Deductible",
+        "Coinsurance"
+      ],
+      "answer": 0,
+      "explain": "A policy limit is the cap on the insurer's payout for a covered claim.",
+      "optionExplanations": [
+        "Correct: limit is the maximum payout.",
+        "Incorrect: premium is what you pay for coverage.",
+        "Incorrect: deductible is what you pay first.",
+        "Incorrect: coinsurance is a cost-sharing percentage in some policies."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an investor wants lower interest-rate risk in a bond portfolio, they would generally choose bonds with:",
+      "options": [
+        "Shorter maturities",
+        "Longer maturities",
+        "Higher coupons only",
+        "Lower credit quality"
+      ],
+      "answer": 0,
+      "explain": "Shorter-maturity bonds are less sensitive to interest rate changes than longer-maturity bonds.",
+      "optionExplanations": [
+        "Correct: shorter duration reduces rate sensitivity.",
+        "Incorrect: longer maturities increase rate risk.",
+        "Incorrect: coupon level alone does not remove rate risk.",
+        "Incorrect: lower credit quality increases credit risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is 'credit risk' for a bond investor?",
+      "options": [
+        "The risk the issuer will fail to make interest or principal payments",
+        "The risk that inflation falls",
+        "The risk that bond prices never change",
+        "The risk that dividends are reduced"
+      ],
+      "answer": 0,
+      "explain": "Credit risk is default risk: the issuer might not pay as promised.",
+      "optionExplanations": [
+        "Correct: issuer default/nonpayment risk.",
+        "Incorrect: inflation risk is different.",
+        "Incorrect: bond prices can change; this is not a defined risk.",
+        "Incorrect: dividends are for stocks, not bonds."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A mutual fund's 'expense ratio' represents:",
+      "options": [
+        "Annual fund operating fees as a percentage of assets",
+        "The fund's guaranteed return",
+        "The amount of taxes withheld",
+        "The number of shares outstanding"
+      ],
+      "answer": 0,
+      "explain": "Expense ratios are ongoing fees charged by the fund, expressed as a percentage of assets under management.",
+      "optionExplanations": [
+        "Correct: ongoing annual fee percentage.",
+        "Incorrect: fees do not guarantee return.",
+        "Incorrect: withholding is payroll-related, not fund fees.",
+        "Incorrect: shares outstanding is separate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which account is most commonly used in the U.S. to save for qualified education expenses with tax advantages?",
+      "options": [
+        "529 plan",
+        "Roth IRA",
+        "Checking account",
+        "Auto loan"
+      ],
+      "answer": 0,
+      "explain": "529 plans are designed for education savings and can offer tax advantages for qualified expenses.",
+      "optionExplanations": [
+        "Correct: 529 is education-focused.",
+        "Incorrect: Roth IRAs are primarily retirement accounts.",
+        "Incorrect: checking offers no special education tax treatment.",
+        "Incorrect: a loan is borrowing, not saving."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In budgeting, the '50/30/20 rule' usually allocates 20% of after-tax income to:",
+      "options": [
+        "Savings and debt repayment",
+        "Housing only",
+        "Entertainment only",
+        "Taxes only"
+      ],
+      "answer": 0,
+      "explain": "Under the 50/30/20 guideline, 20% typically goes to savings and debt payments, with 50% needs and 30% wants.",
+      "optionExplanations": [
+        "Correct: 20% = savings/debt goals.",
+        "Incorrect: housing is part of needs, not the 20% bucket.",
+        "Incorrect: entertainment is in wants.",
+        "Incorrect: taxes are not the 20% bucket in the common framing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of a 'spending cap' category in a budget?",
+      "options": [
+        "Set a maximum amount you will spend in that category",
+        "Guarantee the lowest price for purchases",
+        "Increase your credit score automatically",
+        "Eliminate the need to track transactions"
+      ],
+      "answer": 0,
+      "explain": "A spending cap sets a limit so you can control variable expenses and avoid overspending.",
+      "optionExplanations": [
+        "Correct: cap = maximum allowed spend.",
+        "Incorrect: it does not guarantee prices.",
+        "Incorrect: budgeting may help indirectly, but it does not automatically raise scores.",
+        "Incorrect: caps still require tracking to enforce."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about FDIC insurance is generally correct for U.S. bank deposits?",
+      "options": [
+        "It protects depositors up to certain limits if the bank fails",
+        "It guarantees stock market returns",
+        "It covers losses from identity theft",
+        "It applies to crypto assets held on an exchange"
+      ],
+      "answer": 0,
+      "explain": "FDIC insurance covers eligible bank deposit accounts up to coverage limits if an insured bank fails.",
+      "optionExplanations": [
+        "Correct: protects deposits if the bank fails.",
+        "Incorrect: it does not cover investments like stocks.",
+        "Incorrect: identity theft losses are not what FDIC insures.",
+        "Incorrect: FDIC does not generally insure crypto exchange holdings."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main reason to compare 'net pay' rather than 'gross pay' when building a monthly budget?",
+      "options": [
+        "Net pay reflects the money actually available after deductions",
+        "Gross pay includes overtime only",
+        "Net pay is always higher than gross pay",
+        "Gross pay excludes benefits"
+      ],
+      "answer": 0,
+      "explain": "Budgets are paid with take-home pay; net pay accounts for taxes and other payroll deductions.",
+      "optionExplanations": [
+        "Correct: net is spendable take-home.",
+        "Incorrect: gross pay can include overtime too.",
+        "Incorrect: net is usually lower due to deductions.",
+        "Incorrect: gross pay may or may not exclude benefits depending on context; the key is deductions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is typically considered a 'variable interest rate' product?",
+      "options": [
+        "Adjustable-rate mortgage",
+        "30-year fixed mortgage",
+        "Fixed-rate student loan",
+        "Fixed annuity payout"
+      ],
+      "answer": 0,
+      "explain": "An adjustable-rate mortgage has an interest rate that can change based on an index and adjustment rules.",
+      "optionExplanations": [
+        "Correct: ARM rate varies.",
+        "Incorrect: fixed mortgage rate does not change.",
+        "Incorrect: fixed-rate loans do not change rates.",
+        "Incorrect: fixed payouts are not variable rate products."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If you make a larger down payment on a home, the most direct effect is usually:",
+      "options": [
+        "A smaller loan amount and potentially lower monthly payment",
+        "A higher loan-to-value ratio",
+        "A guaranteed higher home price",
+        "A required higher interest rate"
+      ],
+      "answer": 0,
+      "explain": "A bigger down payment reduces principal borrowed, often lowering monthly payments and loan-to-value.",
+      "optionExplanations": [
+        "Correct: less borrowed reduces payment burden.",
+        "Incorrect: LTV generally decreases, not increases.",
+        "Incorrect: down payment does not set the sale price.",
+        "Incorrect: larger down payments can sometimes help rates, not require higher rates."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does PMI (private mortgage insurance) typically protect?",
+      "options": [
+        "The lender if the borrower defaults",
+        "The borrower if home prices fall",
+        "The real estate agent's commission",
+        "The homeowner's property tax bill"
+      ],
+      "answer": 0,
+      "explain": "PMI protects the lender against losses when borrowers have low down payments and default; it does not protect the borrower.",
+      "optionExplanations": [
+        "Correct: PMI protects lender default risk.",
+        "Incorrect: PMI does not insure the borrower against price declines.",
+        "Incorrect: commissions are not insured by PMI.",
+        "Incorrect: property taxes are not covered by PMI."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a common sign of 'predatory lending'?",
+      "options": [
+        "Fees and terms that are not clearly disclosed and are excessively costly",
+        "A loan with a written contract",
+        "A lender that checks your income",
+        "A loan with a fixed interest rate"
+      ],
+      "answer": 0,
+      "explain": "Predatory lending often involves deceptive or unfair terms, hidden fees, and unaffordable costs for the borrower.",
+      "optionExplanations": [
+        "Correct: lack of transparency and excessive costs are red flags.",
+        "Incorrect: written contracts are normal; the issue is unfair/deceptive terms.",
+        "Incorrect: verifying income is standard underwriting.",
+        "Incorrect: fixed rates are not inherently predatory."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of account is primarily intended for day-to-day transactions?",
+      "options": [
+        "Checking account",
+        "Certificate of deposit",
+        "Treasury bond",
+        "Retirement annuity"
+      ],
+      "answer": 0,
+      "explain": "Checking accounts are designed for frequent deposits, withdrawals, and payments.",
+      "optionExplanations": [
+        "Correct: checking is transactional.",
+        "Incorrect: CDs are time deposits with limits/penalties.",
+        "Incorrect: bonds are investments, not transaction accounts.",
+        "Incorrect: annuities are long-term contracts."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a 'balance transfer' on a credit card?",
+      "options": [
+        "Moving an existing debt balance from one card to another, often to seek a lower rate",
+        "Transferring money from checking to savings",
+        "Paying your statement balance in full",
+        "Raising your credit limit automatically"
+      ],
+      "answer": 0,
+      "explain": "Balance transfers shift revolving debt to a new card, sometimes with promotional APR terms.",
+      "optionExplanations": [
+        "Correct: debt moved between cards.",
+        "Incorrect: that's a bank transfer, not balance transfer.",
+        "Incorrect: paying in full is repayment, not transfer.",
+        "Incorrect: credit limits do not automatically increase from a transfer."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a credit card offers 0% APR for 12 months on balance transfers, what fee is still commonly charged?",
+      "options": [
+        "A balance transfer fee (often a percentage of the amount transferred)",
+        "A mandatory annual tax payment",
+        "A mortgage origination fee",
+        "A vehicle registration fee"
+      ],
+      "answer": 0,
+      "explain": "Promotional APR offers often still include a balance transfer fee, commonly around 3%-5% depending on issuer and offer.",
+      "optionExplanations": [
+        "Correct: balance transfers commonly have percentage fees.",
+        "Incorrect: taxes are unrelated.",
+        "Incorrect: origination fees relate to loans, not cards.",
+        "Incorrect: registration fees relate to vehicles."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'principal' mean in a loan context?",
+      "options": [
+        "The original amount borrowed or the remaining unpaid balance before interest",
+        "The monthly interest charge only",
+        "The bank's profit",
+        "The late fee amount"
+      ],
+      "answer": 0,
+      "explain": "Principal is the amount owed excluding interest; payments reduce principal and interest over time.",
+      "optionExplanations": [
+        "Correct: borrowed amount/unpaid balance excluding interest.",
+        "Incorrect: interest is separate from principal.",
+        "Incorrect: profit is not the definition.",
+        "Incorrect: late fees are separate charges."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which investment account feature most directly improves long-term outcomes by reducing costs, all else equal?",
+      "options": [
+        "Lower fees/expense ratios",
+        "More frequent trading",
+        "Higher commissions",
+        "Holding concentrated positions"
+      ],
+      "answer": 0,
+      "explain": "Lower ongoing fees mean more of the portfolio's return stays invested and compounds over time.",
+      "optionExplanations": [
+        "Correct: lower costs leave more return to compound.",
+        "Incorrect: frequent trading can add costs and taxes.",
+        "Incorrect: higher commissions reduce returns.",
+        "Incorrect: concentration increases idiosyncratic risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of a 'benefit-cost analysis' for a major financial decision?",
+      "options": [
+        "Compare expected benefits to total costs to decide if the choice is worthwhile",
+        "Guarantee the cheapest option is always best",
+        "Replace the need for a budget",
+        "Determine your credit score"
+      ],
+      "answer": 0,
+      "explain": "Benefit-cost analysis weighs the expected value of benefits against all relevant costs (including opportunity costs) to inform decisions.",
+      "optionExplanations": [
+        "Correct: systematic comparison of benefits and costs.",
+        "Incorrect: cheapest is not always best; value matters.",
+        "Incorrect: budgets serve different purposes.",
+        "Incorrect: credit scores are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is an example of 'systematic risk' that diversification cannot fully eliminate?",
+      "options": [
+        "A broad market recession",
+        "One company losing a lawsuit",
+        "A single stock price drop due to bad earnings",
+        "A specific bank account being hacked"
+      ],
+      "answer": 0,
+      "explain": "Systematic risk affects the entire market (e.g., recessions) and cannot be diversified away like company-specific risk.",
+      "optionExplanations": [
+        "Correct: market-wide downturn is systematic.",
+        "Incorrect: a lawsuit is company-specific risk.",
+        "Incorrect: bad earnings for one company is unsystematic risk.",
+        "Incorrect: hacking is an operational/security risk, not market systematic risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is 'rebalancing' in portfolio management?",
+      "options": [
+        "Adjusting holdings back toward a target asset allocation",
+        "Buying only assets that went up last week",
+        "Selling everything during a downturn",
+        "Switching all holdings to cash permanently"
+      ],
+      "answer": 0,
+      "explain": "Rebalancing restores the intended mix of assets after market moves change weights, helping manage risk.",
+      "optionExplanations": [
+        "Correct: bring weights back to target.",
+        "Incorrect: chasing recent winners is not rebalancing.",
+        "Incorrect: selling everything is liquidation, not rebalancing.",
+        "Incorrect: permanent cash shift is a strategy change, not rebalancing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes a 'tax-advantaged' account?",
+      "options": [
+        "An account that provides tax benefits such as deduction, deferral, or tax-free qualified withdrawals",
+        "Any account with a high interest rate",
+        "An account that is illegal to report",
+        "An account that guarantees refunds"
+      ],
+      "answer": 0,
+      "explain": "Tax-advantaged accounts are structured by law to provide specific tax benefits for certain purposes (retirement, health, education).",
+      "optionExplanations": [
+        "Correct: defined by tax benefits.",
+        "Incorrect: interest rate alone does not create tax advantage.",
+        "Incorrect: illegal/non-reported accounts are not tax-advantaged by definition.",
+        "Incorrect: no account guarantees refunds."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most direct reason a financial planner may recommend insurance as part of a plan?",
+      "options": [
+        "To transfer certain financial risks to an insurer for a premium",
+        "To increase investment volatility",
+        "To raise credit utilization",
+        "To ensure all spending categories are variable"
+      ],
+      "answer": 0,
+      "explain": "Insurance transfers risk of large losses (medical, liability, property, death, disability) in exchange for premiums.",
+      "optionExplanations": [
+        "Correct: risk transfer mechanism.",
+        "Incorrect: insurance is generally for risk reduction, not volatility increase.",
+        "Incorrect: utilization is unrelated.",
+        "Incorrect: insurance does not affect whether expenses are variable."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When evaluating job offers, which compensation element is most likely to affect long-term retirement savings directly?",
+      "options": [
+        "Employer retirement match percentage",
+        "Free snacks",
+        "Office dress code",
+        "Parking lot size"
+      ],
+      "answer": 0,
+      "explain": "Employer matches increase retirement contributions, boosting long-term savings and compounding.",
+      "optionExplanations": [
+        "Correct: match adds money to retirement savings.",
+        "Incorrect: snacks have minimal long-term financial impact.",
+        "Incorrect: dress code is not a retirement lever.",
+        "Incorrect: parking size is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best description of 'financial risk capacity'?",
+      "options": [
+        "How much risk you can afford to take based on income, assets, and obligations",
+        "How exciting an investment feels",
+        "The legal maximum risk allowed",
+        "A measure of stock dividends"
+      ],
+      "answer": 0,
+      "explain": "Risk capacity is the objective ability to take risk without jeopardizing goals, separate from emotional risk tolerance.",
+      "optionExplanations": [
+        "Correct: affordability of risk given finances.",
+        "Incorrect: excitement is not a planning metric.",
+        "Incorrect: no universal legal maximum in this sense.",
+        "Incorrect: dividends are unrelated."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
 }
-]
-}
-
-SECTION 4 - CHECKLIST_LINE_UPDATE
-
-* [ ] Financial Planning: 0/100 total (official 0 + historical 0; Need 100)
-* [x] Financial Planning: 0/100 total (official 0 + historical 0; Need 100)

@@ -3,7 +3,12 @@
   "questions": [
     {
       "q": "A small boutique sells both clothing and accessories directly to consumers. This business is best classified as:",
-      "options": ["Wholesaler", "Retailer", "Distributor", "Manufacturer"],
+      "options": [
+        "Wholesaler",
+        "Retailer",
+        "Distributor",
+        "Manufacturer"
+      ],
       "answer": 1,
       "explain": "A retailer sells goods directly to the final consumer for personal use, which matches the boutique described.",
       "optionExplanations": [
@@ -16,7 +21,12 @@
     },
     {
       "q": "A store that sells one specific product line, such as only running shoes, is known as a:",
-      "options": ["Department store", "Specialty store", "Discount store", "Outlet store"],
+      "options": [
+        "Department store",
+        "Specialty store",
+        "Discount store",
+        "Outlet store"
+      ],
       "answer": 1,
       "explain": "A specialty store focuses on a narrow product category or specific line, such as only running shoes.",
       "optionExplanations": [
@@ -29,7 +39,12 @@
     },
     {
       "q": "In retail, the term \"loss leader\" refers to:",
-      "options": ["An unprofitable manager", "A product sold at a loss to attract customers", "Merchandise lost to theft", "Obsolete inventory"],
+      "options": [
+        "An unprofitable manager",
+        "A product sold at a loss to attract customers",
+        "Merchandise lost to theft",
+        "Obsolete inventory"
+      ],
       "answer": 1,
       "explain": "A loss leader is priced below cost or at very low margin to bring shoppers into the store and stimulate additional purchases.",
       "optionExplanations": [
@@ -42,7 +57,12 @@
     },
     {
       "q": "Which factor most influences the location choice for a retail store?",
-      "options": ["Brand logo design", "Customer traffic patterns", "Social media following", "Employee preferences"],
+      "options": [
+        "Brand logo design",
+        "Customer traffic patterns",
+        "Social media following",
+        "Employee preferences"
+      ],
       "answer": 1,
       "explain": "Retail success depends heavily on visibility and access to target customers, so traffic patterns are a major location factor.",
       "optionExplanations": [
@@ -55,7 +75,12 @@
     },
     {
       "q": "A retail chain wants to expand internationally. Which factor should be considered first?",
-      "options": ["Currency exchange rates", "Local zoning laws", "Import/export taxes", "All of the above"],
+      "options": [
+        "Currency exchange rates",
+        "Local zoning laws",
+        "Import/export taxes",
+        "All of the above"
+      ],
       "answer": 3,
       "explain": "International expansion requires evaluating financial, legal, and trade factors together, including exchange rates, zoning, and taxes.",
       "optionExplanations": [
@@ -68,7 +93,12 @@
     },
     {
       "q": "A seasonal pop-up store selling Halloween costumes in October is an example of:",
-      "options": ["Year-round retailer", "Specialty seasonal retailer", "Mass merchandiser", "Nonstore retailing"],
+      "options": [
+        "Year-round retailer",
+        "Specialty seasonal retailer",
+        "Mass merchandiser",
+        "Nonstore retailing"
+      ],
       "answer": 1,
       "explain": "A temporary store focused on a narrow seasonal category is a specialty seasonal retailer.",
       "optionExplanations": [
@@ -81,7 +111,12 @@
     },
     {
       "q": "A retailer that sells goods through a website without a physical storefront is engaging in:",
-      "options": ["Direct selling", "E-commerce", "Telemarketing", "Wholesale distribution"],
+      "options": [
+        "Direct selling",
+        "E-commerce",
+        "Telemarketing",
+        "Wholesale distribution"
+      ],
       "answer": 1,
       "explain": "Selling products online through a website is e-commerce, a form of electronic retailing.",
       "optionExplanations": [
@@ -94,7 +129,12 @@
     },
     {
       "q": "A retail store that offers low prices, minimal services, and a wide variety of merchandise is called a:",
-      "options": ["Luxury retailer", "Warehouse club", "Convenience store", "Specialty boutique"],
+      "options": [
+        "Luxury retailer",
+        "Warehouse club",
+        "Convenience store",
+        "Specialty boutique"
+      ],
       "answer": 1,
       "explain": "Warehouse clubs typically emphasize low prices, limited service, and broad merchandise assortments.",
       "optionExplanations": [
@@ -107,7 +147,12 @@
     },
     {
       "q": "A customer is upset because the item they bought is defective. The first step for the sales associate should be to:",
-      "options": ["Offer a refund without listening", "Listen actively and empathize", "Call the store manager immediately", "Ask the customer to return later"],
+      "options": [
+        "Offer a refund without listening",
+        "Listen actively and empathize",
+        "Call the store manager immediately",
+        "Ask the customer to return later"
+      ],
       "answer": 1,
       "explain": "The first step in service recovery is to listen to the customer and show empathy before deciding on a solution.",
       "optionExplanations": [
@@ -120,7 +165,12 @@
     },
     {
       "q": "A sales associate notices a customer browsing but not engaging. The best approach is to:",
-      "options": ["Follow them closely", "Greet them warmly and offer assistance", "Leave them entirely alone", "Announce the store's sales over the loudspeaker"],
+      "options": [
+        "Follow them closely",
+        "Greet them warmly and offer assistance",
+        "Leave them entirely alone",
+        "Announce the store's sales over the loudspeaker"
+      ],
       "answer": 1,
       "explain": "A friendly greeting and offer of help supports good service without creating pressure.",
       "optionExplanations": [
@@ -133,7 +183,12 @@
     },
     {
       "q": "Upselling occurs when a salesperson:",
-      "options": ["Encourages the purchase of a more expensive version of a product", "Promotes an unrelated product", "Suggests buying in bulk for a discount", "Offers free shipping on an order"],
+      "options": [
+        "Encourages the purchase of a more expensive version of a product",
+        "Promotes an unrelated product",
+        "Suggests buying in bulk for a discount",
+        "Offers free shipping on an order"
+      ],
       "answer": 0,
       "explain": "Upselling means guiding the customer toward a higher-priced or upgraded version of the item they are considering.",
       "optionExplanations": [
@@ -146,7 +201,12 @@
     },
     {
       "q": "Suggestive selling is most effective when:",
-      "options": ["The customer has already made a decision to buy", "It interrupts the buying process", "It is unrelated to the customer's purchase", "It focuses only on clearance items"],
+      "options": [
+        "The customer has already made a decision to buy",
+        "It interrupts the buying process",
+        "It is unrelated to the customer's purchase",
+        "It focuses only on clearance items"
+      ],
       "answer": 0,
       "explain": "Suggestive selling works best once the customer is already inclined to buy and is open to relevant add-on recommendations.",
       "optionExplanations": [
@@ -159,7 +219,12 @@
     },
     {
       "q": "If a customer says, \"I'm just looking,\" a good response would be:",
-      "options": ["Let me know if you need help finding anything.", "Our sale ends in 5 minutes, so hurry.", "You have to buy something today.", "I'll follow you to make sure you don't need help."],
+      "options": [
+        "Let me know if you need help finding anything.",
+        "Our sale ends in 5 minutes, so hurry.",
+        "You have to buy something today.",
+        "I'll follow you to make sure you don't need help."
+      ],
       "answer": 0,
       "explain": "This response respects the customer's space while keeping help available, which supports a positive shopping experience.",
       "optionExplanations": [
@@ -172,7 +237,12 @@
     },
     {
       "q": "A sales associate notices a regular customer entering the store. The best action is to:",
-      "options": ["Greet them by name and recall past purchases", "Offer the highest-priced items immediately", "Avoid contact to give them privacy", "Ask if they've bought from competitors recently"],
+      "options": [
+        "Greet them by name and recall past purchases",
+        "Offer the highest-priced items immediately",
+        "Avoid contact to give them privacy",
+        "Ask if they've bought from competitors recently"
+      ],
       "answer": 0,
       "explain": "Recognizing a regular customer and using past knowledge appropriately helps build loyalty and personalized service.",
       "optionExplanations": [
@@ -185,7 +255,12 @@
     },
     {
       "q": "The \"FAB\" sales technique stands for:",
-      "options": ["Features, Advantages, Benefits", "Fast, Affordable, Best", "Friendly, Attentive, Bold", "Features, Add-ons, Bargains"],
+      "options": [
+        "Features, Advantages, Benefits",
+        "Fast, Affordable, Best",
+        "Friendly, Attentive, Bold",
+        "Features, Add-ons, Bargains"
+      ],
       "answer": 0,
       "explain": "FAB stands for Features, Advantages, and Benefits, a framework used to explain how a product helps the customer.",
       "optionExplanations": [
@@ -198,7 +273,12 @@
     },
     {
       "q": "A customer asks about a product feature the associate doesn't know. The best action is to:",
-      "options": ["Guess an answer", "Say \"I don't know\" and walk away", "Admit uncertainty and quickly find accurate information", "Redirect the conversation"],
+      "options": [
+        "Guess an answer",
+        "Say \"I don't know\" and walk away",
+        "Admit uncertainty and quickly find accurate information",
+        "Redirect the conversation"
+      ],
       "answer": 2,
       "explain": "Retail associates should be honest when unsure and then obtain accurate information so the customer can make an informed decision.",
       "optionExplanations": [
@@ -211,7 +291,12 @@
     },
     {
       "q": "Closing a sale is easiest when:",
-      "options": ["The customer is pressured into buying", "The customer's needs have been met and questions answered", "The associate offers no additional help", "Discounts are offered without explanation"],
+      "options": [
+        "The customer is pressured into buying",
+        "The customer's needs have been met and questions answered",
+        "The associate offers no additional help",
+        "Discounts are offered without explanation"
+      ],
       "answer": 1,
       "explain": "A sale closes more naturally when the customer feels informed, comfortable, and confident that the product meets their needs.",
       "optionExplanations": [
@@ -224,7 +309,12 @@
     },
     {
       "q": "Handling objections during a sale means:",
-      "options": ["Avoiding customers who raise concerns", "Listening, clarifying, and providing solutions", "Offering immediate refunds", "Ignoring their points"],
+      "options": [
+        "Avoiding customers who raise concerns",
+        "Listening, clarifying, and providing solutions",
+        "Offering immediate refunds",
+        "Ignoring their points"
+      ],
       "answer": 1,
       "explain": "Effective objection handling means understanding the concern and responding with accurate, helpful information or alternatives.",
       "optionExplanations": [
@@ -237,7 +327,12 @@
     },
     {
       "q": "A customer asks for a discount not listed. The associate should:",
-      "options": ["Say yes immediately", "Refer to store policy and consult a manager if needed", "Refuse without explanation", "Offer a free item instead"],
+      "options": [
+        "Say yes immediately",
+        "Refer to store policy and consult a manager if needed",
+        "Refuse without explanation",
+        "Offer a free item instead"
+      ],
       "answer": 1,
       "explain": "Pricing exceptions should follow store policy, and any discretion beyond the associate's authority should be escalated appropriately.",
       "optionExplanations": [
@@ -250,7 +345,12 @@
     },
     {
       "q": "Cross-selling is best described as:",
-      "options": ["Encouraging the purchase of related products", "Selling to competing stores", "Trading products between stores", "Offering clearance deals"],
+      "options": [
+        "Encouraging the purchase of related products",
+        "Selling to competing stores",
+        "Trading products between stores",
+        "Offering clearance deals"
+      ],
       "answer": 0,
       "explain": "Cross-selling involves recommending complementary items that go with the main purchase.",
       "optionExplanations": [
@@ -263,7 +363,12 @@
     },
     {
       "q": "When merchandise is received at a retail store, the first step is to:",
-      "options": ["Place it on display", "Verify the shipment against the purchase order", "Record sales", "Discount the items"],
+      "options": [
+        "Place it on display",
+        "Verify the shipment against the purchase order",
+        "Record sales",
+        "Discount the items"
+      ],
       "answer": 1,
       "explain": "Received goods should first be checked against the purchase order or packing information to confirm accuracy and completeness.",
       "optionExplanations": [
@@ -276,7 +381,12 @@
     },
     {
       "q": "Damaged goods received from a supplier should be:",
-      "options": ["Displayed with a discount tag", "Returned or reported according to store policy", "Thrown away without documentation", "Sold \"as is\" without disclosure"],
+      "options": [
+        "Displayed with a discount tag",
+        "Returned or reported according to store policy",
+        "Thrown away without documentation",
+        "Sold \"as is\" without disclosure"
+      ],
       "answer": 1,
       "explain": "Damaged merchandise should be documented and handled according to policy so claims, returns, or adjustments can be processed properly.",
       "optionExplanations": [
@@ -289,7 +399,12 @@
     },
     {
       "q": "Stock rotation follows the principle of:",
-      "options": ["First In, First Out (FIFO)", "Last In, First Out (LIFO)", "Random placement", "Alphabetical order"],
+      "options": [
+        "First In, First Out (FIFO)",
+        "Last In, First Out (LIFO)",
+        "Random placement",
+        "Alphabetical order"
+      ],
       "answer": 0,
       "explain": "FIFO means older stock is sold or used before newer arrivals, which is especially important for dated or perishable goods.",
       "optionExplanations": [
@@ -302,7 +417,12 @@
     },
     {
       "q": "Which document accompanies goods during shipment?",
-      "options": ["Bill of lading", "Payroll report", "Sales receipt", "Credit memo"],
+      "options": [
+        "Bill of lading",
+        "Payroll report",
+        "Sales receipt",
+        "Credit memo"
+      ],
       "answer": 0,
       "explain": "A bill of lading is a shipping document that identifies the goods being transported and the terms of transport.",
       "optionExplanations": [
@@ -315,7 +435,12 @@
     },
     {
       "q": "A retailer keeps receiving overstock from suppliers. This indicates:",
-      "options": ["Accurate forecasting", "Poor inventory management", "Effective selling techniques", "Strong supplier relations"],
+      "options": [
+        "Accurate forecasting",
+        "Poor inventory management",
+        "Effective selling techniques",
+        "Strong supplier relations"
+      ],
       "answer": 1,
       "explain": "Repeated overstock suggests purchasing, forecasting, or inventory coordination problems that leave the store with excess goods.",
       "optionExplanations": [
@@ -328,7 +453,12 @@
     },
     {
       "q": "Price tagging should be completed:",
-      "options": ["Before merchandise reaches the sales floor", "During checkout", "Only for expensive items", "At the customer's request"],
+      "options": [
+        "Before merchandise reaches the sales floor",
+        "During checkout",
+        "Only for expensive items",
+        "At the customer's request"
+      ],
       "answer": 0,
       "explain": "Items should be correctly priced and labeled before display so customers and staff have accurate pricing information.",
       "optionExplanations": [
@@ -341,7 +471,12 @@
     },
     {
       "q": "Which action helps prevent shrinkage in stock-handling?",
-      "options": ["Avoid tracking damaged goods", "Limit employee access to stockrooms", "Allow open access to all staff", "Skip shipment verification"],
+      "options": [
+        "Avoid tracking damaged goods",
+        "Limit employee access to stockrooms",
+        "Allow open access to all staff",
+        "Skip shipment verification"
+      ],
       "answer": 1,
       "explain": "Controlling access to stock areas reduces opportunities for theft, mishandling, and inventory discrepancies.",
       "optionExplanations": [
@@ -354,7 +489,12 @@
     },
     {
       "q": "Merchandise should be unpacked and inspected:",
-      "options": ["Only if a customer requests it", "Upon arrival", "Before supplier pickup", "After being on the shelf for a week"],
+      "options": [
+        "Only if a customer requests it",
+        "Upon arrival",
+        "Before supplier pickup",
+        "After being on the shelf for a week"
+      ],
       "answer": 1,
       "explain": "Prompt inspection on arrival helps identify damage, shortages, or errors before items are stored or sold.",
       "optionExplanations": [
@@ -367,7 +507,12 @@
     },
     {
       "q": "An accurate inventory count is important because it:",
-      "options": ["Helps prevent stockouts and overstocking", "Only satisfies accounting requirements", "Determines store decor", "Eliminates customer complaints entirely"],
+      "options": [
+        "Helps prevent stockouts and overstocking",
+        "Only satisfies accounting requirements",
+        "Determines store decor",
+        "Eliminates customer complaints entirely"
+      ],
       "answer": 0,
       "explain": "Accurate inventory counts help retailers replenish correctly, avoid missed sales, and reduce excess carrying costs.",
       "optionExplanations": [
@@ -380,7 +525,12 @@
     },
     {
       "q": "Perpetual inventory systems:",
-      "options": ["Update inventory records continuously", "Require annual manual counts only", "Are used only by small retailers", "Do not track sales"],
+      "options": [
+        "Update inventory records continuously",
+        "Require annual manual counts only",
+        "Are used only by small retailers",
+        "Do not track sales"
+      ],
       "answer": 0,
       "explain": "A perpetual inventory system records changes to inventory as transactions occur, often through POS and scanning systems.",
       "optionExplanations": [
@@ -393,7 +543,12 @@
     },
     {
       "q": "Which is a common cause of inventory shrinkage?",
-      "options": ["Theft, damage, or administrative errors", "Proper labeling", "Effective merchandising", "Frequent sales"],
+      "options": [
+        "Theft, damage, or administrative errors",
+        "Proper labeling",
+        "Effective merchandising",
+        "Frequent sales"
+      ],
       "answer": 0,
       "explain": "Shrinkage commonly results from theft, breakage, spoilage, vendor issues, or recordkeeping mistakes.",
       "optionExplanations": [
@@ -406,7 +561,12 @@
     },
     {
       "q": "Seasonal products should be stored:",
-      "options": ["In customer-accessible areas year-round", "In secure, climate-appropriate storage", "On display all year", "Without packaging"],
+      "options": [
+        "In customer-accessible areas year-round",
+        "In secure, climate-appropriate storage",
+        "On display all year",
+        "Without packaging"
+      ],
       "answer": 1,
       "explain": "Seasonal merchandise should be protected in appropriate storage conditions until the selling period begins.",
       "optionExplanations": [
@@ -419,7 +579,12 @@
     },
     {
       "q": "Safety stock refers to:",
-      "options": ["Extra inventory kept to prevent stockouts", "Hazardous materials storage", "Protective packaging", "Seasonal clearance items"],
+      "options": [
+        "Extra inventory kept to prevent stockouts",
+        "Hazardous materials storage",
+        "Protective packaging",
+        "Seasonal clearance items"
+      ],
       "answer": 0,
       "explain": "Safety stock is backup inventory maintained to absorb demand spikes or supply delays.",
       "optionExplanations": [
@@ -432,7 +597,12 @@
     },
     {
       "q": "A \"just-in-time\" inventory system:",
-      "options": ["Keeps large amounts of safety stock", "Reduces inventory by receiving goods only when needed", "Requires monthly restocking", "Is used only in manufacturing"],
+      "options": [
+        "Keeps large amounts of safety stock",
+        "Reduces inventory by receiving goods only when needed",
+        "Requires monthly restocking",
+        "Is used only in manufacturing"
+      ],
       "answer": 1,
       "explain": "Just-in-time systems aim to reduce holding costs by receiving inventory near the point of use or sale.",
       "optionExplanations": [
@@ -445,7 +615,12 @@
     },
     {
       "q": "Dead stock refers to:",
-      "options": ["Merchandise that hasn't sold for a long period", "Items damaged beyond repair", "Products awaiting shipment", "Items with expired warranties"],
+      "options": [
+        "Merchandise that hasn't sold for a long period",
+        "Items damaged beyond repair",
+        "Products awaiting shipment",
+        "Items with expired warranties"
+      ],
       "answer": 0,
       "explain": "Dead stock is inventory that remains unsold for an extended period and ties up capital and space.",
       "optionExplanations": [
@@ -458,7 +633,12 @@
     },
     {
       "q": "Inventory audits help:",
-      "options": ["Identify theft or errors", "Increase merchandise theft", "Reduce record accuracy", "Eliminate stock rotation"],
+      "options": [
+        "Identify theft or errors",
+        "Increase merchandise theft",
+        "Reduce record accuracy",
+        "Eliminate stock rotation"
+      ],
       "answer": 0,
       "explain": "Audits compare physical counts to records, helping detect discrepancies caused by theft, mistakes, or process problems.",
       "optionExplanations": [
@@ -471,7 +651,12 @@
     },
     {
       "q": "Which retail career focuses on creating appealing store displays?",
-      "options": ["Visual merchandiser", "Loss prevention officer", "Stock handler", "Buyer"],
+      "options": [
+        "Visual merchandiser",
+        "Loss prevention officer",
+        "Stock handler",
+        "Buyer"
+      ],
       "answer": 0,
       "explain": "Visual merchandisers design and arrange displays to attract shoppers and support sales goals.",
       "optionExplanations": [
@@ -484,7 +669,12 @@
     },
     {
       "q": "A retail buyer's main responsibility is to:",
-      "options": ["Purchase merchandise for resale", "Track store security footage", "Organize displays", "Train new sales associates"],
+      "options": [
+        "Purchase merchandise for resale",
+        "Track store security footage",
+        "Organize displays",
+        "Train new sales associates"
+      ],
       "answer": 0,
       "explain": "Retail buyers select and purchase merchandise that the store will offer to customers.",
       "optionExplanations": [
@@ -497,7 +687,12 @@
     },
     {
       "q": "Which role is most likely to handle employee scheduling in a retail store?",
-      "options": ["Store manager", "Visual merchandiser", "Cashier", "Inventory clerk"],
+      "options": [
+        "Store manager",
+        "Visual merchandiser",
+        "Cashier",
+        "Inventory clerk"
+      ],
       "answer": 0,
       "explain": "Store managers commonly schedule staff, coordinate coverage, and manage labor resources.",
       "optionExplanations": [
@@ -510,7 +705,12 @@
     },
     {
       "q": "Loss prevention specialists primarily work to:",
-      "options": ["Increase sales volume", "Reduce theft and fraud", "Train new hires", "Arrange store layouts"],
+      "options": [
+        "Increase sales volume",
+        "Reduce theft and fraud",
+        "Train new hires",
+        "Arrange store layouts"
+      ],
       "answer": 1,
       "explain": "Loss prevention specialists focus on reducing internal and external losses such as theft, fraud, and policy violations.",
       "optionExplanations": [
@@ -523,7 +723,12 @@
     },
     {
       "q": "The main purpose of visual merchandising is to:",
-      "options": ["Lower prices", "Attract customers and encourage purchases", "Reduce staffing needs", "Shorten customer shopping time"],
+      "options": [
+        "Lower prices",
+        "Attract customers and encourage purchases",
+        "Reduce staffing needs",
+        "Shorten customer shopping time"
+      ],
       "answer": 1,
       "explain": "Visual merchandising uses layout and presentation to draw attention, improve experience, and stimulate sales.",
       "optionExplanations": [
@@ -536,7 +741,12 @@
     },
     {
       "q": "Eye-level shelving is most effective because:",
-      "options": ["It stores products out of reach", "It places high-demand items where customers notice them", "It hides expensive products", "It reduces theft"],
+      "options": [
+        "It stores products out of reach",
+        "It places high-demand items where customers notice them",
+        "It hides expensive products",
+        "It reduces theft"
+      ],
       "answer": 1,
       "explain": "Products placed near eye level are easier to notice and are more likely to be considered and purchased.",
       "optionExplanations": [
@@ -549,7 +759,12 @@
     },
     {
       "q": "Color schemes in merchandising are important because they:",
-      "options": ["Set the store's closing time", "Influence customer mood and buying decisions", "Reduce product costs", "Increase warehouse space"],
+      "options": [
+        "Set the store's closing time",
+        "Influence customer mood and buying decisions",
+        "Reduce product costs",
+        "Increase warehouse space"
+      ],
       "answer": 1,
       "explain": "Color affects perception and emotion, so it can shape the shopping atmosphere and influence purchase behavior.",
       "optionExplanations": [
@@ -562,7 +777,12 @@
     },
     {
       "q": "In-store signage should:",
-      "options": ["Be clear, readable, and consistent with branding", "Be handwritten for authenticity", "Use as many fonts as possible", "Display only product names"],
+      "options": [
+        "Be clear, readable, and consistent with branding",
+        "Be handwritten for authenticity",
+        "Use as many fonts as possible",
+        "Display only product names"
+      ],
       "answer": 0,
       "explain": "Effective signage communicates information quickly and consistently while supporting the store's brand image.",
       "optionExplanations": [
@@ -575,7 +795,12 @@
     },
     {
       "q": "End-cap displays are effective because they:",
-      "options": ["Are hidden from customer view", "Catch attention at the ends of aisles", "Reduce product visibility", "Display only clearance products"],
+      "options": [
+        "Are hidden from customer view",
+        "Catch attention at the ends of aisles",
+        "Reduce product visibility",
+        "Display only clearance products"
+      ],
       "answer": 1,
       "explain": "End-cap displays sit at aisle ends where traffic is high, making them strong locations for visibility and impulse purchases.",
       "optionExplanations": [
@@ -588,7 +813,12 @@
     },
     {
       "q": "Cross-merchandising displays:",
-      "options": ["Place related products together to increase sales", "Display unrelated products", "Focus only on clearance items", "Reduce customer spending"],
+      "options": [
+        "Place related products together to increase sales",
+        "Display unrelated products",
+        "Focus only on clearance items",
+        "Reduce customer spending"
+      ],
       "answer": 0,
       "explain": "Cross-merchandising groups complementary items together to encourage convenience and add-on purchases.",
       "optionExplanations": [
@@ -601,7 +831,12 @@
     },
     {
       "q": "Which display type allows customers to touch and try products?",
-      "options": ["Closed display", "Open display", "Shadowbox display", "Digital display"],
+      "options": [
+        "Closed display",
+        "Open display",
+        "Shadowbox display",
+        "Digital display"
+      ],
       "answer": 1,
       "explain": "Open displays allow customers direct physical access to merchandise for examination or trial.",
       "optionExplanations": [
@@ -614,7 +849,12 @@
     },
     {
       "q": "Lighting in displays should:",
-      "options": ["Highlight products and create an inviting atmosphere", "Be dim to save electricity", "Focus only on store entrances", "Be avoided in favor of natural light"],
+      "options": [
+        "Highlight products and create an inviting atmosphere",
+        "Be dim to save electricity",
+        "Focus only on store entrances",
+        "Be avoided in favor of natural light"
+      ],
       "answer": 0,
       "explain": "Good display lighting draws attention to merchandise and helps create a pleasant shopping environment.",
       "optionExplanations": [
@@ -627,7 +867,12 @@
     },
     {
       "q": "A \"planogram\" is:",
-      "options": ["A diagram showing product placement on shelves", "A marketing campaign outline", "A store cleaning schedule", "A customer loyalty plan"],
+      "options": [
+        "A diagram showing product placement on shelves",
+        "A marketing campaign outline",
+        "A store cleaning schedule",
+        "A customer loyalty plan"
+      ],
       "answer": 0,
       "explain": "A planogram is a visual map showing where products should be placed to maximize organization and sales performance.",
       "optionExplanations": [
@@ -640,7 +885,12 @@
     },
     {
       "q": "Rotating displays periodically helps:",
-      "options": ["Keep the store looking fresh and encourage repeat visits", "Confuse customers", "Reduce sales", "Avoid seasonal promotions"],
+      "options": [
+        "Keep the store looking fresh and encourage repeat visits",
+        "Confuse customers",
+        "Reduce sales",
+        "Avoid seasonal promotions"
+      ],
       "answer": 0,
       "explain": "Refreshing displays maintains interest, highlights new items, and gives repeat customers a reason to explore again.",
       "optionExplanations": [
@@ -653,7 +903,12 @@
     },
     {
       "q": "Gross profit in retail is calculated as:",
-      "options": ["Net sales minus cost of goods sold", "Net sales minus rent expense", "Assets minus liabilities", "Beginning inventory plus purchases"],
+      "options": [
+        "Net sales minus cost of goods sold",
+        "Net sales minus rent expense",
+        "Assets minus liabilities",
+        "Beginning inventory plus purchases"
+      ],
       "answer": 0,
       "explain": "Gross profit measures how much revenue remains after the direct cost of merchandise sold is subtracted from net sales.",
       "optionExplanations": [
@@ -666,7 +921,12 @@
     },
     {
       "q": "Which pricing strategy sets a high initial price for a new product and lowers it over time?",
-      "options": ["Penetration pricing", "Skimming pricing", "Odd-even pricing", "Bundle pricing"],
+      "options": [
+        "Penetration pricing",
+        "Skimming pricing",
+        "Odd-even pricing",
+        "Bundle pricing"
+      ],
       "answer": 1,
       "explain": "Price skimming starts high to capture revenue from early buyers, then decreases as competition increases or demand changes.",
       "optionExplanations": [
@@ -679,7 +939,12 @@
     },
     {
       "q": "What is the main purpose of a point-of-sale system in retail?",
-      "options": ["To process transactions and record sales data", "To manufacture products", "To negotiate supplier contracts", "To design store architecture"],
+      "options": [
+        "To process transactions and record sales data",
+        "To manufacture products",
+        "To negotiate supplier contracts",
+        "To design store architecture"
+      ],
       "answer": 0,
       "explain": "A POS system handles sales transactions and captures information used for inventory, reporting, and customer service.",
       "optionExplanations": [
@@ -692,7 +957,12 @@
     },
     {
       "q": "A markdown in retail refers to:",
-      "options": ["An increase in the selling price", "A reduction in the original selling price", "A tax added at checkout", "A payment made to suppliers"],
+      "options": [
+        "An increase in the selling price",
+        "A reduction in the original selling price",
+        "A tax added at checkout",
+        "A payment made to suppliers"
+      ],
       "answer": 1,
       "explain": "A markdown is a reduction from the original retail price, often used to stimulate sales or clear inventory.",
       "optionExplanations": [
@@ -705,7 +975,12 @@
     },
     {
       "q": "Which layout is commonly used by grocery stores because it maximizes product exposure?",
-      "options": ["Grid layout", "Free-flow layout", "Boutique layout", "Radial layout"],
+      "options": [
+        "Grid layout",
+        "Free-flow layout",
+        "Boutique layout",
+        "Radial layout"
+      ],
       "answer": 0,
       "explain": "The grid layout organizes aisles in rows, making it efficient for high-volume stores such as supermarkets and drugstores.",
       "optionExplanations": [
@@ -718,7 +993,12 @@
     },
     {
       "q": "When a retailer studies age, income, and education levels of its shoppers, it is analyzing:",
-      "options": ["Demographics", "Shrinkage", "Turnover", "Assortment depth"],
+      "options": [
+        "Demographics",
+        "Shrinkage",
+        "Turnover",
+        "Assortment depth"
+      ],
       "answer": 0,
       "explain": "Demographics describe measurable population characteristics such as age, income, gender, and education.",
       "optionExplanations": [
@@ -731,7 +1011,12 @@
     },
     {
       "q": "Which action best supports an omnichannel retail strategy?",
-      "options": ["Keeping online and in-store inventory systems disconnected", "Allowing customers to buy online and pick up in store", "Using different brand names for each channel", "Refusing returns across channels"],
+      "options": [
+        "Keeping online and in-store inventory systems disconnected",
+        "Allowing customers to buy online and pick up in store",
+        "Using different brand names for each channel",
+        "Refusing returns across channels"
+      ],
       "answer": 1,
       "explain": "Omnichannel retail integrates customer experience across online and offline channels, including shared fulfillment options like buy online, pick up in store.",
       "optionExplanations": [
@@ -744,7 +1029,12 @@
     },
     {
       "q": "Inventory turnover measures how:",
-      "options": ["Frequently inventory is sold and replaced over a period", "Much rent a store pays each month", "Many employees leave a store annually", "Often a price tag is changed"],
+      "options": [
+        "Frequently inventory is sold and replaced over a period",
+        "Much rent a store pays each month",
+        "Many employees leave a store annually",
+        "Often a price tag is changed"
+      ],
       "answer": 0,
       "explain": "Inventory turnover shows how efficiently a retailer moves merchandise by comparing sales or cost of goods sold with average inventory.",
       "optionExplanations": [
@@ -757,7 +1047,12 @@
     },
     {
       "q": "Which of the following is an example of impulse merchandise?",
-      "options": ["Printer paper bought under a contract", "Gum displayed near the checkout", "A replacement furnace motor", "Wholesale shipping pallets"],
+      "options": [
+        "Printer paper bought under a contract",
+        "Gum displayed near the checkout",
+        "A replacement furnace motor",
+        "Wholesale shipping pallets"
+      ],
       "answer": 1,
       "explain": "Impulse merchandise is placed where customers can easily add it to their purchase without much prior planning, such as at checkout.",
       "optionExplanations": [
@@ -770,7 +1065,12 @@
     },
     {
       "q": "What does SKU stand for in retail operations?",
-      "options": ["Sales Knowledge Unit", "Stock Keeping Unit", "Store Key Utility", "Shelf Kitting Usage"],
+      "options": [
+        "Sales Knowledge Unit",
+        "Stock Keeping Unit",
+        "Store Key Utility",
+        "Shelf Kitting Usage"
+      ],
       "answer": 1,
       "explain": "SKU stands for Stock Keeping Unit, which is a unique identifier used to track distinct items in inventory.",
       "optionExplanations": [
@@ -783,7 +1083,12 @@
     },
     {
       "q": "Which factor is most important when determining assortment width?",
-      "options": ["How many different product categories a store carries", "How many units are sold in one day", "How many employees are on a shift", "How many suppliers offer credit"],
+      "options": [
+        "How many different product categories a store carries",
+        "How many units are sold in one day",
+        "How many employees are on a shift",
+        "How many suppliers offer credit"
+      ],
       "answer": 0,
       "explain": "Assortment width refers to the number of different product categories or lines carried by the retailer.",
       "optionExplanations": [
@@ -796,7 +1101,12 @@
     },
     {
       "q": "Which retail metric compares net profit to net sales?",
-      "options": ["Gross margin return on investment", "Net profit margin", "Current ratio", "Sell-through rate"],
+      "options": [
+        "Gross margin return on investment",
+        "Net profit margin",
+        "Current ratio",
+        "Sell-through rate"
+      ],
       "answer": 1,
       "explain": "Net profit margin measures how much of each sales dollar remains as profit after all expenses are deducted.",
       "optionExplanations": [
@@ -809,7 +1119,12 @@
     },
     {
       "q": "A retailer wants to increase the average amount each customer spends per visit. Which metric should it focus on?",
-      "options": ["Average transaction value", "Inventory shrinkage rate", "Employee absenteeism rate", "Receiving cycle time"],
+      "options": [
+        "Average transaction value",
+        "Inventory shrinkage rate",
+        "Employee absenteeism rate",
+        "Receiving cycle time"
+      ],
       "answer": 0,
       "explain": "Average transaction value tracks the average dollar amount per sale and directly reflects how much customers spend per visit.",
       "optionExplanations": [
@@ -822,7 +1137,12 @@
     },
     {
       "q": "Which type of retailer primarily offers convenience by being close to residential areas and carrying limited essentials?",
-      "options": ["Convenience store", "Department store", "Warehouse club", "Factory outlet"],
+      "options": [
+        "Convenience store",
+        "Department store",
+        "Warehouse club",
+        "Factory outlet"
+      ],
       "answer": 0,
       "explain": "Convenience stores emphasize quick access, neighborhood location, and a limited assortment of frequently needed items.",
       "optionExplanations": [
@@ -835,7 +1155,12 @@
     },
     {
       "q": "The term 'facing' in retail merchandising refers to:",
-      "options": ["A conflict with a customer", "The number of product units visible from the front of the shelf", "The angle of a store's exterior wall", "The number of employees assigned to a section"],
+      "options": [
+        "A conflict with a customer",
+        "The number of product units visible from the front of the shelf",
+        "The angle of a store's exterior wall",
+        "The number of employees assigned to a section"
+      ],
       "answer": 1,
       "explain": "Facing refers to the number of identical products presented frontward on the shelf, affecting visibility and perceived availability.",
       "optionExplanations": [
@@ -848,7 +1173,12 @@
     },
     {
       "q": "What is the primary goal of loyalty programs in retail?",
-      "options": ["To reduce employee training costs", "To encourage repeat purchases and customer retention", "To eliminate the need for advertising", "To replace inventory counts"],
+      "options": [
+        "To reduce employee training costs",
+        "To encourage repeat purchases and customer retention",
+        "To eliminate the need for advertising",
+        "To replace inventory counts"
+      ],
       "answer": 1,
       "explain": "Loyalty programs reward repeat shopping behavior and help retailers retain customers over time.",
       "optionExplanations": [
@@ -861,7 +1191,12 @@
     },
     {
       "q": "If a retailer orders too little merchandise and runs out of a popular item, the store has experienced a:",
-      "options": ["Stockout", "Markdown", "Write-off", "Chargeback"],
+      "options": [
+        "Stockout",
+        "Markdown",
+        "Write-off",
+        "Chargeback"
+      ],
       "answer": 0,
       "explain": "A stockout occurs when demand exists but inventory is unavailable for sale.",
       "optionExplanations": [
@@ -874,7 +1209,12 @@
     },
     {
       "q": "Which payment method usually transfers funds directly from the customer's bank account at the time of purchase?",
-      "options": ["Gift card", "Debit card", "Store coupon", "Layaway"],
+      "options": [
+        "Gift card",
+        "Debit card",
+        "Store coupon",
+        "Layaway"
+      ],
       "answer": 1,
       "explain": "Debit card transactions are linked to the customer's bank account and typically draw funds directly from it.",
       "optionExplanations": [
@@ -887,7 +1227,12 @@
     },
     {
       "q": "Why is shelf signage for unit pricing useful to consumers?",
-      "options": ["It shows the cost per standard unit for easier comparison", "It hides discounts from shoppers", "It guarantees the lowest price in the market", "It prevents all pricing errors"],
+      "options": [
+        "It shows the cost per standard unit for easier comparison",
+        "It hides discounts from shoppers",
+        "It guarantees the lowest price in the market",
+        "It prevents all pricing errors"
+      ],
       "answer": 0,
       "explain": "Unit pricing helps customers compare value across different package sizes by showing price per ounce, pound, liter, or similar unit.",
       "optionExplanations": [
@@ -900,7 +1245,12 @@
     },
     {
       "q": "A retailer bundles shampoo and conditioner together at one combined price. This is an example of:",
-      "options": ["Bundle pricing", "Prestige pricing", "Dynamic pricing", "Keystone pricing"],
+      "options": [
+        "Bundle pricing",
+        "Prestige pricing",
+        "Dynamic pricing",
+        "Keystone pricing"
+      ],
       "answer": 0,
       "explain": "Bundle pricing offers multiple items together for one combined price, often to increase perceived value and total sales.",
       "optionExplanations": [
@@ -913,7 +1263,12 @@
     },
     {
       "q": "Which statement best describes private-label merchandise?",
-      "options": ["Products sold under the retailer's own brand name", "Products produced only by wholesalers", "Items sold exclusively through auctions", "Goods that cannot be returned"],
+      "options": [
+        "Products sold under the retailer's own brand name",
+        "Products produced only by wholesalers",
+        "Items sold exclusively through auctions",
+        "Goods that cannot be returned"
+      ],
       "answer": 0,
       "explain": "Private-label products are branded by the retailer rather than the manufacturer and are sold under the retailer's own label.",
       "optionExplanations": [
@@ -926,7 +1281,12 @@
     },
     {
       "q": "What is the main reason retailers use security tags on merchandise?",
-      "options": ["To track employee attendance", "To deter theft and reduce shrinkage", "To simplify tax filing", "To calculate gross margin"],
+      "options": [
+        "To track employee attendance",
+        "To deter theft and reduce shrinkage",
+        "To simplify tax filing",
+        "To calculate gross margin"
+      ],
       "answer": 1,
       "explain": "Security tags are loss prevention tools used to discourage shoplifting and reduce inventory loss.",
       "optionExplanations": [
@@ -939,7 +1299,12 @@
     },
     {
       "q": "Which document is most useful for reordering merchandise automatically when stock falls below a set level?",
-      "options": ["Reorder point report", "Employee handbook", "Cash drawer log", "Store lease"],
+      "options": [
+        "Reorder point report",
+        "Employee handbook",
+        "Cash drawer log",
+        "Store lease"
+      ],
       "answer": 0,
       "explain": "A reorder point report identifies items that have reached the inventory threshold that triggers replenishment.",
       "optionExplanations": [
@@ -952,7 +1317,12 @@
     },
     {
       "q": "Which of the following best describes 'sell-through rate'?",
-      "options": ["The percentage of inventory sold during a period", "The time required to train new employees", "The ratio of displays to shelves", "The amount of cash in the register at close"],
+      "options": [
+        "The percentage of inventory sold during a period",
+        "The time required to train new employees",
+        "The ratio of displays to shelves",
+        "The amount of cash in the register at close"
+      ],
       "answer": 0,
       "explain": "Sell-through rate measures how much of received or available inventory is sold during a given period.",
       "optionExplanations": [
@@ -965,7 +1335,12 @@
     },
     {
       "q": "A retailer placing staple goods such as milk at the back of the store is often trying to:",
-      "options": ["Increase customer exposure to other products", "Reduce store traffic", "Hide the best-selling items from shoppers", "Make checkout lines shorter"],
+      "options": [
+        "Increase customer exposure to other products",
+        "Reduce store traffic",
+        "Hide the best-selling items from shoppers",
+        "Make checkout lines shorter"
+      ],
       "answer": 0,
       "explain": "Placing destination items at the back can guide customers through more of the store and increase opportunities for additional purchases.",
       "optionExplanations": [
@@ -978,7 +1353,12 @@
     },
     {
       "q": "What is the most appropriate response if a cashier's drawer is short at the end of a shift?",
-      "options": ["Ignore the difference because small shortages are normal", "Document the shortage and follow store reconciliation procedures", "Ask the next cashier to cover the shortage", "Adjust the inventory records instead"],
+      "options": [
+        "Ignore the difference because small shortages are normal",
+        "Document the shortage and follow store reconciliation procedures",
+        "Ask the next cashier to cover the shortage",
+        "Adjust the inventory records instead"
+      ],
       "answer": 1,
       "explain": "Cash discrepancies should be documented and investigated using established cash-control procedures to maintain accountability.",
       "optionExplanations": [
@@ -991,7 +1371,12 @@
     },
     {
       "q": "Which type of display is especially useful for introducing a new product line near the front entrance?",
-      "options": ["Feature display", "Backstock display", "Damaged goods bin", "Receiving dock display"],
+      "options": [
+        "Feature display",
+        "Backstock display",
+        "Damaged goods bin",
+        "Receiving dock display"
+      ],
       "answer": 0,
       "explain": "A feature display highlights selected merchandise in a prominent area to draw attention and create interest.",
       "optionExplanations": [
@@ -1004,7 +1389,12 @@
     },
     {
       "q": "What is a common advantage of self-checkout systems for retailers?",
-      "options": ["They can speed up checkout for some customers", "They eliminate all theft risk", "They remove the need for customer assistance", "They make price labeling unnecessary"],
+      "options": [
+        "They can speed up checkout for some customers",
+        "They eliminate all theft risk",
+        "They remove the need for customer assistance",
+        "They make price labeling unnecessary"
+      ],
       "answer": 0,
       "explain": "Self-checkout can improve transaction speed and convenience for some shoppers, especially those with small baskets.",
       "optionExplanations": [
@@ -1017,7 +1407,12 @@
     },
     {
       "q": "Which retail math formula finds the value of inventory available for sale before subtracting ending inventory?",
-      "options": ["Beginning inventory plus net purchases", "Net sales minus returns", "Gross profit minus expenses", "Current assets minus current liabilities"],
+      "options": [
+        "Beginning inventory plus net purchases",
+        "Net sales minus returns",
+        "Gross profit minus expenses",
+        "Current assets minus current liabilities"
+      ],
       "answer": 0,
       "explain": "Goods available for sale are typically calculated as beginning inventory plus net purchases during the period.",
       "optionExplanations": [
@@ -1030,7 +1425,12 @@
     },
     {
       "q": "If a retailer collects customer email addresses at checkout primarily to send promotions, this activity is part of:",
-      "options": ["Direct marketing", "Stock rotation", "Loss prevention", "Vendor compliance"],
+      "options": [
+        "Direct marketing",
+        "Stock rotation",
+        "Loss prevention",
+        "Vendor compliance"
+      ],
       "answer": 0,
       "explain": "Using customer contact information to send promotional messages is a form of direct marketing.",
       "optionExplanations": [
@@ -1043,7 +1443,12 @@
     },
     {
       "q": "Which factor most directly affects a retailer's reorder quantity for a fast-moving item?",
-      "options": ["Sales velocity", "Parking lot color", "Employee dress code", "Store music volume"],
+      "options": [
+        "Sales velocity",
+        "Parking lot color",
+        "Employee dress code",
+        "Store music volume"
+      ],
       "answer": 0,
       "explain": "Sales velocity indicates how quickly the item sells, making it a key input for deciding how much to reorder.",
       "optionExplanations": [
@@ -1056,7 +1461,12 @@
     },
     {
       "q": "Which of the following is the best example of ethical selling in retail?",
-      "options": ["Hiding a product defect to close the sale", "Recommending a lower-priced item that better fits the customer's needs", "Pressuring a customer to buy extended warranties", "Giving false scarcity warnings"],
+      "options": [
+        "Hiding a product defect to close the sale",
+        "Recommending a lower-priced item that better fits the customer's needs",
+        "Pressuring a customer to buy extended warranties",
+        "Giving false scarcity warnings"
+      ],
       "answer": 1,
       "explain": "Ethical selling prioritizes the customer's actual needs and honest information over maximizing the immediate sale.",
       "optionExplanations": [
@@ -1069,7 +1479,12 @@
     },
     {
       "q": "A retailer wants to know whether a display increased sales compared with the previous week. Which information is most helpful?",
-      "options": ["Sales data before and after the display change", "The age of the store building", "The number of office chairs in the stockroom", "The buyer's favorite product category"],
+      "options": [
+        "Sales data before and after the display change",
+        "The age of the store building",
+        "The number of office chairs in the stockroom",
+        "The buyer's favorite product category"
+      ],
       "answer": 0,
       "explain": "Comparing sales data before and after the display change helps evaluate whether the display had a measurable sales impact.",
       "optionExplanations": [
@@ -1082,7 +1497,12 @@
     },
     {
       "q": "Which retail term refers to products that customers buy regularly with minimal comparison shopping?",
-      "options": ["Convenience goods", "Unsought goods", "Specialty goods", "Industrial goods"],
+      "options": [
+        "Convenience goods",
+        "Unsought goods",
+        "Specialty goods",
+        "Industrial goods"
+      ],
       "answer": 0,
       "explain": "Convenience goods are purchased frequently, quickly, and with limited effort, such as snacks or basic household items.",
       "optionExplanations": [
@@ -1095,7 +1515,12 @@
     },
     {
       "q": "Why might a retailer use a rain check during a promotion?",
-      "options": ["To let customers buy an out-of-stock sale item later at the sale price", "To charge extra for bad weather delivery", "To cancel the promotion permanently", "To return damaged goods to the supplier"],
+      "options": [
+        "To let customers buy an out-of-stock sale item later at the sale price",
+        "To charge extra for bad weather delivery",
+        "To cancel the promotion permanently",
+        "To return damaged goods to the supplier"
+      ],
       "answer": 0,
       "explain": "A rain check allows the customer to receive the promotional price later if the advertised item is temporarily out of stock.",
       "optionExplanations": [
@@ -1108,7 +1533,12 @@
     },
     {
       "q": "Which measure best helps a retailer evaluate whether too much money is tied up in inventory?",
-      "options": ["Inventory turnover ratio", "Customer age distribution", "Parking occupancy", "Employee break schedule"],
+      "options": [
+        "Inventory turnover ratio",
+        "Customer age distribution",
+        "Parking occupancy",
+        "Employee break schedule"
+      ],
       "answer": 0,
       "explain": "Low inventory turnover can indicate excess stock, meaning capital is tied up in merchandise that is not moving efficiently.",
       "optionExplanations": [
@@ -1121,7 +1551,12 @@
     },
     {
       "q": "A store that mainly competes by offering famous brands at reduced prices from past seasons is often called a:",
-      "options": ["Outlet store", "Department store", "Catalog showroom", "Pop-up kiosk"],
+      "options": [
+        "Outlet store",
+        "Department store",
+        "Catalog showroom",
+        "Pop-up kiosk"
+      ],
       "answer": 0,
       "explain": "Outlet stores commonly sell branded merchandise, overstock, or past-season goods at reduced prices.",
       "optionExplanations": [
@@ -1134,7 +1569,12 @@
     },
     {
       "q": "What is the main purpose of a return policy in retail?",
-      "options": ["To provide clear rules for handling returned merchandise", "To set employee vacation dates", "To schedule supplier deliveries", "To classify products by color"],
+      "options": [
+        "To provide clear rules for handling returned merchandise",
+        "To set employee vacation dates",
+        "To schedule supplier deliveries",
+        "To classify products by color"
+      ],
       "answer": 0,
       "explain": "A return policy defines the conditions, timelines, and procedures for accepting and processing customer returns.",
       "optionExplanations": [
@@ -1147,7 +1587,12 @@
     },
     {
       "q": "Which store area is most important for creating a strong first impression on customers?",
-      "options": ["The decompression zone near the entrance", "The employee break room", "The rear loading dock", "The accounting office"],
+      "options": [
+        "The decompression zone near the entrance",
+        "The employee break room",
+        "The rear loading dock",
+        "The accounting office"
+      ],
       "answer": 0,
       "explain": "The entrance and decompression zone shape the customer's initial perception of the store's cleanliness, layout, and atmosphere.",
       "optionExplanations": [
@@ -1160,7 +1605,12 @@
     },
     {
       "q": "If a retailer wants to test two different signs to see which one produces more sales, the retailer is using:",
-      "options": ["A/B testing", "FIFO rotation", "Credit screening", "Job shadowing"],
+      "options": [
+        "A/B testing",
+        "FIFO rotation",
+        "Credit screening",
+        "Job shadowing"
+      ],
       "answer": 0,
       "explain": "A/B testing compares two versions of a variable, such as signage, to see which performs better.",
       "optionExplanations": [
@@ -1173,7 +1623,12 @@
     },
     {
       "q": "A retailer that avoids keeping customer card numbers on paper is primarily supporting:",
-      "options": ["Payment security and data protection", "Visual merchandising consistency", "Store layout efficiency", "Vendor lead time reduction"],
+      "options": [
+        "Payment security and data protection",
+        "Visual merchandising consistency",
+        "Store layout efficiency",
+        "Vendor lead time reduction"
+      ],
       "answer": 0,
       "explain": "Limiting exposure of payment data helps protect customer information and reduces risk of fraud or data misuse.",
       "optionExplanations": [
@@ -1186,7 +1641,12 @@
     },
     {
       "q": "Which statement best describes a target market?",
-      "options": ["The specific group of customers a retailer aims to serve", "Every person living within 100 miles of the store", "Only the store's employees", "The list of approved suppliers"],
+      "options": [
+        "The specific group of customers a retailer aims to serve",
+        "Every person living within 100 miles of the store",
+        "Only the store's employees",
+        "The list of approved suppliers"
+      ],
       "answer": 0,
       "explain": "A target market is the defined segment of consumers most likely to buy the retailer's products or respond to its marketing.",
       "optionExplanations": [
@@ -1199,7 +1659,12 @@
     },
     {
       "q": "Why do retailers often place complementary items near one another, such as chips near salsa?",
-      "options": ["To encourage additional purchases", "To reduce shelf visibility", "To make stock counts harder", "To separate related demand"],
+      "options": [
+        "To encourage additional purchases",
+        "To reduce shelf visibility",
+        "To make stock counts harder",
+        "To separate related demand"
+      ],
       "answer": 0,
       "explain": "Placing complementary items together makes shopping more convenient and often increases basket size through add-on purchases.",
       "optionExplanations": [
@@ -1212,7 +1677,12 @@
     },
     {
       "q": "Which term refers to the amount of time between placing an order and receiving the merchandise?",
-      "options": ["Lead time", "Sell-through", "Markdown period", "Checkout cycle"],
+      "options": [
+        "Lead time",
+        "Sell-through",
+        "Markdown period",
+        "Checkout cycle"
+      ],
       "answer": 0,
       "explain": "Lead time is the elapsed time from order placement to delivery or receipt of goods.",
       "optionExplanations": [
@@ -1225,7 +1695,12 @@
     },
     {
       "q": "A department store's cosmetics counter offers free product samples primarily to:",
-      "options": ["Increase trial and stimulate purchases", "Reduce inventory accuracy", "Replace all advertising", "Delay checkout lines"],
+      "options": [
+        "Increase trial and stimulate purchases",
+        "Reduce inventory accuracy",
+        "Replace all advertising",
+        "Delay checkout lines"
+      ],
       "answer": 0,
       "explain": "Samples let customers experience the product, which can reduce hesitation and increase the chance of purchase.",
       "optionExplanations": [
@@ -1238,7 +1713,12 @@
     },
     {
       "q": "Which of the following is the best example of a variable expense for a retail store?",
-      "options": ["Cost of goods sold", "Annual property tax", "Monthly insurance premium", "Store lease payment"],
+      "options": [
+        "Cost of goods sold",
+        "Annual property tax",
+        "Monthly insurance premium",
+        "Store lease payment"
+      ],
       "answer": 0,
       "explain": "Cost of goods sold varies with sales volume, making it a variable expense in retail operations.",
       "optionExplanations": [
@@ -1251,7 +1731,12 @@
     },
     {
       "q": "Which action best helps maintain accurate perpetual inventory records?",
-      "options": ["Scanning items at the time of sale", "Waiting until year-end to count everything", "Allowing employees to take items without documentation", "Skipping receiving entries for small shipments"],
+      "options": [
+        "Scanning items at the time of sale",
+        "Waiting until year-end to count everything",
+        "Allowing employees to take items without documentation",
+        "Skipping receiving entries for small shipments"
+      ],
       "answer": 0,
       "explain": "Perpetual systems depend on immediate recording of each inventory movement, especially sales and receipts.",
       "optionExplanations": [
@@ -1264,7 +1749,12 @@
     },
     {
       "q": "A retailer that advertises one very popular product at an unusually low price to draw customers into the store is using:",
-      "options": ["Loss leader pricing", "Prestige pricing", "Price fixing", "Predatory zoning"],
+      "options": [
+        "Loss leader pricing",
+        "Prestige pricing",
+        "Price fixing",
+        "Predatory zoning"
+      ],
       "answer": 0,
       "explain": "Loss leader pricing uses a highly attractive low price on a well-known item to generate store traffic and additional sales.",
       "optionExplanations": [
@@ -1277,7 +1767,12 @@
     },
     {
       "q": "Why are clear aisle paths important in a retail store?",
-      "options": ["They improve safety and customer flow", "They make inventory shrinkage impossible", "They remove the need for signage", "They eliminate employee training"],
+      "options": [
+        "They improve safety and customer flow",
+        "They make inventory shrinkage impossible",
+        "They remove the need for signage",
+        "They eliminate employee training"
+      ],
       "answer": 0,
       "explain": "Clear aisles make it easier and safer for customers to navigate the store and reduce congestion or trip hazards.",
       "optionExplanations": [
@@ -1290,7 +1785,12 @@
     },
     {
       "q": "When a retailer compares actual sales with planned sales for a period, it is performing:",
-      "options": ["Sales variance analysis", "Store zoning", "Visual blocking", "Vendor dating"],
+      "options": [
+        "Sales variance analysis",
+        "Store zoning",
+        "Visual blocking",
+        "Vendor dating"
+      ],
       "answer": 0,
       "explain": "Sales variance analysis evaluates the difference between expected and actual sales performance.",
       "optionExplanations": [
@@ -1303,7 +1803,12 @@
     },
     {
       "q": "What is the best reason to train employees on how to handle returns consistently?",
-      "options": ["To ensure fairness and policy compliance", "To make every return take longer", "To avoid recording returned items", "To discourage all customers from making returns"],
+      "options": [
+        "To ensure fairness and policy compliance",
+        "To make every return take longer",
+        "To avoid recording returned items",
+        "To discourage all customers from making returns"
+      ],
       "answer": 0,
       "explain": "Consistent training helps employees apply policy fairly, protect assets, and provide predictable customer service.",
       "optionExplanations": [
@@ -1316,7 +1821,12 @@
     },
     {
       "q": "Which merchandising technique uses vertical arrangements so customers can see products at multiple eye levels?",
-      "options": ["Vertical merchandising", "Random stocking", "Shadow pricing", "Reverse logistics"],
+      "options": [
+        "Vertical merchandising",
+        "Random stocking",
+        "Shadow pricing",
+        "Reverse logistics"
+      ],
       "answer": 0,
       "explain": "Vertical merchandising places related products in a top-to-bottom arrangement, making them visible across different shelf heights.",
       "optionExplanations": [
@@ -1329,7 +1839,12 @@
     },
     {
       "q": "A store checks competitor prices and adjusts its own prices weekly. This is an example of:",
-      "options": ["Competitive pricing", "Employee scheduling", "Credit authorization", "Freight consolidation"],
+      "options": [
+        "Competitive pricing",
+        "Employee scheduling",
+        "Credit authorization",
+        "Freight consolidation"
+      ],
       "answer": 0,
       "explain": "Competitive pricing involves setting prices with awareness of rival retailers' price levels.",
       "optionExplanations": [
@@ -1342,7 +1857,12 @@
     },
     {
       "q": "Which process deals with moving returned merchandise back through the supply chain for resale, repair, or disposal?",
-      "options": ["Reverse logistics", "Cross-docking", "Prospecting", "Forward pricing"],
+      "options": [
+        "Reverse logistics",
+        "Cross-docking",
+        "Prospecting",
+        "Forward pricing"
+      ],
       "answer": 0,
       "explain": "Reverse logistics manages the flow of returned or excess goods from the customer or store back through distribution channels.",
       "optionExplanations": [
@@ -1355,7 +1875,12 @@
     },
     {
       "q": "Which of the following best helps prevent long checkout lines during peak shopping hours?",
-      "options": ["Accurate labor scheduling based on traffic forecasts", "Reducing all product assortment", "Removing price scanners", "Closing express lanes"],
+      "options": [
+        "Accurate labor scheduling based on traffic forecasts",
+        "Reducing all product assortment",
+        "Removing price scanners",
+        "Closing express lanes"
+      ],
       "answer": 0,
       "explain": "Scheduling enough trained staff during forecasted busy periods helps reduce wait times and improve service.",
       "optionExplanations": [
@@ -1368,7 +1893,12 @@
     },
     {
       "q": "What is the most likely result of poor visual merchandising?",
-      "options": ["Reduced customer interest and weaker sales", "Automatic improvement in inventory turnover", "Higher customer loyalty without effort", "Lower need for employee training"],
+      "options": [
+        "Reduced customer interest and weaker sales",
+        "Automatic improvement in inventory turnover",
+        "Higher customer loyalty without effort",
+        "Lower need for employee training"
+      ],
       "answer": 0,
       "explain": "If merchandise is unattractive or hard to shop, customers may notice fewer items and be less likely to buy.",
       "optionExplanations": [
@@ -1381,7 +1911,12 @@
     },
     {
       "q": "Which statement best explains why retailers monitor gross margin return on investment (GMROI)?",
-      "options": ["It shows how much gross margin is earned for each dollar invested in inventory", "It measures how many employees work per aisle", "It tracks the age of the store building", "It estimates monthly utility usage"],
+      "options": [
+        "It shows how much gross margin is earned for each dollar invested in inventory",
+        "It measures how many employees work per aisle",
+        "It tracks the age of the store building",
+        "It estimates monthly utility usage"
+      ],
       "answer": 0,
       "explain": "GMROI helps retailers judge how effectively inventory investment is generating gross margin dollars.",
       "optionExplanations": [
@@ -1394,7 +1929,12 @@
     },
     {
       "q": "A retailer places signs stating 'limited quantity available' only when that statement is true because the retailer wants to maintain:",
-      "options": ["Truthful advertising standards", "Higher shrinkage", "Lower product quality", "Reduced customer trust"],
+      "options": [
+        "Truthful advertising standards",
+        "Higher shrinkage",
+        "Lower product quality",
+        "Reduced customer trust"
+      ],
       "answer": 0,
       "explain": "Accurate scarcity claims are part of truthful advertising and ethical communication with customers.",
       "optionExplanations": [
