@@ -230,10 +230,41 @@ function getQuizBankMode() {
 
 function getDeckForMode(eventName, mode) {
   const hqDeck = dedupeDeck(getOfficialDeck(eventName));
-  if (mode !== "hq-ai") return hqDeck;
-
   const aiDeck = dedupeDeck(getAIDeck(eventName));
-  return dedupeDeck([...hqDeck, ...aiDeck]);
+
+  // AI bank (from generated_by_checklist) has verified answer indices.
+  // HQ bank may have corrupt indices for the same questions.
+  // Build a correction map keyed by normalized question text.
+  const aiMap = new Map();
+  aiDeck.forEach((q) => aiMap.set(norm(q.q), q));
+
+  const correctedHq = hqDeck.map((q) => {
+    const aiVersion = aiMap.get(norm(q.q));
+    if (aiVersion) {
+      return { ...q, answer: aiVersion.answer, options: aiVersion.options, optionExplanations: aiVersion.optionExplanations.length ? aiVersion.optionExplanations : q.optionExplanations };
+    }
+    return q;
+  });
+
+  if (mode !== "hq-ai") return correctedHq;
+
+  // In combined mode, put corrected HQ first, then add AI-only questions
+  return dedupeDeck([...correctedHq, ...aiDeck]);
+}
+
+function shuffleOptions(q) {
+  if (!q || !Array.isArray(q.options) || q.options.length !== 4) return q;
+  const indices = [0, 1, 2, 3];
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  const newOptions = indices.map((i) => q.options[i]);
+  const newAnswer = indices.indexOf(q.answer);
+  const newOptExp = Array.isArray(q.optionExplanations) && q.optionExplanations.length === 4
+    ? indices.map((i) => q.optionExplanations[i])
+    : q.optionExplanations;
+  return { ...q, options: newOptions, answer: newAnswer, optionExplanations: newOptExp };
 }
 
 function isOfficialQuestionSource(source) {
@@ -651,7 +682,7 @@ function startExam() {
 
   const count = countValue === "max" ? base.length : Number(countValue);
 
-  state.quiz.deck = shuffle(base).slice(0, Math.min(count, base.length));
+  state.quiz.deck = shuffle(base).slice(0, Math.min(count, base.length)).map(shuffleOptions);
   state.quiz.index = 0;
   state.quiz.answers = {};
   state.quiz.submitted = false;
@@ -662,6 +693,8 @@ function startExam() {
   state.quiz.timerId = setInterval(() => {
     state.quiz.secondsLeft -= 1;
     quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
+    const urgent = state.quiz.secondsLeft <= 60;
+    quizUi.timer.classList.toggle("urgent", urgent);
     if (state.quiz.secondsLeft <= 0) {
       submitExam();
     }
@@ -669,8 +702,18 @@ function startExam() {
 
   quizUi.results.innerHTML = "<p>Submit exam to see full right/wrong explanations for every question and option.</p>";
   updateQuizAiHelp(null, null);
+  updateProgressBar();
   renderQuestion();
   setWorkspaceTab("quiz");
+}
+
+function updateProgressBar() {
+  const bar = document.getElementById("quizProgressBar");
+  if (!bar) return;
+  const deck = state.quiz.deck;
+  if (!deck.length) { bar.style.width = "0%"; return; }
+  const answered = Object.keys(state.quiz.answers).length;
+  bar.style.width = `${Math.round((answered / deck.length) * 100)}%`;
 }
 
 function renderQuestion() {
@@ -704,6 +747,7 @@ function renderQuestion() {
       state.quiz.answers[idx] = Number(btn.dataset.opt);
       renderQuestion();
       updateLiveScore();
+      updateProgressBar();
     });
   });
 
@@ -898,7 +942,7 @@ function renderRoleplay(eventName) {
 }
 
 function buildFlashcards(eventName) {
-  const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, 18);
+  const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, 18).map(shuffleOptions);
   const generated = base.map((q) => {
     const answerLine = Number.isInteger(q.answer)
       ? q.options[q.answer]
@@ -929,21 +973,44 @@ function renderFlashcard() {
 
 function renderPrep(eventName) {
   const prep = BASE_PREP.map((p) => ({ label: p, key: `${eventName}-${p}` }));
-  document.getElementById("prepChecklist").innerHTML = prep.map((item) => `
-    <label class="check-item">
-      <input type="checkbox" data-prep-key="${item.key}">
+  document.getElementById("prepChecklist").innerHTML = prep.map((item) => {
+    const checked = localStorage.getItem(`prep-${item.key}`) === "1";
+    return `
+    <label class="check-item${checked ? ' checked' : ''}">
+      <input type="checkbox" data-prep-key="${item.key}" ${checked ? 'checked' : ''}>
       <span>${item.label}</span>
     </label>
-  `).join("");
+  `;
+  }).join("");
+
+  document.querySelectorAll('[data-prep-key]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const key = `prep-${cb.dataset.prepKey}`;
+      localStorage.setItem(key, cb.checked ? '1' : '0');
+      cb.closest('.check-item').classList.toggle('checked', cb.checked);
+    });
+  });
 
   const prod = getProductionTasks(eventName);
   const prodItems = prod?.tasks?.length ? prod.tasks : ["No production workflow mapped for this event. Use objective + roleplay prep modules."];
-  document.getElementById("productionChecklist").innerHTML = prodItems.map((task, i) => `
-    <label class="check-item">
-      <input type="checkbox" data-prod-key="${eventName}-prod-${i}">
+  document.getElementById("productionChecklist").innerHTML = prodItems.map((task, i) => {
+    const key = `${eventName}-prod-${i}`;
+    const checked = localStorage.getItem(`prod-${key}`) === "1";
+    return `
+    <label class="check-item${checked ? ' checked' : ''}">
+      <input type="checkbox" data-prod-key="${key}" ${checked ? 'checked' : ''}>
       <span>${task}</span>
     </label>
-  `).join("");
+  `;
+  }).join("");
+
+  document.querySelectorAll('[data-prod-key]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const key = `prod-${cb.dataset.prodKey}`;
+      localStorage.setItem(key, cb.checked ? '1' : '0');
+      cb.closest('.check-item').classList.toggle('checked', cb.checked);
+    });
+  });
 }
 
 function bindUi() {
@@ -1010,6 +1077,48 @@ function bindUi() {
     state.flash.flipped = false;
     renderFlashcard();
   };
+
+  // Keyboard navigation
+  document.addEventListener("keydown", (e) => {
+    const activeTag = document.activeElement?.tagName;
+    if (activeTag === "INPUT" || activeTag === "TEXTAREA" || activeTag === "SELECT") return;
+
+    const activeTab = document.querySelector(".ws-tab.active")?.dataset.wsTab;
+
+    if (activeTab === "quiz" && state.quiz.deck.length) {
+      if (e.key === "ArrowLeft") { e.preventDefault(); changeQuestion(-1); }
+      if (e.key === "ArrowRight") { e.preventDefault(); changeQuestion(1); }
+      if (!state.quiz.submitted) {
+        const optMap = { a: 0, b: 1, c: 2, d: 3 };
+        const optIdx = optMap[e.key.toLowerCase()];
+        if (optIdx !== undefined) {
+          e.preventDefault();
+          state.quiz.answers[state.quiz.index] = optIdx;
+          renderQuestion();
+          updateLiveScore();
+          updateProgressBar();
+        }
+      }
+    }
+
+    if (activeTab === "flashcards") {
+      if (e.key === " " || e.key === "Enter") { e.preventDefault(); flip(); }
+      if (e.key === "ArrowRight") {
+        e.preventDefault();
+        if (!state.flash.deck.length) return;
+        state.flash.index = (state.flash.index + 1) % state.flash.deck.length;
+        state.flash.flipped = false;
+        renderFlashcard();
+      }
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        if (!state.flash.deck.length) return;
+        state.flash.index = (state.flash.index - 1 + state.flash.deck.length) % state.flash.deck.length;
+        state.flash.flipped = false;
+        renderFlashcard();
+      }
+    }
+  });
 }
 
 function init() {
