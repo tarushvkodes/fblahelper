@@ -18,6 +18,7 @@
     <div>
       <p class="eyebrow">Competitive Event Prep</p>
       <h1>FBLA Helper</h1>
+      <button class="event-nav-btn" id="railToggle"><span id="eventNavLabel">Browse Events</span></button>
     </div>
     <div class="header-stats">
       <div>
@@ -42,9 +43,11 @@
   <main class="shell">
     <div class="rail-overlay" id="railOverlay"></div>
     <aside class="event-rail panel" id="eventRail">
-      <button class="rail-toggle" id="railToggle">Browse Events</button>
       <div class="rail-head">
-        <h2>Events</h2>
+        <div class="rail-head-row">
+          <h2>Events</h2>
+          <button class="rail-close" id="railClose" aria-label="Close">&times;</button>
+        </div>
         <p>Pick an event to open its workspace.</p>
       </div>
       <input id="eventSearch" type="search" placeholder="Search events…">

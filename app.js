@@ -1291,10 +1291,14 @@ function openEvent(eventName, tabName = "overview") {
   haptic("nudge");
   state.currentEvent = eventName;
 
-  /* Auto-close bottom sheet on mobile */
-  if (window.__closeRail && window.matchMedia("(max-width: 1180px)").matches) {
+  /* Always close the event panel */
+  if (window.__closeRail) {
     window.__closeRail();
   }
+
+  /* Update nav button label */
+  const navLabel = document.getElementById("eventNavLabel");
+  if (navLabel) navLabel.textContent = eventName;
 
   renderEventList();
 
@@ -2233,12 +2237,12 @@ function bindUi() {
   const railToggle = document.getElementById("railToggle");
   const eventRailEl = document.getElementById("eventRail");
   const railOverlay = document.getElementById("railOverlay");
-  const isMobileRail = () => window.matchMedia("(max-width: 1180px)").matches;
+  const railClose = document.getElementById("railClose");
+  const eventNavLabel = document.getElementById("eventNavLabel");
 
   function closeRail() {
     if (!eventRailEl) return;
     eventRailEl.classList.add("collapsed");
-    railToggle?.classList.remove("open");
     railOverlay?.classList.remove("active");
     document.body.style.overflow = "";
   }
@@ -2246,11 +2250,8 @@ function bindUi() {
   function openRail() {
     if (!eventRailEl) return;
     eventRailEl.classList.remove("collapsed");
-    railToggle?.classList.add("open");
-    if (isMobileRail()) {
-      railOverlay?.classList.add("active");
-      document.body.style.overflow = "hidden";
-    }
+    railOverlay?.classList.add("active");
+    document.body.style.overflow = "hidden";
   }
 
   if (railToggle && eventRailEl) {
@@ -2265,6 +2266,19 @@ function bindUi() {
   if (railOverlay) {
     railOverlay.addEventListener("click", closeRail);
   }
+
+  if (railClose) {
+    railClose.addEventListener("click", () => {
+      haptic();
+      closeRail();
+    });
+  }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && eventRailEl && !eventRailEl.classList.contains("collapsed")) {
+      closeRail();
+    }
+  });
 
   /* Expose closeRail globally for openEvent auto-close */
   window.__closeRail = closeRail;
