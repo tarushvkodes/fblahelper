@@ -32949,10 +32949,865 @@ window.AI_QUESTION_BANK = {
         "source": "ai"
       }
     ]
+,
+    "Job Interview": [
+      {
+        "q": "What is the STAR method used for in job interviews?",
+        "options": ["Rating employee performance", "Structuring behavioral interview responses: Situation, Task, Action, Result", "Creating a business plan", "Calculating sales revenue"],
+        "answer": 1,
+        "explain": "The STAR method (Situation, Task, Action, Result) provides a structured framework for answering behavioral interview questions effectively.",
+        "optionExplanations": ["Performance ratings use different evaluation methods.", "Correct: STAR structures responses around Situation, Task, Action, and Result.", "Business plans use different frameworks.", "Sales calculations use financial formulas."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the most important thing to research before a job interview?",
+        "options": ["The interviewer's personal life", "The company's mission, values, products, and recent news", "The building's architecture", "Other candidates being interviewed"],
+        "answer": 1,
+        "explain": "Researching the company demonstrates genuine interest and allows you to tailor your responses to align with the organization's goals and culture.",
+        "optionExplanations": ["Personal information about interviewers is inappropriate to research.", "Correct: Company research shows preparedness and genuine interest.", "Building details are irrelevant to interview performance.", "Other candidates are not your concern."],
+        "source": "ai"
+      },
+      {
+        "q": "How should you answer the question 'Tell me about yourself' in an interview?",
+        "options": ["Share your entire life story", "Give a brief professional summary highlighting relevant skills, experience, and career goals", "List all your hobbies", "Recite your resume word for word"],
+        "answer": 1,
+        "explain": "A concise professional summary focusing on relevant experience, key achievements, and how they connect to the role is the best approach.",
+        "optionExplanations": ["Life stories are too personal and unfocused.", "Correct: A brief professional summary with relevant highlights works best.", "Hobbies are generally not the focus of this question.", "Reciting a resume lacks personality and narrative."],
+        "source": "ai"
+      },
+      {
+        "q": "What is appropriate attire for a professional job interview?",
+        "options": ["Casual jeans and a t-shirt", "Professional business attire appropriate to the industry", "Athletic wear", "Costume clothing"],
+        "answer": 1,
+        "explain": "Professional business attire demonstrates respect for the interview process and shows you understand workplace professionalism.",
+        "optionExplanations": ["Casual clothing may appear unprofessional.", "Correct: Professional attire appropriate to the industry is standard.", "Athletic wear is not professional.", "Costume clothing is never appropriate."],
+        "source": "ai"
+      },
+      {
+        "q": "Why should you send a follow-up thank-you note after an interview?",
+        "options": ["It is required by law", "It demonstrates professionalism, reinforces your interest, and keeps you top of mind", "To negotiate salary immediately", "To ask about other candidates"],
+        "answer": 1,
+        "explain": "A thank-you note within 24 hours shows professionalism, gratitude, and continued interest in the position.",
+        "optionExplanations": ["Thank-you notes are courteous, not legally required.", "Correct: It demonstrates professionalism and reinforces interest.", "Salary negotiation comes later in the process.", "Asking about other candidates is inappropriate."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a behavioral interview question?",
+        "options": ["A question about your behavior outside of work", "A question asking you to describe how you handled a past situation relevant to the job", "A psychological test", "A question about your salary expectations"],
+        "answer": 1,
+        "explain": "Behavioral questions ask candidates to describe specific past experiences to predict future performance (e.g., 'Tell me about a time when...').",
+        "optionExplanations": ["Personal behavior outside work is generally not asked about.", "Correct: Behavioral questions ask about past situations and how you handled them.", "Psychological tests are separate assessments.", "Salary questions are not behavioral questions."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the best way to handle a question about your weaknesses?",
+        "options": ["Say you have no weaknesses", "Be honest about a genuine area for improvement and explain steps you are taking to address it", "List many serious weaknesses", "Refuse to answer the question"],
+        "answer": 1,
+        "explain": "Discussing a genuine weakness with self-awareness and showing steps you take to improve demonstrates maturity and growth mindset.",
+        "optionExplanations": ["Claiming no weaknesses appears dishonest or lacking self-awareness.", "Correct: Honest self-assessment with improvement steps shows maturity.", "Listing many weaknesses is excessive and damaging.", "Refusing to answer appears evasive."],
+        "source": "ai"
+      },
+      {
+        "q": "What is nonverbal communication in an interview?",
+        "options": ["Only written communication", "Body language, eye contact, posture, and facial expressions that convey messages without words", "Speaking very softly", "Text messaging during the interview"],
+        "answer": 1,
+        "explain": "Nonverbal communication includes body language, eye contact, posture, handshake, and facial expressions that significantly influence impressions.",
+        "optionExplanations": ["Written communication is a different form.", "Correct: Body language, eye contact, and posture are nonverbal communication.", "Speaking softly is still verbal communication.", "Texting during interviews is inappropriate."],
+        "source": "ai"
+      },
+      {
+        "q": "Why should you prepare questions to ask the interviewer?",
+        "options": ["To waste time", "To demonstrate genuine interest and evaluate whether the role is right for you", "To challenge the interviewer", "Questions are not necessary"],
+        "answer": 1,
+        "explain": "Asking thoughtful questions shows engagement, genuine interest in the role, and helps you determine if the company is a good fit.",
+        "optionExplanations": ["Good questions use time productively.", "Correct: Questions show interest and help evaluate fit.", "Questions should be collaborative, not challenging.", "Having no questions may signal disinterest."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of an elevator pitch?",
+        "options": ["To sell elevators", "A brief, persuasive summary of who you are and what value you offer, delivered in 30-60 seconds", "A long presentation", "A written essay about yourself"],
+        "answer": 1,
+        "explain": "An elevator pitch is a concise, compelling self-introduction that can be delivered in the time of an elevator ride (30-60 seconds).",
+        "optionExplanations": ["Elevator pitches have nothing to do with selling elevators.", "Correct: A brief persuasive summary delivered in 30-60 seconds.", "Long presentations are not elevator pitches.", "Written essays are different from verbal pitches."],
+        "source": "ai"
+      },
+      {
+        "q": "How should you handle an unexpected or difficult interview question?",
+        "options": ["Panic and leave", "Take a moment to think, stay calm, and provide a thoughtful response", "Refuse to answer", "Make up an answer quickly"],
+        "answer": 1,
+        "explain": "Taking a brief pause to collect your thoughts shows composure and leads to a more thoughtful, genuine response.",
+        "optionExplanations": ["Panicking shows inability to handle pressure.", "Correct: Staying calm and thinking before responding shows composure.", "Refusing to answer appears uncooperative.", "Rushed answers may lack substance or accuracy."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between hard skills and soft skills?",
+        "options": ["Hard skills are more important", "Hard skills are technical abilities; soft skills are interpersonal qualities like communication and teamwork", "Soft skills cannot be learned", "They are the same thing"],
+        "answer": 1,
+        "explain": "Hard skills are specific technical competencies, while soft skills are interpersonal abilities like communication, leadership, and adaptability.",
+        "optionExplanations": ["Both types are valued by employers.", "Correct: Hard skills are technical; soft skills are interpersonal.", "Soft skills can be developed through practice.", "They are distinctly different categories."],
+        "source": "ai"
+      },
+      {
+        "q": "What is appropriate body language during an interview?",
+        "options": ["Crossing arms and looking down", "Sitting upright, maintaining eye contact, and using open gestures", "Fidgeting constantly", "Slouching in the chair"],
+        "answer": 1,
+        "explain": "Positive body language — upright posture, eye contact, open gestures, and a firm handshake — conveys confidence and engagement.",
+        "optionExplanations": ["Crossed arms and avoiding eye contact signal defensiveness.", "Correct: Upright posture and eye contact show confidence and engagement.", "Fidgeting signals nervousness and distraction.", "Slouching appears unprofessional and disinterested."],
+        "source": "ai"
+      },
+      {
+        "q": "What should you bring to a job interview?",
+        "options": ["Nothing", "Extra copies of your resume, a list of references, a notepad, and a pen", "Your lunch", "Your entire portfolio of every project you have ever done"],
+        "answer": 1,
+        "explain": "Bringing extra resumes, references, a notepad, and questions shows preparedness and professionalism.",
+        "optionExplanations": ["Coming empty-handed appears unprepared.", "Correct: Extra resumes, references, and a notepad show preparedness.", "Lunch is not needed for most interviews.", "Bringing everything is excessive; select relevant samples."],
+        "source": "ai"
+      },
+      {
+        "q": "How early should you arrive for a job interview?",
+        "options": ["Exactly on time", "10-15 minutes early", "1 hour early", "It doesn't matter"],
+        "answer": 1,
+        "explain": "Arriving 10-15 minutes early shows punctuality and gives you time to compose yourself, but arriving too early can inconvenience the interviewer.",
+        "optionExplanations": ["Exactly on time leaves no buffer for unexpected delays.", "Correct: 10-15 minutes early is the professional standard.", "Arriving an hour early can be inconvenient.", "Arrival time reflects professionalism."],
+        "source": "ai"
+      }
+    ],
+    "Mobile Application Development": [
+      {
+        "q": "What is the difference between native and cross-platform mobile development?",
+        "options": ["There is no difference", "Native apps are built for one specific OS; cross-platform works on multiple OSes from one codebase", "Cross-platform always performs better", "Native apps cannot access device features"],
+        "answer": 1,
+        "explain": "Native development creates apps for a specific platform (iOS/Android) using platform-specific tools, while cross-platform uses shared code for multiple platforms.",
+        "optionExplanations": ["They differ significantly in approach and capabilities.", "Correct: Native targets one OS; cross-platform targets multiple from one codebase.", "Native apps typically have better performance.", "Native apps have full access to device features."],
+        "source": "ai"
+      },
+      {
+        "q": "What is UI/UX design in mobile app development?",
+        "options": ["Only the app's color scheme", "UI is the visual interface design; UX is the overall user experience and usability", "A programming language", "A type of database"],
+        "answer": 1,
+        "explain": "UI (User Interface) focuses on visual design elements, while UX (User Experience) encompasses the entire user journey and satisfaction.",
+        "optionExplanations": ["Color is just one aspect of UI.", "Correct: UI is visual design; UX is overall experience and usability.", "UI/UX is a design discipline, not a language.", "Databases store data, not design."],
+        "source": "ai"
+      },
+      {
+        "q": "What is responsive design in mobile development?",
+        "options": ["Making apps respond faster", "Designing interfaces that adapt to different screen sizes and orientations", "Using only one screen layout", "Making the app respond to voice commands"],
+        "answer": 1,
+        "explain": "Responsive design ensures the app's interface adjusts and looks good across different device sizes, resolutions, and orientations.",
+        "optionExplanations": ["Response speed is performance optimization.", "Correct: Responsive design adapts to different screen sizes.", "One layout doesn't fit all devices.", "Voice commands are a separate feature."],
+        "source": "ai"
+      },
+      {
+        "q": "What is an API in mobile app development?",
+        "options": ["A type of smartphone", "A set of protocols allowing the app to communicate with servers or other services", "A mobile operating system", "A design tool"],
+        "answer": 1,
+        "explain": "An API (Application Programming Interface) enables mobile apps to communicate with backend servers, databases, and third-party services.",
+        "optionExplanations": ["APIs are software interfaces, not hardware.", "Correct: APIs enable communication between apps and services.", "Operating systems run devices; APIs connect services.", "Design tools create visuals, not communication protocols."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of wireframing in app development?",
+        "options": ["Writing the final code", "Creating a basic visual blueprint of the app's layout and navigation before development", "Testing the app for bugs", "Marketing the app"],
+        "answer": 1,
+        "explain": "Wireframes are low-fidelity visual guides that represent the skeletal framework of an app, showing layout, navigation, and functionality.",
+        "optionExplanations": ["Code comes after wireframing.", "Correct: Wireframes are visual blueprints of app layout.", "Testing happens after development.", "Marketing is a separate phase."],
+        "source": "ai"
+      },
+      {
+        "q": "What is user testing in mobile app development?",
+        "options": ["Testing if users can lift the phone", "Having real users interact with the app to identify usability issues and gather feedback", "Running automated code tests only", "Testing internet speed"],
+        "answer": 1,
+        "explain": "User testing involves observing real users interacting with the app to discover usability problems, confusion points, and improvement opportunities.",
+        "optionExplanations": ["Physical testing is not user testing.", "Correct: User testing has real people interact with the app.", "User testing focuses on real human experience, not just automated tests.", "Internet speed testing is performance, not usability."],
+        "source": "ai"
+      },
+      {
+        "q": "What are push notifications?",
+        "options": ["Notifications you push away", "Messages sent from a server to a mobile app that appear even when the app isn't actively open", "Text messages between users", "Email alerts"],
+        "answer": 1,
+        "explain": "Push notifications are server-sent messages that appear on a user's device, even when the app isn't running, to re-engage users.",
+        "optionExplanations": ["Push refers to the delivery method, not dismissal.", "Correct: Push notifications are server-sent messages appearing on devices.", "Text messages are SMS, not push notifications.", "Emails are a separate communication channel."],
+        "source": "ai"
+      },
+      {
+        "q": "What is version control important in app development?",
+        "options": ["It tracks app store ratings", "It manages code changes, enables collaboration, and allows reverting to previous versions", "It controls the app's version number only", "It's not important"],
+        "answer": 1,
+        "explain": "Version control (like Git) tracks all code changes, enables team collaboration, and provides the ability to revert to any previous state.",
+        "optionExplanations": ["App store ratings are separate from version control.", "Correct: Version control manages code changes and collaboration.", "Version numbers are one aspect, but control systems do much more.", "Version control is essential for professional development."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between iOS and Android development?",
+        "options": ["They are identical", "iOS uses Swift/Xcode on Apple platforms; Android uses Kotlin/Java with Android Studio", "Android doesn't support apps", "iOS is only for games"],
+        "answer": 1,
+        "explain": "iOS development primarily uses Swift with Xcode, while Android uses Kotlin or Java with Android Studio, each with distinct design guidelines.",
+        "optionExplanations": ["They have different languages, tools, and guidelines.", "Correct: iOS uses Swift/Xcode; Android uses Kotlin/Java with Android Studio.", "Android has a vast app ecosystem.", "iOS supports all types of applications."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a prototype in app development?",
+        "options": ["The final released app", "An early interactive model of the app used to test concepts and gather feedback", "A marketing document", "A financial plan"],
+        "answer": 1,
+        "explain": "A prototype is an interactive mockup that simulates the app's functionality, used to test ideas and gather user feedback before full development.",
+        "optionExplanations": ["Prototypes precede the final product.", "Correct: Prototypes are interactive models for testing concepts.", "Marketing documents promote products.", "Financial plans cover budgets and revenue."],
+        "source": "ai"
+      },
+      {
+        "q": "What is app accessibility?",
+        "options": ["Making the app free", "Designing the app so people with disabilities can use it effectively", "Making the app available in all countries", "Making the app load fast"],
+        "answer": 1,
+        "explain": "Accessibility ensures that people with visual, auditory, motor, or cognitive disabilities can use the app through features like screen readers and high contrast.",
+        "optionExplanations": ["Free apps are about pricing, not accessibility.", "Correct: Accessibility makes apps usable for people with disabilities.", "Global availability is localization/distribution.", "Loading speed is performance optimization."],
+        "source": "ai"
+      },
+      {
+        "q": "What is local storage in mobile apps?",
+        "options": ["A physical storage room", "Data stored directly on the user's device for offline access", "Cloud storage only", "A type of database server"],
+        "answer": 1,
+        "explain": "Local storage saves data on the device itself, enabling offline functionality and faster access to frequently used information.",
+        "optionExplanations": ["Local storage is digital, not physical.", "Correct: Data stored on the device for offline access.", "Cloud storage is remote, not local.", "Database servers are remote infrastructure."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a splash screen?",
+        "options": ["To display advertisements", "A brief introductory screen shown while the app loads, featuring the app's branding", "To collect user data", "To test the screen display"],
+        "answer": 1,
+        "explain": "A splash screen provides a branded loading screen while the app initializes, creating a polished first impression.",
+        "optionExplanations": ["Splash screens are for branding, not ads.", "Correct: Splash screens show branding while the app loads.", "Data collection happens through forms, not splash screens.", "Screen testing is a QA activity."],
+        "source": "ai"
+      },
+      {
+        "q": "What is mobile-first design?",
+        "options": ["Designing only for mobile", "Designing for the smallest screen first, then adapting for larger screens", "Ignoring desktop users", "Using mobile phones to design"],
+        "answer": 1,
+        "explain": "Mobile-first design starts with the mobile experience and progressively enhances for larger screens, ensuring core functionality works on small devices.",
+        "optionExplanations": ["Mobile-first still considers larger screens.", "Correct: Design starts small and enhances for larger screens.", "Desktop users are considered in progressive enhancement.", "Mobile-first is a design philosophy, not a tool."],
+        "source": "ai"
+      },
+      {
+        "q": "What is app deployment?",
+        "options": ["Deleting the app", "The process of releasing the app to users through app stores or distribution platforms", "Writing the first line of code", "Designing the app icon"],
+        "answer": 1,
+        "explain": "Deployment is the process of packaging, submitting, and releasing the app to platforms like the Apple App Store or Google Play Store.",
+        "optionExplanations": ["Deletion removes apps, not deploys them.", "Correct: Deployment releases the app through distribution channels.", "Writing code is development, not deployment.", "Icon design is part of branding."],
+        "source": "ai"
+      }
+    ],
+    "Public Service Announcement": [
+      {
+        "q": "What is the primary purpose of a public service announcement (PSA)?",
+        "options": ["To advertise a product for profit", "To inform and educate the public about important social issues", "To entertain the audience", "To report breaking news"],
+        "answer": 1,
+        "explain": "PSAs are non-commercial messages designed to raise awareness, educate, and promote behavioral change on important public issues.",
+        "optionExplanations": ["PSAs are non-commercial; they don't sell products.", "Correct: PSAs inform and educate about social issues.", "While PSAs can be engaging, entertainment isn't the primary goal.", "News reporting is journalism, not PSA production."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a PSA effective?",
+        "options": ["Using complex technical language", "A clear message, emotional appeal, and a specific call to action", "Making it as long as possible", "Avoiding any visual elements"],
+        "answer": 1,
+        "explain": "Effective PSAs have a focused message, connect emotionally with the audience, and include a clear call to action.",
+        "optionExplanations": ["Complex language reduces accessibility.", "Correct: Clear message, emotional connection, and call to action.", "Concise PSAs are typically more impactful.", "Visual elements enhance engagement and understanding."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a call to action in a PSA?",
+        "options": ["A phone number to call", "A specific instruction telling the audience what to do after receiving the message", "A legal disclaimer", "Background music"],
+        "answer": 1,
+        "explain": "A call to action directs the audience to take specific steps, such as 'visit our website,' 'volunteer today,' or 'call this helpline.'",
+        "optionExplanations": ["Phone numbers may be part of a CTA but aren't the full concept.", "Correct: CTAs tell the audience exactly what action to take.", "Legal disclaimers are regulatory requirements.", "Music is an audio element, not a call to action."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the target audience for a PSA?",
+        "options": ["Only elderly people", "The specific group of people the PSA is designed to reach and influence", "Only children", "Only government officials"],
+        "answer": 1,
+        "explain": "The target audience is the specific demographic group the PSA aims to reach, defined by age, location, behavior, or other characteristics.",
+        "optionExplanations": ["PSAs can target any age group.", "Correct: The target audience is the specific group intended to receive the message.", "Children are one possible target, not the only one.", "PSAs reach the general public, not just officials."],
+        "source": "ai"
+      },
+      {
+        "q": "Which of the following is an important element of PSA scriptwriting?",
+        "options": ["Using as many words as possible", "Keeping the message concise, clear, and impactful", "Including product placement", "Avoiding emotional appeal"],
+        "answer": 1,
+        "explain": "Effective PSA scripts are concise, using powerful language and emotional connection to deliver a memorable message in a short time.",
+        "optionExplanations": ["Wordiness dilutes the message.", "Correct: Concise, clear, and impactful messaging works best.", "Product placement is commercial, not appropriate for PSAs.", "Emotional appeal is often key to PSA effectiveness."],
+        "source": "ai"
+      },
+      {
+        "q": "What role does music play in a PSA?",
+        "options": ["It is always unnecessary", "It sets the emotional tone and reinforces the message", "It should overpower the narration", "It is only used in radio PSAs"],
+        "answer": 1,
+        "explain": "Music in PSAs establishes mood, enhances emotional impact, and supports the overall message without overpowering the content.",
+        "optionExplanations": ["Music can significantly enhance PSA effectiveness.", "Correct: Music sets the emotional tone and reinforces the message.", "Music should support, not overpower, the content.", "Music is used in both video and audio PSAs."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between a PSA and a commercial advertisement?",
+        "options": ["There is no difference", "PSAs promote public welfare; commercials promote products for profit", "PSAs are always longer", "Commercials are always more creative"],
+        "answer": 1,
+        "explain": "PSAs are non-profit messages about public health, safety, or welfare, while commercials promote products or services for revenue.",
+        "optionExplanations": ["They have fundamentally different purposes.", "Correct: PSAs serve public welfare; commercials serve commercial interests.", "Length varies for both formats.", "Creativity exists in both PSAs and commercials."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of research when creating a PSA?",
+        "options": ["Research is unnecessary", "Research provides accurate facts, statistics, and understanding of the issue and audience", "Research only makes the process longer", "Research is only needed for scientific PSAs"],
+        "answer": 1,
+        "explain": "Thorough research ensures the PSA presents accurate information, resonates with the target audience, and addresses the issue effectively.",
+        "optionExplanations": ["Research is essential for credible PSAs.", "Correct: Research provides accurate facts and audience understanding.", "Research improves quality, not just lengthens the process.", "All PSA topics benefit from research."],
+        "source": "ai"
+      },
+      {
+        "q": "What is storyboarding in PSA production?",
+        "options": ["Writing the final script", "Creating a visual plan showing the sequence of scenes, shots, and transitions", "Recording the voiceover", "Editing the final video"],
+        "answer": 1,
+        "explain": "A storyboard is a visual blueprint that maps out each scene with sketches, camera directions, dialogue, and timing before production begins.",
+        "optionExplanations": ["Scriptwriting is a separate pre-production step.", "Correct: Storyboards visually plan scenes and shot sequences.", "Voiceover recording is part of production.", "Video editing happens in post-production."],
+        "source": "ai"
+      },
+      {
+        "q": "What visual techniques are commonly used in effective PSAs?",
+        "options": ["Only text on a blank screen", "Compelling imagery, graphics, statistics, and real-life footage", "Random stock photos", "No visuals at all"],
+        "answer": 1,
+        "explain": "Effective PSAs use powerful visuals — real footage, infographics, compelling images — to capture attention and reinforce the message.",
+        "optionExplanations": ["Text-only is less engaging.", "Correct: Compelling visuals strengthen the PSA's impact.", "Random photos lack purpose and relevance.", "Visuals are important for video PSAs."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the typical length of a PSA?",
+        "options": ["10 minutes", "15, 30, or 60 seconds", "5 minutes minimum", "No specific length"],
+        "answer": 1,
+        "explain": "Most PSAs are 15, 30, or 60 seconds long, designed to deliver a focused message concisely for broadcast media.",
+        "optionExplanations": ["10 minutes is far too long for a PSA.", "Correct: Standard PSA lengths are 15, 30, or 60 seconds.", "PSAs are meant to be brief and impactful.", "Industry standards exist for PSA lengths."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is audience awareness important in PSA creation?",
+        "options": ["It is not important", "Understanding the audience helps craft messages that resonate and drive behavior change", "Only the creator's opinion matters", "Audiences don't affect the message"],
+        "answer": 1,
+        "explain": "Knowing your audience's demographics, values, and media habits helps create a PSA that connects and motivates action.",
+        "optionExplanations": ["Audience awareness is crucial for effectiveness.", "Correct: Understanding the audience helps craft resonant messages.", "The audience's perspective is central to effective communication.", "Audiences significantly influence message design."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the role of narration in a PSA?",
+        "options": ["To fill time", "To guide the audience through the message and provide context for the visuals", "To read legal disclaimers only", "Narration is never used"],
+        "answer": 1,
+        "explain": "Narration provides the verbal storyline, guides viewers through the message, and adds emotional depth and context to the visuals.",
+        "optionExplanations": ["Every element should serve the message.", "Correct: Narration guides the audience and provides context.", "Narration serves the entire message, not just disclaimers.", "Narration is a common and effective PSA element."],
+        "source": "ai"
+      },
+      {
+        "q": "What social issues are commonly addressed in PSAs?",
+        "options": ["Only environmental issues", "Health, safety, education, anti-bullying, substance abuse, and community welfare", "Only political campaigns", "Only financial topics"],
+        "answer": 1,
+        "explain": "PSAs address a wide range of issues including public health, safety, education, anti-bullying, environmental awareness, and community engagement.",
+        "optionExplanations": ["Environmental issues are one of many PSA topics.", "Correct: PSAs cover health, safety, education, and many other topics.", "Political campaigns are not PSAs.", "Financial literacy is one possible topic among many."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a PSA's message memorable?",
+        "options": ["Using confusing language", "A strong emotional hook, relatable content, and a clear takeaway", "Including as much data as possible", "Making the PSA very long"],
+        "answer": 1,
+        "explain": "Memorable PSAs combine emotional appeal with relatable stories and a clear, simple takeaway message that sticks with the audience.",
+        "optionExplanations": ["Confusing language reduces memorability.", "Correct: Emotional hooks and clear takeaways create memorable messages.", "Too much data overwhelms viewers.", "Longer PSAs may lose audience attention."],
+        "source": "ai"
+      }
+    ],
+    "Sales Presentation": [
+      {
+        "q": "What is the primary goal of a sales presentation?",
+        "options": ["To entertain the audience", "To persuade potential customers to purchase a product or service by demonstrating its value", "To present financial reports", "To train employees"],
+        "answer": 1,
+        "explain": "A sales presentation aims to convince prospects of a product's value and motivate them to make a purchasing decision.",
+        "optionExplanations": ["Entertainment may engage, but selling is the primary goal.", "Correct: Sales presentations persuade by demonstrating value.", "Financial reports are presented to stakeholders, not customers.", "Training is an internal function, not sales."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a value proposition in sales?",
+        "options": ["The lowest price available", "A clear statement explaining how your product solves customer problems and delivers benefits", "A discount coupon", "A product warranty"],
+        "answer": 1,
+        "explain": "A value proposition communicates the unique benefit customers receive, how the product solves their problem, and why it's better than alternatives.",
+        "optionExplanations": ["Price alone doesn't communicate full value.", "Correct: A value proposition explains unique benefits and problem-solving.", "Coupons are promotional tools, not value propositions.", "Warranties are guarantees, not value propositions."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of knowing your audience in a sales presentation?",
+        "options": ["It's not important", "It helps tailor the presentation to address their specific needs, pain points, and interests", "Only to know their names", "To avoid eye contact"],
+        "answer": 1,
+        "explain": "Understanding your audience's needs, challenges, and preferences allows you to customize your message for maximum relevance and persuasion.",
+        "optionExplanations": ["Audience knowledge is critical for sales success.", "Correct: Knowing the audience allows you to address their specific needs.", "Names are basic; understanding needs is what matters.", "Eye contact builds connection in presentations."],
+        "source": "ai"
+      },
+      {
+        "q": "What is an objection in sales?",
+        "options": ["A legal complaint", "A concern or hesitation expressed by a prospect about buying", "A type of product defect", "A sales quota"],
+        "answer": 1,
+        "explain": "Sales objections are concerns, questions, or hesitations prospects raise about price, timing, need, or trust that must be addressed.",
+        "optionExplanations": ["Legal complaints are different from sales objections.", "Correct: Objections are prospect concerns about purchasing.", "Product defects are quality issues.", "Sales quotas are targets, not objections."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the best way to handle customer objections?",
+        "options": ["Ignore them", "Listen carefully, acknowledge the concern, and provide a relevant solution or clarification", "Argue with the customer", "Lower the price immediately"],
+        "answer": 1,
+        "explain": "Effective objection handling involves active listening, empathy, validation of the concern, and a thoughtful response that addresses the issue.",
+        "optionExplanations": ["Ignoring objections loses customer trust.", "Correct: Listen, acknowledge, and provide relevant solutions.", "Arguing damages the relationship.", "Instant price drops suggest the original price wasn't justified."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a closing technique in sales?",
+        "options": ["Closing the store", "A method used to guide the prospect toward making a purchase decision", "Ending the presentation abruptly", "A way to end business operations"],
+        "answer": 1,
+        "explain": "Closing techniques are strategies that help transition the prospect from consideration to purchase, such as assumptive or summary closes.",
+        "optionExplanations": ["Closing refers to finalizing the sale, not the store.", "Correct: Closing techniques guide prospects toward purchasing.", "Abrupt endings damage sales relationships.", "Business closure is unrelated to sales closing."],
+        "source": "ai"
+      },
+      {
+        "q": "Why are product demonstrations important in sales presentations?",
+        "options": ["They are not important", "They allow prospects to see the product in action and understand its benefits firsthand", "They replace the need for a sales pitch", "They are only for technology products"],
+        "answer": 1,
+        "explain": "Demonstrations let prospects experience the product's features and benefits directly, increasing understanding and purchase confidence.",
+        "optionExplanations": ["Demos are highly effective sales tools.", "Correct: Demonstrations show the product in action.", "Demos complement the pitch, not replace it.", "Demonstrations work for many types of products."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the features-advantages-benefits (FAB) framework?",
+        "options": ["A manufacturing process", "A sales technique that connects product features to advantages and then to customer benefits", "A type of financial analysis", "A marketing acronym for social media"],
+        "answer": 1,
+        "explain": "FAB connects what the product has (features), what those features do (advantages), and how they help the customer (benefits).",
+        "optionExplanations": ["FAB is a sales communication framework.", "Correct: FAB links features to advantages to customer benefits.", "FAB is not financial analysis.", "FAB is a sales technique, not a social media strategy."],
+        "source": "ai"
+      },
+      {
+        "q": "What is active listening in a sales context?",
+        "options": ["Waiting for your turn to speak", "Fully focusing on the customer, understanding their needs, and responding thoughtfully", "Listening to music during the presentation", "Taking notes without making eye contact"],
+        "answer": 1,
+        "explain": "Active listening means giving full attention to the customer, understanding their words and emotions, and responding with relevant solutions.",
+        "optionExplanations": ["Waiting to speak is passive, not active listening.", "Correct: Active listening focuses fully on understanding the customer.", "Music is a distraction during sales conversations.", "Good listening includes both notes and eye contact."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a needs assessment in sales?",
+        "options": ["A financial audit", "The process of identifying a prospect's specific problems, needs, and desired outcomes", "A product warranty check", "A background check on the customer"],
+        "answer": 1,
+        "explain": "A needs assessment uses questions and discovery to understand the customer's situation, challenges, and goals before presenting solutions.",
+        "optionExplanations": ["Financial audits review accounts, not customer needs.", "Correct: Needs assessments identify prospect problems and goals.", "Warranty checks are post-sale activities.", "Background checks are unrelated to sales discovery."],
+        "source": "ai"
+      },
+      {
+        "q": "What role does storytelling play in sales presentations?",
+        "options": ["It wastes time", "It makes the product relatable through real-world examples and customer success stories", "It replaces product knowledge", "It is only for children's products"],
+        "answer": 1,
+        "explain": "Stories and case studies make products relatable, create emotional connections, and help prospects envision using the product themselves.",
+        "optionExplanations": ["Good stories enhance presentations.", "Correct: Storytelling makes products relatable through examples.", "Stories complement, not replace, product knowledge.", "Storytelling works in all sales contexts."],
+        "source": "ai"
+      },
+      {
+        "q": "What is rapport building in sales?",
+        "options": ["Building a physical structure", "Establishing a positive relationship and trust with the prospect before pitching", "Reporting sales numbers", "A type of discount"],
+        "answer": 1,
+        "explain": "Rapport building creates trust and connection through genuine interest, finding common ground, and demonstrating reliability.",
+        "optionExplanations": ["Rapport is a relationship concept, not construction.", "Correct: Rapport building establishes trust before the sales pitch.", "Reporting is data sharing, not relationship building.", "Discounts are pricing strategies, not rapport."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a competitive advantage?",
+        "options": ["Being the cheapest option", "A unique quality or capability that makes your product superior to competitors", "Having the most salespeople", "Being the oldest company"],
+        "answer": 1,
+        "explain": "A competitive advantage is what differentiates your product from competitors, such as innovation, quality, service, or unique features.",
+        "optionExplanations": ["Price is one factor, but not the only advantage.", "Correct: Competitive advantage is what makes your product uniquely superior.", "Salesforce size doesn't guarantee advantage.", "Age doesn't ensure competitive superiority."],
+        "source": "ai"
+      },
+      {
+        "q": "What visual aids are effective in sales presentations?",
+        "options": ["None — words are enough", "Product samples, slides, charts, videos, and infographics", "Only text-heavy documents", "Personal photos"],
+        "answer": 1,
+        "explain": "Visual aids like product samples, professional slides, data charts, and videos make presentations more engaging and persuasive.",
+        "optionExplanations": ["Visuals significantly enhance presentations.", "Correct: Multiple visual aid types enhance engagement and persuasion.", "Text-heavy materials can overwhelm audiences.", "Personal photos are not professional sales tools."],
+        "source": "ai"
+      },
+      {
+        "q": "What is follow-up in the sales process?",
+        "options": ["Stalking the customer", "Continuing communication after the initial presentation to nurture the relationship and close the sale", "Forgetting about the prospect", "Only sending invoices"],
+        "answer": 1,
+        "explain": "Sales follow-up involves timely, relevant communication after the presentation to address questions, provide information, and move toward closing.",
+        "optionExplanations": ["Professional follow-up is courteous, not intrusive.", "Correct: Follow-up nurtures the relationship toward closing.", "Forgetting prospects loses potential sales.", "Invoices are post-sale, not follow-up."],
+        "source": "ai"
+      }
+    ],
+    "Visual Design": [
+      {
+        "q": "What are the fundamental principles of visual design?",
+        "options": ["Only color selection", "Balance, contrast, emphasis, movement, pattern, rhythm, and unity", "Only font choice", "Only layout"],
+        "answer": 1,
+        "explain": "Visual design principles — balance, contrast, emphasis, movement, pattern, rhythm, and unity — guide how elements are arranged effectively.",
+        "optionExplanations": ["Color is one element, not all principles.", "Correct: Multiple principles work together in visual design.", "Typography is one design element.", "Layout incorporates multiple principles."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a mood board in visual design?",
+        "options": ["To track employee moods", "To collect visual inspiration and establish the aesthetic direction for a project", "To list project deadlines", "To calculate the budget"],
+        "answer": 1,
+        "explain": "A mood board is a collection of images, colors, textures, and typography that establishes the visual tone and direction for a design project.",
+        "optionExplanations": ["Mood boards are design tools, not HR tools.", "Correct: Mood boards collect visual inspiration for project direction.", "Deadlines are tracked in project management tools.", "Budgets are financial documents."],
+        "source": "ai"
+      },
+      {
+        "q": "What is color theory?",
+        "options": ["A music theory", "The study of how colors interact, combine, and affect perception and emotion", "A type of painting technique", "A brand name"],
+        "answer": 1,
+        "explain": "Color theory studies how colors relate to each other on the color wheel, how they combine, and how they affect human perception and emotions.",
+        "optionExplanations": ["Music theory is about sound, not color.", "Correct: Color theory studies color interactions and emotional effects.", "Painting techniques apply color theory but aren't the theory itself.", "Color theory is a design discipline, not a brand."],
+        "source": "ai"
+      },
+      {
+        "q": "What is typography in visual design?",
+        "options": ["Drawing maps", "The art and technique of arranging type to make text readable, legible, and visually appealing", "A printing machine", "A type of photography"],
+        "answer": 1,
+        "explain": "Typography encompasses font selection, sizing, spacing, and arrangement to create readable, aesthetically pleasing text in design.",
+        "optionExplanations": ["Map drawing is cartography.", "Correct: Typography is the art of arranging type for readability and aesthetics.", "Printing machines produce physical output.", "Photography captures images, not type."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the golden ratio in design?",
+        "options": ["A financial term", "A mathematical ratio (approximately 1:1.618) that creates naturally pleasing proportions", "A type of gold paint", "A design software"],
+        "answer": 1,
+        "explain": "The golden ratio (~1:1.618) appears in nature and art, creating proportions that humans find naturally balanced and aesthetically pleasing.",
+        "optionExplanations": ["The golden ratio is a design/math concept.", "Correct: The golden ratio creates naturally pleasing proportions.", "It refers to proportions, not paint color.", "It's a mathematical concept, not software."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between symmetrical and asymmetrical balance?",
+        "options": ["There is no difference", "Symmetrical has equal elements on both sides; asymmetrical uses different elements that still feel balanced", "Asymmetrical balance is always wrong", "Symmetrical balance is outdated"],
+        "answer": 1,
+        "explain": "Symmetrical balance mirrors elements equally on both sides, while asymmetrical balance achieves equilibrium through varied but visually weighted elements.",
+        "optionExplanations": ["They are different approaches to visual balance.", "Correct: Symmetrical mirrors both sides; asymmetrical balances different elements.", "Asymmetrical balance is a valid and common design choice.", "Both types remain effective design approaches."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a design mockup?",
+        "options": ["Making fun of a design", "A realistic visual representation of how a design will look when implemented", "A rough sketch only", "A financial estimate"],
+        "answer": 1,
+        "explain": "A mockup is a high-fidelity representation showing how the final design will appear, including colors, typography, and imagery.",
+        "optionExplanations": ["Mockup is a design term, not ridicule.", "Correct: Mockups show realistic design implementation previews.", "Sketches are lower fidelity than mockups.", "Financial estimates are not design deliverables."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a design system?",
+        "options": ["A computer operating system", "A collection of reusable components, standards, and guidelines for consistent design", "A single design file", "A type of printer"],
+        "answer": 1,
+        "explain": "A design system includes reusable components, patterns, guidelines, and standards that ensure visual and functional consistency across projects.",
+        "optionExplanations": ["Operating systems run computers, not design.", "Correct: Design systems provide reusable components and guidelines.", "A system encompasses multiple files and standards.", "Printers produce physical output."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a style guide in visual design?",
+        "options": ["To list employee dress codes", "To document design standards including colors, fonts, spacing, and usage rules", "To grade student work", "To track sales performance"],
+        "answer": 1,
+        "explain": "A style guide documents the specific colors, typography, spacing, imagery, and usage rules that maintain brand consistency.",
+        "optionExplanations": ["Dress codes are HR documents.", "Correct: Style guides document design standards for consistency.", "Grading rubrics are educational tools.", "Sales tracking is a business function."],
+        "source": "ai"
+      },
+      {
+        "q": "What is visual hierarchy?",
+        "options": ["A corporate organizational chart", "The arrangement of design elements to guide the viewer's eye from most to least important", "A filing system", "A type of display screen"],
+        "answer": 1,
+        "explain": "Visual hierarchy uses size, color, contrast, and placement to direct the viewer's attention through content in order of importance.",
+        "optionExplanations": ["Org charts show reporting structures.", "Correct: Visual hierarchy guides the eye through content by importance.", "Filing systems organize documents.", "Display screens are hardware."],
+        "source": "ai"
+      },
+      {
+        "q": "What is whitespace in visual design?",
+        "options": ["A design error", "Empty space around and between elements that improves readability and visual clarity", "Space that must always be filled", "White-colored backgrounds only"],
+        "answer": 1,
+        "explain": "Whitespace (negative space) is the empty area between design elements that provides breathing room and improves comprehension.",
+        "optionExplanations": ["Whitespace is intentional, not an error.", "Correct: Whitespace improves readability and visual clarity.", "Good design uses whitespace strategically.", "Whitespace can be any color, not just white."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a grid in visual design?",
+        "options": ["To trap elements", "To provide a consistent framework for aligning and organizing content", "To make the design look like a spreadsheet", "To limit creativity"],
+        "answer": 1,
+        "explain": "Grids provide a structural framework that helps designers align content consistently and create organized, professional layouts.",
+        "optionExplanations": ["Grids organize, not trap, elements.", "Correct: Grids provide consistent alignment and organization.", "Grids are invisible guides, not visible spreadsheet lines.", "Grids enable creativity within consistent structure."],
+        "source": "ai"
+      },
+      {
+        "q": "What file format preserves layers and editing capability in design software?",
+        "options": ["JPEG", "PNG", "PSD (Photoshop) or AI (Illustrator) native formats", "GIF"],
+        "answer": 2,
+        "explain": "Native formats like PSD (Photoshop) and AI (Illustrator) preserve layers, effects, and full editing capability for future modifications.",
+        "optionExplanations": ["JPEG flattens layers and loses editing capability.", "PNG preserves transparency but flattens layers.", "Correct: Native formats preserve layers and full editing capability.", "GIF is a limited web format."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the principle of repetition in design?",
+        "options": ["Making the same design multiple times", "Using consistent visual elements throughout a design to create cohesion and unity", "Repeating mistakes", "Copying other designers' work"],
+        "answer": 1,
+        "explain": "Repetition strengthens design by reusing consistent elements like colors, fonts, shapes, and spacing throughout the project.",
+        "optionExplanations": ["Repetition is about consistent elements, not duplicating designs.", "Correct: Consistent visual elements create cohesion and unity.", "Repeating mistakes is poor practice.", "Copying others is plagiarism, not the repetition principle."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the role of color psychology in visual design?",
+        "options": ["Colors have no effect on people", "Different colors evoke specific emotions and associations that influence audience perception", "Only warm colors are effective", "Color psychology is not real"],
+        "answer": 1,
+        "explain": "Color psychology studies how colors affect human emotions and behavior — red can signal urgency, blue conveys trust, green suggests growth.",
+        "optionExplanations": ["Colors significantly affect perception and emotion.", "Correct: Colors evoke specific emotions that influence perception.", "Both warm and cool colors have psychological effects.", "Color psychology is a well-researched field."],
+        "source": "ai"
+      }
+    ],
+    "Website Coding & Development": [
+      {
+        "q": "What are the three core technologies of web development?",
+        "options": ["Python, Java, C++", "HTML, CSS, and JavaScript", "Swift, Kotlin, Ruby", "PHP, SQL, MongoDB"],
+        "answer": 1,
+        "explain": "HTML provides structure, CSS handles presentation/styling, and JavaScript adds interactivity — forming the foundation of all websites.",
+        "optionExplanations": ["These are general programming languages, not web core technologies.", "Correct: HTML (structure), CSS (style), and JavaScript (interactivity).", "Swift and Kotlin are mobile development languages.", "These are backend/database technologies."],
+        "source": "ai"
+      },
+      {
+        "q": "What does HTML stand for?",
+        "options": ["High Tech Machine Language", "HyperText Markup Language", "Home Tool Markup Language", "Hyperlink Text Management Language"],
+        "answer": 1,
+        "explain": "HTML (HyperText Markup Language) is the standard markup language for creating web page structure and content.",
+        "optionExplanations": ["This is not what HTML stands for.", "Correct: HyperText Markup Language.", "This is not the correct expansion.", "This is not what HTML means."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of CSS in web development?",
+        "options": ["To create databases", "To style and visually format HTML content including colors, fonts, and layouts", "To handle server requests", "To manage user authentication"],
+        "answer": 1,
+        "explain": "CSS (Cascading Style Sheets) controls the visual presentation of HTML elements including colors, typography, spacing, and responsive layouts.",
+        "optionExplanations": ["Databases use SQL or NoSQL technologies.", "Correct: CSS styles the visual appearance of web pages.", "Server requests are handled by backend technologies.", "Authentication uses server-side logic and security frameworks."],
+        "source": "ai"
+      },
+      {
+        "q": "What is responsive web design?",
+        "options": ["A website that loads quickly", "Designing websites that adapt their layout to different screen sizes and devices", "A type of server configuration", "A JavaScript framework"],
+        "answer": 1,
+        "explain": "Responsive design uses flexible grids, media queries, and fluid images to make websites look and work well on any device size.",
+        "optionExplanations": ["Load speed is performance, not responsive design.", "Correct: Responsive design adapts layouts to different screen sizes.", "Server configuration is backend infrastructure.", "It's a design approach, not a specific framework."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the DOM in web development?",
+        "options": ["A web browser brand", "The Document Object Model — a tree-like representation of a web page that JavaScript can manipulate", "A CSS property", "A database system"],
+        "answer": 1,
+        "explain": "The DOM represents an HTML document as a tree of objects that JavaScript can access and modify to dynamically update page content.",
+        "optionExplanations": ["DOM is not a browser brand.", "Correct: The DOM is a tree-like representation JavaScript can manipulate.", "The DOM is not a CSS property.", "The DOM is not a database."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between frontend and backend development?",
+        "options": ["There is no difference", "Frontend is the user-facing interface; backend handles server-side logic and data", "Frontend is always easier", "Backend doesn't use programming"],
+        "answer": 1,
+        "explain": "Frontend development creates the visual interface users interact with, while backend handles server logic, databases, and business rules.",
+        "optionExplanations": ["They are distinct but complementary areas.", "Correct: Frontend is user-facing; backend handles server-side logic.", "Complexity varies by project and technology.", "Backend uses programming languages extensively."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a media query in CSS?",
+        "options": ["A way to play media files", "A CSS technique that applies styles based on device characteristics like screen width", "A JavaScript function", "A database query"],
+        "answer": 1,
+        "explain": "Media queries allow CSS to apply different styles based on device properties like width, height, and orientation for responsive design.",
+        "optionExplanations": ["Media queries control CSS, not media playback.", "Correct: Media queries apply styles based on device characteristics.", "Media queries are CSS features, not JavaScript.", "Database queries retrieve data, not apply styles."],
+        "source": "ai"
+      },
+      {
+        "q": "What is web accessibility (a11y)?",
+        "options": ["Making websites free to access", "Designing websites so people with disabilities can perceive, navigate, and interact with them", "Making websites load faster", "Allowing access from any country"],
+        "answer": 1,
+        "explain": "Web accessibility ensures all users, including those with disabilities, can access and use web content through assistive technologies.",
+        "optionExplanations": ["Free access is about pricing, not accessibility.", "Correct: Accessibility makes websites usable for people with disabilities.", "Performance optimization is separate from accessibility.", "Geographic access is about distribution."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a CSS flexbox?",
+        "options": ["A type of exercise equipment", "A CSS layout module for arranging elements in flexible rows or columns", "A JavaScript library", "A web browser"],
+        "answer": 1,
+        "explain": "Flexbox is a CSS layout model that provides efficient ways to align, distribute, and space elements within a container.",
+        "optionExplanations": ["Flexbox is a CSS concept, not fitness equipment.", "Correct: Flexbox arranges elements in flexible rows or columns.", "Flexbox is native CSS, not a JavaScript library.", "Flexbox is a layout tool, not a browser."],
+        "source": "ai"
+      },
+      {
+        "q": "What is semantic HTML?",
+        "options": ["HTML with more colors", "Using HTML elements that clearly describe their meaning and content purpose", "A new version of HTML", "HTML that runs faster"],
+        "answer": 1,
+        "explain": "Semantic HTML uses elements like <header>, <nav>, <main>, <article>, and <footer> that describe content meaning, improving accessibility and SEO.",
+        "optionExplanations": ["Colors are CSS, not semantic HTML.", "Correct: Semantic elements describe their content's meaning and purpose.", "Semantic HTML is a practice, not a separate version.", "Semantics improve structure, not loading speed."],
+        "source": "ai"
+      },
+      {
+        "q": "What is version control and why is it important for web development?",
+        "options": ["Controlling browser versions", "A system that tracks code changes, enables collaboration, and allows reverting mistakes", "A web hosting service", "A CSS framework"],
+        "answer": 1,
+        "explain": "Version control (like Git) tracks every change to code, enables team collaboration, and provides the ability to undo mistakes.",
+        "optionExplanations": ["Browser version management is separate.", "Correct: Version control tracks changes and enables collaboration.", "Hosting serves websites; version control manages code.", "CSS frameworks provide pre-built styles."],
+        "source": "ai"
+      },
+      {
+        "q": "What is cross-browser compatibility?",
+        "options": ["Using multiple browsers simultaneously", "Ensuring a website works correctly across different web browsers", "A browser plugin", "A type of HTML element"],
+        "answer": 1,
+        "explain": "Cross-browser compatibility ensures websites function and appear consistently across Chrome, Firefox, Safari, Edge, and other browsers.",
+        "optionExplanations": ["Using multiple browsers is just browsing.", "Correct: Cross-browser compatibility ensures consistent behavior across browsers.", "It's a development practice, not a plugin.", "It's a testing consideration, not an HTML element."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a JavaScript event listener?",
+        "options": ["A person who listens to JavaScript", "A function that waits for and responds to specific user interactions or events", "A CSS property", "A database connection"],
+        "answer": 1,
+        "explain": "Event listeners are functions attached to elements that execute when specific events occur, like clicks, key presses, or page loads.",
+        "optionExplanations": ["Event listeners are code, not people.", "Correct: Event listeners respond to user interactions and events.", "Event listeners are JavaScript, not CSS.", "Database connections are backend functionality."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a CSS reset or normalize stylesheet?",
+        "options": ["To delete all CSS", "To establish consistent baseline styles by removing browser default styling differences", "To make all text the same size", "To add animations"],
+        "answer": 1,
+        "explain": "CSS resets/normalizers remove or standardize browser default styles so designs appear consistent across different browsers.",
+        "optionExplanations": ["Resets standardize, not delete, base styles.", "Correct: They establish consistent baseline styles across browsers.", "They normalize all defaults, not just text size.", "Animations are separate from CSS resets."],
+        "source": "ai"
+      },
+      {
+        "q": "What is SEO in web development?",
+        "options": ["A programming language", "Search Engine Optimization — practices that help websites rank higher in search results", "A type of database", "A web hosting provider"],
+        "answer": 1,
+        "explain": "SEO involves optimizing website content, structure, and technical elements to improve visibility and ranking in search engine results.",
+        "optionExplanations": ["SEO is a practice, not a language.", "Correct: SEO optimizes websites for search engine ranking.", "SEO is not a database technology.", "SEO is an optimization practice, not a hosting service."],
+        "source": "ai"
+      }
+    ],
+    "Website Design": [
+      {
+        "q": "What is the purpose of a wireframe in website design?",
+        "options": ["To write the website's code", "To create a basic visual blueprint of the website's layout and structure", "To test the website for security", "To host the website"],
+        "answer": 1,
+        "explain": "A wireframe is a low-fidelity visual guide showing the skeletal layout of a webpage, including element placement and navigation flow.",
+        "optionExplanations": ["Code comes after wireframing.", "Correct: Wireframes are visual blueprints of layout and structure.", "Security testing is a separate process.", "Hosting makes the site available online."],
+        "source": "ai"
+      },
+      {
+        "q": "What is user experience (UX) design?",
+        "options": ["Making websites look colorful", "The process of designing products that provide meaningful, relevant, and enjoyable experiences to users", "A programming language", "A type of web hosting"],
+        "answer": 1,
+        "explain": "UX design focuses on the entire experience a user has with a website, including usability, accessibility, and emotional satisfaction.",
+        "optionExplanations": ["Color is one visual element, not the entirety of UX.", "Correct: UX design creates meaningful and enjoyable user experiences.", "UX is a design discipline, not a programming language.", "Web hosting is infrastructure, not design."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a sitemap?",
+        "options": ["A map to the server room", "A visual or textual representation of a website's page hierarchy and navigation structure", "A type of website template", "A CSS file"],
+        "answer": 1,
+        "explain": "A sitemap outlines all pages on a website and their relationships, helping plan navigation and content organization.",
+        "optionExplanations": ["Sitemaps are digital planning tools.", "Correct: Sitemaps show page hierarchy and navigation structure.", "Templates provide pre-built designs, not site structure.", "CSS files style pages, not map structure."],
+        "source": "ai"
+      },
+      {
+        "q": "What is above-the-fold content?",
+        "options": ["Content at the bottom of the page", "The portion of the webpage visible without scrolling", "Content hidden behind a paywall", "Folded content that cannot be read"],
+        "answer": 1,
+        "explain": "Above the fold refers to the content visible in the browser window when a page first loads, before any scrolling occurs.",
+        "optionExplanations": ["Bottom content is below the fold.", "Correct: Above the fold is content visible without scrolling.", "Paywalls restrict access, not fold position.", "The fold refers to the visible area, not physical folding."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a website navigation effective?",
+        "options": ["Having as many menu items as possible", "Being clear, consistent, intuitive, and easy to find on every page", "Hiding the navigation menu", "Using only icons without labels"],
+        "answer": 1,
+        "explain": "Effective navigation is clear, consistent across pages, intuitive for users, and helps visitors find content quickly and easily.",
+        "optionExplanations": ["Too many items overwhelm users.", "Correct: Clear, consistent, and intuitive navigation works best.", "Hidden navigation frustrates users.", "Icons without labels can confuse users."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a call-to-action (CTA) on a website?",
+        "options": ["To call the website developer", "To guide visitors toward a desired action like signing up, buying, or contacting", "To display legal information", "To slow down the user"],
+        "answer": 1,
+        "explain": "CTAs are prominent buttons or links that direct users to take specific actions, such as 'Sign Up,' 'Learn More,' or 'Buy Now.'",
+        "optionExplanations": ["CTAs are design elements, not phone calls.", "Correct: CTAs guide visitors toward desired actions.", "Legal info is typically in footers or separate pages.", "CTAs should facilitate, not hinder, user flow."],
+        "source": "ai"
+      },
+      {
+        "q": "What is mobile-first design?",
+        "options": ["Designing only for mobile phones", "Starting the design process for the smallest screen and progressively enhancing for larger devices", "Ignoring desktop users", "Using mobile phones to design websites"],
+        "answer": 1,
+        "explain": "Mobile-first design begins with the mobile experience, then adapts and enhances for tablets and desktops using media queries.",
+        "optionExplanations": ["Mobile-first still includes larger screens.", "Correct: Design starts with mobile and enhances for larger screens.", "Desktop experiences are still designed.", "Mobile-first is a methodology, not a tool."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a hero section on a website?",
+        "options": ["A section about superheroes", "A large, prominent banner area at the top of a webpage with a key message and imagery", "A small footer element", "A hidden admin panel"],
+        "answer": 1,
+        "explain": "The hero section is the prominent top area of a webpage, typically featuring a large image/video, headline, and call-to-action.",
+        "optionExplanations": ["Hero refers to the design term, not comic heroes.", "Correct: The hero section is the prominent top banner area.", "Footers are at the bottom, not the top.", "Admin panels are backend interfaces."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of page load speed?",
+        "options": ["It doesn't matter", "Faster load times improve user experience, SEO rankings, and conversion rates", "Slower sites look more professional", "Speed only matters for mobile"],
+        "answer": 1,
+        "explain": "Page speed directly impacts user satisfaction, bounce rates, search engine rankings, and business conversion rates.",
+        "optionExplanations": ["Speed significantly affects user experience.", "Correct: Faster load times improve UX, SEO, and conversions.", "Slow loading frustrates users and increases bounce rates.", "Speed matters on all devices."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a favicon?",
+        "options": ["A favorite website", "A small icon that appears in browser tabs and bookmarks representing the website", "A type of web server", "A CSS animation"],
+        "answer": 1,
+        "explain": "A favicon is a small 16x16 or 32x32 pixel icon displayed in browser tabs, bookmarks, and address bars to identify the website.",
+        "optionExplanations": ["Favorites/bookmarks are user preferences.", "Correct: A favicon is a small icon in browser tabs and bookmarks.", "Web servers host websites, not display icons.", "CSS animations are visual effects."],
+        "source": "ai"
+      },
+      {
+        "q": "What is web typography?",
+        "options": ["Typing on a website", "The selection, sizing, and arrangement of typefaces on a website for readability and aesthetics", "A web browser feature", "A type of domain name"],
+        "answer": 1,
+        "explain": "Web typography involves choosing appropriate fonts, sizes, line heights, and spacing to create readable and visually appealing text on websites.",
+        "optionExplanations": ["Typing is user input, not typography.", "Correct: Web typography is the art of arranging text on websites.", "Typography is a design discipline, not a browser feature.", "Domain names are web addresses."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a breadcrumb navigation?",
+        "options": ["Crumbs from bread on the keyboard", "A secondary navigation showing the user's location within the website hierarchy", "The main navigation menu", "A type of footer"],
+        "answer": 1,
+        "explain": "Breadcrumbs show a trail of the user's path through the site (e.g., Home > Products > Category), helping with orientation and navigation.",
+        "optionExplanations": ["Breadcrumbs in web design are navigation aids.", "Correct: Breadcrumbs show the user's location in the site hierarchy.", "Breadcrumbs supplement, not replace, main navigation.", "Breadcrumbs are typically near the top of the page."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of alt text for images?",
+        "options": ["To make images larger", "To provide text descriptions for screen readers and when images fail to load", "To add image filters", "To encrypt images"],
+        "answer": 1,
+        "explain": "Alt text provides descriptive text for images that screen readers can read aloud and that displays when images cannot load.",
+        "optionExplanations": ["Image sizing uses CSS, not alt text.", "Correct: Alt text describes images for accessibility and fallback.", "Filters modify appearance, not provide descriptions.", "Encryption is a security measure."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a content management system (CMS)?",
+        "options": ["A programming language", "Software that allows users to create and manage website content without coding", "A type of web browser", "A design tool for graphics"],
+        "answer": 1,
+        "explain": "A CMS (like WordPress or Drupal) provides a user-friendly interface for creating, editing, and managing website content without writing code.",
+        "optionExplanations": ["CMSs use programming languages but aren't languages themselves.", "Correct: CMSs allow content management without coding.", "Browsers display websites; CMSs manage content.", "Graphics tools create visuals, not manage web content."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the F-pattern in web design?",
+        "options": ["A pattern using the letter F as decoration", "The typical eye movement pattern users follow when scanning web content", "A type of website layout grid", "A font style"],
+        "answer": 1,
+        "explain": "Eye-tracking studies show users typically scan web pages in an F-shaped pattern — reading across the top, then down the left side.",
+        "optionExplanations": ["The F-pattern describes eye movement, not decoration.", "Correct: The F-pattern describes how users scan web content.", "It's a behavior pattern, not a grid system.", "It's about reading behavior, not typography."],
+        "source": "ai"
+      }
+    ]
   },
   "meta": {
-    "events": 30,
-    "questions": 1902,
+    "events": 37,
+    "questions": 2007,
     "generatedAt": "2026-03-06T04:05:03.989Z",
     "sourceFolder": "generated_by_checklist"
   }
