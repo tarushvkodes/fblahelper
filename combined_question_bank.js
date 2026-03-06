@@ -3164,7 +3164,7 @@ window.COMBINED_QUESTION_BANK = {
           "Interest expense is more than interest paid",
           "Interest expense is not affected"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -3178,7 +3178,7 @@ window.COMBINED_QUESTION_BANK = {
           "Limit distribution channels",
           "Eliminate competition"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3190,7 +3190,7 @@ window.COMBINED_QUESTION_BANK = {
           "Acting as a silent salesperson",
           "Determining the advertising budget"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3202,7 +3202,7 @@ window.COMBINED_QUESTION_BANK = {
           "Creating a distinct image in the consumer’s mind",
           "Deciding which sales promotions to use"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3214,7 +3214,7 @@ window.COMBINED_QUESTION_BANK = {
           "Following up",
           "Determining customer needs"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3238,7 +3238,7 @@ window.COMBINED_QUESTION_BANK = {
           "Alternative media",
           "Direct marketing"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3262,7 +3262,7 @@ window.COMBINED_QUESTION_BANK = {
           "Eliminates the need for packaging",
           "Guarantees the lowest price"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3274,7 +3274,7 @@ window.COMBINED_QUESTION_BANK = {
           "Research and development",
           "Sales promotion"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3310,7 +3310,7 @@ window.COMBINED_QUESTION_BANK = {
           "Select supply chain partners",
           "Choose the best pricing strategy"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3334,7 +3334,7 @@ window.COMBINED_QUESTION_BANK = {
           "Creative strategy development",
           "Market segmentation"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3408,7 +3408,7 @@ window.COMBINED_QUESTION_BANK = {
           "Identify strengths, weaknesses, opportunities, and threats",
           "Select a marketing slogan"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3432,7 +3432,7 @@ window.COMBINED_QUESTION_BANK = {
           "Exclude distribution channels",
           "Avoid financial forecasting"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3516,7 +3516,7 @@ window.COMBINED_QUESTION_BANK = {
           "Prices rise when demand exceeds supply",
           "Prices remain constant regardless of market forces"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -3528,7 +3528,7 @@ window.COMBINED_QUESTION_BANK = {
           "Import tariffs",
           "Trade deficits"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6265,7 +6265,7 @@ window.COMBINED_QUESTION_BANK = {
           "Yours Faithfully,",
           "Cheers,"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6277,7 +6277,7 @@ window.COMBINED_QUESTION_BANK = {
           "Preparing the report",
           "Evaluating the sources"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6289,7 +6289,7 @@ window.COMBINED_QUESTION_BANK = {
           "Plagiarism",
           "Editing"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6301,7 +6301,7 @@ window.COMBINED_QUESTION_BANK = {
           "Table of contents",
           "Glossary"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6313,7 +6313,7 @@ window.COMBINED_QUESTION_BANK = {
           "Memorizing detailed data",
           "Reading legal contracts"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6349,7 +6349,7 @@ window.COMBINED_QUESTION_BANK = {
           "Using familiar words and short sentences",
           "Avoiding headings"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6361,7 +6361,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reviewed",
           "Report"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -6373,7 +6373,7 @@ window.COMBINED_QUESTION_BANK = {
           "The managers meets weekly.",
           "The managers meets every week."
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -8159,7 +8159,7 @@ window.COMBINED_QUESTION_BANK = {
           "Liability is limited to capital invested",
           "Profits cannot be shared"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -8183,7 +8183,7 @@ window.COMBINED_QUESTION_BANK = {
           "Unlimited liability",
           "Lack of perpetual existence"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -8195,7 +8195,7 @@ window.COMBINED_QUESTION_BANK = {
           "Witness signatures",
           "Government approval"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -8207,7 +8207,7 @@ window.COMBINED_QUESTION_BANK = {
           "Offeror",
           "Grantee"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -8219,7 +8219,7 @@ window.COMBINED_QUESTION_BANK = {
           "Employment contracts",
           "Service agreements"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9723,7 +9723,7 @@ window.COMBINED_QUESTION_BANK = {
           "Anyone affected by the company’s activities",
           "Only employees"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9735,7 +9735,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reduce tariffs on imports",
           "Promote small business development"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9783,7 +9783,7 @@ window.COMBINED_QUESTION_BANK = {
           "Assets, liabilities, equity",
           "Costs, efficiency, productivity"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9795,7 +9795,7 @@ window.COMBINED_QUESTION_BANK = {
           "Limited liability company",
           "C corporation"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9807,7 +9807,7 @@ window.COMBINED_QUESTION_BANK = {
           "Top management",
           "Team leads"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9819,7 +9819,7 @@ window.COMBINED_QUESTION_BANK = {
           "Directly supervise frontline employees only",
           "Approve all financial statements"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9867,7 +9867,7 @@ window.COMBINED_QUESTION_BANK = {
           "Conceptual skills",
           "Mechanical skills"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -9929,7 +9929,7 @@ window.COMBINED_QUESTION_BANK = {
           "Move files",
           "Delete files"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -9941,7 +9941,7 @@ window.COMBINED_QUESTION_BANK = {
           "exFAT",
           "HFS+"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -10025,7 +10025,7 @@ window.COMBINED_QUESTION_BANK = {
           "Low Access Network",
           "Linked Access Node"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -10037,7 +10037,7 @@ window.COMBINED_QUESTION_BANK = {
           "SFTP",
           "SMTP"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -10049,7 +10049,7 @@ window.COMBINED_QUESTION_BANK = {
           "Assign IP addresses dynamically",
           "Encrypt network traffic"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11698,7 +11698,7 @@ window.COMBINED_QUESTION_BANK = {
           "Install antivirus software",
           "Enable unlimited data sharing"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11710,7 +11710,7 @@ window.COMBINED_QUESTION_BANK = {
           "Security guards and locked doors",
           "Data encryption"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11722,7 +11722,7 @@ window.COMBINED_QUESTION_BANK = {
           "Limiting network access times",
           "Encrypting stored passwords"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11734,7 +11734,7 @@ window.COMBINED_QUESTION_BANK = {
           "Disaster recovery plan",
           "Sales quotas"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11746,7 +11746,7 @@ window.COMBINED_QUESTION_BANK = {
           "Integrity",
           "Availability"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11758,7 +11758,7 @@ window.COMBINED_QUESTION_BANK = {
           "Security awareness posters",
           "Locked filing cabinets"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11770,7 +11770,7 @@ window.COMBINED_QUESTION_BANK = {
           "Ransomware",
           "Worm"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11782,7 +11782,7 @@ window.COMBINED_QUESTION_BANK = {
           "Destroy hardware components",
           "Corrupt system files"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11806,7 +11806,7 @@ window.COMBINED_QUESTION_BANK = {
           "Distributed Denial of Service (DDoS)",
           "Phishing"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11818,7 +11818,7 @@ window.COMBINED_QUESTION_BANK = {
           "Network protocols",
           "Hardware limitations"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11830,7 +11830,7 @@ window.COMBINED_QUESTION_BANK = {
           "A virus from the internet",
           "An accidental data breach from a customer"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11842,7 +11842,7 @@ window.COMBINED_QUESTION_BANK = {
           "Erase the hard drive",
           "Improve system performance"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -11854,7 +11854,7 @@ window.COMBINED_QUESTION_BANK = {
           "Hardware malfunction",
           "Solar flares"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -12170,7 +12170,7 @@ window.COMBINED_QUESTION_BANK = {
           "Government regulation",
           "Collusion"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -12182,7 +12182,7 @@ window.COMBINED_QUESTION_BANK = {
           "Control the money supply",
           "Manage international trade agreements"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -12206,7 +12206,7 @@ window.COMBINED_QUESTION_BANK = {
           "Production levels remain constant",
           "Marginal costs increase at all production levels"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -12218,7 +12218,7 @@ window.COMBINED_QUESTION_BANK = {
           "Abundant competition",
           "Control over a key resource"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -13939,7 +13939,7 @@ window.COMBINED_QUESTION_BANK = {
           "Supporting documents such as resumes, permits, or charts",
           "Executive summaries"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -13951,7 +13951,7 @@ window.COMBINED_QUESTION_BANK = {
           "Easily replicated by competitors",
           "Kept secret from stakeholders"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -13975,7 +13975,7 @@ window.COMBINED_QUESTION_BANK = {
           "Overestimating both revenues and costs",
           "Ignoring variable costs"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -13999,7 +13999,7 @@ window.COMBINED_QUESTION_BANK = {
           "Line of credit",
           "Trade credit"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -14047,7 +14047,7 @@ window.COMBINED_QUESTION_BANK = {
           "Convertible into equity",
           "Interest-free"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -14059,7 +14059,7 @@ window.COMBINED_QUESTION_BANK = {
           "High interest costs and potential debt accumulation",
           "Lack of accessibility"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -14071,7 +14071,7 @@ window.COMBINED_QUESTION_BANK = {
           "Price, Process, Promotion, People",
           "Product, People, Planning, Place"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15703,7 +15703,7 @@ window.COMBINED_QUESTION_BANK = {
           "get to know the cleaning staff and when to expect them",
           "lock all doors to your work area"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15715,7 +15715,7 @@ window.COMBINED_QUESTION_BANK = {
           "always equal to 1",
           "never equal to 1"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15727,7 +15727,7 @@ window.COMBINED_QUESTION_BANK = {
           "to make employees learn specific skills",
           "to improve workers’ economic status and working conditions"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15739,7 +15739,7 @@ window.COMBINED_QUESTION_BANK = {
           "net profit",
           "net worth"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15751,7 +15751,7 @@ window.COMBINED_QUESTION_BANK = {
           "resources meet all needs",
           "there are few products"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15763,7 +15763,7 @@ window.COMBINED_QUESTION_BANK = {
           "product advertising",
           "product utility"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15787,7 +15787,7 @@ window.COMBINED_QUESTION_BANK = {
           "1968",
           "1957"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15799,7 +15799,7 @@ window.COMBINED_QUESTION_BANK = {
           "70+",
           "50"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15811,7 +15811,7 @@ window.COMBINED_QUESTION_BANK = {
           "NLC",
           "Fall Leadership Conference"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15823,7 +15823,7 @@ window.COMBINED_QUESTION_BANK = {
           "sales-oriented company",
           "production-oriented company"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15835,7 +15835,7 @@ window.COMBINED_QUESTION_BANK = {
           "18 inches to 4 feet",
           "12 inches to 2 feet"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -15871,7 +15871,7 @@ window.COMBINED_QUESTION_BANK = {
           "use four to six different fonts on each page to vary the appearance of the text",
           "include artwork or photos that are relevant to the message"
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17327,7 +17327,7 @@ window.COMBINED_QUESTION_BANK = {
           "Track medical errors",
           "Record staff attendance"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17339,7 +17339,7 @@ window.COMBINED_QUESTION_BANK = {
           "Display insurance numbers for efficiency",
           "Be posted on a public bulletin board"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17363,7 +17363,7 @@ window.COMBINED_QUESTION_BANK = {
           "Disease of the pancreas",
           "Hardening of the arteries"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17375,7 +17375,7 @@ window.COMBINED_QUESTION_BANK = {
           "Bone",
           "Lung"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17387,7 +17387,7 @@ window.COMBINED_QUESTION_BANK = {
           "Enlargement",
           "Disease"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17411,7 +17411,7 @@ window.COMBINED_QUESTION_BANK = {
           "ADA",
           "HITECH"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17423,7 +17423,7 @@ window.COMBINED_QUESTION_BANK = {
           "Gives consent verbally only",
           "Agrees after the procedure has started"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -17483,7 +17483,7 @@ window.COMBINED_QUESTION_BANK = {
           "The patient does not arrive for an appointment",
           "Insurance denies coverage"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -17665,7 +17665,7 @@ window.COMBINED_QUESTION_BANK = {
           "Ignore the issue unless it becomes public",
           "Refer the guest to corporate headquarters"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19248,7 +19248,7 @@ window.COMBINED_QUESTION_BANK = {
           "Determine training costs only",
           "Reduce training hours"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19296,7 +19296,7 @@ window.COMBINED_QUESTION_BANK = {
           "Eliminate training costs",
           "Avoid job analysis"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19320,7 +19320,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reducing recruitment advertising costs",
           "Replacing formal onboarding"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19358,7 +19358,7 @@ window.COMBINED_QUESTION_BANK = {
           "Risk transfer",
           "Risk elimination"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19382,7 +19382,7 @@ window.COMBINED_QUESTION_BANK = {
           "Risk reduction",
           "Risk transfer"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19394,7 +19394,7 @@ window.COMBINED_QUESTION_BANK = {
           "The insurance premium",
           "The deductible"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19418,7 +19418,7 @@ window.COMBINED_QUESTION_BANK = {
           "Flood",
           "Lightning"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19430,7 +19430,7 @@ window.COMBINED_QUESTION_BANK = {
           "Claims of bodily injury or property damage to others",
           "Losses from stock market declines"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19454,7 +19454,7 @@ window.COMBINED_QUESTION_BANK = {
           "Collision coverage",
           "Umbrella coverage"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19466,7 +19466,7 @@ window.COMBINED_QUESTION_BANK = {
           "All property inside each apartment",
           "Tenants’ liability"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19478,7 +19478,7 @@ window.COMBINED_QUESTION_BANK = {
           "Traditional IRA",
           "Pension fund"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19490,7 +19490,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reimbursement for hospital stays only",
           "Coverage for dependents’ tuition"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -19514,7 +19514,7 @@ window.COMBINED_QUESTION_BANK = {
           "The maximum time benefits are payable",
           "The policy renewal date"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20816,7 +20816,7 @@ window.COMBINED_QUESTION_BANK = {
           "International Monetary Fund",
           "European Union"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20828,7 +20828,7 @@ window.COMBINED_QUESTION_BANK = {
           "Are transitioning from developing to developed economies",
           "Have closed economies"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20852,7 +20852,7 @@ window.COMBINED_QUESTION_BANK = {
           "A corporation with publicly traded stock",
           "A sole proprietorship operating internationally"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20900,7 +20900,7 @@ window.COMBINED_QUESTION_BANK = {
           "Sherman Antitrust Act",
           "Uniform Commercial Code"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20912,7 +20912,7 @@ window.COMBINED_QUESTION_BANK = {
           "Public domain works",
           "Copyrights"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20924,7 +20924,7 @@ window.COMBINED_QUESTION_BANK = {
           "Nonverbal cues and context",
           "Statistical reports"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20936,7 +20936,7 @@ window.COMBINED_QUESTION_BANK = {
           "Political stability",
           "Market saturation"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20948,7 +20948,7 @@ window.COMBINED_QUESTION_BANK = {
           "No branding in foreign markets",
           "Different brand names in each country"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20960,7 +20960,7 @@ window.COMBINED_QUESTION_BANK = {
           "Market consolidation",
           "Market penetration"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -20972,7 +20972,7 @@ window.COMBINED_QUESTION_BANK = {
           "Prestige pricing",
           "Cost-plus pricing"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -20998,7 +20998,7 @@ window.COMBINED_QUESTION_BANK = {
           "The series of webinars is scheduled for next month.",
           "The list of requirements have been finalized."
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21010,7 +21010,7 @@ window.COMBINED_QUESTION_BANK = {
           "Most efficiency",
           "Efficiest"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21022,7 +21022,7 @@ window.COMBINED_QUESTION_BANK = {
           "The marketing team launched the new campaign in April.",
           "Sales increased significantly last quarter."
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21058,7 +21058,7 @@ window.COMBINED_QUESTION_BANK = {
           "Our Chief Executive Officer will attend the conference.",
           "Our chief Executive Officer will attend the conference."
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21082,7 +21082,7 @@ window.COMBINED_QUESTION_BANK = {
           "She said, “I will attend the meeting.”",
           "She said “I will attend the meeting”."
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21094,7 +21094,7 @@ window.COMBINED_QUESTION_BANK = {
           "The new policy which was announced yesterday) will take effect next month(",
           "The new policy which was announced yesterday (will take effect next month)."
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21106,7 +21106,7 @@ window.COMBINED_QUESTION_BANK = {
           "We opened a new Office in South america.",
           "We opened a New office in south America."
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21118,7 +21118,7 @@ window.COMBINED_QUESTION_BANK = {
           "Apllication",
           "Aplacation"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21130,7 +21130,7 @@ window.COMBINED_QUESTION_BANK = {
           "Accessible",
           "Committee"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -21142,7 +21142,7 @@ window.COMBINED_QUESTION_BANK = {
           "Accommodate",
           "Acomodate"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -23994,7 +23994,7 @@ window.COMBINED_QUESTION_BANK = {
           "The highest-paid division in a company",
           "A government-mandated operational requirement"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24030,7 +24030,7 @@ window.COMBINED_QUESTION_BANK = {
           "Improved reputation and trust",
           "Reduced customer retention"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24042,7 +24042,7 @@ window.COMBINED_QUESTION_BANK = {
           "Automobile manufacturing",
           "Marketing consulting"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24254,7 +24254,7 @@ window.COMBINED_QUESTION_BANK = {
           "Using slang to sound relatable",
           "Avoiding colleagues with different customs"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24266,7 +24266,7 @@ window.COMBINED_QUESTION_BANK = {
           "Discuss expectations, agree on checkpoints, and document commitments",
           "Complain to other teammates"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24290,7 +24290,7 @@ window.COMBINED_QUESTION_BANK = {
           "Volunteer others for tasks",
           "Communicate only when prompted"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24314,7 +24314,7 @@ window.COMBINED_QUESTION_BANK = {
           ".xlsx",
           ".pdf"
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24338,7 +24338,7 @@ window.COMBINED_QUESTION_BANK = {
           "Share the password widely",
           "Disable device updates"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24350,7 +24350,7 @@ window.COMBINED_QUESTION_BANK = {
           "“Action needed: Q3 budget approvals due Fri 4 PM”",
           "“Budget stuff”"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24362,7 +24362,7 @@ window.COMBINED_QUESTION_BANK = {
           "Plain language, specific requests, and logical structure",
           "Humor and idioms"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -24398,7 +24398,7 @@ window.COMBINED_QUESTION_BANK = {
           "Extending meetings",
           "Avoiding accountability"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -25888,7 +25888,7 @@ window.COMBINED_QUESTION_BANK = {
           "viability",
           "deception"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -25900,7 +25900,7 @@ window.COMBINED_QUESTION_BANK = {
           "improvement",
           "high standard"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -25924,7 +25924,7 @@ window.COMBINED_QUESTION_BANK = {
           "Together Building Leaders",
           "Tomorrow's Budding Leadership"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -25936,7 +25936,7 @@ window.COMBINED_QUESTION_BANK = {
           "members only",
           "everyone in attendance"
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -25960,7 +25960,7 @@ window.COMBINED_QUESTION_BANK = {
           "Awards Program Committee Chair",
           "Divisional Presidents"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -25974,7 +25974,7 @@ window.COMBINED_QUESTION_BANK = {
           "SSD",
           "Registers"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -25986,7 +25986,7 @@ window.COMBINED_QUESTION_BANK = {
           "Bytes per second",
           "Megapixels"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -25998,7 +25998,7 @@ window.COMBINED_QUESTION_BANK = {
           "Video card",
           "Power supply"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26010,7 +26010,7 @@ window.COMBINED_QUESTION_BANK = {
           "Monitor",
           "Speaker"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26022,7 +26022,7 @@ window.COMBINED_QUESTION_BANK = {
           "Basic Input Output System",
           "Binary Internal Output Setup"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26046,7 +26046,7 @@ window.COMBINED_QUESTION_BANK = {
           "Transmit signals",
           "Boost graphics performance"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26058,7 +26058,7 @@ window.COMBINED_QUESTION_BANK = {
           "USB",
           "PS/2"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26094,7 +26094,7 @@ window.COMBINED_QUESTION_BANK = {
           "Word processor",
           "Spreadsheet program"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26106,7 +26106,7 @@ window.COMBINED_QUESTION_BANK = {
           "A fix for a security flaw or bug",
           "A system restore point"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26142,7 +26142,7 @@ window.COMBINED_QUESTION_BANK = {
           "macOS",
           "ChromeOS"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -26489,7 +26489,7 @@ window.COMBINED_QUESTION_BANK = {
           "Durability",
           "Storability"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28010,7 +28010,7 @@ window.COMBINED_QUESTION_BANK = {
           "Privileged",
           "Main"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28022,7 +28022,7 @@ window.COMBINED_QUESTION_BANK = {
           "Lay on the Table",
           "Refer to a Committee"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28034,7 +28034,7 @@ window.COMBINED_QUESTION_BANK = {
           "New Business, Old Business, Reports",
           "Reports, New Business, Old Business"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28058,7 +28058,7 @@ window.COMBINED_QUESTION_BANK = {
           "In order with a unanimous vote",
           "Automatically tabled"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28070,7 +28070,7 @@ window.COMBINED_QUESTION_BANK = {
           "By the chair only",
           "Only after adjournment"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28082,7 +28082,7 @@ window.COMBINED_QUESTION_BANK = {
           "It must be reintroduced by a new main motion",
           "It becomes null and void"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28130,7 +28130,7 @@ window.COMBINED_QUESTION_BANK = {
           "“All in favor, vote; all opposed, leave the room.”",
           "“Vote now.”"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28142,7 +28142,7 @@ window.COMBINED_QUESTION_BANK = {
           "Recess",
           "Previous Question"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28154,7 +28154,7 @@ window.COMBINED_QUESTION_BANK = {
           "Main motion first, then primary amendment, then secondary amendment",
           "In any order the chair chooses"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28166,7 +28166,7 @@ window.COMBINED_QUESTION_BANK = {
           "A division of the meeting into committees",
           "Ending debate"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28178,7 +28178,7 @@ window.COMBINED_QUESTION_BANK = {
           "Two-thirds of the assembly",
           "The total membership of the group"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -28240,7 +28240,7 @@ window.COMBINED_QUESTION_BANK = {
           "Suggests buying in bulk for a discount",
           "Offers free shipping on an order"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28252,7 +28252,7 @@ window.COMBINED_QUESTION_BANK = {
           "It is unrelated to the customer’s purchase",
           "It focuses only on clearance items"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28264,7 +28264,7 @@ window.COMBINED_QUESTION_BANK = {
           "“You have to buy something today.”",
           "“I’ll follow you to make sure you don’t need help.”"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28276,7 +28276,7 @@ window.COMBINED_QUESTION_BANK = {
           "Avoid contact to give them privacy",
           "Ask if they’ve bought from competitors recently"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28288,7 +28288,7 @@ window.COMBINED_QUESTION_BANK = {
           "Friendly, Attentive, Bold",
           "Features, Add-ons, Bargains"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28312,7 +28312,7 @@ window.COMBINED_QUESTION_BANK = {
           "Offering immediate refunds",
           "Ignoring their points"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28324,7 +28324,7 @@ window.COMBINED_QUESTION_BANK = {
           "Refuse without explanation",
           "Offer a free item instead"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28348,7 +28348,7 @@ window.COMBINED_QUESTION_BANK = {
           "Record sales",
           "Discount the items"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28360,7 +28360,7 @@ window.COMBINED_QUESTION_BANK = {
           "Thrown away without documentation",
           "Sold “as is” without disclosure"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -28374,7 +28374,7 @@ window.COMBINED_QUESTION_BANK = {
           "Marketing agencies",
           "Distribution centers"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28386,7 +28386,7 @@ window.COMBINED_QUESTION_BANK = {
           "To focus solely on manufacturing efficiency",
           "To maximize marketing exposure"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28434,7 +28434,7 @@ window.COMBINED_QUESTION_BANK = {
           "Marketing budget",
           "Number of employees"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28470,7 +28470,7 @@ window.COMBINED_QUESTION_BANK = {
           "Strict legal knowledge",
           "Inventory accounting"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28506,7 +28506,7 @@ window.COMBINED_QUESTION_BANK = {
           "Overproduction",
           "Demand suppression"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28530,7 +28530,7 @@ window.COMBINED_QUESTION_BANK = {
           "Operational safety planning",
           "Retail merchandising"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28556,7 +28556,7 @@ window.COMBINED_QUESTION_BANK = {
           "Digital display ads",
           "Syndication rights"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28568,7 +28568,7 @@ window.COMBINED_QUESTION_BANK = {
           "To reduce legal liability",
           "To bypass copyright laws"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28580,7 +28580,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reduce printing costs",
           "Comply with government regulations"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28592,7 +28592,7 @@ window.COMBINED_QUESTION_BANK = {
           "Mayor announces New Library in Downtown area",
           "mayor announces new library in Downtown area"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28616,7 +28616,7 @@ window.COMBINED_QUESTION_BANK = {
           "The station broadcast the show live.",
           "The station has broadcasted the show live."
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28628,7 +28628,7 @@ window.COMBINED_QUESTION_BANK = {
           "Avn.",
           "Ave"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28640,7 +28640,7 @@ window.COMBINED_QUESTION_BANK = {
           "Either words or numerals",
           "Roman numerals"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28652,7 +28652,7 @@ window.COMBINED_QUESTION_BANK = {
           "The teachers lounge was recently renovated.",
           "The teachers’s lounge was recently renovated."
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28664,7 +28664,7 @@ window.COMBINED_QUESTION_BANK = {
           "The mayor’s plan is unquestionably the best choice for the city.",
           "The mayor’s foolish plan will cost taxpayers dearly."
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28676,7 +28676,7 @@ window.COMBINED_QUESTION_BANK = {
           "Em dash",
           "Parentheses"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28712,7 +28712,7 @@ window.COMBINED_QUESTION_BANK = {
           "Malice",
           "Anonymous sourcing"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28724,7 +28724,7 @@ window.COMBINED_QUESTION_BANK = {
           "Use copyrighted material",
           "Publish private facts"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -28762,7 +28762,7 @@ window.COMBINED_QUESTION_BANK = {
           "An HR director creates a new company training program",
           "A customer fills out a product feedback survey"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28774,7 +28774,7 @@ window.COMBINED_QUESTION_BANK = {
           "MIS replaces all business strategies with automated systems",
           "MIS focuses only on IT infrastructure, not strategy"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28834,7 +28834,7 @@ window.COMBINED_QUESTION_BANK = {
           "A database index speeding up search queries",
           "A foreign key enforcing relationships between tables"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28858,7 +28858,7 @@ window.COMBINED_QUESTION_BANK = {
           "Hub",
           "Firewall"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28882,7 +28882,7 @@ window.COMBINED_QUESTION_BANK = {
           "Bus topology",
           "Ring topology"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -28894,7 +28894,7 @@ window.COMBINED_QUESTION_BANK = {
           "Router",
           "Access point"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30406,7 +30406,7 @@ window.COMBINED_QUESTION_BANK = {
           "Push strategy",
           "Wholesaling"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30444,7 +30444,7 @@ window.COMBINED_QUESTION_BANK = {
           "the names of the officers of the organization",
           "the principal characteristics of the organization"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30456,7 +30456,7 @@ window.COMBINED_QUESTION_BANK = {
           "4",
           "7"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30480,7 +30480,7 @@ window.COMBINED_QUESTION_BANK = {
           "all sustained points of order",
           "the time of adjournment"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30492,7 +30492,7 @@ window.COMBINED_QUESTION_BANK = {
           "temporary",
           "social"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30516,7 +30516,7 @@ window.COMBINED_QUESTION_BANK = {
           "2/3",
           "majority"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30528,7 +30528,7 @@ window.COMBINED_QUESTION_BANK = {
           "I move we buy our president a new podium",
           "I move we form a recreation committee and give it instructions"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -30540,7 +30540,7 @@ window.COMBINED_QUESTION_BANK = {
           "always applied to another motion after they are voted on",
           "only applied to a main motion after it has been amended"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32677,7 +32677,7 @@ window.COMBINED_QUESTION_BANK = {
           "Office wall color",
           "Vendor contract length"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32689,7 +32689,7 @@ window.COMBINED_QUESTION_BANK = {
           "Data encryption in transit",
           "Cable length"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32701,7 +32701,7 @@ window.COMBINED_QUESTION_BANK = {
           "Redundancy",
           "Fault tolerance"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32713,7 +32713,7 @@ window.COMBINED_QUESTION_BANK = {
           "Requirements gathering",
           "Testing"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32725,7 +32725,7 @@ window.COMBINED_QUESTION_BANK = {
           "Router",
           "Packet sniffer"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32737,7 +32737,7 @@ window.COMBINED_QUESTION_BANK = {
           "Multimeter",
           "UPS"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32761,7 +32761,7 @@ window.COMBINED_QUESTION_BANK = {
           "IP address assignment",
           "Wall mounting"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32773,7 +32773,7 @@ window.COMBINED_QUESTION_BANK = {
           "Change IP addresses",
           "Install more switches"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -32785,7 +32785,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reduce network topology complexity",
           "Remove VLANs"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34207,7 +34207,7 @@ window.COMBINED_QUESTION_BANK = {
           "Access point",
           "Repeater"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34219,7 +34219,7 @@ window.COMBINED_QUESTION_BANK = {
           "Ring",
           "Mesh"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34243,7 +34243,7 @@ window.COMBINED_QUESTION_BANK = {
           "Mesh",
           "Bus"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34255,7 +34255,7 @@ window.COMBINED_QUESTION_BANK = {
           "Requests and uses services",
           "Routes network packets"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34279,7 +34279,7 @@ window.COMBINED_QUESTION_BANK = {
           "Single point of failure along the backbone",
           "Complex configuration"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34291,7 +34291,7 @@ window.COMBINED_QUESTION_BANK = {
           "Ring",
           "Hybrid"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34303,7 +34303,7 @@ window.COMBINED_QUESTION_BANK = {
           "Mesh",
           "Ring"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34315,7 +34315,7 @@ window.COMBINED_QUESTION_BANK = {
           "FTP",
           "SMTP"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34363,7 +34363,7 @@ window.COMBINED_QUESTION_BANK = {
           "Restricting network access to admins only",
           "Encrypting all network data"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34375,7 +34375,7 @@ window.COMBINED_QUESTION_BANK = {
           "Trojan",
           "Spyware"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -34389,7 +34389,7 @@ window.COMBINED_QUESTION_BANK = {
           "Limiting employee autonomy",
           "Emphasizing personal charisma"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34401,7 +34401,7 @@ window.COMBINED_QUESTION_BANK = {
           "The leader’s tenure",
           "Strictly following a single style"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34413,7 +34413,7 @@ window.COMBINED_QUESTION_BANK = {
           "Assign highly complex tasks immediately",
           "Reduce communication"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34425,7 +34425,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reducing communication frequency",
           "Delegating leadership to the least experienced member"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34449,7 +34449,7 @@ window.COMBINED_QUESTION_BANK = {
           "Assigning identical tasks to all members",
           "Minimizing communication channels"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34461,7 +34461,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reduced decision-making speed only",
           "Higher conflict with no benefits"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34485,7 +34485,7 @@ window.COMBINED_QUESTION_BANK = {
           "Democratic",
           "Rational"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34497,7 +34497,7 @@ window.COMBINED_QUESTION_BANK = {
           "Avoid involving others",
           "Prioritize convenience over integrity"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34533,7 +34533,7 @@ window.COMBINED_QUESTION_BANK = {
           "The leader has complete information",
           "Only one person has expertise"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34545,7 +34545,7 @@ window.COMBINED_QUESTION_BANK = {
           "The organization wants to avoid long-term thinking",
           "Short-term results are the only concern"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34571,7 +34571,7 @@ window.COMBINED_QUESTION_BANK = {
           "Decreases by 4%",
           "Doubles"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34583,7 +34583,7 @@ window.COMBINED_QUESTION_BANK = {
           "Number of checks per month",
           "Type of ATM card"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34595,7 +34595,7 @@ window.COMBINED_QUESTION_BANK = {
           "Excellent",
           "Subprime"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34631,7 +34631,7 @@ window.COMBINED_QUESTION_BANK = {
           "Unchanged",
           "Easier"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34643,7 +34643,7 @@ window.COMBINED_QUESTION_BANK = {
           "Money has no relation to time",
           "Time and money are unrelated"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34667,7 +34667,7 @@ window.COMBINED_QUESTION_BANK = {
           "Tax rates increase as income increases",
           "Taxes are based on spending"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34679,7 +34679,7 @@ window.COMBINED_QUESTION_BANK = {
           "1–5 years",
           "Over 5 years"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34727,7 +34727,7 @@ window.COMBINED_QUESTION_BANK = {
           "Long-term goal",
           "Irrelevant goal"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -34739,7 +34739,7 @@ window.COMBINED_QUESTION_BANK = {
           "Paying a credit card bill",
           "Setting up direct deposit"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35252,7 +35252,7 @@ window.COMBINED_QUESTION_BANK = {
           "Combines multiple related projects to achieve broader goals",
           "Is easier to manage"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35276,7 +35276,7 @@ window.COMBINED_QUESTION_BANK = {
           "Projectized organization",
           "Functional organization"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35288,7 +35288,7 @@ window.COMBINED_QUESTION_BANK = {
           "Ethical compliance",
           "Product warranty"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35312,7 +35312,7 @@ window.COMBINED_QUESTION_BANK = {
           "Creating the project budget",
           "Holding a kickoff meeting"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35336,7 +35336,7 @@ window.COMBINED_QUESTION_BANK = {
           "Approve vendor contracts",
           "Write the scope statement"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35348,7 +35348,7 @@ window.COMBINED_QUESTION_BANK = {
           "RACI chart",
           "PERT chart"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35360,7 +35360,7 @@ window.COMBINED_QUESTION_BANK = {
           "Calculating labor costs only",
           "Identifying marketing opportunities"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35372,7 +35372,7 @@ window.COMBINED_QUESTION_BANK = {
           "Resource smoothing",
           "Earned value analysis"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -35386,7 +35386,7 @@ window.COMBINED_QUESTION_BANK = {
           "Sales tax",
           "Estate tax"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35398,7 +35398,7 @@ window.COMBINED_QUESTION_BANK = {
           "The collection of taxes from residents",
           "The reduction of public debt"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35434,7 +35434,7 @@ window.COMBINED_QUESTION_BANK = {
           "Agenda setting",
           "Policy adoption"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35458,7 +35458,7 @@ window.COMBINED_QUESTION_BANK = {
           "Expanding the customer base of a private firm",
           "Offering employee bonuses"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35494,7 +35494,7 @@ window.COMBINED_QUESTION_BANK = {
           "Reduce the cost of elections",
           "Ensure political neutrality in the press"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35506,7 +35506,7 @@ window.COMBINED_QUESTION_BANK = {
           "Direct democracy",
           "Parliamentary system"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35518,7 +35518,7 @@ window.COMBINED_QUESTION_BANK = {
           "Redistributive policy",
           "Constituent policy"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35568,7 +35568,7 @@ window.COMBINED_QUESTION_BANK = {
           "An item permanently attached to the property",
           "Seasonal décor"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35592,7 +35592,7 @@ window.COMBINED_QUESTION_BANK = {
           "Tangible assets",
           "Realty fixtures"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35616,7 +35616,7 @@ window.COMBINED_QUESTION_BANK = {
           "Capital gain",
           "Equity growth"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35628,7 +35628,7 @@ window.COMBINED_QUESTION_BANK = {
           "Equity",
           "Conveyance"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35640,7 +35640,7 @@ window.COMBINED_QUESTION_BANK = {
           "Conformity",
           "Substitution"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35652,7 +35652,7 @@ window.COMBINED_QUESTION_BANK = {
           "Situs",
           "Non-homogeneity"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35664,7 +35664,7 @@ window.COMBINED_QUESTION_BANK = {
           "Economic obsolescence",
           "Deferred maintenance"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35676,7 +35676,7 @@ window.COMBINED_QUESTION_BANK = {
           "Mortgage",
           "Tenancy"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35688,7 +35688,7 @@ window.COMBINED_QUESTION_BANK = {
           "Foreclosure",
           "Adverse possession"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35712,7 +35712,7 @@ window.COMBINED_QUESTION_BANK = {
           "General warranty deed",
           "Special warranty deed"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35736,7 +35736,7 @@ window.COMBINED_QUESTION_BANK = {
           "Mechanic’s lien",
           "Judgment lien"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       }
@@ -35750,7 +35750,7 @@ window.COMBINED_QUESTION_BANK = {
           "Satisfying customer needs while achieving profit goals",
           "Reducing vendor competition"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35762,7 +35762,7 @@ window.COMBINED_QUESTION_BANK = {
           "Having no return policy to discourage product abuse",
           "Outsourcing all customer service calls"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35774,7 +35774,7 @@ window.COMBINED_QUESTION_BANK = {
           "Loss of a key supplier",
           "Rising rent costs"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35822,7 +35822,7 @@ window.COMBINED_QUESTION_BANK = {
           "Asking for customer contact information",
           "Providing generic discounts"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35834,7 +35834,7 @@ window.COMBINED_QUESTION_BANK = {
           "Hiring sales associates",
           "Warehouse operations"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35858,7 +35858,7 @@ window.COMBINED_QUESTION_BANK = {
           "Both A and B",
           "None of the above"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35870,7 +35870,7 @@ window.COMBINED_QUESTION_BANK = {
           "Promotional merchandising",
           "Loyalty merchandising"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35894,7 +35894,7 @@ window.COMBINED_QUESTION_BANK = {
           "Annual stock count",
           "FIFO method"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35944,7 +35944,7 @@ window.COMBINED_QUESTION_BANK = {
           "U.S. Treasury bonds",
           "High-yield bonds"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35956,7 +35956,7 @@ window.COMBINED_QUESTION_BANK = {
           "Increase the tax liability",
           "Increase portfolio volatility"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35980,7 +35980,7 @@ window.COMBINED_QUESTION_BANK = {
           "The chance of default by a bond issuer",
           "The chance of losing principal due to market fluctuations"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -35992,7 +35992,7 @@ window.COMBINED_QUESTION_BANK = {
           "10%",
           "12%"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36004,7 +36004,7 @@ window.COMBINED_QUESTION_BANK = {
           "Stock option",
           "Corporate bond"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36016,7 +36016,7 @@ window.COMBINED_QUESTION_BANK = {
           "Penny stocks",
           "Commodities"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36052,7 +36052,7 @@ window.COMBINED_QUESTION_BANK = {
           "Federal Reserve",
           "OCC"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36064,7 +36064,7 @@ window.COMBINED_QUESTION_BANK = {
           "Futures market",
           "Money market"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36114,7 +36114,7 @@ window.COMBINED_QUESTION_BANK = {
           "Autocratic",
           "Servant"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36138,7 +36138,7 @@ window.COMBINED_QUESTION_BANK = {
           "Physical training for job fitness",
           "Job shadowing"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36162,7 +36162,7 @@ window.COMBINED_QUESTION_BANK = {
           "A sponsor for a single player",
           "The sponsor who provides free merchandise"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36174,7 +36174,7 @@ window.COMBINED_QUESTION_BANK = {
           "Dynamic pricing",
           "Psychological pricing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36198,7 +36198,7 @@ window.COMBINED_QUESTION_BANK = {
           "Advertising",
           "Public relations"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36210,7 +36210,7 @@ window.COMBINED_QUESTION_BANK = {
           "Sponsorship activation",
           "Public relations"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36222,7 +36222,7 @@ window.COMBINED_QUESTION_BANK = {
           "Flexible staffing",
           "Seasonal adjustment"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36258,7 +36258,7 @@ window.COMBINED_QUESTION_BANK = {
           "Sponsorship",
           "Revenue management"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },
@@ -36282,7 +36282,7 @@ window.COMBINED_QUESTION_BANK = {
           "Concession supplies",
           "Security staff overtime"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set.",
         "source": "official-hq"
       },

@@ -17,7 +17,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Accounts Payable",
           "Building",
-          "Owner\u2019s Equity",
+          "Owner’s Equity",
           "Revenue"
         ],
         "answer": 1,
@@ -26,21 +26,21 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "What does the accounting equation represent?",
         "options": [
-          "Assets = Liabilities - Owner\u2019s Equity",
-          "Assets = Liabilities + Owner\u2019s Equity",
-          "Liabilities = Assets + Owner\u2019s Equity",
-          "Owner\u2019s Equity = Revenue - Expenses"
+          "Assets = Liabilities - Owner’s Equity",
+          "Assets = Liabilities + Owner’s Equity",
+          "Liabilities = Assets + Owner’s Equity",
+          "Owner’s Equity = Revenue - Expenses"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which financial statement shows a company\u2019s revenues and expenses?",
+        "q": "Which financial statement shows a company’s revenues and expenses?",
         "options": [
           "Balance Sheet",
           "Statement of Cash Flows",
           "Income Statement",
-          "Statement of Owner\u2019s Equity"
+          "Statement of Owner’s Equity"
         ],
         "answer": 2,
         "explain": "Adapted from the official sample question set."
@@ -123,7 +123,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which document is used to compare a company\u2019s checkbook with its bank statement?",
+        "q": "Which document is used to compare a company’s checkbook with its bank statement?",
         "options": [
           "Ledger",
           "Trial Balance",
@@ -172,7 +172,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "What is the primary purpose of the statement of retained earnings?",
         "options": [
           "To show net income",
-          "To show the company\u2019s cash flows",
+          "To show the company’s cash flows",
           "To reconcile beginning and ending retained earnings",
           "To calculate earnings per share"
         ],
@@ -330,7 +330,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Interest expense is more than interest paid",
           "Interest expense is not affected"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -343,7 +343,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Limit distribution channels",
           "Eliminate competition"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -354,7 +354,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Acting as a silent salesperson",
           "Determining the advertising budget"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -362,10 +362,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Physically placing the product in a store",
           "Pricing the product lower than competitors",
-          "Creating a distinct image in the consumer\u2019s mind",
+          "Creating a distinct image in the consumer’s mind",
           "Deciding which sales promotions to use"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -376,7 +376,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Following up",
           "Determining customer needs"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -398,7 +398,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Alternative media",
           "Direct marketing"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -420,7 +420,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Eliminates the need for packaging",
           "Guarantees the lowest price"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -431,7 +431,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Research and development",
           "Sales promotion"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -464,11 +464,11 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Select supply chain partners",
           "Choose the best pricing strategy"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cpercentage of sales\u201d method of budgeting is based on:",
+        "q": "The “percentage of sales” method of budgeting is based on:",
         "options": [
           "Competitor spending levels",
           "Sales revenue",
@@ -486,7 +486,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Creative strategy development",
           "Market segmentation"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -554,7 +554,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Identify strengths, weaknesses, opportunities, and threats",
           "Select a marketing slogan"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -576,7 +576,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Exclude distribution channels",
           "Avoid financial forecasting"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -594,7 +594,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "Value-adding in agribusiness means:",
         "options": [
           "Increasing crop acreage without quality improvements",
-          "Enhancing a product\u2019s appeal or utility to increase customer value",
+          "Enhancing a product’s appeal or utility to increase customer value",
           "Lowering prices to undercut competitors",
           "Removing packaging to reduce costs"
         ],
@@ -605,7 +605,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "Which is an example of niche marketing in agriculture?",
         "options": [
           "Selling generic corn at a commodity market",
-          "Selling organic heirloom tomatoes at a local farmer\u2019s market",
+          "Selling organic heirloom tomatoes at a local farmer’s market",
           "Distributing wheat globally through bulk export",
           "Supplying generic soybeans to processors"
         ],
@@ -653,18 +653,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Prices rise when demand exceeds supply",
           "Prices remain constant regardless of market forces"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "AFNR\u2019s contribution to the U.S. economy is measured in terms of:",
+        "q": "AFNR’s contribution to the U.S. economy is measured in terms of:",
         "options": [
           "Gross Domestic Product (GDP)",
           "Net National Debt",
           "Import tariffs",
           "Trade deficits"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -681,7 +681,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The FDIC\u2019s core role in banking is to:",
+        "q": "The FDIC’s core role in banking is to:",
         "options": [
           "Supervise securities markets",
           "Insure deposits at member banks up to statutory limits",
@@ -729,7 +729,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Balancing ATMs at close of business",
           "Matching internal cash ledgers to teller drawers",
-          "Comparing a company\u2019s check register with the bank statement to resolve differences",
+          "Comparing a company’s check register with the bank statement to resolve differences",
           "Posting outstanding deposits to the general ledger"
         ],
         "answer": 2,
@@ -848,7 +848,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The FDIC\u2019s core role in banking is to:",
+        "q": "The FDIC’s core role in banking is to:",
         "options": [
           "Supervise securities markets",
           "Insure deposits at member banks up to statutory limits",
@@ -896,7 +896,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Balancing ATMs at close of business",
           "Matching internal cash ledgers to teller drawers",
-          "Comparing a company\u2019s check register with the bank statement to resolve differences",
+          "Comparing a company’s check register with the bank statement to resolve differences",
           "Posting outstanding deposits to the general ledger"
         ],
         "answer": 2,
@@ -1004,7 +1004,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
     ],
     "Business Communication": [
       {
-        "q": "Which of the following is not one of the five C\u2019s of communication?",
+        "q": "Which of the following is not one of the five C’s of communication?",
         "options": [
           "Clear",
           "Concise",
@@ -1028,16 +1028,16 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Which of the following is an example of bias-free language?",
         "options": [
-          "\u201cThe chairman will review the proposal.\u201d",
-          "\u201cOur salesmen are trained professionals.\u201d",
-          "\u201cThe chairperson will review the proposal.\u201d",
-          "\u201cThe girls in the office are very helpful.\u201d"
+          "“The chairman will review the proposal.”",
+          "“Our salesmen are trained professionals.”",
+          "“The chairperson will review the proposal.”",
+          "“The girls in the office are very helpful.”"
         ],
         "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The office \u201cgrapevine\u201d can be beneficial because it:",
+        "q": "The office “grapevine” can be beneficial because it:",
         "options": [
           "Spreads only verified information",
           "Increases transparency in official reports",
@@ -1066,7 +1066,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Yours Faithfully,",
           "Cheers,"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1077,18 +1077,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Preparing the report",
           "Evaluating the sources"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Using another author\u2019s words without credit is:",
+        "q": "Using another author’s words without credit is:",
         "options": [
           "Paraphrasing",
           "Citation",
           "Plagiarism",
           "Editing"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1099,7 +1099,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Table of contents",
           "Glossary"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1110,7 +1110,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Memorizing detailed data",
           "Reading legal contracts"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1143,18 +1143,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Using familiar words and short sentences",
           "Avoiding headings"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Identify the adverb in the sentence: \u201cShe quickly reviewed the report.\u201d",
+        "q": "Identify the adverb in the sentence: “She quickly reviewed the report.”",
         "options": [
           "She",
           "Quickly",
           "Reviewed",
           "Report"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1165,7 +1165,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The managers meets weekly.",
           "The managers meets every week."
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -1263,8 +1263,8 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Identifying the salary you want in your next job",
           "Determining which principles guide your decisions",
-          "Listing hobbies for a r\u00e9sum\u00e9",
-          "Tracking how much overtime you\u2019ve worked"
+          "Listing hobbies for a résumé",
+          "Tracking how much overtime you’ve worked"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -1283,7 +1283,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Integrity in business means:",
         "options": [
-          "Doing what\u2019s right even when it\u2019s difficult or unnoticed",
+          "Doing what’s right even when it’s difficult or unnoticed",
           "Always following majority opinion",
           "Putting profits before all other considerations",
           "Avoiding responsibility for mistakes"
@@ -1411,7 +1411,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Liability is limited to capital invested",
           "Profits cannot be shared"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1433,7 +1433,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Unlimited liability",
           "Lack of perpetual existence"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1444,7 +1444,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Witness signatures",
           "Government approval"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1455,7 +1455,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Offeror",
           "Grantee"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1466,14 +1466,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Employment contracts",
           "Service agreements"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "If a minor enters into a contract:",
         "options": [
           "It is always void",
-          "It is voidable at the minor\u2019s option",
+          "It is voidable at the minor’s option",
           "It is enforceable without exceptions",
           "It is automatically ratified"
         ],
@@ -1531,10 +1531,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Competitors only",
           "Only shareholders and owners",
-          "Anyone affected by the company\u2019s activities",
+          "Anyone affected by the company’s activities",
           "Only employees"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1545,7 +1545,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reduce tariffs on imports",
           "Promote small business development"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1560,7 +1560,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "A company\u2019s code of ethics is intended to:",
+        "q": "A company’s code of ethics is intended to:",
         "options": [
           "Serve as a legal contract",
           "Outline expected behavior and decision-making standards",
@@ -1589,7 +1589,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Assets, liabilities, equity",
           "Costs, efficiency, productivity"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1600,7 +1600,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Limited liability company",
           "C corporation"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1611,7 +1611,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Top management",
           "Team leads"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1622,7 +1622,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Directly supervise frontline employees only",
           "Approve all financial statements"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1666,7 +1666,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Conceptual skills",
           "Mechanical skills"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -1723,7 +1723,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Move files",
           "Delete files"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1734,7 +1734,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "exFAT",
           "HFS+"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1811,7 +1811,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Low Access Network",
           "Linked Access Node"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1822,7 +1822,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "SFTP",
           "SMTP"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -1833,7 +1833,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Assign IP addresses dynamically",
           "Encrypt network traffic"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -1843,7 +1843,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Nodding and smiling",
           "Maintaining eye contact",
-          "Paraphrasing the customer\u2019s statement",
+          "Paraphrasing the customer’s statement",
           "Asking unrelated questions"
         ],
         "answer": 2,
@@ -1852,10 +1852,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Which is the most appropriate greeting when answering a business phone?",
         "options": [
-          "\u201cHello, what do you want?\u201d",
-          "\u201cHi there.\u201d",
-          "\u201cGood morning, this is [Name] at [Company]. How can I help you today?\u201d",
-          "\u201cYes?\u201d"
+          "“Hello, what do you want?”",
+          "“Hi there.”",
+          "“Good morning, this is [Name] at [Company]. How can I help you today?”",
+          "“Yes?”"
         ],
         "answer": 2,
         "explain": "Adapted from the official sample question set."
@@ -1872,7 +1872,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cGolden Rule\u201d in customer service emphasizes:",
+        "q": "The “Golden Rule” in customer service emphasizes:",
         "options": [
           "Selling products aggressively",
           "Treating customers the way you would like to be treated",
@@ -1899,7 +1899,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Offer an immediate refund",
           "Listen carefully without interrupting",
           "Refer them to a manager immediately",
-          "Explain the company\u2019s policy in detail"
+          "Explain the company’s policy in detail"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -2024,7 +2024,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Install antivirus software",
           "Enable unlimited data sharing"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2035,7 +2035,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Security guards and locked doors",
           "Data encryption"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2046,7 +2046,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Limiting network access times",
           "Encrypting stored passwords"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2057,7 +2057,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Disaster recovery plan",
           "Sales quotas"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2068,7 +2068,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Integrity",
           "Availability"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2079,7 +2079,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Security awareness posters",
           "Locked filing cabinets"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2090,7 +2090,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Ransomware",
           "Worm"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2101,7 +2101,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Destroy hardware components",
           "Corrupt system files"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2123,7 +2123,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Distributed Denial of Service (DDoS)",
           "Phishing"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2134,7 +2134,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Network protocols",
           "Hardware limitations"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2145,7 +2145,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A virus from the internet",
           "An accidental data breach from a customer"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2156,7 +2156,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Erase the hard drive",
           "Improve system performance"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2167,7 +2167,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Hardware malfunction",
           "Solar flares"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -2457,7 +2457,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Government regulation",
           "Collusion"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2468,7 +2468,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Control the money supply",
           "Manage international trade agreements"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2490,7 +2490,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Production levels remain constant",
           "Marginal costs increase at all production levels"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2501,7 +2501,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Abundant competition",
           "Control over a key resource"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -2523,7 +2523,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Personal savings balance",
           "Detailed revenue projections with supporting assumptions",
           "Number of employees hired",
-          "Founder\u2019s biography"
+          "Founder’s biography"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -2536,7 +2536,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Supporting documents such as resumes, permits, or charts",
           "Executive summaries"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2547,7 +2547,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Easily replicated by competitors",
           "Kept secret from stakeholders"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2556,7 +2556,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Show net income for a given period",
           "Track cash inflows and outflows to ensure liquidity",
           "Measure profitability",
-          "Summarize changes in owner\u2019s equity"
+          "Summarize changes in owner’s equity"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -2569,11 +2569,11 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Overestimating both revenues and costs",
           "Ignoring variable costs"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "If a company\u2019s current ratio is below 1, this indicates:",
+        "q": "If a company’s current ratio is below 1, this indicates:",
         "options": [
           "Strong liquidity",
           "Difficulty meeting short-term obligations",
@@ -2591,7 +2591,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Line of credit",
           "Trade credit"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2635,7 +2635,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Convertible into equity",
           "Interest-free"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2646,7 +2646,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "High interest costs and potential debt accumulation",
           "Lack of accessibility"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2657,7 +2657,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Price, Process, Promotion, People",
           "Product, People, Planning, Place"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2681,7 +2681,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "get to know the cleaning staff and when to expect them",
           "lock all doors to your work area"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2692,7 +2692,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "always equal to 1",
           "never equal to 1"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2701,9 +2701,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "to promote a given brand or industry",
           "to create a fraternal organization of employees of a certain industry",
           "to make employees learn specific skills",
-          "to improve workers\u2019 economic status and working conditions"
+          "to improve workers’ economic status and working conditions"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2714,7 +2714,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "net profit",
           "net worth"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2725,7 +2725,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "resources meet all needs",
           "there are few products"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2736,7 +2736,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "product advertising",
           "product utility"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2758,7 +2758,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "1968",
           "1957"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2769,7 +2769,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "70+",
           "50"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2780,7 +2780,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "NLC",
           "Fall Leadership Conference"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2791,7 +2791,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "sales-oriented company",
           "production-oriented company"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2802,7 +2802,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "18 inches to 4 feet",
           "12 inches to 2 feet"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2835,13 +2835,13 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "use four to six different fonts on each page to vary the appearance of the text",
           "include artwork or photos that are relevant to the message"
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       }
     ],
     "Healthcare Administration": [
       {
-        "q": "A healthcare office\u2019s policy and procedures manual should be reviewed and updated:",
+        "q": "A healthcare office’s policy and procedures manual should be reviewed and updated:",
         "options": [
           "Every five years",
           "Only when new staff are hired",
@@ -2859,18 +2859,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Track medical errors",
           "Record staff attendance"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "To maintain HIPAA compliance, a sign-in sheet in a medical office should:",
         "options": [
-          "Include only the patient\u2019s name and appointment time",
+          "Include only the patient’s name and appointment time",
           "List diagnosis information for billing",
           "Display insurance numbers for efficiency",
           "Be posted on a public bulletin board"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2892,7 +2892,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Disease of the pancreas",
           "Hardening of the arteries"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2903,7 +2903,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Bone",
           "Lung"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2914,7 +2914,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Enlargement",
           "Disease"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2936,7 +2936,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "ADA",
           "HITECH"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2947,7 +2947,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Gives consent verbally only",
           "Agrees after the procedure has started"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -2965,8 +2965,8 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "Which is an example of a breach of confidentiality?",
         "options": [
           "Sharing patient details with another provider involved in care",
-          "Discussing a patient\u2019s diagnosis in a public elevator",
-          "Reviewing a patient\u2019s chart during treatment",
+          "Discussing a patient’s diagnosis in a public elevator",
+          "Reviewing a patient’s chart during treatment",
           "Obtaining patient consent for information release"
         ],
         "answer": 1,
@@ -2976,7 +2976,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "Ethical decision-making in healthcare should primarily be guided by:",
         "options": [
           "Maximizing office revenue",
-          "The patient\u2019s best interest and professional standards",
+          "The patient’s best interest and professional standards",
           "The easiest course of action for staff",
           "Avoiding all risks regardless of patient needs"
         ],
@@ -2987,7 +2987,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "The legal term respondeat superior holds employers responsible for:",
         "options": [
           "All actions in the community",
-          "Employees\u2019 actions performed within the scope of employment",
+          "Employees’ actions performed within the scope of employment",
           "Only intentional acts by employees",
           "Personal activities of employees"
         ],
@@ -3002,7 +3002,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The patient does not arrive for an appointment",
           "Insurance denies coverage"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -3055,7 +3055,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A critical path in event planning refers to:",
         "options": [
           "The most expensive part of the event",
-          "The sequence of tasks that directly determines the event\u2019s completion date",
+          "The sequence of tasks that directly determines the event’s completion date",
           "The walkway for VIP guests",
           "The marketing budget allocation"
         ],
@@ -3107,7 +3107,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In hospitality marketing, a \u201cfam trip\u201d (familiarization trip) is:",
+        "q": "In hospitality marketing, a “fam trip” (familiarization trip) is:",
         "options": [
           "A low-cost vacation",
           "A tour provided to potential clients to showcase a destination or venue",
@@ -3151,10 +3151,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The term \u201cturn-down service\u201d refers to:",
+        "q": "The term “turn-down service” refers to:",
         "options": [
           "Refusing a reservation",
-          "Preparing a guest\u2019s bed for the evening, often with added amenities",
+          "Preparing a guest’s bed for the evening, often with added amenities",
           "Canceling an event booking",
           "Denying entry to a VIP lounge"
         ],
@@ -3164,12 +3164,12 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "In a service recovery situation, the first priority should be to:",
         "options": [
-          "Apologize and resolve the guest\u2019s issue promptly",
+          "Apologize and resolve the guest’s issue promptly",
           "Offer a discount before hearing the complaint",
           "Ignore the issue unless it becomes public",
           "Refer the guest to corporate headquarters"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -3191,13 +3191,13 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reference checks",
           "Structured behavioral interviews",
           "Unstructured interviews",
-          "R\u00e9sum\u00e9 screening"
+          "Résumé screening"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In HR, the term \u201cjob analysis\u201d refers to:",
+        "q": "In HR, the term “job analysis” refers to:",
         "options": [
           "Evaluating employee morale",
           "Determining the tasks, duties, and qualifications for a job",
@@ -3241,7 +3241,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cselection ratio\u201d is calculated by:",
+        "q": "The “selection ratio” is calculated by:",
         "options": [
           "Applicants interviewed divided by applicants hired",
           "Number of hires divided by number of applicants",
@@ -3259,7 +3259,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Determine training costs only",
           "Reduce training hours"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3274,7 +3274,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Kirkpatrick\u2019s model of training evaluation measures:",
+        "q": "Kirkpatrick’s model of training evaluation measures:",
         "options": [
           "Recruitment efficiency",
           "Reaction, learning, behavior, and results",
@@ -3303,7 +3303,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Eliminate training costs",
           "Avoid job analysis"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3325,11 +3325,11 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reducing recruitment advertising costs",
           "Replacing formal onboarding"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "A \u201ccafeteria plan\u201d in employee benefits allows:",
+        "q": "A “cafeteria plan” in employee benefits allows:",
         "options": [
           "Employees to receive free meals at work",
           "Employees to choose from a variety of benefit options that best suit their needs",
@@ -3360,7 +3360,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Risk transfer",
           "Risk elimination"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3382,18 +3382,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Risk reduction",
           "Risk transfer"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In risk assessment, the \u201cprobability\u201d factor refers to:",
+        "q": "In risk assessment, the “probability” factor refers to:",
         "options": [
           "The likelihood that a loss will occur",
           "The amount of money lost",
           "The insurance premium",
           "The deductible"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3415,18 +3415,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Flood",
           "Lightning"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Commercial general liability insurance protects businesses from:",
         "options": [
           "Damage to owned property",
-          "Employee injuries covered by workers\u2019 compensation",
+          "Employee injuries covered by workers’ compensation",
           "Claims of bodily injury or property damage to others",
           "Losses from stock market declines"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3448,18 +3448,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Collision coverage",
           "Umbrella coverage"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "A landlord\u2019s insurance policy generally covers:",
+        "q": "A landlord’s insurance policy generally covers:",
         "options": [
-          "Tenants\u2019 personal belongings",
+          "Tenants’ personal belongings",
           "The building structure",
           "All property inside each apartment",
-          "Tenants\u2019 liability"
+          "Tenants’ liability"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3470,7 +3470,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Traditional IRA",
           "Pension fund"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3479,16 +3479,16 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Payment for funeral expenses",
           "Income replacement when an insured person cannot work due to illness or injury",
           "Reimbursement for hospital stays only",
-          "Coverage for dependents\u2019 tuition"
+          "Coverage for dependents’ tuition"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Term life insurance differs from whole life insurance because:",
         "options": [
           "Term builds cash value; whole life does not",
-          "Term provides coverage for a set period; whole life covers the insured\u2019s entire life",
+          "Term provides coverage for a set period; whole life covers the insured’s entire life",
           "Term has higher premiums",
           "Term guarantees investment returns"
         ],
@@ -3503,7 +3503,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The maximum time benefits are payable",
           "The policy renewal date"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -3527,18 +3527,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "International Monetary Fund",
           "European Union"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The term \u201cemerging markets\u201d generally refers to countries that:",
+        "q": "The term “emerging markets” generally refers to countries that:",
         "options": [
           "Have declining GDP growth rates",
           "Are highly industrialized",
           "Are transitioning from developing to developed economies",
           "Have closed economies"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3560,14 +3560,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A corporation with publicly traded stock",
           "A sole proprietorship operating internationally"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "In an international franchise arrangement, the franchisee typically:",
         "options": [
           "Owns the brand name",
-          "Receives a license to operate under the franchisor\u2019s business model",
+          "Receives a license to operate under the franchisor’s business model",
           "Has complete operational independence without restrictions",
           "Owns all intellectual property rights"
         ],
@@ -3604,7 +3604,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sherman Antitrust Act",
           "Uniform Commercial Code"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3615,7 +3615,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Public domain works",
           "Copyrights"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3626,7 +3626,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Nonverbal cues and context",
           "Statistical reports"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3637,7 +3637,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Political stability",
           "Market saturation"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3648,7 +3648,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "No branding in foreign markets",
           "Different brand names in each country"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3659,7 +3659,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Market consolidation",
           "Market penetration"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3670,7 +3670,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Prestige pricing",
           "Cost-plus pricing"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -3694,29 +3694,29 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The series of webinars is scheduled for next month.",
           "The list of requirements have been finalized."
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which is the correct comparative form of the adjective \u201cefficient\u201d?",
+        "q": "Which is the correct comparative form of the adjective “efficient”?",
         "options": [
           "More efficient",
           "Efficiency",
           "Most efficiency",
           "Efficiest"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Which sentence contains a misplaced modifier?",
         "options": [
-          "The CEO discussed the company\u2019s future plans during the meeting.",
+          "The CEO discussed the company’s future plans during the meeting.",
           "We saw a presentation on sustainable packaging given by our supplier.",
           "The marketing team launched the new campaign in April.",
           "Sales increased significantly last quarter."
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3749,7 +3749,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Our Chief Executive Officer will attend the conference.",
           "Our chief Executive Officer will attend the conference."
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3766,12 +3766,12 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Which is the correct punctuation for a direct quotation?",
         "options": [
-          "She said, \u201cI will attend the meeting\u201d.",
-          "She said \u201cI will attend the meeting.\u201d",
-          "She said, \u201cI will attend the meeting.\u201d",
-          "She said \u201cI will attend the meeting\u201d."
+          "She said, “I will attend the meeting”.",
+          "She said “I will attend the meeting.”",
+          "She said, “I will attend the meeting.”",
+          "She said “I will attend the meeting”."
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3782,7 +3782,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The new policy which was announced yesterday) will take effect next month(",
           "The new policy which was announced yesterday (will take effect next month)."
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3793,18 +3793,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "We opened a new Office in South america.",
           "We opened a New office in south America."
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which is the correct spelling of the word meaning \u201ca formal written request\u201d?",
+        "q": "Which is the correct spelling of the word meaning “a formal written request”?",
         "options": [
           "Aplication",
           "Application",
           "Apllication",
           "Aplacation"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3815,7 +3815,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Accessible",
           "Committee"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3826,7 +3826,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Accommodate",
           "Acomodate"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3854,7 +3854,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In economics, the \u201cfactors of production\u201d include:",
+        "q": "In economics, the “factors of production” include:",
         "options": [
           "Capital, labor, entrepreneurship, and natural resources",
           "Technology, supply, demand, and profit",
@@ -3923,7 +3923,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A mission statement should:",
         "options": [
           "Outline short-term financial goals",
-          "Describe the organization\u2019s purpose and direction",
+          "Describe the organization’s purpose and direction",
           "Provide step-by-step operational instructions",
           "List all company products"
         ],
@@ -3931,10 +3931,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The term \u201cstakeholders\u201d refers to:",
+        "q": "The term “stakeholders” refers to:",
         "options": [
-          "Only the company\u2019s investors",
-          "All parties affected by a business\u2019s activities",
+          "Only the company’s investors",
+          "All parties affected by a business’s activities",
           "Government agencies overseeing the business",
           "Competitors in the same industry"
         ],
@@ -3953,14 +3953,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The term \u201ccore competency\u201d refers to:",
+        "q": "The term “core competency” refers to:",
         "options": [
-          "The most profitable product in a company\u2019s portfolio",
+          "The most profitable product in a company’s portfolio",
           "A unique strength that gives the business a competitive advantage",
           "The highest-paid division in a company",
           "A government-mandated operational requirement"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -3993,7 +3993,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Improved reputation and trust",
           "Reduced customer retention"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4004,7 +4004,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Automobile manufacturing",
           "Marketing consulting"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -4017,7 +4017,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Using slang to sound relatable",
           "Avoiding colleagues with different customs"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4028,14 +4028,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Discuss expectations, agree on checkpoints, and document commitments",
           "Complain to other teammates"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Emotional intelligence at work primarily involves:",
         "options": [
           "Avoiding difficult conversations",
-          "Controlling others\u2019 emotions",
+          "Controlling others’ emotions",
           "Recognizing and managing your emotions and responding appropriately to others",
           "Keeping personal concerns private"
         ],
@@ -4050,7 +4050,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Volunteer others for tasks",
           "Communicate only when prompted"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4072,7 +4072,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           ".xlsx",
           ".pdf"
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4094,18 +4094,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Share the password widely",
           "Disable device updates"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "The most effective email subject line for a deadline reminder is:",
         "options": [
-          "\u201cHey quick question!!!\u201d",
-          "\u201cURGENT\u201d",
-          "\u201cAction needed: Q3 budget approvals due Fri 4 PM\u201d",
-          "\u201cBudget stuff\u201d"
+          "“Hey quick question!!!”",
+          "“URGENT”",
+          "“Action needed: Q3 budget approvals due Fri 4 PM”",
+          "“Budget stuff”"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4116,7 +4116,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Plain language, specific requests, and logical structure",
           "Humor and idioms"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4149,7 +4149,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Extending meetings",
           "Avoiding accountability"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4166,10 +4166,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "A SMART goal for a front desk team is:",
         "options": [
-          "\u201cImprove service soon.\u201d",
-          "\u201cAnswer phones faster.\u201d",
-          "\u201cReduce average hold time from 90s to 45s by May 31.\u201d",
-          "\u201cBe the best.\u201d"
+          "“Improve service soon.”",
+          "“Answer phones faster.”",
+          "“Reduce average hold time from 90s to 45s by May 31.”",
+          "“Be the best.”"
         ],
         "answer": 2,
         "explain": "Adapted from the official sample question set."
@@ -4184,7 +4184,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "viability",
           "deception"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4195,7 +4195,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "improvement",
           "high standard"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4217,7 +4217,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Together Building Leaders",
           "Tomorrow's Budding Leadership"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4228,7 +4228,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "members only",
           "everyone in attendance"
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4250,7 +4250,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Awards Program Committee Chair",
           "Divisional Presidents"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -4263,7 +4263,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "SSD",
           "Registers"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4274,7 +4274,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Bytes per second",
           "Megapixels"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4285,7 +4285,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Video card",
           "Power supply"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4296,7 +4296,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Monitor",
           "Speaker"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4307,7 +4307,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Basic Input Output System",
           "Binary Internal Output Setup"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4329,7 +4329,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Transmit signals",
           "Boost graphics performance"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4340,7 +4340,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "USB",
           "PS/2"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4373,7 +4373,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Word processor",
           "Spreadsheet program"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4384,7 +4384,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A fix for a security flaw or bug",
           "A system restore point"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4417,7 +4417,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "macOS",
           "ChromeOS"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -4456,12 +4456,12 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In the marketing mix, \u201cPlace\u201d refers to:",
+        "q": "In the marketing mix, “Place” refers to:",
         "options": [
           "Where advertising is shown",
           "How products are distributed to customers",
           "The cost of the product",
-          "The target market\u2019s demographics"
+          "The target market’s demographics"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -4566,11 +4566,11 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which type of brand is owned by the producer and carries the producer\u2019s name?",
+        "q": "Which type of brand is owned by the producer and carries the producer’s name?",
         "options": [
           "Private brand",
           "Generic brand",
-          "Manufacturer\u2019s brand",
+          "Manufacturer’s brand",
           "Store brand"
         ],
         "answer": 2,
@@ -4584,7 +4584,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Durability",
           "Storability"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -4597,7 +4597,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Privileged",
           "Main"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4608,7 +4608,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Lay on the Table",
           "Refer to a Committee"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4619,7 +4619,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "New Business, Old Business, Reports",
           "Reports, New Business, Old Business"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4641,18 +4641,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "In order with a unanimous vote",
           "Automatically tabled"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The motion to \u201creconsider\u201d must be made:",
+        "q": "The motion to “reconsider” must be made:",
         "options": [
           "By any member at any time during the meeting",
           "By a member who voted on the prevailing side",
           "By the chair only",
           "Only after adjournment"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4663,7 +4663,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "It must be reintroduced by a new main motion",
           "It becomes null and void"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4702,12 +4702,12 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "What is the correct statement when putting a question to a vote?",
         "options": [
-          "\u201cThose in favor, raise your right hand; those opposed, stand.\u201d",
-          "\u201cThose in favor, say aye; those opposed, say no.\u201d",
-          "\u201cAll in favor, vote; all opposed, leave the room.\u201d",
-          "\u201cVote now.\u201d"
+          "“Those in favor, raise your right hand; those opposed, stand.”",
+          "“Those in favor, say aye; those opposed, say no.”",
+          "“All in favor, vote; all opposed, leave the room.”",
+          "“Vote now.”"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4718,7 +4718,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Recess",
           "Previous Question"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4729,18 +4729,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Main motion first, then primary amendment, then secondary amendment",
           "In any order the chair chooses"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "A member calls for \u201cDivision.\u201d What does this require?",
+        "q": "A member calls for “Division.” What does this require?",
         "options": [
           "A vote count instead of a voice vote",
           "A roll call vote",
           "A division of the meeting into committees",
           "Ending debate"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4751,7 +4751,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Two-thirds of the assembly",
           "The total membership of the group"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -4768,7 +4768,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In retail, the term \u201closs leader\u201d refers to:",
+        "q": "In retail, the term “loss leader” refers to:",
         "options": [
           "An unprofitable manager",
           "A product sold at a loss to attract customers",
@@ -4808,7 +4808,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Suggests buying in bulk for a discount",
           "Offers free shipping on an order"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4816,21 +4816,21 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "The customer has already made a decision to buy",
           "It interrupts the buying process",
-          "It is unrelated to the customer\u2019s purchase",
+          "It is unrelated to the customer’s purchase",
           "It focuses only on clearance items"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "If a customer says, \u201cI\u2019m just looking,\u201d a good response would be:",
+        "q": "If a customer says, “I’m just looking,” a good response would be:",
         "options": [
-          "\u201cLet me know if you need help finding anything.\u201d",
-          "\u201cOur sale ends in 5 minutes, so hurry.\u201d",
-          "\u201cYou have to buy something today.\u201d",
-          "\u201cI\u2019ll follow you to make sure you don\u2019t need help.\u201d"
+          "“Let me know if you need help finding anything.”",
+          "“Our sale ends in 5 minutes, so hurry.”",
+          "“You have to buy something today.”",
+          "“I’ll follow you to make sure you don’t need help.”"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4839,27 +4839,27 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Greet them by name and recall past purchases",
           "Offer the highest-priced items immediately",
           "Avoid contact to give them privacy",
-          "Ask if they\u2019ve bought from competitors recently"
+          "Ask if they’ve bought from competitors recently"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cFAB\u201d sales technique stands for:",
+        "q": "The “FAB” sales technique stands for:",
         "options": [
           "Features, Advantages, Benefits",
           "Fast, Affordable, Best",
           "Friendly, Attentive, Bold",
           "Features, Add-ons, Bargains"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Closing a sale is easiest when:",
         "options": [
           "The customer is pressured into buying",
-          "The customer\u2019s needs have been met and questions answered",
+          "The customer’s needs have been met and questions answered",
           "The associate offers no additional help",
           "Discounts are offered without explanation"
         ],
@@ -4874,7 +4874,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Offering immediate refunds",
           "Ignoring their points"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4885,7 +4885,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Refuse without explanation",
           "Offer a free item instead"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4907,7 +4907,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Record sales",
           "Discount the items"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4916,9 +4916,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Displayed with a discount tag",
           "Returned or reported according to store policy",
           "Thrown away without documentation",
-          "Sold \u201cas is\u201d without disclosure"
+          "Sold “as is” without disclosure"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -4931,7 +4931,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Marketing agencies",
           "Distribution centers"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4942,7 +4942,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "To focus solely on manufacturing efficiency",
           "To maximize marketing exposure"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -4979,18 +4979,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which factor most directly affects a supplier\u2019s ability to meet demand?",
+        "q": "Which factor most directly affects a supplier’s ability to meet demand?",
         "options": [
           "Customer loyalty programs",
           "Production capacity",
           "Marketing budget",
           "Number of employees"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cbullwhip effect\u201d in supply chains refers to:",
+        "q": "The “bullwhip effect” in supply chains refers to:",
         "options": [
           "Increasing inventory accuracy upstream",
           "Demand fluctuations magnifying upstream in the supply chain",
@@ -5019,7 +5019,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Strict legal knowledge",
           "Inventory accounting"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5052,7 +5052,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Overproduction",
           "Demand suppression"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5074,7 +5074,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Operational safety planning",
           "Retail merchandising"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5098,7 +5098,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Digital display ads",
           "Syndication rights"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5109,7 +5109,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "To reduce legal liability",
           "To bypass copyright laws"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5120,7 +5120,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reduce printing costs",
           "Comply with government regulations"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5131,7 +5131,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Mayor announces New Library in Downtown area",
           "mayor announces new library in Downtown area"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5146,25 +5146,25 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which sentence uses the correct past tense form for \u201cbroadcast\u201d?",
+        "q": "Which sentence uses the correct past tense form for “broadcast”?",
         "options": [
           "The station broadcasted the show live.",
           "The station broadcasts the show live.",
           "The station broadcast the show live.",
           "The station has broadcasted the show live."
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which is the correct way to abbreviate \u201cAvenue\u201d in an address according to AP Style?",
+        "q": "Which is the correct way to abbreviate “Avenue” in an address according to AP Style?",
         "options": [
           "Ave.",
           "Av.",
           "Avn.",
           "Ave"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5175,29 +5175,29 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Either words or numerals",
           "Roman numerals"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which sentence correctly uses a possessive for a plural noun ending in \u201cs\u201d?",
+        "q": "Which sentence correctly uses a possessive for a plural noun ending in “s”?",
         "options": [
-          "The teachers\u2019 lounge was recently renovated.",
-          "The teacher\u2019s lounge was recently renovated.",
+          "The teachers’ lounge was recently renovated.",
+          "The teacher’s lounge was recently renovated.",
           "The teachers lounge was recently renovated.",
-          "The teachers\u2019s lounge was recently renovated."
+          "The teachers’s lounge was recently renovated."
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "In a news story, which sentence maintains objectivity?",
         "options": [
-          "The mayor\u2019s brilliant proposal will save the city millions.",
+          "The mayor’s brilliant proposal will save the city millions.",
           "The mayor proposed a plan projected to save the city millions.",
-          "The mayor\u2019s plan is unquestionably the best choice for the city.",
-          "The mayor\u2019s foolish plan will cost taxpayers dearly."
+          "The mayor’s plan is unquestionably the best choice for the city.",
+          "The mayor’s foolish plan will cost taxpayers dearly."
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5208,7 +5208,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Em dash",
           "Parentheses"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5225,10 +5225,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Which is the correct attribution for a quote in AP Style?",
         "options": [
-          "\u201cWe will win,\u201d said the coach.",
-          "\u201cWe will win,\u201d the coach said.",
+          "“We will win,” said the coach.",
+          "“We will win,” the coach said.",
           "a and b are both correct",
-          "\u201cWe will win.\u201d the coach said."
+          "“We will win.” the coach said."
         ],
         "answer": 2,
         "explain": "Adapted from the official sample question set."
@@ -5241,18 +5241,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Malice",
           "Anonymous sourcing"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cfair comment\u201d defense protects journalists who:",
+        "q": "The “fair comment” defense protects journalists who:",
         "options": [
           "Report facts without sources",
           "Express opinions on matters of public interest",
           "Use copyrighted material",
           "Publish private facts"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -5269,7 +5269,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In an MIS context, \u201cdata\u201d differs from \u201cinformation\u201d in that:",
+        "q": "In an MIS context, “data” differs from “information” in that:",
         "options": [
           "Data is processed and analyzed; information is raw",
           "Data is raw facts; information is processed and meaningful",
@@ -5287,22 +5287,22 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "An HR director creates a new company training program",
           "A customer fills out a product feedback survey"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Which best describes the relationship between MIS and organizational strategy?",
         "options": [
           "MIS should align with and support strategic goals",
-          "MIS determines the company\u2019s mission statement",
+          "MIS determines the company’s mission statement",
           "MIS replaces all business strategies with automated systems",
           "MIS focuses only on IT infrastructure, not strategy"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "Which scenario demonstrates the \u201ctesting\u201d phase of SDLC?",
+        "q": "Which scenario demonstrates the “testing” phase of SDLC?",
         "options": [
           "IT staff installing the new software on all company computers",
           "End users checking if the new system processes payroll accurately",
@@ -5353,7 +5353,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A database index speeding up search queries",
           "A foreign key enforcing relationships between tables"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5375,7 +5375,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Hub",
           "Firewall"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5397,7 +5397,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Bus topology",
           "Ring topology"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5408,7 +5408,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Router",
           "Access point"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5443,7 +5443,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Push strategy",
           "Wholesaling"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5478,7 +5478,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "the names of the officers of the organization",
           "the principal characteristics of the organization"
         ],
-        "answer": 3,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5489,7 +5489,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "4",
           "7"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5511,7 +5511,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "all sustained points of order",
           "the time of adjournment"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5522,7 +5522,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "temporary",
           "social"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5544,7 +5544,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "2/3",
           "majority"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5555,7 +5555,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "I move we buy our president a new podium",
           "I move we form a recreation committee and give it instructions"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5566,7 +5566,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "always applied to another motion after they are voted on",
           "only applied to a main motion after it has been amended"
         ],
-        "answer": 3,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -5579,7 +5579,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Office wall color",
           "Vendor contract length"
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5590,7 +5590,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Data encryption in transit",
           "Cable length"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5601,7 +5601,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Redundancy",
           "Fault tolerance"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5612,7 +5612,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Requirements gathering",
           "Testing"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5623,7 +5623,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Router",
           "Packet sniffer"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5634,7 +5634,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Multimeter",
           "UPS"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5656,7 +5656,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "IP address assignment",
           "Wall mounting"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5667,7 +5667,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Change IP addresses",
           "Install more switches"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5678,7 +5678,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reduce network topology complexity",
           "Remove VLANs"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -5691,7 +5691,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Access point",
           "Repeater"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5702,7 +5702,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Ring",
           "Mesh"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5724,7 +5724,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Mesh",
           "Bus"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5735,7 +5735,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Requests and uses services",
           "Routes network packets"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5757,7 +5757,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Single point of failure along the backbone",
           "Complex configuration"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5768,7 +5768,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Ring",
           "Hybrid"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5779,7 +5779,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Mesh",
           "Ring"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5790,7 +5790,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "FTP",
           "SMTP"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5827,14 +5827,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In network security, what does \u201cleast privilege\u201d mean?",
+        "q": "In network security, what does “least privilege” mean?",
         "options": [
           "Users have access only to the resources needed to perform their jobs",
           "All users share admin rights",
           "Restricting network access to admins only",
           "Encrypting all network data"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5845,7 +5845,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Trojan",
           "Spyware"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -5858,29 +5858,29 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Limiting employee autonomy",
           "Emphasizing personal charisma"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "In contingency theory, leadership effectiveness depends primarily on:",
         "options": [
-          "The leader\u2019s personal charisma",
+          "The leader’s personal charisma",
           "Matching leadership style to situational variables",
-          "The leader\u2019s tenure",
+          "The leader’s tenure",
           "Strictly following a single style"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "During the \u201cstorming\u201d stage of team development, leaders should:",
+        "q": "During the “storming” stage of team development, leaders should:",
         "options": [
           "Focus on establishing clear roles and resolving conflicts",
           "Avoid interference to encourage independence",
           "Assign highly complex tasks immediately",
           "Reduce communication"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5891,7 +5891,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reducing communication frequency",
           "Delegating leadership to the least experienced member"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5913,7 +5913,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Assigning identical tasks to all members",
           "Minimizing communication channels"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5924,7 +5924,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reduced decision-making speed only",
           "Higher conflict with no benefits"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5946,7 +5946,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Democratic",
           "Rational"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5957,7 +5957,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Avoid involving others",
           "Prioritize convenience over integrity"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -5990,7 +5990,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The leader has complete information",
           "Only one person has expertise"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6001,7 +6001,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The organization wants to avoid long-term thinking",
           "Short-term results are the only concern"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6025,7 +6025,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Decreases by 4%",
           "Doubles"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6036,7 +6036,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Number of checks per month",
           "Type of ATM card"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6047,7 +6047,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Excellent",
           "Subprime"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6080,7 +6080,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Unchanged",
           "Easier"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6091,7 +6091,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Money has no relation to time",
           "Time and money are unrelated"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6113,27 +6113,27 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Tax rates increase as income increases",
           "Taxes are based on spending"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "A short-term financial goal usually has a time frame of:",
         "options": [
           "Less than one month",
-          "1\u201312 months",
-          "1\u20135 years",
+          "1–12 months",
+          "1–5 years",
           "Over 5 years"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Which goal is SMART?",
         "options": [
-          "\u201cSave more money.\u201d",
-          "\u201cSave $500 in 6 months for a new phone.\u201d",
-          "\u201cBe rich someday.\u201d",
-          "\u201cSpend less.\u201d"
+          "“Save more money.”",
+          "“Save $500 in 6 months for a new phone.”",
+          "“Be rich someday.”",
+          "“Spend less.”"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -6150,7 +6150,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "When setting financial goals, the \u201cA\u201d in SMART stands for:",
+        "q": "When setting financial goals, the “A” in SMART stands for:",
         "options": [
           "Affordable",
           "Achievable",
@@ -6168,7 +6168,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Long-term goal",
           "Irrelevant goal"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6179,7 +6179,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Paying a credit card bill",
           "Setting up direct deposit"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -6236,7 +6236,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Combines multiple related projects to achieve broader goals",
           "Is easier to manage"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6251,25 +6251,25 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "A project manager\u2019s authority level is generally highest in:",
+        "q": "A project manager’s authority level is generally highest in:",
         "options": [
           "Weak matrix organization",
           "Balanced matrix organization",
           "Projectized organization",
           "Functional organization"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "If a project\u2019s deadline is moved up by one month, what is most likely impacted?",
+        "q": "If a project’s deadline is moved up by one month, what is most likely impacted?",
         "options": [
           "Scope and cost",
           "Stakeholders only",
           "Ethical compliance",
           "Product warranty"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6291,7 +6291,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Creating the project budget",
           "Holding a kickoff meeting"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6313,7 +6313,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Approve vendor contracts",
           "Write the scope statement"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6324,7 +6324,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "RACI chart",
           "PERT chart"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6335,7 +6335,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Calculating labor costs only",
           "Identifying marketing opportunities"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6346,7 +6346,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Resource smoothing",
           "Earned value analysis"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -6359,18 +6359,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sales tax",
           "Estate tax"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In public budgeting, the term \u201cappropriation\u201d refers to:",
+        "q": "In public budgeting, the term “appropriation” refers to:",
         "options": [
           "The creation of new revenue sources",
           "The formal approval to spend funds for a specific purpose",
           "The collection of taxes from residents",
           "The reduction of public debt"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6385,7 +6385,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cseparation of powers\u201d in U.S. government is designed primarily to:",
+        "q": "The “separation of powers” in U.S. government is designed primarily to:",
         "options": [
           "Increase efficiency",
           "Prevent any one branch from becoming too powerful",
@@ -6403,7 +6403,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Agenda setting",
           "Policy adoption"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6425,7 +6425,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Expanding the customer base of a private firm",
           "Offering employee bonuses"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6451,14 +6451,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "The \u201cSunshine Laws\u201d are intended to:",
+        "q": "The “Sunshine Laws” are intended to:",
         "options": [
           "Allow citizens to vote directly on laws",
           "Increase transparency in government meetings and records",
           "Reduce the cost of elections",
           "Ensure political neutrality in the press"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6469,7 +6469,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Direct democracy",
           "Parliamentary system"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6480,7 +6480,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Redistributive policy",
           "Constituent policy"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6495,7 +6495,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In public administration, \u201cstakeholders\u201d refers to:",
+        "q": "In public administration, “stakeholders” refers to:",
         "options": [
           "Only elected officials",
           "Individuals or groups affected by or interested in a policy or project",
@@ -6519,14 +6519,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
     ],
     "Real Estate": [
       {
-        "q": "In the real estate industry, a \u201cfixture\u201d refers to:",
+        "q": "In the real estate industry, a “fixture” refers to:",
         "options": [
           "Personal property not attached to the home",
           "Anything nailed down but easily removable",
           "An item permanently attached to the property",
-          "Seasonal d\u00e9cor"
+          "Seasonal décor"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6548,7 +6548,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Tangible assets",
           "Realty fixtures"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6570,7 +6570,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Capital gain",
           "Equity growth"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6581,18 +6581,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Equity",
           "Conveyance"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "If a property\u2019s location is its most valuable asset, which factor is at play?",
+        "q": "If a property’s location is its most valuable asset, which factor is at play?",
         "options": [
           "Scarcity",
           "Situs",
           "Conformity",
           "Substitution"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6603,7 +6603,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Situs",
           "Non-homogeneity"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6614,7 +6614,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Economic obsolescence",
           "Deferred maintenance"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6625,7 +6625,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Mortgage",
           "Tenancy"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6636,11 +6636,11 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Foreclosure",
           "Adverse possession"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "A tenant staying after their lease has expired without the landlord\u2019s consent is in:",
+        "q": "A tenant staying after their lease has expired without the landlord’s consent is in:",
         "options": [
           "Tenancy for years",
           "Tenancy at will",
@@ -6658,7 +6658,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "General warranty deed",
           "Special warranty deed"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6677,10 +6677,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Mortgage lien",
           "Property tax lien",
-          "Mechanic\u2019s lien",
+          "Mechanic’s lien",
           "Judgment lien"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -6693,29 +6693,29 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Satisfying customer needs while achieving profit goals",
           "Reducing vendor competition"
         ],
-        "answer": 1,
-        "explain": "Adapted from the official sample question set."
-      },
-      {
-        "q": "Which of the following best reflects a retailer\u2019s competitive advantage?",
-        "options": [
-          "Copying competitors\u2019 pricing models",
-          "Developing a loyalty program with exclusive member benefits",
-          "Having no return policy to discourage product abuse",
-          "Outsourcing all customer service calls"
-        ],
         "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "When a retailer conducts a SWOT analysis, \u201copportunities\u201d could include:",
+        "q": "Which of the following best reflects a retailer’s competitive advantage?",
+        "options": [
+          "Copying competitors’ pricing models",
+          "Developing a loyalty program with exclusive member benefits",
+          "Having no return policy to discourage product abuse",
+          "Outsourcing all customer service calls"
+        ],
+        "answer": 1,
+        "explain": "Adapted from the official sample question set."
+      },
+      {
+        "q": "When a retailer conducts a SWOT analysis, “opportunities” could include:",
         "options": [
           "A nearby store closing, freeing up market share",
           "A product recall",
           "Loss of a key supplier",
           "Rising rent costs"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6754,12 +6754,12 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Suggestive selling involves:",
         "options": [
-          "Adding complementary products to the customer\u2019s purchase",
+          "Adding complementary products to the customer’s purchase",
           "Persuading the customer to leave positive reviews",
           "Asking for customer contact information",
           "Providing generic discounts"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6770,7 +6770,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Hiring sales associates",
           "Warehouse operations"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6792,7 +6792,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Both A and B",
           "None of the above"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6803,7 +6803,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Promotional merchandising",
           "Loyalty merchandising"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6825,16 +6825,16 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Annual stock count",
           "FIFO method"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
         "q": "Which formula calculates inventory turnover?",
         "options": [
-          "Cost of goods sold \u00f7 average inventory",
-          "Average inventory \u00f7 cost of goods sold",
-          "Net profit \u00f7 total sales",
-          "Total sales \u00f7 number of SKUs"
+          "Cost of goods sold ÷ average inventory",
+          "Average inventory ÷ cost of goods sold",
+          "Net profit ÷ total sales",
+          "Total sales ÷ number of SKUs"
         ],
         "answer": 0,
         "explain": "Adapted from the official sample question set."
@@ -6853,7 +6853,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
     ],
     "Securities & Investments": [
       {
-        "q": "A company\u2019s stock has a beta of 1.5. This means:",
+        "q": "A company’s stock has a beta of 1.5. This means:",
         "options": [
           "It is less volatile than the overall market.",
           "It is more volatile than the overall market.",
@@ -6871,7 +6871,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "U.S. Treasury bonds",
           "High-yield bonds"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6882,7 +6882,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase the tax liability",
           "Increase portfolio volatility"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6904,18 +6904,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The chance of default by a bond issuer",
           "The chance of losing principal due to market fluctuations"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "If a stock\u2019s price rises from $50 to $55, what is the capital gain percentage?",
+        "q": "If a stock’s price rises from $50 to $55, what is the capital gain percentage?",
         "options": [
           "5%",
           "8%",
           "10%",
           "12%"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6926,7 +6926,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Stock option",
           "Corporate bond"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6937,7 +6937,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Penny stocks",
           "Commodities"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6956,8 +6956,8 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Allow existing shareholders to sell shares to the public",
           "Raise new capital for the issuing company",
-          "Reduce the company\u2019s debt",
-          "Increase the company\u2019s bond rating"
+          "Reduce the company’s debt",
+          "Increase the company’s bond rating"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -6970,7 +6970,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Federal Reserve",
           "OCC"
         ],
-        "answer": 2,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -6981,7 +6981,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Futures market",
           "Money market"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7001,7 +7001,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The highest price a buyer is willing to pay",
           "The lowest price a seller is willing to accept",
           "The closing price of the stock",
-          "The stock\u2019s issue price"
+          "The stock’s issue price"
         ],
         "answer": 0,
         "explain": "Adapted from the official sample question set."
@@ -7027,7 +7027,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Autocratic",
           "Servant"
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7042,14 +7042,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In event staffing, \u201ccross-training\u201d refers to:",
+        "q": "In event staffing, “cross-training” refers to:",
         "options": [
           "Employees working in more than one role",
           "Employees working for more than one company",
           "Physical training for job fitness",
           "Job shadowing"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7064,14 +7064,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In sports marketing, a \u201ctitle sponsor\u201d is:",
+        "q": "In sports marketing, a “title sponsor” is:",
         "options": [
           "The main sponsor whose name is part of the event title",
           "A sponsor who pays for naming rights of the stadium",
           "A sponsor for a single player",
           "The sponsor who provides free merchandise"
         ],
-        "answer": 2,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7082,7 +7082,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Dynamic pricing",
           "Psychological pricing"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7104,7 +7104,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Advertising",
           "Public relations"
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7115,7 +7115,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sponsorship activation",
           "Public relations"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7126,7 +7126,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Flexible staffing",
           "Seasonal adjustment"
         ],
-        "answer": 1,
+        "answer": 3,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7159,7 +7159,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sponsorship",
           "Revenue management"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       },
       {
@@ -7181,7 +7181,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Concession supplies",
           "Security staff overtime"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": "Adapted from the official sample question set."
       }
     ],
@@ -7244,10 +7244,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Which statement demonstrates active listening in a support conversation?",
         "options": [
-          "\u201cI think I know the problem already.\u201d",
-          "\u201cSo what I hear you saying is your laptop crashes after updates?\u201d",
-          "\u201cThat\u2019s not the issue\u2014 let me explain.\u201d",
-          "\u201cLet\u2019s skip to the fix.\u201d"
+          "“I think I know the problem already.”",
+          "“So what I hear you saying is your laptop crashes after updates?”",
+          "“That’s not the issue— let me explain.”",
+          "“Let’s skip to the fix.”"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -7297,10 +7297,10 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "A user reports slow internet. After confirming it\u2019s not the ISP, the next logical step is:",
+        "q": "A user reports slow internet. After confirming it’s not the ISP, the next logical step is:",
         "options": [
-          "Restart the entire building\u2019s network",
-          "Check the user\u2019s local device and connection",
+          "Restart the entire building’s network",
+          "Check the user’s local device and connection",
           "Replace all network cables immediately",
           "Contact a hardware vendor"
         ],
@@ -7308,7 +7308,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Adapted from the official sample question set."
       },
       {
-        "q": "In problem-solving, the \u201croot cause\u201d refers to:",
+        "q": "In problem-solving, the “root cause” refers to:",
         "options": [
           "The first symptom to appear",
           "The underlying reason for the problem",
@@ -7324,7 +7324,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Task Manager",
           "Ping command",
           "Disk Defragmenter",
-          "Control Panel\u2019s Sound settings"
+          "Control Panel’s Sound settings"
         ],
         "answer": 1,
         "explain": "Adapted from the official sample question set."
@@ -7362,7 +7362,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "PERFORMANCE INDICATORS",
         "Explain government regulations for the banking/financial services industry.",
         "Explain how financial analysis is used to make decisions in the banking industry.",
-        "Make recommendations to meet the customer\u2019s needs."
+        "Make recommendations to meet the customer’s needs."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -7379,7 +7379,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "PERFORMANCE INDICATORS",
         "Explain government regulations for the banking/financial services industry.",
         "Explain how financial analysis is used to make decisions in the banking industry.",
-        "Make recommendations to meet the customer\u2019s needs."
+        "Make recommendations to meet the customer’s needs."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -7497,13 +7497,13 @@ window.RESOURCE_INTERACTIVE_DATA = {
     {
       "name": "Business Management & Sample 2 Sample Roleplay",
       "event": "Business Management & Sample 2",
-      "prompt": "You will present your recommendations to the CS MAX CEO in a meeting to take place in the CEO\u2019s office.",
+      "prompt": "You will present your recommendations to the CS MAX CEO in a meeting to take place in the CEO’s office.",
       "indicators": [
         "PERFORMANCE INDICATORS",
-        "Explain how human resources management participates in a company\u2019s strategic planning process.",
+        "Explain how human resources management participates in a company’s strategic planning process.",
         "CS MAX is a rapidly growing cyber security firm that employs an average of 800 to 1000 employees. CS MAX has a passionate dedication to providing quality service, consistently high performance, and the development of staff on a continual basis. Since the company is growing so rapidly, there is a high priority to train the best employees for leadership roles needed to effectively carry out expansion strategies. Leaders within the company are needed to train new staff for future openings at multiple locations opening over the next few years in the United States.",
         "Strategy to expedite leadership development for CS MAX",
-        "You will present your recommendations to the CS MAX CEO in a meeting to take place in the CEO\u2019s office."
+        "You will present your recommendations to the CS MAX CEO in a meeting to take place in the CEO’s office."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -7520,7 +7520,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "PERFORMANCE INDICATORS",
         "Demonstrate rationale/reasoning for each recommendation made and potential anticipated results",
         "Demonstrate ability to effectively address the given situation and effectively answer questions",
-        "Casey\u2019s Consulting (competitors), a fast growing consulting agency in Atlanta, GA have been tasked with a multi-layer project for a national executive staffing firm. Your consulting firm team specializes in analyzing existing business management structures and assists with effective communications, increased productivity of systems, development of successful management strategies, and creation of top to bottom business philosophies within an organization.",
+        "Casey’s Consulting (competitors), a fast growing consulting agency in Atlanta, GA have been tasked with a multi-layer project for a national executive staffing firm. Your consulting firm team specializes in analyzing existing business management structures and assists with effective communications, increased productivity of systems, development of successful management strategies, and creation of top to bottom business philosophies within an organization.",
         "Your goal is to present a three year plan for how you will address each of the deficiencies as a part of the contract. You will also need to provide a predetermined list of theories and general recommendations related to each.",
         "You will present your recommendations to the board members and current management team. All members will be very resistant to recommendations that single out one person over another so all recommendations should be general to the entire company.",
         "A plan (verbal is okay for presentation) of how to implement your recommendations"
@@ -7535,13 +7535,13 @@ window.RESOURCE_INTERACTIVE_DATA = {
     {
       "name": "Business Management & Sample 4 Sample Roleplay",
       "event": "Business Management & Sample 4",
-      "prompt": "Your challenge is to come up with the list of options that Big Wheels Trucking Company can implement to adequately provide for the retirees and their families while also limiting the significant financial outlay from the pension plans. The truckers are unionized, so all recommendations will need to be approved by the union prior to implementation. The union has always worked well with the Big Wheels Trucking Company\u2019s owner. You will be presenting your analysis and recommendations to the company\u2019s owner (judges) during the next scheduled board of directors meeting.",
+      "prompt": "Your challenge is to come up with the list of options that Big Wheels Trucking Company can implement to adequately provide for the retirees and their families while also limiting the significant financial outlay from the pension plans. The truckers are unionized, so all recommendations will need to be approved by the union prior to implementation. The union has always worked well with the Big Wheels Trucking Company’s owner. You will be presenting your analysis and recommendations to the company’s owner (judges) during the next scheduled board of directors meeting.",
       "indicators": [
         "The presentation is interactive, and the judges will ask questions throughout the presentation. The judges will play the role of the owners of Big Wheels Trucking Company. Your team has been tasked with developing a list of options that Big Wheels Trucking Company can implement to adequately provide for the retirees and their families while also limiting the significant financial outlay from the pension plans.",
         "PERFORMANCE INDICATORS",
         "Explain new processes resulting from the organizational restructuring.",
-        "Your team has been contacted by Big Wheels Trucking Company to provide an analysis and recommendations for handling the retirement plans for their aging workforce. Currently, 20% of the fleet\u2019s 1,200 drivers will be retiring within the next 5 years and 45% within the next ten years. The drivers are extremely loyal and the company wants to be sure to return the favor. More than two-thirds of the drivers have worked for the company for over 15 years. The company has always put its employees and their families first. The compensation is very fair and the benefits package is exemplary. Contrary to many large corporations, Big Wheels wants to ensure that the retirees are treated fairly during retirement. The company has always provided up to 5% matching for employee pension plan contributions.",
-        "Your challenge is to come up with the list of options that Big Wheels Trucking Company can implement to adequately provide for the retirees and their families while also limiting the significant financial outlay from the pension plans. The truckers are unionized, so all recommendations will need to be approved by the union prior to implementation. The union has always worked well with the Big Wheels Trucking Company\u2019s owner. You will be presenting your analysis and recommendations to the company\u2019s owner (judges) during the next scheduled board of directors meeting.",
+        "Your team has been contacted by Big Wheels Trucking Company to provide an analysis and recommendations for handling the retirement plans for their aging workforce. Currently, 20% of the fleet’s 1,200 drivers will be retiring within the next 5 years and 45% within the next ten years. The drivers are extremely loyal and the company wants to be sure to return the favor. More than two-thirds of the drivers have worked for the company for over 15 years. The company has always put its employees and their families first. The compensation is very fair and the benefits package is exemplary. Contrary to many large corporations, Big Wheels wants to ensure that the retirees are treated fairly during retirement. The company has always provided up to 5% matching for employee pension plan contributions.",
+        "Your challenge is to come up with the list of options that Big Wheels Trucking Company can implement to adequately provide for the retirees and their families while also limiting the significant financial outlay from the pension plans. The truckers are unionized, so all recommendations will need to be approved by the union prior to implementation. The union has always worked well with the Big Wheels Trucking Company’s owner. You will be presenting your analysis and recommendations to the company’s owner (judges) during the next scheduled board of directors meeting.",
         "Explain how taking care of the retirees will benefit the company when hiring new employees and in maintaining the loyalty of the current drivers."
       ],
       "judgeQuestions": [
@@ -7629,7 +7629,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
     {
       "name": "Customer Service Sample Roleplay",
       "event": "Customer Service",
-      "prompt": "You will be fielding a call from a customer (judge). You should \u201canswer the call\u201d with the following greeting:",
+      "prompt": "You will be fielding a call from a customer (judge). You should “answer the call” with the following greeting:",
       "indicators": [
         "PERFORMANCE INDICATORS",
         "Explain an effective, efficient, and spontaneous action for customer service"
@@ -7982,7 +7982,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "prompt": "COMPETITOR INSTRUCTIONS",
       "indicators": [
         "Explain the importance of listening to the customer.",
-        "Explain the importance of working with the customer\u2019s budget.",
+        "Explain the importance of working with the customer’s budget.",
         "Explain the elements of a contract."
       ],
       "judgeQuestions": [
@@ -8041,7 +8041,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
     {
       "name": "Hospitality & Event Management & Sample 2 Sample Roleplay",
       "event": "Hospitality & Event Management & Sample 2",
-      "prompt": "The presentation is interactive, and the judges will ask questions throughout the presentation. You are a team of sales and event management specialists at a large, national chain\u2019s flagship hotel in the Mid-Atlantic Region of the United States.",
+      "prompt": "The presentation is interactive, and the judges will ask questions throughout the presentation. You are a team of sales and event management specialists at a large, national chain’s flagship hotel in the Mid-Atlantic Region of the United States.",
       "indicators": [
         "PERFORMANCE INDICATORS",
         "Demonstrate a customer service attitude.",
@@ -8453,7 +8453,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "event": "International Business & Sample 8",
       "prompt": "COMPETITOR INSTRUCTIONS",
       "indicators": [
-        "Discuss the effect of literacy level, technology, natural resource availability, and infrastructure on the level of a country\u2019s economic development."
+        "Discuss the effect of literacy level, technology, natural resource availability, and infrastructure on the level of a country’s economic development."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8471,9 +8471,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "competitor(s) need to demonstrate an appreciation of the event value for the customer",
         "It would be advantageous for the competitor(s) to explain the rationale for event insurance to",
         "the client at this time. The performance will also require the members to demonstrate the",
-        "\u25cf Explain the importance of listening to the customer.",
-        "\u25cf Demonstrate an appreciation of the event value for the customer.",
-        "\u25cf Explain the importance of multitasking for event planning."
+        "● Explain the importance of listening to the customer.",
+        "● Demonstrate an appreciation of the event value for the customer.",
+        "● Explain the importance of multitasking for event planning."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8487,9 +8487,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "event": "Introduction to Event Planning & Sample 2",
       "prompt": "You (the competitor) are the on-site event coordinator for a small convention center. You are",
       "indicators": [
-        "\u25cf Explain the importance of listening to the customer.",
-        "\u25cf Explain event traffic flow.",
-        "\u25cf Explain the importance of attendee flow at an event."
+        "● Explain the importance of listening to the customer.",
+        "● Explain event traffic flow.",
+        "● Explain the importance of attendee flow at an event."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8503,9 +8503,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "event": "Introduction to Event Planning & Sample 3",
       "prompt": "Introduction to Event Planning Sample Role Play",
       "indicators": [
-        "\u25cf Explain the importance of listening to the customer.",
-        "\u25cf Explain the importance of working with the customer\u2019s budget.",
-        "\u25cf Explain the elements of a contract."
+        "● Explain the importance of listening to the customer.",
+        "● Explain the importance of working with the customer’s budget.",
+        "● Explain the elements of a contract."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8520,7 +8520,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "prompt": "Introduction to Event Planning Sample Role Play",
       "indicators": [
         "Demonstrate your ability to break from tradition and design a conference that stands out by",
-        "\u25cf Develop a theme that captures the company's innovative spirit"
+        "● Develop a theme that captures the company's innovative spirit"
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8534,9 +8534,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "event": "Introduction to Event Planning & Sample 5",
       "prompt": "You are a freelance event planner specializing in organizing corporate events. A new client",
       "indicators": [
-        "You must explain your strategies for event staffing, managing the budget, and how you\u2019ll",
-        "\u2022 Explain how you will staff the event and handle crowd control during high-traffic",
-        "\u2022 Explain how you will handle any last-minute changes or emergencies during the event."
+        "You must explain your strategies for event staffing, managing the budget, and how you’ll",
+        "• Explain how you will staff the event and handle crowd control during high-traffic",
+        "• Explain how you will handle any last-minute changes or emergencies during the event."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8550,8 +8550,8 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "event": "Introduction to Event Planning & Sample 6",
       "prompt": "You are an event planner hired by a local nonprofit organization to plan a one-day fundraising",
       "indicators": [
-        "\u25cf Explain your staffing plan, including volunteer management and training.",
-        "\u25cf Explain how you will manage last-minute changes or emergencies."
+        "● Explain your staffing plan, including volunteer management and training.",
+        "● Explain how you will manage last-minute changes or emergencies."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8650,7 +8650,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "indicators": [
         "Explain your approach to designing a user-friendly interface for staff.",
         "Outline the steps of the Systems Development Life Cycle (SDLC) you would follow for this project.",
-        "Explain how you will integrate the new system with the clinic\u2019s existing billing software."
+        "Explain how you will integrate the new system with the clinic’s existing billing software."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8702,7 +8702,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "Explain the role of promotion as a marketing function and identify the major purpose of advertising.",
         "Explain the concept of promotional mix and identify the elements of the promotional mix.",
         "Your team is one of three companies commissioned by ZGames, a leading video game design company to develop a full-scale marketing plan for their new game launch. The company would like to launch the product within the next year throughout North America, Asia, and Europe. ZGames has been around for two decades and continually produces the top games in the industry. They are known for their amazing launches of new games and they expect this launch to be their greatest ever.",
-        "Your team must develop a marketing plan that will address the uniqueness of the game, focus on the company\u2019s strong reputation for developing new, innovative, cutting edge games, and propose strategies for the launch. As a part of your plan, be sure to include all media outlet options, branding, messaging, possible sneak peaks for loyal customers, and why your plan should be chosen over the other two proposals. Your team will be presenting your plan to the board of directors at the upcoming board meeting."
+        "Your team must develop a marketing plan that will address the uniqueness of the game, focus on the company’s strong reputation for developing new, innovative, cutting edge games, and propose strategies for the launch. As a part of your plan, be sure to include all media outlet options, branding, messaging, possible sneak peaks for loyal customers, and why your plan should be chosen over the other two proposals. Your team will be presenting your plan to the board of directors at the upcoming board meeting."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -8778,9 +8778,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
     {
       "name": "Marketing & Sample 7 Sample Roleplay",
       "event": "Marketing & Sample 7",
-      "prompt": "Explain how you will enhance the bakery\u2019s social media presence to engage younger customers.",
+      "prompt": "Explain how you will enhance the bakery’s social media presence to engage younger customers.",
       "indicators": [
-        "Explain how you will enhance the bakery\u2019s social media presence to engage younger customers.",
+        "Explain how you will enhance the bakery’s social media presence to engage younger customers.",
         "Explain how you will measure the success of your marketing efforts."
       ],
       "judgeQuestions": [
@@ -8793,9 +8793,9 @@ window.RESOURCE_INTERACTIVE_DATA = {
     {
       "name": "Marketing & Sample 8 Sample Roleplay",
       "event": "Marketing & Sample 8",
-      "prompt": "Describe how you will improve the company\u2019s e-commerce platform to attract eco-conscious consumers.",
+      "prompt": "Describe how you will improve the company’s e-commerce platform to attract eco-conscious consumers.",
       "indicators": [
-        "Explain how you will highlight the company\u2019s sustainability practices in the marketing campaign.",
+        "Explain how you will highlight the company’s sustainability practices in the marketing campaign.",
         "Recommend promotional strategies, such as collaborations or events, to increase brand visibility."
       ],
       "judgeQuestions": [
@@ -9060,7 +9060,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "Explain the nature of effective communication.",
         "Explain the components of sports and entertainment facility management.",
         "Explain the importance of coordinating events in multi-use facilities.",
-        "Your team has been commissioned by a large, oceanfront city in southern California to set up a promotional event that will showcase their city\u2019s nontraditional sporting venues. These facilities include designated surf competition areas, volleyball courts, competitive sandcastle building locations, triathlon competitions, and cycling events. Your team must explain your plan for managing multiple events over a 3-month time period during the slower winter season. The goal of your plan is to attract business during a traditionally slow time. You will be presenting your plan to a committee selected by the city council. The committee will review the feasibility of such an undertaking."
+        "Your team has been commissioned by a large, oceanfront city in southern California to set up a promotional event that will showcase their city’s nontraditional sporting venues. These facilities include designated surf competition areas, volleyball courts, competitive sandcastle building locations, triathlon competitions, and cycling events. Your team must explain your plan for managing multiple events over a 3-month time period during the slower winter season. The goal of your plan is to attract business during a traditionally slow time. You will be presenting your plan to a committee selected by the city council. The committee will review the feasibility of such an undertaking."
       ],
       "judgeQuestions": [
         "What is your first action step?",
@@ -9168,7 +9168,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "prompt": "You are the help desk manager for Utmost Support, Inc., a mid-size customer support center. Your company responds to telephone based service calls for several large computer manufacturers.",
       "indicators": [
         "PERFORMANCE INDICATORS",
-        "Analytical skills\u2014the ability to derive facts from data, findings from facts, conclusions from findings, and recommendations from conclusions",
+        "Analytical skills—the ability to derive facts from data, findings from facts, conclusions from findings, and recommendations from conclusions",
         "Alicia is already frustrated, upset, and is short on time when she calls and is in need of immediate assistance. You calm her down by explaining that you can fix her problem and have her working quickly so she can meet her deadline. You ask her to repeat and explain the steps she takes adding a wireless network. When she is finished, no one can access her computer. What should you do next? How can you fix the problem she is having so that she will keep the unit?"
       ],
       "judgeQuestions": [
@@ -9184,7 +9184,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       "prompt": "You are able to access the company's network remotely.",
       "indicators": [
         "PERFORMANCE INDICATORS",
-        "You received a call from a group of office assistants at one of your company\u2019s contracted clients. They are a nonprofit with about 150 employees. Each employee has multiple devices. During the monthly on-site visit, a technician completed an update to the third-party software that the organization uses. Now, over half of the employees are experiencing issues with their computers and devices running much slower, locking up, and not displaying correctly when they try to use the software. They need an immediate fix to the problem.",
+        "You received a call from a group of office assistants at one of your company’s contracted clients. They are a nonprofit with about 150 employees. Each employee has multiple devices. During the monthly on-site visit, a technician completed an update to the third-party software that the organization uses. Now, over half of the employees are experiencing issues with their computers and devices running much slower, locking up, and not displaying correctly when they try to use the software. They need an immediate fix to the problem.",
         "Be prepared to explain a step-by-step process for rectifying the problem."
       ],
       "judgeQuestions": [
