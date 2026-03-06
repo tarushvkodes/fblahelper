@@ -19,6 +19,8 @@ const EVENTS = [
 
 const RESOURCE_DATA = window.RESOURCE_INTERACTIVE_DATA || { objectiveQuizzes: {}, roleplayScenarios: [], productionTests: {} };
 const COMBINED = window.COMBINED_QUESTION_BANK || { banks: {}, stats: {} };
+const BESPOKE = window.BESPOKE_QUESTION_BANK || { banks: {}, meta: {} };
+const AI_GENERATED = window.AI_GENERATED_BANK || { banks: {}, meta: {} };
 
 const MEMORY_TACTICS = [
   "Split misses by concept, not by test date.",
@@ -42,6 +44,7 @@ const state = {
     deck: [],
     index: 0,
     answers: {},
+    bankMode: "official-generated",
     running: false,
     timerId: null,
     secondsLeft: 0,
@@ -120,6 +123,151 @@ function getUnifiedDeck(eventName) {
   const official = getOfficialDeck(eventName).map((q) => ({ ...q, source: "official-hq" }));
   const historical = getCombinedDeck(eventName).map((q) => ({ ...q, source: q.source || "historical" }));
   return dedupeDeck([...official, ...historical]);
+}
+
+function getAiGeneratedDeck(eventName) {
+  const keys = Object.keys(AI_GENERATED.banks || {});
+  const key = findBestKey(keys, eventName);
+  return key ? AI_GENERATED.banks[key] : [];
+}
+
+function getBespokeDeck(eventName) {
+  const keys = Object.keys(BESPOKE.banks || {});
+  const key = findBestKey(keys, eventName);
+  return key ? BESPOKE.banks[key] : [];
+}
+
+function enrichQuestionLocally(q, source = q?.source || "official-hq") {
+  const stopWords = new Set(["the", "a", "an", "is", "are", "of", "to", "for", "in", "on", "with", "which", "what", "does", "best", "following", "and", "or", "by"]);
+  const terms = (norm(q?.q || "").split(" ").filter((w) => w.length > 3 && !stopWords.has(w)).slice(0, 4));
+  const termText = terms.length ? terms.join(", ") : "the concept in the question";
+  const correct = q?.options?.[q?.answer] || "the correct option";
+
+  const optionExplanations = (q?.options || []).map((opt, idx) => {
+    if (Array.isArray(q?.optionExplanations) && typeof q.optionExplanations[idx] === "string") return q.optionExplanations[idx];
+    const overlap = norm(opt).split(" ").filter((w) => terms.includes(w));
+    if (idx === q.answer) return `Correct. This option directly matches ${termText}.`;
+    if (overlap.length) return `Not best here. It overlaps on ${overlap.join(", ")} but misses the exact stem requirement.`;
+    return `Not correct for this item because it targets a different idea than ${termText}.`;
+  });
+
+  return {
+    ...q,
+    explain: (q?.explain && !/adapted from the official sample question set\.?/i.test(q.explain))
+      ? q.explain
+      : `${correct} is correct because it most directly answers the stem about ${termText}.`,
+    optionExplanations,
+    source
+  };
+}
+
+function getQuizBankMode() {
+  return document.getElementById("quizBankMode")?.value || "official-generated";
+}
+
+function rotateOptions(question, shift) {
+  const options = question.options.slice();
+  const by = ((shift % options.length) + options.length) % options.length;
+  if (!by) return { options, answer: question.answer };
+  const rotated = options.map((_, i) => options[(i + by) % options.length]);
+  const newAnswer = (question.answer - by + options.length) % options.length;
+  return { options: rotated, answer: newAnswer };
+}
+
+function makeGeneratedVariant(question, eventName, variantIndex) {
+  const templates = [
+    `Applied check for ${eventName}: ${question.q}`,
+    `Best answer check: ${question.q}`,
+    `Competition-style prompt: ${question.q}`,
+    `Skill review for ${eventName}: ${question.q}`
+  ];
+
+  const rotated = rotateOptions(question, variantIndex + 1);
+  return {
+    ...question,
+    q: templates[variantIndex % templates.length],
+    options: rotated.options,
+    answer: rotated.answer,
+    source: "generated"
+  };
+}
+
+function expandDeckToTarget(eventName, deck, targetCount) {
+  if (deck.length >= targetCount) return deck.slice(0, targetCount);
+
+  const base = deck.filter((q) => Number.isInteger(q.answer) && Array.isArray(q.options) && q.options.length === 4);
+  if (!base.length) return deck;
+
+  const out = deck.slice();
+  let index = 0;
+  while (out.length < targetCount) {
+    const seed = base[index % base.length];
+    out.push(makeGeneratedVariant(seed, eventName, index));
+    index += 1;
+  }
+
+  return out;
+}
+
+function getDeckForMode(eventName, mode) {
+  const officialOnly = dedupeDeck(getOfficialDeck(eventName).map((q) => enrichQuestionLocally({ ...q, source: "official-hq" }, "official-hq")));
+  const fallback = getUnifiedDeck(eventName);
+  const officialBase = officialOnly.length ? officialOnly : fallback;
+  const bespokeDeck = dedupeDeck(getBespokeDeck(eventName).map((q) => enrichQuestionLocally(q, q.source || "generated-bespoke")));
+  const aiDeck = dedupeDeck(getAiGeneratedDeck(eventName).map((q) => ({ ...q, source: q.source || "generated-ai" })));
+
+  if (mode === "official") return officialBase;
+  if (bespokeDeck.length) return bespokeDeck;
+  if (aiDeck.length) return aiDeck;
+  return expandDeckToTarget(eventName, officialBase, 100);
+}
+
+function setControlVisibility(el, show) {
+  el.classList.toggle("is-hidden", !show);
+}
+
+function updateQuizAvailability() {
+  if (!state.currentEvent) return;
+
+  const mode = getQuizBankMode();
+  state.quiz.bankMode = mode;
+  const available = getDeckForMode(state.currentEvent, mode).length;
+
+  const btn20 = document.getElementById("launchTwentyBtn");
+  const btn50 = document.getElementById("launchFiftyBtn");
+  const btn100 = document.getElementById("launchHundredBtn");
+  const btnMax = document.getElementById("launchMaxBtn");
+
+  setControlVisibility(btn20, available >= 20);
+  setControlVisibility(btn50, available >= 50);
+  setControlVisibility(btn100, available >= 100);
+  btnMax.textContent = `Max (${available})`;
+
+  const countSelect = document.getElementById("quizCount");
+  const opt20 = countSelect.querySelector('option[value="20"]');
+  const opt50 = countSelect.querySelector('option[value="50"]');
+  const opt100 = countSelect.querySelector('option[value="100"]');
+  const optMax = countSelect.querySelector('option[value="max"]');
+
+  opt20.disabled = available < 20;
+  opt50.disabled = available < 50;
+  opt100.disabled = available < 100;
+  optMax.textContent = `Max available (${available})`;
+
+  if ((countSelect.value === "20" && available < 20) || (countSelect.value === "50" && available < 50) || (countSelect.value === "100" && available < 100)) {
+    countSelect.value = "max";
+  }
+
+  btn20.classList.remove("official-target");
+  btn50.classList.remove("official-target");
+  btn100.classList.remove("official-target");
+  btnMax.classList.remove("official-target");
+
+  const officialLength = 100;
+  if (available >= officialLength) btn100.classList.add("official-target");
+  else btnMax.classList.add("official-target");
+
+  document.getElementById("officialFormatNote").textContent = "Objective-test standard used here: 100 questions in 60 minutes.";
 }
 
 function getRoleplayDeck(eventName) {
@@ -221,6 +369,7 @@ function openEvent(eventName, tabName = "overview") {
   document.getElementById("activeEventMeta").textContent = `${combinedCount} practice questions and ${roleplayCount} roleplay variants.`;
   document.getElementById("overviewRoleplayCount").textContent = `${roleplayCount} roleplay variants available.`;
   document.getElementById("overviewRoleplayHint").textContent = `Use scenario variants to practice different judge angles for ${eventName}.`;
+  updateQuizAvailability();
 
   buildFlashcards(eventName);
   renderRoleplay(eventName);
@@ -256,8 +405,9 @@ function startExam() {
   if (!state.currentEvent) return;
 
   const countValue = document.getElementById("quizCount").value;
+  const mode = getQuizBankMode();
 
-  const base = getUnifiedDeck(state.currentEvent);
+  const base = getDeckForMode(state.currentEvent, mode);
   if (!base.length) {
     document.getElementById("quizCard").innerHTML = "<p>No question bank available for this event yet.</p>";
     return;
@@ -356,8 +506,15 @@ function submitExam() {
 
   const genericExplainPattern = /adapted from the official sample question set\.?/i;
 
-  const questionFocus = (text) => {
-    return (text || "this concept").replace(/\s+/g, " ").trim();
+  const stopWords = new Set(["the", "a", "an", "is", "are", "of", "to", "for", "in", "on", "with", "which", "what", "does", "best", "following", "and", "or", "by"]);
+
+  const focusTerms = (text) => {
+    return (text || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, " ")
+      .split(/\s+/)
+      .filter((w) => w.length > 3 && !stopWords.has(w))
+      .slice(0, 4);
   };
 
   const toAnswerLabel = (q, idx) => {
@@ -366,20 +523,34 @@ function submitExam() {
   };
 
   const optionReason = (q, idx) => {
+    if (Array.isArray(q?.optionExplanations) && typeof q.optionExplanations[idx] === "string") {
+      return `${toAnswerLabel(q, idx)}: ${q.optionExplanations[idx]}`;
+    }
+
     const optionLabel = toAnswerLabel(q, idx);
+    const terms = focusTerms(q.q);
+    const termText = terms.length ? terms.join(", ") : "the key concept in the prompt";
+    const optionWords = norm(q.options[idx]).split(" ");
+    const shared = terms.filter((t) => optionWords.includes(t));
+
     if (!Number.isInteger(q?.answer)) {
-      return `${optionLabel}: Review this choice against the key term in the prompt.`;
+      return `${optionLabel}: Compare this choice against ${termText} to verify fit.`;
     }
     if (idx === q.answer) {
-      return `${optionLabel}: Correct because it directly answers what the prompt asks about ${questionFocus(q.q)}.`;
+      return `${optionLabel}: Correct because it aligns with ${termText}${shared.length ? ` and directly reflects ${shared.join(", ")}` : ""}.`;
     }
-    return `${optionLabel}: Not correct here because it does not best match the exact concept tested in this prompt.`;
+    if (shared.length) {
+      return `${optionLabel}: Looks plausible because it shares ${shared.join(", ")}, but it does not fully satisfy the stem requirement.`;
+    }
+    return `${optionLabel}: Not selected because it points to a different idea than ${termText}.`;
   };
 
   const toExplanation = (q) => {
     if (q?.explain && !genericExplainPattern.test(q.explain)) return q.explain;
     if (Number.isInteger(q?.answer) && q?.options?.[q.answer]) {
-      return `The key is matching the prompt to the most direct concept. Here, ${toAnswerLabel(q, q.answer)} is the only option that fits cleanly.`;
+      const terms = focusTerms(q.q);
+      const termText = terms.length ? terms.join(", ") : "the concept tested by the stem";
+      return `This item tests ${termText}. ${toAnswerLabel(q, q.answer)} is the strongest match because it directly addresses that requirement.`;
     }
     return "Review this concept and compare your choice with official guidance.";
   };
@@ -535,12 +706,17 @@ function bindUi() {
   document.getElementById("openRoleplayBtn").onclick = () => setWorkspaceTab("roleplay");
 
   document.getElementById("startExamBtn").onclick = startExam;
+  document.getElementById("quizBankMode").onchange = () => updateQuizAvailability();
+  document.getElementById("quizCount").onchange = () => updateQuizAvailability();
   document.getElementById("prevQuestionBtn").onclick = () => changeQuestion(-1);
   document.getElementById("nextQuestionBtn").onclick = () => changeQuestion(1);
   document.getElementById("submitExamBtn").onclick = submitExam;
 
   const launchWith = (countValue) => {
     if (!state.currentEvent) return;
+    const select = document.getElementById("quizCount");
+    const candidate = select.querySelector(`option[value="${countValue}"]`);
+    if (!candidate || candidate.disabled) return;
     document.getElementById("quizCount").value = countValue;
     startExam();
   };

@@ -352,9 +352,23 @@ button.ghost,
   flex: 1 1 150px;
 }
 
+#launchMaxBtn {
+  flex: 2 1 220px;
+}
+
+.official-target {
+  border-color: var(--signal) !important;
+  box-shadow: inset 0 0 0 1px var(--signal);
+  background: #f4fff9 !important;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
 .quiz-toolbar {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 220px)) minmax(0, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 220px)) minmax(0, 1fr);
   gap: 0.55rem;
   align-items: end;
 }

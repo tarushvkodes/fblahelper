@@ -78,6 +78,7 @@
               <button id="launchMaxBtn">Max</button>
             </div>
             <p class="module-note">Timer runs at FBLA pace: 60 seconds per question.</p>
+            <p id="officialFormatNote" class="module-note"></p>
           </article>
           <article class="module-card">
             <h3>Roleplay Scenarios</h3>
@@ -90,14 +91,19 @@
       <section id="quiz" class="ws-panel">
         <div class="quiz-toolbar">
           <div class="field-block">
+            <label for="quizBankMode">Question Set</label>
+            <select id="quizBankMode">
+              <option value="official-generated" selected>Official + Generated</option>
+              <option value="official">Official only</option>
+            </select>
+          </div>
+          <div class="field-block">
             <label for="quizCount">Questions</label>
             <select id="quizCount">
               <option value="20" selected>20</option>
               <option value="50">50</option>
               <option value="100">100</option>
               <option value="max">Max available</option>
-              <option value="10">10</option>
-              <option value="15">15</option>
             </select>
           </div>
           <div class="field-block">
@@ -192,6 +198,8 @@
 
   <script src="resource_data.js"></script>
   <script src="combined_question_bank.js"></script>
+  <script src="bespoke_question_bank.js"></script>
+  <script src="ai_generated_bank.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
