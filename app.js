@@ -653,6 +653,20 @@ function renderEventList() {
   eventListEl.querySelectorAll("[data-event]").forEach((btn) => {
     btn.addEventListener("click", () => openEvent(btn.dataset.event));
   });
+
+  /* Collapsible groups on mobile — expand the group containing the active event */
+  eventListEl.querySelectorAll(".event-group").forEach((group) => {
+    const hasActive = group.querySelector(".event-item.active");
+    if (hasActive) group.classList.add("expanded");
+
+    const title = group.querySelector(".event-group-title");
+    if (title) {
+      title.addEventListener("click", () => {
+        haptic();
+        group.classList.toggle("expanded");
+      });
+    }
+  });
 }
 
 function setWorkspaceTab(tabName) {
@@ -664,6 +678,12 @@ function setWorkspaceTab(tabName) {
 function openEvent(eventName, tabName = "overview") {
   haptic("nudge");
   state.currentEvent = eventName;
+
+  /* Auto-close bottom sheet on mobile */
+  if (window.__closeRail && window.matchMedia("(max-width: 900px)").matches) {
+    window.__closeRail();
+  }
+
   renderEventList();
 
   const format = inferFormat(eventName);
@@ -1118,17 +1138,45 @@ function renderPrep(eventName) {
 function bindUi() {
   eventSearchEl.addEventListener("input", renderEventList);
 
-  /* Mobile rail toggle */
+  /* Mobile rail toggle (bottom sheet) */
   const railToggle = document.getElementById("railToggle");
   const eventRailEl = document.getElementById("eventRail");
+  const railOverlay = document.getElementById("railOverlay");
+  const isMobileRail = () => window.matchMedia("(max-width: 900px)").matches;
+
+  function closeRail() {
+    if (!eventRailEl) return;
+    eventRailEl.classList.add("collapsed");
+    railToggle?.classList.remove("open");
+    railOverlay?.classList.remove("active");
+    document.body.style.overflow = "";
+  }
+
+  function openRail() {
+    if (!eventRailEl) return;
+    eventRailEl.classList.remove("collapsed");
+    railToggle?.classList.add("open");
+    if (isMobileRail()) {
+      railOverlay?.classList.add("active");
+      document.body.style.overflow = "hidden";
+    }
+  }
+
   if (railToggle && eventRailEl) {
     eventRailEl.classList.add("collapsed");
     railToggle.addEventListener("click", () => {
       haptic();
-      eventRailEl.classList.toggle("collapsed");
-      railToggle.classList.toggle("open");
+      if (eventRailEl.classList.contains("collapsed")) openRail();
+      else closeRail();
     });
   }
+
+  if (railOverlay) {
+    railOverlay.addEventListener("click", closeRail);
+  }
+
+  /* Expose closeRail globally for openEvent auto-close */
+  window.__closeRail = closeRail;
 
   wsTabs.forEach((tab) => {
     tab.addEventListener("click", () => {

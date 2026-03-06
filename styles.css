@@ -205,6 +205,10 @@ p { margin: 0; }
   -webkit-backdrop-filter: blur(12px);
 }
 
+.rail-overlay {
+  display: none;
+}
+
 /* --- Event Rail --- */
 
 .event-rail {
@@ -1141,28 +1145,147 @@ button.btn-outline:hover {
   }
 
   .event-rail {
-    position: static;
-    max-height: none;
-    border-radius: var(--radius);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    z-index: 100;
+    max-height: 70vh;
+    max-height: 70dvh;
+    border-radius: var(--radius) var(--radius) 0 0;
+    box-shadow: 0 -4px 40px rgba(0,0,0,0.12);
+    overflow-y: auto;
+    transform: translateY(0);
+    transition: transform 300ms var(--ease), opacity 200ms ease;
+  }
+
+  .event-rail.collapsed {
+    transform: translateY(100%);
+    pointer-events: none;
+    opacity: 0;
   }
 
   .rail-toggle {
     display: block;
+    position: fixed;
+    bottom: 0.65rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: calc(100% - 1.5rem);
+    z-index: 99;
+    border-radius: 999px;
+    padding: 0.6rem 1.3rem;
+    font-size: 0.84rem;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
   }
 
-  .event-rail.collapsed .event-list,
-  .event-rail.collapsed .rail-head,
-  .event-rail.collapsed #eventSearch {
+  .rail-toggle.open {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(10px);
+  }
+
+  .rail-toggle::after {
     display: none;
   }
 
-  .event-rail.collapsed {
-    padding: 0;
-    border: none;
-    background: transparent;
-    box-shadow: none;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
+  /* Overlay backdrop */
+  .rail-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 98;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    animation: fadeIn 200ms ease both;
+  }
+
+  .rail-overlay.active {
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Bottom sheet handle */
+  .event-rail::before {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 4px;
+    border-radius: 99px;
+    background: var(--line-strong);
+    margin: 0.25rem auto 0.5rem;
+    flex-shrink: 0;
+  }
+
+  .event-rail .rail-head p {
+    display: none;
+  }
+
+  .event-rail .rail-head h2 {
+    font-size: 1.15rem;
+  }
+
+  /* Collapsible event groups on mobile */
+  .event-group-title {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.1rem;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .event-group-title::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 5px solid var(--ink-muted);
+    transition: transform 200ms var(--ease);
+    flex-shrink: 0;
+  }
+
+  .event-group.expanded .event-group-title::before {
+    transform: rotate(90deg);
+  }
+
+  .event-group .event-item {
+    display: none;
+  }
+
+  .event-group.expanded .event-item {
+    display: block;
+  }
+
+  /* Compact event items */
+  .event-item {
+    padding: 0.4rem 0.6rem;
+  }
+
+  .event-item h4 {
+    font-size: 0.84rem;
+  }
+
+  .event-meta {
+    display: none;
+  }
+
+  /* Show badge inline for active item only */
+  .event-item.active .event-meta {
+    display: flex;
   }
 
   .module-grid,
@@ -1183,44 +1306,56 @@ button.btn-outline:hover {
   }
 
   .topbar {
-    padding: 1rem 0.85rem 0.7rem;
-    gap: 0.6rem;
+    padding: 0.75rem 0.85rem 0.5rem;
+    gap: 0.4rem;
+  }
+
+  .topbar > div:first-child .eyebrow {
+    display: none;
   }
 
   .topbar h1 {
-    font-size: 1.85rem;
+    font-size: 1.6rem;
   }
 
   .header-stats {
-    gap: 0.35rem;
+    gap: 0.3rem;
     width: 100%;
   }
 
   .header-stats div {
     flex: 1;
-    padding: 0.38rem 0.5rem;
+    padding: 0.3rem 0.4rem;
   }
 
   .header-stats span {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
+  }
+
+  .header-stats p {
+    font-size: 0.56rem;
   }
 
   .shell {
-    padding: 0.35rem 0.65rem 2rem;
-    gap: 0.65rem;
+    padding: 0.3rem 0.55rem 4.5rem;
+    gap: 0.5rem;
   }
 
   .workspace {
-    padding: 0.85rem 0.8rem;
+    padding: 0.75rem 0.7rem;
     border-radius: var(--radius);
   }
 
   .workspace-head {
-    gap: 0.6rem;
+    gap: 0.45rem;
   }
 
   .workspace-head h2 {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
+  }
+
+  .workspace-head p {
+    font-size: 0.82rem;
   }
 
   .workspace-actions {
@@ -1229,24 +1364,23 @@ button.btn-outline:hover {
 
   .workspace-actions button {
     flex: 1;
-    font-size: 0.78rem;
-    padding: 0.5rem 0.6rem;
+    font-size: 0.76rem;
+    padding: 0.45rem 0.5rem;
   }
 
   .workspace-tabs {
     gap: 0;
-    margin-top: 0.8rem;
+    margin-top: 0.6rem;
   }
 
   .ws-tab {
-    font-size: 0.8rem;
-    padding: 0.5rem 0.7rem;
+    font-size: 0.78rem;
+    padding: 0.45rem 0.6rem;
   }
 
   .module-grid,
   .overview-grid,
-  .quiz-toolbar,
-  .quiz-status {
+  .quiz-toolbar {
     grid-template-columns: 1fr;
   }
 
@@ -1255,29 +1389,33 @@ button.btn-outline:hover {
   }
 
   .module-card {
-    padding: 0.85rem 0.9rem;
+    padding: 0.75rem 0.8rem;
   }
 
   .module-card h3 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+  }
+
+  .module-note {
+    font-size: 0.8rem;
   }
 
   .quiz-card {
-    padding: 0.85rem 0.9rem;
+    padding: 0.75rem 0.8rem;
   }
 
   .option {
-    padding: 0.7rem 0.8rem;
-    font-size: 0.9rem;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.88rem;
   }
 
   .flash-card {
-    min-height: 180px;
-    padding: 1.2rem;
+    min-height: 160px;
+    padding: 1rem;
   }
 
   .row {
-    gap: 0.35rem;
+    gap: 0.3rem;
   }
 
   .row button {
@@ -1302,16 +1440,16 @@ button.btn-outline:hover {
   }
 
   .scenario-box {
-    font-size: 0.88rem;
-    padding: 0.7rem;
+    font-size: 0.86rem;
+    padding: 0.6rem;
   }
 
   .keyboard-hint {
     display: none;
   }
 
-  .bg-orbit-a { width: 300px; height: 300px; }
-  .bg-orbit-b { width: 320px; height: 320px; }
+  .bg-orbit-a { width: 260px; height: 260px; }
+  .bg-orbit-b { width: 280px; height: 280px; }
 }
 
 /* --- Responsive: Very small phones --- */
