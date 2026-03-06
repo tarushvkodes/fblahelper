@@ -236,17 +236,6 @@ function getDeckForMode(eventName, mode) {
   return dedupeDeck([...hqDeck, ...aiDeck]);
 }
 
-function getEventBankBreakdown(eventName) {
-  const official = getDeckForMode(eventName, "hq");
-  const aiOnly = dedupeDeck(getAIDeck(eventName));
-  const combined = getDeckForMode(eventName, "hq-ai");
-  return {
-    official: official.length,
-    ai: aiOnly.length,
-    combined: combined.length
-  };
-}
-
 function isOfficialQuestionSource(source) {
   const value = String(source || "").toLowerCase().trim();
   if (!value) return true;
@@ -285,6 +274,16 @@ function buildQuizAiPrompt(eventName, question, chosenIndex) {
     "5. A short memory trick or rule so I do not miss a similar question again",
     "6. One new practice question of the same concept with answer and explanation"
   ].join("\n");
+}
+
+function cleanStudyText(text) {
+  return String(text || "")
+    .replace(/adapted from the official sample question set\.?/gi, "")
+    .replace(/adapted from (the )?original set\.?/gi, "")
+    .replace(/source document:\s*[^.]+\.?/gi, "")
+    .replace(/grounded in [^.]+\.?/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function updateQuizAiHelp(question, questionIndex) {
@@ -584,7 +583,6 @@ function openEvent(eventName, tabName = "overview") {
   document.getElementById("eventFormatLabel").textContent = `${format} event workspace`;
   document.getElementById("activeEventTitle").textContent = eventName;
 
-  const breakdown = getEventBankBreakdown(eventName);
   const combinedCount = getDeckForMode(eventName, getQuizBankMode()).length;
   const roleplayEnabled = hasOfficialRoleplay(eventName);
   const roleplayCount = roleplayEnabled ? getRoleplayDeck(eventName).length : 0;
@@ -607,18 +605,6 @@ function openEvent(eventName, tabName = "overview") {
   document.getElementById("overviewRoleplayHint").textContent = roleplayEnabled
     ? `Use scenario variants to practice different judge angles for ${eventName}.`
     : `Roleplay Lab is hidden for ${eventName} because the official format guide does not list a roleplay round.`;
-  document.getElementById("overviewSourceCoverage").textContent = `Official packaged: ${breakdown.official}. Pregenerated AI: ${breakdown.ai}. Combined deduped: ${breakdown.combined}.`;
-  document.getElementById("overviewQuestionAdvice").textContent = breakdown.combined >= 100
-    ? `This event has enough packaged questions for a full 100-question rep. Use Official mode first, then mix in AI for breadth.`
-    : roleplayEnabled
-      ? `This event is still below 100 combined packaged questions. Start with Official mode, then use Flashcards and Roleplay Lab to reinforce gaps.`
-      : `This event is still below 100 combined packaged questions. Start with Official mode, then use Flashcards and the Prep Checklist to reinforce gaps.`;
-  document.getElementById("overviewToolkit").innerHTML = [
-    `Run Official mode first to learn the canonical phrasing for ${eventName}.`,
-    `Use Official + Pregenerated AI mode only for additional reps from packaged banks already in the repo.`,
-    "After every exam, review misses and restate why the keyed answer wins before moving on.",
-    "Use Flashcards for rapid recall, then switch to Roleplay Lab or Production Tasks for event transfer."
-  ].map((item) => `<li>${item}</li>`).join("");
   updateQuizAvailability();
 
   buildFlashcards(eventName);
@@ -708,7 +694,6 @@ function renderQuestion() {
   }).join("");
 
   quizUi.card.innerHTML = `
-    <p class="eyebrow">${item.source || "question-bank"}</p>
     <h3>Q${idx + 1}. ${item.q}</h3>
     <div>${optionsHtml}</div>
   `;
@@ -766,12 +751,12 @@ function submitExam() {
     }
 
     if (idx === q.answer) return `${toAnswerLabel(q, idx)}: This is the keyed correct option from the packaged bank.`;
-    return `${toAnswerLabel(q, idx)}: This is not the keyed answer in the packaged bank for this item.`;
+    return `${toAnswerLabel(q, idx)}: Ask AI for detailed feedback.`;
   };
 
   const toExplanation = (q) => {
     if (q?.explain && q.explain.trim()) return q.explain.trim();
-    if (Number.isInteger(q?.answer)) return `Packaged bank answer key: ${toAnswerLabel(q, q.answer)}.`;
+    if (Number.isInteger(q?.answer) && isOfficialQuestionSource(q.source)) return "Ask AI for detailed feedback.";
     return "Packaged bank feedback is not available for this item.";
   };
 
@@ -785,9 +770,14 @@ function submitExam() {
     if (isCorrect) correct += 1;
     else missedTopics.push(q.q);
 
-    const optionFeedback = q.options
-      .map((_, idx) => `<li>${optionReason(q, idx)}</li>`)
-      .join("");
+    const hasDetailedOptionFeedback = Array.isArray(q?.optionExplanations)
+      && q.optionExplanations.some((value) => {
+        const text = cleanStudyText(value);
+        return text && !/ask ai for detailed feedback\.?/i.test(text);
+      });
+    const optionFeedback = hasDetailedOptionFeedback
+      ? q.options.map((_, idx) => `<li>${optionReason(q, idx)}</li>`).join("")
+      : "";
 
     reviewRows.push(`
       <article class="exam-review-item">
@@ -796,7 +786,7 @@ function submitExam() {
         <p><strong>Your answer:</strong> ${toAnswerLabel(q, picked)}</p>
         <p><strong>Right answer:</strong> ${toAnswerLabel(q, q.answer)}</p>
         <p><strong>Why:</strong> ${toExplanation(q)}</p>
-        <ul class="option-review-list">${optionFeedback}</ul>
+        ${optionFeedback ? `<ul class="option-review-list">${optionFeedback}</ul>` : ""}
       </article>
     `);
   });
@@ -840,8 +830,7 @@ function renderRoleplay(eventName) {
 
   const apply = (idx) => {
     const s = scenarios[idx] || scenarios[0];
-    const sourceLine = s.sourceNote ? `<p class="module-note">${s.sourceNote}</p>` : "";
-    roleplayUi.prompt.innerHTML = `<p><strong>${s.event}</strong></p><p>${s.prompt}</p>${sourceLine}`;
+    roleplayUi.prompt.innerHTML = `<p><strong>${s.event}</strong></p><p>${s.prompt}</p>`;
     roleplayUi.judgeQuestion.textContent = s.judgeQuestions[0] || "What is your first step?";
     roleplayUi.indicators.innerHTML = (s.indicators || []).map((item) => `<li>${item}</li>`).join("");
     roleplayUi.docs.innerHTML = getRoleplayDocs(eventName)
@@ -912,12 +901,12 @@ function buildFlashcards(eventName) {
   const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, 18);
   const generated = base.map((q) => {
     const answerLine = Number.isInteger(q.answer)
-      ? `${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}`
+      ? q.options[q.answer]
       : "No packaged answer available.";
-    const explainLine = q.explain && q.explain.trim()
-      ? q.explain.trim()
-      : "Use this card to restate why the keyed answer is strongest before moving on.";
-    const back = `${answerLine}\n\n${explainLine}`;
+    const cleanedExplain = q.explain && q.explain.trim()
+      ? cleanStudyText(q.explain)
+      : "";
+    const back = cleanedExplain ? `${answerLine}\n\n${cleanedExplain}` : answerLine;
     return { front: q.q, back };
   });
 

@@ -19,57 +19,44 @@ window.ROLEPLAY_REFERENCE = {
   ],
   pdfLinks: {
     "Business Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Business-Management-Sample-Questions.pdf" }
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Business-Management---Sample-1.docx" }
     ],
     "Customer Service": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Customer-Service-Sample-Questions.pdf" }
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Customer-Service---Sample-1.docx" }
     ],
     "Entrepreneurship": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf" },
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Entrepreneurship---Sample-1.docx" },
       { label: "Competencies PDF", path: "FBLA Time/FBLA Time/Entrepreneurship/Entrepreneurship Tasks _ Competencies List.pdf" }
     ],
     "Healthcare Administration": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf" },
+      { label: "Study Guide DOCX", path: "FBLA Time/FBLA Time/Healthcare Administration/2016 SLC Healthcare Administration.docx" },
       { label: "Competencies PDF", path: "FBLA Time/FBLA Time/Healthcare Administration/Health Care Administration Tasks _ Competencies List.pdf" }
     ],
     "Hospitality & Event Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf" }
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Hospitality--Event-Management---Sample-1.docx" }
     ],
-    "Human Resource Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Human-Resource-Management-Sample-Questions.pdf" }
-    ],
+    "Human Resource Management": [],
     "Insurance & Risk Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Insurance--Risk-Management-Sample-Questions.pdf" },
+      { label: "Study Guide PDF", path: "FBLA Time/FBLA Time/Insurance _ Risk Management/Insurance _ Risk Management Study Guide 2013-16.pdf" },
       { label: "Competencies PDF", path: "FBLA Time/FBLA Time/Insurance _ Risk Management/Insurance _ Risk Management Tasks _ Competencies List.pdf" }
     ],
     "International Business": [
-      { label: "Event PDF", path: "fblaresources/objective tests/International-Business-Sample-Questions.pdf" }
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/International-Business---Sample-1.docx" }
     ],
     "Marketing": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Marketing-Sample-Questions.pdf" }
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Marketing---Sample-1.docx" }
     ],
     "Organizational Leadership": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Organizational-Leadership-Sample-Questions.pdf" },
       { label: "Competencies PDF", path: "FBLA Time/FBLA Time/Organizational Leadership/Organizational Leadership Competency _ Task List.pdf" }
     ],
-    "Project Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Project-Management-Sample-Questions.pdf" }
-    ],
-    "Public Administration & Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Public-Administration--Management-Sample-Questions.pdf" }
-    ],
-    "Real Estate": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Real-Estate-Sample-Questions.pdf" }
-    ],
-    "Retail Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Retail-Management-Sample-Questions.pdf" }
-    ],
+    "Project Management": [],
+    "Public Administration & Management": [],
+    "Real Estate": [],
+    "Retail Management": [],
     "Sports & Entertainment Management": [
-      { label: "Event PDF", path: "fblaresources/objective tests/Sports--Entertainment-Management-Sample-Questions.pdf" }
+      { label: "Sample Roleplay", path: "fblaresources/sample roleplays/Sports-and-Entertainment-Management---Sample-1.docx" }
     ],
-    "Supply Chain Management": [
-      { label: "Support PDF", path: "fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf" }
-    ]
+    "Supply Chain Management": []
   },
   curatedScenarios: {
     "Business Management": [
