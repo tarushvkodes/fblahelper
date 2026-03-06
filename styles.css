@@ -28,6 +28,15 @@
   --font-body: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
   --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
   --font-mono: "SF Mono", "Menlo", "Consolas", "Liberation Mono", monospace;
+  --selected: #2980b9;
+  --selected-soft: rgba(41, 128, 185, 0.08);
+  --selected-glow: rgba(41, 128, 185, 0.15);
+  --flag: #d4722a;
+  --flag-soft: rgba(212, 114, 42, 0.06);
+  --flag-glow: rgba(212, 114, 42, 0.12);
+  --streak-soft: rgba(232, 126, 48, 0.07);
+  --streak-border: rgba(232, 126, 48, 0.3);
+  --card-bg: #fdfcfa;
 }
 
 *,
@@ -396,6 +405,11 @@ select:focus,
 textarea:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 select {
@@ -884,11 +898,11 @@ button.btn-outline:hover {
 }
 
 .option.selected {
-  border-color: #2980b9;
-  background: rgba(41, 128, 185, 0.08);
-  color: #2980b9;
+  border-color: var(--selected);
+  background: var(--selected-soft);
+  color: var(--selected);
   font-weight: 600;
-  box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.15);
+  box-shadow: 0 0 0 2px var(--selected-glow);
 }
 
 .option.correct {
@@ -926,7 +940,7 @@ button.btn-outline:hover {
 .exam-review-item {
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  background: #fdfcfa;
+  background: var(--card-bg);
   padding: 0.75rem 0.85rem;
 }
 
@@ -1032,7 +1046,7 @@ button.btn-outline:hover {
   margin-top: 0.55rem;
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  background: #fdfcfa;
+  background: var(--card-bg);
   padding: 0.8rem;
   line-height: 1.5;
   font-size: 0.92rem;
@@ -1370,6 +1384,10 @@ button.btn-outline:hover {
   .workspace-actions {
     display: none;
   }
+
+  .stats-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* --- Responsive: Mobile --- */
@@ -1527,6 +1545,30 @@ button.btn-outline:hover {
 
   .bg-orbit-a { width: 260px; height: 260px; }
   .bg-orbit-b { width: 280px; height: 280px; }
+
+  .stats-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rp-timer-head {
+    flex-direction: column;
+  }
+
+  .rp-timer-clock {
+    font-size: 2.2rem;
+  }
+
+  .overview-stat-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .streak-badge {
+    display: none;
+  }
+
+  .stats-chart-card {
+    grid-column: 1 / -1;
+  }
 }
 
 /* --- Responsive: Very small phones --- */
@@ -1549,6 +1591,16 @@ button.btn-outline:hover {
   }
 }
 
+/* --- Reduced Motion --- */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 /* ═══════════════════════════════════════════
    New Features: Streak · Flags · Timer · Stats
    ═══════════════════════════════════════════ */
@@ -1561,12 +1613,12 @@ button.btn-outline:hover {
 }
 
 .streak-badge.active {
-  border-color: rgba(232, 126, 48, 0.3);
-  background: rgba(232, 126, 48, 0.07);
+  border-color: var(--streak-border);
+  background: var(--streak-soft);
 }
 
 .streak-badge.active span {
-  color: #d4722a;
+  color: var(--flag);
 }
 
 .streak-badge span::before {
@@ -1604,16 +1656,16 @@ button.btn-outline:hover {
 }
 
 .flag-btn:hover {
-  border-color: #d4722a;
-  color: #d4722a;
-  background: rgba(212, 114, 42, 0.06);
+  border-color: var(--flag);
+  color: var(--flag);
+  background: var(--flag-soft);
   box-shadow: none;
 }
 
 .flag-btn.flagged {
-  background: rgba(212, 114, 42, 0.12);
-  border-color: #d4722a;
-  color: #d4722a;
+  background: var(--flag-glow);
+  border-color: var(--flag);
+  color: var(--flag);
 }
 
 .review-flag {
@@ -1621,7 +1673,7 @@ button.btn-outline:hover {
   margin-left: 0.5rem;
   font-size: 0.72rem;
   font-weight: 600;
-  color: #d4722a;
+  color: var(--flag);
   vertical-align: middle;
 }
 
@@ -1817,7 +1869,7 @@ button.btn-outline:hover {
   padding: 0.55rem 0.65rem;
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  background: #fdfcfa;
+  background: var(--card-bg);
 }
 
 .recent-info strong {
@@ -1859,7 +1911,7 @@ button.btn-outline:hover {
   padding: 0.45rem 0.3rem;
   border: 1px solid var(--line);
   border-radius: var(--radius-xs);
-  background: #fdfcfa;
+  background: var(--card-bg);
 }
 
 .overview-stat-num {
@@ -1942,38 +1994,4 @@ button.btn-outline:hover {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   line-height: 1.4;
-}
-
-/* --- New Feature Responsive --- */
-
-@media (max-width: 1180px) {
-  .stats-summary {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 640px) {
-  .stats-summary {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .rp-timer-head {
-    flex-direction: column;
-  }
-
-  .rp-timer-clock {
-    font-size: 2.2rem;
-  }
-
-  .overview-stat-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .streak-badge {
-    display: none;
-  }
-
-  .stats-chart-card {
-    grid-column: 1 / -1;
-  }
 }

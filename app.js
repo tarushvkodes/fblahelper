@@ -738,7 +738,35 @@ const roleplayUi = {
   aiPrompt: document.getElementById("roleplayAiPrompt"),
   response: document.getElementById("roleplayResponse")
 };
+/* ─── Named Constants ─── */
 const FBLA_SECONDS_PER_QUESTION = 30;
+const FLASHCARD_DECK_LIMIT = 18;
+const HISTORY_LIMIT = 200;
+const MISSED_QUESTIONS_LIMIT = 150;
+const SCORE_CHART_LIMIT = 20;
+const WEAKEST_AREAS_LIMIT = 5;
+const RECENT_EXAMS_LIMIT = 10;
+const SCORE_THRESHOLD_NATIONALS = 85;
+const SCORE_THRESHOLD_SOLID = 70;
+const DEBOUNCE_MS = 200;
+
+function scoreVerdict(pct) {
+  if (pct >= SCORE_THRESHOLD_NATIONALS) return "Nationals pace";
+  if (pct >= SCORE_THRESHOLD_SOLID) return "Solid";
+  return "Needs work";
+}
+
+function scoreCssClass(pct) {
+  if (pct >= SCORE_THRESHOLD_NATIONALS) return "answer-good";
+  if (pct >= SCORE_THRESHOLD_SOLID) return "";
+  return "answer-bad";
+}
+
+function scoreChartColor(pct) {
+  if (pct >= SCORE_THRESHOLD_NATIONALS) return "var(--signal)";
+  if (pct >= SCORE_THRESHOLD_SOLID) return "var(--ink-soft)";
+  return "var(--accent)";
+}
 
 function norm(s) {
   return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -1283,7 +1311,11 @@ function renderEventList() {
 
 function setWorkspaceTab(tabName) {
   haptic("nudge");
-  wsTabs.forEach((t) => t.classList.toggle("active", t.dataset.wsTab === tabName));
+  wsTabs.forEach((t) => {
+    const isActive = t.dataset.wsTab === tabName;
+    t.classList.toggle("active", isActive);
+    t.setAttribute("aria-selected", String(isActive));
+  });
   wsPanels.forEach((p) => p.classList.toggle("active", p.id === tabName));
 }
 
@@ -1362,6 +1394,30 @@ function formatTimer(seconds) {
   return `${m}:${s}`;
 }
 
+function initQuizSession(deck) {
+  state.quiz.deck = deck;
+  state.quiz.index = 0;
+  state.quiz.answers = {};
+  state.quiz.submitted = false;
+  state.quiz.running = true;
+  state.quiz.flagged = new Set();
+  state.quiz.secondsLeft = deck.length * FBLA_SECONDS_PER_QUESTION;
+
+  stopQuizTimer();
+  state.quiz.timerId = setInterval(() => {
+    state.quiz.secondsLeft -= 1;
+    quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
+    quizUi.timer.classList.toggle("urgent", state.quiz.secondsLeft <= 30);
+    if (state.quiz.secondsLeft <= 0) submitExam();
+  }, 1000);
+
+  quizUi.results.innerHTML = "<p>Submit your exam to see detailed explanations for every question.</p>";
+  updateQuizAiHelp(null, null);
+  updateProgressBar();
+  renderQuestion();
+  setWorkspaceTab("quiz");
+}
+
 function startExam() {
   if (!state.currentEvent) return;
   haptic("success");
@@ -1376,31 +1432,8 @@ function startExam() {
   }
 
   const count = countValue === "max" ? base.length : Number(countValue);
-
-  state.quiz.deck = shuffle(base).slice(0, Math.min(count, base.length)).map(shuffleOptions);
-  state.quiz.index = 0;
-  state.quiz.answers = {};
-  state.quiz.submitted = false;
-  state.quiz.running = true;
-  state.quiz.flagged = new Set();
-  state.quiz.secondsLeft = state.quiz.deck.length * FBLA_SECONDS_PER_QUESTION;
-
-  stopQuizTimer();
-  state.quiz.timerId = setInterval(() => {
-    state.quiz.secondsLeft -= 1;
-    quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
-    const urgent = state.quiz.secondsLeft <= 30;
-    quizUi.timer.classList.toggle("urgent", urgent);
-    if (state.quiz.secondsLeft <= 0) {
-      submitExam();
-    }
-  }, 1000);
-
-  quizUi.results.innerHTML = "<p>Submit your exam to see detailed explanations for every question.</p>";
-  updateQuizAiHelp(null, null);
-  updateProgressBar();
-  renderQuestion();
-  setWorkspaceTab("quiz");
+  const deck = shuffle(base).slice(0, Math.min(count, base.length)).map(shuffleOptions);
+  initQuizSession(deck);
 }
 
 function updateProgressBar() {
@@ -1415,7 +1448,8 @@ function updateProgressBar() {
 function renderQuestion() {
   const deck = state.quiz.deck;
   if (!deck.length) return;
-  const idx = state.quiz.index;
+  const idx = Math.max(0, Math.min(state.quiz.index, deck.length - 1));
+  state.quiz.index = idx;
   const item = deck[idx];
   const chosen = state.quiz.answers[idx];
 
@@ -1473,9 +1507,10 @@ function updateLiveScore() {
 }
 
 function changeQuestion(delta) {
-  if (!state.quiz.deck.length) return;
+  const deck = state.quiz.deck;
+  if (!deck.length) return;
   const next = state.quiz.index + delta;
-  if (next < 0 || next >= state.quiz.deck.length) return;
+  if (next < 0 || next >= deck.length) return;
   state.quiz.index = next;
   renderQuestion();
 }
@@ -1545,10 +1580,10 @@ function submitExam() {
   });
 
   const pct = total ? Math.round((correct / total) * 100) : 0;
-  const verdict = pct >= 85 ? "Nationals pace" : pct >= 70 ? "Solid" : "Needs work";
-  const recoveryAdvice = pct >= 85
+  const verdict = scoreVerdict(pct);
+  const recoveryAdvice = pct >= SCORE_THRESHOLD_NATIONALS
     ? "Strong result. Try Official + AI mode for broader coverage, or run another set to lock in consistency."
-    : pct >= 70
+    : pct >= SCORE_THRESHOLD_SOLID
       ? "Review every miss, flip through flashcards, then rerun a shorter timed set."
       : "Slow down. Review missed items, restate the correct answer aloud, and use Flashcards and Prep before your next exam.";
   const missPreview = missedTopics.length
@@ -1652,7 +1687,7 @@ function renderRoleplay(eventName) {
     if (/risk|impact|cost|customer|compliance|retention|efficiency/i.test(low)) score += 10;
     score = Math.min(100, score);
 
-    const band = score >= 85 ? "Final-round ready" : score >= 70 ? "Strong base" : "Needs structure";
+    const band = score >= SCORE_THRESHOLD_NATIONALS ? "Final-round ready" : score >= SCORE_THRESHOLD_SOLID ? "Strong base" : "Needs structure";
     roleplayUi.score.textContent = `Score: ${score}/100 — ${band}. Indicator coverage: ${indicatorHits}/${(s.indicators || []).length}.`;
     updateAiPrompt(s);
   };
@@ -1717,7 +1752,7 @@ function renderVoicePractice(eventName, scenarios) {
 }
 
 function buildFlashcards(eventName) {
-  const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, 18).map(shuffleOptions);
+  const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, FLASHCARD_DECK_LIMIT).map(shuffleOptions);
   const generated = base.map((q) => {
     const answerLine = Number.isInteger(q.answer)
       ? q.options[q.answer]
@@ -1841,7 +1876,7 @@ function loadHistory() {
 function saveHistory(entry) {
   const history = loadHistory();
   history.push(entry);
-  if (history.length > 200) history.splice(0, history.length - 200);
+  if (history.length > HISTORY_LIMIT) history.splice(0, history.length - HISTORY_LIMIT);
   localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
 }
 
@@ -1914,7 +1949,7 @@ function saveMissedQuestions(eventName, questions) {
     seen.add(key);
     return true;
   });
-  if (deduped.length > 150) deduped.splice(0, deduped.length - 150);
+  if (deduped.length > MISSED_QUESTIONS_LIMIT) deduped.splice(0, deduped.length - MISSED_QUESTIONS_LIMIT);
   localStorage.setItem(missedKey(eventName), JSON.stringify(deduped));
 }
 
@@ -1933,26 +1968,7 @@ function startMissedQuestionsDrill() {
   const missed = loadMissedQuestions(state.currentEvent);
   if (!missed.length) return;
   haptic("success");
-  const deck = shuffle(missed).map(shuffleOptions);
-  state.quiz.deck = deck;
-  state.quiz.index = 0;
-  state.quiz.answers = {};
-  state.quiz.submitted = false;
-  state.quiz.running = true;
-  state.quiz.flagged = new Set();
-  state.quiz.secondsLeft = deck.length * FBLA_SECONDS_PER_QUESTION;
-  stopQuizTimer();
-  state.quiz.timerId = setInterval(() => {
-    state.quiz.secondsLeft -= 1;
-    quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
-    quizUi.timer.classList.toggle("urgent", state.quiz.secondsLeft <= 30);
-    if (state.quiz.secondsLeft <= 0) submitExam();
-  }, 1000);
-  quizUi.results.innerHTML = "<p>Submit your exam to see detailed explanations for every question.</p>";
-  updateQuizAiHelp(null, null);
-  updateProgressBar();
-  renderQuestion();
-  setWorkspaceTab("quiz");
+  initQuizSession(shuffle(missed).map(shuffleOptions));
 }
 
 /* ─── Question Flagging ─── */
@@ -2053,13 +2069,13 @@ function renderStats() {
     : history;
   if (scopeEl) scopeEl.textContent = state.currentEvent ? state.currentEvent : "All events";
 
-  const chartData = chartSource.slice(-20);
+  const chartData = chartSource.slice(-SCORE_CHART_LIMIT);
   const chartEl = document.getElementById("scoreChart");
   const chartEmpty = document.getElementById("scoreChartEmpty");
   if (chartData.length) {
     chartEmpty.style.display = "none";
     chartEl.innerHTML = chartData.map(h => {
-      const color = h.score >= 85 ? "var(--signal)" : h.score >= 70 ? "var(--ink-soft)" : "var(--accent)";
+      const color = scoreChartColor(h.score);
       return `<div class="chart-col">
         <div class="chart-bar" style="height:${Math.max(h.score, 4)}%;background:${color}" title="${h.event}: ${h.score}%"></div>
         <span class="chart-label">${h.score}</span>
@@ -2083,7 +2099,7 @@ function renderStats() {
       count: scores.length
     }))
     .sort((a, b) => a.avg - b.avg)
-    .slice(0, 5);
+    .slice(0, WEAKEST_AREAS_LIMIT);
   const weakEl = document.getElementById("weakestAreas");
   const weakEmpty = document.getElementById("weakestEmpty");
   if (weakest.length) {
@@ -2100,14 +2116,14 @@ function renderStats() {
   }
 
   // Recent exams
-  const recent = history.slice(-10).reverse();
+  const recent = history.slice(-RECENT_EXAMS_LIMIT).reverse();
   const recentEl = document.getElementById("recentExams");
   if (recent.length) {
     recentEl.innerHTML = `<div class="recent-list">${recent.map(h => {
       const date = new Date(h.timestamp);
       const dateStr = date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-      const verdict = h.score >= 85 ? "Nationals pace" : h.score >= 70 ? "Solid" : "Needs work";
-      const cls = h.score >= 85 ? "answer-good" : h.score >= 70 ? "" : "answer-bad";
+      const verdict = scoreVerdict(h.score);
+      const cls = scoreCssClass(h.score);
       return `
         <div class="recent-item">
           <div class="recent-info">
@@ -2158,15 +2174,17 @@ function renderOverviewProgress() {
 function exportHistory() {
   const history = loadHistory();
   if (!history.length) return;
-  const blob = new Blob([JSON.stringify(history, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `fbla-study-stats-${todayStr()}.json`;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
+  try {
+    const blob = new Blob([JSON.stringify(history, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `fbla-study-stats-${todayStr()}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  } catch (_) { /* export failure is non-critical */ }
 }
 
 /* ─── Resource Document Links ─── */
@@ -2230,15 +2248,13 @@ function renderResources(eventName) {
   listEl.innerHTML = html;
 }
 
-function bindUi() {
-  eventSearchEl.addEventListener("input", renderEventList);
+/* ─── UI Binding: Event Rail ─── */
 
-  /* Mobile rail toggle (bottom sheet) */
+function bindEventRail() {
   const railToggle = document.getElementById("railToggle");
   const eventRailEl = document.getElementById("eventRail");
   const railOverlay = document.getElementById("railOverlay");
-  const railClose = document.getElementById("railClose");
-  const eventNavLabel = document.getElementById("eventNavLabel");
+  const railCloseBtn = document.getElementById("railClose");
 
   function closeRail() {
     if (!eventRailEl) return;
@@ -2263,26 +2279,19 @@ function bindUi() {
     });
   }
 
-  if (railOverlay) {
-    railOverlay.addEventListener("click", closeRail);
-  }
-
-  if (railClose) {
-    railClose.addEventListener("click", () => {
-      haptic();
-      closeRail();
-    });
-  }
+  if (railOverlay) railOverlay.addEventListener("click", closeRail);
+  if (railCloseBtn) railCloseBtn.addEventListener("click", () => { haptic(); closeRail(); });
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && eventRailEl && !eventRailEl.classList.contains("collapsed")) {
-      closeRail();
-    }
+    if (e.key === "Escape" && eventRailEl && !eventRailEl.classList.contains("collapsed")) closeRail();
   });
 
-  /* Expose closeRail globally for openEvent auto-close */
   window.__closeRail = closeRail;
+}
 
+/* ─── UI Binding: Workspace Tabs ─── */
+
+function bindWorkspaceTabs() {
   wsTabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       if (!state.currentEvent && tab.dataset.wsTab !== "overview") return;
@@ -2303,6 +2312,11 @@ function bindUi() {
       document.querySelectorAll(".rp-subpanel").forEach((p) => p.classList.toggle("active", p.id === tab.dataset.rpTab));
     });
   });
+}
+
+/* ─── UI Binding: Quiz Controls ─── */
+
+function bindQuizControls() {
   document.getElementById("copyQuizAiPromptBtn").onclick = async () => {
     await copyTextWithFeedback(
       quizUi.aiPrompt.value,
@@ -2336,23 +2350,34 @@ function bindUi() {
   document.getElementById("launchFiftyBtn").onclick = () => launchWith("50");
   document.getElementById("launchHundredBtn").onclick = () => launchWith("100");
   document.getElementById("launchMaxBtn").onclick = () => launchWith("max");
+}
 
+/* ─── UI Binding: Flashcards ─── */
+
+function bindFlashcardControls() {
   const flip = () => {
     if (!state.flash.deck.length) return;
     state.flash.flipped = !state.flash.flipped;
     renderFlashcard();
   };
 
-  document.getElementById("flipCardBtn").onclick = flip;
-  document.getElementById("flashCard").onclick = flip;
-  document.getElementById("nextCardBtn").onclick = () => {
+  const advanceCard = (delta) => {
     if (!state.flash.deck.length) return;
-    state.flash.index = (state.flash.index + 1) % state.flash.deck.length;
+    state.flash.index = (state.flash.index + delta + state.flash.deck.length) % state.flash.deck.length;
     state.flash.flipped = false;
     renderFlashcard();
   };
 
-  // New feature bindings
+  document.getElementById("flipCardBtn").onclick = flip;
+  document.getElementById("flashCard").onclick = flip;
+  document.getElementById("nextCardBtn").onclick = () => advanceCard(1);
+
+  return { flip, advanceCard };
+}
+
+/* ─── UI Binding: Miscellaneous ─── */
+
+function bindMiscControls() {
   document.getElementById("reviewMissesBtn").onclick = startMissedQuestionsDrill;
   document.getElementById("clearMissesBtn").onclick = () => {
     if (!state.currentEvent) return;
@@ -2364,8 +2389,11 @@ function bindUi() {
   document.getElementById("rpPresentTime").onchange = resetRpTimer;
   document.getElementById("clearHistoryBtn").onclick = clearAllHistory;
   document.getElementById("exportHistoryBtn").onclick = exportHistory;
+}
 
-  // Keyboard navigation
+/* ─── UI Binding: Keyboard Shortcuts ─── */
+
+function bindKeyboardShortcuts(flashcardControls) {
   document.addEventListener("keydown", (e) => {
     const activeTag = document.activeElement?.tagName;
     if (activeTag === "INPUT" || activeTag === "TEXTAREA" || activeTag === "SELECT") return;
@@ -2389,23 +2417,31 @@ function bindUi() {
     }
 
     if (activeTab === "flashcards") {
-      if (e.key === " " || e.key === "Enter") { e.preventDefault(); flip(); }
-      if (e.key === "ArrowRight") {
-        e.preventDefault();
-        if (!state.flash.deck.length) return;
-        state.flash.index = (state.flash.index + 1) % state.flash.deck.length;
-        state.flash.flipped = false;
-        renderFlashcard();
-      }
-      if (e.key === "ArrowLeft") {
-        e.preventDefault();
-        if (!state.flash.deck.length) return;
-        state.flash.index = (state.flash.index - 1 + state.flash.deck.length) % state.flash.deck.length;
-        state.flash.flipped = false;
-        renderFlashcard();
-      }
+      if (e.key === " " || e.key === "Enter") { e.preventDefault(); flashcardControls.flip(); }
+      if (e.key === "ArrowRight") { e.preventDefault(); flashcardControls.advanceCard(1); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); flashcardControls.advanceCard(-1); }
     }
   });
+}
+
+/* ─── UI Binding: Debounced Event Search ─── */
+
+function debounce(fn, ms) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), ms);
+  };
+}
+
+function bindUi() {
+  eventSearchEl.addEventListener("input", debounce(renderEventList, DEBOUNCE_MS));
+  bindEventRail();
+  bindWorkspaceTabs();
+  bindQuizControls();
+  const flashcardControls = bindFlashcardControls();
+  bindMiscControls();
+  bindKeyboardShortcuts(flashcardControls);
 }
 
 function init() {
