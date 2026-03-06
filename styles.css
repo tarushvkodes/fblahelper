@@ -1803,6 +1803,72 @@ button.btn-outline:hover {
 
 /* --- New Feature Responsive --- */
 
+/* --- Resource Document Links --- */
+
+.resources-card {
+  margin-top: 0.75rem;
+}
+
+.resources-list {
+  margin-top: 0.55rem;
+}
+
+.res-group + .res-group {
+  margin-top: 0.65rem;
+}
+
+.res-group-title {
+  margin: 0 0 0.3rem;
+  font-size: 0.66rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-muted);
+}
+
+.res-group-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.res-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  padding: 0.38rem 0.65rem;
+  background: var(--panel-solid);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.82rem;
+  line-height: 1.3;
+  transition: all 160ms ease;
+}
+
+.res-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.res-ext {
+  display: inline-block;
+  padding: 0.06rem 0.3rem;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--ink-muted);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* --- New Feature Responsive --- */
+
 @media (max-width: 900px) {
   .stats-summary {
     grid-template-columns: repeat(2, 1fr);
