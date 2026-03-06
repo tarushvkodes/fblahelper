@@ -872,25 +872,15 @@ button.btn-outline:hover {
   font-size: 0.92rem;
   line-height: 1.45;
   cursor: pointer;
-  transition: background 200ms ease-in-out,
-              color 200ms ease-in-out,
-              border-color 200ms ease-in-out,
-              box-shadow 200ms ease-in-out,
-              transform 180ms ease-in-out,
-              font-weight 0ms;
+  transition: background 180ms ease-in-out,
+              color 180ms ease-in-out,
+              border-color 180ms ease-in-out,
+              box-shadow 180ms ease-in-out;
 }
 
 .option:hover {
   background: var(--bg-alt);
   border-color: var(--ink-soft);
-  box-shadow: var(--shadow-xs);
-  transform: translateY(-1px);
-}
-
-.option:active {
-  transform: scale(0.985) translateY(0);
-  box-shadow: none;
-  transition-duration: 80ms;
 }
 
 .option.selected {
@@ -898,16 +888,7 @@ button.btn-outline:hover {
   background: rgba(41, 128, 185, 0.08);
   color: #2980b9;
   font-weight: 600;
-  box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.12);
-  transform: none;
-  animation: optionPop 320ms ease-in-out;
-}
-
-@keyframes optionPop {
-  0%   { transform: scale(1); }
-  40%  { transform: scale(0.975); }
-  70%  { transform: scale(1.01); }
-  100% { transform: scale(1); }
+  box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.15);
 }
 
 .option.correct {
@@ -915,7 +896,7 @@ button.btn-outline:hover {
   background: var(--signal-soft);
   color: var(--signal);
   font-weight: 600;
-  animation: optionPop 320ms ease-in-out;
+  box-shadow: 0 0 0 2px rgba(11, 114, 96, 0.15);
 }
 
 .option.wrong {
@@ -923,15 +904,7 @@ button.btn-outline:hover {
   background: var(--accent-soft);
   color: var(--accent);
   font-weight: 600;
-  animation: optionShake 360ms ease-in-out;
-}
-
-@keyframes optionShake {
-  0%, 100% { transform: translateX(0); }
-  20%      { transform: translateX(-4px); }
-  40%      { transform: translateX(4px); }
-  60%      { transform: translateX(-2px); }
-  80%      { transform: translateX(2px); }
+  box-shadow: 0 0 0 2px rgba(185, 45, 31, 0.12);
 }
 
 /* --- Results --- */
