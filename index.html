@@ -246,5 +246,9 @@
   <script src="ai_question_bank.js"></script>
   <script src="roleplay_reference.js"></script>
   <script src="app.js"></script>
+  <script type="module">
+    import { WebHaptics } from "https://esm.sh/web-haptics@0.0.6";
+    try { window.__haptics = new WebHaptics(); } catch (_) {}
+  </script>
 </body>
 </html>

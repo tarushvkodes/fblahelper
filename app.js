@@ -17,6 +17,11 @@ const EVENTS = [
   "Supply Chain Management", "Technology Support & Services", "Visual Design", "Website Coding & Development", "Website Design"
 ];
 
+/* --- Haptic feedback (progressive enhancement, no-op on unsupported devices) --- */
+function haptic(preset) {
+  try { window.__haptics?.trigger(preset); } catch (_) {}
+}
+
 const RESOURCE_DATA = window.RESOURCE_INTERACTIVE_DATA || { objectiveQuizzes: {}, roleplayScenarios: [], productionTests: {} };
 const COMBINED_DATA = window.COMBINED_QUESTION_BANK || { banks: {} };
 const AI_DATA = window.AI_QUESTION_BANK || { banks: {} };
@@ -352,8 +357,10 @@ async function copyTextWithFeedback(text, successTarget, successMessage, failure
 
   try {
     await navigator.clipboard.writeText(text);
+    haptic("success");
     successTarget.textContent = successMessage;
   } catch (err) {
+    haptic("error");
     successTarget.textContent = failureMessage;
   }
 }
@@ -649,11 +656,13 @@ function renderEventList() {
 }
 
 function setWorkspaceTab(tabName) {
+  haptic("nudge");
   wsTabs.forEach((t) => t.classList.toggle("active", t.dataset.wsTab === tabName));
   wsPanels.forEach((p) => p.classList.toggle("active", p.id === tabName));
 }
 
 function openEvent(eventName, tabName = "overview") {
+  haptic("nudge");
   state.currentEvent = eventName;
   renderEventList();
 
@@ -717,6 +726,7 @@ function formatTimer(seconds) {
 
 function startExam() {
   if (!state.currentEvent) return;
+  haptic("success");
 
   const countValue = quizUi.count.value;
   const mode = getQuizBankMode();
@@ -791,6 +801,7 @@ function renderQuestion() {
   document.querySelectorAll("[data-opt]").forEach((btn) => {
     btn.addEventListener("click", () => {
       if (state.quiz.submitted) return;
+      haptic();
       state.quiz.answers[idx] = Number(btn.dataset.opt);
       renderQuestion();
       updateLiveScore();
@@ -823,6 +834,7 @@ function changeQuestion(delta) {
 
 function submitExam() {
   if (!state.quiz.deck.length || state.quiz.submitted) return;
+  haptic("success");
   state.quiz.submitted = true;
   stopQuizTimer();
 
@@ -1054,6 +1066,7 @@ function buildFlashcards(eventName) {
 }
 
 function renderFlashcard() {
+  haptic();
   const card = state.flash.deck[state.flash.index];
   const label = state.flash.flipped ? "Answer" : "Prompt";
   const text = state.flash.flipped ? card.back : card.front;
@@ -1111,6 +1124,7 @@ function bindUi() {
   if (railToggle && eventRailEl) {
     eventRailEl.classList.add("collapsed");
     railToggle.addEventListener("click", () => {
+      haptic();
       eventRailEl.classList.toggle("collapsed");
       railToggle.classList.toggle("open");
     });
