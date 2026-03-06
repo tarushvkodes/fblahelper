@@ -442,6 +442,55 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
     ]
   };
 
+  /* 5. Full FBLA Mega Folder — supplemental files not already in FBLA Time */
+  const megaFolderFiles = {
+    "Advertising": [
+      "Advertising Competencies _ Task List.docx"
+    ],
+    "Client Service": [
+      "PBL Client Service Case FINAL EDIT.docx",
+      "PBL Client Service Case PRELIMINARY EDIT.docx"
+    ],
+    "Database Design _ Applications": [
+      "Database Design _ Applications Study Guide 2007-10.docx",
+      "Testfrenzy Rehost/Arizona FBLA Test.doc",
+      "Testfrenzy Rehost/Database Practice Test.doc",
+      "Testfrenzy Rehost/Database Practice Test.docx",
+      "Testfrenzy Rehost/Database Test with Visuals.doc",
+      "Testfrenzy Rehost/Lesson 1-7 Database Quizzes.doc"
+    ],
+    "Entrepreneurship": [
+      "Entrepreneurship Study Guide 2010-13.docx"
+    ],
+    "Hospitality Management": [
+      "Hospitality Management Tasks _ Competencies List.docx"
+    ],
+    "Introduction to Business": [
+      "Introduction to Business Study Guide 2007-10.docx",
+      "Introduction to Business Study Guide 2010-13.docx"
+    ],
+    "Introduction to Information Technology": [
+      "Introduction to Information Technology Study Guide 2007-10.docx",
+      "Introduction to Information Technology Study Guide 2010-13.docx",
+      "Introduction to Information Technology Study Guide 2013-16.docx",
+      "Introduction to Information Technology Tasks _ Competencies List.docx",
+      "Technology Concepts Study Guide 2007-10.docx",
+      "Technology Concepts Study Guide 2010-13.docx"
+    ],
+    "Networking Concepts": [
+      "Networking Concepts Tasks _ Competencies List.docx"
+    ],
+    "Organizational Leadership": [
+      "Organizational Leadership Competency _ Task List.docx"
+    ],
+    "Parliamentary Procedure": [
+      "Parliamentary Procedure Study Guide 2007-10.docx"
+    ],
+    "Sports _ Entertainment Management": [
+      "Sports _ Entertainment Management Tasks _ Competencies List.docx"
+    ]
+  };
+
   /* NAP guide — only relevant to Parliamentary Procedure events */
   const napResource = { label: "NAP Study Guide", path: "fblaresources/objective tests/National-Association-of-Parliamentarians-Study-Guide.pdf", category: "study-guide" };
   const parliEvents = ["Parliamentary Procedure Individual", "Parliamentary Procedure Team", "Introduction to Parliamentary Procedure"];
@@ -514,6 +563,18 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
       });
     }
 
+    /* Full FBLA Mega Folder supplemental files */
+    if (folder && megaFolderFiles[folder]) {
+      megaFolderFiles[folder].forEach(filename => {
+        const basename = filename.split("/").pop();
+        docs.push({
+          label: labelFromFile(basename),
+          path: `Full FBLA Mega Folder/${folder}/${filename}`,
+          category: classifyFile(basename)
+        });
+      });
+    }
+
     map[event] = docs;
   });
 
@@ -525,6 +586,19 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
       existing.push({
         label: labelFromFile(filename),
         path: `FBLA Time/FBLA Time/Client Service/${filename}`,
+        category: classifyFile(filename)
+      });
+    });
+    map["Customer Service"] = existing;
+  }
+
+  /* Customer Service → Client Service folder (Full FBLA Mega Folder) */
+  if (megaFolderFiles["Client Service"]) {
+    const existing = map["Customer Service"] || [];
+    megaFolderFiles["Client Service"].forEach(filename => {
+      existing.push({
+        label: labelFromFile(filename),
+        path: `Full FBLA Mega Folder/Client Service/${filename}`,
         category: classifyFile(filename)
       });
     });
