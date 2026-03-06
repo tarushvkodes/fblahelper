@@ -378,9 +378,11 @@ function renderResources(eventName) {
     "roleplay": "Roleplay Samples",
     "production": "Production Tests",
     "reference": "Reference Materials",
+    "format-guide": "Format & Event Guides",
+    "general": "FBLA-Wide Study Guides",
     "resource": "Other Resources"
   };
-  const categoryOrder = ["sample-test", "study-guide", "competencies", "past-test", "roleplay", "production", "reference", "resource"];
+  const categoryOrder = ["sample-test", "study-guide", "competencies", "past-test", "roleplay", "production", "reference", "format-guide", "general", "resource"];
 
   const groups = {};
   resources.forEach(r => {

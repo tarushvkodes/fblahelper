@@ -644,6 +644,18 @@ const EVENT_FILE_RESOURCES = (function buildResourceMap() {
   return map;
 })();
 
+/* ─── General (FBLA-wide) Resources ─── */
+const GENERAL_RESOURCES = [
+  { label: "Competitive Events Study Guide 2007", path: "Full FBLA Mega Folder/fbla_competitive_events_study_guide_102007.pdf", category: "general" },
+  { label: "Competitive Events Study Guide 2010-13", path: "Full FBLA Mega Folder/FBLA_Competitive_Events_Study_Guide__2010-2013_.pdf", category: "general" },
+  { label: "Competitive Events Study Guide 2013-16", path: "Full FBLA Mega Folder/2013-2016 Studyguide.pdf", category: "general" },
+  { label: "Competitive Events Guide 2015-16", path: "Full FBLA Mega Folder/FBLA Competitive Events 2015-16.pdf", category: "general" },
+  { label: "CE Guide 2017-2020", path: "Full FBLA Mega Folder/CE Guide 2017-2020.pdf", category: "general" },
+  { label: "Format Guide — Competitive Events", path: "Full FBLA Mega Folder/Format-Guide-Competitive-Events.pdf", category: "format-guide" }
+];
+
+const PRESENTATION_GUIDE = { label: "Competitive Event Focus Meeting (Presentations)", path: "Full FBLA Mega Folder/Competitive Event Focus Meeting (Presentation Event).pdf", category: "format-guide" };
+
 
 function normalizeQuestionRuntime(q, fallbackSource) {
   if (!q || typeof q.q !== "string" || !Array.isArray(q.options) || q.options.length !== 4) return null;
@@ -887,5 +899,8 @@ function getProductionTasks(eventName) {
 }
 
 function getResourcesForEvent(eventName) {
-  return EVENT_FILE_RESOURCES[eventName] || [];
+  const eventDocs = EVENT_FILE_RESOURCES[eventName] || [];
+  const extras = [...GENERAL_RESOURCES];
+  if (PRESENTATION_EVENTS.has(eventName)) extras.push(PRESENTATION_GUIDE);
+  return [...eventDocs, ...extras];
 }
