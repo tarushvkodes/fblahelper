@@ -871,21 +871,43 @@ button.btn-outline:hover {
   font-weight: 400;
   font-size: 0.92rem;
   line-height: 1.45;
-  transition: all 140ms ease-in-out;
+  cursor: pointer;
+  transition: background 200ms ease-in-out,
+              color 200ms ease-in-out,
+              border-color 200ms ease-in-out,
+              box-shadow 200ms ease-in-out,
+              transform 180ms ease-in-out,
+              font-weight 0ms;
 }
 
 .option:hover {
-  background: var(--panel-warm);
+  background: var(--bg-alt);
   border-color: var(--ink-soft);
+  box-shadow: var(--shadow-xs);
+  transform: translateY(-1px);
+}
+
+.option:active {
+  transform: scale(0.985) translateY(0);
   box-shadow: none;
+  transition-duration: 80ms;
 }
 
 .option.selected {
   border-color: #2980b9;
-  background: rgba(41, 128, 185, 0.09);
+  background: rgba(41, 128, 185, 0.08);
   color: #2980b9;
   font-weight: 600;
-  box-shadow: 0 0 0 1px rgba(41, 128, 185, 0.13);
+  box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.12);
+  transform: none;
+  animation: optionPop 320ms ease-in-out;
+}
+
+@keyframes optionPop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(0.975); }
+  70%  { transform: scale(1.01); }
+  100% { transform: scale(1); }
 }
 
 .option.correct {
@@ -893,6 +915,7 @@ button.btn-outline:hover {
   background: var(--signal-soft);
   color: var(--signal);
   font-weight: 600;
+  animation: optionPop 320ms ease-in-out;
 }
 
 .option.wrong {
@@ -900,6 +923,15 @@ button.btn-outline:hover {
   background: var(--accent-soft);
   color: var(--accent);
   font-weight: 600;
+  animation: optionShake 360ms ease-in-out;
+}
+
+@keyframes optionShake {
+  0%, 100% { transform: translateX(0); }
+  20%      { transform: translateX(-4px); }
+  40%      { transform: translateX(4px); }
+  60%      { transform: translateX(-2px); }
+  80%      { transform: translateX(2px); }
 }
 
 /* --- Results --- */
