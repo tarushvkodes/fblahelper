@@ -283,12 +283,44 @@
       </section>
 
       <section id="prep" class="ws-panel">
-        <div class="module-grid">
-          <article class="module-card">
-            <h3>Session Checklist</h3>
-            <div id="prepChecklist"></div>
+        <div class="prep-layout">
+          <!-- Competition Format Briefing -->
+          <article class="module-card prep-briefing-card">
+            <div class="prep-briefing-head">
+              <h3 id="prepFormatTitle">Competition Format</h3>
+              <span class="prep-format-badge" id="prepFormatBadge"></span>
+            </div>
+            <p id="prepFormatDesc" class="module-note"></p>
+            <div id="prepRoundBreakdown" class="prep-rounds"></div>
           </article>
-          <article class="module-card">
+
+          <!-- Session Checklist with progress -->
+          <article class="module-card prep-checklist-card">
+            <div class="prep-checklist-head">
+              <h3>Session Checklist</h3>
+              <div class="prep-progress">
+                <svg class="prep-ring" viewBox="0 0 36 36">
+                  <circle class="prep-ring-bg" cx="18" cy="18" r="15.9" />
+                  <circle class="prep-ring-fill" id="prepRingFill" cx="18" cy="18" r="15.9" stroke-dasharray="0 100" />
+                </svg>
+                <span id="prepProgressLabel" class="prep-progress-label">0%</span>
+              </div>
+            </div>
+            <div id="prepChecklist"></div>
+            <div class="prep-checklist-actions">
+              <button id="resetPrepBtn" class="btn-outline">Reset Checklist</button>
+            </div>
+          </article>
+
+          <!-- Study Strategy -->
+          <article class="module-card prep-strategy-card">
+            <h3>Study Strategy</h3>
+            <blockquote id="prepTip" class="prep-tip"></blockquote>
+            <button id="newPrepTipBtn" class="btn-outline">Another Tip</button>
+          </article>
+
+          <!-- Production Prep (only shown for production events) -->
+          <article class="module-card prep-production-card" id="prepProductionCard">
             <h3>Production Prep</h3>
             <div id="productionChecklist"></div>
           </article>

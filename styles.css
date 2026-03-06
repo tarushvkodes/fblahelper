@@ -1053,6 +1053,134 @@ button.btn-outline:hover {
   color: var(--ink-muted);
 }
 
+/* --- Prep Tab Layout --- */
+
+.prep-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.prep-briefing-card {
+  grid-column: 1 / -1;
+}
+
+.prep-briefing-head {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.prep-format-badge {
+  display: inline-block;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.prep-rounds {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.65rem;
+}
+
+.prep-round {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
+.prep-round-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.prep-checklist-card {
+  grid-column: 1 / -1;
+}
+
+.prep-checklist-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.prep-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.prep-ring {
+  width: 2.2rem;
+  height: 2.2rem;
+  transform: rotate(-90deg);
+}
+
+.prep-ring-bg {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 3;
+}
+
+.prep-ring-fill {
+  fill: none;
+  stroke: var(--signal);
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dasharray 400ms var(--ease);
+}
+
+.prep-progress-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  min-width: 2rem;
+  text-align: right;
+}
+
+.prep-checklist-actions {
+  margin-top: 0.6rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.prep-strategy-card blockquote {
+  margin: 0.45rem 0 0.75rem;
+  padding: 0.65rem 0.85rem;
+  border-left: 3px solid var(--accent);
+  background: rgba(0, 0, 0, 0.015);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.prep-production-card {
+  grid-column: 1 / -1;
+}
+
 /* --- Quiz nav buttons --- */
 
 #prevQuestionBtn,
@@ -1442,6 +1570,10 @@ button.btn-outline:hover {
 
   .keyboard-hint {
     display: none;
+  }
+
+  .prep-layout {
+    grid-template-columns: 1fr;
   }
 
   .bg-orbit-a { width: 260px; height: 260px; }

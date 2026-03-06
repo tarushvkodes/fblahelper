@@ -597,20 +597,97 @@ const REPORT_EVENTS = new Set([
   "Event Planning"
 ]);
 
-const MEMORY_TACTICS = [
-  "Sort your misses by concept, not by test date.",
-  "Do 2 timed sets before 1 untimed review.",
-  "After every 5 questions, explain one answer aloud.",
-  "In roleplay, deliver your recommendation by the 2-minute mark.",
-  "Close each session with a 90-second brain dump."
-];
+const FORMAT_PREP = {
+  objective: {
+    label: "Objective Test",
+    desc: "You'll take a timed multiple-choice test. Top scores advance to final rounds at NLC.",
+    rounds: ["Timed objective exam (typically 60 min)"],
+    tasks: [
+      "Complete a full-length timed practice exam.",
+      "Review every missed question — write a one-sentence correction for each.",
+      "Drill your 20 weakest topics using flashcards.",
+      "Take a second practice exam and compare your score.",
+      "Build a quick-reference sheet of key formulas, terms, and rules."
+    ]
+  },
+  roleplay: {
+    label: "Objective Test + Roleplay",
+    desc: "You'll take an objective test, then perform an interactive roleplay scenario judged on communication, decisions, and applied business thinking.",
+    rounds: ["Timed objective exam", "Interactive roleplay with judges (7 min prep + 5 min present)"],
+    tasks: [
+      "Complete a timed practice exam and review all misses.",
+      "Run through a roleplay scenario and record yourself.",
+      "Practice your 30-second opening structure: greet → restate problem → outline approach.",
+      "Drill judge follow-up questions — answer each in under 45 seconds.",
+      "Study performance indicators for this event.",
+      "Time your full roleplay response to stay within the 5-minute window."
+    ]
+  },
+  parliamentary: {
+    label: "Objective Test + Parliamentary Demonstration",
+    desc: "You'll take an objective exam on parliamentary procedure and may demonstrate motions, debate, and parliamentary rules under judge evaluation.",
+    rounds: ["Objective exam on parliamentary knowledge", "Parliamentary demonstration round"],
+    tasks: [
+      "Complete a full practice exam on parliamentary procedure.",
+      "Memorize the order of precedence for the 13 ranked motions.",
+      "Practice making, seconding, and debating motions aloud.",
+      "Study the NAP study guide for procedural edge cases.",
+      "Run a mock meeting with proper opening, business, and adjournment."
+    ]
+  },
+  presentation: {
+    label: "Presentation / Interview",
+    desc: "You'll deliver prepared content to judges and handle Q&A. No objective test — pure speaking performance.",
+    rounds: ["Prepared presentation or interview with judges"],
+    tasks: [
+      "Outline your presentation with a clear intro, 3 key points, and a strong close.",
+      "Practice delivering to a timer — aim for 90% of allotted time.",
+      "Record yourself and review for filler words, pacing, and eye contact.",
+      "Prepare for 5 likely judge questions and rehearse concise answers.",
+      "Do one full dress rehearsal with professional attire."
+    ]
+  },
+  production: {
+    label: "Production / Technical Performance",
+    desc: "You'll complete a technical build or performance task scored by rubric. Expect project artifacts, demos, or live technical judging.",
+    rounds: ["Technical production task or project demonstration"],
+    tasks: [
+      "Review the event rubric and identify the highest-weighted categories.",
+      "Complete a timed practice build matching competition constraints.",
+      "Test your output against the rubric — score yourself honestly.",
+      "Prepare your workspace and tools so nothing is missing on competition day.",
+      "Practice explaining your design decisions for the Q&A portion."
+    ]
+  },
+  report: {
+    label: "Chapter / Report + Presentation",
+    desc: "Your team submits written materials and presents outcomes to judges. Scoring covers planning, execution, impact, and communication.",
+    rounds: ["Written report submission", "Team presentation to judges"],
+    tasks: [
+      "Review the rubric and ensure your report covers every required section.",
+      "Rehearse the presentation with all team members and assign speaking roles.",
+      "Time your presentation to fit within the allotted window.",
+      "Prepare for judge Q&A — know your data, sources, and implementation details.",
+      "Proofread the written report one final time for errors and formatting."
+    ]
+  }
+};
 
-const BASE_PREP = [
-  "Complete one timed practice exam and review every miss.",
-  "Run one roleplay scenario and self-score your structure.",
-  "Do one production-style drill under time constraints.",
-  "Refine your 30-second opening and closing statements.",
-  "Build your final-day quick-reference sheet."
+const STRATEGY_TIPS = [
+  "Sort your misses by concept, not by test date — patterns reveal weak spots faster.",
+  "Do 2 timed sets before 1 untimed review — pressure builds recall speed.",
+  "After every 5 questions, explain one answer aloud as if teaching someone.",
+  "In roleplay, deliver your recommendation by the 2-minute mark so judges can ask follow-ups.",
+  "Close each session with a 90-second brain dump of everything you remember.",
+  "Study in 25-minute blocks with 5-minute breaks (Pomodoro) — consistency beats cramming.",
+  "When you miss a question, don't just read the answer — rewrite the question in your own words.",
+  "Practice with distractions occasionally — competition rooms aren't quiet.",
+  "For roleplay events, structure every answer as: situation → action → result.",
+  "Read the competency list for your event — it's the blueprint for what FBLA tests.",
+  "On test day, answer easy questions first to build confidence and bank time.",
+  "For presentation events, pause 2 seconds after key points — it adds authority.",
+  "Review your strongest areas briefly to maintain them, then spend 70% of time on weaknesses.",
+  "Use the explain-it-to-a-5-year-old test: if you can't simplify it, you don't know it well enough."
 ];
 
 const state = {
@@ -1655,7 +1732,7 @@ function buildFlashcards(eventName) {
   state.flash.flipped = false;
   document.getElementById("flashDeckTitle").textContent = `${eventName} — Flashcards`;
   renderFlashcard();
-  document.getElementById("memoryTactics").innerHTML = MEMORY_TACTICS.map((m) => `<li>${m}</li>`).join("");
+  document.getElementById("memoryTactics").innerHTML = STRATEGY_TIPS.slice(0, 5).map((m) => `<li>${m}</li>`).join("");
 }
 
 function renderFlashcard() {
@@ -1667,45 +1744,84 @@ function renderFlashcard() {
 }
 
 function renderPrep(eventName) {
-  const prep = BASE_PREP.map((p) => ({ label: p, key: `${eventName}-${p}` }));
-  document.getElementById("prepChecklist").innerHTML = prep.map((item) => {
-    const checked = localStorage.getItem(`prep-${item.key}`) === "1";
-    return `
-    <label class="check-item${checked ? ' checked' : ''}">
-      <input type="checkbox" data-prep-key="${item.key}" ${checked ? 'checked' : ''}>
-      <span>${item.label}</span>
-    </label>
-  `;
-  }).join("");
+  const format = inferFormat(eventName);
+  const formatInfo = FORMAT_PREP[format] || FORMAT_PREP.objective;
 
-  document.querySelectorAll('[data-prep-key]').forEach(cb => {
-    cb.addEventListener('change', () => {
-      const key = `prep-${cb.dataset.prepKey}`;
-      localStorage.setItem(key, cb.checked ? '1' : '0');
-      cb.closest('.check-item').classList.toggle('checked', cb.checked);
-    });
-  });
+  /* ── Competition Format Briefing ── */
+  document.getElementById("prepFormatTitle").textContent = `Competition Format: ${formatInfo.label}`;
+  document.getElementById("prepFormatBadge").textContent = formatInfo.label;
+  document.getElementById("prepFormatDesc").textContent = formatInfo.desc;
+  document.getElementById("prepRoundBreakdown").innerHTML = formatInfo.rounds
+    .map((r, i) => `<div class="prep-round"><span class="prep-round-num">${i + 1}</span><span>${r}</span></div>`)
+    .join("");
 
-  const prod = getProductionTasks(eventName);
-  const prodItems = prod?.tasks?.length ? prod.tasks : ["No production workflow mapped for this event. Use objective + roleplay prep modules."];
-  document.getElementById("productionChecklist").innerHTML = prodItems.map((task, i) => {
-    const key = `${eventName}-prod-${i}`;
-    const checked = localStorage.getItem(`prod-${key}`) === "1";
-    return `
-    <label class="check-item${checked ? ' checked' : ''}">
-      <input type="checkbox" data-prod-key="${key}" ${checked ? 'checked' : ''}>
+  /* ── Format-aware checklist ── */
+  const tasks = formatInfo.tasks;
+  const prepEl = document.getElementById("prepChecklist");
+  prepEl.innerHTML = tasks.map((task, i) => {
+    const key = `prep2-${eventName}-${format}-${i}`;
+    const checked = localStorage.getItem(key) === "1";
+    return `<label class="check-item${checked ? " checked" : ""}">
+      <input type="checkbox" data-prep2-key="${key}" ${checked ? "checked" : ""}>
       <span>${task}</span>
-    </label>
-  `;
+    </label>`;
   }).join("");
 
-  document.querySelectorAll('[data-prod-key]').forEach(cb => {
-    cb.addEventListener('change', () => {
-      const key = `prod-${cb.dataset.prodKey}`;
-      localStorage.setItem(key, cb.checked ? '1' : '0');
-      cb.closest('.check-item').classList.toggle('checked', cb.checked);
+  function updateProgress() {
+    const total = tasks.length;
+    const done = document.querySelectorAll("[data-prep2-key]:checked").length;
+    const pct = total ? Math.round((done / total) * 100) : 0;
+    document.getElementById("prepProgressLabel").textContent = `${pct}%`;
+    const ring = document.getElementById("prepRingFill");
+    if (ring) ring.setAttribute("stroke-dasharray", `${pct} ${100 - pct}`);
+  }
+
+  document.querySelectorAll("[data-prep2-key]").forEach(cb => {
+    cb.addEventListener("change", () => {
+      localStorage.setItem(cb.dataset.prep2Key, cb.checked ? "1" : "0");
+      cb.closest(".check-item").classList.toggle("checked", cb.checked);
+      updateProgress();
     });
   });
+
+  updateProgress();
+
+  /* ── Reset button ── */
+  document.getElementById("resetPrepBtn").onclick = () => {
+    tasks.forEach((_, i) => localStorage.removeItem(`prep2-${eventName}-${format}-${i}`));
+    renderPrep(eventName);
+  };
+
+  /* ── Study Strategy Tip ── */
+  function showTip() {
+    document.getElementById("prepTip").textContent = STRATEGY_TIPS[Math.floor(Math.random() * STRATEGY_TIPS.length)];
+  }
+  showTip();
+  document.getElementById("newPrepTipBtn").onclick = showTip;
+
+  /* ── Production Prep (conditionally visible) ── */
+  const prod = getProductionTasks(eventName);
+  const prodCard = document.getElementById("prepProductionCard");
+  if (prod?.tasks?.length) {
+    prodCard.style.display = "";
+    document.getElementById("productionChecklist").innerHTML = prod.tasks.map((task, i) => {
+      const key = `prod-${eventName}-prod-${i}`;
+      const checked = localStorage.getItem(key) === "1";
+      return `<label class="check-item${checked ? " checked" : ""}">
+        <input type="checkbox" data-prod-key="${key}" ${checked ? "checked" : ""}>
+        <span>${task}</span>
+      </label>`;
+    }).join("");
+
+    document.querySelectorAll("[data-prod-key]").forEach(cb => {
+      cb.addEventListener("change", () => {
+        localStorage.setItem(cb.dataset.prodKey, cb.checked ? "1" : "0");
+        cb.closest(".check-item").classList.toggle("checked", cb.checked);
+      });
+    });
+  } else {
+    prodCard.style.display = "none";
+  }
 }
 
 /* ─── Study History & Streak ─── */
