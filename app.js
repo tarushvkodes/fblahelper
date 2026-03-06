@@ -64,19 +64,19 @@ const REPORT_EVENTS = new Set([
 ]);
 
 const MEMORY_TACTICS = [
-  "Split misses by concept, not by test date.",
-  "Do 2 timed sets before 1 untimed review pass.",
-  "Explain one answer out loud after every 5 questions.",
-  "In roleplay, state your recommendation by minute 2.",
-  "End each session with a 90-second memory dump."
+  "Sort your misses by concept, not by test date.",
+  "Do 2 timed sets before 1 untimed review.",
+  "After every 5 questions, explain one answer aloud.",
+  "In roleplay, deliver your recommendation by the 2-minute mark.",
+  "Close each session with a 90-second brain dump."
 ];
 
 const BASE_PREP = [
-  "Run one timed objective set and review every miss.",
-  "Practice one roleplay and score your own structure.",
-  "Do one production-style workflow under constraints.",
-  "Refine your 30-second opening and closing.",
-  "Build your final-day quick review sheet."
+  "Complete one timed practice exam and review every miss.",
+  "Run one roleplay scenario and self-score your structure.",
+  "Do one production-style drill under time constraints.",
+  "Refine your 30-second opening and closing statements.",
+  "Build your final-day quick-reference sheet."
 ];
 
 const state = {
@@ -289,7 +289,7 @@ function buildQuizAiPrompt(eventName, question, chosenIndex) {
     : "I did not select an answer.";
 
   return [
-    `You are tutoring an FBLA competitor on an official ${eventName} multiple-choice question from a packaged HQ bank.`,
+    `You are tutoring an FBLA competitor on an official ${eventName} multiple-choice question from the official bank.`,
     "",
     "Do not give a shallow answer. Teach the concept behind the question clearly and concretely.",
     "",
@@ -325,14 +325,14 @@ function cleanStudyText(text) {
 function updateQuizAiHelp(question, questionIndex) {
   if (!state.quiz.submitted || !question || !isOfficialQuestionSource(question.source)) {
     setControlVisibility(quizUi.aiHelp, false);
-    quizUi.aiHelpNote.textContent = "Submit an exam and review an HQ question to generate a tutoring prompt you can paste into another AI chat.";
+    quizUi.aiHelpNote.textContent = "After submitting, review any official question to generate a tutoring prompt for ChatGPT, Gemini, or Claude.";
     quizUi.aiPrompt.value = "";
     return;
   }
 
   const chosenIndex = state.quiz.answers[questionIndex];
   quizUi.aiPrompt.value = buildQuizAiPrompt(state.currentEvent, question, chosenIndex);
-  quizUi.aiHelpNote.textContent = "This question came from the official packaged bank. Paste the prompt below into another AI chat to get a deeper explanation than the HQ key alone provides.";
+  quizUi.aiHelpNote.textContent = "This is an official bank question. Paste the prompt below into ChatGPT, Gemini, or Claude for a deeper explanation.";
   setControlVisibility(quizUi.aiHelp, true);
 }
 
@@ -349,7 +349,7 @@ function resetRoleplayPanel(eventName, message) {
   const voiceSelect = document.getElementById("voiceScenarioSelect");
   const voiceOutput = document.getElementById("voicePromptOutput");
   if (voiceSelect) voiceSelect.innerHTML = "";
-  if (voiceOutput) voiceOutput.value = "Voice practice is not available because this event does not include an interactive roleplay round.";
+  if (voiceOutput) voiceOutput.value = "Voice practice is not available — this event does not include a roleplay round.";
 }
 
 async function copyTextWithFeedback(text, successTarget, successMessage, failureMessage) {
@@ -487,7 +487,7 @@ function buildVoicePracticePrompt(eventName, scenario) {
 }
 
 function buildRoleplayAIPrompt(eventName, scenario, responseText) {
-  const indicators = (scenario?.indicators || []).map((item) => `- ${item}`).join("\n") || "- No explicit performance indicators were packaged for this scenario.";
+  const indicators = (scenario?.indicators || []).map((item) => `- ${item}`).join("\n") || "- No performance indicators listed for this scenario.";
   const responseBlock = responseText && responseText.trim()
     ? responseText.trim()
     : "[PASTE THE COMPETITOR RESPONSE HERE]";
@@ -504,7 +504,7 @@ function buildRoleplayAIPrompt(eventName, scenario, responseText) {
     "- Professionalism, specificity, and actionability",
     "",
     "Scenario:",
-    scenario?.prompt || "No packaged scenario prompt available.",
+    scenario?.prompt || "No scenario prompt available.",
     "",
     "Performance indicators:",
     indicators,
@@ -540,8 +540,8 @@ function updateQuizAvailability() {
   const modeSelect = document.getElementById("quizBankMode");
   const hqOption = modeSelect.querySelector('option[value="hq"]');
   const hqAiOption = modeSelect.querySelector('option[value="hq-ai"]');
-  if (hqOption) hqOption.textContent = `Official Packaged (${hqAvailable})`;
-  if (hqAiOption) hqAiOption.textContent = `Official + Pregenerated AI (${hqAiAvailable})`;
+  if (hqOption) hqOption.textContent = `Official (${hqAvailable})`;
+  if (hqAiOption) hqAiOption.textContent = `Official + AI (${hqAiAvailable})`;
 
   const btn20 = document.getElementById("launchTwentyBtn");
   const btn50 = document.getElementById("launchFiftyBtn");
@@ -578,8 +578,8 @@ function updateQuizAvailability() {
   else btnMax.classList.add("official-target");
 
   document.getElementById("officialFormatNote").textContent = mode === "hq"
-    ? `Official packaged bank active (${hqAvailable} available).`
-    : `Official plus pregenerated AI bank active (${hqAiAvailable} available).`;
+    ? `Official bank active — ${hqAvailable} questions.`
+    : `Official + AI bank active — ${hqAiAvailable} questions.`;
 }
 
 function getRoleplayDeck(eventName) {
@@ -687,7 +687,7 @@ function openEvent(eventName, tabName = "overview") {
   renderEventList();
 
   const format = inferFormat(eventName);
-  document.getElementById("eventFormatLabel").textContent = `${format} event workspace`;
+  document.getElementById("eventFormatLabel").textContent = `${format} event`;
   document.getElementById("activeEventTitle").textContent = eventName;
 
   const combinedCount = getDeckForMode(eventName, getQuizBankMode()).length;
@@ -704,14 +704,14 @@ function openEvent(eventName, tabName = "overview") {
   }
 
   document.getElementById("activeEventMeta").textContent = roleplayEnabled
-    ? `${combinedCount} available quiz questions, ${roleplayCount} roleplay variants, and packaged study tools for ${eventName}.`
-    : `${combinedCount} available quiz questions and packaged study tools for ${eventName}. This event does not include an interactive roleplay round.`;
+    ? `${combinedCount} questions · ${roleplayCount} roleplay scenarios · flashcards & prep tools.`
+    : `${combinedCount} questions · flashcards & prep tools. No roleplay round for this event.`;
   document.getElementById("overviewRoleplayCount").textContent = roleplayEnabled
-    ? `${roleplayCount} roleplay variants available.`
-    : "No interactive roleplay round for this event.";
+    ? `${roleplayCount} scenarios available.`
+    : "No roleplay round for this event.";
   document.getElementById("overviewRoleplayHint").textContent = roleplayEnabled
-    ? `Use scenario variants to practice different judge angles for ${eventName}.`
-    : `Roleplay Lab is hidden for ${eventName} because the official format guide does not list a roleplay round.`;
+    ? `Practice different judge angles and performance indicators.`
+    : `The official format guide does not list a roleplay round for ${eventName}.`;
   updateQuizAvailability();
 
   buildFlashcards(eventName);
@@ -753,7 +753,7 @@ function startExam() {
 
   const base = getDeckForMode(state.currentEvent, mode);
   if (!base.length) {
-    quizUi.card.innerHTML = "<p>No question bank available for this event yet.</p>";
+    quizUi.card.innerHTML = "<p>No questions available for this event yet.</p>";
     return;
   }
 
@@ -770,14 +770,14 @@ function startExam() {
   state.quiz.timerId = setInterval(() => {
     state.quiz.secondsLeft -= 1;
     quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
-    const urgent = state.quiz.secondsLeft <= 60;
+    const urgent = state.quiz.secondsLeft <= 30;
     quizUi.timer.classList.toggle("urgent", urgent);
     if (state.quiz.secondsLeft <= 0) {
       submitExam();
     }
   }, 1000);
 
-  quizUi.results.innerHTML = "<p>Submit exam to see full right/wrong explanations for every question and option.</p>";
+  quizUi.results.innerHTML = "<p>Submit your exam to see detailed explanations for every question.</p>";
   updateQuizAiHelp(null, null);
   updateProgressBar();
   renderQuestion();
@@ -873,14 +873,14 @@ function submitExam() {
       return `${toAnswerLabel(q, idx)}: ${q.optionExplanations[idx]}`;
     }
 
-    if (idx === q.answer) return `${toAnswerLabel(q, idx)}: This is the keyed correct option from the packaged bank.`;
+    if (idx === q.answer) return `${toAnswerLabel(q, idx)}: This is the correct answer.`;
     return `${toAnswerLabel(q, idx)}: Ask AI for detailed feedback.`;
   };
 
   const toExplanation = (q) => {
     if (q?.explain && q.explain.trim()) return q.explain.trim();
     if (Number.isInteger(q?.answer) && isOfficialQuestionSource(q.source)) return "Ask AI for detailed feedback.";
-    return "Packaged bank feedback is not available for this item.";
+    return "No feedback available for this item.";
   };
 
   const missedTopics = [];
@@ -915,21 +915,21 @@ function submitExam() {
   });
 
   const pct = total ? Math.round((correct / total) * 100) : 0;
-  const verdict = pct >= 85 ? "Nationals pace" : pct >= 70 ? "Solid" : "Needs reinforcement";
+  const verdict = pct >= 85 ? "Nationals pace" : pct >= 70 ? "Solid" : "Needs work";
   const recoveryAdvice = pct >= 85
-    ? "Run a second set in Official + Pregenerated AI mode to widen coverage without changing the event focus."
+    ? "Strong result. Try Official + AI mode for broader coverage, or run another set to lock in consistency."
     : pct >= 70
-      ? "Review every miss, flip through flashcards for this event, then rerun a shorter timed set in Official mode."
-      : "Slow down. Review the missed items, restate the correct answer out loud, and use the Flashcards and Prep Checklist before another full exam.";
+      ? "Review every miss, flip through flashcards, then rerun a shorter timed set."
+      : "Slow down. Review missed items, restate the correct answer aloud, and use Flashcards and Prep before your next exam.";
   const missPreview = missedTopics.length
     ? `<p><strong>Missed prompts to revisit:</strong> ${missedTopics.slice(0, 3).join(" | ")}${missedTopics.length > 3 ? " ..." : ""}</p>`
     : "";
 
   quizUi.results.innerHTML = `
-    <h3>Exam Result</h3>
-    <p><strong>${correct}/${total}</strong> (${pct}%) - ${verdict}</p>
-    <p><strong>Recovery advice:</strong> ${recoveryAdvice}</p>
-    <p class="module-note">When you review an official HQ question above, the app now generates a tutoring prompt you can paste into another AI chat for a fuller explanation.</p>
+    <h3>Results</h3>
+    <p><strong>${correct}/${total}</strong> (${pct}%) — ${verdict}</p>
+    <p><strong>Next steps:</strong> ${recoveryAdvice}</p>
+    <p class="module-note">Review any official question above to generate a tutoring prompt you can paste into ChatGPT, Gemini, or Claude.</p>
     ${missPreview}
     <p class="eyebrow">Question Review</p>
     <div class="exam-review">${reviewRows.join("")}</div>
@@ -941,7 +941,7 @@ function submitExam() {
 function renderRoleplay(eventName) {
   const scenarios = getRoleplayDeck(eventName);
   if (!hasOfficialRoleplay(eventName) || !scenarios.length) {
-    resetRoleplayPanel(eventName, "This event does not include an interactive roleplay round in the current official format guide.");
+    resetRoleplayPanel(eventName, "This event does not include a roleplay round.");
     return;
   }
 
@@ -979,7 +979,7 @@ function renderRoleplay(eventName) {
     const s = scenarios[Number(roleplayUi.select.value)] || scenarios[0];
     const text = roleplayUi.response.value.trim();
     if (!text) {
-      roleplayUi.score.textContent = "Write your draft first.";
+      roleplayUi.score.textContent = "Write your response first.";
       return;
     }
 
@@ -999,7 +999,7 @@ function renderRoleplay(eventName) {
     score = Math.min(100, score);
 
     const band = score >= 85 ? "Final-round ready" : score >= 70 ? "Strong base" : "Needs structure";
-    roleplayUi.score.textContent = `Draft Score: ${score}/100 - ${band}. Indicator coverage: ${indicatorHits}/${(s.indicators || []).length}.`;
+    roleplayUi.score.textContent = `Score: ${score}/100 — ${band}. Indicator coverage: ${indicatorHits}/${(s.indicators || []).length}.`;
     updateAiPrompt(s);
   };
 
@@ -1067,7 +1067,7 @@ function buildFlashcards(eventName) {
   const generated = base.map((q) => {
     const answerLine = Number.isInteger(q.answer)
       ? q.options[q.answer]
-      : "No packaged answer available.";
+      : "No answer available.";
     const cleanedExplain = q.explain && q.explain.trim()
       ? cleanStudyText(q.explain)
       : "";
@@ -1080,7 +1080,7 @@ function buildFlashcards(eventName) {
   ];
   state.flash.index = 0;
   state.flash.flipped = false;
-  document.getElementById("flashDeckTitle").textContent = `${eventName} Flashcards`;
+  document.getElementById("flashDeckTitle").textContent = `${eventName} — Flashcards`;
   renderFlashcard();
   document.getElementById("memoryTactics").innerHTML = MEMORY_TACTICS.map((m) => `<li>${m}</li>`).join("");
 }

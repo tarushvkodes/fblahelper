@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FBLA Helper</title>
+  <title>FBLA Helper — Competitive Event Prep</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 
   <header class="topbar">
     <div>
-      <p class="eyebrow">FBLA Competitive Prep</p>
+      <p class="eyebrow">Competitive Event Prep</p>
       <h1>FBLA Helper</h1>
     </div>
     <div class="header-stats">
@@ -38,35 +38,35 @@
   <main class="shell">
     <div class="rail-overlay" id="railOverlay"></div>
     <aside class="event-rail panel" id="eventRail">
-      <button class="rail-toggle" id="railToggle">Event Atlas</button>
+      <button class="rail-toggle" id="railToggle">Browse Events</button>
       <div class="rail-head">
-        <h2>Event Atlas</h2>
-        <p>Select any event to jump directly into its workspace.</p>
+        <h2>Events</h2>
+        <p>Pick an event to open its workspace.</p>
       </div>
-      <input id="eventSearch" type="search" placeholder="Find an event">
+      <input id="eventSearch" type="search" placeholder="Search events…">
       <div id="eventList" class="event-list"></div>
     </aside>
 
     <section class="workspace panel" id="workspace">
       <div class="workspace-head">
         <div>
-          <p class="eyebrow" id="eventFormatLabel">Select an event</p>
-          <h2 id="activeEventTitle">Choose an Event</h2>
-          <p id="activeEventMeta">Click an event card from the left rail to open quiz, roleplay, flashcards, and prep tools.</p>
+          <p class="eyebrow" id="eventFormatLabel">No event selected</p>
+          <h2 id="activeEventTitle">Select an Event</h2>
+          <p id="activeEventMeta">Choose an event from the sidebar to access practice exams, roleplay drills, flashcards, and prep tools.</p>
         </div>
         <div class="workspace-actions">
           <button id="openOverviewBtn">Overview</button>
-          <button id="openQuizBtn">Exam Builder</button>
-          <button id="openRoleplayBtn">Roleplay Lab</button>
+          <button id="openQuizBtn">Practice Exam</button>
+          <button id="openRoleplayBtn">Roleplay</button>
         </div>
       </div>
 
       <nav class="workspace-tabs">
         <button class="ws-tab active" data-ws-tab="overview">Overview</button>
-        <button class="ws-tab" data-ws-tab="quiz">Exam Builder</button>
-        <button class="ws-tab" data-ws-tab="roleplay">Roleplay Lab</button>
+        <button class="ws-tab" data-ws-tab="quiz">Practice Exam</button>
+        <button class="ws-tab" data-ws-tab="roleplay">Roleplay</button>
         <button class="ws-tab" data-ws-tab="flashcards">Flashcards</button>
-        <button class="ws-tab" data-ws-tab="prep">Prep Checklist</button>
+        <button class="ws-tab" data-ws-tab="prep">Prep</button>
       </nav>
 
       <section id="overview" class="ws-panel active">
@@ -79,13 +79,13 @@
               <button id="launchHundredBtn">100Q</button>
               <button id="launchMaxBtn">Max</button>
             </div>
-            <p class="module-note">Timer runs at FBLA pace: 60 seconds per question.</p>
+            <p class="module-note">Timed at FBLA pace — 30 seconds per question.</p>
             <p id="officialFormatNote" class="module-note"></p>
           </article>
           <article class="module-card">
             <h3>Roleplay Scenarios</h3>
-            <p id="overviewRoleplayCount">0 scenario variants available.</p>
-            <p id="overviewRoleplayHint" class="module-note">Each scenario includes judge prompts and scoring indicators for targeted reps.</p>
+            <p id="overviewRoleplayCount">0 scenarios available.</p>
+            <p id="overviewRoleplayHint" class="module-note">Each scenario includes judge prompts and performance indicators.</p>
           </article>
         </div>
       </section>
@@ -93,10 +93,10 @@
       <section id="quiz" class="ws-panel">
         <div class="quiz-toolbar">
           <div class="field-block">
-            <label for="quizBankMode">Question Set</label>
+            <label for="quizBankMode">Question Bank</label>
             <select id="quizBankMode">
-              <option value="hq" selected>HQ Only</option>
-              <option value="hq-ai">HQ + AI (Cleaned)</option>
+              <option value="hq" selected>Official Only</option>
+              <option value="hq-ai">Official + AI</option>
             </select>
           </div>
           <div class="field-block">
@@ -110,9 +110,9 @@
           </div>
           <div class="field-block">
             <label>Timing</label>
-            <p class="timing-lock">FBLA pace: 1 minute per question</p>
+            <p class="timing-lock">FBLA pace — 30s per question</p>
           </div>
-          <button id="startExamBtn">Generate Exam</button>
+          <button id="startExamBtn" class="btn-accent">Start Exam</button>
         </div>
 
         <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressBar" style="width:0%"></div></div>
@@ -132,12 +132,12 @@
         </div>
 
         <article id="quizCard" class="quiz-card">
-          <p>Generate an exam to begin.</p>
+          <p>Configure your exam above and press Start.</p>
         </article>
 
         <article id="quizAiHelp" class="quiz-card is-hidden">
-          <h3>AI Help For HQ Questions</h3>
-          <p id="quizAiHelpNote" class="module-note">Submit an exam and review an HQ question to generate a tutoring prompt you can paste into another AI chat.</p>
+          <h3>AI Tutor Prompt</h3>
+          <p id="quizAiHelpNote" class="module-note">After submitting, review any official question to generate a tutoring prompt for ChatGPT, Gemini, or Claude.</p>
           <textarea id="quizAiPrompt" rows="11" readonly></textarea>
           <div class="row">
             <button id="copyQuizAiPromptBtn">Copy AI Help Prompt</button>
@@ -145,47 +145,47 @@
         </article>
 
         <div class="row">
-          <button id="prevQuestionBtn">Previous</button>
-          <button id="nextQuestionBtn">Next</button>
-          <button id="submitExamBtn">Submit Exam</button>
+          <button id="prevQuestionBtn" class="btn-outline">← Prev</button>
+          <button id="nextQuestionBtn" class="btn-outline">Next →</button>
+          <button id="submitExamBtn" class="btn-accent">Submit</button>
         </div>
-        <p class="keyboard-hint">Use <kbd>←</kbd> <kbd>→</kbd> to navigate, <kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>D</kbd> to answer</p>
+        <p class="keyboard-hint"><kbd>←</kbd> <kbd>→</kbd> navigate · <kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>D</kbd> answer</p>
 
         <div id="examResults" class="exam-results"></div>
       </section>
 
       <section id="roleplay" class="ws-panel">
         <nav class="roleplay-subtabs">
-          <button class="rp-subtab active" data-rp-tab="scenarioLab">Scenario Lab</button>
+          <button class="rp-subtab active" data-rp-tab="scenarioLab">Written Practice</button>
           <button class="rp-subtab" data-rp-tab="voicePractice">Voice Practice</button>
         </nav>
 
         <div id="scenarioLab" class="rp-subpanel active">
           <div class="roleplay-layout">
             <article class="module-card">
-              <label for="scenarioSelect">Scenario Variant</label>
+              <label for="scenarioSelect">Scenario</label>
               <select id="scenarioSelect"></select>
               <div id="scenarioPrompt" class="scenario-box"></div>
               <div id="roleplayDocLinks" class="doc-link-list"></div>
               <p id="roleplayDocHint" class="module-note"></p>
-              <button id="newJudgeQuestionBtn">New Judge Question</button>
+              <button id="newJudgeQuestionBtn" class="btn-outline">Random Judge Question</button>
               <p id="judgeQuestion" class="judge-q"></p>
             </article>
 
             <article class="module-card">
-              <h3>Response Draft</h3>
-              <textarea id="roleplayResponse" rows="10" placeholder="Type your roleplay response here"></textarea>
+              <h3>Your Response</h3>
+              <textarea id="roleplayResponse" rows="10" placeholder="Draft your response here…"></textarea>
               <div class="row">
-                <button id="gradeRoleplayBtn">Grade Draft</button>
-                <button id="clearRoleplayBtn">Clear</button>
+                <button id="gradeRoleplayBtn" class="btn-accent">Grade</button>
+                <button id="clearRoleplayBtn" class="btn-outline">Clear</button>
               </div>
               <p id="roleplayScore"></p>
               <ul id="roleplayIndicators" class="indicator-list"></ul>
               <h3>AI Grading Prompt</h3>
-              <p class="module-note">Paste this prompt into an AI grader with your response to get a fuller critique.</p>
+              <p class="module-note">Paste into ChatGPT, Gemini, or Claude for a detailed critique of your response.</p>
               <textarea id="roleplayAiPrompt" rows="12" readonly></textarea>
               <div class="row">
-                <button id="copyRoleplayPromptBtn">Copy AI Prompt</button>
+                <button id="copyRoleplayPromptBtn">Copy Prompt</button>
               </div>
             </article>
           </div>
@@ -193,16 +193,16 @@
 
         <div id="voicePractice" class="rp-subpanel">
           <article class="module-card voice-practice-card">
-            <h3>Voice Practice Mode</h3>
-            <p class="module-note">Copy this prompt into <strong>Gemini Live</strong>, <strong>ChatGPT Advanced Voice</strong>, <strong>Grok Voice</strong>, or <strong>Claude Voice</strong>. The AI will act as your FBLA judge and walk you through a full roleplay session, then debrief you at the end.</p>
+            <h3>Voice Practice</h3>
+            <p class="module-note">Copy this prompt into <strong>Gemini Live</strong>, <strong>ChatGPT Voice</strong>, <strong>Grok Voice</strong>, or <strong>Claude Voice</strong>. The AI will act as your FBLA judge, run a full roleplay, and debrief you afterward.</p>
             <div class="field-block">
               <label for="voiceScenarioSelect">Scenario</label>
               <select id="voiceScenarioSelect"></select>
             </div>
             <textarea id="voicePromptOutput" rows="20" readonly class="voice-prompt-textarea"></textarea>
             <div class="row">
-              <button id="copyVoicePromptBtn">Copy Voice Prompt</button>
-              <button id="regenerateVoicePromptBtn" class="btn-outline">Randomize Scenario</button>
+              <button id="copyVoicePromptBtn">Copy Prompt</button>
+              <button id="regenerateVoicePromptBtn" class="btn-outline">Shuffle Scenario</button>
             </div>
             <p id="voicePromptStatus" class="module-note"></p>
           </article>
@@ -212,13 +212,13 @@
       <section id="flashcards" class="ws-panel">
         <div class="module-grid">
           <article class="module-card">
-            <h3 id="flashDeckTitle">Event Flashcards</h3>
+            <h3 id="flashDeckTitle">Flashcards</h3>
             <div id="flashCard" class="flash-card" tabindex="0" role="button" aria-label="Flip flashcard"></div>
             <div class="row">
               <button id="flipCardBtn" class="btn-outline">Flip</button>
               <button id="nextCardBtn" class="btn-outline">Next</button>
             </div>
-            <p class="keyboard-hint"><kbd>Space</kbd> to flip, <kbd>→</kbd> for next card</p>
+            <p class="keyboard-hint"><kbd>Space</kbd> flip · <kbd>→</kbd> next</p>
           </article>
           <article class="module-card">
             <h3>Memory Tactics</h3>
@@ -230,11 +230,11 @@
       <section id="prep" class="ws-panel">
         <div class="module-grid">
           <article class="module-card">
-            <h3>Execution Checklist</h3>
+            <h3>Session Checklist</h3>
             <div id="prepChecklist"></div>
           </article>
           <article class="module-card">
-            <h3>Production Tasks</h3>
+            <h3>Production Prep</h3>
             <div id="productionChecklist"></div>
           </article>
         </div>
