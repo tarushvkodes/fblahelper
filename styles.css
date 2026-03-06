@@ -1095,7 +1095,8 @@ button.btn-outline:hover {
   font-weight: 600;
 }
 
-/* --- Responsive: Tablet (iPad portrait & small laptops) --- */
+/* --- Responsive: Tablet & iPad (≤1180px) --- */
+/* Event rail becomes an overlay bottom sheet; workspace gets full width. */
 
 @media (max-width: 1180px) {
   .topbar {
@@ -1110,7 +1111,7 @@ button.btn-outline:hover {
   }
 
   .shell {
-    grid-template-columns: 260px minmax(0, 1fr);
+    grid-template-columns: 1fr;
     padding: 0.5rem 1rem 2.5rem;
   }
 
@@ -1134,15 +1135,12 @@ button.btn-outline:hover {
   .quiz-toolbar > button {
     grid-column: 1 / -1;
   }
-}
 
-/* --- Responsive: Tablet narrow / large phone landscape --- */
-
-@media (max-width: 900px) {
-  .shell {
-    grid-template-columns: 1fr;
-    padding: 0.5rem 0.85rem 2.5rem;
+  .quiz-status {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  /* --- Bottom-sheet event rail --- */
 
   .event-rail {
     position: fixed;
@@ -1235,7 +1233,7 @@ button.btn-outline:hover {
     font-size: 1.15rem;
   }
 
-  /* Collapsible event groups on mobile */
+  /* Collapsible event groups */
   .event-group-title {
     cursor: pointer;
     display: flex;
@@ -1288,13 +1286,9 @@ button.btn-outline:hover {
     display: flex;
   }
 
-  .module-grid,
-  .overview-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .quiz-status {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* Hide workspace action buttons — tabs handle navigation */
+  .workspace-actions {
+    display: none;
   }
 }
 
@@ -1869,7 +1863,7 @@ button.btn-outline:hover {
 
 /* --- New Feature Responsive --- */
 
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
   .stats-summary {
     grid-template-columns: repeat(2, 1fr);
   }

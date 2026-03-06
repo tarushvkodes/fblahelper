@@ -1215,7 +1215,7 @@ function openEvent(eventName, tabName = "overview") {
   state.currentEvent = eventName;
 
   /* Auto-close bottom sheet on mobile */
-  if (window.__closeRail && window.matchMedia("(max-width: 900px)").matches) {
+  if (window.__closeRail && window.matchMedia("(max-width: 1180px)").matches) {
     window.__closeRail();
   }
 
@@ -2117,7 +2117,7 @@ function bindUi() {
   const railToggle = document.getElementById("railToggle");
   const eventRailEl = document.getElementById("eventRail");
   const railOverlay = document.getElementById("railOverlay");
-  const isMobileRail = () => window.matchMedia("(max-width: 900px)").matches;
+  const isMobileRail = () => window.matchMedia("(max-width: 1180px)").matches;
 
   function closeRail() {
     if (!eventRailEl) return;
