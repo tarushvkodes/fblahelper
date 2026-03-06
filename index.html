@@ -32,6 +32,10 @@
         <span id="statRoleplays">0</span>
         <p>Roleplays</p>
       </div>
+      <div class="streak-badge" id="streakBadge">
+        <span id="streakCount">0</span>
+        <p>Day Streak</p>
+      </div>
     </div>
   </header>
 
@@ -67,6 +71,7 @@
         <button class="ws-tab" data-ws-tab="roleplay">Roleplay</button>
         <button class="ws-tab" data-ws-tab="flashcards">Flashcards</button>
         <button class="ws-tab" data-ws-tab="prep">Prep</button>
+        <button class="ws-tab" data-ws-tab="stats">Stats</button>
       </nav>
 
       <section id="overview" class="ws-panel active">
@@ -86,6 +91,20 @@
             <h3>Roleplay Scenarios</h3>
             <p id="overviewRoleplayCount">0 scenarios available.</p>
             <p id="overviewRoleplayHint" class="module-note">Each scenario includes judge prompts and performance indicators.</p>
+          </article>
+          <article class="module-card">
+            <h3>Your Progress</h3>
+            <div id="overviewQuickStats">
+              <p class="module-note">Complete an exam to start tracking your progress.</p>
+            </div>
+          </article>
+          <article class="module-card">
+            <h3>Review Misses</h3>
+            <p id="overviewMissCount" class="module-note">Take an exam to start collecting missed questions.</p>
+            <div class="row">
+              <button id="reviewMissesBtn" class="btn-accent" disabled>Drill Missed Questions</button>
+              <button id="clearMissesBtn" class="btn-outline">Clear Misses</button>
+            </div>
           </article>
         </div>
       </section>
@@ -161,6 +180,36 @@
         </nav>
 
         <div id="scenarioLab" class="rp-subpanel active">
+          <article class="module-card rp-timer-card">
+            <div class="rp-timer-head">
+              <h3>Competition Timer</h3>
+              <div class="rp-timer-config">
+                <div class="field-block">
+                  <label for="rpPrepTime">Prep</label>
+                  <select id="rpPrepTime">
+                    <option value="5">5 min</option>
+                    <option value="10" selected>10 min</option>
+                  </select>
+                </div>
+                <div class="field-block">
+                  <label for="rpPresentTime">Present</label>
+                  <select id="rpPresentTime">
+                    <option value="5">5 min</option>
+                    <option value="7">7 min</option>
+                    <option value="10" selected>10 min</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="rp-timer-body">
+              <p class="rp-timer-phase" id="rpTimerPhase">Prep Time</p>
+              <p class="rp-timer-clock" id="rpTimerClock">10:00</p>
+              <div class="row">
+                <button id="rpTimerStartBtn" class="btn-accent">Start Timer</button>
+                <button id="rpTimerResetBtn" class="btn-outline">Reset</button>
+              </div>
+            </div>
+          </article>
           <div class="roleplay-layout">
             <article class="module-card">
               <label for="scenarioSelect">Scenario</label>
@@ -237,6 +286,51 @@
             <h3>Production Prep</h3>
             <div id="productionChecklist"></div>
           </article>
+        </div>
+      </section>
+
+      <section id="stats" class="ws-panel">
+        <div class="stats-summary">
+          <div class="stat-tile">
+            <span id="statTotalExams">0</span>
+            <p>Exams Taken</p>
+          </div>
+          <div class="stat-tile">
+            <span id="statAvgScore">&mdash;</span>
+            <p>Avg. Score</p>
+          </div>
+          <div class="stat-tile">
+            <span id="statBestScore">&mdash;</span>
+            <p>Best Score</p>
+          </div>
+          <div class="stat-tile">
+            <span id="statStudyStreak">0</span>
+            <p>Day Streak</p>
+          </div>
+        </div>
+
+        <div class="module-grid">
+          <article class="module-card stats-chart-card">
+            <h3>Score Trend</h3>
+            <p class="module-note" id="statsChartScope">All events</p>
+            <div id="scoreChart" class="score-chart"></div>
+            <p id="scoreChartEmpty" class="module-note">Take an exam to see your score trend.</p>
+          </article>
+          <article class="module-card">
+            <h3>Weakest Areas</h3>
+            <div id="weakestAreas"></div>
+            <p id="weakestEmpty" class="module-note">Complete exams across events to identify weak areas.</p>
+          </article>
+        </div>
+
+        <article class="module-card" style="margin-top:0.75rem">
+          <h3>Recent Exams</h3>
+          <div id="recentExams"></div>
+        </article>
+
+        <div class="row" style="margin-top:0.75rem">
+          <button id="clearHistoryBtn" class="btn-outline">Clear History</button>
+          <button id="exportHistoryBtn" class="btn-outline">Export Stats</button>
         </div>
       </section>
     </section>

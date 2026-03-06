@@ -1471,3 +1471,366 @@ button.btn-outline:hover {
     padding: 0.7rem 0.65rem;
   }
 }
+
+/* ═══════════════════════════════════════════
+   New Features: Streak · Flags · Timer · Stats
+   ═══════════════════════════════════════════ */
+
+/* --- Streak Badge --- */
+
+.streak-badge {
+  position: relative;
+  transition: transform 180ms var(--ease), box-shadow 180ms ease, border-color 200ms ease;
+}
+
+.streak-badge.active {
+  border-color: rgba(232, 126, 48, 0.3);
+  background: rgba(232, 126, 48, 0.07);
+}
+
+.streak-badge.active span {
+  color: #d4722a;
+}
+
+.streak-badge span::before {
+  content: "🔥 ";
+  font-size: 0.85rem;
+}
+
+/* --- Question Flag Button --- */
+
+.quiz-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.quiz-card-head h3 {
+  flex: 1;
+}
+
+.flag-btn {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: var(--panel-solid);
+  color: var(--ink-muted);
+  font-size: 1.05rem;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 160ms var(--ease);
+}
+
+.flag-btn:hover {
+  border-color: #d4722a;
+  color: #d4722a;
+  background: rgba(212, 114, 42, 0.06);
+  box-shadow: none;
+}
+
+.flag-btn.flagged {
+  background: rgba(212, 114, 42, 0.12);
+  border-color: #d4722a;
+  color: #d4722a;
+}
+
+.review-flag {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #d4722a;
+  vertical-align: middle;
+}
+
+/* --- Roleplay Competition Timer --- */
+
+.rp-timer-card {
+  margin-bottom: 0.8rem;
+}
+
+.rp-timer-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.rp-timer-config {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rp-timer-config .field-block {
+  min-width: 80px;
+}
+
+.rp-timer-config select {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.82rem;
+}
+
+.rp-timer-config label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.64rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.rp-timer-body {
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
+.rp-timer-phase {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-muted);
+  margin: 0;
+  transition: color 200ms ease;
+}
+
+.rp-timer-phase.present {
+  color: var(--accent);
+}
+
+.rp-timer-phase.done {
+  color: var(--signal);
+}
+
+.rp-timer-clock {
+  margin: 0.15rem 0 0;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.rp-timer-clock.urgent {
+  color: var(--accent);
+  animation: pulse 1s ease infinite;
+}
+
+.rp-timer-body .row {
+  justify-content: center;
+}
+
+/* --- Stats Dashboard --- */
+
+.stats-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.55rem;
+  margin-bottom: 0.75rem;
+}
+
+.stat-tile {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel-solid);
+  padding: 0.85rem 0.75rem;
+  text-align: center;
+  transition: box-shadow 200ms ease;
+}
+
+.stat-tile:hover {
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-tile span {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.stat-tile p {
+  margin: 0.15rem 0 0;
+  font-size: 0.66rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-muted);
+}
+
+/* --- Score Chart --- */
+
+.score-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 130px;
+  padding-top: 0.5rem;
+}
+
+.chart-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+
+.chart-bar {
+  width: 100%;
+  max-width: 28px;
+  border-radius: 3px 3px 0 0;
+  transition: height 400ms var(--ease);
+  min-height: 3px;
+}
+
+.chart-label {
+  margin-top: 0.2rem;
+  font-size: 0.58rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Weakest Areas --- */
+
+.weak-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.weak-item:last-child {
+  border-bottom: none;
+}
+
+.weak-event {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.weak-score {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Recent Exams --- */
+
+.recent-list {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.recent-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: #fdfcfa;
+}
+
+.recent-info strong {
+  display: block;
+  font-size: 0.88rem;
+  font-family: var(--font-body);
+}
+
+.recent-date {
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+}
+
+.recent-score {
+  text-align: right;
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.recent-verdict {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* --- Overview Progress Mini-Stats --- */
+
+.overview-stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.35rem;
+  text-align: center;
+}
+
+.overview-stat-row div {
+  padding: 0.45rem 0.3rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xs);
+  background: #fdfcfa;
+}
+
+.overview-stat-num {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.overview-stat-row p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-muted);
+}
+
+/* --- New Feature Responsive --- */
+
+@media (max-width: 900px) {
+  .stats-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .stats-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rp-timer-head {
+    flex-direction: column;
+  }
+
+  .rp-timer-clock {
+    font-size: 2.2rem;
+  }
+
+  .overview-stat-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .streak-badge {
+    display: none;
+  }
+
+  .stats-chart-card {
+    grid-column: 1 / -1;
+  }
+}

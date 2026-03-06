@@ -89,7 +89,8 @@ const state = {
     running: false,
     timerId: null,
     secondsLeft: 0,
-    submitted: false
+    submitted: false,
+    flagged: new Set()
   },
   flash: {
     deck: [],
@@ -717,6 +718,7 @@ function openEvent(eventName, tabName = "overview") {
   buildFlashcards(eventName);
   renderRoleplay(eventName);
   renderPrep(eventName);
+  renderOverviewProgress();
 
   setWorkspaceTab(tabName);
   document.getElementById("workspace").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -764,6 +766,7 @@ function startExam() {
   state.quiz.answers = {};
   state.quiz.submitted = false;
   state.quiz.running = true;
+  state.quiz.flagged = new Set();
   state.quiz.secondsLeft = state.quiz.deck.length * FBLA_SECONDS_PER_QUESTION;
 
   stopQuizTimer();
@@ -814,9 +817,18 @@ function renderQuestion() {
   }).join("");
 
   quizUi.card.innerHTML = `
-    <h3>Q${idx + 1}. ${item.q}</h3>
+    <div class="quiz-card-head">
+      <h3>Q${idx + 1}. ${item.q}</h3>
+      <button class="flag-btn${state.quiz.flagged?.has(idx) ? ' flagged' : ''}" data-flag="${idx}" title="${state.quiz.flagged?.has(idx) ? 'Unflag' : 'Flag for review'}" aria-label="Flag question">⚑</button>
+    </div>
     <div>${optionsHtml}</div>
   `;
+
+  quizUi.card.querySelector("[data-flag]")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    haptic();
+    toggleFlag(idx);
+  });
 
   document.querySelectorAll("[data-opt]").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -902,9 +914,11 @@ function submitExam() {
       ? q.options.map((_, idx) => `<li>${optionReason(q, idx)}</li>`).join("")
       : "";
 
+    const flagged = state.quiz.flagged?.has(i) ? '<span class="review-flag">⚑ Flagged</span>' : '';
+
     reviewRows.push(`
       <article class="exam-review-item">
-        <strong>Q${i + 1}. ${q.q}</strong>
+        <strong>Q${i + 1}. ${q.q}${flagged}</strong>
         <p class="${isCorrect ? "answer-good" : "answer-bad"}">${isCorrect ? "Correct" : "Incorrect"}</p>
         <p><strong>Your answer:</strong> ${toAnswerLabel(q, picked)}</p>
         <p><strong>Right answer:</strong> ${toAnswerLabel(q, q.answer)}</p>
@@ -934,6 +948,30 @@ function submitExam() {
     <p class="eyebrow">Question Review</p>
     <div class="exam-review">${reviewRows.join("")}</div>
   `;
+
+  // Save exam history
+  saveHistory({
+    event: state.currentEvent,
+    score: pct,
+    correct,
+    total,
+    bankMode: state.quiz.bankMode,
+    timestamp: Date.now()
+  });
+
+  // Collect and save missed questions
+  const missedQs = [];
+  deck.forEach((q, i) => {
+    if (Number.isInteger(q.answer) && state.quiz.answers[i] !== q.answer) {
+      missedQs.push({ q: q.q, options: q.options, answer: q.answer, explain: q.explain || "", optionExplanations: q.optionExplanations || [], source: q.source || "" });
+    }
+  });
+  if (missedQs.length) addMissedQuestions(state.currentEvent, missedQs);
+
+  // Update streak and stats
+  bumpStreak();
+  renderStats();
+  renderOverviewProgress();
 
   renderQuestion();
 }
@@ -1135,6 +1173,347 @@ function renderPrep(eventName) {
   });
 }
 
+/* ─── Study History & Streak ─── */
+
+const HISTORY_KEY = "fbla-exam-history";
+const STREAK_KEY = "fbla-streak";
+
+function loadHistory() {
+  try { return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }
+  catch { return []; }
+}
+
+function saveHistory(entry) {
+  const history = loadHistory();
+  history.push(entry);
+  if (history.length > 200) history.splice(0, history.length - 200);
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+}
+
+function clearAllHistory() {
+  if (!confirm("Clear all exam history and stats? This cannot be undone.")) return;
+  localStorage.removeItem(HISTORY_KEY);
+  renderStats();
+  renderOverviewProgress();
+  updateStreakDisplay();
+}
+
+function todayStr() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function loadStreak() {
+  try { return JSON.parse(localStorage.getItem(STREAK_KEY)) || { lastDate: null, count: 0 }; }
+  catch { return { lastDate: null, count: 0 }; }
+}
+
+function bumpStreak() {
+  const streak = loadStreak();
+  const today = todayStr();
+  if (streak.lastDate === today) return;
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yStr = yesterday.toISOString().slice(0, 10);
+  if (streak.lastDate === yStr) {
+    streak.count += 1;
+  } else {
+    streak.count = 1;
+  }
+  streak.lastDate = today;
+  localStorage.setItem(STREAK_KEY, JSON.stringify(streak));
+  updateStreakDisplay();
+}
+
+function updateStreakDisplay() {
+  const streak = loadStreak();
+  const today = todayStr();
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yStr = yesterday.toISOString().slice(0, 10);
+  const active = streak.lastDate === today || streak.lastDate === yStr;
+  const count = active ? streak.count : 0;
+  const el = document.getElementById("streakCount");
+  if (el) el.textContent = count;
+  const badge = document.getElementById("streakBadge");
+  if (badge) badge.classList.toggle("active", count > 0);
+  const statEl = document.getElementById("statStudyStreak");
+  if (statEl) statEl.textContent = count;
+}
+
+/* ─── Missed Questions Bank ─── */
+
+function missedKey(eventName) {
+  return `fbla-missed-${norm(eventName)}`;
+}
+
+function loadMissedQuestions(eventName) {
+  try { return JSON.parse(localStorage.getItem(missedKey(eventName))) || []; }
+  catch { return []; }
+}
+
+function saveMissedQuestions(eventName, questions) {
+  const seen = new Set();
+  const deduped = questions.filter(q => {
+    const key = norm(q.q);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  if (deduped.length > 150) deduped.splice(0, deduped.length - 150);
+  localStorage.setItem(missedKey(eventName), JSON.stringify(deduped));
+}
+
+function addMissedQuestions(eventName, newMisses) {
+  const existing = loadMissedQuestions(eventName);
+  saveMissedQuestions(eventName, [...existing, ...newMisses]);
+}
+
+function clearMissedQuestions(eventName) {
+  localStorage.removeItem(missedKey(eventName));
+  renderOverviewProgress();
+}
+
+function startMissedQuestionsDrill() {
+  if (!state.currentEvent) return;
+  const missed = loadMissedQuestions(state.currentEvent);
+  if (!missed.length) return;
+  haptic("success");
+  const deck = shuffle(missed).map(shuffleOptions);
+  state.quiz.deck = deck;
+  state.quiz.index = 0;
+  state.quiz.answers = {};
+  state.quiz.submitted = false;
+  state.quiz.running = true;
+  state.quiz.flagged = new Set();
+  state.quiz.secondsLeft = deck.length * FBLA_SECONDS_PER_QUESTION;
+  stopQuizTimer();
+  state.quiz.timerId = setInterval(() => {
+    state.quiz.secondsLeft -= 1;
+    quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
+    quizUi.timer.classList.toggle("urgent", state.quiz.secondsLeft <= 30);
+    if (state.quiz.secondsLeft <= 0) submitExam();
+  }, 1000);
+  quizUi.results.innerHTML = "<p>Submit your exam to see detailed explanations for every question.</p>";
+  updateQuizAiHelp(null, null);
+  updateProgressBar();
+  renderQuestion();
+  setWorkspaceTab("quiz");
+}
+
+/* ─── Question Flagging ─── */
+
+function toggleFlag(idx) {
+  if (!state.quiz.flagged) state.quiz.flagged = new Set();
+  if (state.quiz.flagged.has(idx)) state.quiz.flagged.delete(idx);
+  else state.quiz.flagged.add(idx);
+  renderQuestion();
+}
+
+/* ─── Roleplay Competition Timer ─── */
+
+const rpTimer = {
+  phase: "prep",
+  secondsLeft: 0,
+  totalPrep: 600,
+  totalPresent: 600,
+  intervalId: null,
+  running: false
+};
+
+function startRpTimer() {
+  if (rpTimer.running) {
+    clearInterval(rpTimer.intervalId);
+    rpTimer.intervalId = null;
+    rpTimer.running = false;
+    document.getElementById("rpTimerStartBtn").textContent = "Resume";
+    return;
+  }
+  if (rpTimer.phase === "done") resetRpTimer();
+  rpTimer.running = true;
+  document.getElementById("rpTimerStartBtn").textContent = "Pause";
+  rpTimer.intervalId = setInterval(() => {
+    rpTimer.secondsLeft -= 1;
+    if (rpTimer.secondsLeft <= 0) {
+      if (rpTimer.phase === "prep") {
+        rpTimer.phase = "present";
+        rpTimer.secondsLeft = rpTimer.totalPresent;
+        haptic("success");
+      } else {
+        rpTimer.phase = "done";
+        rpTimer.secondsLeft = 0;
+        clearInterval(rpTimer.intervalId);
+        rpTimer.intervalId = null;
+        rpTimer.running = false;
+        document.getElementById("rpTimerStartBtn").textContent = "Restart";
+        haptic("success");
+      }
+    }
+    renderRpTimer();
+  }, 1000);
+  renderRpTimer();
+}
+
+function resetRpTimer() {
+  clearInterval(rpTimer.intervalId);
+  rpTimer.intervalId = null;
+  rpTimer.running = false;
+  rpTimer.phase = "prep";
+  const prepMin = Number(document.getElementById("rpPrepTime")?.value || 10);
+  const presentMin = Number(document.getElementById("rpPresentTime")?.value || 10);
+  rpTimer.totalPrep = prepMin * 60;
+  rpTimer.totalPresent = presentMin * 60;
+  rpTimer.secondsLeft = rpTimer.totalPrep;
+  document.getElementById("rpTimerStartBtn").textContent = "Start Timer";
+  renderRpTimer();
+}
+
+function renderRpTimer() {
+  const phaseEl = document.getElementById("rpTimerPhase");
+  const clockEl = document.getElementById("rpTimerClock");
+  if (!phaseEl || !clockEl) return;
+  const labels = { prep: "Prep Time", present: "Presentation", done: "Complete" };
+  phaseEl.textContent = labels[rpTimer.phase] || "";
+  phaseEl.className = `rp-timer-phase ${rpTimer.phase}`;
+  clockEl.textContent = formatTimer(Math.max(0, rpTimer.secondsLeft));
+  clockEl.classList.toggle("urgent", rpTimer.running && rpTimer.secondsLeft <= 30);
+}
+
+/* ─── Stats Dashboard ─── */
+
+function renderStats() {
+  const history = loadHistory();
+  const totalExams = history.length;
+  const avgScore = totalExams ? Math.round(history.reduce((s, h) => s + h.score, 0) / totalExams) : 0;
+  const bestScore = totalExams ? Math.max(...history.map(h => h.score)) : 0;
+
+  document.getElementById("statTotalExams").textContent = totalExams;
+  document.getElementById("statAvgScore").textContent = totalExams ? `${avgScore}%` : "\u2014";
+  document.getElementById("statBestScore").textContent = totalExams ? `${bestScore}%` : "\u2014";
+  updateStreakDisplay();
+
+  // Score chart - show current event if selected, otherwise all
+  const scopeEl = document.getElementById("statsChartScope");
+  const chartSource = state.currentEvent
+    ? history.filter(h => h.event === state.currentEvent)
+    : history;
+  if (scopeEl) scopeEl.textContent = state.currentEvent ? state.currentEvent : "All events";
+
+  const chartData = chartSource.slice(-20);
+  const chartEl = document.getElementById("scoreChart");
+  const chartEmpty = document.getElementById("scoreChartEmpty");
+  if (chartData.length) {
+    chartEmpty.style.display = "none";
+    chartEl.innerHTML = chartData.map(h => {
+      const color = h.score >= 85 ? "var(--signal)" : h.score >= 70 ? "var(--ink-soft)" : "var(--accent)";
+      return `<div class="chart-col">
+        <div class="chart-bar" style="height:${Math.max(h.score, 4)}%;background:${color}" title="${h.event}: ${h.score}%"></div>
+        <span class="chart-label">${h.score}</span>
+      </div>`;
+    }).join("");
+  } else {
+    chartEmpty.style.display = "";
+    chartEl.innerHTML = "";
+  }
+
+  // Weakest areas
+  const eventScores = {};
+  history.forEach(h => {
+    if (!eventScores[h.event]) eventScores[h.event] = [];
+    eventScores[h.event].push(h.score);
+  });
+  const weakest = Object.entries(eventScores)
+    .map(([event, scores]) => ({
+      event,
+      avg: Math.round(scores.reduce((a, b) => a + b, 0) / scores.length),
+      count: scores.length
+    }))
+    .sort((a, b) => a.avg - b.avg)
+    .slice(0, 5);
+  const weakEl = document.getElementById("weakestAreas");
+  const weakEmpty = document.getElementById("weakestEmpty");
+  if (weakest.length) {
+    weakEmpty.style.display = "none";
+    weakEl.innerHTML = weakest.map(w => `
+      <div class="weak-item">
+        <span class="weak-event">${w.event}</span>
+        <span class="weak-score">${w.avg}% avg (${w.count} exam${w.count > 1 ? "s" : ""})</span>
+      </div>
+    `).join("");
+  } else {
+    weakEmpty.style.display = "";
+    weakEl.innerHTML = "";
+  }
+
+  // Recent exams
+  const recent = history.slice(-10).reverse();
+  const recentEl = document.getElementById("recentExams");
+  if (recent.length) {
+    recentEl.innerHTML = `<div class="recent-list">${recent.map(h => {
+      const date = new Date(h.timestamp);
+      const dateStr = date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      const verdict = h.score >= 85 ? "Nationals pace" : h.score >= 70 ? "Solid" : "Needs work";
+      const cls = h.score >= 85 ? "answer-good" : h.score >= 70 ? "" : "answer-bad";
+      return `
+        <div class="recent-item">
+          <div class="recent-info">
+            <strong>${h.event}</strong>
+            <span class="recent-date">${dateStr}</span>
+          </div>
+          <div class="recent-score ${cls}">
+            ${h.correct}/${h.total} (${h.score}%)
+            <span class="recent-verdict">${verdict}</span>
+          </div>
+        </div>`;
+    }).join("")}</div>`;
+  } else {
+    recentEl.innerHTML = "<p class='module-note'>No exams taken yet.</p>";
+  }
+}
+
+function renderOverviewProgress() {
+  const el = document.getElementById("overviewQuickStats");
+  if (!el || !state.currentEvent) return;
+  const history = loadHistory().filter(h => h.event === state.currentEvent);
+  const missed = loadMissedQuestions(state.currentEvent);
+  if (!history.length) {
+    el.innerHTML = "<p class='module-note'>Complete an exam to start tracking your progress.</p>";
+  } else {
+    const avg = Math.round(history.reduce((s, h) => s + h.score, 0) / history.length);
+    const best = Math.max(...history.map(h => h.score));
+    const last = history[history.length - 1].score;
+    el.innerHTML = `
+      <div class="overview-stat-row">
+        <div><span class="overview-stat-num">${history.length}</span><p>Exams</p></div>
+        <div><span class="overview-stat-num">${avg}%</span><p>Avg.</p></div>
+        <div><span class="overview-stat-num">${best}%</span><p>Best</p></div>
+        <div><span class="overview-stat-num">${last}%</span><p>Last</p></div>
+      </div>
+    `;
+  }
+  const missCountEl = document.getElementById("overviewMissCount");
+  if (missCountEl) {
+    missCountEl.textContent = missed.length
+      ? `${missed.length} missed question${missed.length > 1 ? "s" : ""} saved for review.`
+      : "Take an exam to start collecting missed questions.";
+  }
+  const reviewBtn = document.getElementById("reviewMissesBtn");
+  if (reviewBtn) reviewBtn.disabled = !missed.length;
+}
+
+function exportHistory() {
+  const history = loadHistory();
+  if (!history.length) return;
+  const blob = new Blob([JSON.stringify(history, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `fbla-study-stats-${todayStr()}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
 function bindUi() {
   eventSearchEl.addEventListener("input", renderEventList);
 
@@ -1247,6 +1626,19 @@ function bindUi() {
     renderFlashcard();
   };
 
+  // New feature bindings
+  document.getElementById("reviewMissesBtn").onclick = startMissedQuestionsDrill;
+  document.getElementById("clearMissesBtn").onclick = () => {
+    if (!state.currentEvent) return;
+    clearMissedQuestions(state.currentEvent);
+  };
+  document.getElementById("rpTimerStartBtn").onclick = startRpTimer;
+  document.getElementById("rpTimerResetBtn").onclick = resetRpTimer;
+  document.getElementById("rpPrepTime").onchange = resetRpTimer;
+  document.getElementById("rpPresentTime").onchange = resetRpTimer;
+  document.getElementById("clearHistoryBtn").onclick = clearAllHistory;
+  document.getElementById("exportHistoryBtn").onclick = exportHistory;
+
   // Keyboard navigation
   document.addEventListener("keydown", (e) => {
     const activeTag = document.activeElement?.tagName;
@@ -1294,9 +1686,12 @@ function init() {
   setStats();
   bindUi();
   renderEventList();
+  updateStreakDisplay();
+  resetRpTimer();
 
   // Open first event to avoid dead-end interface.
   openEvent(EVENTS[0], "overview");
+  renderStats();
 }
 
 init();
