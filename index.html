@@ -3,201 +3,195 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FBLA Flow | Competitive Events Command Center</title>
+  <title>FBLA Helper</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="ambient" aria-hidden="true">
-    <div class="glow glow-1"></div>
-    <div class="glow glow-2"></div>
-    <div class="glow glow-3"></div>
-    <div class="mesh"></div>
-  </div>
+  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="bg-orbit bg-orbit-a" aria-hidden="true"></div>
+  <div class="bg-orbit bg-orbit-b" aria-hidden="true"></div>
 
-  <header class="topbar glass">
-    <div class="brand">
-      <p class="kicker">FBLA 2025-26</p>
-      <h1>FBLA Flow</h1>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">FBLA Competitive Prep</p>
+      <h1>FBLA Helper</h1>
     </div>
-    <div class="top-actions">
-      <button id="quickFocusBtn" class="ghost">Focus Sprint</button>
-      <button id="quickRoleplayBtn" class="ghost">Roleplay Drill</button>
+    <div class="header-stats">
+      <div>
+        <span id="statEvents">0</span>
+        <p>Events</p>
+      </div>
+      <div>
+        <span id="statQuestions">0</span>
+        <p>Questions</p>
+      </div>
+      <div>
+        <span id="statRoleplays">0</span>
+        <p>Roleplays</p>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hero glass">
-      <div>
-        <p class="hero-tag">Quintessential Study Resource</p>
-        <h2>Study smarter for every FBLA event.</h2>
-        <p>
-          Hardcoded from your combined FBLA transcripts and national office sample files.
-          Built for objective tests, role plays, production tests, and presentation events.
-        </p>
+  <main class="shell">
+    <aside class="event-rail panel">
+      <div class="rail-head">
+        <h2>Event Atlas</h2>
+        <p>Select any event to jump directly into its workspace.</p>
       </div>
-      <div class="hero-stats">
-        <article>
-          <span id="eventCount">0</span>
-          <p>Events Covered</p>
-        </article>
-        <article>
-          <span id="resourceCount">0</span>
-          <p>Official Sample Files</p>
-        </article>
-        <article>
-          <span id="quizCount">0</span>
-          <p>Practice Questions</p>
-        </article>
-      </div>
-    </section>
+      <input id="eventSearch" type="search" placeholder="Find an event">
+      <div id="eventList" class="event-list"></div>
+    </aside>
 
-    <nav class="section-nav">
-      <button class="tab active" data-tab="study">Study Helper</button>
-      <button class="tab" data-tab="flashcards">Flashcards</button>
-      <button class="tab" data-tab="roleplay">Role Play Help</button>
-      <button class="tab" data-tab="timers">Timers</button>
-      <button class="tab" data-tab="quiz">Practice Quiz</button>
-      <button class="tab" data-tab="rubric">Rubric & Prep</button>
-      <button class="tab" data-tab="resources">Resource Library</button>
-    </nav>
-
-    <section id="study" class="panel active">
-      <div class="glass panel-head">
-        <h3>Event Compass</h3>
-        <p>Find your event, understand format, and launch a tailored prep path.</p>
-        <div class="study-controls">
-          <input id="eventSearch" type="search" placeholder="Search events, e.g., cybersecurity, speaking, accounting">
-          <select id="eventFilter">
-            <option value="all">All Formats</option>
-            <option value="objective">Objective-heavy</option>
-            <option value="roleplay">Role play</option>
-            <option value="presentation">Presentation</option>
-            <option value="production">Production test</option>
-          </select>
+    <section class="workspace panel" id="workspace">
+      <div class="workspace-head">
+        <div>
+          <p class="eyebrow" id="eventFormatLabel">Select an event</p>
+          <h2 id="activeEventTitle">Choose an Event</h2>
+          <p id="activeEventMeta">Click an event card from the left rail to open quiz, roleplay, flashcards, and prep tools.</p>
+        </div>
+        <div class="workspace-actions">
+          <button id="openOverviewBtn">Overview</button>
+          <button id="openQuizBtn">Exam Builder</button>
+          <button id="openRoleplayBtn">Roleplay Lab</button>
         </div>
       </div>
-      <div id="eventGrid" class="event-grid"></div>
-    </section>
 
-    <section id="flashcards" class="panel">
-      <div class="two-col">
-        <article class="glass">
-          <h3>Smart Flashcards</h3>
-          <label for="deckSelect">Deck</label>
-          <select id="deckSelect"></select>
-          <div id="flashcard" class="flashcard" tabindex="0" role="button" aria-label="Flip flashcard"></div>
-          <div class="row">
-            <button id="flipCardBtn">Flip</button>
-            <button id="nextCardBtn">Next</button>
-          </div>
-        </article>
-        <article class="glass">
-          <h3>Memory Loop</h3>
-          <ul id="memoryTips" class="bullets"></ul>
-        </article>
-      </div>
-    </section>
+      <nav class="workspace-tabs">
+        <button class="ws-tab active" data-ws-tab="overview">Overview</button>
+        <button class="ws-tab" data-ws-tab="quiz">Exam Builder</button>
+        <button class="ws-tab" data-ws-tab="roleplay">Roleplay Lab</button>
+        <button class="ws-tab" data-ws-tab="flashcards">Flashcards</button>
+        <button class="ws-tab" data-ws-tab="prep">Prep Checklist</button>
+      </nav>
 
-    <section id="roleplay" class="panel">
-      <div class="two-col">
-        <article class="glass">
-          <h3>Role Play Simulator</h3>
-          <label for="scenarioSelect">Scenario</label>
-          <select id="scenarioSelect"></select>
-          <div id="scenarioCard" class="scenario"></div>
-          <button id="newJudgeQuestionBtn">Ask Judge Question</button>
-          <p id="judgeQuestion" class="judge-question"></p>
-        </article>
-        <article class="glass">
-          <h3>Role Play Structure</h3>
-          <ol id="roleplaySteps" class="numbered"></ol>
-          <h4>Performance Indicators</h4>
-          <ul id="performanceIndicators" class="bullets"></ul>
-        </article>
-      </div>
-    </section>
-
-    <section id="timers" class="panel">
-      <div class="three-col">
-        <article class="glass">
-          <h3>Role Play Timer</h3>
-          <div class="timer-display" id="roleplayClock">20:00</div>
-          <div class="row">
-            <button data-roleplay-preset="20">Prep 20m</button>
-            <button data-roleplay-preset="7">Present 7m</button>
-            <button data-roleplay-preset="5">Q&A 5m</button>
-          </div>
-          <div class="row">
-            <button id="roleplayStart">Start</button>
-            <button id="roleplayPause">Pause</button>
-            <button id="roleplayReset">Reset</button>
-          </div>
-        </article>
-        <article class="glass">
-          <h3>Competition Timer</h3>
-          <label for="compMinutes">Minutes</label>
-          <input id="compMinutes" type="number" min="1" max="240" value="60">
-          <label for="compLabel">Label</label>
-          <input id="compLabel" type="text" value="Objective Test Session">
-          <div class="timer-display" id="compClock">60:00</div>
-          <div class="row">
-            <button id="compSet">Set</button>
-            <button id="compStart">Start</button>
-            <button id="compPause">Pause</button>
-          </div>
-        </article>
-        <article class="glass">
-          <h3>Time Strategy</h3>
-          <ul class="bullets" id="timeStrategy"></ul>
-        </article>
-      </div>
-    </section>
-
-    <section id="quiz" class="panel">
-      <div class="glass">
-        <h3>Practice Quiz Lab</h3>
-        <div class="quiz-head">
-          <label for="quizSelect">Quiz Deck</label>
-          <select id="quizSelect"></select>
-          <button id="startQuizBtn">Start Quiz</button>
+      <section id="overview" class="ws-panel active">
+        <div class="module-grid overview-grid">
+          <article class="module-card">
+            <h3>Quick Launch</h3>
+            <div class="row">
+              <button id="launchTwentyBtn">20Q</button>
+              <button id="launchFiftyBtn">50Q</button>
+              <button id="launchHundredBtn">100Q</button>
+              <button id="launchMaxBtn">Max</button>
+            </div>
+            <p class="module-note">Timer runs at FBLA pace: 60 seconds per question.</p>
+          </article>
+          <article class="module-card">
+            <h3>Roleplay Scenarios</h3>
+            <p id="overviewRoleplayCount">0 scenario variants available.</p>
+            <p id="overviewRoleplayHint" class="module-note">Each scenario includes judge prompts and scoring indicators for targeted reps.</p>
+          </article>
         </div>
-        <div id="quizBox" class="quiz-box"></div>
-      </div>
-    </section>
+      </section>
 
-    <section id="rubric" class="panel">
-      <div class="two-col">
-        <article class="glass">
-          <h3>Rubric Builder</h3>
-          <p>Score your run-through and expose weak links before competition day.</p>
-          <div id="rubricRows"></div>
-          <button id="scoreRubricBtn">Calculate Score</button>
-          <p id="rubricTotal" class="rubric-total"></p>
-        </article>
-        <article class="glass">
-          <h3>Prep Engine</h3>
-          <ul id="prepChecklist" class="checklist"></ul>
-        </article>
-      </div>
-    </section>
+      <section id="quiz" class="ws-panel">
+        <div class="quiz-toolbar">
+          <div class="field-block">
+            <label for="quizCount">Questions</label>
+            <select id="quizCount">
+              <option value="20" selected>20</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+              <option value="max">Max available</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+            </select>
+          </div>
+          <div class="field-block">
+            <label>Timing</label>
+            <p class="timing-lock">FBLA pace: 1 minute per question</p>
+          </div>
+          <button id="startExamBtn">Generate Exam</button>
+        </div>
 
-    <section id="resources" class="panel">
-      <div class="glass panel-head">
-        <h3>National Office Resource Library</h3>
-        <p>All provided objective tests, roleplay files, and production tests integrated into one place.</p>
-      </div>
-      <div id="resourceGrid" class="resource-grid"></div>
+        <div class="quiz-status">
+          <div>
+            <p class="eyebrow">Progress</p>
+            <p id="quizProgress">Not started</p>
+          </div>
+          <div>
+            <p class="eyebrow">Timer</p>
+            <p id="quizTimer" class="timer">00:00</p>
+          </div>
+          <div>
+            <p class="eyebrow">Score</p>
+            <p id="quizScoreLive">0 / 0</p>
+          </div>
+        </div>
+
+        <article id="quizCard" class="quiz-card">
+          <p>Generate an exam to begin.</p>
+        </article>
+
+        <div class="row">
+          <button id="prevQuestionBtn">Previous</button>
+          <button id="nextQuestionBtn">Next</button>
+          <button id="submitExamBtn">Submit Exam</button>
+        </div>
+
+        <div id="examResults" class="exam-results"></div>
+      </section>
+
+      <section id="roleplay" class="ws-panel">
+        <div class="roleplay-layout">
+          <article class="module-card">
+            <label for="scenarioSelect">Scenario Variant</label>
+            <select id="scenarioSelect"></select>
+            <div id="scenarioPrompt" class="scenario-box"></div>
+            <button id="newJudgeQuestionBtn">New Judge Question</button>
+            <p id="judgeQuestion" class="judge-q"></p>
+          </article>
+
+          <article class="module-card">
+            <h3>Response Draft</h3>
+            <textarea id="roleplayResponse" rows="10" placeholder="Type your roleplay response here"></textarea>
+            <div class="row">
+              <button id="gradeRoleplayBtn">Grade Draft</button>
+              <button id="clearRoleplayBtn">Clear</button>
+            </div>
+            <p id="roleplayScore"></p>
+            <ul id="roleplayIndicators" class="indicator-list"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="flashcards" class="ws-panel">
+        <div class="module-grid">
+          <article class="module-card">
+            <h3 id="flashDeckTitle">Event Flashcards</h3>
+            <div id="flashCard" class="flash-card" tabindex="0" role="button" aria-label="Flip flashcard"></div>
+            <div class="row">
+              <button id="flipCardBtn">Flip</button>
+              <button id="nextCardBtn">Next</button>
+            </div>
+          </article>
+          <article class="module-card">
+            <h3>Memory Tactics</h3>
+            <ul id="memoryTactics"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="prep" class="ws-panel">
+        <div class="module-grid">
+          <article class="module-card">
+            <h3>Execution Checklist</h3>
+            <div id="prepChecklist"></div>
+          </article>
+          <article class="module-card">
+            <h3>Production Tasks</h3>
+            <div id="productionChecklist"></div>
+          </article>
+        </div>
+      </section>
     </section>
   </main>
 
-  <footer class="glass footer">
-    <p>Built for FBLA competitors: objective tests, role plays, production tests, and presentation excellence.</p>
-    <p class="small">Source base: <code>fbla time ALL_TRANSCRIPTS_COMBINED.md</code>, <code>fblaeventlist.md</code>, and <code>fblaresources/</code>.</p>
-  </footer>
-
+  <script src="resource_data.js"></script>
+  <script src="combined_question_bank.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
