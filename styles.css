@@ -747,6 +747,62 @@ button.btn-outline:hover {
   font-weight: 600;
 }
 
+/* --- Roleplay Sub-Tabs --- */
+
+.roleplay-subtabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid var(--line);
+  margin-bottom: 0.8rem;
+}
+
+.rp-subtab {
+  padding: 0.55rem 1.1rem;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  background: none;
+  color: var(--ink-muted);
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+
+.rp-subtab:hover {
+  color: var(--ink);
+}
+
+.rp-subtab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.rp-subpanel {
+  display: none;
+}
+
+.rp-subpanel.active {
+  display: block;
+}
+
+.voice-practice-card {
+  max-width: 52rem;
+}
+
+.voice-prompt-textarea {
+  width: 100%;
+  margin-top: 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: #fdfcfa;
+  padding: 0.8rem;
+  font-family: var(--font-mono, "Menlo", "Consolas", monospace);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  resize: vertical;
+}
+
 /* --- Roleplay --- */
 
 .roleplay-layout {

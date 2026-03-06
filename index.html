@@ -153,32 +153,56 @@
       </section>
 
       <section id="roleplay" class="ws-panel">
-        <div class="roleplay-layout">
-          <article class="module-card">
-            <label for="scenarioSelect">Scenario Variant</label>
-            <select id="scenarioSelect"></select>
-            <div id="scenarioPrompt" class="scenario-box"></div>
-            <div id="roleplayDocLinks" class="doc-link-list"></div>
-            <p id="roleplayDocHint" class="module-note"></p>
-            <button id="newJudgeQuestionBtn">New Judge Question</button>
-            <p id="judgeQuestion" class="judge-q"></p>
-          </article>
+        <nav class="roleplay-subtabs">
+          <button class="rp-subtab active" data-rp-tab="scenarioLab">Scenario Lab</button>
+          <button class="rp-subtab" data-rp-tab="voicePractice">Voice Practice</button>
+        </nav>
 
-          <article class="module-card">
-            <h3>Response Draft</h3>
-            <textarea id="roleplayResponse" rows="10" placeholder="Type your roleplay response here"></textarea>
-            <div class="row">
-              <button id="gradeRoleplayBtn">Grade Draft</button>
-              <button id="clearRoleplayBtn">Clear</button>
+        <div id="scenarioLab" class="rp-subpanel active">
+          <div class="roleplay-layout">
+            <article class="module-card">
+              <label for="scenarioSelect">Scenario Variant</label>
+              <select id="scenarioSelect"></select>
+              <div id="scenarioPrompt" class="scenario-box"></div>
+              <div id="roleplayDocLinks" class="doc-link-list"></div>
+              <p id="roleplayDocHint" class="module-note"></p>
+              <button id="newJudgeQuestionBtn">New Judge Question</button>
+              <p id="judgeQuestion" class="judge-q"></p>
+            </article>
+
+            <article class="module-card">
+              <h3>Response Draft</h3>
+              <textarea id="roleplayResponse" rows="10" placeholder="Type your roleplay response here"></textarea>
+              <div class="row">
+                <button id="gradeRoleplayBtn">Grade Draft</button>
+                <button id="clearRoleplayBtn">Clear</button>
+              </div>
+              <p id="roleplayScore"></p>
+              <ul id="roleplayIndicators" class="indicator-list"></ul>
+              <h3>AI Grading Prompt</h3>
+              <p class="module-note">Paste this prompt into an AI grader with your response to get a fuller critique.</p>
+              <textarea id="roleplayAiPrompt" rows="12" readonly></textarea>
+              <div class="row">
+                <button id="copyRoleplayPromptBtn">Copy AI Prompt</button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div id="voicePractice" class="rp-subpanel">
+          <article class="module-card voice-practice-card">
+            <h3>Voice Practice Mode</h3>
+            <p class="module-note">Copy this prompt into <strong>Gemini Live</strong>, <strong>ChatGPT Advanced Voice</strong>, <strong>Grok Voice</strong>, or <strong>Claude Voice</strong>. The AI will act as your FBLA judge and walk you through a full roleplay session, then debrief you at the end.</p>
+            <div class="field-block">
+              <label for="voiceScenarioSelect">Scenario</label>
+              <select id="voiceScenarioSelect"></select>
             </div>
-            <p id="roleplayScore"></p>
-            <ul id="roleplayIndicators" class="indicator-list"></ul>
-            <h3>AI Grading Prompt</h3>
-            <p class="module-note">Paste this prompt into an AI grader with your response to get a fuller critique.</p>
-            <textarea id="roleplayAiPrompt" rows="12" readonly></textarea>
+            <textarea id="voicePromptOutput" rows="20" readonly class="voice-prompt-textarea"></textarea>
             <div class="row">
-              <button id="copyRoleplayPromptBtn">Copy AI Prompt</button>
+              <button id="copyVoicePromptBtn">Copy Voice Prompt</button>
+              <button id="regenerateVoicePromptBtn" class="btn-outline">Randomize Scenario</button>
             </div>
+            <p id="voicePromptStatus" class="module-note"></p>
           </article>
         </div>
       </section>
