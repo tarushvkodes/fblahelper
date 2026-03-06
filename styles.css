@@ -1800,7 +1800,7 @@ button.btn-outline:hover {
 
 .score-chart {
   display: flex;
-  align-items: flex-end;
+  align-items: stretch;
   gap: 3px;
   height: 130px;
   padding-top: 0.5rem;
@@ -1811,6 +1811,7 @@ button.btn-outline:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   min-width: 0;
 }
 
