@@ -1,0 +1,2165 @@
+{
+  "event": "Introduction to Programming",
+  "questions": [
+    {
+      "q": "What is the main purpose of a variable in a program?",
+      "options": [
+        "To store a value that can be used later",
+        "To permanently save a file on disk",
+        "To translate code into machine language",
+        "To draw graphics on the screen"
+      ],
+      "answer": 0,
+      "explain": "A variable is a named storage location in memory that holds data a program can read or change while it runs.",
+      "optionExplanations": [
+        "Correct. Variables store data values for later use in the program.",
+        "Incorrect. Saving files on disk is a storage operation, not the purpose of a variable.",
+        "Incorrect. Translating code is done by a compiler or interpreter.",
+        "Incorrect. Graphics output is unrelated to what a variable is for."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which data type is most appropriate for storing a person's age in years?",
+      "options": [
+        "Integer",
+        "Boolean",
+        "String",
+        "Function"
+      ],
+      "answer": 0,
+      "explain": "A person's age in whole years is typically represented with an integer because it is a whole number without text or true-false meaning.",
+      "optionExplanations": [
+        "Correct. Whole-number ages are usually stored as integers.",
+        "Incorrect. A Boolean stores only true or false.",
+        "Incorrect. A string stores text, not a numeric quantity meant for arithmetic.",
+        "Incorrect. A function is executable code, not a simple data type."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the value of x after the statement x = 7 + 3 * 2 executes?",
+      "options": [
+        "13",
+        "20",
+        "17",
+        "10"
+      ],
+      "answer": 0,
+      "explain": "Multiplication has higher precedence than addition, so 3 * 2 is evaluated first, giving 6, and then 7 + 6 equals 13.",
+      "optionExplanations": [
+        "Correct. Operator precedence makes the result 13.",
+        "Incorrect. That would come from adding before multiplying.",
+        "Incorrect. There is no valid precedence rule here that gives 17.",
+        "Incorrect. That would ignore the multiplication step."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which symbol is commonly used for assignment in many programming languages?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        ":"
+      ],
+      "answer": 0,
+      "explain": "In many languages, a single equals sign assigns a value to a variable, while double equals often tests equality.",
+      "optionExplanations": [
+        "Correct. A single equals sign commonly means assignment.",
+        "Incorrect. Double equals is commonly a comparison operator.",
+        "Incorrect. This usually means not equal.",
+        "Incorrect. A colon has other roles in some languages but is not the standard assignment symbol in many languages."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does an if statement allow a program to do?",
+      "options": [
+        "Make a decision based on a condition",
+        "Store many values in order",
+        "Repeat code a fixed number of times",
+        "Convert source code into bytecode"
+      ],
+      "answer": 0,
+      "explain": "An if statement performs conditional logic by executing certain code only when a condition evaluates to true.",
+      "optionExplanations": [
+        "Correct. If statements control branching based on conditions.",
+        "Incorrect. Ordered collections are handled by arrays or lists.",
+        "Incorrect. Repetition is handled by loops.",
+        "Incorrect. Code translation is done by language tools, not if statements."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which loop is best when you know in advance exactly how many times code should repeat?",
+      "options": [
+        "For loop",
+        "If statement",
+        "Class definition",
+        "Import statement"
+      ],
+      "answer": 0,
+      "explain": "A for loop is commonly used for counted repetition when the number of iterations is known ahead of time.",
+      "optionExplanations": [
+        "Correct. For loops are ideal for counted iteration.",
+        "Incorrect. An if statement branches once instead of repeating.",
+        "Incorrect. A class definition describes structure, not repetition.",
+        "Incorrect. Import statements bring in modules, not loop control."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What will this condition evaluate to: 5 > 8?",
+      "options": [
+        "False",
+        "True",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explain": "Because 5 is not greater than 8, the relational expression evaluates to false.",
+      "optionExplanations": [
+        "Correct. 5 is less than 8, so the expression is false.",
+        "Incorrect. The statement is not true.",
+        "Incorrect. The condition returns a Boolean truth value, not one of the numbers.",
+        "Incorrect. The condition returns a Boolean truth value, not one of the numbers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes a function?",
+      "options": [
+        "A reusable block of code that performs a task",
+        "A special type of comment",
+        "A hardware device used for storage",
+        "An error that stops a program"
+      ],
+      "answer": 0,
+      "explain": "A function groups instructions into a reusable unit, often with parameters and a return value.",
+      "optionExplanations": [
+        "Correct. Functions package reusable logic.",
+        "Incorrect. Comments document code but do not execute tasks.",
+        "Incorrect. Hardware devices are physical components, not code structures.",
+        "Incorrect. An error is a problem, not a code abstraction for reuse."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why are comments added to source code?",
+      "options": [
+        "To explain code to human readers",
+        "To make the program run faster",
+        "To force variables to become global",
+        "To convert text input into numbers"
+      ],
+      "answer": 0,
+      "explain": "Comments improve readability and maintenance by documenting intent, assumptions, or tricky logic for programmers.",
+      "optionExplanations": [
+        "Correct. Comments are for human understanding and maintenance.",
+        "Incorrect. Comments are generally ignored by the language processor and do not improve runtime speed.",
+        "Incorrect. Comments do not change variable scope.",
+        "Incorrect. Input conversion is done by program logic, not comments."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which value is a Boolean literal in many languages?",
+      "options": [
+        "true",
+        "42",
+        "\"hello\"",
+        "3.14"
+      ],
+      "answer": 0,
+      "explain": "Boolean literals represent truth values, typically true and false, unlike numeric or string literals.",
+      "optionExplanations": [
+        "Correct. true is a Boolean literal in many languages.",
+        "Incorrect. 42 is an integer literal.",
+        "Incorrect. \"hello\" is a string literal.",
+        "Incorrect. 3.14 is a floating-point literal."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the result of concatenating the strings \"Hi\" and \"There\" with no space added?",
+      "options": [
+        "HiThere",
+        "Hi There",
+        "ThereHi",
+        "Error in every language"
+      ],
+      "answer": 0,
+      "explain": "String concatenation joins text end to end, so combining those two strings without an added space produces HiThere.",
+      "optionExplanations": [
+        "Correct. Concatenation directly joins the two strings.",
+        "Incorrect. A space would appear only if one were included.",
+        "Incorrect. This reverses the order of concatenation.",
+        "Incorrect. Many languages allow string concatenation, so it is not always an error."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an array or list primarily used for?",
+      "options": [
+        "Storing multiple values in a single ordered collection",
+        "Replacing all loops in a program",
+        "Converting source code into machine code",
+        "Preventing all runtime errors"
+      ],
+      "answer": 0,
+      "explain": "Arrays and lists hold multiple items under one variable name, usually with an order that allows indexed access.",
+      "optionExplanations": [
+        "Correct. Arrays and lists store multiple ordered values.",
+        "Incorrect. Loops are still needed for repetition.",
+        "Incorrect. Compilation is a separate process.",
+        "Incorrect. No data structure can prevent all runtime errors."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In zero-based indexing, what is the index of the first element in a list?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "It depends on the length"
+      ],
+      "answer": 0,
+      "explain": "Zero-based indexing starts counting positions at 0, so the first element has index 0.",
+      "optionExplanations": [
+        "Correct. The first element is at index 0.",
+        "Incorrect. That would be one-based indexing.",
+        "Incorrect. -1 often refers to the last element in some languages, not the first.",
+        "Incorrect. The first index does not depend on list length in zero-based systems."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What problem occurs if a program tries to access index 5 in a list that has only 5 elements indexed 0 through 4?",
+      "options": [
+        "Index out of bounds error",
+        "Syntax highlighting",
+        "Compilation to bytecode",
+        "Automatic resizing to fit"
+      ],
+      "answer": 0,
+      "explain": "A list with five elements has valid indices 0 through 4, so index 5 is outside the valid range and causes an indexing error.",
+      "optionExplanations": [
+        "Correct. The code requests an element beyond the collection's valid bounds.",
+        "Incorrect. Syntax highlighting is an editor feature, not a runtime problem.",
+        "Incorrect. Bytecode compilation is unrelated to this logic error.",
+        "Incorrect. Most languages do not automatically resize just because an invalid index is accessed."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which operator commonly represents logical AND?",
+      "options": [
+        "&&",
+        "||",
+        "+",
+        "%"
+      ],
+      "answer": 0,
+      "explain": "In many languages, logical AND is written as && and returns true only when both operands are true.",
+      "optionExplanations": [
+        "Correct. && commonly means logical AND.",
+        "Incorrect. || commonly means logical OR.",
+        "Incorrect. + is usually addition or concatenation.",
+        "Incorrect. % is the modulus operator."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does the modulus operator % return?",
+      "options": [
+        "The remainder after division",
+        "The decimal quotient of division",
+        "A true-false comparison",
+        "The absolute value of a number"
+      ],
+      "answer": 0,
+      "explain": "The modulus operator computes the remainder left over after integer division.",
+      "optionExplanations": [
+        "Correct. % gives the remainder.",
+        "Incorrect. The quotient is division's main result, not modulus.",
+        "Incorrect. % is arithmetic, not a Boolean comparison.",
+        "Incorrect. Absolute value removes sign, which is a different operation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If score = 92, which condition correctly checks whether score is at least 90?",
+      "options": [
+        "score >= 90",
+        "score => 90",
+        "score =< 90",
+        "score ==> 90"
+      ],
+      "answer": 0,
+      "explain": "The >= operator means greater than or equal to, so it correctly tests whether score is at least 90.",
+      "optionExplanations": [
+        "Correct. >= is the proper relational operator here.",
+        "Incorrect. => is not the standard greater-than-or-equal operator in common languages.",
+        "Incorrect. =< is not the standard operator and also reverses the intended relation.",
+        "Incorrect. ==> is not the standard operator for this comparison."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of input in a program?",
+      "options": [
+        "To receive data from a user, file, or another source",
+        "To display data on the screen",
+        "To remove all variables from memory",
+        "To define a loop that runs forever"
+      ],
+      "answer": 0,
+      "explain": "Input lets a program acquire data it will process, whether that data comes from a user, file, network, or device.",
+      "optionExplanations": [
+        "Correct. Input brings data into the program.",
+        "Incorrect. Displaying data is output, not input.",
+        "Incorrect. Memory cleanup is a different concern.",
+        "Incorrect. Loop control is unrelated to the meaning of input."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of output in a program?",
+      "options": [
+        "To send information to a user, file, or another destination",
+        "To convert all integers into strings",
+        "To declare variables before use",
+        "To test only Boolean expressions"
+      ],
+      "answer": 0,
+      "explain": "Output is the act of presenting or sending processed information from the program to some destination.",
+      "optionExplanations": [
+        "Correct. Output sends results outward from the program.",
+        "Incorrect. Type conversion is a specific operation, not the definition of output.",
+        "Incorrect. Variable declaration is unrelated.",
+        "Incorrect. Output is broader than Boolean testing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is indentation important in some programming languages?",
+      "options": [
+        "It defines program structure and code blocks",
+        "It permanently encrypts source code",
+        "It converts variables into constants",
+        "It speeds up the processor clock"
+      ],
+      "answer": 0,
+      "explain": "Languages such as Python use indentation to determine which statements belong to the same block, such as the body of a loop or if statement.",
+      "optionExplanations": [
+        "Correct. Indentation can determine block structure.",
+        "Incorrect. Indentation does not encrypt code.",
+        "Incorrect. Indentation does not change mutability.",
+        "Incorrect. Processor clock speed is hardware-based and unrelated to indentation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a syntax error?",
+      "options": [
+        "A violation of the programming language's grammar rules",
+        "A program that gives the wrong answer despite valid code",
+        "A temporary power failure",
+        "A correctly formatted comment"
+      ],
+      "answer": 0,
+      "explain": "A syntax error occurs when code is written in a form the language parser cannot understand according to its grammar.",
+      "optionExplanations": [
+        "Correct. Syntax errors break the language's required structure.",
+        "Incorrect. Wrong output with valid syntax is usually a logic error.",
+        "Incorrect. Power issues are hardware or environment problems, not syntax errors.",
+        "Incorrect. A valid comment is not an error."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a logic error?",
+      "options": [
+        "Code runs but produces an incorrect result",
+        "A missing parenthesis that stops parsing",
+        "A damaged monitor",
+        "A variable name written in a comment"
+      ],
+      "answer": 0,
+      "explain": "A logic error means the program's steps are flawed, so the code executes but does not solve the problem correctly.",
+      "optionExplanations": [
+        "Correct. Logic errors affect correctness rather than syntax.",
+        "Incorrect. A missing parenthesis is usually a syntax error.",
+        "Incorrect. A monitor issue is hardware-related.",
+        "Incorrect. Variable names in comments do not create a logic error by themselves."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an infinite loop?",
+      "options": [
+        "A loop that never reaches a stopping condition",
+        "A loop that runs exactly one time",
+        "A loop used only for graphics",
+        "A loop that can contain no variables"
+      ],
+      "answer": 0,
+      "explain": "An infinite loop continues indefinitely because its condition always remains true or it lacks a terminating update.",
+      "optionExplanations": [
+        "Correct. Infinite loops do not stop on their own under normal conditions.",
+        "Incorrect. A single iteration is not infinite.",
+        "Incorrect. Infinite loops are not limited to graphics.",
+        "Incorrect. Variables can appear inside infinite loops."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which best describes debugging?",
+      "options": [
+        "Finding and fixing errors in code",
+        "Adding more comments without testing",
+        "Copying code into a word processor",
+        "Printing every variable to paper"
+      ],
+      "answer": 0,
+      "explain": "Debugging is the process of identifying the cause of errors or unexpected behavior and correcting the code.",
+      "optionExplanations": [
+        "Correct. Debugging is error diagnosis and correction.",
+        "Incorrect. Comments may help documentation but do not by themselves fix errors.",
+        "Incorrect. Moving code to another application is not debugging.",
+        "Incorrect. Printing variables may be one technique, but debugging is broader than that."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does a return statement typically do in a function?",
+      "options": [
+        "Sends a value back to the caller",
+        "Repeats the function forever",
+        "Deletes all local variables before execution begins",
+        "Turns the function into a comment"
+      ],
+      "answer": 0,
+      "explain": "A return statement ends the function's current execution and passes a result back to the code that called it.",
+      "optionExplanations": [
+        "Correct. return provides a value to the caller.",
+        "Incorrect. return usually ends execution rather than repeating forever.",
+        "Incorrect. Local variables are not deleted before execution begins by a return statement.",
+        "Incorrect. return does not turn code into a comment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which variable name is usually considered most readable?",
+      "options": [
+        "totalScore",
+        "ts",
+        "x1",
+        "var"
+      ],
+      "answer": 0,
+      "explain": "Readable names describe purpose. totalScore is more descriptive than short or generic names like ts, x1, or var.",
+      "optionExplanations": [
+        "Correct. It clearly communicates what the variable represents.",
+        "Incorrect. It is short but not very descriptive.",
+        "Incorrect. It is vague and may not describe purpose.",
+        "Incorrect. It is overly generic and gives little meaning."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a constant?",
+      "options": [
+        "A value that is intended not to change during program execution",
+        "A loop that always runs ten times",
+        "A comment placed at the top of a file",
+        "A function with no parameters"
+      ],
+      "answer": 0,
+      "explain": "A constant represents a fixed value such as pi or a tax rate that should remain unchanged after definition.",
+      "optionExplanations": [
+        "Correct. Constants are meant to stay fixed.",
+        "Incorrect. Loop count does not define a constant.",
+        "Incorrect. Comments are documentation, not fixed data values.",
+        "Incorrect. Parameter count does not determine whether something is a constant."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which operation converts the string \"25\" into a numeric value for arithmetic?",
+      "options": [
+        "Parsing or casting the string to a number",
+        "Adding quotation marks around it",
+        "Concatenating it with another string",
+        "Putting it inside a comment"
+      ],
+      "answer": 0,
+      "explain": "Text digits must be converted to a numeric type before arithmetic operations treat them as numbers rather than characters.",
+      "optionExplanations": [
+        "Correct. Parsing or casting changes the type to numeric.",
+        "Incorrect. It is already a string literal.",
+        "Incorrect. Concatenation keeps it as text.",
+        "Incorrect. Comments are ignored and do not convert data."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the output of 10 / 2 in standard arithmetic?",
+      "options": [
+        "5",
+        "2",
+        "10",
+        "20"
+      ],
+      "answer": 0,
+      "explain": "Ten divided by two equals five.",
+      "optionExplanations": [
+        "Correct. 10 divided by 2 is 5.",
+        "Incorrect. This confuses divisor with quotient.",
+        "Incorrect. Division changes the value from 10.",
+        "Incorrect. This would be multiplication, not division."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which structure is most appropriate for choosing one of several possible paths based on different conditions?",
+      "options": [
+        "If-else or else-if chain",
+        "Single variable declaration",
+        "Comment block",
+        "Import library statement"
+      ],
+      "answer": 0,
+      "explain": "An if-else structure supports branching so different code paths can run depending on which condition is true.",
+      "optionExplanations": [
+        "Correct. Conditional chains support multiple possible branches.",
+        "Incorrect. Declaring a variable does not choose between actions.",
+        "Incorrect. Comments do not affect control flow.",
+        "Incorrect. Importing libraries is unrelated to decision logic."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the value of count after this code runs: count = 0; count = count + 1; count = count + 1;",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "3"
+      ],
+      "answer": 0,
+      "explain": "count starts at 0 and is incremented twice, so its final value is 2.",
+      "optionExplanations": [
+        "Correct. Two increments from zero produce 2.",
+        "Incorrect. count changes after the assignments.",
+        "Incorrect. That would be after only one increment.",
+        "Incorrect. There are only two increments, not three."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is it useful to break a large problem into smaller functions?",
+      "options": [
+        "It improves readability, testing, and reuse",
+        "It guarantees the program has no bugs",
+        "It removes the need for variables",
+        "It makes every program object-oriented"
+      ],
+      "answer": 0,
+      "explain": "Smaller functions make code easier to understand, test in isolation, maintain, and reuse across the program.",
+      "optionExplanations": [
+        "Correct. Decomposition improves organization and maintainability.",
+        "Incorrect. Good structure helps but does not guarantee zero bugs.",
+        "Incorrect. Variables are still needed.",
+        "Incorrect. Using functions does not automatically make a program object-oriented."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about while loops is correct?",
+      "options": [
+        "They repeat as long as a condition remains true",
+        "They can only run exactly ten times",
+        "They cannot contain if statements",
+        "They are used only for string operations"
+      ],
+      "answer": 0,
+      "explain": "A while loop continues executing while its controlling condition evaluates to true.",
+      "optionExplanations": [
+        "Correct. That is the defining behavior of a while loop.",
+        "Incorrect. A while loop can run any number of times, including zero.",
+        "Incorrect. Conditional statements can be nested inside loops.",
+        "Incorrect. while loops are general-purpose, not limited to strings."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary benefit of using descriptive comments above a complex algorithm?",
+      "options": [
+        "They help future readers understand the algorithm's purpose",
+        "They force the compiler to optimize the code",
+        "They guarantee faster execution",
+        "They automatically generate test cases in every language"
+      ],
+      "answer": 0,
+      "explain": "Comments can explain the goal, assumptions, or reasoning behind complex logic, which helps maintenance and collaboration.",
+      "optionExplanations": [
+        "Correct. Good comments clarify intent for human readers.",
+        "Incorrect. Compilers generally ignore comments.",
+        "Incorrect. Comments do not directly affect runtime speed.",
+        "Incorrect. Automatic test generation is not a standard effect of comments."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does it mean to initialize a variable?",
+      "options": [
+        "Give it an initial value before it is used",
+        "Delete it from memory",
+        "Convert it to a Boolean",
+        "Move it into a comment block"
+      ],
+      "answer": 0,
+      "explain": "Initialization assigns the first value to a variable so the program has a defined starting state for that data.",
+      "optionExplanations": [
+        "Correct. Initialization sets the starting value.",
+        "Incorrect. That is deallocation, not initialization.",
+        "Incorrect. Type conversion is a different operation.",
+        "Incorrect. Comments do not initialize variables."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which comparison checks whether two values are equal in many languages?",
+      "options": [
+        "==",
+        "=",
+        "+=",
+        "//"
+      ],
+      "answer": 0,
+      "explain": "Many languages use == to compare two values for equality, while = usually means assignment.",
+      "optionExplanations": [
+        "Correct. == commonly tests equality.",
+        "Incorrect. = usually assigns a value.",
+        "Incorrect. += adds and reassigns.",
+        "Incorrect. // often begins a comment in some languages."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the result of the Boolean expression true AND false?",
+      "options": [
+        "false",
+        "true",
+        "1",
+        "It causes a syntax error"
+      ],
+      "answer": 0,
+      "explain": "Logical AND is true only when both operands are true, so true AND false evaluates to false.",
+      "optionExplanations": [
+        "Correct. One false operand makes the whole AND expression false.",
+        "Incorrect. Both operands would need to be true.",
+        "Incorrect. The result is a Boolean value, not the integer 1.",
+        "Incorrect. This is a valid Boolean expression in concept."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the result of the Boolean expression true OR false?",
+      "options": [
+        "true",
+        "false",
+        "0",
+        "undefined"
+      ],
+      "answer": 0,
+      "explain": "Logical OR is true when at least one operand is true, so true OR false evaluates to true.",
+      "optionExplanations": [
+        "Correct. One true operand is enough for OR to be true.",
+        "Incorrect. OR would be false only if both operands were false.",
+        "Incorrect. The expression evaluates to a Boolean, not 0.",
+        "Incorrect. The result is well-defined in standard Boolean logic."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement is true about nested loops?",
+      "options": [
+        "One loop runs inside another loop",
+        "They can never be used with arrays",
+        "They always cause syntax errors",
+        "They are allowed only in object-oriented languages"
+      ],
+      "answer": 0,
+      "explain": "Nested loops place one loop within the body of another, often for working with grids, pairs, or repeated comparisons.",
+      "optionExplanations": [
+        "Correct. That is exactly what nested loops are.",
+        "Incorrect. Arrays are a common use case for nested loops.",
+        "Incorrect. They are valid constructs when written correctly.",
+        "Incorrect. Nested loops are language-agnostic and not limited to OOP."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most likely purpose of the expression x = x + 1?",
+      "options": [
+        "Increase x by one",
+        "Compare x to one",
+        "Set x permanently to x",
+        "Delete x from memory"
+      ],
+      "answer": 0,
+      "explain": "The assignment uses the old value of x, adds one, and stores the result back in x, which increments it.",
+      "optionExplanations": [
+        "Correct. This is a standard increment pattern.",
+        "Incorrect. Comparison would use an equality operator, not assignment.",
+        "Incorrect. The value changes unless adding one has no effect for some unusual reason.",
+        "Incorrect. Assignment does not delete memory."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a parameter in a function definition?",
+      "options": [
+        "A variable that receives input to the function",
+        "A comment that documents the function",
+        "The final line of every program",
+        "A built-in graphics library"
+      ],
+      "answer": 0,
+      "explain": "Parameters are named inputs listed in a function definition so the function can work with values provided by the caller.",
+      "optionExplanations": [
+        "Correct. Parameters accept incoming values.",
+        "Incorrect. Documentation is separate from parameters.",
+        "Incorrect. There is no rule making parameters the final line of a program.",
+        "Incorrect. A library is external code, not a function parameter."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an argument in a function call?",
+      "options": [
+        "The actual value passed into a function",
+        "A syntax error caused by commas",
+        "A comment inside the function body",
+        "A variable that can never change"
+      ],
+      "answer": 0,
+      "explain": "An argument is the concrete value or expression supplied when calling a function, corresponding to a parameter in the definition.",
+      "optionExplanations": [
+        "Correct. Arguments are the values sent to the function.",
+        "Incorrect. Commas can separate arguments, but arguments themselves are not syntax errors.",
+        "Incorrect. Comments are unrelated.",
+        "Incorrect. Mutability does not define an argument."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which algorithm design idea means solving a big task one step at a time in a clear sequence?",
+      "options": [
+        "Step-by-step procedural logic",
+        "Random guessing until the program works",
+        "Deleting all variables at the start",
+        "Avoiding all user input"
+      ],
+      "answer": 0,
+      "explain": "Introductory programming often uses procedural logic: a defined sequence of operations that transform input into output.",
+      "optionExplanations": [
+        "Correct. Procedural, step-by-step logic is a core programming concept.",
+        "Incorrect. Random guessing is not a sound design method.",
+        "Incorrect. Variable deletion is not an algorithm design principle.",
+        "Incorrect. Input avoidance does not define an algorithm."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is pseudocode?",
+      "options": [
+        "A human-readable outline of program logic",
+        "A compiled executable file",
+        "A virus that imitates real code",
+        "A required part of every source file's syntax"
+      ],
+      "answer": 0,
+      "explain": "Pseudocode expresses the logic of a solution in plain-language steps without depending on exact programming-language syntax.",
+      "optionExplanations": [
+        "Correct. Pseudocode is an informal way to plan logic.",
+        "Incorrect. An executable file is machine-run code, not pseudocode.",
+        "Incorrect. That is not what pseudocode means.",
+        "Incorrect. Pseudocode is optional planning, not required syntax."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main advantage of a flowchart?",
+      "options": [
+        "It visually represents the steps and decisions in a process",
+        "It compiles code faster",
+        "It automatically fixes syntax errors",
+        "It stores values more efficiently than RAM"
+      ],
+      "answer": 0,
+      "explain": "A flowchart uses symbols and arrows to show process flow, decisions, and order of operations in a visual format.",
+      "optionExplanations": [
+        "Correct. Flowcharts visualize logic and control flow.",
+        "Incorrect. They are planning tools, not compilers.",
+        "Incorrect. They do not repair code automatically.",
+        "Incorrect. They are diagrams, not storage hardware."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of an integer literal?",
+      "options": [
+        "27",
+        "\"27\"",
+        "true",
+        "\"age\""
+      ],
+      "answer": 0,
+      "explain": "27 without quotation marks represents a whole-number literal, while quoted values are strings.",
+      "optionExplanations": [
+        "Correct. 27 is an integer literal.",
+        "Incorrect. Quotation marks make it a string literal.",
+        "Incorrect. true is a Boolean literal.",
+        "Incorrect. \"age\" is a string literal."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes a string?",
+      "options": [
+        "A sequence of characters used as text",
+        "A number with a decimal point",
+        "A true-false value",
+        "A collection that can hold only integers"
+      ],
+      "answer": 0,
+      "explain": "A string stores textual data such as words, sentences, or mixed characters.",
+      "optionExplanations": [
+        "Correct. Strings are textual sequences.",
+        "Incorrect. That describes a floating-point number.",
+        "Incorrect. That describes a Boolean.",
+        "Incorrect. A string is not defined as an integer-only collection."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of these is most likely a floating-point value?",
+      "options": [
+        "3.75",
+        "375",
+        "false",
+        "\"3.75\""
+      ],
+      "answer": 0,
+      "explain": "A floating-point value includes a fractional or decimal component and is stored as a numeric type, not text.",
+      "optionExplanations": [
+        "Correct. 3.75 is a numeric decimal value.",
+        "Incorrect. 375 is an integer.",
+        "Incorrect. false is Boolean.",
+        "Incorrect. Quotation marks make it text, not a numeric float."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a library or module in programming?",
+      "options": [
+        "To provide reusable code written by others or earlier by the programmer",
+        "To force all programs to use the same variable names",
+        "To replace the operating system",
+        "To prevent any need for testing"
+      ],
+      "answer": 0,
+      "explain": "Libraries and modules package related functionality so programmers can reuse tested code instead of rewriting everything from scratch.",
+      "optionExplanations": [
+        "Correct. Libraries provide reusable functionality.",
+        "Incorrect. Variable naming remains up to the programmer and language rules.",
+        "Incorrect. Libraries do not replace the operating system.",
+        "Incorrect. Reused code still needs integration and testing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a user enters text when a program expects a number, what type of issue may occur?",
+      "options": [
+        "Input validation or type conversion error",
+        "Guaranteed hardware failure",
+        "Automatic infinite memory allocation",
+        "Successful arithmetic with no conversion needed"
+      ],
+      "answer": 0,
+      "explain": "Programs must validate input or convert types correctly. Text supplied where numeric input is expected can cause conversion or validation failures.",
+      "optionExplanations": [
+        "Correct. The mismatch can cause conversion or validation problems.",
+        "Incorrect. This is not a guaranteed hardware issue.",
+        "Incorrect. Memory allocation is unrelated to the basic input mismatch.",
+        "Incorrect. Arithmetic on text usually requires explicit conversion first."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the best reason to test a program with several different inputs?",
+      "options": [
+        "To verify it behaves correctly in multiple cases",
+        "To make comments longer",
+        "To remove all need for functions",
+        "To ensure every variable becomes global"
+      ],
+      "answer": 0,
+      "explain": "Testing different inputs helps reveal bugs, boundary problems, and incorrect assumptions that would not appear in only one test case.",
+      "optionExplanations": [
+        "Correct. Diverse tests improve confidence in correctness.",
+        "Incorrect. Testing is not for comment length.",
+        "Incorrect. Functions remain useful regardless of testing.",
+        "Incorrect. Testing does not change scope rules."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a boundary case in testing?",
+      "options": [
+        "An input at the edge of the allowed range",
+        "A completely random line of code",
+        "A function with no parameters",
+        "A comment at the bottom of a file"
+      ],
+      "answer": 0,
+      "explain": "Boundary cases occur at the minimum, maximum, or near-edge values where bugs often appear, such as 0, 1, or the largest allowed input.",
+      "optionExplanations": [
+        "Correct. Boundary cases target edge values.",
+        "Incorrect. Random code is not a testing case.",
+        "Incorrect. Parameter count does not define a boundary case.",
+        "Incorrect. Comments are unrelated to test design."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of using meaningful indentation and spacing even in languages where it is optional?",
+      "options": [
+        "To improve readability for humans",
+        "To encrypt the source code",
+        "To reduce storage to zero bytes",
+        "To guarantee that the code is bug-free"
+      ],
+      "answer": 0,
+      "explain": "Consistent formatting helps programmers scan, understand, and maintain code more effectively.",
+      "optionExplanations": [
+        "Correct. Formatting mainly helps people read the code.",
+        "Incorrect. Whitespace does not encrypt code.",
+        "Incorrect. Formatting does not remove storage needs.",
+        "Incorrect. Clean formatting does not guarantee correctness."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes scope?",
+      "options": [
+        "The region of a program where a variable can be accessed",
+        "The speed at which code compiles",
+        "A built-in loop that runs once",
+        "A hardware tool used for debugging"
+      ],
+      "answer": 0,
+      "explain": "Scope defines where in the program a name such as a variable or function is visible and usable.",
+      "optionExplanations": [
+        "Correct. Scope is about visibility and accessibility of names.",
+        "Incorrect. Compilation speed is unrelated.",
+        "Incorrect. Scope is not a loop.",
+        "Incorrect. Debugging hardware is unrelated to variable scope."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a local variable?",
+      "options": [
+        "A variable accessible only within a specific function or block",
+        "A variable available everywhere in every file",
+        "A variable stored permanently on the internet",
+        "A variable that must always contain text"
+      ],
+      "answer": 0,
+      "explain": "A local variable exists within limited scope, commonly inside a function, and cannot be accessed directly outside that scope.",
+      "optionExplanations": [
+        "Correct. Local variables are limited to a certain region of code.",
+        "Incorrect. That describes a global-like variable, not a local one.",
+        "Incorrect. Internet storage is unrelated.",
+        "Incorrect. Type does not define locality."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a global variable?",
+      "options": [
+        "A variable intended to be accessible from many parts of a program",
+        "A variable that can only exist inside one loop",
+        "A variable with no value",
+        "A variable used only in comments"
+      ],
+      "answer": 0,
+      "explain": "A global variable has broad visibility, though excessive use can make programs harder to reason about and maintain.",
+      "optionExplanations": [
+        "Correct. Global variables are widely accessible.",
+        "Incorrect. Loop-only access is not what global means.",
+        "Incorrect. A variable can be global and still hold a value.",
+        "Incorrect. Comments do not use variables in the execution sense."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the output of the expression 14 % 5?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "9"
+      ],
+      "answer": 0,
+      "explain": "Fourteen divided by five leaves a remainder of four, so 14 % 5 equals 4.",
+      "optionExplanations": [
+        "Correct. The remainder is 4.",
+        "Incorrect. 2 is not the remainder of 14 divided by 5.",
+        "Incorrect. 5 is the divisor, not the remainder.",
+        "Incorrect. 9 is unrelated to the modulus result."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which operation is most closely associated with reading data from a file?",
+      "options": [
+        "Input",
+        "Output formatting",
+        "Loop nesting",
+        "Variable shadowing"
+      ],
+      "answer": 0,
+      "explain": "Reading from a file brings external data into the program, so it is an input operation.",
+      "optionExplanations": [
+        "Correct. File reading is input.",
+        "Incorrect. Output formatting concerns displaying data.",
+        "Incorrect. Loop nesting is a control-flow structure.",
+        "Incorrect. Variable shadowing is a scope concept."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why should a program validate user input?",
+      "options": [
+        "To check that the data is acceptable before using it",
+        "To make every input become a string",
+        "To prevent functions from being called",
+        "To eliminate the need for algorithms"
+      ],
+      "answer": 0,
+      "explain": "Validation ensures input meets expected rules such as type, range, and format before the program relies on it.",
+      "optionExplanations": [
+        "Correct. Validation protects the program from bad or unexpected input.",
+        "Incorrect. Validation does not force every value to be a string.",
+        "Incorrect. Functions can still be called after validation.",
+        "Incorrect. Algorithms are still required to process valid data."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main difference between source code and machine code?",
+      "options": [
+        "Source code is human-readable, while machine code is directly executed by the CPU",
+        "Source code is always shorter than machine code",
+        "Machine code can be understood only by database systems",
+        "There is no difference between them"
+      ],
+      "answer": 0,
+      "explain": "Source code is written for humans in a programming language, while machine code consists of low-level instructions the processor executes.",
+      "optionExplanations": [
+        "Correct. That is the essential distinction.",
+        "Incorrect. Length is not the defining difference.",
+        "Incorrect. Machine code is for CPUs, not specifically database systems.",
+        "Incorrect. They are different representations."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which tool typically translates source code line by line while running it?",
+      "options": [
+        "Interpreter",
+        "Monitor",
+        "Spreadsheet",
+        "Flowchart"
+      ],
+      "answer": 0,
+      "explain": "An interpreter reads and executes program instructions progressively rather than producing a standalone machine-code binary first.",
+      "optionExplanations": [
+        "Correct. Interpreters execute code line by line or statement by statement.",
+        "Incorrect. A monitor is display hardware.",
+        "Incorrect. A spreadsheet is an application, not the standard code-translation tool here.",
+        "Incorrect. A flowchart is a diagram, not an execution tool."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which tool typically converts an entire source program into another form before execution?",
+      "options": [
+        "Compiler",
+        "Keyboard",
+        "Comment",
+        "Scanner"
+      ],
+      "answer": 0,
+      "explain": "A compiler translates source code into machine code or bytecode before the program runs.",
+      "optionExplanations": [
+        "Correct. Compilers perform ahead-of-time translation.",
+        "Incorrect. A keyboard is only an input device.",
+        "Incorrect. Comments are documentation, not translation tools.",
+        "Incorrect. A scanner reads input or images, not entire program translation in this sense."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does the expression x == y usually test?",
+      "options": [
+        "Whether x and y have equal values",
+        "Whether x should be assigned to y",
+        "Whether x is greater than y",
+        "Whether y should become a comment"
+      ],
+      "answer": 0,
+      "explain": "Double equals is commonly used to compare values for equality rather than to assign one value to another.",
+      "optionExplanations": [
+        "Correct. It checks value equality.",
+        "Incorrect. Assignment usually uses a single equals sign.",
+        "Incorrect. Greater-than comparison uses a different operator.",
+        "Incorrect. Comments are unrelated to equality testing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an algorithm?",
+      "options": [
+        "A finite sequence of steps for solving a problem",
+        "A hardware part inside the processor",
+        "A style of font used in code editors",
+        "A permanent data file on disk"
+      ],
+      "answer": 0,
+      "explain": "An algorithm is a clear, ordered procedure for producing a result or solving a task.",
+      "optionExplanations": [
+        "Correct. Algorithms are step-by-step problem-solving procedures.",
+        "Incorrect. Hardware is physical, not a method.",
+        "Incorrect. Font style is unrelated.",
+        "Incorrect. A file may store an algorithm, but it is not itself the definition of one."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which option is an example of selection in programming?",
+      "options": [
+        "Choosing between code paths with an if statement",
+        "Storing items in a list",
+        "Repeating a block with a loop",
+        "Writing comments above a function"
+      ],
+      "answer": 0,
+      "explain": "Selection means branching among alternatives based on conditions, which is what an if statement does.",
+      "optionExplanations": [
+        "Correct. if statements are the classic selection structure.",
+        "Incorrect. Lists are data structures, not selection.",
+        "Incorrect. Loops are iteration, not selection.",
+        "Incorrect. Comments document code rather than control execution."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which option is an example of iteration in programming?",
+      "options": [
+        "Repeating a block with a loop",
+        "Declaring a constant",
+        "Comparing two strings once",
+        "Writing a function header"
+      ],
+      "answer": 0,
+      "explain": "Iteration means repeating a set of instructions, usually with a for or while loop.",
+      "optionExplanations": [
+        "Correct. Loops perform iteration.",
+        "Incorrect. Constant declaration does not repeat work.",
+        "Incorrect. A single comparison is not iteration.",
+        "Incorrect. A function header defines a function but does not itself repeat anything."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a sentinel value in a loop?",
+      "options": [
+        "To signal when input or processing should stop",
+        "To force every loop to run one extra time",
+        "To rename variables automatically",
+        "To convert arrays into strings"
+      ],
+      "answer": 0,
+      "explain": "A sentinel value is a special input or marker, such as -1 or quit, that tells the program to end repeated processing.",
+      "optionExplanations": [
+        "Correct. Sentinel values indicate termination.",
+        "Incorrect. They are not for adding an extra iteration.",
+        "Incorrect. They do not rename variables.",
+        "Incorrect. They do not convert data structures."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a function computes a value but never returns it, what is a likely consequence?",
+      "options": [
+        "The caller cannot directly receive that computed result",
+        "The program will always compile faster",
+        "The function becomes a global variable",
+        "All loops in the program stop working"
+      ],
+      "answer": 0,
+      "explain": "Without returning a computed value, the calling code has no direct way to use that result unless the function changes shared state or prints it.",
+      "optionExplanations": [
+        "Correct. The result is not directly passed back to the caller.",
+        "Incorrect. Compilation speed is unrelated.",
+        "Incorrect. Functions do not become variables because of missing return values.",
+        "Incorrect. Loop behavior is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the output of this comparison: 3 <= 3?",
+      "options": [
+        "True",
+        "False",
+        "0",
+        "Undefined"
+      ],
+      "answer": 0,
+      "explain": "The operator <= means less than or equal to, and 3 is equal to 3, so the comparison is true.",
+      "optionExplanations": [
+        "Correct. Equality satisfies the <= relation.",
+        "Incorrect. The comparison is not false.",
+        "Incorrect. The expression evaluates to a Boolean truth value.",
+        "Incorrect. The result is well-defined."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of using test data with expected results?",
+      "options": [
+        "To compare actual output against what should happen",
+        "To reduce indentation",
+        "To convert comments into code",
+        "To eliminate the need for input"
+      ],
+      "answer": 0,
+      "explain": "Expected results let programmers verify correctness by comparing the program's output with the known correct answer.",
+      "optionExplanations": [
+        "Correct. Expected outputs make verification possible.",
+        "Incorrect. Test data does not affect indentation.",
+        "Incorrect. Comments are not converted into code by testing.",
+        "Incorrect. Input is still needed for meaningful test cases."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which value would be best as a loop counter?",
+      "options": [
+        "An integer",
+        "A string paragraph",
+        "An image file",
+        "A Boolean expression only"
+      ],
+      "answer": 0,
+      "explain": "Loop counters usually track numeric progress such as 0, 1, 2, and so on, so integers are the natural choice.",
+      "optionExplanations": [
+        "Correct. Integers are standard for counting iterations.",
+        "Incorrect. Long text is not appropriate for counting.",
+        "Incorrect. An image file is not a numeric counter.",
+        "Incorrect. A Boolean can control a loop, but it is not the typical counter value."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is off-by-one error a common problem in loops?",
+      "options": [
+        "Because programmers may start or stop the loop one iteration too early or late",
+        "Because loops can run only one time",
+        "Because counters cannot be integers",
+        "Because conditions are ignored inside loops"
+      ],
+      "answer": 0,
+      "explain": "Off-by-one errors happen when loop bounds or indices are miscalculated, causing one extra or one missing iteration.",
+      "optionExplanations": [
+        "Correct. The loop boundary is shifted by one.",
+        "Incorrect. Loops can run many times.",
+        "Incorrect. Integer counters are standard.",
+        "Incorrect. Loop conditions are central, not ignored."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of a class in object-oriented programming?",
+      "options": [
+        "To define a blueprint for creating objects",
+        "To force every variable to be public",
+        "To store only numbers",
+        "To replace all functions in a program"
+      ],
+      "answer": 0,
+      "explain": "A class describes the data and behaviors that objects of that type will have, acting as a blueprint.",
+      "optionExplanations": [
+        "Correct. Classes define object structure and behavior.",
+        "Incorrect. Access control depends on the language and design, not the mere existence of a class.",
+        "Incorrect. Classes can model many kinds of data.",
+        "Incorrect. Methods are often functions associated with classes, so classes do not replace all functions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an object in object-oriented programming?",
+      "options": [
+        "An instance created from a class",
+        "A syntax error inside a method",
+        "A loop that runs backward",
+        "A file that cannot be edited"
+      ],
+      "answer": 0,
+      "explain": "An object is a concrete instance of a class, with its own stored data and access to behaviors defined by the class.",
+      "optionExplanations": [
+        "Correct. Objects are instances of classes.",
+        "Incorrect. Errors are not objects by definition.",
+        "Incorrect. Loop direction is unrelated.",
+        "Incorrect. File editability is unrelated to OOP terminology."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the data stored inside an object?",
+      "options": [
+        "Attributes or fields",
+        "Comments or notes",
+        "Imports or includes",
+        "Operators or comparators"
+      ],
+      "answer": 0,
+      "explain": "Attributes, also called fields or properties in some languages, hold the object's state or data values.",
+      "optionExplanations": [
+        "Correct. Attributes or fields represent object data.",
+        "Incorrect. Comments do not store object state.",
+        "Incorrect. Imports bring in code from elsewhere.",
+        "Incorrect. Operators perform operations but are not object data."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes a function associated with a class?",
+      "options": [
+        "Method",
+        "Literal",
+        "Index",
+        "Token"
+      ],
+      "answer": 0,
+      "explain": "A method is a function defined as part of a class and typically operates on that class's objects.",
+      "optionExplanations": [
+        "Correct. Methods are class-associated functions.",
+        "Incorrect. A literal is a fixed value in code.",
+        "Incorrect. An index is a position in a collection.",
+        "Incorrect. A token is a lexical unit in parsing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does encapsulation mean in object-oriented programming?",
+      "options": [
+        "Bundling data and related behavior together",
+        "Deleting all private data",
+        "Making every variable global",
+        "Turning loops into classes automatically"
+      ],
+      "answer": 0,
+      "explain": "Encapsulation groups an object's data with the methods that operate on it, often controlling access to internal details.",
+      "optionExplanations": [
+        "Correct. Encapsulation combines data and behavior in one unit.",
+        "Incorrect. It does not mean deleting private data.",
+        "Incorrect. It tends to reduce overexposed global state, not increase it.",
+        "Incorrect. It does not automatically convert loops into classes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a constructor in many object-oriented languages?",
+      "options": [
+        "To initialize a new object when it is created",
+        "To compare two objects for equality",
+        "To permanently save the object to disk",
+        "To compile the entire program"
+      ],
+      "answer": 0,
+      "explain": "A constructor runs during object creation to set up initial state such as field values.",
+      "optionExplanations": [
+        "Correct. Constructors initialize new objects.",
+        "Incorrect. Equality comparison is a separate operation.",
+        "Incorrect. Persistence to disk is a different concern.",
+        "Incorrect. Compilation is not the constructor's role."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which option best describes inheritance?",
+      "options": [
+        "A class gaining properties or behaviors from another class",
+        "A loop calling itself forever",
+        "A variable changing type automatically",
+        "A comment copied into multiple files"
+      ],
+      "answer": 0,
+      "explain": "Inheritance allows a derived class to reuse and extend the features of a base class.",
+      "optionExplanations": [
+        "Correct. Inheritance supports reuse and extension between classes.",
+        "Incorrect. Recursion, not inheritance, involves self-calling behavior.",
+        "Incorrect. Type change is not inheritance.",
+        "Incorrect. Comments are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is polymorphism in programming?",
+      "options": [
+        "Using a common interface for different underlying forms",
+        "A method of compressing image files",
+        "A way to number lines of code",
+        "The rule that variables must be integers"
+      ],
+      "answer": 0,
+      "explain": "Polymorphism lets different objects respond to the same method call in type-appropriate ways.",
+      "optionExplanations": [
+        "Correct. Polymorphism allows shared interfaces across varying implementations.",
+        "Incorrect. File compression is unrelated.",
+        "Incorrect. Line numbering is unrelated.",
+        "Incorrect. Variables can have many types."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is code reuse valuable?",
+      "options": [
+        "It saves development time and reduces repeated work",
+        "It guarantees zero runtime errors",
+        "It prevents the use of functions",
+        "It makes every program shorter than ten lines"
+      ],
+      "answer": 0,
+      "explain": "Reusing reliable code speeds development, improves consistency, and lowers the chance of introducing new bugs through redundant rewrites.",
+      "optionExplanations": [
+        "Correct. Reuse improves efficiency and consistency.",
+        "Incorrect. Reuse does not guarantee perfection.",
+        "Incorrect. Reuse often involves functions and modules.",
+        "Incorrect. Program length is not fixed by reuse."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is recursion?",
+      "options": [
+        "A function calling itself to solve smaller versions of a problem",
+        "A variable stored in two arrays at once",
+        "A type of comment used in documentation",
+        "A compiler translating code backward"
+      ],
+      "answer": 0,
+      "explain": "Recursion solves a problem by reducing it to smaller similar subproblems, with a function calling itself until a base case is reached.",
+      "optionExplanations": [
+        "Correct. Self-calling with smaller subproblems defines recursion.",
+        "Incorrect. Array storage is unrelated.",
+        "Incorrect. Documentation comments are unrelated.",
+        "Incorrect. Compiler direction is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why does recursion require a base case?",
+      "options": [
+        "To stop the self-calls from continuing forever",
+        "To increase indentation depth",
+        "To force all return values to be strings",
+        "To replace the need for parameters"
+      ],
+      "answer": 0,
+      "explain": "The base case defines when recursive calls should stop; without it, the function may recurse indefinitely and overflow the call stack.",
+      "optionExplanations": [
+        "Correct. The base case terminates recursion.",
+        "Incorrect. Indentation depth is not the purpose.",
+        "Incorrect. Return types are unrelated.",
+        "Incorrect. Parameters may still be needed."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which algorithm usually finds a value in a sorted list by repeatedly checking the middle element?",
+      "options": [
+        "Binary search",
+        "Bubble sort",
+        "Linear search",
+        "Hashing"
+      ],
+      "answer": 0,
+      "explain": "Binary search exploits sorted order by eliminating half the remaining search space at each step.",
+      "optionExplanations": [
+        "Correct. Binary search repeatedly checks the middle in a sorted list.",
+        "Incorrect. Bubble sort is a sorting algorithm, not a search strategy.",
+        "Incorrect. Linear search checks elements one by one.",
+        "Incorrect. Hashing is a different lookup strategy not based on repeatedly choosing a middle element."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which algorithm checks each element one at a time until a match is found?",
+      "options": [
+        "Linear search",
+        "Merge sort",
+        "Binary search",
+        "Recursion tree"
+      ],
+      "answer": 0,
+      "explain": "Linear search scans sequentially through items until it finds the target or reaches the end.",
+      "optionExplanations": [
+        "Correct. Linear search tests items one by one.",
+        "Incorrect. Merge sort orders data rather than performing one-by-one search.",
+        "Incorrect. Binary search jumps by halves in sorted data.",
+        "Incorrect. A recursion tree is an analysis concept, not this search algorithm."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main requirement for binary search to work correctly?",
+      "options": [
+        "The data must already be sorted",
+        "The list must contain only strings",
+        "The program must use recursion",
+        "The computer must have multiple processors"
+      ],
+      "answer": 0,
+      "explain": "Binary search depends on sorted order so it can decide whether to continue in the left or right half.",
+      "optionExplanations": [
+        "Correct. Sorted data is essential for binary search.",
+        "Incorrect. Binary search works on many comparable data types, not only strings.",
+        "Incorrect. It can be implemented iteratively or recursively.",
+        "Incorrect. Multiprocessor hardware is not required."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the goal of a sorting algorithm?",
+      "options": [
+        "To arrange data into a specified order",
+        "To convert every number into text",
+        "To prevent all user input",
+        "To make all loops infinite"
+      ],
+      "answer": 0,
+      "explain": "Sorting algorithms reorder data, such as ascending or descending, to support organization, display, or faster searching.",
+      "optionExplanations": [
+        "Correct. Sorting places data in an intended order.",
+        "Incorrect. Type conversion is unrelated.",
+        "Incorrect. Input prevention is unrelated.",
+        "Incorrect. Sorting has nothing to do with infinite loops."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which sorting method repeatedly swaps adjacent out-of-order elements?",
+      "options": [
+        "Bubble sort",
+        "Binary search",
+        "Depth-first search",
+        "Hash lookup"
+      ],
+      "answer": 0,
+      "explain": "Bubble sort passes through the list and swaps neighboring elements that are in the wrong order until the list is sorted.",
+      "optionExplanations": [
+        "Correct. Bubble sort uses adjacent swaps.",
+        "Incorrect. Binary search is for searching sorted data.",
+        "Incorrect. Depth-first search is a graph traversal strategy.",
+        "Incorrect. Hash lookup is a dictionary-like access method."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is algorithm efficiency important?",
+      "options": [
+        "More efficient algorithms can use less time or memory",
+        "Efficient algorithms remove the need for syntax",
+        "Efficient algorithms make comments unnecessary",
+        "Efficiency matters only in programs with no input"
+      ],
+      "answer": 0,
+      "explain": "Efficiency matters because two correct algorithms may differ greatly in how much time or memory they consume as input size grows.",
+      "optionExplanations": [
+        "Correct. Efficiency concerns resource use such as time and memory.",
+        "Incorrect. Efficiency does not replace syntax rules.",
+        "Incorrect. Comments remain useful for readability.",
+        "Incorrect. Efficiency can matter in many kinds of programs."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is meant by time complexity?",
+      "options": [
+        "How runtime tends to grow as input size increases",
+        "The wall clock on the programmer's desk",
+        "The number of comments in a source file",
+        "The size of a monitor in inches"
+      ],
+      "answer": 0,
+      "explain": "Time complexity describes the growth pattern of an algorithm's running time relative to input size.",
+      "optionExplanations": [
+        "Correct. Time complexity analyzes runtime growth.",
+        "Incorrect. Physical clocks are irrelevant to the concept.",
+        "Incorrect. Comment count does not define time complexity.",
+        "Incorrect. Monitor size is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is meant by space complexity?",
+      "options": [
+        "How memory usage tends to grow as input size increases",
+        "The amount of empty disk space left on a computer",
+        "The width of spaces used for indentation",
+        "The number of tabs in an editor"
+      ],
+      "answer": 0,
+      "explain": "Space complexity measures the additional memory an algorithm requires as the size of its input changes.",
+      "optionExplanations": [
+        "Correct. Space complexity concerns memory growth.",
+        "Incorrect. Free disk space is a different metric.",
+        "Incorrect. Indentation width is unrelated.",
+        "Incorrect. Editor tabs are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which data structure works like a stack of plates, where the last item added is the first removed?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Array of fixed length only",
+        "Flowchart"
+      ],
+      "answer": 0,
+      "explain": "A stack follows last in, first out behavior, like plates stacked on top of one another.",
+      "optionExplanations": [
+        "Correct. Stacks use LIFO order.",
+        "Incorrect. Queues use first in, first out order.",
+        "Incorrect. An array is a general storage structure, not defined by LIFO behavior.",
+        "Incorrect. A flowchart is a diagram, not a runtime data structure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which data structure works like a line at a ticket counter, where the first item added is the first removed?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Class",
+        "Comment"
+      ],
+      "answer": 0,
+      "explain": "A queue follows first in, first out behavior, like a line where the earliest arrival is served first.",
+      "optionExplanations": [
+        "Correct. Queues use FIFO order.",
+        "Incorrect. Stacks use LIFO order.",
+        "Incorrect. A class is a blueprint for objects, not this ordering behavior.",
+        "Incorrect. Comments are documentation, not data structures."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which operation adds an item to the end of a queue?",
+      "options": [
+        "Enqueue",
+        "Pop",
+        "Peek",
+        "Compile"
+      ],
+      "answer": 0,
+      "explain": "Enqueue inserts an item at the rear of a queue so it can be processed after earlier items.",
+      "optionExplanations": [
+        "Correct. enqueue adds an item to a queue.",
+        "Incorrect. pop usually removes from a stack or similar structure.",
+        "Incorrect. peek usually views an item without removing it.",
+        "Incorrect. compile translates code rather than modifying a queue."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which operation removes the top item from a stack?",
+      "options": [
+        "Pop",
+        "Enqueue",
+        "Append comment",
+        "Cast"
+      ],
+      "answer": 0,
+      "explain": "Pop removes and usually returns the most recently pushed item from a stack.",
+      "optionExplanations": [
+        "Correct. pop removes the top stack item.",
+        "Incorrect. enqueue is a queue insertion operation.",
+        "Incorrect. Comments do not alter stack structure.",
+        "Incorrect. Casting changes data type, not stack membership."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does it mean when code is portable?",
+      "options": [
+        "It can run on different systems with little or no change",
+        "It fits on a flash drive",
+        "It uses only local variables",
+        "It never needs input validation"
+      ],
+      "answer": 0,
+      "explain": "Portable code is designed to work across platforms or environments without extensive rewriting.",
+      "optionExplanations": [
+        "Correct. Portability is about cross-platform usability.",
+        "Incorrect. Physical file size is not the programming meaning.",
+        "Incorrect. Scope choices do not define portability.",
+        "Incorrect. Input validation is still needed regardless of portability."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is version control useful in programming projects?",
+      "options": [
+        "It tracks changes and supports collaboration",
+        "It converts all loops into functions",
+        "It prevents the need for testing",
+        "It is only for storing images"
+      ],
+      "answer": 0,
+      "explain": "Version control systems record code history, enable branching and merging, and help teams collaborate safely.",
+      "optionExplanations": [
+        "Correct. Version control manages changes and teamwork.",
+        "Incorrect. It does not automatically refactor loops into functions.",
+        "Incorrect. Testing is still necessary.",
+        "Incorrect. It is widely used for source code, not just images."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of an IDE in programming?",
+      "options": [
+        "To provide tools like editing, running, and debugging in one environment",
+        "To replace all programming languages",
+        "To physically cool the computer",
+        "To store only compiled machine code"
+      ],
+      "answer": 0,
+      "explain": "An integrated development environment combines common programming tools such as a code editor, debugger, and run/build features.",
+      "optionExplanations": [
+        "Correct. IDEs centralize development tools.",
+        "Incorrect. IDEs support languages; they do not replace them.",
+        "Incorrect. Cooling hardware is unrelated.",
+        "Incorrect. IDEs manage source editing too, not only compiled code."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best improves code readability?",
+      "options": [
+        "Using clear names and consistent formatting",
+        "Using the shortest possible variable names everywhere",
+        "Removing all blank lines and comments",
+        "Placing all code on one line"
+      ],
+      "answer": 0,
+      "explain": "Readable code benefits from descriptive naming, sensible spacing, and consistent style that help humans understand structure quickly.",
+      "optionExplanations": [
+        "Correct. Good naming and formatting improve readability.",
+        "Incorrect. Extremely short names often reduce clarity.",
+        "Incorrect. Removing all structure and documentation harms readability.",
+        "Incorrect. One-line code is usually harder to read and maintain."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a Boolean expression?",
+      "options": [
+        "An expression that evaluates to true or false",
+        "An expression that always produces a string",
+        "An expression that can be used only in comments",
+        "An expression that must contain division"
+      ],
+      "answer": 0,
+      "explain": "Boolean expressions represent logical conditions and produce a truth value used in decisions and loops.",
+      "optionExplanations": [
+        "Correct. Boolean expressions evaluate to true or false.",
+        "Incorrect. They are not defined by producing text.",
+        "Incorrect. They are executable logic, not comments.",
+        "Incorrect. Division is not required."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the output of this arithmetic expression: 2 + 3 * 4?",
+      "options": [
+        "14",
+        "20",
+        "24",
+        "11"
+      ],
+      "answer": 0,
+      "explain": "Multiplication is evaluated before addition, so 3 * 4 is 12 and then 2 + 12 equals 14.",
+      "optionExplanations": [
+        "Correct. Standard precedence gives 14.",
+        "Incorrect. This would come from adding first and then multiplying.",
+        "Incorrect. This is not produced by standard precedence.",
+        "Incorrect. This would ignore the multiplication result."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If total starts as 10, what is total after total -= 3?",
+      "options": [
+        "7",
+        "13",
+        "3",
+        "10"
+      ],
+      "answer": 0,
+      "explain": "The -= operator subtracts the right-hand value from the variable and stores the result back, so 10 becomes 7.",
+      "optionExplanations": [
+        "Correct. 10 minus 3 equals 7.",
+        "Incorrect. That would be addition, not subtraction.",
+        "Incorrect. That confuses the new value with the amount subtracted.",
+        "Incorrect. The variable does change."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of the NOT operator in Boolean logic?",
+      "options": [
+        "To reverse a truth value",
+        "To add two numbers",
+        "To create a new variable name",
+        "To start a while loop"
+      ],
+      "answer": 0,
+      "explain": "NOT changes true to false and false to true, so it negates a Boolean condition.",
+      "optionExplanations": [
+        "Correct. NOT inverts a Boolean value.",
+        "Incorrect. Addition is arithmetic, not logical negation.",
+        "Incorrect. Naming variables is unrelated.",
+        "Incorrect. Loop creation uses control statements, not the NOT operator itself."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an example of a relational operator?",
+      "options": [
+        ">",
+        "+",
+        "=",
+        "%"
+      ],
+      "answer": 0,
+      "explain": "Relational operators compare values, such as greater than, less than, or equal to, producing a Boolean result.",
+      "optionExplanations": [
+        "Correct. > compares two values.",
+        "Incorrect. + performs addition or concatenation.",
+        "Incorrect. = commonly assigns rather than compares in many languages.",
+        "Incorrect. % computes remainders."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about arrays is generally true?",
+      "options": [
+        "Elements are accessed by index",
+        "They can store only text values",
+        "They cannot be used in loops",
+        "They always grow automatically in every language"
+      ],
+      "answer": 0,
+      "explain": "Arrays and similar list structures typically allow access to elements by numeric position or index.",
+      "optionExplanations": [
+        "Correct. Indexed access is a defining feature of arrays.",
+        "Incorrect. Arrays can often store many types, depending on the language.",
+        "Incorrect. Loops commonly process arrays.",
+        "Incorrect. Automatic growth depends on the structure and language."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why are loops useful when processing collections like lists?",
+      "options": [
+        "They let the program handle many elements with repeated logic",
+        "They eliminate the need for indexes",
+        "They make all collections sorted automatically",
+        "They turn lists into functions"
+      ],
+      "answer": 0,
+      "explain": "Loops are efficient for applying the same action to each element in a collection without rewriting code for every position.",
+      "optionExplanations": [
+        "Correct. Loops automate repeated processing across elements.",
+        "Incorrect. Some loops still use indexes, and loops do not inherently eliminate them.",
+        "Incorrect. Processing a list does not automatically sort it.",
+        "Incorrect. Loops do not change data structures into functions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the likely result of dividing by zero in a program?",
+      "options": [
+        "An error or exception",
+        "The value one",
+        "Automatic conversion to a string",
+        "A valid result in ordinary arithmetic"
+      ],
+      "answer": 0,
+      "explain": "Division by zero is undefined in ordinary arithmetic and typically causes a runtime error or exception in programs.",
+      "optionExplanations": [
+        "Correct. Most languages treat division by zero as an error.",
+        "Incorrect. The result is not one.",
+        "Incorrect. There is no standard automatic conversion that makes it valid.",
+        "Incorrect. Ordinary arithmetic does not define division by zero as valid."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is exception handling used for?",
+      "options": [
+        "Managing runtime errors without crashing unexpectedly",
+        "Speeding up keyboard typing",
+        "Converting every list to a queue",
+        "Writing comments automatically"
+      ],
+      "answer": 0,
+      "explain": "Exception handling gives programs a structured way to catch and respond to runtime problems such as invalid input or file errors.",
+      "optionExplanations": [
+        "Correct. It helps programs respond to runtime problems gracefully.",
+        "Incorrect. Typing speed is unrelated.",
+        "Incorrect. Data structure conversion is unrelated.",
+        "Incorrect. Comment generation is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which situation is a good use of a try-catch or similar error-handling structure?",
+      "options": [
+        "Reading a file that might not exist",
+        "Naming a variable once",
+        "Adding two known constants",
+        "Writing a comment header"
+      ],
+      "answer": 0,
+      "explain": "Operations that can fail unpredictably, such as opening files or parsing external input, are common places for exception handling.",
+      "optionExplanations": [
+        "Correct. File access can fail due to missing files or permissions.",
+        "Incorrect. Variable naming does not need exception handling.",
+        "Incorrect. Simple arithmetic on known constants is not a typical exception-handling case.",
+        "Incorrect. Comments do not execute."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a loop invariant?",
+      "options": [
+        "A condition or fact that remains true each time a loop repeats",
+        "A variable that changes every line",
+        "A compiler error caused by deep nesting",
+        "A comment removed before execution"
+      ],
+      "answer": 0,
+      "explain": "A loop invariant is a property that stays true before and after each iteration, helping reason about correctness.",
+      "optionExplanations": [
+        "Correct. Loop invariants support understanding and proving loop correctness.",
+        "Incorrect. The term is not about changing variables on every line.",
+        "Incorrect. It is not a compiler error type.",
+        "Incorrect. Comments are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is dry run tracing useful?",
+      "options": [
+        "It helps a programmer follow variable changes step by step",
+        "It instantly optimizes code",
+        "It permanently fixes syntax errors",
+        "It replaces all unit tests"
+      ],
+      "answer": 0,
+      "explain": "A dry run simulates execution manually so the programmer can see how values and control flow change through the code.",
+      "optionExplanations": [
+        "Correct. Dry runs reveal logic and state changes clearly.",
+        "Incorrect. Tracing does not automatically optimize code.",
+        "Incorrect. It may help find syntax errors, but it does not fix them by itself.",
+        "Incorrect. It complements rather than replaces testing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of unit testing?",
+      "options": [
+        "To test small parts of a program independently",
+        "To force all code into one file",
+        "To remove all documentation",
+        "To guarantee that users like the interface"
+      ],
+      "answer": 0,
+      "explain": "Unit testing checks individual functions or components in isolation so bugs can be detected early and precisely.",
+      "optionExplanations": [
+        "Correct. Unit tests focus on small, isolated pieces.",
+        "Incorrect. File organization is unrelated.",
+        "Incorrect. Testing does not remove the need for documentation.",
+        "Incorrect. User interface preferences are not guaranteed by unit tests."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is it helpful to separate input, processing, and output in program design?",
+      "options": [
+        "It makes the program easier to understand, test, and maintain",
+        "It forces every program to use recursion",
+        "It prevents arithmetic from working",
+        "It allows no use of functions"
+      ],
+      "answer": 0,
+      "explain": "Separating input, processing, and output creates clearer structure and reduces coupling between different parts of the program.",
+      "optionExplanations": [
+        "Correct. Separation of concerns improves clarity and maintainability.",
+        "Incorrect. This design does not force recursion.",
+        "Incorrect. Arithmetic still works normally.",
+        "Incorrect. Functions often help implement this separation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a flag variable?",
+      "options": [
+        "To remember whether a condition or state is true",
+        "To store an entire image inside one bit",
+        "To sort a list automatically",
+        "To replace every if statement"
+      ],
+      "answer": 0,
+      "explain": "A flag variable usually holds a Boolean value indicating whether something has happened or a condition has been met.",
+      "optionExplanations": [
+        "Correct. Flags track true-false state.",
+        "Incorrect. One bit cannot store an entire image.",
+        "Incorrect. Flags do not automatically sort data.",
+        "Incorrect. Flags may be used with if statements, not as replacements for them."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes abstraction in programming?",
+      "options": [
+        "Focusing on essential behavior while hiding unnecessary detail",
+        "Writing code with no variables",
+        "Replacing functions with comments",
+        "Forcing all data to be public"
+      ],
+      "answer": 0,
+      "explain": "Abstraction manages complexity by exposing what something does while hiding lower-level implementation details.",
+      "optionExplanations": [
+        "Correct. Abstraction reduces complexity by hiding details.",
+        "Incorrect. Variables can still exist in abstract designs.",
+        "Incorrect. Comments do not replace executable structure.",
+        "Incorrect. Abstraction often works with information hiding, not full exposure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a common reason to use a dictionary or map data structure?",
+      "options": [
+        "To associate keys with corresponding values",
+        "To store items only in sorted order",
+        "To replace all arrays",
+        "To draw diagrams of program flow"
+      ],
+      "answer": 0,
+      "explain": "Dictionaries or maps support quick lookup of a value based on a key, such as a name, ID, or code.",
+      "optionExplanations": [
+        "Correct. Key-value association is the primary purpose.",
+        "Incorrect. Sorted order is not required for all dictionary implementations.",
+        "Incorrect. Maps complement rather than replace all arrays.",
+        "Incorrect. Flow diagrams are not stored this way."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which operation is most associated with a dictionary or map?",
+      "options": [
+        "Looking up a value by key",
+        "Removing the top item from a stack",
+        "Checking the middle item of a sorted list",
+        "Drawing an if-else diagram"
+      ],
+      "answer": 0,
+      "explain": "Maps are designed for retrieving values by keys, such as finding a phone number from a person's name.",
+      "optionExplanations": [
+        "Correct. Key-based lookup is the core map operation.",
+        "Incorrect. That describes a stack operation.",
+        "Incorrect. That suggests binary search in a sorted list.",
+        "Incorrect. Diagramming is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the difference between = and == in many programming languages?",
+      "options": [
+        "= assigns a value, while == compares values",
+        "== assigns and = compares",
+        "Both always mean exactly the same thing",
+        "= is used only in comments"
+      ],
+      "answer": 0,
+      "explain": "Single equals commonly stores a value in a variable, while double equals checks whether two values are equal.",
+      "optionExplanations": [
+        "Correct. Assignment and equality comparison are distinct.",
+        "Incorrect. This reverses the typical meanings.",
+        "Incorrect. They usually serve different purposes.",
+        "Incorrect. = is executable syntax, not only a comment symbol."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a common benefit of using arrays, lists, stacks, queues, and maps appropriately?",
+      "options": [
+        "They help organize data to match the problem being solved",
+        "They make algorithms unnecessary",
+        "They ensure code never needs debugging",
+        "They force all programs to use object-oriented design"
+      ],
+      "answer": 0,
+      "explain": "Choosing the right data structure can simplify logic, improve performance, and make the solution fit the problem more naturally.",
+      "optionExplanations": [
+        "Correct. Good data structures support clearer and more efficient solutions.",
+        "Incorrect. Algorithms are still needed.",
+        "Incorrect. Bugs can still occur.",
+        "Incorrect. Data structures are not limited to OOP and do not force it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When planning a beginner program, what is usually the best first step?",
+      "options": [
+        "Understand the problem and identify required inputs and outputs",
+        "Write random code and adjust it later",
+        "Remove all error handling before starting",
+        "Choose variable names before knowing the task"
+      ],
+      "answer": 0,
+      "explain": "A strong program design begins with understanding what the program must do, what data it needs, and what results it should produce.",
+      "optionExplanations": [
+        "Correct. Problem definition comes first in sound design.",
+        "Incorrect. Random coding increases confusion and rework.",
+        "Incorrect. Error handling should not be dismissed as a starting habit.",
+        "Incorrect. Naming matters, but not before understanding the task."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}

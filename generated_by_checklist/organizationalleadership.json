@@ -1,0 +1,1817 @@
+SECTION 1 - SELECTED_EVENT
+Organizational Leadership
+
+SECTION 2 - NEW_FILE_NAME
+generated_by_checklist/organizational-leadership_batch_001.json
+
+SECTION 3 - JSON_CONTENT
+{
+"event": "Organizational Leadership",
+"questions": [
+{
+"q": "A nonprofit's executive director adapts their leadership style depending on the maturity and skill level of the volunteers. This approach most closely reflects:",
+"options": [
+"Transactional leadership",
+"Situational leadership",
+"Autocratic leadership",
+"Servant leadership"
+],
+"answer": 1,
+"explain": "Situational leadership holds that effective leaders adjust their approach based on follower readiness, competence, and commitment.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Transactional leadership refers to a different leadership idea or approach.",
+"This is correct because situational leadership holds that effective leaders adjust their approach based on follower readiness, competence, and commitment.",
+"This is incorrect because it does not best fit the scenario or concept described; Autocratic leadership refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Servant leadership refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A CEO focuses on inspiring employees through a shared vision and motivating them to achieve beyond expectations. This demonstrates:",
+"options": [
+"Transformational leadership",
+"Bureaucratic leadership",
+"Laissez-faire leadership",
+"Democratic leadership"
+],
+"answer": 0,
+"explain": "Transformational leaders motivate followers with vision, inspiration, and a focus on higher performance.",
+"optionExplanations": [
+"This is correct because transformational leaders motivate followers with vision, inspiration, and a focus on higher performance.",
+"This is incorrect because it does not best fit the scenario or concept described; Bureaucratic leadership refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Laissez-faire leadership refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Democratic leadership refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A plant manager rewards workers with bonuses for meeting production targets but issues warnings for falling short. This is an example of:",
+"options": [
+"Charismatic leadership",
+"Transactional leadership",
+"Servant leadership",
+"Visionary leadership"
+],
+"answer": 1,
+"explain": "Transactional leadership relies on exchanges such as rewards for performance and corrective action for poor results.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Charismatic leadership refers to a different leadership idea or approach.",
+"This is correct because transactional leadership relies on exchanges such as rewards for performance and corrective action for poor results.",
+"This is incorrect because it does not best fit the scenario or concept described; Servant leadership refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Visionary leadership refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which leadership style is most effective when quick decisions are needed in an emergency?",
+"options": [
+"Autocratic",
+"Laissez-faire",
+"Participative",
+"Democratic"
+],
+"answer": 0,
+"explain": "Autocratic leadership is often most effective in emergencies because it enables rapid, centralized decision-making.",
+"optionExplanations": [
+"This is correct because autocratic leadership is often most effective in emergencies because it enables rapid, centralized decision-making.",
+"This is incorrect because it does not best fit the scenario or concept described; Laissez-faire refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Participative refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Democratic refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A department head spends time mentoring team members and prioritizes their personal growth. This behavior aligns with:",
+"options": [
+"Servant leadership",
+"Autocratic leadership",
+"Transactional leadership",
+"Transformational leadership"
+],
+"answer": 0,
+"explain": "Servant leadership emphasizes developing and supporting others while putting follower growth first.",
+"optionExplanations": [
+"This is correct because servant leadership emphasizes developing and supporting others while putting follower growth first.",
+"This is incorrect because it does not best fit the scenario or concept described; Autocratic leadership refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Transactional leadership refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Transformational leadership refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which theory suggests that leaders are born, not made, and possess inherent traits that predispose them to leadership roles?",
+"options": [
+"Behavioral theory",
+"Trait theory",
+"Contingency theory",
+"Path-goal theory"
+],
+"answer": 1,
+"explain": "Trait theory focuses on innate personal characteristics that may predispose someone to leadership.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Behavioral theory refers to a different leadership idea or approach.",
+"This is correct because trait theory focuses on innate personal characteristics that may predispose someone to leadership.",
+"This is incorrect because it does not best fit the scenario or concept described; Contingency theory refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Path-goal theory refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader believes that followers need close supervision and direction because they naturally avoid responsibility. This reflects:",
+"options": [
+"Theory X",
+"Theory Y",
+"Path-goal theory",
+"Situational leadership"
+],
+"answer": 0,
+"explain": "McGregor's Theory X assumes people dislike work, avoid responsibility, and need close supervision.",
+"optionExplanations": [
+"This is correct because mcgregor's Theory X assumes people dislike work, avoid responsibility, and need close supervision.",
+"This is incorrect because it does not best fit the scenario or concept described; Theory Y refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Path-goal theory refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Situational leadership refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which leadership style allows employees maximum freedom to make decisions with minimal interference?",
+"options": [
+"Transformational",
+"Laissez-faire",
+"Autocratic",
+"Servant"
+],
+"answer": 1,
+"explain": "Laissez-faire leadership gives followers wide autonomy and minimal direct oversight.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Transformational refers to a different leadership idea or approach.",
+"This is correct because laissez-faire leadership gives followers wide autonomy and minimal direct oversight.",
+"This is incorrect because it does not best fit the scenario or concept described; Autocratic refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Servant refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A project manager uses a democratic leadership style. Which of the following is most likely?",
+"options": [
+"The manager makes all decisions without consultation.",
+"Team members have input in decisions.",
+"The manager delegates without guidance.",
+"Decisions are delayed indefinitely."
+],
+"answer": 1,
+"explain": "Democratic leadership includes team participation and input in the decision-making process.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; The manager makes all decisions without consultation. refers to a different leadership idea or approach.",
+"This is correct because democratic leadership includes team participation and input in the decision-making process.",
+"This is incorrect because it does not best fit the scenario or concept described; The manager delegates without guidance. refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Decisions are delayed indefinitely. refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Path-goal theory emphasizes:",
+"options": [
+"Matching leadership style to employee needs and work environment",
+"Strict adherence to organizational policy",
+"Limiting employee autonomy",
+"Emphasizing personal charisma"
+],
+"answer": 0,
+"explain": "Path-goal theory says leaders should adapt their behavior to follower needs and task conditions to help followers achieve goals.",
+"optionExplanations": [
+"This is correct because path-goal theory says leaders should adapt their behavior to follower needs and task conditions to help followers achieve goals.",
+"This is incorrect because it does not best fit the scenario or concept described; Strict adherence to organizational policy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Limiting employee autonomy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Emphasizing personal charisma refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "In contingency theory, leadership effectiveness depends primarily on:",
+"options": [
+"The leader's personal charisma",
+"Matching leadership style to situational variables",
+"The leader's tenure",
+"Strictly following a single style"
+],
+"answer": 1,
+"explain": "Contingency theory argues that leadership effectiveness depends on fit between the leader's style and the situation.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; The leader's personal charisma refers to a different leadership idea or approach.",
+"This is correct because contingency theory argues that leadership effectiveness depends on fit between the leader's style and the situation.",
+"This is incorrect because it does not best fit the scenario or concept described; The leader's tenure refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Strictly following a single style refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader uses influence and persuasion rather than positional authority to motivate others. This demonstrates:",
+"options": [
+"Legitimate power",
+"Referent power",
+"Coercive power",
+"Reward power"
+],
+"answer": 1,
+"explain": "Referent power comes from personal credibility, respect, and identification rather than formal position.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Legitimate power refers to a different leadership idea or approach.",
+"This is correct because referent power comes from personal credibility, respect, and identification rather than formal position.",
+"This is incorrect because it does not best fit the scenario or concept described; Coercive power refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Reward power refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "During the 'storming' stage of team development, leaders should:",
+"options": [
+"Focus on establishing clear roles and resolving conflicts",
+"Avoid interference to encourage independence",
+"Assign highly complex tasks immediately",
+"Reduce communication"
+],
+"answer": 0,
+"explain": "Storming is marked by conflict and role tension, so leaders should clarify roles and address disagreements.",
+"optionExplanations": [
+"This is correct because storming is marked by conflict and role tension, so leaders should clarify roles and address disagreements.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoid interference to encourage independence refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Assign highly complex tasks immediately refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Reduce communication refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A team consistently meets deadlines and collaborates effectively without needing constant supervision. They are most likely in which stage?",
+"options": [
+"Forming",
+"Performing",
+"Storming",
+"Norming"
+],
+"answer": 1,
+"explain": "Performing teams function effectively with strong collaboration, trust, and high productivity.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Forming refers to a different leadership idea or approach.",
+"This is correct because performing teams function effectively with strong collaboration, trust, and high productivity.",
+"This is incorrect because it does not best fit the scenario or concept described; Storming refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Norming refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader introduces team-building activities to build trust among newly formed team members. This is most effective during:",
+"options": [
+"Forming",
+"Performing",
+"Storming",
+"Adjourning"
+],
+"answer": 0,
+"explain": "Team-building is especially useful in forming because members are just getting acquainted and establishing trust.",
+"optionExplanations": [
+"This is correct because team-building is especially useful in forming because members are just getting acquainted and establishing trust.",
+"This is incorrect because it does not best fit the scenario or concept described; Performing refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Storming refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Adjourning refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "When a dominant personality controls discussions and others feel unheard, the leader should:",
+"options": [
+"Ignore the behavior",
+"Redirect conversation and encourage equal participation",
+"Appoint the dominant member as team lead",
+"Shorten meeting times"
+],
+"answer": 1,
+"explain": "Leaders should manage participation so all members can contribute and the group avoids imbalance.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Ignore the behavior refers to a different leadership idea or approach.",
+"This is correct because leaders should manage participation so all members can contribute and the group avoids imbalance.",
+"This is incorrect because it does not best fit the scenario or concept described; Appoint the dominant member as team lead refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Shorten meeting times refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which strategy best helps a team transition from the norming to performing stage?",
+"options": [
+"Introducing new members mid-project",
+"Increasing challenging tasks",
+"Reducing communication frequency",
+"Delegating leadership to the least experienced member"
+],
+"answer": 1,
+"explain": "Once norms are established, giving the team meaningful challenges can help it reach higher-level performance.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Introducing new members mid-project refers to a different leadership idea or approach.",
+"This is correct because once norms are established, giving the team meaningful challenges can help it reach higher-level performance.",
+"This is incorrect because it does not best fit the scenario or concept described; Reducing communication frequency refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Delegating leadership to the least experienced member refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A team that develops shared norms and values is building:",
+"options": [
+"Cohesion",
+"Conflict",
+"Turnover",
+"Resistance"
+],
+"answer": 0,
+"explain": "Shared norms and values increase cohesion by strengthening unity and commitment.",
+"optionExplanations": [
+"This is correct because shared norms and values increase cohesion by strengthening unity and commitment.",
+"This is incorrect because it does not best fit the scenario or concept described; Conflict refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Turnover refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Resistance refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "In cross-functional teams, a key leadership challenge is:",
+"options": [
+"Managing diverse expertise and priorities",
+"Avoiding decision-making",
+"Assigning identical tasks to all members",
+"Minimizing communication channels"
+],
+"answer": 0,
+"explain": "Cross-functional teams combine different specialties, so leaders must coordinate differing priorities and perspectives.",
+"optionExplanations": [
+"This is correct because cross-functional teams combine different specialties, so leaders must coordinate differing priorities and perspectives.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding decision-making refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Assigning identical tasks to all members refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Minimizing communication channels refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which of the following is an advantage of diversity in teams?",
+"options": [
+"Increased groupthink",
+"Broader perspectives and innovation",
+"Reduced decision-making speed only",
+"Higher conflict with no benefits"
+],
+"answer": 1,
+"explain": "Diverse teams can generate broader perspectives and more innovative solutions.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Increased groupthink refers to a different leadership idea or approach.",
+"This is correct because diverse teams can generate broader perspectives and more innovative solutions.",
+"This is incorrect because it does not best fit the scenario or concept described; Reduced decision-making speed only refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Higher conflict with no benefits refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which role in a team focuses on maintaining group harmony and resolving interpersonal conflicts?",
+"options": [
+"Gatekeeper",
+"Harmonizer",
+"Coordinator",
+"Initiator"
+],
+"answer": 1,
+"explain": "The harmonizer helps reduce tension and maintain good interpersonal relationships within the group.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Gatekeeper refers to a different leadership idea or approach.",
+"This is correct because the harmonizer helps reduce tension and maintain good interpersonal relationships within the group.",
+"This is incorrect because it does not best fit the scenario or concept described; Coordinator refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Initiator refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader encouraging peer-to-peer recognition is promoting:",
+"options": [
+"Hierarchical control",
+"Team morale",
+"Bureaucratic structure",
+"Silos"
+],
+"answer": 1,
+"explain": "Peer recognition strengthens morale by reinforcing appreciation, connection, and positive team culture.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Hierarchical control refers to a different leadership idea or approach.",
+"This is correct because peer recognition strengthens morale by reinforcing appreciation, connection, and positive team culture.",
+"This is incorrect because it does not best fit the scenario or concept described; Bureaucratic structure refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Silos refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader uses a decision-making process that involves gathering information, generating alternatives, and choosing the best option. This is known as:",
+"options": [
+"Intuitive decision-making",
+"Rational decision-making",
+"Random decision-making",
+"Autocratic decision-making"
+],
+"answer": 1,
+"explain": "Rational decision-making follows a systematic process of identifying options, evaluating them, and selecting the best choice.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Intuitive decision-making refers to a different leadership idea or approach.",
+"This is correct because rational decision-making follows a systematic process of identifying options, evaluating them, and selecting the best choice.",
+"This is incorrect because it does not best fit the scenario or concept described; Random decision-making refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Autocratic decision-making refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which decision-making style relies on quick judgment without extensive analysis?",
+"options": [
+"Intuitive",
+"Consensus",
+"Democratic",
+"Rational"
+],
+"answer": 0,
+"explain": "Intuitive decision-making depends on experience and judgment rather than extensive formal analysis.",
+"optionExplanations": [
+"This is correct because intuitive decision-making depends on experience and judgment rather than extensive formal analysis.",
+"This is incorrect because it does not best fit the scenario or concept described; Consensus refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Democratic refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Rational refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A manager gathers input from the entire team but ultimately makes the decision alone. This is:",
+"options": [
+"Consensus decision-making",
+"Consultative decision-making",
+"Autocratic decision-making",
+"Delegative decision-making"
+],
+"answer": 1,
+"explain": "Consultative decision-making means the leader seeks input but retains final authority.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Consensus decision-making refers to a different leadership idea or approach.",
+"This is correct because consultative decision-making means the leader seeks input but retains final authority.",
+"This is incorrect because it does not best fit the scenario or concept described; Autocratic decision-making refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Delegative decision-making refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "When making ethical decisions, a leader should:",
+"options": [
+"Focus only on short-term results",
+"Consider stakeholders and long-term impact",
+"Avoid involving others",
+"Prioritize convenience over integrity"
+],
+"answer": 1,
+"explain": "Ethical decision-making considers stakeholder effects, long-term consequences, and principles such as fairness and integrity.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Focus only on short-term results refers to a different leadership idea or approach.",
+"This is correct because ethical decision-making considers stakeholder effects, long-term consequences, and principles such as fairness and integrity.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoid involving others refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Prioritize convenience over integrity refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which tool helps visually map out potential causes of a problem?",
+"options": [
+"Pareto chart",
+"Fishbone diagram",
+"Gantt chart",
+"SWOT analysis"
+],
+"answer": 1,
+"explain": "A fishbone diagram, also called an Ishikawa diagram, organizes possible causes of a problem by category.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Pareto chart refers to a different leadership idea or approach.",
+"This is correct because a fishbone diagram, also called an Ishikawa diagram, organizes possible causes of a problem by category.",
+"This is incorrect because it does not best fit the scenario or concept described; Gantt chart refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; SWOT analysis refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "In a cost-benefit analysis, the main purpose is to:",
+"options": [
+"Eliminate all risks",
+"Compare potential gains and expenses",
+"Avoid stakeholder input",
+"Delay decisions"
+],
+"answer": 1,
+"explain": "Cost-benefit analysis compares expected benefits with expected costs to support better decisions.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Eliminate all risks refers to a different leadership idea or approach.",
+"This is correct because cost-benefit analysis compares expected benefits with expected costs to support better decisions.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoid stakeholder input refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Delay decisions refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A consensus decision-making approach works best when:",
+"options": [
+"The decision requires urgent action",
+"Team buy-in is critical",
+"The leader has complete information",
+"Only one person has expertise"
+],
+"answer": 1,
+"explain": "Consensus is most useful when broad commitment and shared ownership of the decision matter.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; The decision requires urgent action refers to a different leadership idea or approach.",
+"This is correct because consensus is most useful when broad commitment and shared ownership of the decision matter.",
+"This is incorrect because it does not best fit the scenario or concept described; The leader has complete information refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Only one person has expertise refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Scenario planning is useful when:",
+"options": [
+"The future environment is highly uncertain",
+"All outcomes are predictable",
+"The organization wants to avoid long-term thinking",
+"Short-term results are the only concern"
+],
+"answer": 0,
+"explain": "Scenario planning helps organizations prepare for multiple plausible futures when uncertainty is high.",
+"optionExplanations": [
+"This is correct because scenario planning helps organizations prepare for multiple plausible futures when uncertainty is high.",
+"This is incorrect because it does not best fit the scenario or concept described; All outcomes are predictable refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; The organization wants to avoid long-term thinking refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Short-term results are the only concern refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader confronting a sudden supply chain disruption should first:",
+"options": [
+"Assess the situation and identify critical priorities",
+"Avoid taking immediate action",
+"Assign blame to suppliers",
+"Cancel all operations"
+],
+"answer": 0,
+"explain": "In a disruption, leaders should first assess facts, determine priorities, and stabilize critical operations.",
+"optionExplanations": [
+"This is correct because in a disruption, leaders should first assess facts, determine priorities, and stabilize critical operations.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoid taking immediate action refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Assign blame to suppliers refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Cancel all operations refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which form of communication is best for delivering sensitive feedback?",
+"options": [
+"Group email",
+"Face-to-face meeting",
+"Social media post",
+"Mass text message"
+],
+"answer": 1,
+"explain": "Sensitive feedback is generally best delivered face-to-face because it allows privacy, tone control, and two-way discussion.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Group email refers to a different leadership idea or approach.",
+"This is correct because sensitive feedback is generally best delivered face-to-face because it allows privacy, tone control, and two-way discussion.",
+"This is incorrect because it does not best fit the scenario or concept described; Social media post refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Mass text message refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader uses storytelling to inspire the team. This is an example of:",
+"options": [
+"Informational communication",
+"Persuasive communication",
+"Directive communication",
+"Transactional communication"
+],
+"answer": 1,
+"explain": "Storytelling can persuade and inspire by making ideas memorable and emotionally engaging.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Informational communication refers to a different leadership idea or approach.",
+"This is correct because storytelling can persuade and inspire by making ideas memorable and emotionally engaging.",
+"This is incorrect because it does not best fit the scenario or concept described; Directive communication refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Transactional communication refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Active listening involves:",
+"options": [
+"Nodding without understanding",
+"Paraphrasing and asking clarifying questions",
+"Interrupting for efficiency",
+"Avoiding eye contact"
+],
+"answer": 1,
+"explain": "Active listening includes confirming understanding through paraphrasing and thoughtful follow-up questions.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Nodding without understanding refers to a different leadership idea or approach.",
+"This is correct because active listening includes confirming understanding through paraphrasing and thoughtful follow-up questions.",
+"This is incorrect because it does not best fit the scenario or concept described; Interrupting for efficiency refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding eye contact refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which communication barrier occurs when team members interpret the same message differently?",
+"options": [
+"Filtering",
+"Semantic barrier",
+"Physical barrier",
+"Feedback loop"
+],
+"answer": 1,
+"explain": "Semantic barriers arise when language, wording, or meaning is interpreted differently by different people.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Filtering refers to a different leadership idea or approach.",
+"This is correct because semantic barriers arise when language, wording, or meaning is interpreted differently by different people.",
+"This is incorrect because it does not best fit the scenario or concept described; Physical barrier refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Feedback loop refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader who adjusts their communication style based on the audience is demonstrating:",
+"options": [
+"Empathy",
+"Adaptability",
+"Charisma",
+"Authority"
+],
+"answer": 1,
+"explain": "Adjusting communication to the audience shows adaptability in how information is delivered.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Empathy refers to a different leadership idea or approach.",
+"This is correct because adjusting communication to the audience shows adaptability in how information is delivered.",
+"This is incorrect because it does not best fit the scenario or concept described; Charisma refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Authority refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which communication channel is best for quick updates during a crisis?",
+"options": [
+"Company newsletter",
+"In-person meeting",
+"Instant messaging platform",
+"Annual report"
+],
+"answer": 2,
+"explain": "An instant messaging platform allows fast, timely updates when speed matters during a crisis.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Company newsletter refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; In-person meeting refers to a different leadership idea or approach.",
+"This is correct because an instant messaging platform allows fast, timely updates when speed matters during a crisis.",
+"This is incorrect because it does not best fit the scenario or concept described; Annual report refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which is the most effective way to ensure a message is understood?",
+"options": [
+"Repeat the message several times in the same format",
+"Ask for feedback and confirmation",
+"Use technical jargon",
+"Provide no opportunity for questions"
+],
+"answer": 1,
+"explain": "Feedback and confirmation help verify understanding instead of assuming the message was received correctly.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Repeat the message several times in the same format refers to a different leadership idea or approach.",
+"This is correct because feedback and confirmation help verify understanding instead of assuming the message was received correctly.",
+"This is incorrect because it does not best fit the scenario or concept described; Use technical jargon refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Provide no opportunity for questions refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader who fosters open-door communication policies is encouraging:",
+"options": [
+"Transparency",
+"Ambiguity",
+"Secrecy",
+"Exclusivity"
+],
+"answer": 0,
+"explain": "Open-door policies promote transparency and accessibility between leaders and employees.",
+"optionExplanations": [
+"This is correct because open-door policies promote transparency and accessibility between leaders and employees.",
+"This is incorrect because it does not best fit the scenario or concept described; Ambiguity refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Secrecy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Exclusivity refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A company refusing to sell customer data is demonstrating:",
+"options": [
+"Corporate social responsibility",
+"Whistleblowing",
+"Profit maximization",
+"Insider trading"
+],
+"answer": 0,
+"explain": "Protecting customer privacy reflects responsible business conduct and broader social responsibility.",
+"optionExplanations": [
+"This is correct because protecting customer privacy reflects responsible business conduct and broader social responsibility.",
+"This is incorrect because it does not best fit the scenario or concept described; Whistleblowing refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Profit maximization refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Insider trading refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which principle requires leaders to avoid conflicts of interest?",
+"options": [
+"Integrity",
+"Transparency",
+"Fairness",
+"Accountability"
+],
+"answer": 0,
+"explain": "Integrity requires consistency between values and actions, including avoiding conflicts of interest.",
+"optionExplanations": [
+"This is correct because integrity requires consistency between values and actions, including avoiding conflicts of interest.",
+"This is incorrect because it does not best fit the scenario or concept described; Transparency refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Fairness refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Accountability refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader ensures suppliers follow ethical labor practices before signing contracts. This is an example of:",
+"options": [
+"Social responsibility in supply chain management",
+"Risk avoidance only",
+"Profit-first strategy",
+"Transactional leadership"
+],
+"answer": 0,
+"explain": "Monitoring supplier labor practices is part of socially responsible supply chain management.",
+"optionExplanations": [
+"This is correct because monitoring supplier labor practices is part of socially responsible supply chain management.",
+"This is incorrect because it does not best fit the scenario or concept described; Risk avoidance only refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Profit-first strategy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Transactional leadership refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Whistleblowing occurs when:",
+"options": [
+"An employee reports illegal or unethical practices",
+"A leader delegates responsibility",
+"A customer files a complaint",
+"Management issues a press release"
+],
+"answer": 0,
+"explain": "Whistleblowing is the reporting of illegal, unethical, or unsafe behavior within an organization.",
+"optionExplanations": [
+"This is correct because whistleblowing is the reporting of illegal, unethical, or unsafe behavior within an organization.",
+"This is incorrect because it does not best fit the scenario or concept described; A leader delegates responsibility refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; A customer files a complaint refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Management issues a press release refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Ethical leadership primarily involves:",
+"options": [
+"Maximizing shareholder profit above all else",
+"Making decisions based on fairness and honesty",
+"Avoiding communication with employees",
+"Using coercive power frequently"
+],
+"answer": 1,
+"explain": "Ethical leadership centers on fairness, honesty, and responsible conduct.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Maximizing shareholder profit above all else refers to a different leadership idea or approach.",
+"This is correct because ethical leadership centers on fairness, honesty, and responsible conduct.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding communication with employees refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Using coercive power frequently refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A company donates a percentage of profits to environmental causes. This is an example of:",
+"options": [
+"Corporate philanthropy",
+"Insider trading",
+"Coercive strategy",
+"Conflict of interest"
+],
+"answer": 0,
+"explain": "Corporate philanthropy refers to donations or other charitable support provided by a business.",
+"optionExplanations": [
+"This is correct because corporate philanthropy refers to donations or other charitable support provided by a business.",
+"This is incorrect because it does not best fit the scenario or concept described; Insider trading refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Coercive strategy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Conflict of interest refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which is the first step in Lewin's change management model?",
+"options": [
+"Refreezing",
+"Unfreezing",
+"Implementing",
+"Reinforcing"
+],
+"answer": 1,
+"explain": "Lewin's model begins with unfreezing, which prepares people and systems for change.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Refreezing refers to a different leadership idea or approach.",
+"This is correct because lewin's model begins with unfreezing, which prepares people and systems for change.",
+"This is incorrect because it does not best fit the scenario or concept described; Implementing refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Reinforcing refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Employees resist a new software system because they fear job loss. This is an example of resistance due to:",
+"options": [
+"Habit",
+"Economic factors",
+"Security concerns",
+"Cultural differences"
+],
+"answer": 1,
+"explain": "Fear of losing income or employment is a form of resistance tied to economic factors.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Habit refers to a different leadership idea or approach.",
+"This is correct because fear of losing income or employment is a form of resistance tied to economic factors.",
+"This is incorrect because it does not best fit the scenario or concept described; Security concerns refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Cultural differences refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A leader involves employees in the planning stages of a change initiative. This increases:",
+"options": [
+"Resistance",
+"Buy-in",
+"Confusion",
+"Ambiguity"
+],
+"answer": 1,
+"explain": "Participation in planning usually increases buy-in because people are more committed to changes they helped shape.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Resistance refers to a different leadership idea or approach.",
+"This is correct because participation in planning usually increases buy-in because people are more committed to changes they helped shape.",
+"This is incorrect because it does not best fit the scenario or concept described; Confusion refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Ambiguity refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "Which strategy best fosters innovation in an organization?",
+"options": [
+"Punishing failed ideas",
+"Encouraging experimentation and calculated risk-taking",
+"Maintaining rigid policies",
+"Avoiding employee input"
+],
+"answer": 1,
+"explain": "Innovation is strengthened when organizations allow experimentation, learning, and intelligent risk-taking.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Punishing failed ideas refers to a different leadership idea or approach.",
+"This is correct because innovation is strengthened when organizations allow experimentation, learning, and intelligent risk-taking.",
+"This is incorrect because it does not best fit the scenario or concept described; Maintaining rigid policies refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding employee input refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "In Kotter's 8-step model, creating a sense of urgency is important because it:",
+"options": [
+"Prevents leadership turnover",
+"Motivates stakeholders to act",
+"Eliminates the need for planning",
+"Guarantees immediate results"
+],
+"answer": 1,
+"explain": "A sense of urgency helps overcome complacency and motivates people to support change efforts.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Prevents leadership turnover refers to a different leadership idea or approach.",
+"This is correct because a sense of urgency helps overcome complacency and motivates people to support change efforts.",
+"This is incorrect because it does not best fit the scenario or concept described; Eliminates the need for planning refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Guarantees immediate results refers to a different leadership idea or approach."
+],
+"source": "official-hq"
+},
+{
+"q": "A supervisor assigns routine tasks to capable employees but provides close coaching to a new hire on a critical process. Which leadership principle is the supervisor applying?",
+"options": [
+"Span of control",
+"Situational leadership",
+"Bureaucratic control",
+"Command economy"
+],
+"answer": 1,
+"explain": "Situational leadership calls for adjusting direction and support based on employee competence and confidence.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Span of control refers to a different leadership idea or approach.",
+"This is correct because situational leadership calls for adjusting direction and support based on employee competence and confidence.",
+"This is incorrect because it does not best fit the scenario or concept described; Bureaucratic control refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Command economy refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which leadership approach is most likely to improve employee commitment during a major organizational change?",
+"options": [
+"Withholding information until implementation",
+"Explaining the vision and involving employees early",
+"Increasing rules without discussion",
+"Eliminating feedback channels"
+],
+"answer": 1,
+"explain": "Commitment is stronger when leaders communicate the purpose of change and involve employees before implementation.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Withholding information until implementation refers to a different leadership idea or approach.",
+"This is correct because commitment is stronger when leaders communicate the purpose of change and involve employees before implementation.",
+"This is incorrect because it does not best fit the scenario or concept described; Increasing rules without discussion refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Eliminating feedback channels refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A team leader gives employees authority to decide how to complete assigned work while remaining accountable for results. This is best described as:",
+"options": [
+"Micromanagement",
+"Delegation",
+"Coercion",
+"Centralization"
+],
+"answer": 1,
+"explain": "Delegation gives employees decision-making authority over tasks while the leader retains ultimate accountability.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Micromanagement refers to a different leadership idea or approach.",
+"This is correct because delegation gives employees decision-making authority over tasks while the leader retains ultimate accountability.",
+"This is incorrect because it does not best fit the scenario or concept described; Coercion refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Centralization refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which action best demonstrates emotional intelligence in leadership?",
+"options": [
+"Ignoring employee frustration to maintain speed",
+"Recognizing team stress and adjusting workload priorities",
+"Correcting mistakes publicly to set an example",
+"Avoiding difficult conversations"
+],
+"answer": 1,
+"explain": "Emotionally intelligent leaders recognize emotions in themselves and others and respond constructively.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Ignoring employee frustration to maintain speed refers to a different leadership idea or approach.",
+"This is correct because emotionally intelligent leaders recognize emotions in themselves and others and respond constructively.",
+"This is incorrect because it does not best fit the scenario or concept described; Correcting mistakes publicly to set an example refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding difficult conversations refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A manager notices conflict between two team members and meets with them privately to clarify issues and identify shared goals. This is an example of:",
+"options": [
+"Conflict resolution",
+"Authoritarian control",
+"Role ambiguity",
+"Avoidance"
+],
+"answer": 0,
+"explain": "Conflict resolution involves addressing disagreement directly and working toward a productive solution.",
+"optionExplanations": [
+"This is correct because conflict resolution involves addressing disagreement directly and working toward a productive solution.",
+"This is incorrect because it does not best fit the scenario or concept described; Authoritarian control refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Role ambiguity refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoidance refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which type of power is based on a leader's formal position in the organization?",
+"options": [
+"Referent power",
+"Expert power",
+"Legitimate power",
+"Connection power"
+],
+"answer": 2,
+"explain": "Legitimate power comes from a formal role or position within the organizational structure.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Referent power refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Expert power refers to a different leadership idea or approach.",
+"This is correct because legitimate power comes from a formal role or position within the organizational structure.",
+"This is incorrect because it does not best fit the scenario or concept described; Connection power refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader is respected because of deep technical knowledge and problem-solving ability. This leader primarily has:",
+"options": [
+"Coercive power",
+"Expert power",
+"Reward power",
+"Positional power"
+],
+"answer": 1,
+"explain": "Expert power comes from specialized knowledge, skill, and credibility in a subject area.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Coercive power refers to a different leadership idea or approach.",
+"This is correct because expert power comes from specialized knowledge, skill, and credibility in a subject area.",
+"This is incorrect because it does not best fit the scenario or concept described; Reward power refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Positional power refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is the main purpose of delegation?",
+"options": [
+"To eliminate leader responsibility",
+"To develop employees and improve efficiency",
+"To avoid communication",
+"To reduce all oversight permanently"
+],
+"answer": 1,
+"explain": "Delegation helps leaders use time effectively while also developing employee capability and ownership.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; To eliminate leader responsibility refers to a different leadership idea or approach.",
+"This is correct because delegation helps leaders use time effectively while also developing employee capability and ownership.",
+"This is incorrect because it does not best fit the scenario or concept described; To avoid communication refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; To reduce all oversight permanently refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which behavior most often weakens trust in a leader?",
+"options": [
+"Following through on commitments",
+"Admitting a mistake",
+"Applying rules inconsistently",
+"Explaining the reason for a decision"
+],
+"answer": 2,
+"explain": "Trust declines when leaders act inconsistently because people cannot predict whether they will be treated fairly.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Following through on commitments refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Admitting a mistake refers to a different leadership idea or approach.",
+"This is correct because trust declines when leaders act inconsistently because people cannot predict whether they will be treated fairly.",
+"This is incorrect because it does not best fit the scenario or concept described; Explaining the reason for a decision refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A manager asks employees to suggest process improvements and then pilots the best idea. This most directly supports:",
+"options": [
+"Continuous improvement",
+"Downsizing",
+"Status hierarchy",
+"Role conflict"
+],
+"answer": 0,
+"explain": "Continuous improvement depends on identifying and testing ways to make processes better over time.",
+"optionExplanations": [
+"This is correct because continuous improvement depends on identifying and testing ways to make processes better over time.",
+"This is incorrect because it does not best fit the scenario or concept described; Downsizing refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Status hierarchy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Role conflict refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which meeting practice most improves accountability?",
+"options": [
+"Ending without assigned next steps",
+"Allowing vague deadlines",
+"Documenting action items and owners",
+"Discussing unrelated topics"
+],
+"answer": 2,
+"explain": "Clear action items, owners, and deadlines make it easier to track progress and accountability.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Ending without assigned next steps refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Allowing vague deadlines refers to a different leadership idea or approach.",
+"This is correct because clear action items, owners, and deadlines make it easier to track progress and accountability.",
+"This is incorrect because it does not best fit the scenario or concept described; Discussing unrelated topics refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "An effective leader uses SMART goals primarily to ensure goals are:",
+"options": [
+"Secret and flexible",
+"Specific and measurable",
+"Short and informal",
+"Simple and optional"
+],
+"answer": 1,
+"explain": "SMART goals are designed to be specific, measurable, achievable, relevant, and time-bound.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Secret and flexible refers to a different leadership idea or approach.",
+"This is correct because SMART goals are designed to be specific, measurable, achievable, relevant, and time-bound.",
+"This is incorrect because it does not best fit the scenario or concept described; Short and informal refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Simple and optional refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A team member keeps missing deadlines because project priorities are unclear. What should the leader do first?",
+"options": [
+"Issue an immediate warning",
+"Clarify priorities and expectations",
+"Remove the employee from the team",
+"Ignore the issue until the review"
+],
+"answer": 1,
+"explain": "When expectations are unclear, the first step is to define priorities, deliverables, and standards.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Issue an immediate warning refers to a different leadership idea or approach.",
+"This is correct because when expectations are unclear, the first step is to define priorities, deliverables, and standards.",
+"This is incorrect because it does not best fit the scenario or concept described; Remove the employee from the team refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Ignore the issue until the review refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which feedback method is most likely to improve future performance?",
+"options": [
+"Personal criticism without examples",
+"Specific feedback tied to observable behavior",
+"Public embarrassment to create pressure",
+"Annual feedback only"
+],
+"answer": 1,
+"explain": "Behavior-based feedback is more useful because it tells the employee exactly what to continue or change.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Personal criticism without examples refers to a different leadership idea or approach.",
+"This is correct because behavior-based feedback is more useful because it tells the employee exactly what to continue or change.",
+"This is incorrect because it does not best fit the scenario or concept described; Public embarrassment to create pressure refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Annual feedback only refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader who encourages employees to question old assumptions is promoting:",
+"options": [
+"Groupthink",
+"Critical thinking",
+"Compliance only",
+"Status quo bias"
+],
+"answer": 1,
+"explain": "Questioning assumptions helps teams analyze issues more carefully and avoid weak decisions.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Groupthink refers to a different leadership idea or approach.",
+"This is correct because questioning assumptions helps teams analyze issues more carefully and avoid weak decisions.",
+"This is incorrect because it does not best fit the scenario or concept described; Compliance only refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Status quo bias refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which factor most increases the risk of groupthink?",
+"options": [
+"Encouraging dissenting views",
+"Strong pressure for agreement",
+"Using outside experts",
+"Assigning a devil's advocate"
+],
+"answer": 1,
+"explain": "Groupthink is more likely when teams pressure members to agree and suppress dissent.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Encouraging dissenting views refers to a different leadership idea or approach.",
+"This is correct because groupthink is more likely when teams pressure members to agree and suppress dissent.",
+"This is incorrect because it does not best fit the scenario or concept described; Using outside experts refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Assigning a devil's advocate refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader assigns a devil's advocate during planning meetings mainly to:",
+"options": [
+"Slow the meeting down",
+"Test assumptions and reduce blind spots",
+"Increase hierarchy",
+"Avoid making decisions"
+],
+"answer": 1,
+"explain": "A devil's advocate challenges ideas so the team can identify weaknesses before acting.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Slow the meeting down refers to a different leadership idea or approach.",
+"This is correct because a devil's advocate challenges ideas so the team can identify weaknesses before acting.",
+"This is incorrect because it does not best fit the scenario or concept described; Increase hierarchy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoid making decisions refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "When should a leader use coaching rather than directing?",
+"options": [
+"When an employee needs development and is open to learning",
+"When immediate compliance is the only concern",
+"When the leader lacks time to listen",
+"When tasks never change"
+],
+"answer": 0,
+"explain": "Coaching is best when the goal is to build skill, judgment, and long-term performance.",
+"optionExplanations": [
+"This is correct because coaching is best when the goal is to build skill, judgment, and long-term performance.",
+"This is incorrect because it does not best fit the scenario or concept described; When immediate compliance is the only concern refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; When the leader lacks time to listen refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; When tasks never change refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which action best supports an inclusive team culture?",
+"options": [
+"Relying on the same voices in every discussion",
+"Inviting input from quieter members",
+"Avoiding discussion of differences",
+"Making assumptions about employee preferences"
+],
+"answer": 1,
+"explain": "Inclusion improves when leaders intentionally create space for all members to contribute.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Relying on the same voices in every discussion refers to a different leadership idea or approach.",
+"This is correct because inclusion improves when leaders intentionally create space for all members to contribute.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding discussion of differences refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Making assumptions about employee preferences refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader tracks a balanced set of financial, customer, process, and learning metrics. This reflects use of the:",
+"options": [
+"Balanced scorecard",
+"Fishbone diagram",
+"Decision tree",
+"PERT chart"
+],
+"answer": 0,
+"explain": "A balanced scorecard evaluates performance across multiple dimensions, not just financial results.",
+"optionExplanations": [
+"This is correct because a balanced scorecard evaluates performance across multiple dimensions, not just financial results.",
+"This is incorrect because it does not best fit the scenario or concept described; Fishbone diagram refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Decision tree refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; PERT chart refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is the most appropriate response when rumors begin spreading during a reorganization?",
+"options": [
+"Say nothing until all details are final",
+"Provide timely facts and acknowledge uncertainty",
+"Discipline anyone who asks questions",
+"Release only technical documents"
+],
+"answer": 1,
+"explain": "Timely, honest communication reduces speculation and helps maintain trust during uncertainty.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Say nothing until all details are final refers to a different leadership idea or approach.",
+"This is correct because timely, honest communication reduces speculation and helps maintain trust during uncertainty.",
+"This is incorrect because it does not best fit the scenario or concept described; Discipline anyone who asks questions refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Release only technical documents refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which delegation mistake is most likely to cause failure?",
+"options": [
+"Explaining the desired outcome",
+"Assigning authority without needed resources",
+"Scheduling check-ins",
+"Matching the task to employee ability"
+],
+"answer": 1,
+"explain": "Delegation fails when employees are held responsible but lack time, information, or resources to succeed.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Explaining the desired outcome refers to a different leadership idea or approach.",
+"This is correct because delegation fails when employees are held responsible but lack time, information, or resources to succeed.",
+"This is incorrect because it does not best fit the scenario or concept described; Scheduling check-ins refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Matching the task to employee ability refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A team charter is most useful because it:",
+"options": [
+"Replaces all later communication",
+"Defines purpose, roles, and norms",
+"Eliminates conflict permanently",
+"Assigns blame in advance"
+],
+"answer": 1,
+"explain": "A team charter sets expectations about purpose, roles, processes, and norms early in the project.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Replaces all later communication refers to a different leadership idea or approach.",
+"This is correct because a team charter sets expectations about purpose, roles, processes, and norms early in the project.",
+"This is incorrect because it does not best fit the scenario or concept described; Eliminates conflict permanently refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Assigns blame in advance refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which statement best describes accountability?",
+"options": [
+"Avoiding ownership when problems arise",
+"Being answerable for results and actions",
+"Giving all decisions to senior management",
+"Working without any standards"
+],
+"answer": 1,
+"explain": "Accountability means taking responsibility for actions, results, and follow-through.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding ownership when problems arise refers to a different leadership idea or approach.",
+"This is correct because accountability means taking responsibility for actions, results, and follow-through.",
+"This is incorrect because it does not best fit the scenario or concept described; Giving all decisions to senior management refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Working without any standards refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A manager praises only final results and never recognizes effort, learning, or collaboration. A likely effect is:",
+"options": [
+"Stronger psychological safety",
+"Narrow focus on outcomes at any cost",
+"Better trust across the team",
+"Higher openness to experimentation"
+],
+"answer": 1,
+"explain": "When only end results are rewarded, employees may ignore collaboration, ethics, or learning.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Stronger psychological safety refers to a different leadership idea or approach.",
+"This is correct because when only end results are rewarded, employees may ignore collaboration, ethics, or learning.",
+"This is incorrect because it does not best fit the scenario or concept described; Better trust across the team refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Higher openness to experimentation refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is psychological safety?",
+"options": [
+"A guarantee that work will never be stressful",
+"A climate where people can speak up without fear of punishment",
+"A formal security policy",
+"A benefit tied to insurance coverage"
+],
+"answer": 1,
+"explain": "Psychological safety exists when people feel safe asking questions, admitting mistakes, and offering ideas.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; A guarantee that work will never be stressful refers to a different leadership idea or approach.",
+"This is correct because psychological safety exists when people feel safe asking questions, admitting mistakes, and offering ideas.",
+"This is incorrect because it does not best fit the scenario or concept described; A formal security policy refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; A benefit tied to insurance coverage refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which response to employee error best supports learning?",
+"options": [
+"Hide the error from the team",
+"Analyze the cause and improve the process",
+"Punish the employee immediately in public",
+"Assume the employee lacks ability"
+],
+"answer": 1,
+"explain": "A learning-oriented response looks for root causes and process improvements rather than only blame.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Hide the error from the team refers to a different leadership idea or approach.",
+"This is correct because a learning-oriented response looks for root causes and process improvements rather than only blame.",
+"This is incorrect because it does not best fit the scenario or concept described; Punish the employee immediately in public refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Assume the employee lacks ability refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader who consistently links daily work to the organization's mission is helping employees see:",
+"options": [
+"Role overload",
+"Meaning and alignment",
+"Centralization",
+"Job insecurity"
+],
+"answer": 1,
+"explain": "Connecting tasks to mission increases meaning and helps employees understand how their work contributes.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Role overload refers to a different leadership idea or approach.",
+"This is correct because connecting tasks to mission increases meaning and helps employees understand how their work contributes.",
+"This is incorrect because it does not best fit the scenario or concept described; Centralization refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Job insecurity refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is the primary purpose of succession planning?",
+"options": [
+"To eliminate training costs",
+"To prepare for future leadership needs",
+"To reduce the number of employees",
+"To avoid performance reviews"
+],
+"answer": 1,
+"explain": "Succession planning identifies and develops people who can fill key roles in the future.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; To eliminate training costs refers to a different leadership idea or approach.",
+"This is correct because succession planning identifies and develops people who can fill key roles in the future.",
+"This is incorrect because it does not best fit the scenario or concept described; To reduce the number of employees refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; To avoid performance reviews refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In delegation, what should remain with the leader even after authority is assigned?",
+"options": [
+"All routine decisions",
+"Final accountability",
+"Every minor task",
+"No communication"
+],
+"answer": 1,
+"explain": "Leaders can delegate authority and tasks, but accountability for results remains with them.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; All routine decisions refers to a different leadership idea or approach.",
+"This is correct because leaders can delegate authority and tasks, but accountability for results remains with them.",
+"This is incorrect because it does not best fit the scenario or concept described; Every minor task refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; No communication refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader asks, 'What evidence supports this proposal?' This question most directly strengthens:",
+"options": [
+"Evidence-based decision-making",
+"Charismatic influence",
+"Coercive control",
+"Informal gossip"
+],
+"answer": 0,
+"explain": "Evidence-based decision-making relies on relevant data and facts rather than unsupported assumptions.",
+"optionExplanations": [
+"This is correct because evidence-based decision-making relies on relevant data and facts rather than unsupported assumptions.",
+"This is incorrect because it does not best fit the scenario or concept described; Charismatic influence refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Coercive control refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Informal gossip refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which response best shows servant leadership?",
+"options": [
+"Using rank to force compliance",
+"Removing obstacles so employees can succeed",
+"Keeping information private to preserve authority",
+"Rewarding only top performers"
+],
+"answer": 1,
+"explain": "Servant leadership emphasizes supporting others and helping them grow and perform.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Using rank to force compliance refers to a different leadership idea or approach.",
+"This is correct because servant leadership emphasizes supporting others and helping them grow and perform.",
+"This is incorrect because it does not best fit the scenario or concept described; Keeping information private to preserve authority refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Rewarding only top performers refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A team repeatedly revisits the same issue without deciding. Which tool would help most?",
+"options": [
+"A decision deadline and clear decision rule",
+"More unrelated agenda items",
+"Less documentation",
+"Fewer participants speaking"
+],
+"answer": 0,
+"explain": "A deadline and decision rule create structure so the group can move from discussion to action.",
+"optionExplanations": [
+"This is correct because a deadline and decision rule create structure so the group can move from discussion to action.",
+"This is incorrect because it does not best fit the scenario or concept described; More unrelated agenda items refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Less documentation refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Fewer participants speaking refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which practice best improves one-on-one meetings between a leader and an employee?",
+"options": [
+"Cancel them whenever work is busy",
+"Use a consistent agenda with two-way discussion",
+"Focus only on mistakes",
+"Keep goals vague"
+],
+"answer": 1,
+"explain": "Consistent one-on-ones work best when both sides discuss priorities, obstacles, and development.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Cancel them whenever work is busy refers to a different leadership idea or approach.",
+"This is correct because consistent one-on-ones work best when both sides discuss priorities, obstacles, and development.",
+"This is incorrect because it does not best fit the scenario or concept described; Focus only on mistakes refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Keep goals vague refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader notices that an employee is disengaged after being excluded from an important project. Which need is most likely affected?",
+"options": [
+"Belonging and recognition",
+"Equipment maintenance",
+"Physical workspace temperature",
+"Formal chain of command"
+],
+"answer": 0,
+"explain": "Exclusion can reduce an employee's sense of belonging, value, and recognition.",
+"optionExplanations": [
+"This is correct because exclusion can reduce an employee's sense of belonging, value, and recognition.",
+"This is incorrect because it does not best fit the scenario or concept described; Equipment maintenance refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Physical workspace temperature refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Formal chain of command refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which behavior best reflects strategic leadership?",
+"options": [
+"Focusing only on today's urgent tasks",
+"Aligning resources with long-term priorities",
+"Avoiding environmental scanning",
+"Delaying all change decisions"
+],
+"answer": 1,
+"explain": "Strategic leadership involves looking ahead and aligning people and resources with long-term direction.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Focusing only on today's urgent tasks refers to a different leadership idea or approach.",
+"This is correct because strategic leadership involves looking ahead and aligning people and resources with long-term direction.",
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding environmental scanning refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Delaying all change decisions refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Why is stakeholder analysis useful before launching a major initiative?",
+"options": [
+"It guarantees no opposition",
+"It identifies interests, influence, and communication needs",
+"It replaces the implementation plan",
+"It removes the need for leaders"
+],
+"answer": 1,
+"explain": "Stakeholder analysis helps leaders understand who is affected, who has influence, and how to engage them.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; It guarantees no opposition refers to a different leadership idea or approach.",
+"This is correct because stakeholder analysis helps leaders understand who is affected, who has influence, and how to engage them.",
+"This is incorrect because it does not best fit the scenario or concept described; It replaces the implementation plan refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; It removes the need for leaders refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A manager changes project goals frequently without explanation. The most likely result is:",
+"options": [
+"Greater role clarity",
+"Confusion and lower morale",
+"Higher trust",
+"Better forecasting"
+],
+"answer": 1,
+"explain": "Frequent unexplained goal changes create uncertainty, frustration, and reduced commitment.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Greater role clarity refers to a different leadership idea or approach.",
+"This is correct because frequent unexplained goal changes create uncertainty, frustration, and reduced commitment.",
+"This is incorrect because it does not best fit the scenario or concept described; Higher trust refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Better forecasting refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which action best helps prevent burnout on a high-performing team?",
+"options": [
+"Rewarding overwork as the norm",
+"Monitoring workload and encouraging recovery time",
+"Keeping deadlines secret",
+"Reducing all autonomy"
+],
+"answer": 1,
+"explain": "Burnout risk decreases when leaders manage workload and support rest, pacing, and recovery.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Rewarding overwork as the norm refers to a different leadership idea or approach.",
+"This is correct because burnout risk decreases when leaders manage workload and support rest, pacing, and recovery.",
+"This is incorrect because it does not best fit the scenario or concept described; Keeping deadlines secret refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Reducing all autonomy refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader uses after-action reviews at the end of projects mainly to:",
+"options": [
+"Assign blame to the lowest performer",
+"Capture lessons learned for future improvement",
+"Eliminate the need for planning",
+"Replace all performance metrics"
+],
+"answer": 1,
+"explain": "After-action reviews help teams reflect on what happened, why, and what to improve next time.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Assign blame to the lowest performer refers to a different leadership idea or approach.",
+"This is correct because after-action reviews help teams reflect on what happened, why, and what to improve next time.",
+"This is incorrect because it does not best fit the scenario or concept described; Eliminate the need for planning refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Replace all performance metrics refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which statement about motivation is most accurate?",
+"options": [
+"Money is the only motivator",
+"Different employees are motivated by different needs and rewards",
+"Motivation cannot change over time",
+"Leaders cannot influence motivation"
+],
+"answer": 1,
+"explain": "Motivation varies by person and can be influenced by needs, recognition, autonomy, and purpose.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Money is the only motivator refers to a different leadership idea or approach.",
+"This is correct because motivation varies by person and can be influenced by needs, recognition, autonomy, and purpose.",
+"This is incorrect because it does not best fit the scenario or concept described; Motivation cannot change over time refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Leaders cannot influence motivation refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "An employee has the skill to complete a task but lacks confidence. Under situational leadership, the leader should generally provide:",
+"options": [
+"High direction and no support",
+"Support and encouragement with less direction",
+"No direction and no support",
+"Punishment for hesitation"
+],
+"answer": 1,
+"explain": "When competence is high but confidence is low, leaders often reduce task direction and increase support.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; High direction and no support refers to a different leadership idea or approach.",
+"This is correct because when competence is high but confidence is low, leaders often reduce task direction and increase support.",
+"This is incorrect because it does not best fit the scenario or concept described; No direction and no support refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Punishment for hesitation refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which conflict-management approach seeks a solution that fully satisfies all parties when possible?",
+"options": [
+"Avoiding",
+"Competing",
+"Collaborating",
+"Accommodating"
+],
+"answer": 2,
+"explain": "Collaborating aims for a win-win solution by addressing the underlying interests of all sides.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Avoiding refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Competing refers to a different leadership idea or approach.",
+"This is correct because collaborating aims for a win-win solution by addressing the underlying interests of all sides.",
+"This is incorrect because it does not best fit the scenario or concept described; Accommodating refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader who admits uncertainty during a complex problem is most likely building:",
+"options": [
+"Credibility and trust",
+"Weakness only",
+"Fear of authority",
+"Role conflict"
+],
+"answer": 0,
+"explain": "Honest acknowledgment of uncertainty can build credibility when paired with clear next steps and transparency.",
+"optionExplanations": [
+"This is correct because honest acknowledgment of uncertainty can build credibility when paired with clear next steps and transparency.",
+"This is incorrect because it does not best fit the scenario or concept described; Weakness only refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Fear of authority refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Role conflict refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is one major benefit of distributed leadership in organizations?",
+"options": [
+"All accountability disappears",
+"Leadership capacity is expanded beyond one formal role",
+"Decision quality always declines",
+"Only executives can influence outcomes"
+],
+"answer": 1,
+"explain": "Distributed leadership allows expertise and initiative to come from multiple people, increasing capacity.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; All accountability disappears refers to a different leadership idea or approach.",
+"This is correct because distributed leadership allows expertise and initiative to come from multiple people, increasing capacity.",
+"This is incorrect because it does not best fit the scenario or concept described; Decision quality always declines refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Only executives can influence outcomes refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which measure is the best indicator that coaching is working?",
+"options": [
+"The employee depends more on the leader for every decision",
+"The employee shows improved performance and independence",
+"The leader spends less time communicating",
+"Team goals are lowered"
+],
+"answer": 1,
+"explain": "Effective coaching should improve capability so the employee performs better with greater independence.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; The employee depends more on the leader for every decision refers to a different leadership idea or approach.",
+"This is correct because effective coaching should improve capability so the employee performs better with greater independence.",
+"This is incorrect because it does not best fit the scenario or concept described; The leader spends less time communicating refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Team goals are lowered refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader asks team members to rate the impact and likelihood of project risks. This is part of:",
+"options": [
+"Risk assessment",
+"Benchmarking",
+"Job rotation",
+"Span of control"
+],
+"answer": 0,
+"explain": "Risk assessment often evaluates both likelihood and impact so leaders can prioritize mitigation.",
+"optionExplanations": [
+"This is correct because risk assessment often evaluates both likelihood and impact so leaders can prioritize mitigation.",
+"This is incorrect because it does not best fit the scenario or concept described; Benchmarking refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Job rotation refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Span of control refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which action by a leader most strengthens organizational culture?",
+"options": [
+"Ignoring behavior that contradicts stated values",
+"Modeling the values consistently",
+"Changing expectations daily",
+"Focusing only on slogans"
+],
+"answer": 1,
+"explain": "Culture is strengthened when leaders consistently model and reinforce the values they claim to support.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Ignoring behavior that contradicts stated values refers to a different leadership idea or approach.",
+"This is correct because culture is strengthened when leaders consistently model and reinforce the values they claim to support.",
+"This is incorrect because it does not best fit the scenario or concept described; Changing expectations daily refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Focusing only on slogans refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "When employees feel they cannot challenge a leader's idea, the organization is most at risk of:",
+"options": [
+"Constructive conflict",
+"Innovation through dissent",
+"Poor decisions from limited input",
+"Improved psychological safety"
+],
+"answer": 2,
+"explain": "If people cannot challenge ideas, leaders may miss information and make poorer decisions.",
+"optionExplanations": [
+"This is incorrect because it does not best fit the scenario or concept described; Constructive conflict refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Innovation through dissent refers to a different leadership idea or approach.",
+"This is correct because if people cannot challenge ideas, leaders may miss information and make poorer decisions.",
+"This is incorrect because it does not best fit the scenario or concept described; Improved psychological safety refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A leader evaluates whether an issue requires a reversible or irreversible decision before acting. This primarily improves:",
+"options": [
+"Decision speed and judgment",
+"Annual budgeting only",
+"Office layout planning",
+"Ceremonial communication"
+],
+"answer": 0,
+"explain": "Knowing whether a decision can be reversed helps leaders choose the right speed, analysis level, and escalation path.",
+"optionExplanations": [
+"This is correct because knowing whether a decision can be reversed helps leaders choose the right speed, analysis level, and escalation path.",
+"This is incorrect because it does not best fit the scenario or concept described; Annual budgeting only refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Office layout planning refers to a different leadership idea or approach.",
+"This is incorrect because it does not best fit the scenario or concept described; Ceremonial communication refers to a different leadership idea or approach."
+],
+"source": "generated-bespoke"
+}
+]
+}
+
+SECTION 4 - CHECKLIST_LINE_UPDATE
+
+* [ ] Organizational Leadership: 15/100 total (official 15 + historical 0; Need 85)
+* [x] Organizational Leadership: 15/100 total (official 15 + historical 0; Need 85)

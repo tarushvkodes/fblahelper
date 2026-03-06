@@ -1,0 +1,1805 @@
+{
+  "event": "Securities & Investments",
+  "questions": [
+    {
+      "q": "A high school student receives $1,000 from a summer job and wants to start investing. Which factor should they consider first before choosing an investment?",
+      "options": [
+        "Tax withholding",
+        "Investment goals and risk tolerance",
+        "Commission rate of a broker",
+        "Market capitalization of stocks"
+      ],
+      "answer": 1,
+      "explain": "Investment choices should begin with the investor's goals, time horizon, and risk tolerance because those determine what types of securities are suitable.",
+      "optionExplanations": [
+        "Tax withholding affects paycheck and taxes, but it does not determine investment suitability.",
+        "Investment goals and risk tolerance are the correct starting point because they shape appropriate choices.",
+        "Broker commission matters, but it comes after determining what type of investment fits.",
+        "Market capitalization describes company size, not the investor's personal suitability."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A company's stock has a beta of 1.5. This means:",
+      "options": [
+        "It is less volatile than the overall market.",
+        "It is more volatile than the overall market.",
+        "It has no correlation with the market.",
+        "It is risk-free."
+      ],
+      "answer": 1,
+      "explain": "A beta greater than 1 means the stock tends to move more than the market benchmark, so 1.5 indicates higher volatility than the market.",
+      "optionExplanations": [
+        "A beta below 1 would indicate less volatility.",
+        "A beta of 1.5 indicates more volatility than the market, so this is correct.",
+        "No correlation would be closer to a beta near 0.",
+        "A stock with beta 1.5 is not risk-free."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which investment is most likely to be considered the least risky?",
+      "options": [
+        "Blue-chip stocks",
+        "Corporate bonds",
+        "U.S. Treasury bonds",
+        "High-yield bonds"
+      ],
+      "answer": 2,
+      "explain": "U.S. Treasury bonds generally have the lowest default risk among these choices because they are backed by the U.S. government.",
+      "optionExplanations": [
+        "Blue-chip stocks can still lose value in the market.",
+        "Corporate bonds carry issuer credit risk.",
+        "U.S. Treasury bonds are generally considered the least risky choice here.",
+        "High-yield bonds have relatively high default risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If an investor wants to maximize returns while accepting significant price swings, they are most likely:",
+      "options": [
+        "Conservative investors",
+        "Moderate investors",
+        "Aggressive investors",
+        "Passive investors"
+      ],
+      "answer": 2,
+      "explain": "Aggressive investors seek higher potential returns and are willing to tolerate substantial volatility and short-term losses.",
+      "optionExplanations": [
+        "Conservative investors usually prioritize capital preservation.",
+        "Moderate investors balance growth with stability.",
+        "Aggressive investors accept significant price swings to pursue higher returns.",
+        "Passive investors describes an approach, not necessarily a high tolerance for risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Diversification in investing primarily helps to:",
+      "options": [
+        "Increase transaction costs",
+        "Reduce overall portfolio risk",
+        "Increase the tax liability",
+        "Increase portfolio volatility"
+      ],
+      "answer": 1,
+      "explain": "Diversification reduces unsystematic risk by spreading investments across different securities, sectors, or asset classes.",
+      "optionExplanations": [
+        "Costs can rise or fall depending on how a portfolio is built, but that is not the main purpose.",
+        "Reducing overall portfolio risk is the main purpose of diversification.",
+        "Diversification does not inherently increase tax liability.",
+        "Diversification generally reduces concentration risk rather than increasing volatility."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A stock pays a $2 annual dividend and is currently priced at $40. The dividend yield is:",
+      "options": [
+        "2%",
+        "4%",
+        "5%",
+        "8%"
+      ],
+      "answer": 2,
+      "explain": "Dividend yield equals annual dividend divided by price. $2 divided by $40 equals 0.05, or 5%.",
+      "optionExplanations": [
+        "2% would be $0.80 on a $40 stock.",
+        "4% would be $1.60 on a $40 stock.",
+        "$2 divided by $40 equals 5%, so this is correct.",
+        "8% would be $3.20 on a $40 stock."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following best describes liquidity risk?",
+      "options": [
+        "The chance an investment cannot be quickly sold without a loss in value",
+        "The chance that inflation will reduce purchasing power",
+        "The chance of default by a bond issuer",
+        "The chance of losing principal due to market fluctuations"
+      ],
+      "answer": 0,
+      "explain": "Liquidity risk is the risk that an asset cannot be sold promptly at a fair price and may require a discount to attract a buyer.",
+      "optionExplanations": [
+        "This is the definition of liquidity risk and is correct.",
+        "That describes inflation risk.",
+        "That describes credit or default risk.",
+        "That describes market risk more generally."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a stock's price rises from $50 to $55, what is the capital gain percentage?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explain": "The gain is $5. Dividing $5 by the original $50 price gives 0.10, which is 10%.",
+      "optionExplanations": [
+        "5% would be a $2.50 increase.",
+        "8% would be a $4 increase.",
+        "$5 divided by $50 equals 10%, so this is correct.",
+        "12% would be a $6 increase."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is an example of a derivative security?",
+      "options": [
+        "Mutual fund",
+        "Treasury bond",
+        "Stock option",
+        "Corporate bond"
+      ],
+      "answer": 2,
+      "explain": "A stock option derives its value from an underlying stock, which makes it a derivative security.",
+      "optionExplanations": [
+        "A mutual fund is a pooled investment vehicle, not a derivative itself.",
+        "A Treasury bond is a debt security.",
+        "A stock option is a derivative because its value depends on an underlying stock.",
+        "A corporate bond is a debt security."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "An investor who prefers steady income over growth should focus on:",
+      "options": [
+        "Growth stocks",
+        "Dividend-paying stocks",
+        "Penny stocks",
+        "Commodities"
+      ],
+      "answer": 1,
+      "explain": "Dividend-paying stocks are often selected by investors who want recurring cash flow rather than primarily price appreciation.",
+      "optionExplanations": [
+        "Growth stocks usually emphasize reinvestment and appreciation instead of current income.",
+        "Dividend-paying stocks are designed to provide income, so this is correct.",
+        "Penny stocks are generally speculative and not known for steady income.",
+        "Commodities do not usually generate regular dividend income."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The NYSE and NASDAQ are examples of:",
+      "options": [
+        "Money markets",
+        "Primary markets",
+        "Secondary markets",
+        "Futures markets"
+      ],
+      "answer": 2,
+      "explain": "NYSE and NASDAQ are exchanges where already-issued securities are traded among investors, which is the role of secondary markets.",
+      "optionExplanations": [
+        "Money markets handle short-term debt instruments.",
+        "Primary markets involve first-time issuance of securities.",
+        "NYSE and NASDAQ are secondary markets, so this is correct.",
+        "Futures markets trade contracts on underlying assets."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The primary purpose of an IPO is to:",
+      "options": [
+        "Allow existing shareholders to sell shares to the public",
+        "Raise new capital for the issuing company",
+        "Reduce the company's debt",
+        "Increase the company's bond rating"
+      ],
+      "answer": 1,
+      "explain": "An IPO gives a company access to public investors so it can raise equity capital.",
+      "optionExplanations": [
+        "Some offerings include shareholder sales, but the main purpose is raising capital for the company.",
+        "Raising new capital for the issuing company is the core purpose of an IPO.",
+        "An IPO does not automatically reduce debt.",
+        "An IPO does not directly raise a company's bond rating."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which regulatory body oversees U.S. securities markets?",
+      "options": [
+        "FDIC",
+        "SEC",
+        "Federal Reserve",
+        "OCC"
+      ],
+      "answer": 1,
+      "explain": "The Securities and Exchange Commission is the primary federal regulator of U.S. securities markets and securities offerings.",
+      "optionExplanations": [
+        "FDIC mainly insures bank deposits.",
+        "SEC oversees securities markets and is correct.",
+        "The Federal Reserve is the central bank, not the main securities regulator.",
+        "OCC supervises national banks, not the overall securities markets."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "An investor purchasing a newly issued corporate bond is participating in the:",
+      "options": [
+        "Primary market",
+        "Secondary market",
+        "Futures market",
+        "Money market"
+      ],
+      "answer": 0,
+      "explain": "The primary market is where investors buy newly issued securities directly from the issuer or through underwriters.",
+      "optionExplanations": [
+        "A newly issued bond is bought in the primary market, so this is correct.",
+        "The secondary market is for resales of existing securities.",
+        "A futures market trades derivative contracts.",
+        "Money market refers to short-term debt instruments, not the first-sale status of this bond."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A limit order to buy means:",
+      "options": [
+        "Buying at any price",
+        "Buying at or below a specific price",
+        "Buying only after the stock has risen",
+        "Buying based on analyst recommendations"
+      ],
+      "answer": 1,
+      "explain": "A buy limit order sets the maximum price an investor is willing to pay, so it only executes at that price or lower.",
+      "optionExplanations": [
+        "Buying at any price describes a market order.",
+        "A buy limit order executes at the limit price or lower, so this is correct.",
+        "A limit order is not triggered by the stock first rising.",
+        "Analyst recommendations do not define order type."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the main difference between a stock's dividend yield and its dividend payout ratio?",
+      "options": [
+        "Yield compares dividend to stock price, while payout ratio compares dividends to earnings.",
+        "Yield compares dividend to earnings, while payout ratio compares dividends to stock price.",
+        "Yield measures price growth, while payout ratio measures market share.",
+        "Yield applies only to bonds, while payout ratio applies only to stocks."
+      ],
+      "answer": 0,
+      "explain": "Dividend yield is annual dividend divided by market price, while payout ratio is dividends divided by earnings. They measure income from two different perspectives.",
+      "optionExplanations": [
+        "This correctly distinguishes market-price-based yield from earnings-based payout ratio.",
+        "This reverses the two formulas.",
+        "Neither measure is about price growth or market share.",
+        "Both measures can apply to dividend-paying stocks, so this is incorrect."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor buys 100 shares at $30 and later sells them at $36, paying no commissions. What is the total capital gain?",
+      "options": [
+        "$300",
+        "$360",
+        "$600",
+        "$3,600"
+      ],
+      "answer": 2,
+      "explain": "The gain per share is $6. For 100 shares, total capital gain is $600.",
+      "optionExplanations": [
+        "$300 would be a $3 gain per share.",
+        "$360 confuses share count and total gain.",
+        "$6 times 100 shares equals $600, so this is correct.",
+        "$3,600 is the sale proceeds increase over the original basis only if the gain were $36 per share."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of investor is most likely to prioritize preservation of principal over high returns?",
+      "options": [
+        "Aggressive investor",
+        "Conservative investor",
+        "Speculative trader",
+        "Momentum investor"
+      ],
+      "answer": 1,
+      "explain": "Conservative investors generally prefer lower-risk assets and focus on protecting principal rather than maximizing return.",
+      "optionExplanations": [
+        "Aggressive investors usually seek higher returns and accept more risk.",
+        "Conservative investors prioritize safety and preservation of capital, so this is correct.",
+        "Speculative traders accept high uncertainty for potential gain.",
+        "Momentum investors focus on price trends rather than principal preservation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does market capitalization measure?",
+      "options": [
+        "A company's annual dividend payment",
+        "The total market value of a company's outstanding shares",
+        "The number of trades placed in a day",
+        "The amount of debt a company owes"
+      ],
+      "answer": 1,
+      "explain": "Market capitalization equals share price multiplied by shares outstanding, giving the total market value of a company's equity.",
+      "optionExplanations": [
+        "Dividend payment is separate from market capitalization.",
+        "This is the definition of market capitalization and is correct.",
+        "Trading volume measures shares traded, not market value.",
+        "Debt is part of the capital structure but not market capitalization."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which bond feature most directly reduces an investor's reinvestment risk?",
+      "options": [
+        "Short maturity",
+        "High coupon rate",
+        "Zero-coupon structure",
+        "Callable provision"
+      ],
+      "answer": 2,
+      "explain": "Zero-coupon bonds do not make periodic interest payments, so the investor does not have to reinvest interim coupons before maturity.",
+      "optionExplanations": [
+        "Short maturities can reduce interest-rate sensitivity but do not eliminate coupon reinvestment.",
+        "High coupons create more cash flows that must be reinvested.",
+        "A zero-coupon bond avoids periodic coupon reinvestment, so this is correct.",
+        "A callable feature can increase uncertainty rather than reduce reinvestment risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If inflation rises faster than the interest rate on a savings account, the saver experiences:",
+      "options": [
+        "Greater purchasing power",
+        "A negative real return",
+        "Higher liquidity",
+        "Lower nominal interest"
+      ],
+      "answer": 1,
+      "explain": "Real return equals nominal return minus inflation. When inflation exceeds the account rate, purchasing power declines and real return is negative.",
+      "optionExplanations": [
+        "Purchasing power falls, not rises, in this scenario.",
+        "This correctly describes the effect of inflation exceeding nominal return.",
+        "Liquidity may still be high, but that is not the main result being tested.",
+        "Nominal interest is the stated rate and does not automatically fall here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes a common stockholder's claim in a liquidation?",
+      "options": [
+        "First priority over secured creditors",
+        "Priority over bondholders",
+        "Residual claim after creditors and preferred stockholders",
+        "Guaranteed return of principal"
+      ],
+      "answer": 2,
+      "explain": "Common shareholders are residual owners. In liquidation, they are paid only after creditors and preferred shareholders have been satisfied.",
+      "optionExplanations": [
+        "Secured creditors are ahead of stockholders.",
+        "Bondholders have a higher claim than common shareholders.",
+        "This correctly describes the residual claim of common stockholders.",
+        "Common stock does not guarantee return of principal."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why do investors often compare a bond's coupon rate with current market interest rates?",
+      "options": [
+        "To determine voting rights",
+        "To estimate whether the bond may trade at a premium or discount",
+        "To calculate shares outstanding",
+        "To find the issuer's tax bracket"
+      ],
+      "answer": 1,
+      "explain": "If a bond's coupon is above current market rates, it tends to trade at a premium; if below, it tends to trade at a discount.",
+      "optionExplanations": [
+        "Coupon rate has nothing to do with voting rights.",
+        "This is the key reason for comparing coupon and market rates, so it is correct.",
+        "Shares outstanding apply to stock, not this bond pricing relationship.",
+        "Issuer tax bracket is not the main pricing comparison here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes systematic risk?",
+      "options": [
+        "It can be eliminated entirely through diversification.",
+        "It affects specific firms only.",
+        "It arises from broad market or economic factors.",
+        "It is caused only by management fraud."
+      ],
+      "answer": 2,
+      "explain": "Systematic risk comes from economy-wide or market-wide forces such as recessions, inflation, or interest-rate changes.",
+      "optionExplanations": [
+        "Diversification can reduce unsystematic risk, not eliminate systematic risk.",
+        "Firm-specific effects are unsystematic risk.",
+        "Broad market or economic factors define systematic risk, so this is correct.",
+        "Management fraud is a firm-specific event, not the only source of systematic risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor uses fundamental analysis most directly to estimate a company's:",
+      "options": [
+        "Intrinsic value based on financial and economic information",
+        "Next-day stock price based only on chart patterns",
+        "Exact future trading volume",
+        "Broker commission schedule"
+      ],
+      "answer": 0,
+      "explain": "Fundamental analysis studies financial statements, industry conditions, and economic data to estimate a security's intrinsic value.",
+      "optionExplanations": [
+        "This is the purpose of fundamental analysis and is correct.",
+        "Chart-pattern forecasting is associated more with technical analysis.",
+        "Trading volume may be reviewed, but not as the main purpose here.",
+        "Broker commission schedules are unrelated to intrinsic value analysis."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which financial statement shows a company's assets, liabilities, and equity at a specific point in time?",
+      "options": [
+        "Income statement",
+        "Balance sheet",
+        "Statement of cash flows",
+        "Proxy statement"
+      ],
+      "answer": 1,
+      "explain": "The balance sheet reports the company's financial position at a specific date by listing assets, liabilities, and shareholders' equity.",
+      "optionExplanations": [
+        "The income statement covers performance over a period, not a point in time.",
+        "The balance sheet is correct.",
+        "The cash flow statement shows cash inflows and outflows over a period.",
+        "A proxy statement is related to shareholder voting materials."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company's current assets are $120,000 and current liabilities are $80,000, its current ratio is:",
+      "options": [
+        "0.67",
+        "1.20",
+        "1.50",
+        "2.00"
+      ],
+      "answer": 2,
+      "explain": "Current ratio equals current assets divided by current liabilities. $120,000 divided by $80,000 equals 1.50.",
+      "optionExplanations": [
+        "0.67 is the reverse calculation.",
+        "1.20 would result from different numbers.",
+        "$120,000 divided by $80,000 equals 1.50, so this is correct.",
+        "2.00 would require current assets to be twice current liabilities."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would most likely appeal to an investor seeking broad market exposure with low expense ratios?",
+      "options": [
+        "Actively managed sector fund",
+        "Index fund ETF",
+        "Junk bond fund",
+        "Penny stock portfolio"
+      ],
+      "answer": 1,
+      "explain": "An index ETF is designed to track a market benchmark broadly and often has relatively low expenses because it is passively managed.",
+      "optionExplanations": [
+        "An actively managed sector fund is narrower and often more expensive.",
+        "An index fund ETF provides broad exposure and often low costs, so this is correct.",
+        "A junk bond fund targets below-investment-grade debt, not broad equity exposure.",
+        "A penny stock portfolio is highly speculative and not broadly diversified."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary function of a prospectus for a mutual fund or new security offering?",
+      "options": [
+        "Guarantee investor profits",
+        "Provide material information about the investment and its risks",
+        "Set the investor's tax rate",
+        "Replace all broker recommendations"
+      ],
+      "answer": 1,
+      "explain": "A prospectus is meant to disclose essential facts, fees, objectives, and risks so investors can make informed decisions.",
+      "optionExplanations": [
+        "No prospectus can guarantee profits.",
+        "This is the main purpose of a prospectus and is correct.",
+        "A prospectus does not set taxes.",
+        "It provides disclosure; it does not replace all advice."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A bond issuer's failure to make scheduled interest payments is an example of:",
+      "options": [
+        "Liquidity risk",
+        "Default risk",
+        "Inflation risk",
+        "Call risk"
+      ],
+      "answer": 1,
+      "explain": "Default risk is the possibility that the issuer will fail to meet promised debt obligations such as interest or principal payments.",
+      "optionExplanations": [
+        "Liquidity risk involves difficulty selling the bond quickly.",
+        "This is default risk and is correct.",
+        "Inflation risk concerns purchasing power erosion.",
+        "Call risk arises when the issuer redeems the bond early."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following securities usually gives the holder voting rights?",
+      "options": [
+        "Preferred stock",
+        "Common stock",
+        "Corporate bond",
+        "Treasury bill"
+      ],
+      "answer": 1,
+      "explain": "Common stock usually carries voting rights in matters such as electing directors, whereas preferred stock often does not.",
+      "optionExplanations": [
+        "Preferred stock usually has dividend preference, not standard voting rights.",
+        "Common stock is the usual voting equity security, so this is correct.",
+        "Corporate bonds are debt instruments and do not provide equity voting rights.",
+        "Treasury bills are government debt, not voting securities."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most direct benefit of dollar-cost averaging during a volatile market?",
+      "options": [
+        "It guarantees a profit.",
+        "It reduces the average purchase cost in every market.",
+        "It spreads purchases over time and reduces timing risk.",
+        "It eliminates all market risk."
+      ],
+      "answer": 2,
+      "explain": "Dollar-cost averaging invests a fixed amount at regular intervals, which reduces the risk of committing all funds at one unfavorable time.",
+      "optionExplanations": [
+        "No investing method guarantees profit.",
+        "The average cost is not always lower in every market pattern.",
+        "This correctly describes how dollar-cost averaging reduces timing risk.",
+        "Market risk remains even when purchase timing is spread out."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company with a very high debt-to-equity ratio generally relies heavily on:",
+      "options": [
+        "Equity financing",
+        "Leverage",
+        "Retained earnings only",
+        "Short selling"
+      ],
+      "answer": 1,
+      "explain": "Debt-to-equity compares borrowed funds to owners' equity. A high ratio indicates heavier use of leverage.",
+      "optionExplanations": [
+        "A very high ratio does not indicate low reliance on debt.",
+        "Heavy use of leverage is what a high debt-to-equity ratio suggests, so this is correct.",
+        "Retained earnings only would not produce a high debt-to-equity ratio.",
+        "Short selling is a trading activity, not corporate financing structure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which order type becomes a market order once a specified trigger price is reached?",
+      "options": [
+        "Limit order",
+        "Stop order",
+        "Fill-or-kill order",
+        "Market-if-touched order"
+      ],
+      "answer": 1,
+      "explain": "A stop order activates when the stop price is reached and then typically executes as a market order.",
+      "optionExplanations": [
+        "A limit order sets a maximum buy or minimum sell price.",
+        "A stop order is correct.",
+        "Fill-or-kill addresses execution conditions, not a trigger conversion.",
+        "Market-if-touched is different from the standard stop-order concept tested here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does a bond's maturity date indicate?",
+      "options": [
+        "The date the bond begins trading",
+        "The date the issuer repays principal",
+        "The date coupon payments stop temporarily",
+        "The date the credit rating is reviewed"
+      ],
+      "answer": 1,
+      "explain": "The maturity date is when the bond's principal is due to be repaid by the issuer.",
+      "optionExplanations": [
+        "Trading can begin before or after issuance, but that is not maturity.",
+        "This correctly defines the maturity date.",
+        "Coupon payments do not stop temporarily because of maturity; the bond ends.",
+        "Credit ratings can be reviewed at many times, not just maturity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why might an investor choose a municipal bond over a comparable corporate bond?",
+      "options": [
+        "Municipal bonds always have higher yields.",
+        "Interest income may receive favorable tax treatment.",
+        "Municipal bonds have no default risk.",
+        "Municipal bonds are always more liquid."
+      ],
+      "answer": 1,
+      "explain": "Many municipal bonds pay interest that is exempt from federal income tax, which can make them attractive on an after-tax basis.",
+      "optionExplanations": [
+        "Municipal bonds do not always have higher yields.",
+        "Favorable tax treatment is the classic reason and is correct.",
+        "Municipal bonds can still default.",
+        "Liquidity varies and is not always higher."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which measure indicates how much a company's earnings are allocated to each common share?",
+      "options": [
+        "Book value",
+        "Dividend yield",
+        "Earnings per share",
+        "Current ratio"
+      ],
+      "answer": 2,
+      "explain": "Earnings per share, or EPS, measures the portion of a company's profit attributable to each outstanding common share.",
+      "optionExplanations": [
+        "Book value is an accounting measure of net assets, not earnings per share.",
+        "Dividend yield compares dividends to stock price.",
+        "EPS is the correct measure.",
+        "Current ratio measures short-term liquidity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor buys a bond at a price above its face value. The bond is purchased at a:",
+      "options": [
+        "Discount",
+        "Premium",
+        "Parity",
+        "Spread"
+      ],
+      "answer": 1,
+      "explain": "A bond priced above face value is said to trade at a premium.",
+      "optionExplanations": [
+        "A discount means the bond is below face value.",
+        "A price above face value is a premium, so this is correct.",
+        "Parity is used in other contexts, such as convertibles or options relationships.",
+        "Spread refers to a difference between yields or prices, not this pricing status alone."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is one main reason an investor might prefer an ETF over a traditional mutual fund?",
+      "options": [
+        "ETFs cannot lose value.",
+        "ETFs often trade intraday on exchanges.",
+        "ETFs guarantee lower taxes for every investor.",
+        "ETFs are issued only by governments."
+      ],
+      "answer": 1,
+      "explain": "ETFs trade throughout the day on exchanges like stocks, while traditional mutual funds are usually priced once daily at net asset value.",
+      "optionExplanations": [
+        "ETFs can absolutely lose value.",
+        "Intraday exchange trading is a key ETF feature and is correct.",
+        "Tax outcomes vary by fund and investor; there is no universal guarantee.",
+        "ETFs are not government-only products."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does it mean when a stock is described as a blue-chip stock?",
+      "options": [
+        "It is newly issued in an IPO.",
+        "It is a large, established company with a history of stability.",
+        "It trades only over the counter.",
+        "It has no market risk."
+      ],
+      "answer": 1,
+      "explain": "Blue-chip stocks generally refer to large, well-established companies with strong reputations and relatively stable operating histories.",
+      "optionExplanations": [
+        "Blue-chip status does not mean the stock is newly issued.",
+        "This is the standard meaning of blue-chip stock and is correct.",
+        "Blue-chip stocks can trade on major exchanges, not just over the counter.",
+        "No stock is free of market risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a direct example of capital appreciation?",
+      "options": [
+        "Receiving a bond coupon",
+        "Receiving a stock dividend",
+        "Selling an asset for more than its purchase price",
+        "Reinvesting earnings automatically"
+      ],
+      "answer": 2,
+      "explain": "Capital appreciation occurs when an investment increases in market value and the investor realizes a gain upon sale.",
+      "optionExplanations": [
+        "A bond coupon is interest income, not capital appreciation.",
+        "A stock dividend is a distribution, not appreciation itself.",
+        "Selling above purchase price is realized capital appreciation, so this is correct.",
+        "Automatic reinvestment does not define appreciation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A brokerage account that allows an investor to borrow money to purchase securities is called a:",
+      "options": [
+        "Cash account",
+        "Margin account",
+        "Custodial account",
+        "Trust account"
+      ],
+      "answer": 1,
+      "explain": "A margin account allows borrowing from the broker, using securities as collateral, to purchase additional investments.",
+      "optionExplanations": [
+        "Cash accounts require full payment without borrowing.",
+        "A margin account is correct.",
+        "A custodial account refers to an account managed for a minor or beneficiary.",
+        "A trust account is held under trust arrangements, not defined by borrowing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which event would most likely cause unsystematic risk for one company?",
+      "options": [
+        "A nationwide recession",
+        "A broad rise in interest rates",
+        "A factory fire at that company",
+        "A decline in the overall stock market"
+      ],
+      "answer": 2,
+      "explain": "Unsystematic risk is firm-specific. A factory fire affects that company directly rather than the whole market.",
+      "optionExplanations": [
+        "A recession affects many firms and is systematic risk.",
+        "Broad interest-rate increases affect the wider market.",
+        "A factory fire is a company-specific event, so this is correct.",
+        "A broad market decline is systematic risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the par value of a bond?",
+      "options": [
+        "Its market trading price",
+        "The amount paid at maturity, usually face value",
+        "Its annual coupon payment",
+        "Its current yield"
+      ],
+      "answer": 1,
+      "explain": "Par value is the face amount the issuer promises to repay at maturity, commonly $1,000 per bond.",
+      "optionExplanations": [
+        "Market price can differ from par value.",
+        "Par value is the principal repaid at maturity and is correct.",
+        "Coupon payment is interest, not par value.",
+        "Current yield is income relative to market price, not face value."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the percentage return earned on a bond's annual interest relative to its current market price?",
+      "options": [
+        "Coupon rate",
+        "Current yield",
+        "Yield spread",
+        "Total return"
+      ],
+      "answer": 1,
+      "explain": "Current yield equals annual coupon payment divided by the bond's current market price.",
+      "optionExplanations": [
+        "Coupon rate uses face value, not current price.",
+        "Current yield is the correct measure here.",
+        "Yield spread compares yields between securities.",
+        "Total return includes price changes and reinvestment effects beyond annual interest alone."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor who believes a stock is overvalued and expects its price to fall may profit by:",
+      "options": [
+        "Going long",
+        "Short selling",
+        "Buying a call option only",
+        "Purchasing a Treasury bill"
+      ],
+      "answer": 1,
+      "explain": "Short selling involves borrowing shares and selling them now in hopes of buying them back later at a lower price.",
+      "optionExplanations": [
+        "Going long benefits from price increases.",
+        "Short selling is the classic strategy for expected price declines, so this is correct.",
+        "A call option generally benefits from rising prices.",
+        "A Treasury bill does not directly profit from a specific stock's decline."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is diversification across asset classes useful in portfolio construction?",
+      "options": [
+        "It guarantees that all investments rise together.",
+        "It reduces exposure to any one type of risk or market segment.",
+        "It prevents losses in every calendar year.",
+        "It removes the need to review the portfolio."
+      ],
+      "answer": 1,
+      "explain": "Different asset classes often respond differently to economic conditions, so spreading investments can reduce concentration risk.",
+      "optionExplanations": [
+        "If everything rises together, diversification provides less benefit, and there is no guarantee.",
+        "This is the main benefit of asset-class diversification and is correct.",
+        "Diversification cannot prevent losses every year.",
+        "Diversified portfolios still need monitoring and review."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes a benchmark index?",
+      "options": [
+        "A legal contract for bondholders",
+        "A standard used to compare investment performance",
+        "A guarantee from a brokerage firm",
+        "A list of insider trades"
+      ],
+      "answer": 1,
+      "explain": "A benchmark index, such as the S&P 500, provides a reference point for evaluating a portfolio or fund's performance.",
+      "optionExplanations": [
+        "That describes a bond indenture or similar legal document.",
+        "A benchmark index is a comparison standard and is correct.",
+        "Brokerages do not guarantee performance through benchmark indexes.",
+        "Insider trade reports are separate regulatory disclosures."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is one reason preferred stock is often considered a hybrid security?",
+      "options": [
+        "It combines features of debt and equity.",
+        "It can be traded only on bond markets.",
+        "It has no claim on company assets.",
+        "It always matures on a fixed date."
+      ],
+      "answer": 0,
+      "explain": "Preferred stock is equity, but it has bond-like features such as stated dividends and priority over common stock in dividend payments.",
+      "optionExplanations": [
+        "This is why preferred stock is called a hybrid security and is correct.",
+        "Preferred stock can trade in equity markets.",
+        "Preferred stock does have a claim senior to common stock in some respects.",
+        "Many preferred shares are perpetual and do not always mature on a fixed date."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an investor's time horizon is very short and money will be needed soon, the investor would generally favor:",
+      "options": [
+        "Highly speculative small-cap stocks",
+        "Long-term illiquid private investments",
+        "More liquid and lower-volatility investments",
+        "Leveraged options positions"
+      ],
+      "answer": 2,
+      "explain": "A short time horizon usually calls for preserving access to funds and reducing the chance of forced selling after a market drop.",
+      "optionExplanations": [
+        "Speculative small-cap stocks can be highly volatile.",
+        "Illiquid long-term investments may not be appropriate when funds are needed soon.",
+        "Liquid, lower-volatility investments are generally more suitable, so this is correct.",
+        "Leveraged options are usually too risky for a short horizon need."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term refers to the chance that rising prices in the economy will erode the value of future investment income?",
+      "options": [
+        "Interest-rate risk",
+        "Inflation risk",
+        "Credit spread risk",
+        "Settlement risk"
+      ],
+      "answer": 1,
+      "explain": "Inflation risk is the risk that purchasing power declines because prices rise faster than investment returns.",
+      "optionExplanations": [
+        "Interest-rate risk concerns price sensitivity to rate changes.",
+        "Inflation risk is correct.",
+        "Credit spread risk involves changes in yield spreads due to credit conditions.",
+        "Settlement risk involves failure to complete a transaction."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company announces a 2-for-1 stock split. What happens immediately to each shareholder's share count and stock price, all else equal?",
+      "options": [
+        "Share count doubles and price roughly halves.",
+        "Share count halves and price doubles.",
+        "Both share count and price double.",
+        "Neither share count nor price changes."
+      ],
+      "answer": 0,
+      "explain": "In a 2-for-1 split, each existing share is split into two shares, so the number of shares doubles while the price per share is adjusted downward roughly by half.",
+      "optionExplanations": [
+        "This is the standard effect of a 2-for-1 stock split and is correct.",
+        "This describes a reverse relationship that is not what a 2-for-1 split does.",
+        "The company's total market value does not double solely because of the split.",
+        "Both share count and price do change in opposite directions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a bond credit rating?",
+      "options": [
+        "To determine stock voting rights",
+        "To estimate the issuer's ability to meet debt obligations",
+        "To set the bond's coupon automatically",
+        "To guarantee the bond's market price"
+      ],
+      "answer": 1,
+      "explain": "Credit ratings assess the creditworthiness of the issuer and the likelihood that debt obligations will be met.",
+      "optionExplanations": [
+        "Credit ratings do not affect stock voting rights.",
+        "This is the purpose of a bond credit rating and is correct.",
+        "Coupons are set by the bond terms, not automatically by the rating.",
+        "Ratings do not guarantee market price."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of mutual fund is designed to mirror the performance of a market index rather than try to beat it?",
+      "options": [
+        "Index fund",
+        "Balanced fund",
+        "Target-date fund",
+        "Money market fund"
+      ],
+      "answer": 0,
+      "explain": "An index fund seeks to track the returns of a chosen benchmark index rather than outperform it through active selection.",
+      "optionExplanations": [
+        "This is exactly what an index fund does and is correct.",
+        "A balanced fund mixes asset classes but is not defined by passive index tracking.",
+        "A target-date fund shifts allocations over time based on retirement date.",
+        "A money market fund focuses on short-term cash-equivalent instruments."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is one major disadvantage of holding an undiversified portfolio?",
+      "options": [
+        "Lower concentration risk",
+        "Higher exposure to company-specific losses",
+        "Guaranteed income",
+        "Automatic hedging against recessions"
+      ],
+      "answer": 1,
+      "explain": "A portfolio concentrated in only a few holdings is more vulnerable to damage from bad news affecting one company or sector.",
+      "optionExplanations": [
+        "Undiversified portfolios have more, not less, concentration risk.",
+        "This is the key disadvantage and is correct.",
+        "Income is never guaranteed merely because a portfolio is concentrated.",
+        "Concentration does not automatically hedge recessions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best explains why long-term bonds are usually more sensitive to interest-rate changes than short-term bonds?",
+      "options": [
+        "They pay interest more often.",
+        "They have cash flows farther in the future.",
+        "They are always lower quality.",
+        "They trade only in private markets."
+      ],
+      "answer": 1,
+      "explain": "Long-term bonds have payments extending farther into the future, so changes in discount rates have a larger effect on present value.",
+      "optionExplanations": [
+        "Coupon frequency alone is not the main reason.",
+        "This is the main reason for greater rate sensitivity and is correct.",
+        "Maturity length does not automatically mean lower credit quality.",
+        "Long-term bonds do not trade only in private markets."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an investor wants regular exposure to international stocks without selecting individual foreign companies, which vehicle is often most practical?",
+      "options": [
+        "A single domestic common stock",
+        "An international equity fund",
+        "A Treasury note",
+        "A corporate certificate of deposit"
+      ],
+      "answer": 1,
+      "explain": "An international equity fund provides pooled exposure to many foreign companies, reducing the need to select each one individually.",
+      "optionExplanations": [
+        "One domestic stock does not provide diversified international exposure.",
+        "An international equity fund is the practical pooled option and is correct.",
+        "A Treasury note is U.S. government debt.",
+        "A certificate of deposit is a bank deposit product, not an international stock vehicle."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does a company's return on equity measure?",
+      "options": [
+        "How efficiently it uses shareholders' equity to generate profit",
+        "How quickly it pays suppliers",
+        "How much cash is held in the bank",
+        "How often the stock trades each day"
+      ],
+      "answer": 0,
+      "explain": "Return on equity compares net income with shareholders' equity to show how effectively management is generating profits from owners' capital.",
+      "optionExplanations": [
+        "This is the meaning of ROE and is correct.",
+        "Supplier payment speed is a working capital issue, not ROE.",
+        "Cash balance alone does not define ROE.",
+        "Trading frequency is market activity, not return on equity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor receives $400 of annual interest from a bond bought for $8,000. What is the current yield?",
+      "options": [
+        "2%",
+        "4%",
+        "5%",
+        "8%"
+      ],
+      "answer": 2,
+      "explain": "Current yield equals annual interest divided by current price. $400 divided by $8,000 equals 5%.",
+      "optionExplanations": [
+        "2% would be $160 on $8,000.",
+        "4% would be $320 on $8,000.",
+        "$400 divided by $8,000 equals 5%, so this is correct.",
+        "8% would be $640 on $8,000."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes growth investing?",
+      "options": [
+        "Buying securities mainly for current income",
+        "Focusing on companies expected to grow earnings rapidly",
+        "Buying only bonds below par",
+        "Investing only in government securities"
+      ],
+      "answer": 1,
+      "explain": "Growth investing targets companies with strong expected revenue or earnings growth, often emphasizing appreciation over current income.",
+      "optionExplanations": [
+        "That better describes an income strategy.",
+        "This is the definition of growth investing and is correct.",
+        "Buying bonds below par is a bond-pricing tactic, not growth investing.",
+        "Government securities are generally not the focus of growth investing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why might an investor review a mutual fund's expense ratio before investing?",
+      "options": [
+        "It shows guaranteed future return.",
+        "It indicates the annual operating costs deducted from fund assets.",
+        "It determines the fund's tax bracket.",
+        "It reveals the exact future dividend amount."
+      ],
+      "answer": 1,
+      "explain": "Expense ratio measures the percentage of fund assets used each year for operating expenses, which can reduce net returns over time.",
+      "optionExplanations": [
+        "No expense ratio guarantees return.",
+        "This correctly describes what the expense ratio shows.",
+        "Funds do not have an investor-specific tax bracket set by the ratio.",
+        "Dividend amounts are not fixed by expense ratio alone."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the best description of asset allocation?",
+      "options": [
+        "Choosing the single best stock each year",
+        "Deciding how to divide a portfolio among asset categories",
+        "Trading frequently to follow news headlines",
+        "Holding only cash until markets become certain"
+      ],
+      "answer": 1,
+      "explain": "Asset allocation is the process of distributing a portfolio among asset classes such as stocks, bonds, and cash based on objectives and risk tolerance.",
+      "optionExplanations": [
+        "Asset allocation is broader than picking one stock.",
+        "This is the definition of asset allocation and is correct.",
+        "Frequent trading is not the same as allocation policy.",
+        "Holding only cash is a narrow tactic, not a full allocation framework."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is most directly associated with income investing?",
+      "options": [
+        "Small-cap growth stocks with no dividends",
+        "Dividend-paying stocks and bonds",
+        "At-the-money call options",
+        "Leveraged inverse ETFs"
+      ],
+      "answer": 1,
+      "explain": "Income investing emphasizes securities that generate regular cash flow, such as dividend-paying stocks and bonds.",
+      "optionExplanations": [
+        "Stocks with no dividends do not primarily support an income strategy.",
+        "Dividend-paying stocks and bonds fit an income objective, so this is correct.",
+        "Call options are derivatives, not income vehicles.",
+        "Leveraged inverse ETFs are speculative trading tools."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A firm's earnings per share rises from $2.00 to $2.40. What is the percentage increase in EPS?",
+      "options": [
+        "10%",
+        "20%",
+        "25%",
+        "40%"
+      ],
+      "answer": 1,
+      "explain": "The increase is $0.40. Dividing $0.40 by the original $2.00 gives 0.20, or 20%.",
+      "optionExplanations": [
+        "10% would be a $0.20 increase.",
+        "$0.40 divided by $2.00 equals 20%, so this is correct.",
+        "25% would be a $0.50 increase.",
+        "40% would be a $0.80 increase."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best aligns with the fiduciary standard?",
+      "options": [
+        "Recommending the product with the highest commission regardless of fit",
+        "Putting the client's best interest ahead of the advisor's compensation",
+        "Withholding known risks to close a sale",
+        "Trading excessively to increase fees"
+      ],
+      "answer": 1,
+      "explain": "The fiduciary standard requires advisors to place the client's interests first and manage conflicts of interest appropriately.",
+      "optionExplanations": [
+        "This violates fiduciary duty because it prioritizes advisor compensation.",
+        "This is the fiduciary standard and is correct.",
+        "Known risks should be disclosed, not hidden.",
+        "Excessive trading for fees is unethical churning."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor wants exposure to real estate without directly buying buildings. Which security best fits?",
+      "options": [
+        "REIT",
+        "Treasury bill",
+        "Preferred share of a bank only",
+        "Commercial paper"
+      ],
+      "answer": 0,
+      "explain": "A REIT pools capital to invest in income-producing real estate and allows investors to gain real estate exposure through a security.",
+      "optionExplanations": [
+        "A REIT is specifically designed for real estate investment exposure and is correct.",
+        "A Treasury bill is short-term government debt.",
+        "A bank preferred share is not a general real estate vehicle.",
+        "Commercial paper is unsecured short-term corporate debt."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the likely effect on an existing bond's market price when overall interest rates rise significantly?",
+      "options": [
+        "Its price usually rises.",
+        "Its price usually falls.",
+        "Its coupon automatically increases.",
+        "Its maturity date changes."
+      ],
+      "answer": 1,
+      "explain": "Bond prices and market interest rates usually move in opposite directions because existing fixed coupons become less attractive when new bonds offer higher yields.",
+      "optionExplanations": [
+        "Prices generally do not rise when rates rise sharply.",
+        "This inverse relationship is correct.",
+        "A fixed-rate bond's coupon does not automatically reset.",
+        "Maturity date is set by contract and does not change because rates move."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which stock valuation measure is calculated by dividing the current share price by earnings per share?",
+      "options": [
+        "Return on equity",
+        "Price-to-earnings ratio",
+        "Current ratio",
+        "Dividend payout ratio"
+      ],
+      "answer": 1,
+      "explain": "The price-to-earnings ratio, or P/E ratio, equals market price per share divided by earnings per share.",
+      "optionExplanations": [
+        "ROE compares profit to equity, not price to EPS.",
+        "P/E ratio is defined this way and is correct.",
+        "Current ratio compares current assets and liabilities.",
+        "Dividend payout ratio compares dividends and earnings."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why might a young investor with decades until retirement hold a larger percentage of stocks than bonds?",
+      "options": [
+        "Stocks are guaranteed to outperform bonds every year.",
+        "A longer time horizon can allow more tolerance for short-term volatility in pursuit of growth.",
+        "Young investors are prohibited from buying bonds.",
+        "Stocks have no liquidity risk."
+      ],
+      "answer": 1,
+      "explain": "A long time horizon gives an investor more time to ride out market downturns and benefit from the higher long-run growth potential of equities.",
+      "optionExplanations": [
+        "No asset class outperforms every year.",
+        "This is the common time-horizon rationale and is correct.",
+        "Young investors may buy bonds if they choose.",
+        "Stocks can have liquidity and market risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which document would an investor most likely examine to see how much cash a company generated from operations during a period?",
+      "options": [
+        "Balance sheet",
+        "Statement of cash flows",
+        "Income statement",
+        "Articles of incorporation"
+      ],
+      "answer": 1,
+      "explain": "The statement of cash flows shows cash generated and used in operating, investing, and financing activities during a period.",
+      "optionExplanations": [
+        "The balance sheet is a point-in-time statement, not the main cash-flow report.",
+        "The statement of cash flows is correct.",
+        "The income statement includes accrual earnings, not just cash generation.",
+        "Articles of incorporation are formation documents."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the key purpose of rebalancing a portfolio periodically?",
+      "options": [
+        "To guarantee outperformance",
+        "To restore the portfolio to its intended risk and allocation mix",
+        "To eliminate taxes entirely",
+        "To avoid ever selling appreciated assets"
+      ],
+      "answer": 1,
+      "explain": "Rebalancing adjusts holdings back toward target weights after market movements change the portfolio's mix and risk profile.",
+      "optionExplanations": [
+        "Rebalancing cannot guarantee better performance.",
+        "This is the core purpose of rebalancing and is correct.",
+        "Taxes may still apply when rebalancing triggers sales.",
+        "Rebalancing sometimes requires selling appreciated assets."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an investor owns a diversified stock fund and also buys a Treasury bond fund, the investor is mainly changing the portfolio's:",
+      "options": [
+        "Ticker symbols only",
+        "Asset-class mix",
+        "Brokerage password",
+        "Settlement date rules"
+      ],
+      "answer": 1,
+      "explain": "Adding a bond fund to a stock fund changes the allocation between major asset classes, which affects risk and return characteristics.",
+      "optionExplanations": [
+        "The important change is not just the tickers.",
+        "This changes the asset-class mix and is correct.",
+        "Passwords are unrelated to portfolio structure.",
+        "Settlement rules are not the main issue here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scenario best illustrates a conflict of interest in securities recommendations?",
+      "options": [
+        "An advisor discloses all fees clearly.",
+        "A broker recommends a product mainly because it pays a higher commission.",
+        "An investor compares two index funds.",
+        "A company issues audited financial statements."
+      ],
+      "answer": 1,
+      "explain": "A conflict of interest exists when the advisor's financial incentive could improperly influence the recommendation away from the client's best interest.",
+      "optionExplanations": [
+        "Clear fee disclosure alone does not create the conflict described.",
+        "This is a classic conflict of interest and is correct.",
+        "Comparing funds is routine analysis, not a conflict.",
+        "Audited statements are part of disclosure, not advisor conflict."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company's annual dividend is $1.20 per share and the stock trades at $24, what is the dividend yield?",
+      "options": [
+        "3%",
+        "4%",
+        "5%",
+        "6%"
+      ],
+      "answer": 2,
+      "explain": "Dividend yield equals annual dividend divided by price. $1.20 divided by $24 equals 0.05, or 5%.",
+      "optionExplanations": [
+        "3% would be $0.72 on a $24 stock.",
+        "4% would be $0.96 on a $24 stock.",
+        "$1.20 divided by $24 equals 5%, so this is correct.",
+        "6% would be $1.44 on a $24 stock."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following investments is generally the most liquid during normal market hours?",
+      "options": [
+        "A publicly traded large-cap stock",
+        "A privately held startup stake",
+        "A limited partnership interest in real estate",
+        "A five-year private note"
+      ],
+      "answer": 0,
+      "explain": "Publicly traded large-cap stocks usually have active markets and narrow bid-ask spreads, making them easier to buy or sell quickly.",
+      "optionExplanations": [
+        "This is generally the most liquid of the choices and is correct.",
+        "Private startup stakes are often highly illiquid.",
+        "Limited partnership interests can be difficult to sell quickly.",
+        "Private notes usually lack the liquidity of public exchange-traded securities."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor evaluating bond safety would most directly compare:",
+      "options": [
+        "Coupon color and bond certificate design",
+        "Issuer credit quality and debt-service ability",
+        "Number of company social media followers",
+        "Stock split history"
+      ],
+      "answer": 1,
+      "explain": "Bond safety depends heavily on the issuer's capacity and willingness to make promised payments, which is captured by credit quality and debt-service analysis.",
+      "optionExplanations": [
+        "Appearance has no bearing on bond safety.",
+        "Issuer credit quality and payment ability are the relevant factors and are correct.",
+        "Social media popularity does not measure repayment risk.",
+        "Stock split history relates to equity, not bond safety."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of risk is most closely tied to changes in market interest rates affecting bond prices?",
+      "options": [
+        "Credit risk",
+        "Interest-rate risk",
+        "Business risk",
+        "Operational risk"
+      ],
+      "answer": 1,
+      "explain": "Interest-rate risk is the risk that bond prices will change when prevailing market rates change.",
+      "optionExplanations": [
+        "Credit risk concerns default possibility.",
+        "Interest-rate risk is correct.",
+        "Business risk refers to company operations and profitability.",
+        "Operational risk involves failures in processes or systems."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is one reason investors hold cash or cash equivalents in a portfolio?",
+      "options": [
+        "To maximize long-term returns above all other assets",
+        "To provide liquidity for near-term needs or opportunities",
+        "To eliminate inflation risk completely",
+        "To make the portfolio immune to taxes"
+      ],
+      "answer": 1,
+      "explain": "Cash holdings can meet immediate expenses, reduce volatility, and provide flexibility for rebalancing or new investments.",
+      "optionExplanations": [
+        "Cash usually does not maximize long-term return.",
+        "Liquidity and flexibility are the main reasons and this is correct.",
+        "Cash does not eliminate inflation risk.",
+        "Taxes can still apply to interest income or other events."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which investment vehicle is a pooled portfolio that issues and redeems shares at net asset value at the end of the trading day?",
+      "options": [
+        "Exchange-traded fund",
+        "Mutual fund",
+        "Stock option",
+        "Corporate bond"
+      ],
+      "answer": 1,
+      "explain": "Traditional mutual funds transact with investors at end-of-day net asset value rather than trading continuously on an exchange.",
+      "optionExplanations": [
+        "ETFs trade intraday on exchanges.",
+        "A mutual fund fits this description and is correct.",
+        "A stock option is a derivative contract.",
+        "A corporate bond is an individual debt security."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a company retains earnings instead of paying them out as dividends, it is generally seeking to:",
+      "options": [
+        "Reduce all shareholder value",
+        "Reinvest in the business for future growth or other corporate purposes",
+        "Eliminate all taxes immediately",
+        "Convert equity into debt automatically"
+      ],
+      "answer": 1,
+      "explain": "Retained earnings are often used to fund operations, expansion, debt reduction, or other initiatives that management believes will support the business.",
+      "optionExplanations": [
+        "Retaining earnings is not inherently destructive to value.",
+        "Reinvestment or other corporate uses are the main reason and this is correct.",
+        "Retaining earnings does not eliminate taxes immediately.",
+        "It does not automatically convert equity into debt."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which investor is most likely to favor Treasury bills?",
+      "options": [
+        "An investor seeking very short-term capital preservation",
+        "An investor seeking maximum long-term growth",
+        "An investor seeking leveraged commodity exposure",
+        "An investor seeking voting rights in corporations"
+      ],
+      "answer": 0,
+      "explain": "Treasury bills are short-term U.S. government obligations commonly used for liquidity and capital preservation.",
+      "optionExplanations": [
+        "This is the profile most aligned with Treasury bills and is correct.",
+        "Treasury bills are not designed for maximum long-term growth.",
+        "They do not provide leveraged commodity exposure.",
+        "Debt instruments do not give corporate voting rights."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does a bond's coupon payment represent?",
+      "options": [
+        "The annual interest promised by the issuer based on the bond terms",
+        "The price change of the bond over a year",
+        "The underwriting fee paid by investors",
+        "The credit rating assigned to the bond"
+      ],
+      "answer": 0,
+      "explain": "The coupon is the periodic interest payment the issuer promises, usually stated as a percentage of face value.",
+      "optionExplanations": [
+        "This defines coupon payment and is correct.",
+        "Price change is separate from coupon income.",
+        "Underwriting fees are not the bond's coupon.",
+        "Credit rating is a risk assessment, not the payment amount."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would most likely improve diversification in a portfolio concentrated in domestic large-cap stocks?",
+      "options": [
+        "Adding an international bond or equity fund",
+        "Buying more shares of the same domestic large-cap fund",
+        "Selling all bonds and buying one tech stock",
+        "Replacing cash with a single small-cap stock"
+      ],
+      "answer": 0,
+      "explain": "Adding a different asset class or geographic exposure can reduce concentration in one segment of the market.",
+      "optionExplanations": [
+        "This broadens exposure beyond domestic large-cap stocks and is correct.",
+        "Buying more of the same exposure does not improve diversification.",
+        "One tech stock increases concentration.",
+        "A single small-cap stock is still concentrated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor comparing two bonds with identical maturities and issuers would most directly use yield to compare:",
+      "options": [
+        "Their expected interest return relative to price",
+        "Their legal voting rights",
+        "Their ticker symbol length",
+        "Their number of outstanding shares"
+      ],
+      "answer": 0,
+      "explain": "Yield expresses the return relationship between a bond's income and price, making it useful for comparing bonds on a return basis.",
+      "optionExplanations": [
+        "Yield is used for return comparison and is correct.",
+        "Bonds do not carry corporate voting rights.",
+        "Ticker length is irrelevant.",
+        "Outstanding shares apply to stock, not bonds."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the clearest example of material nonpublic information?",
+      "options": [
+        "A company's earnings results before they are officially released",
+        "A newspaper article summarizing public filings",
+        "A stock's price chart from last week",
+        "An analyst's opinion based only on public data"
+      ],
+      "answer": 0,
+      "explain": "Material nonpublic information is important information not yet available to the public that could affect a security's price, such as unreleased earnings.",
+      "optionExplanations": [
+        "Unreleased earnings results fit the definition and are correct.",
+        "A public article is not nonpublic information.",
+        "Past price charts are public market data.",
+        "Public-data-based opinions are not nonpublic information."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why might a retiree shift part of a portfolio from stocks into bonds?",
+      "options": [
+        "To increase exposure to startup risk",
+        "To seek more stable income and lower volatility",
+        "To gain voting control of corporations",
+        "To eliminate credit risk entirely"
+      ],
+      "answer": 1,
+      "explain": "Retirees often emphasize income stability and reduced portfolio swings because they may be drawing on assets sooner.",
+      "optionExplanations": [
+        "That would usually increase rather than reduce risk.",
+        "This is the main rationale and is correct.",
+        "Bonds do not provide corporate voting control.",
+        "Bonds can still have credit risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which performance measure most directly reflects both income received and price change on an investment over a period?",
+      "options": [
+        "Coupon rate only",
+        "Dividend payout ratio only",
+        "Total return",
+        "Par value"
+      ],
+      "answer": 2,
+      "explain": "Total return combines income, such as interest or dividends, with capital gains or losses over the measurement period.",
+      "optionExplanations": [
+        "Coupon rate captures only one part of bond return.",
+        "Dividend payout ratio is a corporate policy measure, not investor performance.",
+        "Total return includes both income and price change, so this is correct.",
+        "Par value is face amount, not period performance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of the SEC's disclosure framework for public companies?",
+      "options": [
+        "To guarantee all stocks rise over time",
+        "To ensure investors have access to material information for decision-making",
+        "To set stock prices directly",
+        "To replace all private analysis"
+      ],
+      "answer": 1,
+      "explain": "Disclosure rules aim to make material company information available so investors can evaluate risks and opportunities more fairly.",
+      "optionExplanations": [
+        "Regulators do not guarantee stock appreciation.",
+        "Providing material information is the central purpose and is correct.",
+        "The SEC does not set market prices directly.",
+        "Disclosure supports but does not replace investor analysis."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A bond with a face value of $1,000 and a 6% annual coupon pays how much interest each year?",
+      "options": [
+        "$40",
+        "$60",
+        "$80",
+        "$100"
+      ],
+      "answer": 1,
+      "explain": "Annual coupon payment equals coupon rate times face value. 6% of $1,000 is $60.",
+      "optionExplanations": [
+        "$40 would be a 4% coupon on $1,000.",
+        "6% of $1,000 equals $60, so this is correct.",
+        "$80 would be an 8% coupon on $1,000.",
+        "$100 would be a 10% coupon on $1,000."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following most strongly suggests a stock may appeal to a value investor?",
+      "options": [
+        "A price far above reasonable estimates of intrinsic value",
+        "Little or no financial information",
+        "A market price below estimated intrinsic value",
+        "Rapid price gains with no earnings support"
+      ],
+      "answer": 2,
+      "explain": "Value investors seek securities trading for less than what they believe the business is fundamentally worth.",
+      "optionExplanations": [
+        "Value investors do not generally seek obvious overpricing.",
+        "Lack of information increases uncertainty rather than value appeal.",
+        "Trading below estimated intrinsic value is the core value idea and is correct.",
+        "Price surges without earnings support may suggest speculation, not value."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does liquidity mean in the context of investing?",
+      "options": [
+        "How profitable an investment is",
+        "How quickly an asset can be converted to cash with minimal price impact",
+        "How often a company pays dividends",
+        "How many years an investor holds a security"
+      ],
+      "answer": 1,
+      "explain": "Liquidity refers to ease of conversion into cash at or near fair market value without significant delay or discount.",
+      "optionExplanations": [
+        "Profitability and liquidity are different concepts.",
+        "This is the definition of liquidity and is correct.",
+        "Dividend schedule is unrelated to liquidity.",
+        "Holding period does not define liquidity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best demonstrates prudent portfolio review rather than emotional market timing?",
+      "options": [
+        "Selling all investments after one bad day",
+        "Checking whether allocations still match long-term goals",
+        "Buying whichever stock trended on social media",
+        "Ignoring statements for several years"
+      ],
+      "answer": 1,
+      "explain": "Prudent review means comparing the portfolio to objectives, risk tolerance, and target allocation instead of reacting impulsively to short-term noise.",
+      "optionExplanations": [
+        "Selling everything after one bad day is emotional, not prudent.",
+        "This is a disciplined portfolio review action and is correct.",
+        "Chasing social media trends is speculative.",
+        "Ignoring the portfolio for years is not good oversight."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Why is a diversified mutual fund generally less risky than owning one small stock position?",
+      "options": [
+        "Because mutual funds cannot decline in value",
+        "Because losses are spread across many holdings instead of one company",
+        "Because mutual funds are insured by the SEC",
+        "Because small stocks are illegal for funds to own"
+      ],
+      "answer": 1,
+      "explain": "A diversified fund holds many securities, so poor performance by one issuer has less effect on the entire investment.",
+      "optionExplanations": [
+        "Mutual funds can lose value.",
+        "Spreading risk across many holdings is the reason and is correct.",
+        "The SEC regulates disclosure but does not insure funds against losses.",
+        "Funds may legally own small stocks depending on mandate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes a Treasury Inflation-Protected Security?",
+      "options": [
+        "A stock index fund designed for recessions",
+        "A U.S. government bond with principal adjusted for inflation",
+        "A corporate bond with a floating dividend",
+        "A municipal bond with guaranteed high yield"
+      ],
+      "answer": 1,
+      "explain": "TIPS are Treasury securities whose principal is adjusted based on inflation, helping preserve purchasing power.",
+      "optionExplanations": [
+        "TIPS are not stock funds.",
+        "This is the definition of TIPS and is correct.",
+        "Corporate bonds do not define TIPS.",
+        "TIPS are federal securities, not municipal bonds."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An investor who wants professional security selection and ongoing management rather than picking individual stocks may prefer:",
+      "options": [
+        "A managed mutual fund",
+        "A single Treasury bill",
+        "A direct private loan to a friend",
+        "A stock certificate collection"
+      ],
+      "answer": 0,
+      "explain": "Managed mutual funds provide professional portfolio management and security selection within a pooled investment structure.",
+      "optionExplanations": [
+        "This vehicle offers professional management and is correct.",
+        "A single Treasury bill is one security, not managed selection.",
+        "A private loan is not a diversified professionally managed portfolio.",
+        "Collecting certificates is not the same as managed investing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ratio would an analyst most likely use to evaluate how much debt a company uses relative to owners' capital?",
+      "options": [
+        "Current ratio",
+        "Debt-to-equity ratio",
+        "Price-to-book ratio",
+        "Inventory turnover"
+      ],
+      "answer": 1,
+      "explain": "Debt-to-equity directly compares total debt with shareholders' equity, indicating the degree of leverage.",
+      "optionExplanations": [
+        "Current ratio measures liquidity.",
+        "Debt-to-equity is the leverage ratio and is correct.",
+        "Price-to-book compares market value with accounting equity.",
+        "Inventory turnover measures operating efficiency."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an investor buys a stock for $25, receives a $1 dividend, and later sells the stock for $27, what is the total return in dollars per share?",
+      "options": [
+        "$1",
+        "$2",
+        "$3",
+        "$4"
+      ],
+      "answer": 2,
+      "explain": "Total return in dollars equals capital gain plus income. The capital gain is $2 and the dividend is $1, for a total of $3 per share.",
+      "optionExplanations": [
+        "$1 counts only the dividend.",
+        "$2 counts only the price gain.",
+        "$2 plus $1 equals $3, so this is correct.",
+        "$4 overstates the combined gain."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best explains why investors pay attention to a company's free cash flow?",
+      "options": [
+        "It measures only the number of shares traded each day.",
+        "It can indicate how much cash remains after operating and capital spending needs.",
+        "It automatically determines the stock's dividend yield.",
+        "It is the same thing as market capitalization."
+      ],
+      "answer": 1,
+      "explain": "Free cash flow can show how much cash a business generates after funding operations and necessary capital expenditures, which may support debt repayment, reinvestment, or distributions.",
+      "optionExplanations": [
+        "Trading volume is unrelated to free cash flow.",
+        "This is why free cash flow matters and is correct.",
+        "Dividend yield depends on dividends and price, not free cash flow alone.",
+        "Market capitalization measures equity value, not cash generation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary investment appeal of a money market mutual fund?",
+      "options": [
+        "High long-term capital appreciation",
+        "Short-term liquidity and relative stability",
+        "Voting control over corporations",
+        "Direct exposure to real estate rents"
+      ],
+      "answer": 1,
+      "explain": "Money market mutual funds are generally used for cash management because they invest in short-term, high-quality instruments that emphasize liquidity and stability.",
+      "optionExplanations": [
+        "Money market funds are not chosen mainly for high long-term growth.",
+        "Liquidity and relative stability are the main appeal and this is correct.",
+        "They do not provide corporate control.",
+        "They do not directly own real estate for rent exposure."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an investment adviser recommends different portfolios for a 17-year-old saving for college in one year and for retirement in 45 years, the main principle being applied is:",
+      "options": [
+        "Uniform pricing",
+        "Suitability based on goals and time horizon",
+        "Insider trading prevention",
+        "Tax evasion"
+      ],
+      "answer": 1,
+      "explain": "Investment recommendations should fit the client's objectives, time horizon, and risk capacity. Short-term and long-term goals often require different portfolio structures.",
+      "optionExplanations": [
+        "Uniform pricing is not the principle involved.",
+        "Suitability based on goals and time horizon is correct.",
+        "This has nothing to do with insider trading.",
+        "Tax evasion is illegal and unrelated."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}

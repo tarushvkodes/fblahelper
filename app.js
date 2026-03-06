@@ -18,9 +18,7 @@ const EVENTS = [
 ];
 
 const RESOURCE_DATA = window.RESOURCE_INTERACTIVE_DATA || { objectiveQuizzes: {}, roleplayScenarios: [], productionTests: {} };
-const COMBINED = window.COMBINED_QUESTION_BANK || { banks: {}, stats: {} };
-const BESPOKE = window.BESPOKE_QUESTION_BANK || { banks: {}, meta: {} };
-const AI_GENERATED = window.AI_GENERATED_BANK || { banks: {}, meta: {} };
+const AI_DATA = window.AI_QUESTION_BANK || { banks: {} };
 
 const MEMORY_TACTICS = [
   "Split misses by concept, not by test date.",
@@ -44,7 +42,7 @@ const state = {
     deck: [],
     index: 0,
     answers: {},
-    bankMode: "official-generated",
+    bankMode: "hq",
     running: false,
     timerId: null,
     secondsLeft: 0,
@@ -103,10 +101,10 @@ function getOfficialDeck(eventName) {
   return key ? RESOURCE_DATA.objectiveQuizzes[key] : [];
 }
 
-function getCombinedDeck(eventName) {
-  const keys = Object.keys(COMBINED.banks || {});
+function getAIDeck(eventName) {
+  const keys = Object.keys(AI_DATA.banks || {});
   const key = findBestKey(keys, eventName);
-  return key ? COMBINED.banks[key] : [];
+  return key ? AI_DATA.banks[key] : [];
 }
 
 function dedupeDeck(deck) {
@@ -117,24 +115,6 @@ function dedupeDeck(deck) {
     seen.add(key);
     return Array.isArray(q.options) && q.options.length === 4;
   });
-}
-
-function getUnifiedDeck(eventName) {
-  const official = getOfficialDeck(eventName).map((q) => ({ ...q, source: "official-hq" }));
-  const historical = getCombinedDeck(eventName).map((q) => ({ ...q, source: q.source || "historical" }));
-  return dedupeDeck([...official, ...historical]);
-}
-
-function getAiGeneratedDeck(eventName) {
-  const keys = Object.keys(AI_GENERATED.banks || {});
-  const key = findBestKey(keys, eventName);
-  return key ? AI_GENERATED.banks[key] : [];
-}
-
-function getBespokeDeck(eventName) {
-  const keys = Object.keys(BESPOKE.banks || {});
-  const key = findBestKey(keys, eventName);
-  return key ? BESPOKE.banks[key] : [];
 }
 
 function enrichQuestionLocally(q, source = q?.source || "official-hq") {
@@ -162,64 +142,15 @@ function enrichQuestionLocally(q, source = q?.source || "official-hq") {
 }
 
 function getQuizBankMode() {
-  return document.getElementById("quizBankMode")?.value || "official-generated";
-}
-
-function rotateOptions(question, shift) {
-  const options = question.options.slice();
-  const by = ((shift % options.length) + options.length) % options.length;
-  if (!by) return { options, answer: question.answer };
-  const rotated = options.map((_, i) => options[(i + by) % options.length]);
-  const newAnswer = (question.answer - by + options.length) % options.length;
-  return { options: rotated, answer: newAnswer };
-}
-
-function makeGeneratedVariant(question, eventName, variantIndex) {
-  const templates = [
-    `Applied check for ${eventName}: ${question.q}`,
-    `Best answer check: ${question.q}`,
-    `Competition-style prompt: ${question.q}`,
-    `Skill review for ${eventName}: ${question.q}`
-  ];
-
-  const rotated = rotateOptions(question, variantIndex + 1);
-  return {
-    ...question,
-    q: templates[variantIndex % templates.length],
-    options: rotated.options,
-    answer: rotated.answer,
-    source: "generated"
-  };
-}
-
-function expandDeckToTarget(eventName, deck, targetCount) {
-  if (deck.length >= targetCount) return deck.slice(0, targetCount);
-
-  const base = deck.filter((q) => Number.isInteger(q.answer) && Array.isArray(q.options) && q.options.length === 4);
-  if (!base.length) return deck;
-
-  const out = deck.slice();
-  let index = 0;
-  while (out.length < targetCount) {
-    const seed = base[index % base.length];
-    out.push(makeGeneratedVariant(seed, eventName, index));
-    index += 1;
-  }
-
-  return out;
+  return document.getElementById("quizBankMode")?.value || "hq";
 }
 
 function getDeckForMode(eventName, mode) {
-  const officialOnly = dedupeDeck(getOfficialDeck(eventName).map((q) => enrichQuestionLocally({ ...q, source: "official-hq" }, "official-hq")));
-  const fallback = getUnifiedDeck(eventName);
-  const officialBase = officialOnly.length ? officialOnly : fallback;
-  const bespokeDeck = dedupeDeck(getBespokeDeck(eventName).map((q) => enrichQuestionLocally(q, q.source || "generated-bespoke")));
-  const aiDeck = dedupeDeck(getAiGeneratedDeck(eventName).map((q) => ({ ...q, source: q.source || "generated-ai" })));
+  const hqDeck = dedupeDeck(getOfficialDeck(eventName).map((q) => enrichQuestionLocally({ ...q, source: "official-hq" }, "official-hq")));
+  if (mode !== "hq-ai") return hqDeck;
 
-  if (mode === "official") return officialBase;
-  if (bespokeDeck.length) return bespokeDeck;
-  if (aiDeck.length) return aiDeck;
-  return expandDeckToTarget(eventName, officialBase, 100);
+  const aiDeck = dedupeDeck(getAIDeck(eventName).map((q) => enrichQuestionLocally({ ...q, source: "generated-bespoke" }, "generated-bespoke")));
+  return dedupeDeck([...hqDeck, ...aiDeck]);
 }
 
 function setControlVisibility(el, show) {
@@ -231,7 +162,15 @@ function updateQuizAvailability() {
 
   const mode = getQuizBankMode();
   state.quiz.bankMode = mode;
+  const hqAvailable = getDeckForMode(state.currentEvent, "hq").length;
+  const hqAiAvailable = getDeckForMode(state.currentEvent, "hq-ai").length;
   const available = getDeckForMode(state.currentEvent, mode).length;
+
+  const modeSelect = document.getElementById("quizBankMode");
+  const hqOption = modeSelect.querySelector('option[value="hq"]');
+  const hqAiOption = modeSelect.querySelector('option[value="hq-ai"]');
+  if (hqOption) hqOption.textContent = `HQ Only (${hqAvailable})`;
+  if (hqAiOption) hqAiOption.textContent = `HQ + AI (Cleaned) (${hqAiAvailable})`;
 
   const btn20 = document.getElementById("launchTwentyBtn");
   const btn50 = document.getElementById("launchFiftyBtn");
@@ -267,7 +206,9 @@ function updateQuizAvailability() {
   if (available >= officialLength) btn100.classList.add("official-target");
   else btnMax.classList.add("official-target");
 
-  document.getElementById("officialFormatNote").textContent = "Objective-test standard used here: 100 questions in 60 minutes.";
+  document.getElementById("officialFormatNote").textContent = mode === "hq"
+    ? `HQ-only bank active (${hqAvailable} available).`
+    : `HQ + cleaned AI bank active (${hqAiAvailable} available).`;
 }
 
 function getRoleplayDeck(eventName) {
@@ -305,7 +246,8 @@ function getProductionTasks(eventName) {
 }
 
 function setStats() {
-  const questions = EVENTS.reduce((sum, eventName) => sum + getUnifiedDeck(eventName).length, 0);
+  const mode = getQuizBankMode();
+  const questions = EVENTS.reduce((sum, eventName) => sum + getDeckForMode(eventName, mode).length, 0);
   document.getElementById("statEvents").textContent = EVENTS.length;
   document.getElementById("statQuestions").textContent = questions;
   document.getElementById("statRoleplays").textContent = (RESOURCE_DATA.roleplayScenarios || []).length;
@@ -313,6 +255,7 @@ function setStats() {
 
 function renderEventList() {
   const q = eventSearchEl.value.trim().toLowerCase();
+  const mode = getQuizBankMode();
   const filtered = EVENTS.filter((event) => !q || event.toLowerCase().includes(q));
   const groups = [
     { key: "objective", label: "Objective Focus" },
@@ -326,7 +269,7 @@ function renderEventList() {
     if (!events.length) return "";
 
     const cards = events.map((event) => {
-      const total = getUnifiedDeck(event).length;
+      const total = getDeckForMode(event, mode).length;
       const roleplays = getRoleplayDeck(event).length;
       const active = state.currentEvent === event ? "active" : "";
       return `
@@ -363,7 +306,7 @@ function openEvent(eventName, tabName = "overview") {
   document.getElementById("eventFormatLabel").textContent = `${format} event workspace`;
   document.getElementById("activeEventTitle").textContent = eventName;
 
-  const combinedCount = getUnifiedDeck(eventName).length;
+  const combinedCount = getDeckForMode(eventName, getQuizBankMode()).length;
   const roleplayCount = getRoleplayDeck(eventName).length;
 
   document.getElementById("activeEventMeta").textContent = `${combinedCount} practice questions and ${roleplayCount} roleplay variants.`;
@@ -647,7 +590,7 @@ function renderRoleplay(eventName) {
 }
 
 function buildFlashcards(eventName) {
-  const base = getUnifiedDeck(eventName).slice(0, 18);
+  const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, 18);
   const generated = base.map((q) => {
     const back = Number.isInteger(q.answer)
       ? `${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}`
@@ -706,7 +649,12 @@ function bindUi() {
   document.getElementById("openRoleplayBtn").onclick = () => setWorkspaceTab("roleplay");
 
   document.getElementById("startExamBtn").onclick = startExam;
-  document.getElementById("quizBankMode").onchange = () => updateQuizAvailability();
+  document.getElementById("quizBankMode").onchange = () => {
+    const currentTab = document.querySelector(".ws-tab.active")?.dataset.wsTab || "overview";
+    updateQuizAvailability();
+    setStats();
+    if (state.currentEvent) openEvent(state.currentEvent, currentTab);
+  };
   document.getElementById("quizCount").onchange = () => updateQuizAvailability();
   document.getElementById("prevQuestionBtn").onclick = () => changeQuestion(-1);
   document.getElementById("nextQuestionBtn").onclick = () => changeQuestion(1);

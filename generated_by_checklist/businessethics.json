@@ -1,0 +1,1805 @@
+{
+  "event": "Business Ethics",
+  "questions": [
+    {
+      "q": "Active listening primarily involves:",
+      "options": [
+        "Thinking of your response while the other person talks",
+        "Interrupting to clarify immediately",
+        "Paying full attention, showing understanding, and providing feedback",
+        "Avoiding eye contact to focus on words only"
+      ],
+      "answer": 2,
+      "explain": "Active listening is a communication skill where the listener focuses on the speaker, signals understanding, and responds with feedback (e.g., paraphrasing or clarifying questions).",
+      "optionExplanations": [
+        "Thinking ahead shifts attention away from the speaker and reduces comprehension.",
+        "Interrupting breaks the speaker's flow and is not the primary feature of active listening.",
+        "Active listening centers on full attention, demonstrating understanding, and giving feedback.",
+        "Avoiding eye contact can reduce engagement; active listening uses appropriate nonverbal cues rather than avoiding them."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Fostering open, honest communication means:",
+      "options": [
+        "Filtering information to protect feelings",
+        "Encouraging transparency and trust in exchanges",
+        "Only sharing positive feedback",
+        "Avoiding controversial topics entirely"
+      ],
+      "answer": 1,
+      "explain": "Open, honest communication is built on transparency and trust so people can share accurate information and concerns.",
+      "optionExplanations": [
+        "Filtering information can hide important facts and undermines transparency.",
+        "Transparency and trust are the core of open, honest exchanges.",
+        "Honesty includes constructive criticism, not only positive comments.",
+        "Avoiding topics prevents issues from being addressed and is not honest communication."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a sign of effective workplace communication?",
+      "options": [
+        "Frequent misunderstandings",
+        "Clear, concise messages with active feedback",
+        "Use of excessive jargon",
+        "Avoiding written communication"
+      ],
+      "answer": 1,
+      "explain": "Effective workplace communication minimizes confusion by using clear, concise messages and confirming understanding through feedback.",
+      "optionExplanations": [
+        "Misunderstandings indicate messages are not being understood.",
+        "Clear, concise messaging plus feedback loops (questions, summaries) supports accuracy.",
+        "Excessive jargon can confuse audiences who do not share the same terms.",
+        "Avoiding written communication can reduce clarity and accountability when documentation is needed."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which action best supports honesty in communication?",
+      "options": [
+        "Exaggerating achievements to motivate others",
+        "Providing accurate information even when unfavorable",
+        "Avoiding difficult conversations",
+        "Using vague language to prevent criticism"
+      ],
+      "answer": 1,
+      "explain": "Honesty in communication means sharing accurate, complete information even when it is inconvenient or reflects poorly.",
+      "optionExplanations": [
+        "Exaggeration is misinformation, even if intended to motivate.",
+        "Accuracy is the foundation of honest communication, even when the truth is unfavorable.",
+        "Avoidance prevents truthful discussion and problem-solving.",
+        "Vagueness can conceal facts and mislead others."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In ethical communication, feedback should be:",
+      "options": [
+        "Timely, respectful, and constructive",
+        "Delayed until annual reviews",
+        "Focused only on problems",
+        "Given publicly for maximum impact"
+      ],
+      "answer": 0,
+      "explain": "Ethical feedback aims to improve performance while respecting people, so it should be timely, respectful, and constructive.",
+      "optionExplanations": [
+        "Timely, respectful, constructive feedback supports improvement without humiliation.",
+        "Waiting until annual reviews delays correction and learning.",
+        "Only focusing on problems ignores strengths and solutions.",
+        "Public feedback can embarrass people and discourage openness."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Emotional intelligence includes:",
+      "options": [
+        "Suppressing all emotional responses",
+        "Recognizing, understanding, and managing emotions in oneself and others",
+        "Ignoring emotional cues from colleagues",
+        "Making decisions based only on facts"
+      ],
+      "answer": 1,
+      "explain": "Emotional intelligence (EQ) includes recognizing emotions, understanding what they mean, and managing responses in yourself and interacting with others.",
+      "optionExplanations": [
+        "Suppressing emotions is not EQ; it often reduces self-awareness and healthy regulation.",
+        "EQ involves recognizing, understanding, and managing emotions in oneself and others.",
+        "Ignoring emotional cues reduces empathy and relationship management.",
+        "Good decisions use facts and awareness of emotions; excluding emotions entirely is unrealistic."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Overcoming personal biases starts with:",
+      "options": [
+        "Avoiding people different from you",
+        "Recognizing stereotypes and challenging assumptions",
+        "Accepting stereotypes as facts",
+        "Ignoring diverse viewpoints"
+      ],
+      "answer": 1,
+      "explain": "Reducing bias begins with self-awareness: noticing stereotypes you may hold and actively challenging them with evidence and openness.",
+      "optionExplanations": [
+        "Avoidance increases ignorance and can reinforce bias.",
+        "Recognizing stereotypes and challenging assumptions is the first step to reducing bias.",
+        "Treating stereotypes as facts is the opposite of overcoming bias.",
+        "Ignoring diverse viewpoints prevents learning and correction of bias."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Assessing personal strengths and weaknesses helps:",
+      "options": [
+        "Avoid feedback from others",
+        "Plan professional development effectively",
+        "Prevent new opportunities",
+        "Focus only on current skills"
+      ],
+      "answer": 1,
+      "explain": "Assessing strengths and weaknesses identifies skill gaps and talents so you can choose training, goals, and roles that fit your development needs.",
+      "optionExplanations": [
+        "Avoiding feedback reduces the accuracy of self-assessment and limits growth.",
+        "Knowing strengths and weaknesses helps you target professional development and improve performance.",
+        "Self-assessment supports pursuing opportunities; it does not prevent them.",
+        "Focusing only on current skills ignores areas to improve and does not use self-assessment effectively."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of assessing personal values?",
+      "options": [
+        "Identifying the salary you want in your next job",
+        "Determining which principles guide your decisions",
+        "Listing hobbies for a r\u00e9sum\u00e9",
+        "Tracking how much overtime you\u2019ve worked"
+      ],
+      "answer": 1,
+      "explain": "Assessing personal values means clarifying the principles that guide your choices (e.g., honesty, fairness, respect) so you can act consistently.",
+      "optionExplanations": [
+        "Salary preference is a career goal or constraint, not a statement of guiding principles.",
+        "Identifying guiding principles is the core activity of values assessment.",
+        "Hobbies describe interests; they are not necessarily moral or decision principles.",
+        "Overtime tracking measures workload, not what principles guide decisions."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Ethical decision-making requires awareness of:",
+      "options": [
+        "Consequences and stakeholders affected",
+        "Only profit outcomes",
+        "Avoiding accountability",
+        "Doing what is easiest"
+      ],
+      "answer": 0,
+      "explain": "Ethical decision-making requires recognizing how a choice affects different stakeholders and understanding the likely consequences of each option.",
+      "optionExplanations": [
+        "Considering consequences and who is affected is central to ethical decision-making.",
+        "Only focusing on profit ignores stakeholder harm and ethical duties.",
+        "Avoiding accountability is unethical and undermines trust.",
+        "Doing what is easiest ignores impacts and ethical reasoning."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Integrity in business means:",
+      "options": [
+        "Doing the right thing consistently",
+        "Changing standards when convenient",
+        "Hiding mistakes",
+        "Being popular at work"
+      ],
+      "answer": 0,
+      "explain": "Integrity means doing the right thing consistently, including honesty and adherence to ethical principles even when no one is watching.",
+      "optionExplanations": [
+        "Consistency with ethical principles (honesty, fairness) is integrity.",
+        "Changing standards based on convenience is the opposite of integrity.",
+        "Hiding mistakes is dishonest and harms accountability.",
+        "Integrity is not defined by popularity; it is defined by ethical consistency."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Responsible behavior at work includes:",
+      "options": [
+        "Ignoring company policies",
+        "Following procedures and fulfilling duties",
+        "Taking credit for others\u2019 work",
+        "Spreading rumors"
+      ],
+      "answer": 1,
+      "explain": "Responsible workplace behavior includes following policies and procedures and performing duties reliably to protect people, assets, and the organization.",
+      "optionExplanations": [
+        "Ignoring policies can create legal and safety risks.",
+        "Following procedures supports safety, quality, compliance, and fairness.",
+        "Taking credit for others' work is unethical.",
+        "Spreading rumors harms culture and trust."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Demonstrating fairness means:",
+      "options": [
+        "Favoring certain team members",
+        "Applying rules consistently and without bias",
+        "Ignoring input from others",
+        "Only supporting outcomes you like"
+      ],
+      "answer": 1,
+      "explain": "Fairness means applying standards consistently and without favoritism, so decisions are based on objective criteria.",
+      "optionExplanations": [
+        "Favoritism is unfair because it applies different standards.",
+        "Applying rules consistently to everyone is a key sign of fairness.",
+        "Ignoring input can be unfair if it excludes relevant perspectives.",
+        "Fairness is not about outcomes you like; it is about consistent, unbiased process."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Taking responsibility for decisions involves:",
+      "options": [
+        "Blaming others for outcomes",
+        "Owning outcomes and learning from mistakes",
+        "Hiding information",
+        "Avoiding consequences"
+      ],
+      "answer": 1,
+      "explain": "Taking responsibility means owning outcomes, admitting errors, and taking corrective action rather than blaming others.",
+      "optionExplanations": [
+        "Blaming shifts accountability away and blocks improvement.",
+        "Owning the outcome and correcting mistakes is responsible decision-making.",
+        "Hiding information prevents learning and can worsen harm.",
+        "Avoiding consequences undermines trust and accountability."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Building trust in relationships is best achieved by:",
+      "options": [
+        "Keeping promises and being consistent",
+        "Avoiding difficult discussions",
+        "Only sharing information with close colleagues",
+        "Agreeing with everyone regardless of truth"
+      ],
+      "answer": 0,
+      "explain": "Trust grows when people are reliable and truthful over time, which requires consistency and keeping commitments.",
+      "optionExplanations": [
+        "Reliability and consistency signal that others can depend on you, building trust.",
+        "Avoiding discussions prevents resolution and reduces trust.",
+        "Withholding information can look secretive and erode trust.",
+        "Agreeing regardless of truth is dishonest and damages credibility."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which ethical framework evaluates actions based on the greatest good for the greatest number?",
+      "options": [
+        "Deontology",
+        "Utilitarianism",
+        "Ethical relativism",
+        "Virtue ethics"
+      ],
+      "answer": 1,
+      "explain": "Utilitarianism judges an action by its overall consequences, aiming to maximize total benefit (utility) for all affected.",
+      "optionExplanations": [
+        "Deontology focuses on duties and rules rather than outcomes.",
+        "Utilitarianism is consequence-based and seeks to maximize overall well-being.",
+        "Relativism treats ethics as dependent on culture or personal views, not maximizing utility.",
+        "Virtue ethics focuses on character traits (virtues) rather than calculating net outcomes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In business, a conflict of interest exists when an employee:",
+      "options": [
+        "Uses vacation time during a busy season",
+        "Has a personal interest that could influence professional judgment",
+        "Works overtime to meet a deadline",
+        "Disagrees with a manager's decision"
+      ],
+      "answer": 1,
+      "explain": "A conflict of interest occurs when personal relationships, investments, or benefits could bias decisions made for the organization.",
+      "optionExplanations": [
+        "Scheduling vacation is not inherently an ethical conflict unless it violates policy.",
+        "Personal interests that could bias decisions create a conflict of interest risk.",
+        "Working overtime is a performance choice, not a conflict of interest.",
+        "Disagreement is normal and not a conflict unless tied to personal gain."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best protects against bribery in vendor selection?",
+      "options": [
+        "Accepting small gifts because they are common",
+        "Using a documented, competitive bidding process with clear criteria",
+        "Letting one employee choose the vendor privately",
+        "Selecting the cheapest vendor without reviewing quality"
+      ],
+      "answer": 1,
+      "explain": "Transparent selection with written criteria and competition reduces improper influence and creates an audit trail.",
+      "optionExplanations": [
+        "Gift acceptance can create undue influence or the appearance of it.",
+        "A documented, competitive process reduces corruption risk and supports fairness.",
+        "Private selection lacks oversight and increases bribery risk.",
+        "Price-only decisions can be unethical if they ignore safety, quality, or compliance requirements."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A whistleblower policy is primarily designed to:",
+      "options": [
+        "Prevent employees from reporting problems",
+        "Encourage safe reporting of unethical or illegal behavior without retaliation",
+        "Replace all internal audits",
+        "Guarantee that every report is true"
+      ],
+      "answer": 1,
+      "explain": "Whistleblower policies create confidential channels and anti-retaliation protections so employees can report misconduct safely.",
+      "optionExplanations": [
+        "Policies should enable, not block, reporting.",
+        "The goal is safe reporting and protection from retaliation.",
+        "Audits still matter; whistleblowing is an additional control.",
+        "Reports must be investigated; policies cannot guarantee truthfulness."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which document most directly communicates an organization's expected ethical behavior standards?",
+      "options": [
+        "Mission statement",
+        "Code of ethics / code of conduct",
+        "Organizational chart",
+        "Balance sheet"
+      ],
+      "answer": 1,
+      "explain": "A code of ethics (or code of conduct) outlines acceptable behavior, decision standards, and reporting procedures.",
+      "optionExplanations": [
+        "A mission statement describes purpose, not detailed behavioral standards.",
+        "Codes of ethics/conduct specify expectations and guidelines for behavior.",
+        "An org chart shows structure, not ethical rules.",
+        "A balance sheet reports financial position, not conduct standards."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a company advertises \"100% eco-friendly\" without evidence, the ethical issue is most likely:",
+      "options": [
+        "Greenwashing",
+        "Benchmarking",
+        "Horizontal integration",
+        "Price discrimination"
+      ],
+      "answer": 0,
+      "explain": "Making unverified environmental claims misleads consumers and is commonly called greenwashing.",
+      "optionExplanations": [
+        "Greenwashing is deceptive marketing that exaggerates environmental benefits.",
+        "Benchmarking compares performance to others; it is not deception.",
+        "Horizontal integration is acquiring competitors, unrelated to claims.",
+        "Price discrimination is charging different prices to different groups."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best supports data privacy ethics when collecting customer information online?",
+      "options": [
+        "Collect all data possible in case it is useful later",
+        "Use clear consent and collect only data necessary for the stated purpose",
+        "Hide privacy terms in long fine print",
+        "Sell the data to partners by default"
+      ],
+      "answer": 1,
+      "explain": "Ethical privacy uses informed consent and data minimization: only collect what you need for the declared purpose.",
+      "optionExplanations": [
+        "Over-collection increases privacy risk and often violates minimization principles.",
+        "Clear consent plus collecting only necessary data supports privacy and reduces risk.",
+        "Obscuring terms prevents informed consent.",
+        "Selling by default violates consent expectations and can breach laws/policies."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A manager who changes performance standards for certain employees based on friendship is violating:",
+      "options": [
+        "Fairness and impartiality",
+        "Trade secret protection",
+        "Time value of money",
+        "Product positioning"
+      ],
+      "answer": 0,
+      "explain": "Different standards for favored individuals is favoritism, which undermines fairness and equal treatment.",
+      "optionExplanations": [
+        "Unequal standards based on friendship are unfair and unethical.",
+        "Trade secrets concern confidential business information, not performance standards.",
+        "Time value of money is a finance concept.",
+        "Product positioning is a marketing strategy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of corporate social responsibility (CSR)?",
+      "options": [
+        "Manipulating earnings to meet targets",
+        "Donating to local education programs and measuring community impact",
+        "Hiding product defects to avoid recalls",
+        "Offering kickbacks to win contracts"
+      ],
+      "answer": 1,
+      "explain": "CSR involves voluntary actions that benefit society and align with ethical responsibilities beyond profit, such as community investment with accountability.",
+      "optionExplanations": [
+        "Earnings manipulation is unethical and often illegal.",
+        "Community support with measured impact is a CSR activity.",
+        "Hiding defects endangers customers and violates ethics.",
+        "Kickbacks are bribery, not responsibility."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an employee accidentally emails confidential client data to the wrong recipient, the most ethical first step is to:",
+      "options": [
+        "Ignore it and hope nothing happens",
+        "Immediately report the incident using the company's data incident process",
+        "Delete the sent email and say nothing",
+        "Post about it to warn others publicly"
+      ],
+      "answer": 1,
+      "explain": "Prompt internal reporting allows containment steps (recall, recipient contact, access revocation) and fulfills legal and contractual obligations.",
+      "optionExplanations": [
+        "Ignoring increases harm and may violate policy/law.",
+        "Reporting triggers containment, documentation, and required notifications.",
+        "You cannot reliably undo delivery; hiding blocks response.",
+        "Public disclosure can worsen harm and may breach confidentiality."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes intentionally recording revenue before it is earned to make results look better?",
+      "options": [
+        "Revenue recognition manipulation",
+        "Diversification",
+        "Risk pooling",
+        "Kaizen"
+      ],
+      "answer": 0,
+      "explain": "Recognizing revenue early violates revenue recognition rules and misleads stakeholders about performance.",
+      "optionExplanations": [
+        "Early revenue recognition is a form of financial statement fraud/manipulation.",
+        "Diversification spreads risk across activities.",
+        "Risk pooling combines risks across a group.",
+        "Kaizen is continuous improvement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "The primary ethical purpose of internal controls in accounting is to:",
+      "options": [
+        "Increase tax rates",
+        "Prevent and detect errors and fraud while ensuring reliable reporting",
+        "Eliminate the need for audits",
+        "Maximize executive bonuses"
+      ],
+      "answer": 1,
+      "explain": "Internal controls reduce the risk of misstatements and misuse of assets by creating checks, approvals, and monitoring.",
+      "optionExplanations": [
+        "Taxes are set by governments, not internal controls.",
+        "Controls help prevent/detect errors and fraud and improve reporting reliability.",
+        "Audits still verify controls and statements.",
+        "Bonuses are compensation policy, not the purpose of controls."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scenario is most clearly a misuse of company resources?",
+      "options": [
+        "Using a company laptop for assigned work",
+        "Printing hundreds of personal flyers on the office printer",
+        "Logging expenses for approved travel",
+        "Using company email to contact a client"
+      ],
+      "answer": 1,
+      "explain": "Using company supplies for personal mass printing is an unauthorized personal benefit and a misuse of resources.",
+      "optionExplanations": [
+        "Assigned work use is appropriate.",
+        "Personal mass printing uses company assets for non-business purposes.",
+        "Approved travel expenses are legitimate.",
+        "Client communication is a valid business use."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that retaliates against an employee for reporting harassment is violating principles of:",
+      "options": [
+        "Non-retaliation and workplace safety",
+        "Just-in-time inventory",
+        "Brand dilution",
+        "Capital budgeting"
+      ],
+      "answer": 0,
+      "explain": "Anti-retaliation is a core compliance and ethics principle to ensure employees can report misconduct without fear.",
+      "optionExplanations": [
+        "Retaliation undermines safe reporting and a respectful workplace.",
+        "Inventory timing is unrelated.",
+        "Brand dilution concerns trademarks/branding.",
+        "Capital budgeting is investment decision-making."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best demonstrates ethical leadership?",
+      "options": [
+        "Punishing employees for asking questions",
+        "Modeling the code of conduct and holding everyone accountable, including managers",
+        "Ignoring minor policy violations to stay popular",
+        "Keeping ethics expectations vague to stay flexible"
+      ],
+      "answer": 1,
+      "explain": "Ethical leaders set an example, communicate standards clearly, and enforce them consistently regardless of rank.",
+      "optionExplanations": [
+        "Discouraging questions reduces transparency.",
+        "Leading by example and consistent accountability is ethical leadership.",
+        "Ignoring violations signals that rules do not matter.",
+        "Vagueness creates confusion and selective enforcement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which concept best describes treating customer complaints seriously to prevent harm and build trust?",
+      "options": [
+        "Due diligence",
+        "Customer sovereignty",
+        "Ethical responsiveness",
+        "Price skimming"
+      ],
+      "answer": 2,
+      "explain": "Ethical responsiveness means addressing stakeholder concerns promptly and fairly to reduce harm and improve outcomes.",
+      "optionExplanations": [
+        "Due diligence is careful investigation before decisions (e.g., acquisitions).",
+        "Customer sovereignty is the idea that consumers drive markets; it is not about handling complaints.",
+        "Ethical responsiveness involves promptly addressing concerns and correcting issues.",
+        "Price skimming is pricing high initially, unrelated to complaints."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a supplier uses child labor, the buying company can act ethically by first:",
+      "options": [
+        "Ignoring it because it is the supplier's issue",
+        "Auditing the supply chain and enforcing a supplier code of conduct with corrective actions",
+        "Switching suppliers without investigating",
+        "Demanding lower prices to compensate"
+      ],
+      "answer": 1,
+      "explain": "Ethical supply chains require due diligence, clear standards, verification, and remediation or termination if violations persist.",
+      "optionExplanations": [
+        "Ignoring enables harm and creates reputational/legal risk.",
+        "Audits plus enforceable standards address the issue and drive correction.",
+        "Switching without investigation may miss systemic issues and reduces accountability.",
+        "Lower prices increase pressure that can worsen labor abuses."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best prevents plagiarism in business reports?",
+      "options": [
+        "Copying text and changing a few words",
+        "Citing sources and using original analysis and wording",
+        "Using no sources at all",
+        "Only copying from internal documents"
+      ],
+      "answer": 1,
+      "explain": "Plagiarism is using others' words or ideas without proper credit; citations and original work prevent it.",
+      "optionExplanations": [
+        "Minor wording changes still copy the original ideas/structure without credit.",
+        "Proper citation plus original writing/analysis prevents plagiarism.",
+        "Avoiding sources can reduce quality and does not address credit if ideas are borrowed.",
+        "Internal documents also require permission and attribution when appropriate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that collects user data for one purpose and later uses it for a different purpose without notice is violating:",
+      "options": [
+        "Purpose limitation",
+        "Economies of scale",
+        "Competitive parity",
+        "Market segmentation"
+      ],
+      "answer": 0,
+      "explain": "Purpose limitation requires using personal data only for the disclosed purpose unless new consent or a lawful basis is obtained.",
+      "optionExplanations": [
+        "Using data beyond the stated purpose violates purpose limitation and expectations of consent.",
+        "Economies of scale are cost advantages from producing more.",
+        "Competitive parity is matching competitors' actions.",
+        "Segmentation divides a market into groups."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action is an example of ethical negotiation?",
+      "options": [
+        "Making threats you cannot legally carry out",
+        "Providing accurate information and avoiding deception",
+        "Hiding material terms until the last minute",
+        "Bribing a negotiator to accept your offer"
+      ],
+      "answer": 1,
+      "explain": "Ethical negotiation relies on good-faith bargaining, accurate representations, and disclosure of material terms required for informed agreement.",
+      "optionExplanations": [
+        "Empty threats are coercive and can be unethical or unlawful.",
+        "Accuracy and non-deception support informed consent and fair dealing.",
+        "Last-minute surprises undermine good faith and can be unconscionable.",
+        "Bribery is illegal and unethical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In marketing ethics, \"bait-and-switch\" refers to:",
+      "options": [
+        "Offering a discount to loyal customers",
+        "Advertising a product at a low price to lure customers, then pushing a higher-priced alternative because the advertised item is unavailable",
+        "Comparing your product to a competitor's product",
+        "Selling products in bundles"
+      ],
+      "answer": 1,
+      "explain": "Bait-and-switch misleads consumers by advertising an attractive offer that is not genuinely available and steering them to a different purchase.",
+      "optionExplanations": [
+        "Loyalty discounts are not deceptive when terms are clear.",
+        "This is the definition of bait-and-switch deception.",
+        "Comparative advertising can be ethical if truthful.",
+        "Bundling is a pricing strategy and not inherently deceptive."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best reason to separate duties in financial processes (segregation of duties)?",
+      "options": [
+        "To slow down work intentionally",
+        "To reduce the chance one person can both commit and hide errors or fraud",
+        "To eliminate the need for documentation",
+        "To ensure only managers can access records"
+      ],
+      "answer": 1,
+      "explain": "Segregation of duties divides authorization, custody, and recording so that collusion is required to conceal wrongdoing, reducing fraud risk.",
+      "optionExplanations": [
+        "The goal is control, not inefficiency.",
+        "Separating duties creates checks that reduce fraud and error concealment.",
+        "Documentation is still required for accountability.",
+        "Access controls matter, but the key is separating incompatible functions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A \"tone at the top\" problem occurs when:",
+      "options": [
+        "Leaders consistently follow policies",
+        "Leaders say ethics matter but reward rule-breaking to hit targets",
+        "Employees receive ethics training",
+        "Policies are updated annually"
+      ],
+      "answer": 1,
+      "explain": "Tone at the top is leadership's ethical example; rewarding misconduct signals that ethics are optional.",
+      "optionExplanations": [
+        "Consistent compliance by leaders is positive tone at the top.",
+        "Conflicting incentives (rewarding rule-breaking) create unethical culture pressure.",
+        "Training is helpful but not a 'tone' problem by itself.",
+        "Annual updates can be good governance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best reduces discrimination risk in hiring?",
+      "options": [
+        "Asking candidates about family plans",
+        "Using structured interviews with job-related criteria and consistent scoring",
+        "Hiring based on \"culture fit\" without criteria",
+        "Only interviewing people referred by friends"
+      ],
+      "answer": 1,
+      "explain": "Structured, job-related criteria make decisions more objective and reduce bias and discrimination.",
+      "optionExplanations": [
+        "Family plans can be an illegal or discriminatory topic.",
+        "Structured interviews with consistent scoring reduce bias and support fairness.",
+        "Unstructured 'culture fit' can mask bias without clear standards.",
+        "Referral-only pipelines can reduce diversity and increase favoritism."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that hides known safety defects in a product is most directly violating the ethical principle of:",
+      "options": [
+        "Nonmaleficence (do no harm)",
+        "Arbitrage",
+        "Liquidity",
+        "Elasticity"
+      ],
+      "answer": 0,
+      "explain": "Concealing safety defects increases the likelihood of harm to customers; 'do no harm' is a core ethical obligation in product safety.",
+      "optionExplanations": [
+        "Hiding defects risks causing harm, violating the duty to avoid harming others.",
+        "Arbitrage is profiting from price differences.",
+        "Liquidity is ease of converting assets to cash.",
+        "Elasticity is responsiveness of demand to price changes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the most ethical response when you discover a mistake in a report you already submitted?",
+      "options": [
+        "Cover it up so you do not look bad",
+        "Notify the relevant people and provide a corrected version with what changed",
+        "Blame a coworker publicly",
+        "Delete your files to remove evidence"
+      ],
+      "answer": 1,
+      "explain": "Integrity requires disclosure and correction so decisions are based on accurate information; documenting changes maintains transparency.",
+      "optionExplanations": [
+        "Cover-ups compound harm and violate honesty.",
+        "Reporting and correcting restores accuracy and accountability.",
+        "Public blame harms trust and may be unfair if facts are unknown.",
+        "Destroying records is unethical and may be illegal (spoliation)."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which policy most directly addresses employees receiving gifts from vendors?",
+      "options": [
+        "Records retention policy",
+        "Conflict of interest / gifts and entertainment policy",
+        "Disaster recovery policy",
+        "Open-door policy"
+      ],
+      "answer": 1,
+      "explain": "Gifts and entertainment policies set limits and approval rules to prevent undue influence and bribery risks.",
+      "optionExplanations": [
+        "Records retention covers document storage, not gifts.",
+        "Gifts/entertainment rules manage conflicts of interest and bribery risk.",
+        "Disaster recovery covers restoring operations after disruptions.",
+        "Open-door policies address communication, not vendor gifts."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that restricts negative reviews by requiring customers to sign a \"no-disparagement\" clause after purchase is raising concerns about:",
+      "options": [
+        "Transparency and consumer rights",
+        "Depreciation methods",
+        "Fixed vs variable costs",
+        "Foreign exchange risk"
+      ],
+      "answer": 0,
+      "explain": "Blocking truthful reviews reduces transparency for other consumers and can be unfair and legally risky in some jurisdictions.",
+      "optionExplanations": [
+        "Limiting honest feedback undermines transparency and informed consumer choice.",
+        "Depreciation is an accounting allocation method.",
+        "Cost classification is unrelated.",
+        "FX risk concerns currency changes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is an example of insider trading?",
+      "options": [
+        "Buying stock based on a company's public quarterly report",
+        "Buying stock after learning confidential earnings information before it is public",
+        "Diversifying across multiple sectors",
+        "Using a stop-loss order"
+      ],
+      "answer": 1,
+      "explain": "Insider trading involves trading securities using material nonpublic information, such as unreleased earnings results.",
+      "optionExplanations": [
+        "Public information trading is allowed.",
+        "Trading on confidential, material nonpublic information is insider trading.",
+        "Diversification is an investment strategy.",
+        "A stop-loss is a trading tool, not insider trading."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best supports ethical use of artificial intelligence in hiring?",
+      "options": [
+        "Using a model with unknown training data and no testing",
+        "Regularly auditing the model for bias and explaining how decisions are made",
+        "Keeping the model secret so applicants cannot question it",
+        "Using the model to screen out applicants from certain zip codes"
+      ],
+      "answer": 1,
+      "explain": "Ethical AI requires monitoring for disparate impact, transparency, and accountability so decisions are fair and explainable.",
+      "optionExplanations": [
+        "Opaque systems can embed bias and are hard to correct.",
+        "Bias audits and explainability increase fairness and accountability.",
+        "Secrecy blocks due process and improvement.",
+        "Zip-code screening can proxy for protected traits and create discrimination."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which principle requires that marketing claims be supported by evidence?",
+      "options": [
+        "Verifiability",
+        "Obfuscation",
+        "Arbitrary pricing",
+        "Circular reasoning"
+      ],
+      "answer": 0,
+      "explain": "Ethical marketing requires truthful, substantiated claims; verifiability means claims can be backed by data or documentation.",
+      "optionExplanations": [
+        "Verifiable claims can be checked and supported with evidence.",
+        "Obfuscation is making information unclear, which is unethical.",
+        "Arbitrary pricing is unrelated to claim truth.",
+        "Circular reasoning is a logic fallacy, not a marketing substantiation principle."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that collects donations for a charity but keeps the money for itself is committing:",
+      "options": [
+        "Embezzlement and fraud",
+        "Vertical integration",
+        "Product differentiation",
+        "Loss leader pricing"
+      ],
+      "answer": 0,
+      "explain": "Taking funds intended for a charitable purpose and converting them for personal/company use is fraudulent misappropriation.",
+      "optionExplanations": [
+        "Misusing donated funds is fraud and can be embezzlement.",
+        "Vertical integration is controlling more of the supply chain.",
+        "Differentiation is making a product distinct.",
+        "Loss leader pricing sells one item cheaply to attract customers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a key feature of informed consent for customers?",
+      "options": [
+        "Consent is implied if the customer visits the website",
+        "Information is presented clearly, and the customer agrees voluntarily to specific terms",
+        "Terms are hidden behind multiple links",
+        "Consent lasts forever regardless of changes"
+      ],
+      "answer": 1,
+      "explain": "Informed consent requires clear notice, meaningful choice, and agreement to specific uses; changes typically require new notice or consent.",
+      "optionExplanations": [
+        "Implied consent is often insufficient for sensitive uses.",
+        "Clear disclosure and voluntary agreement are required for informed consent.",
+        "Hidden terms prevent understanding and invalidate meaningful consent.",
+        "Consent can be withdrawn and may need renewal when purposes change."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action is most likely to create a hostile work environment?",
+      "options": [
+        "Providing constructive feedback privately",
+        "Repeatedly making derogatory jokes about a protected group",
+        "Offering flexible work hours",
+        "Holding regular team meetings"
+      ],
+      "answer": 1,
+      "explain": "Harassing conduct that targets protected traits and is severe or pervasive can create a hostile work environment.",
+      "optionExplanations": [
+        "Private constructive feedback is professional.",
+        "Derogatory jokes about protected groups are harassment and can create hostility.",
+        "Flexible hours are a benefit, not harassment.",
+        "Meetings are normal workplace practice."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that discloses a data breach quickly and provides mitigation steps (e.g., password resets) is demonstrating:",
+      "options": [
+        "Transparency and accountability",
+        "Regressive taxation",
+        "Predatory pricing",
+        "Kickback schemes"
+      ],
+      "answer": 0,
+      "explain": "Prompt disclosure and mitigation help affected people protect themselves and shows accountability for the incident.",
+      "optionExplanations": [
+        "Timely disclosure and mitigation reflect transparency and accountability.",
+        "Tax concepts are unrelated.",
+        "Predatory pricing is pricing below cost to drive out rivals.",
+        "Kickbacks are bribery."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scenario best illustrates a \"slippery slope\" ethical risk in business?",
+      "options": [
+        "A company documents expenses accurately",
+        "An employee inflates one small expense report, then later inflates larger ones because nothing happened",
+        "A manager asks for a status update",
+        "A team holds a training session"
+      ],
+      "answer": 1,
+      "explain": "Small unethical acts can normalize misconduct, leading to progressively larger violations when there are no consequences.",
+      "optionExplanations": [
+        "Accurate documentation is ethical and not a slippery slope.",
+        "Escalating dishonesty after a small violation is a classic slippery slope pattern.",
+        "Status updates are routine management.",
+        "Training generally improves compliance, not misconduct."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best protects intellectual property ethics when using images in a company presentation?",
+      "options": [
+        "Copy any image from the internet if it is for school/work",
+        "Use licensed images or images with permission and follow attribution requirements",
+        "Remove the watermark and use the image",
+        "Assume \"no one will notice\""
+      ],
+      "answer": 1,
+      "explain": "Ethical IP use requires permission (license) and compliance with the license terms, including attribution if required.",
+      "optionExplanations": [
+        "Copyright applies even in presentations; 'internet' is not permission.",
+        "Using licensed/permitted images respects creators' rights and avoids infringement.",
+        "Removing watermarks is intentional infringement and deception.",
+        "Low detection risk does not make infringement ethical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A procurement employee who owns stock in a supplier should most ethically:",
+      "options": [
+        "Hide the investment to avoid questions",
+        "Disclose the investment and recuse themselves from related decisions if required",
+        "Buy more stock to show support",
+        "Pressure coworkers to pick that supplier"
+      ],
+      "answer": 1,
+      "explain": "Disclosure and recusal prevent biased decisions and protect the integrity of the procurement process.",
+      "optionExplanations": [
+        "Concealment increases risk of biased decisions and policy violations.",
+        "Disclosure and recusal manage conflicts of interest.",
+        "Buying more increases the conflict, not resolve it.",
+        "Pressuring others is coercive and unethical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes paying a government official to speed up routine services?",
+      "options": [
+        "Facilitation payment",
+        "Open competition",
+        "Benchmarking",
+        "Constructive dismissal"
+      ],
+      "answer": 0,
+      "explain": "A facilitation payment is a small bribe intended to expedite routine governmental actions; many laws and policies prohibit it.",
+      "optionExplanations": [
+        "Facilitation payments are payments to speed routine actions; they raise bribery concerns.",
+        "Open competition concerns market structure.",
+        "Benchmarking is performance comparison.",
+        "Constructive dismissal is forcing resignation through working conditions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company should keep employee medical information:",
+      "options": [
+        "In a public shared drive for easy access",
+        "In a confidential system with restricted access and need-to-know controls",
+        "In marketing databases for segmentation",
+        "On personal devices of managers"
+      ],
+      "answer": 1,
+      "explain": "Health information is highly sensitive and should be protected with strong confidentiality and access controls.",
+      "optionExplanations": [
+        "Public storage violates confidentiality and privacy laws/policies.",
+        "Restricted, need-to-know access is the ethical and compliant approach.",
+        "Using medical data for marketing is inappropriate and often illegal.",
+        "Personal devices lack organizational security controls."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best ethical justification for recalling a product even when it is expensive?",
+      "options": [
+        "Recalls reduce profit, so they should be avoided",
+        "Protecting consumer safety and preventing harm outweighs short-term cost",
+        "Recalls are only for public relations",
+        "Competitors might recall, so we must copy them"
+      ],
+      "answer": 1,
+      "explain": "Preventing harm to customers is a core ethical duty; safety should take priority over short-term financial impact.",
+      "optionExplanations": [
+        "Avoiding recalls can expose customers to harm and legal risk.",
+        "Safety and harm prevention are primary ethical reasons for a recall.",
+        "PR may matter, but ethics centers on safety and responsibility.",
+        "Copying competitors is not an ethical justification."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which situation most likely violates antitrust/competition ethics and law?",
+      "options": [
+        "A company improves product quality",
+        "Competing firms agree to fix prices",
+        "A retailer offers a seasonal discount",
+        "A company hires more staff"
+      ],
+      "answer": 1,
+      "explain": "Price-fixing is collusion that harms consumers and competition and is illegal in many jurisdictions.",
+      "optionExplanations": [
+        "Quality improvements are pro-competitive.",
+        "Price-fixing agreements are collusion and an antitrust violation.",
+        "Discounting is generally lawful competition.",
+        "Hiring staff is an internal business decision."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An ethics hotline is most useful when it is:",
+      "options": [
+        "Anonymous or confidential and accessible to employees without fear of retaliation",
+        "Only available to executives",
+        "Used to punish employees for honest mistakes",
+        "Kept secret from most employees"
+      ],
+      "answer": 0,
+      "explain": "Hotlines work when employees can report concerns safely and confidentially, encouraging early detection of misconduct.",
+      "optionExplanations": [
+        "Confidential access enables safe reporting and earlier detection.",
+        "Limiting access reduces effectiveness.",
+        "Punishing honest mistakes discourages reporting and learning.",
+        "If people do not know about it, they cannot use it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best supports ethical sales behavior?",
+      "options": [
+        "Promising features the product does not have",
+        "Disclosing material limitations and representing the product accurately",
+        "Hiding fees until after the contract is signed",
+        "Targeting vulnerable customers with misleading urgency"
+      ],
+      "answer": 1,
+      "explain": "Truthful, complete information allows customers to make informed decisions and reduces deception.",
+      "optionExplanations": [
+        "False promises are deceptive and unethical.",
+        "Accurate representations with disclosure support informed consent.",
+        "Hidden fees are deceptive and can be unlawful.",
+        "Misleading pressure tactics exploit customers and are unethical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A manager who pressures employees to falsify safety inspection logs is creating a risk of:",
+      "options": [
+        "Regulatory violations and increased harm",
+        "Higher employee engagement",
+        "Reduced legal exposure",
+        "Improved quality assurance"
+      ],
+      "answer": 0,
+      "explain": "Falsifying inspection records undermines compliance and can lead to accidents because hazards are not identified or corrected.",
+      "optionExplanations": [
+        "Fake logs can violate regulations and increase safety hazards for workers and customers.",
+        "Pressure to falsify typically lowers trust and morale, not engagement.",
+        "Falsification increases legal exposure if discovered or if harm occurs.",
+        "Quality assurance relies on accurate inspections, not fabricated records."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the most ethical way to handle a customer refund request when the policy is unclear?",
+      "options": [
+        "Deny immediately to avoid setting a precedent",
+        "Seek guidance, apply a fair consistent approach, and document the decision",
+        "Ignore the request until the customer gives up",
+        "Offer a refund only if the customer posts a positive review"
+      ],
+      "answer": 1,
+      "explain": "When policies are unclear, ethical action is to escalate, apply fairness, and document decisions to ensure consistency and transparency.",
+      "optionExplanations": [
+        "Automatic denial may be unfair and ignores the need for consistent guidance.",
+        "Seeking guidance and documenting a fair decision supports consistency and accountability.",
+        "Ignoring the customer is unprofessional and harms trust.",
+        "Conditioning refunds on reviews is coercive and deceptive."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company policy that requires employees to report gifts over a certain value is mainly intended to prevent:",
+      "options": [
+        "Innovation",
+        "Undue influence and corruption",
+        "Training costs",
+        "Market research"
+      ],
+      "answer": 1,
+      "explain": "Gift reporting thresholds help identify and manage potential bribery or conflicts of interest by increasing transparency.",
+      "optionExplanations": [
+        "Innovation is unrelated to gift disclosure.",
+        "Transparency about gifts reduces undue influence and corruption risk.",
+        "Training costs are unrelated.",
+        "Market research is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best demonstrates respect for customer autonomy?",
+      "options": [
+        "Using pre-checked boxes to opt customers into marketing",
+        "Providing clear choices and allowing customers to opt in voluntarily",
+        "Hiding the unsubscribe link",
+        "Calling customers repeatedly after they say no"
+      ],
+      "answer": 1,
+      "explain": "Autonomy means people control their choices; clear opt-in mechanisms respect that control.",
+      "optionExplanations": [
+        "Pre-checked boxes reduce meaningful choice.",
+        "Voluntary opt-in with clear options respects customer autonomy.",
+        "Hidden unsubscribe options trap customers and undermine consent.",
+        "Repeated unwanted contact ignores customer preferences."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company discovers a manager has been bullying employees, the most ethical organizational response is to:",
+      "options": [
+        "Protect the manager because they are high-performing",
+        "Investigate promptly, stop the behavior, and apply appropriate consequences and support",
+        "Tell employees to be tougher",
+        "Move the manager to another team without documenting"
+      ],
+      "answer": 1,
+      "explain": "Ethical workplaces enforce standards consistently, investigate complaints, protect employees, and address misconduct with accountability.",
+      "optionExplanations": [
+        "Protecting high performers signals that abuse is tolerated.",
+        "Investigation and accountability stop harm and reinforce ethical culture.",
+        "Blaming victims ignores the misconduct.",
+        "Undocumented transfers hide problems and allow repeat harm."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes the duty to keep promises and agreements?",
+      "options": [
+        "Fidelity",
+        "Scarcity",
+        "Amortization",
+        "Delegation"
+      ],
+      "answer": 0,
+      "explain": "Fidelity is faithfulness to commitments, including honoring promises and contractual obligations.",
+      "optionExplanations": [
+        "Fidelity is the ethical duty to keep commitments and be loyal to agreements.",
+        "Scarcity is limited supply relative to demand.",
+        "Amortization is spreading costs over time.",
+        "Delegation is assigning tasks to others."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that provides exaggerated financial forecasts to investors is primarily violating:",
+      "options": [
+        "Truthfulness and fair disclosure",
+        "Just-in-time production",
+        "Service differentiation",
+        "Market saturation"
+      ],
+      "answer": 0,
+      "explain": "Investors rely on accurate, non-misleading disclosures; exaggeration can be securities fraud and violates honesty.",
+      "optionExplanations": [
+        "Misleading forecasts violate truthful disclosure and can be illegal.",
+        "Production scheduling is unrelated.",
+        "Service differentiation is a strategy, unrelated to honesty.",
+        "Market saturation describes demand conditions, not disclosure ethics."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which control best reduces the chance of expense report fraud?",
+      "options": [
+        "Allowing employees to approve their own expenses",
+        "Requiring receipts and independent review/approval",
+        "Paying expenses in cash without records",
+        "Approving all expenses automatically"
+      ],
+      "answer": 1,
+      "explain": "Receipts and independent approval create verification and accountability, reducing fraud risk.",
+      "optionExplanations": [
+        "Self-approval removes oversight and increases fraud risk.",
+        "Receipts plus independent review verify legitimacy and prevent abuse.",
+        "Cash without records prevents auditing and invites fraud.",
+        "Automatic approval removes necessary control checks."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When discussing ethics, a \"stakeholder\" is best defined as:",
+      "options": [
+        "Only shareholders who own stock",
+        "Anyone affected by the organization's actions (e.g., employees, customers, community, investors)",
+        "Only the CEO and executives",
+        "Only competitors"
+      ],
+      "answer": 1,
+      "explain": "Stakeholders include all groups materially affected by business decisions, not just owners.",
+      "optionExplanations": [
+        "Shareholders are one stakeholder group, not the only one.",
+        "Stakeholders include anyone affected by the organization's actions.",
+        "Executives are stakeholders but not the full set.",
+        "Competitors can be affected but are not the only stakeholders."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action is most consistent with a deontological (duty-based) approach to ethics?",
+      "options": [
+        "Choosing an action only because it maximizes profit",
+        "Following a moral rule such as \"do not lie\" even if lying would have a good outcome",
+        "Doing whatever is common in your industry",
+        "Choosing the action that feels best emotionally"
+      ],
+      "answer": 1,
+      "explain": "Deontology emphasizes duties and rules; an action can be wrong even if it produces good outcomes.",
+      "optionExplanations": [
+        "Profit maximization is not a moral duty by itself.",
+        "Deontology focuses on following moral rules (duties) like honesty.",
+        "Industry norms can be unethical; deontology is not based on popularity.",
+        "Feelings are not the basis of duty-based ethics."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes \"ethical relativism\"?",
+      "options": [
+        "There are universal moral rules for everyone",
+        "Right and wrong depend on culture or individual beliefs",
+        "Only laws determine what is ethical",
+        "Ethics is irrelevant to business"
+      ],
+      "answer": 1,
+      "explain": "Ethical relativism holds that moral judgments vary by culture or individual perspective rather than universal standards.",
+      "optionExplanations": [
+        "Universal rules align more with moral absolutism.",
+        "Relativism says ethical standards depend on cultural or personal context.",
+        "Laws and ethics overlap but are not identical; ethics can go beyond law.",
+        "Ethics affects trust, reputation, and stakeholder harm in business."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best supports \"procedural justice\" in employee discipline?",
+      "options": [
+        "Applying punishment randomly",
+        "Using a consistent process with the chance to explain and appeal",
+        "Punishing only unpopular employees",
+        "Keeping the rules secret"
+      ],
+      "answer": 1,
+      "explain": "Procedural justice emphasizes fair processes: consistent rules, impartial decision-making, and opportunities to be heard.",
+      "optionExplanations": [
+        "Random punishment is arbitrary and unfair.",
+        "Consistent processes and due process support procedural fairness.",
+        "Targeting unpopular employees is bias and unfairness.",
+        "Secret rules prevent informed compliance and fairness."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that requires employees to work off the clock is an ethical issue primarily involving:",
+      "options": [
+        "Wage theft and fairness",
+        "Brand identity",
+        "Currency hedging",
+        "Market penetration"
+      ],
+      "answer": 0,
+      "explain": "Unpaid required work deprives employees of earned wages and violates fairness and often labor laws.",
+      "optionExplanations": [
+        "Off-the-clock requirements can be wage theft and unfair treatment.",
+        "Brand identity is marketing, not pay fairness.",
+        "Currency hedging is finance risk management.",
+        "Market penetration is sales growth strategy."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best supports ethical transparency in pricing?",
+      "options": [
+        "Advertising a low price but adding mandatory hidden fees at checkout",
+        "Listing the full price and required fees clearly before purchase",
+        "Using confusing units to hide true cost",
+        "Changing prices after the customer pays"
+      ],
+      "answer": 1,
+      "explain": "Transparent pricing discloses the total cost (including mandatory fees) so customers can make informed choices.",
+      "optionExplanations": [
+        "Hidden fees are deceptive and undermine informed choice.",
+        "Clear total cost disclosure is transparent and ethical.",
+        "Confusing units mislead customers about value and cost.",
+        "After-payment changes violate trust and may be unlawful."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that monitors employee emails without notice is raising concerns about:",
+      "options": [
+        "Privacy and informed consent",
+        "Inventory turnover",
+        "Depreciation",
+        "Market share"
+      ],
+      "answer": 0,
+      "explain": "Monitoring without notice can violate privacy expectations and ethical transparency; many organizations require notice and legitimate purpose.",
+      "optionExplanations": [
+        "Undisclosed surveillance undermines privacy and trust.",
+        "Inventory turnover is unrelated.",
+        "Depreciation is unrelated.",
+        "Market share is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of \"ethical sourcing\"?",
+      "options": [
+        "Buying from the cheapest supplier regardless of labor practices",
+        "Selecting suppliers that meet labor, safety, and environmental standards and verifying compliance",
+        "Choosing suppliers only in your country",
+        "Ignoring supplier audits to save money"
+      ],
+      "answer": 1,
+      "explain": "Ethical sourcing evaluates and verifies supplier practices to reduce harm and ensure responsible operations.",
+      "optionExplanations": [
+        "Price-only sourcing can enable abuse and environmental harm.",
+        "Standards plus verification define ethical sourcing.",
+        "Domestic sourcing can still be unethical; ethics depends on practices.",
+        "Skipping audits removes verification and increases risk."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If an employee reports misconduct and the company ignores it, the biggest ethics risk is:",
+      "options": [
+        "Lower office noise",
+        "Normalizing misconduct and increasing future harm",
+        "Too many meetings",
+        "Higher advertising costs"
+      ],
+      "answer": 1,
+      "explain": "Ignoring reports signals that rules are not enforced, discourages reporting, and can allow misconduct to spread and escalate.",
+      "optionExplanations": [
+        "Noise is unrelated.",
+        "Unaddressed misconduct can escalate and become part of the culture.",
+        "Meetings are unrelated.",
+        "Advertising costs are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best demonstrates respect in cross-cultural business communication?",
+      "options": [
+        "Assuming your own norms are the only correct ones",
+        "Learning local customs and avoiding stereotypes while maintaining core ethical standards",
+        "Using slang that may not translate",
+        "Mocking accents to build humor"
+      ],
+      "answer": 1,
+      "explain": "Respectful communication avoids stereotypes, adapts appropriately, and still maintains universal duties like honesty and non-discrimination.",
+      "optionExplanations": [
+        "Assumptions can cause offense and misunderstandings.",
+        "Learning customs and avoiding stereotypes shows respect while staying ethical.",
+        "Slang can confuse and exclude others.",
+        "Mocking accents is disrespectful and can be harassment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A manager asks you to \"adjust\" numbers to make results look better. The most ethical response is to:",
+      "options": [
+        "Do it to show loyalty",
+        "Ask for clarification, refuse to falsify, and report through proper channels if pressure continues",
+        "Change the numbers but keep a copy",
+        "Tell friends about it as gossip"
+      ],
+      "answer": 1,
+      "explain": "Falsifying records is dishonest and can be illegal; refusing and using reporting channels protects integrity and compliance.",
+      "optionExplanations": [
+        "Loyalty does not justify fraud.",
+        "Refusing falsification and escalating appropriately maintains integrity and compliance.",
+        "Keeping a copy does not make falsification acceptable.",
+        "Gossip spreads harm and does not resolve the issue."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best distinguishes ethics from law in business?",
+      "options": [
+        "If it is legal, it is always ethical",
+        "Ethics can require higher standards than law, such as fairness and transparency",
+        "Law and ethics never overlap",
+        "Ethics only applies to personal life, not business"
+      ],
+      "answer": 1,
+      "explain": "Many actions can be legal but still unethical (e.g., misleading but technically legal practices); ethics focuses on harm, fairness, and duties.",
+      "optionExplanations": [
+        "Legality is a minimum standard and does not guarantee ethical behavior.",
+        "Ethics often goes beyond legal requirements.",
+        "They often overlap (e.g., anti-fraud laws) but are not identical.",
+        "Ethics is central to business decisions and stakeholder trust."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the most ethical reason to implement accessibility features in a product or website?",
+      "options": [
+        "It only helps marketing",
+        "It promotes equal access for users with disabilities and reduces exclusion",
+        "It reduces the need for customer support",
+        "It guarantees higher prices"
+      ],
+      "answer": 1,
+      "explain": "Accessibility supports fairness and inclusion by enabling people with disabilities to use products and services effectively.",
+      "optionExplanations": [
+        "Marketing may benefit, but ethics centers on inclusion and equal access.",
+        "The main ethical reason is equal access and reducing exclusion.",
+        "Support savings are secondary to inclusion and rights.",
+        "Accessibility does not guarantee higher prices."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that uses \"dark patterns\" (tricky interface design) to get users to subscribe is acting unethically because it:",
+      "options": [
+        "Improves user choice",
+        "Manipulates users and undermines informed consent",
+        "Reduces page load time",
+        "Increases competition"
+      ],
+      "answer": 1,
+      "explain": "Dark patterns steer users into choices they might not make with clear information, undermining autonomy and consent.",
+      "optionExplanations": [
+        "Dark patterns reduce, not improve, meaningful choice.",
+        "Manipulation undermines informed consent and autonomy.",
+        "Load time is unrelated to consent.",
+        "Competition is unrelated to deceptive design."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which scenario is most clearly a kickback?",
+      "options": [
+        "A vendor offers a public discount to all customers",
+        "A vendor secretly pays a purchasing agent personally in exchange for awarding a contract",
+        "A company donates to a public charity",
+        "A customer uses a coupon"
+      ],
+      "answer": 1,
+      "explain": "A kickback is a secret payment or benefit to influence a business decision, typically in procurement or contracting.",
+      "optionExplanations": [
+        "Public discounts are not secret payments to decision-makers.",
+        "Secret personal payments to influence contract awards are kickbacks.",
+        "Charity donations are not kickbacks when not tied to decisions.",
+        "Coupons are standard marketing incentives."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best supports ethical recordkeeping?",
+      "options": [
+        "Changing records after the fact without noting edits",
+        "Keeping accurate records with timestamps/audit trails for changes",
+        "Deleting records when they are inconvenient",
+        "Backdating documents to match targets"
+      ],
+      "answer": 1,
+      "explain": "Accurate records with audit trails preserve integrity and allow accountability and verification.",
+      "optionExplanations": [
+        "Unlogged edits undermine reliability and can be fraudulent.",
+        "Audit trails document changes and protect integrity.",
+        "Deleting inconvenient records is unethical and may violate retention laws.",
+        "Backdating is misrepresentation and often illegal."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a coworker shares a client's confidential strategy document with you by mistake, the most ethical action is to:",
+      "options": [
+        "Forward it to others to ask for advice",
+        "Notify the sender, do not use the information, and follow confidentiality procedures",
+        "Use it to gain an advantage in negotiations",
+        "Post it to a group chat to discuss"
+      ],
+      "answer": 1,
+      "explain": "Confidential information should be protected; reporting the mistake and avoiding use prevents misuse and further disclosure.",
+      "optionExplanations": [
+        "Forwarding increases exposure and harm.",
+        "Notifying and following procedures helps contain the breach and respects confidentiality.",
+        "Using it exploits a breach and is unethical.",
+        "Group sharing multiplies the breach."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best example of a \"compliance\" issue?",
+      "options": [
+        "Choosing a new logo color",
+        "Ignoring required safety training mandated by regulation",
+        "Scheduling a team lunch",
+        "Rearranging office desks"
+      ],
+      "answer": 1,
+      "explain": "Compliance issues involve meeting laws, regulations, and mandatory standards such as required safety training.",
+      "optionExplanations": [
+        "Brand colors are a design decision, not compliance.",
+        "Skipping required training violates regulatory or policy requirements.",
+        "Lunch scheduling is unrelated.",
+        "Desk layout is unrelated unless it violates safety rules."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In corporate governance, the board of directors primarily exists to:",
+      "options": [
+        "Run day-to-day operations",
+        "Oversee management and protect shareholders' and stakeholders' interests through governance and accountability",
+        "Write all marketing content",
+        "Replace all employees"
+      ],
+      "answer": 1,
+      "explain": "Boards provide oversight, set strategic direction, and ensure accountability (including ethics and risk management) rather than managing daily tasks.",
+      "optionExplanations": [
+        "Day-to-day operations are typically management's role.",
+        "Oversight and accountability are core board responsibilities.",
+        "Marketing content is not a board function.",
+        "Boards do not replace employees; they govern at a high level."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best demonstrates ethical treatment of employees during layoffs?",
+      "options": [
+        "Announcing layoffs through rumors",
+        "Providing clear communication, fair criteria, and support like severance and job placement resources when possible",
+        "Selecting employees based on personal dislike",
+        "Hiding final pay information"
+      ],
+      "answer": 1,
+      "explain": "Ethical layoffs minimize harm through transparency, fair criteria, and support measures for affected employees.",
+      "optionExplanations": [
+        "Rumors increase anxiety and disrespect employees.",
+        "Clear communication, fair criteria, and support reduce harm and show respect.",
+        "Personal dislike is bias and unfair.",
+        "Hiding pay information violates transparency and legal obligations."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that uses customer testimonials that were paid for but not disclosed is violating:",
+      "options": [
+        "Transparency in endorsements",
+        "Capital structure",
+        "FIFO inventory",
+        "Market equilibrium"
+      ],
+      "answer": 0,
+      "explain": "Undisclosed paid endorsements mislead consumers about independence and credibility; ethical marketing requires disclosure.",
+      "optionExplanations": [
+        "Paid endorsements should be disclosed to avoid misleading consumers.",
+        "Capital structure concerns debt/equity mix.",
+        "FIFO is an inventory method.",
+        "Market equilibrium is an economics concept."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which approach best helps an employee make an ethical decision when policies do not cover a situation?",
+      "options": [
+        "Do whatever benefits you personally",
+        "Identify stakeholders, consider harms/benefits, consult values and guidance, and document the reasoning",
+        "Copy what a competitor does",
+        "Avoid deciding and let the problem grow"
+      ],
+      "answer": 1,
+      "explain": "A structured approach (stakeholders, consequences, values, consultation) reduces bias and leads to defensible, ethical decisions.",
+      "optionExplanations": [
+        "Personal benefit-first ignores duties and stakeholder harm.",
+        "Structured reasoning and consultation supports ethical decision-making.",
+        "Competitors can be wrong; copying is not ethical analysis.",
+        "Avoidance increases risk and harm."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the clearest example of respecting confidentiality in HR?",
+      "options": [
+        "Discussing an employee's discipline with coworkers who are curious",
+        "Sharing employee information only with those who need it to do their job",
+        "Posting employee performance rankings publicly",
+        "Emailing medical details to the whole team"
+      ],
+      "answer": 1,
+      "explain": "Confidentiality means limiting sensitive information to legitimate need-to-know access.",
+      "optionExplanations": [
+        "Curiosity is not a legitimate business need; sharing is unethical.",
+        "Need-to-know sharing protects privacy and supports trust.",
+        "Public rankings can shame employees and violate privacy expectations.",
+        "Mass sharing of medical details violates privacy and often laws."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that offers refunds only to customers who complain loudly online is acting unethically because it:",
+      "options": [
+        "Rewards persistence",
+        "Creates unfair treatment and encourages manipulation",
+        "Improves transparency",
+        "Reduces cost"
+      ],
+      "answer": 1,
+      "explain": "Ethical customer service applies policies consistently; selective refunds based on public pressure is unfair and incentivizes bad-faith behavior.",
+      "optionExplanations": [
+        "Persistence is not the ethical issue; fairness is.",
+        "Selective treatment is unfair and encourages manipulation.",
+        "It does not improve transparency; it creates inconsistency.",
+        "Cost savings do not justify unfair treatment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a best practice for preventing harassment in the workplace?",
+      "options": [
+        "Only addressing harassment after a lawsuit",
+        "Clear policies, regular training, multiple reporting channels, and prompt investigations",
+        "Telling employees to \"work it out\" privately",
+        "Avoiding documentation to reduce paperwork"
+      ],
+      "answer": 1,
+      "explain": "Prevention requires clear standards, training, safe reporting, and consistent enforcement through investigation and documentation.",
+      "optionExplanations": [
+        "Waiting increases harm and liability.",
+        "Policies, training, reporting, and prompt investigations prevent and correct misconduct.",
+        "Private resolution can silence victims and fail to stop behavior.",
+        "Documentation is essential for accountability and fairness."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company learns its advertisement accidentally misled customers, the most ethical correction is to:",
+      "options": [
+        "Leave it as-is and hope it is forgotten",
+        "Issue a clear correction, update the ad, and offer remediation if customers were harmed",
+        "Delete comments that mention it",
+        "Blame customers for misunderstanding"
+      ],
+      "answer": 1,
+      "explain": "Correcting misinformation restores truthfulness and may require remediation to make customers whole.",
+      "optionExplanations": [
+        "Ignoring maintains deception.",
+        "Clear correction and remediation address harm and restore trust.",
+        "Deleting comments hides issues instead of fixing them.",
+        "Blaming customers avoids responsibility for clarity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best supports ethical environmental reporting?",
+      "options": [
+        "Reporting only the best-performing metrics",
+        "Using consistent measurement methods, disclosing assumptions, and allowing independent verification",
+        "Changing metrics each year to look better",
+        "Avoiding data and using slogans instead"
+      ],
+      "answer": 1,
+      "explain": "Credible reporting uses consistent metrics, transparent assumptions, and verification to prevent misleading claims.",
+      "optionExplanations": [
+        "Selective reporting can mislead stakeholders.",
+        "Consistency, disclosure, and verification support accuracy and trust.",
+        "Metric switching can be misleading and prevents comparison.",
+        "Slogans without data are not transparent reporting."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that pressures suppliers to cut costs without considering safety may create an ethical risk of:",
+      "options": [
+        "Improved quality",
+        "Unsafe products and labor abuses",
+        "Lower transportation time only",
+        "Higher customer trust"
+      ],
+      "answer": 1,
+      "explain": "Cost pressure can incentivize corner-cutting, leading to safety failures, poor labor practices, and harm.",
+      "optionExplanations": [
+        "Quality often suffers when corners are cut.",
+        "Unchecked cost pressure can drive unsafe practices and abuse.",
+        "Transport time is not the primary ethical risk.",
+        "Trust typically declines after safety failures."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is an example of \"misrepresentation\" in business communication?",
+      "options": [
+        "Providing a status update with accurate numbers",
+        "Stating that a product is certified when it is not",
+        "Asking clarifying questions in a meeting",
+        "Providing a receipt for an expense"
+      ],
+      "answer": 1,
+      "explain": "Misrepresentation is presenting false information as true, such as claiming certifications that do not exist.",
+      "optionExplanations": [
+        "Accurate updates are not misrepresentation.",
+        "False certification claims are a form of misrepresentation.",
+        "Clarifying questions improve accuracy.",
+        "Providing receipts supports truthful reporting."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When evaluating an ethical dilemma, the question \"Would I be comfortable if this decision were on the front page of a newspaper?\" is often called:",
+      "options": [
+        "The publicity test",
+        "The liquidity test",
+        "The Pareto test",
+        "The depreciation test"
+      ],
+      "answer": 0,
+      "explain": "The publicity test checks whether an action can be openly justified without shame, encouraging transparency and accountability.",
+      "optionExplanations": [
+        "The publicity test considers whether you could publicly defend the decision.",
+        "Liquidity measures ease of converting assets to cash.",
+        "Pareto relates to efficiency (no one worse off), not publicity.",
+        "Depreciation allocates asset cost over time."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that knowingly ships products that fail quality tests is violating ethical obligations of:",
+      "options": [
+        "Truthfulness and safety",
+        "Comparative advantage",
+        "Discount rate",
+        "Economies of scope"
+      ],
+      "answer": 0,
+      "explain": "Shipping known defective products risks harm and deceives customers about quality and safety.",
+      "optionExplanations": [
+        "Knowingly shipping failed-quality goods is unsafe and deceptive.",
+        "Comparative advantage is an economics concept.",
+        "Discount rate is finance, not product safety ethics.",
+        "Economies of scope concerns cost efficiencies across products."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best supports ethical teamwork when credit is due?",
+      "options": [
+        "Taking sole credit to look better",
+        "Recognizing contributors accurately and sharing credit based on actual work",
+        "Omitting a teammate's name to avoid conflict",
+        "Letting rumors decide who did the work"
+      ],
+      "answer": 1,
+      "explain": "Fair recognition builds trust and integrity by aligning credit with contributions.",
+      "optionExplanations": [
+        "Taking sole credit is dishonest and unfair.",
+        "Accurate credit-sharing reflects fairness and integrity.",
+        "Omitting names erases contributions and is unethical.",
+        "Rumors are not evidence and undermine fairness."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company that uses personal data to target ads to minors without appropriate protections is raising concerns about:",
+      "options": [
+        "Heightened privacy and consent requirements for children",
+        "Inventory shrinkage",
+        "Bond yields",
+        "Trademark dilution"
+      ],
+      "answer": 0,
+      "explain": "Children have additional privacy protections and are less able to give informed consent, so targeting must follow stricter ethical and legal safeguards.",
+      "optionExplanations": [
+        "Children's data requires heightened protections and careful consent mechanisms.",
+        "Inventory shrinkage is theft/loss of stock.",
+        "Bond yields are finance returns.",
+        "Trademark dilution concerns brand marks, not privacy."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}

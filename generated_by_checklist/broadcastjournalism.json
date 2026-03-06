@@ -1,0 +1,1819 @@
+SECTION 1 - SELECTED_EVENT
+
+* Broadcast Journalism
+
+SECTION 2 - NEW_FILE_NAME
+
+* generated_by_checklist/broadcast-journalism_batch_001.json
+
+SECTION 3 - JSON_CONTENT
+{
+"event": "Broadcast Journalism",
+"questions": [
+{
+"q": "A newspaper reduces its number of printed editions per week to save costs. This decision primarily reflects which economic factor?",
+"options": [
+"Production costs",
+"Advertising revenue",
+"Circulation ethics",
+"Syndication rights"
+],
+"answer": 0,
+"explain": "Printing fewer editions is a cost-saving move tied directly to the expense of producing physical newspapers (paper, ink, press time, delivery).",
+"optionExplanations": [
+"Correct: reducing print frequency lowers paper, ink, press, and distribution expenses.",
+"Advertising revenue is income, not the direct cost driver of printing fewer editions.",
+"Circulation ethics relates to journalistic standards, not an economic cost factor.",
+"Syndication rights concern selling content to others, not printing frequency."
+],
+"source": "official-hq"
+},
+{
+"q": "A local TV station offers a special advertising package to local businesses to cover a major festival. This is an example of:",
+"options": [
+"News sponsorship",
+"Branded content",
+"Public service announcement",
+"Editorial independence"
+],
+"answer": 0,
+"explain": "Selling an advertising package tied to coverage of an event is a form of sponsorship, where advertisers financially support content around that event.",
+"optionExplanations": [
+"Correct: the station is offering sponsorship tied to coverage of the festival.",
+"Branded content is advertiser-created or advertiser-influenced storytelling; a package around coverage is more directly sponsorship.",
+"A PSA is a noncommercial message serving the public interest, not a paid package.",
+"Editorial independence is a principle, not a type of advertising deal."
+],
+"source": "official-hq"
+},
+{
+"q": "Which revenue stream is most affected when online readers use ad-blocking software?",
+"options": [
+"Subscription fees",
+"Classified advertising",
+"Digital display ads",
+"Syndication rights"
+],
+"answer": 2,
+"explain": "Ad-blockers primarily prevent ads from being displayed, reducing impressions and clicks that generate digital display advertising revenue.",
+"optionExplanations": [
+"Subscription fees are paid directly by readers and are not blocked by ad software.",
+"Classified ads may exist online, but ad-blockers most directly hit display ad impressions.",
+"Correct: ad-blockers reduce digital display ad views, lowering ad revenue.",
+"Syndication rights involve selling content to other outlets, unrelated to ad display."
+],
+"source": "official-hq"
+},
+{
+"q": "A news outlet's primary source of income from placing another company's stories on their platform comes from:",
+"options": [
+"Subscription royalties",
+"Wire service fees",
+"Syndication revenue",
+"Licensing contracts"
+],
+"answer": 2,
+"explain": "Syndication is distributing or licensing content for other publishers to run; income from that arrangement is syndication revenue.",
+"optionExplanations": [
+"Subscription royalties are not the standard term for paying another company to run stories.",
+"Wire service fees are paid to a wire service for access, not earned by placing others' stories.",
+"Correct: syndication revenue comes from distributing content to other outlets/platforms.",
+"Licensing contracts can be broad, but the specific practice described is syndication."
+],
+"source": "official-hq"
+},
+{
+"q": "When a newspaper partners with a sports team to produce a special supplement, what ethical challenge might arise?",
+"options": [
+"Plagiarism risk",
+"Conflict of interest",
+"Lack of sources",
+"Fair use violation"
+],
+"answer": 1,
+"explain": "Working closely with a sports team on a supplement can create pressure to present the team favorably, creating a conflict between journalism and partnership interests.",
+"optionExplanations": [
+"Plagiarism is using others' work without attribution; partnership does not inherently cause that.",
+"Correct: a partnership can compromise impartial coverage due to shared financial/relationship interests.",
+"Lack of sources is a reporting quality issue, not the main ethical risk of partnering.",
+"Fair use is about copyrighted material; the key concern here is editorial independence/conflict."
+],
+"source": "official-hq"
+},
+{
+"q": "A newsroom faces budget cuts and considers laying off photojournalists while relying on freelancers. Which concern is most relevant?",
+"options": [
+"Reduced editorial independence",
+"Decreased visual consistency",
+"Increased wire service usage",
+"Loss of investigative depth"
+],
+"answer": 1,
+"explain": "Replacing staff photojournalists with many freelancers can lead to inconsistent style, quality, and workflow, reducing visual consistency across coverage.",
+"optionExplanations": [
+"Editorial independence is about freedom from outside influence, not the primary issue in freelancer reliance.",
+"Correct: different freelancers may shoot/edit differently, causing inconsistent visuals and standards.",
+"Wire services provide syndicated content; this decision is about staffing photography.",
+"Investigative depth is more tied to reporting resources than photo staffing."
+],
+"source": "official-hq"
+},
+{
+"q": "Why might a digital news start-up focus on building a niche audience?",
+"options": [
+"To avoid paying licensing fees",
+"To attract targeted advertisers",
+"To reduce legal liability",
+"To bypass copyright laws"
+],
+"answer": 1,
+"explain": "A niche audience can be highly valuable to advertisers because it is well-defined, making targeted ads more effective and easier to sell.",
+"optionExplanations": [
+"Licensing fees relate to using others' content, not building an audience strategy.",
+"Correct: a niche allows targeted advertising and sponsorship aligned to that audience.",
+"Legal liability is not reduced simply by being niche.",
+"Copyright laws still apply regardless of audience focus."
+],
+"source": "official-hq"
+},
+{
+"q": "Paywalls are designed primarily to:",
+"options": [
+"Increase audience size",
+"Generate subscription revenue",
+"Reduce printing costs",
+"Comply with government regulations"
+],
+"answer": 1,
+"explain": "A paywall restricts access to content unless a reader pays, so its primary purpose is to create subscription (or membership) revenue.",
+"optionExplanations": [
+"Paywalls typically reduce casual access, so they do not mainly increase audience size.",
+"Correct: requiring payment converts readers into subscribers and generates direct revenue.",
+"Printing costs apply to physical editions; paywalls apply to digital access.",
+"Paywalls are a business choice, not a government compliance requirement."
+],
+"source": "official-hq"
+},
+{
+"q": "A newspaper offers bundled print and digital subscriptions at a lower price than purchasing separately. This is an example of:",
+"options": [
+"Cross-promotion",
+"Price discrimination",
+"Product bundling",
+"Market segmentation"
+],
+"answer": 2,
+"explain": "Selling print and digital together at a combined price is product bundling: packaging multiple products/services as one offer.",
+"optionExplanations": [
+"Cross-promotion is marketing two products together, but the pricing structure here is bundling.",
+"Price discrimination is charging different prices to different groups; bundling is a specific combined offer.",
+"Correct: the offer combines print and digital into one discounted package.",
+"Market segmentation is dividing customers into groups; bundling is the pricing tactic used."
+],
+"source": "official-hq"
+},
+{
+"q": "What is a potential downside for a news organization that relies heavily on sponsored content?",
+"options": [
+"Loss of audience trust",
+"Increased printing costs",
+"Reduced web traffic",
+"Higher subscription rates"
+],
+"answer": 0,
+"explain": "Sponsored content can blur the line between advertising and journalism; if audiences think coverage is influenced by sponsors, trust can drop.",
+"optionExplanations": [
+"Correct: heavy sponsorship can undermine credibility if audiences perceive bias or hidden advertising.",
+"Printing costs are unrelated to sponsored content on digital or broadcast platforms.",
+"Sponsored content can increase traffic if labeled and promoted; reduced traffic is not the primary downside.",
+"Higher subscription rates are not a typical direct consequence of sponsored content."
+],
+"source": "official-hq"
+},
+{
+"q": "Which headline follows AP Style correctly?",
+"options": [
+"Mayor Announces New Library in the Downtown Area",
+"Mayor announces new library in downtown area",
+"Mayor announces New Library in Downtown area",
+"mayor announces new library in Downtown area"
+],
+"answer": 1,
+"explain": "AP Style capitalizes the first word and proper nouns, but does not capitalize every major word in a headline.",
+"optionExplanations": [
+"This is title case; AP Style headlines typically use sentence case.",
+"Correct: AP Style uses sentence case and avoids unnecessary capitalization.",
+"Capitalizing 'New Library' is not required unless it is a proper name.",
+"Lowercasing the first word and capitalizing 'Downtown' incorrectly breaks AP Style and sentence case."
+],
+"source": "official-hq"
+},
+{
+"q": "In AP Style, which sentence is correct?",
+"options": [
+"She lives at 315 west oak street.",
+"She lives at 315 West Oak Street.",
+"She lives at 315 W. oak street.",
+"She lives at 315 West oak Street."
+],
+"answer": 1,
+"explain": "AP Style capitalizes street names in addresses and uses standard capitalization for proper nouns: '315 West Oak Street.'",
+"optionExplanations": [
+"Street names should be capitalized; 'west oak street' is incorrect capitalization.",
+"Correct: 'West Oak Street' is properly capitalized in an address.",
+"If abbreviating direction, it should be 'W.' but 'oak' should still be capitalized; this option is inconsistent.",
+"Proper nouns should be consistently capitalized; 'oak' should be 'Oak'."
+],
+"source": "official-hq"
+},
+{
+"q": "Which sentence uses the correct past tense form for "broadcast"?",
+"options": [
+"The station broadcasted the show live.",
+"The station broadcasts the show live.",
+"The station broadcast the show live.",
+"The station has broadcasted the show live."
+],
+"answer": 2,
+"explain": "In standard usage, the past tense of 'broadcast' is 'broadcast' (not 'broadcasted') in AP Style and common journalistic writing.",
+"optionExplanations": [
+"'Broadcasted' is generally avoided in news style for the simple past of broadcast.",
+"This is present tense ('broadcasts'), not past tense.",
+"Correct: 'broadcast' is the accepted past tense form in journalistic style.",
+"'Has broadcasted' is also generally avoided; 'has broadcast' is preferred."
+],
+"source": "official-hq"
+},
+{
+"q": "Which is the correct way to abbreviate "Avenue" in an address according to AP Style?",
+"options": [
+"Ave.",
+"Av.",
+"Avn.",
+"Ave"
+],
+"answer": 0,
+"explain": "In AP Style, 'Avenue' is abbreviated as 'Ave.' when used with a numbered address.",
+"optionExplanations": [
+"Correct: AP Style uses 'Ave.' (along with 'St.' and 'Blvd.') in numbered addresses.",
+"'Av.' is not the AP Style abbreviation.",
+"'Avn.' is not used in AP Style.",
+"'Ave' without the period is not the standard AP Style abbreviation."
+],
+"source": "official-hq"
+},
+{
+"q": "In AP Style, how should numbers 10 and above be written in text?",
+"options": [
+"As numerals",
+"As words",
+"Either words or numerals",
+"Roman numerals"
+],
+"answer": 0,
+"explain": "AP Style generally uses numerals for 10 and above (and spells out one through nine, with some exceptions).",
+"optionExplanations": [
+"Correct: numbers 10+ are typically written as numerals in AP Style.",
+"Words are generally used for one through nine, not 10 and above.",
+"AP Style is not optional here; it specifies numerals for 10+ in most cases.",
+"Roman numerals are used in limited contexts (e.g., Super Bowl), not general numbers."
+],
+"source": "official-hq"
+},
+{
+"q": "Which writing structure places the most important facts at the beginning of a news story?",
+"options": [
+"Inverted pyramid",
+"Chronological narrative",
+"Anecdotal lead",
+"Stream-of-consciousness"
+],
+"answer": 0,
+"explain": "The inverted pyramid front-loads key facts (who, what, when, where, why, how) so audiences get the essentials first.",
+"optionExplanations": [
+"Correct: inverted pyramid starts with the most newsworthy information.",
+"Chronological narrative tells events in time order and may delay key facts.",
+"An anecdotal lead starts with a story but is not a full structure.",
+"Stream-of-consciousness is not a standard news structure."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In broadcast scripts, what does 'VO' most commonly stand for?",
+"options": [
+"Voice over",
+"Video only",
+"Verified output",
+"Visual overlay"
+],
+"answer": 0,
+"explain": "VO indicates the anchor or reporter is speaking while related video plays.",
+"optionExplanations": [
+"Correct: VO is narration over video.",
+"Video only is usually 'V/O' is not; 'VO' is voice over, while 'VO/SOT' combines.",
+"Verified output is not a newsroom script term.",
+"Visual overlay refers to graphics, not narration."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What does 'SOT' indicate in a broadcast rundown?",
+"options": [
+"Sound on tape",
+"Statement of truth",
+"Shot on tripod",
+"Streamed over the top"
+],
+"answer": 0,
+"explain": "SOT refers to a recorded clip with natural sound or an interview bite that will be played in the story.",
+"optionExplanations": [
+"Correct: SOT is an audio/video bite used in a package.",
+"Statement of truth is not a standard broadcast term.",
+"Shot on tripod describes a camera setup, not a clip type.",
+"OTT refers to streaming delivery, not a clip label."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A 'nat sound' or 'NATSOT' in a TV package primarily captures:",
+"options": [
+"Natural ambient sound from the scene",
+"Only the reporter's narration",
+"Studio music beds",
+"Closed-caption text"
+],
+"answer": 0,
+"explain": "Natural sound helps viewers feel present by using real audio from the location (crowd noise, machinery, etc.).",
+"optionExplanations": [
+"Correct: nat sound is the real audio environment of the scene.",
+"Reporter narration is usually VO or track, not nat sound.",
+"Music beds are added in post and are not nat sound.",
+"Closed captions are text, not audio."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which microphone type is typically best for capturing focused dialogue from several feet away in the field?",
+"options": [
+"Shotgun microphone",
+"Omnidirectional lavalier",
+"Built-in camera mic",
+"Contact microphone"
+],
+"answer": 0,
+"explain": "A shotgun mic has a narrow pickup pattern that rejects side noise and isolates the subject at a distance.",
+"optionExplanations": [
+"Correct: shotgun mics are designed for directional pickup at distance.",
+"Omnidirectional lavs pick up in all directions and are usually worn on a person.",
+"Built-in mics are convenient but typically lower quality and more noisy.",
+"Contact mics capture vibrations through surfaces, not air dialogue."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In U.S. defamation law, spoken defamation is generally called:",
+"options": [
+"Libel",
+"Slander",
+"Privilege",
+"Plagiarism"
+],
+"answer": 1,
+"explain": "Libel is typically written/recorded defamation; slander is spoken defamation.",
+"optionExplanations": [
+"Libel is defamation in written or published form (including many recordings).",
+"Correct: slander refers to spoken defamation.",
+"Privilege is a legal protection in certain contexts (e.g., court proceedings).",
+"Plagiarism is using someone else's work without attribution, not defamation."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "For a public official to win a libel lawsuit in the U.S., they generally must prove:",
+"options": [
+"Negligence",
+"Actual malice",
+"Strict liability",
+"Prior restraint"
+],
+"answer": 1,
+"explain": "Under the 'actual malice' standard, a public official must show the statement was made knowing it was false or with reckless disregard for truth.",
+"optionExplanations": [
+"Negligence is a lower standard often used for private figures in some cases.",
+"Correct: actual malice is required for public officials/public figures in many U.S. cases.",
+"Strict liability does not apply to defamation in this way.",
+"Prior restraint is a restriction on publication, not the defamation proof standard."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which term describes a formal government action that stops publication before it happens?",
+"options": [
+"Prior restraint",
+"Fair use",
+"Shield law",
+"Attribution"
+],
+"answer": 0,
+"explain": "Prior restraint refers to government censorship that prevents speech or publication in advance.",
+"optionExplanations": [
+"Correct: prior restraint is stopping publication beforehand.",
+"Fair use is a copyright doctrine allowing limited use without permission.",
+"Shield laws protect journalists from being forced to reveal sources in some jurisdictions.",
+"Attribution is naming the source of information."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "When verifying a photo posted on social media, which technique directly checks whether the image appeared earlier elsewhere?",
+"options": [
+"Reverse image search",
+"White balance",
+"Keyframing",
+"Color grading"
+],
+"answer": 0,
+"explain": "Reverse image search can reveal earlier postings or the original source of an image.",
+"optionExplanations": [
+"Correct: reverse image search helps find prior instances and sources.",
+"White balance corrects color temperature in video/photo capture.",
+"Keyframing is an editing technique to animate changes over time.",
+"Color grading adjusts the overall look, not authenticity."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A standard practice to reduce wind noise on an outdoor microphone is to use a:",
+"options": [
+"Pop filter",
+"Windscreen/deadcat",
+"Diffuser",
+"Matte box"
+],
+"answer": 1,
+"explain": "A foam windscreen or furry 'deadcat' reduces air turbulence hitting the mic capsule.",
+"optionExplanations": [
+"A pop filter mainly reduces plosives in studio speech, not strong wind.",
+"Correct: windscreen/deadcat is designed to cut wind rumble outdoors.",
+"A diffuser softens light, not sound.",
+"A matte box blocks lens flare and holds filters, not audio control."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In video, 'B-roll' refers to:",
+"options": [
+"The primary interview footage",
+"Supplemental footage that covers and illustrates the story",
+"A storyboard template",
+"A live satellite feed"
+],
+"answer": 1,
+"explain": "B-roll is secondary footage used to visually support narration or interviews (e.g., location shots, actions).",
+"optionExplanations": [
+"Primary interview footage is usually the A-roll.",
+"Correct: B-roll is supporting footage used for cutaways and visuals.",
+"A storyboard is a planning tool, not footage.",
+"A live satellite feed is a transmission method, not a shot type."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a TV newscast control room, who typically calls the shots and cues the production?",
+"options": [
+"Technical director",
+"Producer",
+"Director",
+"Floor manager"
+],
+"answer": 2,
+"explain": "The director coordinates the live production, calling camera changes and cues to the crew.",
+"optionExplanations": [
+"Technical director (TD) executes switcher operations, often following the director's calls.",
+"Producer shapes editorial content and timing but does not usually call camera shots live.",
+"Correct: the director calls shots and cues during a live newscast.",
+"Floor manager relays cues to on-air talent in the studio."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is the primary purpose of closed captions in broadcast content?",
+"options": [
+"Improve video resolution",
+"Provide on-screen text of spoken audio for accessibility",
+"Replace music beds",
+"Encrypt the signal"
+],
+"answer": 1,
+"explain": "Closed captions provide a text representation of dialogue and important sounds, aiding viewers who are deaf or hard of hearing and supporting comprehension.",
+"optionExplanations": [
+"Resolution is about image detail, not captions.",
+"Correct: captions provide accessible text of speech and sounds.",
+"Captions do not replace music beds; they coexist with audio.",
+"Encryption concerns signal security, not accessibility."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which sentence best matches typical broadcast writing style?",
+"options": [
+"The municipal government, in a decisive action, has implemented a comprehensive ordinance.",
+"City leaders passed a new rule tonight. It changes how trash is picked up.",
+"The aforementioned stakeholders convened to deliberate upon policy.",
+"Consequently, the ordinance will, in a multiplicity of ways, impact residents."
+],
+"answer": 1,
+"explain": "Broadcast writing favors short, clear sentences and simple words that sound natural when read aloud.",
+"optionExplanations": [
+"Option 0 uses complex, formal wording not suited to spoken delivery.",
+"Correct: simple, conversational sentences work best on-air.",
+"Option 2 is overly formal and abstract.",
+"Option 3 is wordy and vague for broadcast delivery."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which camera setting primarily controls exposure by changing how much light passes through the lens?",
+"options": [
+"Aperture (f-stop)",
+"Frame rate",
+"White balance",
+"Codec"
+],
+"answer": 0,
+"explain": "Aperture adjusts the lens opening size (f-stop), changing light intake and depth of field.",
+"optionExplanations": [
+"Correct: aperture directly controls light through the lens.",
+"Frame rate controls frames per second, not exposure.",
+"White balance controls color temperature, not brightness.",
+"Codec controls compression/encoding, not exposure."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "If you double the frame rate from 30 fps to 60 fps, a common benefit is:",
+"options": [
+"Less motion blur and smoother motion playback",
+"Higher audio bitrate",
+"More accurate white balance",
+"Stronger wireless signal"
+],
+"answer": 0,
+"explain": "Higher frame rates can make motion look smoother and reduce motion blur, especially for fast action or slow-motion workflows.",
+"optionExplanations": [
+"Correct: higher fps yields smoother motion and supports slow motion.",
+"Audio bitrate is independent of video frame rate.",
+"White balance is a color setting, not linked to fps.",
+"Wireless signal strength is unrelated."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a live TV hit, an IFB is primarily used to:",
+"options": [
+"Send video from the field to the studio",
+"Feed the talent audio cues from the control room",
+"Stabilize the camera",
+"Generate automatic captions"
+],
+"answer": 1,
+"explain": "IFB (interruptible foldback) lets an anchor/reporter hear the producer/director and program audio in an earpiece.",
+"optionExplanations": [
+"Video backhaul is handled by microwave, cellular bonding, satellite, etc., not IFB.",
+"Correct: IFB is the audio return/cue system to talent.",
+"Stabilization is a camera/rig function.",
+"Captioning uses transcription systems, not IFB."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which newsroom role typically assigns stories and dispatches crews based on developing news?",
+"options": [
+"Assignment editor",
+"Chyron operator",
+"Sound mixer",
+"Floor director"
+],
+"answer": 0,
+"explain": "The assignment editor tracks breaking news, manages crews, and assigns coverage priorities.",
+"optionExplanations": [
+"Correct: assignment editors coordinate coverage and send crews.",
+"Chyron operators handle on-screen graphics.",
+"Sound mixers manage audio levels during production.",
+"Floor directors coordinate studio floor cues."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following best describes 'copy editing' in journalism?",
+"options": [
+"Designing page layouts",
+"Checking grammar, style, clarity, and factual consistency before publication",
+"Filming B-roll footage",
+"Negotiating ad rates"
+],
+"answer": 1,
+"explain": "Copy editing focuses on improving accuracy, clarity, grammar, and adherence to style (e.g., AP Style).",
+"optionExplanations": [
+"Layout is primarily a design function.",
+"Correct: copy editors polish and verify text for publication standards.",
+"Filming is a field production task, not copy editing.",
+"Ad rates are part of sales/marketing, not editorial editing."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What does 'attribution' mean in a news story?",
+"options": [
+"Using anonymous quotes only",
+"Clearly identifying the source of information",
+"Adding background music",
+"Publishing without edits"
+],
+"answer": 1,
+"explain": "Attribution tells audiences where information came from (e.g., 'police said,' 'according to court records').",
+"optionExplanations": [
+"Anonymous quotes may be used, but attribution is broader than anonymity.",
+"Correct: attribution identifies sources for facts/claims.",
+"Music is a production element, not attribution.",
+"Publishing without edits is unrelated."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which term describes an agreement not to publish information until a specified time?",
+"options": [
+"Embargo",
+"Retraction",
+"Scoop",
+"Plagiarism"
+],
+"answer": 0,
+"explain": "An embargo is a timed release agreement; journalists can prepare coverage but publish only after the embargo lifts.",
+"optionExplanations": [
+"Correct: embargo means do not publish before the set time.",
+"A retraction is a formal withdrawal/correction of published content.",
+"A scoop is being first to report, not a timed restriction.",
+"Plagiarism is uncredited copying."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In reporting, information shared 'off the record' generally means:",
+"options": [
+"It can be quoted with the source's name",
+"It can be quoted without naming the source",
+"It cannot be published or directly used as a quote",
+"It must be posted on social media first"
+],
+"answer": 2,
+"explain": "Off the record information is not for publication; it may guide reporting but should not be quoted or attributed directly.",
+"optionExplanations": [
+"On the record allows quoting and attribution.",
+"On background may allow use without full attribution, but that's different.",
+"Correct: off the record is not publishable as a quote.",
+"Social media posting is not part of the definition."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is the best example of a 'lede' (lead) in a news script?",
+"options": [
+"In today's society, issues arise that affect many people in different ways.",
+"Three people were hurt when a bus crashed into a storefront downtown this morning.",
+"This story will explore the complexities of transportation policy.",
+"It is important to note that accidents can happen anywhere."
+],
+"answer": 1,
+"explain": "A lede summarizes the key news in a compelling first sentence, not vague generalities.",
+"optionExplanations": [
+"Option 0 is vague and opinion-like.",
+"Correct: this gives a specific, timely, newsworthy summary.",
+"Option 2 is a meta-commentary, not a lead.",
+"Option 3 is generic and non-informative."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In broadcast writing, the 'KISS' principle usually stands for:",
+"options": [
+"Keep It Short and Specific",
+"Keep It Simple, Stupid",
+"Keep It Structured and Sourced",
+"Keep It Smooth and Steady"
+],
+"answer": 1,
+"explain": "KISS in broadcast commonly means keep language simple and easy to understand when heard once.",
+"optionExplanations": [
+"Option 0 is good advice but not the common expansion.",
+"Correct: 'Keep It Simple, Stupid' is the widely cited phrase.",
+"Option 2 is not the standard meaning.",
+"Option 3 is not a standard newsroom phrase."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A 'chyron' most directly refers to:",
+"options": [
+"A type of camera lens",
+"On-screen lower-third graphics text",
+"A satellite truck",
+"A lighting modifier"
+],
+"answer": 1,
+"explain": "A chyron is the graphic text overlay used on TV, often for names, titles, and breaking news banners.",
+"optionExplanations": [
+"A lens is optical glass; chyron is not hardware.",
+"Correct: chyron is an on-screen graphics overlay, often a lower third.",
+"A satellite truck is used for transmission, not graphics.",
+"Lighting modifiers shape light, not text."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a TV package, what is the reporter's recorded narration track typically called?",
+"options": [
+"Track",
+"Slug",
+"Standup",
+"Toss"
+],
+"answer": 0,
+"explain": "The 'track' is the reporter's scripted narration recorded to accompany video in a package.",
+"optionExplanations": [
+"Correct: track is the narrated audio bed for the package.",
+"A slug is a short label used in rundowns/scripts to identify a story.",
+"A standup is an on-camera appearance by the reporter, not the narration bed itself.",
+"A toss is when an anchor hands off to another anchor/reporter."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A standup in a broadcast story is:",
+"options": [
+"A live interview segment",
+"A reporter appearing on camera delivering lines",
+"A graphics-only segment",
+"A microphone windscreen"
+],
+"answer": 1,
+"explain": "A standup is when the reporter is on camera (often at the scene) speaking to the audience.",
+"optionExplanations": [
+"A live interview is a separate format (often two-ways).",
+"Correct: standup is the reporter on camera delivering part of the story.",
+"Graphics-only segments are usually VO with graphics or full-screen elements.",
+"A windscreen is an audio accessory."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which is the best practice for minimizing background noise when recording an interview in a busy location?",
+"options": [
+"Place the mic as close as practical to the speaker",
+"Boost gain as high as possible",
+"Record only with the camera's built-in mic",
+"Stand farther away to avoid being in the shot"
+],
+"answer": 0,
+"explain": "Close mic placement improves the signal-to-noise ratio so the speaker is much louder than background noise.",
+"optionExplanations": [
+"Correct: closer mic placement reduces relative background noise.",
+"High gain increases both voice and noise and can introduce distortion.",
+"Built-in mics are typically farther from the speaker and pick up more ambient noise.",
+"Standing farther away worsens audio and makes the voice quieter relative to noise."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In digital video, a 'codec' is best described as:",
+"options": [
+"A file naming convention",
+"A method for compressing and encoding audio/video",
+"A camera stabilization device",
+"A newsroom job title"
+],
+"answer": 1,
+"explain": "A codec (coder-decoder) encodes and decodes media, affecting quality, file size, and compatibility.",
+"optionExplanations": [
+"File naming conventions are unrelated to compression algorithms.",
+"Correct: codecs compress/encode media (e.g., H.264, HEVC).",
+"Stabilization devices are hardware like gimbals.",
+"Job titles are unrelated."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which video resolution is commonly referred to as '1080p'?",
+"options": [
+"1920x1080",
+"1280x720",
+"3840x2160",
+"720x480"
+],
+"answer": 0,
+"explain": "1080p denotes 1920 pixels wide by 1080 pixels tall with progressive scan.",
+"optionExplanations": [
+"Correct: 1920x1080 is Full HD (1080p).",
+"1280x720 is 720p (HD).",
+"3840x2160 is 4K UHD.",
+"720x480 is SD (DVD/NTSC)."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a newsroom rundown, a 'slug' is typically:",
+"options": [
+"A slow-motion shot",
+"A short label used to identify a story",
+"A video compression artifact",
+"A type of microphone connector"
+],
+"answer": 1,
+"explain": "A slug is a brief identifier for a story or segment used in scripts and rundowns.",
+"optionExplanations": [
+"Slow-motion is a shooting/editing effect, not a rundown term.",
+"Correct: slugs label stories for quick reference.",
+"Compression artifacts are visual issues, not labels.",
+"Microphone connectors include XLR, not 'slug'."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which term refers to reporting that relies primarily on documents like court records, budgets, and filings rather than interviews?",
+"options": [
+"Document-based reporting",
+"Gonzo journalism",
+"Native advertising",
+"Satire"
+],
+"answer": 0,
+"explain": "Document-based reporting uses primary documents to verify facts and provide evidence.",
+"optionExplanations": [
+"Correct: documents are the core source material in this approach.",
+"Gonzo journalism is a subjective, first-person style.",
+"Native advertising is paid content designed to resemble editorial content.",
+"Satire is humor/parody, not evidence-based reporting."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "To avoid plagiarism, a journalist should primarily:",
+"options": [
+"Copy and paste but change a few words",
+"Attribute ideas and quotes to their original sources and use quotation marks for exact wording",
+"Only use anonymous sources",
+"Avoid writing leads"
+],
+"answer": 1,
+"explain": "Plagiarism is avoided by proper attribution and clear quotation/paraphrasing practices.",
+"optionExplanations": [
+"Minor wording changes without attribution can still be plagiarism.",
+"Correct: attribute sources and quote exact language properly.",
+"Anonymous sources do not prevent plagiarism.",
+"Leads are unrelated to plagiarism."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which statement about corrections is most consistent with journalism ethics?",
+"options": [
+"Never correct errors to avoid drawing attention",
+"Correct errors promptly and transparently",
+"Delete the story without explanation",
+"Only correct if a lawyer demands it"
+],
+"answer": 1,
+"explain": "Ethical outlets correct mistakes quickly and clearly so audiences have accurate information.",
+"optionExplanations": [
+"Avoiding corrections harms trust and accuracy.",
+"Correct: prompt, transparent corrections maintain credibility.",
+"Deleting without explanation removes accountability.",
+"Waiting for legal pressure is unethical and delays accuracy."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What does 'FOIA' stand for in the United States?",
+"options": [
+"Federal Office of Investigative Affairs",
+"Freedom of Information Act",
+"Forum of Internet Accountability",
+"First Order Information Agreement"
+],
+"answer": 1,
+"explain": "FOIA is the Freedom of Information Act, a law that allows the public to request certain government records.",
+"optionExplanations": [
+"Not a real federal office name.",
+"Correct: Freedom of Information Act.",
+"Not a standard term.",
+"Not a real term."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In broadcast, a 'two-way' most commonly refers to:",
+"options": [
+"A live exchange between an anchor and a reporter",
+"A stereo audio mix",
+"A camera with two lenses",
+"A script with two leads"
+],
+"answer": 0,
+"explain": "A two-way is a live back-and-forth between studio talent and a field reporter (or correspondent).",
+"optionExplanations": [
+"A two-way is a live back-and-forth between studio and field.",
+"Stereo mixing is about audio channels, not format.",
+"Two lenses describes 3D/dual-camera rigs, not newsroom format.",
+"A script can have multiple angles, but 'two-way' is a live segment type."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of these is a primary goal of a news 'tease'?",
+"options": [
+"Provide the full story immediately",
+"Encourage viewers to stay through the break by previewing what's next",
+"Replace the need for a lead",
+"Increase the station's transmitter power"
+],
+"answer": 1,
+"explain": "A tease is a short preview that hints at upcoming stories to retain audience attention.",
+"optionExplanations": [
+"Teases are brief and do not deliver full detail.",
+"Correct: teases keep viewers engaged through transitions/breaks.",
+"A lead starts a story; a tease is promotional.",
+"Transmitter power is engineering, not editorial."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which social media practice most helps confirm a source's identity in breaking news?",
+"options": [
+"Relying on their follower count",
+"Cross-checking their account history and verifying with independent contact or official records",
+"Sharing without verification to be first",
+"Using only screenshots as proof"
+],
+"answer": 1,
+"explain": "Verification includes examining posting history and confirming identity through independent channels or documentation.",
+"optionExplanations": [
+"Follower count can be purchased and is not reliable proof.",
+"Correct: triangulate identity with independent verification.",
+"Speed without verification increases misinformation risk.",
+"Screenshots can be altered and are not sufficient alone."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "For clean dialogue, what audio level target is commonly used in digital production to avoid clipping while staying strong?",
+"options": [
+"Peaks around -12 dBFS (approximate)",
+"Peaks at 0 dBFS constantly",
+"Peaks at +6 dBFS",
+"Peaks at -60 dBFS"
+],
+"answer": 0,
+"explain": "Keeping peaks around -12 dBFS (and not near 0 dBFS) leaves headroom to prevent distortion while maintaining usable loudness.",
+"optionExplanations": [
+"Correct: -12 dBFS peaks is a common field guideline for headroom.",
+"0 dBFS is the digital ceiling; hitting it risks clipping.",
+"+6 dBFS is impossible in standard digital full scale; it implies clipping/over.",
+"-60 dBFS is extremely quiet and would be noisy when amplified."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is the main purpose of white balancing a camera?",
+"options": [
+"Correct color temperature so whites look neutral under the lighting",
+"Increase audio clarity",
+"Stabilize shaky footage",
+"Reduce file size"
+],
+"answer": 0,
+"explain": "White balance adjusts the camera's color rendering so neutral objects appear neutral under different light sources.",
+"optionExplanations": [
+"Correct: it fixes color cast from lighting conditions.",
+"Audio clarity is handled by microphones and mixing.",
+"Stabilization is mechanical/electronic, not white balance.",
+"File size is determined by codec/bitrate, not white balance."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is most likely to be considered a conflict of interest for a reporter?",
+"options": [
+"Covering a story about a company where they own significant stock",
+"Interviewing multiple sources on a topic",
+"Using a tripod for steady shots",
+"Writing in short sentences"
+],
+"answer": 0,
+"explain": "Financial stakes can bias or appear to bias coverage, so reporters should disclose or avoid such assignments.",
+"optionExplanations": [
+"Correct: owning stock in a subject company creates a financial conflict.",
+"Multiple sources improve balance and accuracy.",
+"Tripods are a technical choice, not an ethical issue.",
+"Short sentences are a style choice."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In an emergency alert on U.S. broadcast systems, the EAS primarily exists to:",
+"options": [
+"Play commercials automatically",
+"Distribute urgent public warnings through broadcasters and other channels",
+"Improve video quality",
+"Encrypt station signals"
+],
+"answer": 1,
+"explain": "The Emergency Alert System (EAS) is designed to deliver urgent warnings (weather, civil emergencies) to the public via broadcasters and other outlets.",
+"optionExplanations": [
+"Commercial automation is unrelated.",
+"Correct: EAS is for emergency public warnings.",
+"Video quality is unrelated.",
+"Encryption is unrelated."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What does 'ENG' stand for in broadcast newsgathering?",
+"options": [
+"Electronic News Gathering",
+"Editorial News Graphics",
+"Emergency Network Gateway",
+"External Narrative Guide"
+],
+"answer": 0,
+"explain": "ENG refers to field acquisition of news using electronic equipment (cameras, mics, transmitters).",
+"optionExplanations": [
+"Correct: ENG is Electronic News Gathering.",
+"Graphics is a different department/function.",
+"Not a standard term.",
+"Not a standard term."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A 'live shot' is best defined as:",
+"options": [
+"A pre-recorded interview",
+"Real-time reporting from a location for immediate broadcast",
+"A slow-motion sports clip",
+"A still photo used on air"
+],
+"answer": 1,
+"explain": "A live shot is transmitted in real time from the field to the studio/newscast.",
+"optionExplanations": [
+"Pre-recorded interviews are not live.",
+"Correct: live shots are real-time field reports.",
+"Slow motion is an editing effect, not a transmission state.",
+"Still photos can be used, but they are not 'live shots'."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which piece of equipment is commonly used to stabilize a handheld camera while walking for video?",
+"options": [
+"Gimbal stabilizer",
+"Teleprompter",
+"Audio compressor",
+"Color chart"
+],
+"answer": 0,
+"explain": "A gimbal uses motors and sensors to smooth camera movement during motion.",
+"optionExplanations": [
+"Correct: gimbals stabilize motion for smooth walking shots.",
+"Teleprompters display scripts for talent.",
+"Audio compressors control dynamic range, not camera shake.",
+"Color charts help with color correction, not stabilization."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In broadcast production, 'blocking' refers to:",
+"options": [
+"Choosing which stories to air",
+"Planning where talent and cameras move/stand in the studio or scene",
+"Compressing a video file",
+"Removing profanity from audio"
+],
+"answer": 1,
+"explain": "Blocking is the planned movement and positioning of people and cameras for a shot.",
+"optionExplanations": [
+"Story selection is editorial rundown planning, not blocking.",
+"Correct: blocking is staging and movement planning.",
+"Compression is encoding, not blocking.",
+"Profanity removal is audio editing/standards."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which term describes the on-screen graphic bar that usually shows a person's name and title?",
+"options": [
+"Lower third",
+"Overcrank",
+"Key light",
+"Hard cut"
+],
+"answer": 0,
+"explain": "A lower third is a graphic placed in the lower portion of the screen with names, titles, and context.",
+"optionExplanations": [
+"Correct: lower third identifies people/topics on screen.",
+"Overcrank is filming at higher frame rates for slow motion.",
+"Key light is the main light in a lighting setup.",
+"A hard cut is a type of edit transition."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a typical three-point lighting setup, the light that fills in shadows created by the key light is the:",
+"options": [
+"Back light",
+"Fill light",
+"Practical light",
+"Spotlight"
+],
+"answer": 1,
+"explain": "The fill light softens shadows and reduces contrast for a balanced look.",
+"optionExplanations": [
+"Back light separates the subject from the background.",
+"Correct: fill light reduces harsh shadows from the key.",
+"Practical light is a visible source in the scene (lamp, etc.).",
+"Spotlight is a general term, not the three-point role."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which newsroom metric most directly measures the percentage of TVs in use that are tuned to a program?",
+"options": [
+"Share",
+"CPM",
+"Bounce rate",
+"Engagement rate"
+],
+"answer": 0,
+"explain": "Share is the percent of TVs that are on that are watching a specific program at that time.",
+"optionExplanations": [
+"Correct: share measures proportion of TVs-in-use tuned to the program.",
+"CPM is cost per thousand ad impressions, an advertising metric.",
+"Bounce rate is a web analytics metric.",
+"Engagement rate is a social/digital metric, not TV share."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is an example of a primary source?",
+"options": [
+"A reporter's analysis article",
+"A court filing",
+"A recap blog post",
+"A social media meme"
+],
+"answer": 1,
+"explain": "Primary sources are original documents or direct evidence, like official records and firsthand accounts.",
+"optionExplanations": [
+"Analysis is secondary interpretation.",
+"Correct: a court filing is an original legal document.",
+"A recap is secondary reporting.",
+"A meme is not reliable primary evidence."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A 'hard out' in a broadcast rundown means:",
+"options": [
+"The segment can run long if needed",
+"There is a fixed time the segment must end (often for a commercial break)",
+"The audio must be muted",
+"The camera must cut to black"
+],
+"answer": 1,
+"explain": "A hard out is a non-negotiable end time due to network breaks, commercials, or scheduled joins.",
+"optionExplanations": [
+"Running long conflicts with the concept of a hard out.",
+"Correct: hard out is a fixed end time.",
+"Muting audio is not implied.",
+"Cutting to black is not implied."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which practice best reduces the risk of publishing misinformation during breaking news?",
+"options": [
+"Publish first and correct later",
+"Use one unverified source if they seem confident",
+"Confirm key facts with at least two independent, reliable sources before stating them as fact",
+"Avoid using any official sources"
+],
+"answer": 2,
+"explain": "Verification through independent confirmation reduces error and misinformation, especially in fast-moving situations.",
+"optionExplanations": [
+"Publishing first increases error risk and can spread falsehoods widely.",
+"Confidence is not evidence; unverified single sources are risky.",
+"Correct: independent confirmation before declaring facts is a core verification practice.",
+"Avoiding official sources removes valuable verifiable information."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In video editing, a 'jump cut' is:",
+"options": [
+"A cut that creates a noticeable jump in time or position within the same shot",
+"A smooth dissolve transition",
+"A camera pan",
+"A type of microphone"
+],
+"answer": 0,
+"explain": "Jump cuts are abrupt edits within a continuous shot that make movement/time shifts obvious.",
+"optionExplanations": [
+"Correct: jump cuts create discontinuity within the same framing.",
+"Dissolves are gradual transitions, not jump cuts.",
+"A pan is a camera movement, not an edit type.",
+"Microphones are not edit types."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which file format is most commonly used for delivering broadcast-quality video masters due to wide support?",
+"options": [
+"MOV or MXF (depending on workflow)",
+"TXT",
+"CSV",
+"GIF"
+],
+"answer": 0,
+"explain": "Professional video delivery often uses container formats like MOV or MXF that support high-quality codecs and metadata.",
+"optionExplanations": [
+"Correct: MOV/MXF are common professional delivery containers.",
+"TXT is plain text, not video.",
+"CSV is tabular data, not video.",
+"GIF is limited-color animation, not broadcast mastering."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In newsroom ethics, accepting a significant gift from a source is generally problematic because it can:",
+"options": [
+"Increase camera battery life",
+"Create a perception of bias or influence",
+"Improve caption accuracy",
+"Reduce editing time"
+],
+"answer": 1,
+"explain": "Gifts can compromise independence or create the appearance of favorable coverage in exchange for benefits.",
+"optionExplanations": [
+"Battery life is unrelated.",
+"Correct: gifts can bias coverage or appear to do so.",
+"Captions depend on transcription, not gifts.",
+"Editing time is unrelated."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "When recording an interview, which is the best practice regarding room tone?",
+"options": [
+"Record a short segment of ambient sound at the location for smoother audio edits",
+"Never record ambient sound to keep files small",
+"Replace all audio with music",
+"Record only in slow motion"
+],
+"answer": 0,
+"explain": "Room tone helps editors hide audio cuts and maintain natural continuity in the sound bed.",
+"optionExplanations": [
+"Correct: capturing room tone supports seamless audio editing.",
+"File size is a minor concern compared to edit flexibility.",
+"Replacing all audio removes important natural sound and intelligibility.",
+"Slow motion is a video technique, not an audio practice."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a satellite or cellular live transmission setup, the outgoing video feed from the field to the station is often called:",
+"options": [
+"Return audio",
+"Backhaul",
+"Telecine",
+"Loop"
+],
+"answer": 1,
+"explain": "Backhaul refers to sending the signal from the remote location back to the studio/control room.",
+"optionExplanations": [
+"Return audio is the audio coming back to the field (e.g., IFB/program).",
+"Correct: backhaul is the transmission path to the station.",
+"Telecine is film-to-video transfer.",
+"Loop is repeated playback, not transmission."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following best describes 'media bias' in news coverage?",
+"options": [
+"Any story that includes quotes",
+"Systematic favoritism or unfair framing that skews how information is presented",
+"Using video instead of text",
+"Publishing corrections"
+],
+"answer": 1,
+"explain": "Bias can appear through selection, framing, language, or sourcing that consistently favors one side or viewpoint.",
+"optionExplanations": [
+"Quotes alone do not imply bias; it depends on selection and context.",
+"Correct: bias is systematic skew in presentation or framing.",
+"Using video is a format choice, not bias.",
+"Corrections are a transparency practice, not bias."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which is the best example of a neutral, attribution-based sentence in a breaking news update?",
+"options": [
+"The mayor lied about the incident.",
+"Police said they are investigating reports of a shooting near Main Street.",
+"Everyone knows the suspect is guilty.",
+"This is the worst thing to happen here."
+],
+"answer": 1,
+"explain": "Neutral language with attribution reports what is known without asserting conclusions or opinions.",
+"optionExplanations": [
+"Accusations like 'lied' are opinionated without proof.",
+"Correct: it attributes the claim and states the limited known facts.",
+"Declaring guilt is inappropriate and potentially defamatory.",
+"Value judgments are opinion, not reporting."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In broadcast writing, why are contractions often used?",
+"options": [
+"They sound more natural and conversational when read aloud",
+"They are required by FCC rules",
+"They make captions inaccurate",
+"They reduce video bitrate"
+],
+"answer": 0,
+"explain": "Contractions match how people speak and improve readability on-air.",
+"optionExplanations": [
+"Correct: contractions sound natural in spoken delivery.",
+"FCC rules do not require contractions.",
+"Captions can represent contractions accurately.",
+"Bitrate is unrelated to script wording."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of these is a common purpose of a 'graphics package' in a newscast?",
+"options": [
+"Provide consistent visual branding and information display (lower thirds, bugs, wipes)",
+"Replace the need for reporting",
+"Increase microphone sensitivity",
+"Encrypt the broadcast signal"
+],
+"answer": 0,
+"explain": "Graphics packages standardize on-screen look and help communicate information clearly and consistently.",
+"optionExplanations": [
+"Correct: graphics package provides consistent visuals and branding elements.",
+"Reporting is still needed; graphics support it.",
+"Microphone sensitivity is audio hardware.",
+"Encryption is a transmission/engineering issue."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What does the on-screen station logo (often in a corner) typically called in TV graphics?",
+"options": [
+"Bug",
+"Slug",
+"Deck",
+"Splice"
+],
+"answer": 0,
+"explain": "A 'bug' is the persistent station logo or identifier displayed on screen.",
+"optionExplanations": [
+"Correct: bug refers to the on-screen logo/identifier.",
+"Slug is a story label in a rundown.",
+"Deck is a subhead in print journalism.",
+"Splice is an edit join in audio/video."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a newsroom, a 'beat' is:",
+"options": [
+"A recurring area of coverage assigned to a reporter (e.g., schools, courts)",
+"A music track used under VO",
+"A camera movement",
+"A live transmission truck"
+],
+"answer": 0,
+"explain": "A beat is a topic/area a reporter covers regularly, building expertise and sources.",
+"optionExplanations": [
+"Correct: beat is a coverage assignment area.",
+"Music beds are production elements, not beats.",
+"Camera movements include pans/tilts, not beats.",
+"Transmission trucks are SNG/satellite vehicles."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is the primary purpose of a teleprompter in a studio newscast?",
+"options": [
+"Display scripted text for anchors to read while looking at the camera",
+"Mix audio levels automatically",
+"Control studio lighting",
+"Generate story ideas"
+],
+"answer": 0,
+"explain": "Teleprompters allow anchors to maintain eye contact with viewers while reading the script.",
+"optionExplanations": [
+"Correct: teleprompters display scripts to talent.",
+"Audio mixing is done by audio operators/mixers.",
+"Lighting is controlled by lighting systems and operators.",
+"Story ideas come from editorial meetings and research."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which statement about 'fair use' is most accurate?",
+"options": [
+"It always allows using any copyrighted clip if you give credit",
+"It can allow limited use of copyrighted material depending on purpose, amount, and effect on the market",
+"It applies only to music, not video",
+"It is permission granted automatically by the copyright owner"
+],
+"answer": 1,
+"explain": "Fair use is a legal doctrine evaluated case-by-case using multiple factors (purpose, nature, amount, market effect).",
+"optionExplanations": [
+"Credit alone does not guarantee fair use.",
+"Correct: fair use depends on context and several legal factors.",
+"Fair use can apply to many types of copyrighted works, including video.",
+"Permission from the owner is licensing, not fair use."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "A reporter says: 'According to an arrest affidavit, police allege...' This wording primarily helps avoid:",
+"options": [
+"Attribution",
+"Speculation",
+"Stating allegations as proven facts",
+"Using AP Style"
+],
+"answer": 2,
+"explain": "Using 'allege' and citing documents signals the claim is an accusation, not an established fact, reducing the risk of misrepresenting legal status.",
+"optionExplanations": [
+"Attribution is present, not avoided.",
+"Speculation is reduced, but the key is not treating allegations as facts.",
+"Correct: it frames claims as allegations rather than proven facts.",
+"AP Style is separate from legal caution wording."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following best describes 'media literacy'?",
+"options": [
+"The ability to read a script on camera",
+"The ability to access, analyze, evaluate, and create media messages critically",
+"Owning professional camera equipment",
+"Writing only in AP Style"
+],
+"answer": 1,
+"explain": "Media literacy involves understanding how media is produced, what messages mean, and how to evaluate credibility and bias.",
+"optionExplanations": [
+"Reading on camera is a performance skill.",
+"Correct: media literacy is critical evaluation and creation of media messages.",
+"Equipment ownership is unrelated.",
+"AP Style is writing convention, not full media literacy."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In audio recording, an XLR connection is valued because it typically provides:",
+"options": [
+"Balanced audio with reduced interference over long cable runs",
+"Higher frame rate",
+"Automatic captioning",
+"Wireless transmission only"
+],
+"answer": 0,
+"explain": "Balanced XLR cables reject noise and are standard in professional audio for microphones and mixers.",
+"optionExplanations": [
+"Correct: XLR commonly carries balanced audio, reducing hum/interference.",
+"Frame rate is video-related.",
+"Captioning is unrelated to connectors.",
+"XLR is usually wired, not wireless-only."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which newsroom document typically lists stories in order with timing and production elements for a newscast?",
+"options": [
+"Rundown",
+"Press pass",
+"B-roll log",
+"Dateline"
+],
+"answer": 0,
+"explain": "A rundown is the show plan: story order, durations, scripts, and cues.",
+"optionExplanations": [
+"Correct: rundowns organize the newscast flow and timing.",
+"Press passes identify media access.",
+"B-roll logs track footage, but do not schedule a full show.",
+"A dateline indicates location/time context in a story."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "If an anchor introduces a reporter with 'We go now to...' this transition is commonly called a:",
+"options": [
+"Toss",
+"Tag",
+"Tease",
+"Package"
+],
+"answer": 0,
+"explain": "A toss is an on-air handoff from one person/segment to another, often from anchor to reporter.",
+"optionExplanations": [
+"Correct: toss hands off from anchor to another element.",
+"A tag is a short line at the end of a story with an extra fact or wrap-up.",
+"A tease previews upcoming content.",
+"A package is a fully produced story segment."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In broadcast, a 'tag' at the end of a story is usually:",
+"options": [
+"A short additional line that adds a final fact or wraps the story",
+"A graphic lower third",
+"A microphone cable",
+"A camera tripod plate"
+],
+"answer": 0,
+"explain": "A tag provides a final update, context, or closing line after the main story content.",
+"optionExplanations": [
+"Correct: tags are brief closing lines after a story.",
+"Lower thirds are graphics, not script lines.",
+"Cables are equipment, not writing elements.",
+"Tripod plates are hardware, not script components."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which practice best supports transparency when using anonymous sources?",
+"options": [
+"Explain why anonymity was granted and describe the source's proximity to the information without revealing identity",
+"Avoid mentioning anonymity at all",
+"Let the source write the story",
+"Use anonymity for every quote"
+],
+"answer": 0,
+"explain": "Ethical use of anonymous sources includes explaining the reason for anonymity and giving readers context to judge credibility.",
+"optionExplanations": [
+"Correct: explain the reason and provide contextual description without naming the source.",
+"Hiding the use of anonymity reduces transparency and trust.",
+"Sources should not write the story; reporters must verify and remain independent.",
+"Using anonymity for every quote undermines accountability and credibility."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is the best definition of a 'dateline' in journalism?",
+"options": [
+"A list of interview questions",
+"The location (and sometimes date) at the start of a story indicating where it was reported",
+"A copyright notice",
+"A camera timecode overlay"
+],
+"answer": 1,
+"explain": "A dateline tells audiences where the reporting took place (e.g., 'WASHINGTON') and may include the date in some formats.",
+"optionExplanations": [
+"Interview questions are part of reporting notes, not a dateline.",
+"Correct: datelines indicate reporting location (and sometimes date).",
+"Copyright notices are legal statements about ownership.",
+"Timecode overlays show production time, not reporting location."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In an interview, the most important reason to ask open-ended questions is to:",
+"options": [
+"Get yes/no answers quickly",
+"Encourage detailed responses that can produce usable sound bites",
+"Avoid recording audio",
+"Reduce the need for fact-checking"
+],
+"answer": 1,
+"explain": "Open-ended questions prompt fuller answers, making it easier to capture clear, quotable responses for broadcast.",
+"optionExplanations": [
+"Yes/no questions often yield short, less usable answers.",
+"Correct: open-ended prompts produce fuller, more natural bites.",
+"Audio recording is still required regardless of question type.",
+"Fact-checking remains essential no matter how questions are asked."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is a standard ethical approach to using graphic or disturbing images in news coverage?",
+"options": [
+"Use them whenever they increase clicks",
+"Avoid them in all cases, even if newsworthy",
+"Use only what is necessary to convey the news, with clear editorial justification and audience warning when appropriate",
+"Post them uncensored on social media first"
+],
+"answer": 2,
+"explain": "Ethical practice balances news value with potential harm, using the minimum necessary imagery and providing context/warnings when warranted.",
+"optionExplanations": [
+"Click-driven use ignores harm and context.",
+"Total avoidance can prevent accurate reporting of serious events.",
+"Correct: minimize harm while informing, with justification and warnings when appropriate.",
+"Social media posting first is not an ethical standard and can amplify harm."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which term describes intentionally altering audio or video to mislead viewers about what someone said or did?",
+"options": [
+"Color correction",
+"Deepfake/manipulated media",
+"B-roll",
+"Time compression"
+],
+"answer": 1,
+"explain": "Manipulated media, including deepfakes, changes content in a way that can deceive audiences about reality.",
+"optionExplanations": [
+"Color correction adjusts look for accuracy/consistency, not deception.",
+"Correct: deepfakes/manipulated media are altered to mislead.",
+"B-roll is supplemental footage, not deception.",
+"Time compression can shorten content but is not inherently deceptive if not misleading."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In a broadcast control room, the person who operates the video switcher under the director's direction is often the:",
+"options": [
+"Technical director (TD)",
+"Assignment editor",
+"News director",
+"Beat reporter"
+],
+"answer": 0,
+"explain": "The TD typically punches/switches cameras and sources on the production switcher during a live show.",
+"optionExplanations": [
+"Correct: TD runs the switcher in many workflows.",
+"Assignment editors dispatch crews and assign stories.",
+"News directors oversee newsroom operations and editorial direction.",
+"Beat reporters cover specific topics in the field."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is the best example of 'objectivity' in a straight news story?",
+"options": [
+"Presenting verified facts with balanced sourcing and avoiding personal opinion",
+"Arguing for a policy outcome",
+"Using emotionally loaded adjectives",
+"Publishing only one side of a dispute"
+],
+"answer": 0,
+"explain": "Objectivity in reporting emphasizes verification, fair representation of relevant perspectives, and neutral language.",
+"optionExplanations": [
+"Correct: verified facts + balanced sourcing + no personal opinion supports objectivity.",
+"Advocacy is opinion/editorial, not straight news objectivity.",
+"Loaded adjectives inject opinion and framing.",
+"One-sided coverage fails balance and fairness."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which practice helps prevent accidental recording gaps during an important interview?",
+"options": [
+"Monitoring audio with headphones while recording",
+"Turning off all meters to avoid distraction",
+"Relying on auto settings and never checking levels",
+"Recording only video and adding audio later"
+],
+"answer": 0,
+"explain": "Headphone monitoring lets you catch issues (dead batteries, bad cable, RF hits) immediately instead of discovering them in editing.",
+"optionExplanations": [
+"Correct: monitor with headphones to catch problems in real time.",
+"Turning off meters reduces your ability to detect clipping or silence.",
+"Auto settings can fail; professional practice includes monitoring.",
+"Adding audio later may be impossible and reduces authenticity."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "What is the primary reason broadcast scripts often avoid long lists of numbers?",
+"options": [
+"Numbers are illegal to say on air",
+"Listeners have only one chance to hear them, so long strings are hard to process",
+"They increase file size",
+"They break the teleprompter"
+],
+"answer": 1,
+"explain": "Broadcast audiences process information by ear; long numeric strings are easy to miss, so writers simplify or round where appropriate.",
+"optionExplanations": [
+"Numbers are not illegal; they are used when needed.",
+"Correct: spoken numbers are harder to follow, so scripts simplify them.",
+"File size is not determined by script content.",
+"Teleprompters can display numbers; comprehension is the issue."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is a common reason to use a 'super' (superimposed text) in a broadcast story?",
+"options": [
+"To hide the reporter's face",
+"To identify people/places or provide key facts on screen",
+"To replace audio completely",
+"To increase camera sensor size"
+],
+"answer": 1,
+"explain": "Supers provide quick on-screen information such as names, titles, locations, and statistics.",
+"optionExplanations": [
+"Hiding faces is not the purpose of supers (unless privacy masking is used separately).",
+"Correct: supers display key identifiers or facts for viewers.",
+"Supers support audio; they do not replace it entirely.",
+"Sensor size is hardware, unrelated to graphics."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following best describes a 'press release'?",
+"options": [
+"A paid advertisement disguised as news",
+"An official statement sent to media to share information or announcements",
+"A private diary entry",
+"A raw video file format"
+],
+"answer": 1,
+"explain": "A press release is a formal communication from an organization to media outlets, often used as a starting point for reporting (with verification).",
+"optionExplanations": [
+"Press releases are not inherently paid ads, though they can be promotional.",
+"Correct: press releases are official statements for media distribution.",
+"Diary entries are personal, not public communications.",
+"Video file formats are unrelated."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "When covering a fast-moving event, which note-taking detail most helps with accuracy later?",
+"options": [
+"Writing down exact names, titles, and spellings as confirmed",
+"Only recording impressions and vibes",
+"Avoiding timestamps",
+"Relying on memory to save time"
+],
+"answer": 0,
+"explain": "Accurate spellings and titles reduce errors in scripts, chyrons, and captions and can be cross-checked during editing.",
+"optionExplanations": [
+"Correct: confirmed names/titles/spellings prevent common accuracy errors.",
+"Impressions are subjective and not sufficient for factual reporting.",
+"Timestamps can be helpful for locating quotes; avoiding them reduces efficiency.",
+"Memory is unreliable; notes/recordings support accuracy."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "Which of the following is the best example of a 'follow-up' story?",
+"options": [
+"Reporting the same rumor again",
+"Updating audiences with new verified developments after the initial report",
+"Publishing without sources because the story is popular",
+"Only reposting another outlet's story without adding information"
+],
+"answer": 1,
+"explain": "A follow-up adds new verified information, context, or outcomes after an earlier report.",
+"optionExplanations": [
+"Repeating rumors increases misinformation.",
+"Correct: follow-ups provide verified updates after initial coverage.",
+"Lack of sourcing is unethical and unreliable.",
+"Reposting without added reporting is not a true follow-up."
+],
+"source": "generated-bespoke"
+},
+{
+"q": "In broadcast journalism, what is the main purpose of a 'bridge' in editing?",
+"options": [
+"A short piece of narration or natural sound that connects two parts of a story smoothly",
+"A camera tripod accessory",
+"A legal waiver",
+"A type of lighting gel"
+],
+"answer": 0,
+"explain": "A bridge maintains continuity (audio or narrative) so cuts between scenes or bites feel natural and coherent.",
+"optionExplanations": [
+"Correct: bridges connect segments smoothly in audio/narrative.",
+"Tripod accessories are unrelated.",
+"Legal waivers are paperwork, not edits.",
+"Lighting gels change color of light, not story flow."
+],
+"source": "generated-bespoke"
+}
+]
+}
+
+SECTION 4 - CHECKLIST_LINE_UPDATE
+
+* [ ] Broadcast Journalism: 15/100 total (official 15 + historical 0; Need 85)
+* [x] Broadcast Journalism: 15/100 total (official 15 + historical 0; Need 85)

@@ -1,0 +1,1805 @@
+{
+  "event": "Networking Infrastructures",
+  "questions": [
+    {
+      "q": "A school's IT department is planning to connect all computers within one building to share printers and files. Which type of network are they creating?",
+      "options": [
+        "WAN",
+        "LAN",
+        "VPN",
+        "MAN"
+      ],
+      "answer": 1,
+      "explain": "A LAN, or local area network, connects devices within a limited geographic area such as one building or campus wing.",
+      "optionExplanations": [
+        "A WAN covers large geographic areas and multiple sites.",
+        "A LAN connects devices within a limited local area such as a building.",
+        "A VPN is an encrypted tunnel over another network, not the physical network type here.",
+        "A MAN covers a metropolitan area and is larger than a single-building network."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A company needs a network that covers multiple cities. Which network type is most appropriate?",
+      "options": [
+        "LAN",
+        "MAN",
+        "WAN",
+        "PAN"
+      ],
+      "answer": 2,
+      "explain": "A WAN, or wide area network, is designed to connect networks across cities, states, or countries.",
+      "optionExplanations": [
+        "A LAN is limited to a small local area.",
+        "A MAN usually spans a city or metro region, not multiple distant cities.",
+        "A WAN connects networks over broad geographic distances, including multiple cities.",
+        "A PAN is a personal area network for short-range personal devices."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A marketing employee connects their wireless headphones to a laptop via Bluetooth. This is an example of a:",
+      "options": [
+        "MAN",
+        "PAN",
+        "LAN",
+        "WAN"
+      ],
+      "answer": 1,
+      "explain": "A PAN, or personal area network, links personal devices over a very short range, often using Bluetooth.",
+      "optionExplanations": [
+        "A MAN spans a metropolitan area.",
+        "A PAN connects personal devices at short range such as Bluetooth peripherals.",
+        "A LAN covers a room, office, or building network.",
+        "A WAN spans large geographic areas."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which network component acts as a central point for connecting multiple devices in a star topology?",
+      "options": [
+        "Switch",
+        "Modem",
+        "Firewall",
+        "NIC"
+      ],
+      "answer": 0,
+      "explain": "In a star topology, end devices connect back to a central switching device that forwards traffic between ports.",
+      "optionExplanations": [
+        "A switch commonly serves as the central connection point in a star topology.",
+        "A modem connects a local network to an ISP service.",
+        "A firewall filters traffic based on security rules.",
+        "A NIC is an adapter inside a device, not the topology's central point."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A law firm requires a private, encrypted tunnel over the public internet to connect its offices. Which solution should they implement?",
+      "options": [
+        "MAN",
+        "VPN",
+        "VLAN",
+        "Intranet"
+      ],
+      "answer": 1,
+      "explain": "A VPN creates an encrypted tunnel across a public network so remote offices can communicate securely.",
+      "optionExplanations": [
+        "A MAN describes geographic scope, not the encrypted tunneling method.",
+        "A VPN provides encrypted communication over the public internet between sites.",
+        "A VLAN segments local switch traffic logically but does not create an internet tunnel by itself.",
+        "An intranet is a private internal service environment, not specifically an encrypted tunnel."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A new hire at a company asks, 'What's the main purpose of an IP address?' Which is the correct answer?",
+      "options": [
+        "To store data",
+        "To uniquely identify a device on a network",
+        "To encrypt traffic",
+        "To block malware"
+      ],
+      "answer": 1,
+      "explain": "An IP address provides logical addressing so devices can be identified and reached on an IP network.",
+      "optionExplanations": [
+        "Data storage is handled by storage devices and file systems, not IP addresses.",
+        "An IP address uniquely identifies a device interface on an IP network for communication.",
+        "Encryption protects confidentiality, which is a different function.",
+        "Blocking malware is done by security tools, not by IP addressing itself."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which device connects different networks and routes packets between them?",
+      "options": [
+        "Router",
+        "Switch",
+        "Access point",
+        "Repeater"
+      ],
+      "answer": 0,
+      "explain": "A router forwards packets between different IP networks using routing tables and network-layer logic.",
+      "optionExplanations": [
+        "A router connects networks and routes packets between them.",
+        "A switch forwards frames primarily within the same LAN.",
+        "An access point bridges wireless clients onto a LAN.",
+        "A repeater regenerates a signal but does not route packets."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In a home network, which device is typically used to connect to the internet through an ISP?",
+      "options": [
+        "Switch",
+        "Router",
+        "Modem",
+        "Hub"
+      ],
+      "answer": 2,
+      "explain": "A modem interfaces with the ISP's service medium, such as cable, DSL, or fiber ONT handoff, to provide internet connectivity.",
+      "optionExplanations": [
+        "A switch expands local wired ports but does not terminate the ISP line.",
+        "A router distributes traffic on the local network but commonly sits behind the modem or gateway.",
+        "A modem is typically used to connect the home to the ISP service.",
+        "A hub is an outdated shared-medium device and not the standard ISP connection device."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A retail store needs to segment network traffic to improve performance. Which technology can accomplish this?",
+      "options": [
+        "DNS",
+        "VLAN",
+        "VPN",
+        "HTTP"
+      ],
+      "answer": 1,
+      "explain": "A VLAN creates logical network segments on switching infrastructure, reducing broadcast scope and separating traffic types.",
+      "optionExplanations": [
+        "DNS resolves names to IP addresses and does not segment traffic.",
+        "A VLAN logically separates traffic into distinct broadcast domains.",
+        "A VPN encrypts traffic over untrusted networks rather than segmenting a LAN.",
+        "HTTP is an application protocol for web traffic."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A company's network administrator is tasked with reducing network congestion. Which upgrade is most likely to help?",
+      "options": [
+        "Replacing hubs with switches",
+        "Adding more hubs",
+        "Disabling encryption",
+        "Reducing cable length"
+      ],
+      "answer": 0,
+      "explain": "Switches send frames only to the destination port, unlike hubs that repeat traffic to all ports, so switching reduces unnecessary traffic and collisions.",
+      "optionExplanations": [
+        "Replacing hubs with switches reduces unnecessary traffic and improves efficiency.",
+        "Adding more hubs increases shared collision domains and often worsens congestion.",
+        "Disabling encryption is not a sound congestion-management strategy and weakens security.",
+        "Cable length is not the main cause of congestion in this scenario."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In which topology is every device connected to a single central cable?",
+      "options": [
+        "Star",
+        "Bus",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": 1,
+      "explain": "A bus topology uses one main backbone cable to which devices attach.",
+      "optionExplanations": [
+        "A star topology uses a central device, not a central cable backbone.",
+        "A bus topology connects devices to a single shared backbone cable.",
+        "A ring topology connects devices in a closed loop.",
+        "A mesh topology uses many interconnections between devices."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A design team requires redundancy in their network so if one path fails, traffic can still flow. Which topology is best?",
+      "options": [
+        "Bus",
+        "Star",
+        "Mesh",
+        "Ring"
+      ],
+      "answer": 2,
+      "explain": "A mesh topology provides multiple possible paths between nodes, which increases redundancy and fault tolerance.",
+      "optionExplanations": [
+        "A bus topology has a vulnerable shared backbone.",
+        "A star topology depends heavily on the central device.",
+        "A mesh topology provides multiple paths so communication can continue if one path fails.",
+        "A ring can provide some resilience in certain implementations, but full mesh offers the greatest path redundancy here."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In a hybrid topology, what is combined?",
+      "options": [
+        "Multiple protocols",
+        "Two or more different topologies",
+        "Wired and wireless signals",
+        "Multiple ISPs"
+      ],
+      "answer": 1,
+      "explain": "A hybrid topology combines elements of two or more basic topologies, such as star-bus or star-ring.",
+      "optionExplanations": [
+        "Protocols are communication rules, not topology combinations.",
+        "A hybrid topology combines two or more different topologies in one design.",
+        "Wired and wireless can coexist, but that alone does not define hybrid topology.",
+        "Using multiple ISPs is a connectivity choice, not a topology definition."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which topology uses a token-passing method to manage access to the network?",
+      "options": [
+        "Star",
+        "Ring",
+        "Mesh",
+        "Bus"
+      ],
+      "answer": 1,
+      "explain": "Classical ring networks are associated with token passing to control which node may transmit.",
+      "optionExplanations": [
+        "Star Ethernet does not inherently use token passing.",
+        "Ring topology is historically associated with token-passing access control.",
+        "Mesh describes connectivity redundancy, not token-passing access control.",
+        "Bus Ethernet historically used CSMA/CD rather than token passing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In a client-server architecture, what role does the client play?",
+      "options": [
+        "Manages network resources",
+        "Provides data and services",
+        "Requests and uses services",
+        "Routes network packets"
+      ],
+      "answer": 2,
+      "explain": "In client-server computing, the client initiates requests and consumes services provided by servers.",
+      "optionExplanations": [
+        "Managing shared resources is typically a server or administrator role.",
+        "Providing services is the server's role in this model.",
+        "The client requests and uses services from a server.",
+        "Routing packets is a router function."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A peer-to-peer network is most appropriate for:",
+      "options": [
+        "Large corporations",
+        "Small home networks",
+        "Data centers",
+        "Global ISPs"
+      ],
+      "answer": 1,
+      "explain": "Peer-to-peer networks fit smaller environments where devices share resources directly without dedicated centralized servers.",
+      "optionExplanations": [
+        "Large corporations usually need centralized management and scalability.",
+        "Small home networks can effectively use peer-to-peer sharing.",
+        "Data centers rely on structured server-based architectures.",
+        "Global ISPs require carrier-grade network designs, not peer-to-peer LANs."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is a major drawback of a bus topology?",
+      "options": [
+        "High cable cost",
+        "Difficult to add new devices",
+        "Single point of failure along the backbone",
+        "Complex configuration"
+      ],
+      "answer": 2,
+      "explain": "The shared backbone is critical in a bus topology, so damage to it can disrupt the entire network segment.",
+      "optionExplanations": [
+        "Bus topology is usually not known for especially high cable cost.",
+        "Devices can often be added, though with practical limitations.",
+        "The backbone cable is a single point of failure in bus topology.",
+        "Bus topology is comparatively simple rather than especially complex."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A topology where devices are connected to a central switch is called:",
+      "options": [
+        "Mesh",
+        "Star",
+        "Ring",
+        "Hybrid"
+      ],
+      "answer": 1,
+      "explain": "When all endpoints connect back to one central switch, the network uses a star topology.",
+      "optionExplanations": [
+        "Mesh has many direct interconnections between nodes.",
+        "Star topology uses a central device such as a switch.",
+        "Ring connects devices in a loop.",
+        "Hybrid combines multiple topologies rather than this single pattern alone."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which topology is most commonly used in modern Ethernet LANs?",
+      "options": [
+        "Star",
+        "Bus",
+        "Mesh",
+        "Ring"
+      ],
+      "answer": 0,
+      "explain": "Modern Ethernet LANs are typically implemented as star topologies with switches at the center.",
+      "optionExplanations": [
+        "Star is the standard physical topology for most modern switched Ethernet LANs.",
+        "Bus is largely obsolete for modern Ethernet deployments.",
+        "Mesh is used selectively, not as the most common Ethernet LAN topology.",
+        "Ring is uncommon in modern Ethernet LANs."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which architecture allows multiple clients to share files without needing a centralized server?",
+      "options": [
+        "Cloud",
+        "Client-server",
+        "Peer-to-peer",
+        "Virtual"
+      ],
+      "answer": 2,
+      "explain": "Peer-to-peer architecture allows devices to share resources directly with one another without a dedicated central server.",
+      "optionExplanations": [
+        "Cloud services still rely on server infrastructure.",
+        "Client-server explicitly depends on a centralized server role.",
+        "Peer-to-peer enables direct resource sharing among participating devices.",
+        "Virtual is not a specific file-sharing architecture in this context."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A hacker sends an overwhelming number of requests to a server, causing it to crash. What type of attack is this?",
+      "options": [
+        "Phishing",
+        "DDoS",
+        "Man-in-the-middle",
+        "Spoofing"
+      ],
+      "answer": 1,
+      "explain": "A distributed denial-of-service attack floods a target with traffic or requests to exhaust resources and disrupt service availability.",
+      "optionExplanations": [
+        "Phishing tricks users into revealing information.",
+        "A DDoS attack overwhelms a target with traffic or requests to deny service.",
+        "A man-in-the-middle attack intercepts communications.",
+        "Spoofing falsifies identity information such as addresses or sender details."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "An employee receives an email that appears to be from the company's CEO asking for wire transfer details. This is an example of:",
+      "options": [
+        "Phishing",
+        "Brute force",
+        "SQL injection",
+        "Denial-of-service"
+      ],
+      "answer": 0,
+      "explain": "This is phishing, specifically a social engineering attempt to trick the recipient into revealing sensitive information or taking an unauthorized action.",
+      "optionExplanations": [
+        "Phishing uses deceptive messages to trick a target into disclosing information or acting improperly.",
+        "Brute force involves repeated guessing, often of passwords.",
+        "SQL injection targets database queries in vulnerable applications.",
+        "Denial-of-service aims to disrupt service availability, not deceive an employee by email."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol provides secure web communication by encrypting data?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": 1,
+      "explain": "HTTPS is HTTP layered over TLS, providing encryption and server authentication for web traffic.",
+      "optionExplanations": [
+        "HTTP sends web traffic without TLS encryption.",
+        "HTTPS encrypts web traffic and helps protect confidentiality and integrity.",
+        "FTP is a file transfer protocol and is not secure by default.",
+        "SMTP is primarily used for sending email."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which device can block or allow traffic based on predefined security rules?",
+      "options": [
+        "Switch",
+        "Firewall",
+        "Hub",
+        "Repeater"
+      ],
+      "answer": 1,
+      "explain": "A firewall filters network traffic according to configured security policies and rules.",
+      "optionExplanations": [
+        "A switch forwards frames within a LAN but is not primarily a policy enforcement device.",
+        "A firewall allows or blocks traffic based on defined security rules.",
+        "A hub repeats traffic to all ports and does not apply security policy.",
+        "A repeater regenerates signals rather than filtering traffic."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The process of converting readable data into an unreadable form to protect it is called:",
+      "options": [
+        "Hashing",
+        "Encryption",
+        "Compression",
+        "Encoding"
+      ],
+      "answer": 1,
+      "explain": "Encryption transforms plaintext into ciphertext so that only authorized parties can recover the original data using the proper key or method.",
+      "optionExplanations": [
+        "Hashing creates a one-way digest and is not intended for recovering the original data.",
+        "Encryption converts readable data into protected unreadable ciphertext.",
+        "Compression reduces data size.",
+        "Encoding changes representation for compatibility, not secrecy."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the main function of a VPN in security?",
+      "options": [
+        "Reduce latency",
+        "Increase bandwidth",
+        "Provide encrypted communication over public networks",
+        "Create VLANs"
+      ],
+      "answer": 2,
+      "explain": "A VPN's security purpose is to protect data in transit by encrypting communications over untrusted public infrastructure.",
+      "optionExplanations": [
+        "Reducing latency is not the main security function of a VPN.",
+        "VPNs often add overhead rather than increase bandwidth.",
+        "A VPN provides encrypted communication over public networks.",
+        "VLAN creation is a LAN segmentation task, not a VPN function."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which authentication method requires two or more verification factors?",
+      "options": [
+        "Single sign-on",
+        "Two-factor authentication",
+        "Biometrics",
+        "Captcha"
+      ],
+      "answer": 1,
+      "explain": "Two-factor authentication requires a user to present two independent categories of proof, such as a password and a code or biometric.",
+      "optionExplanations": [
+        "Single sign-on reduces repeated logins but does not inherently require multiple factors.",
+        "Two-factor authentication requires two verification factors.",
+        "Biometrics is one possible factor, not the whole multi-factor method by itself.",
+        "CAPTCHA helps distinguish humans from bots but is not the standard term for requiring multiple user identity factors."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which security measure helps prevent unauthorized access by identifying a user through fingerprints?",
+      "options": [
+        "CAPTCHA",
+        "Biometric authentication",
+        "Digital certificate",
+        "Passphrase"
+      ],
+      "answer": 1,
+      "explain": "Fingerprint identification is a biometric method because it relies on a physical trait unique to the user.",
+      "optionExplanations": [
+        "CAPTCHA tests for human interaction, not fingerprint identity.",
+        "Biometric authentication uses traits like fingerprints to verify identity.",
+        "A digital certificate authenticates systems or users cryptographically, not via fingerprint scanning.",
+        "A passphrase is knowledge-based authentication."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In network security, what does 'least privilege' mean?",
+      "options": [
+        "Users have access only to the resources needed to perform their jobs",
+        "All users share admin rights",
+        "Restricting network access to admins only",
+        "Encrypting all network data"
+      ],
+      "answer": 0,
+      "explain": "Least privilege means granting only the minimum access required for a user or process to perform legitimate duties.",
+      "optionExplanations": [
+        "Least privilege limits access to only what is needed for the task or role.",
+        "Sharing admin rights broadly violates least privilege.",
+        "Restricting everything to admins is not the principle; access should match job need.",
+        "Encryption protects data but is separate from access-rights minimization."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which type of malware locks files until a ransom is paid?",
+      "options": [
+        "Worm",
+        "Ransomware",
+        "Trojan",
+        "Spyware"
+      ],
+      "answer": 1,
+      "explain": "Ransomware encrypts or otherwise blocks access to data and demands payment for restoration or decryption.",
+      "optionExplanations": [
+        "A worm self-replicates across systems.",
+        "Ransomware locks or encrypts files and demands payment.",
+        "A trojan disguises itself as legitimate software.",
+        "Spyware secretly monitors user activity."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A security analyst wants to ensure a company can recover from cyberattacks. Which process should they implement?",
+      "options": [
+        "Intrusion prevention",
+        "Data backup and recovery",
+        "Bandwidth shaping",
+        "Token passing"
+      ],
+      "answer": 1,
+      "explain": "Backups and recovery procedures are essential for restoring systems and data after incidents such as ransomware or destructive attacks.",
+      "optionExplanations": [
+        "Intrusion prevention helps stop attacks but is not the core recovery process.",
+        "Data backup and recovery enables restoration after a cyberattack.",
+        "Bandwidth shaping manages traffic flow, not disaster recovery.",
+        "Token passing is a media-access concept, not a recovery process."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which tool can be used to detect vulnerabilities in a network?",
+      "options": [
+        "Network scanner",
+        "Modem",
+        "Switch",
+        "Hub"
+      ],
+      "answer": 0,
+      "explain": "A network vulnerability scanner probes hosts, services, and configurations to identify weaknesses and exposures.",
+      "optionExplanations": [
+        "A network scanner can discover hosts, services, and vulnerabilities for assessment.",
+        "A modem provides WAN access rather than vulnerability detection.",
+        "A switch forwards frames inside a network.",
+        "A hub broadcasts traffic and does not scan for vulnerabilities."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which layer of the OSI model is responsible for logical addressing?",
+      "options": [
+        "Physical",
+        "Data link",
+        "Network",
+        "Transport"
+      ],
+      "answer": 2,
+      "explain": "The OSI network layer handles logical addressing and routing, including IP addressing in common implementations.",
+      "optionExplanations": [
+        "The physical layer handles signal transmission and media.",
+        "The data link layer uses physical addressing such as MAC addresses.",
+        "The network layer is responsible for logical addressing and routing.",
+        "The transport layer manages end-to-end delivery services."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol translates domain names into IP addresses?",
+      "options": [
+        "DHCP",
+        "DNS",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": 1,
+      "explain": "DNS resolves human-readable domain names to IP addresses so clients can locate network services.",
+      "optionExplanations": [
+        "DHCP assigns IP configuration settings.",
+        "DNS translates domain names into IP addresses.",
+        "FTP transfers files.",
+        "HTTP transfers web content."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol is used to send email messages?",
+      "options": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "HTTP"
+      ],
+      "answer": 1,
+      "explain": "SMTP, Simple Mail Transfer Protocol, is used to send and relay outgoing email messages.",
+      "optionExplanations": [
+        "POP3 retrieves email from a server.",
+        "SMTP is the standard protocol for sending email.",
+        "IMAP is used to access and synchronize stored email.",
+        "HTTP is the web protocol, not the core mail-sending protocol."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol securely transfers files between computers?",
+      "options": [
+        "FTP",
+        "SFTP",
+        "TFTP",
+        "SMTP"
+      ],
+      "answer": 1,
+      "explain": "SFTP runs over SSH to provide encrypted file transfer, unlike standard FTP or TFTP.",
+      "optionExplanations": [
+        "FTP transfers files but is not secure by default.",
+        "SFTP securely transfers files over an encrypted SSH connection.",
+        "TFTP is a simple file transfer protocol without strong security.",
+        "SMTP is for email transmission."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol automatically assigns IP addresses to devices?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "HTTP",
+        "ICMP"
+      ],
+      "answer": 1,
+      "explain": "DHCP dynamically leases IP addresses and related settings such as subnet mask, gateway, and DNS servers to clients.",
+      "optionExplanations": [
+        "DNS resolves names, not addresses assignment.",
+        "DHCP automatically assigns IP configuration to devices.",
+        "HTTP delivers web content.",
+        "ICMP carries control, error, and diagnostic messages."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "IPv6 addresses are represented in:",
+      "options": [
+        "Binary",
+        "Decimal",
+        "Hexadecimal",
+        "Octal"
+      ],
+      "answer": 2,
+      "explain": "IPv6 notation uses hexadecimal groups separated by colons.",
+      "optionExplanations": [
+        "Binary underlies all digital data, but standard written IPv6 notation is not binary.",
+        "Decimal dotted notation is used for IPv4, not IPv6.",
+        "Hexadecimal is the standard representation format for IPv6 addresses.",
+        "Octal is not the standard representation for IPv6 addresses."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which OSI layer ensures data is delivered error-free, in sequence, and with no losses or duplications?",
+      "options": [
+        "Physical",
+        "Network",
+        "Transport",
+        "Session"
+      ],
+      "answer": 2,
+      "explain": "The transport layer provides end-to-end reliability features such as sequencing, acknowledgment, retransmission, and flow control when using a protocol like TCP.",
+      "optionExplanations": [
+        "The physical layer moves raw bits across media.",
+        "The network layer handles addressing and routing.",
+        "The transport layer is responsible for reliable end-to-end delivery in this description.",
+        "The session layer manages dialog control rather than core reliability guarantees."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol is used for remote login to a server?",
+      "options": [
+        "HTTP",
+        "SSH",
+        "FTP",
+        "DHCP"
+      ],
+      "answer": 1,
+      "explain": "SSH provides secure remote terminal access and command execution on servers.",
+      "optionExplanations": [
+        "HTTP is for web communication.",
+        "SSH is used for secure remote login and administration.",
+        "FTP transfers files rather than interactive login shells.",
+        "DHCP assigns IP settings."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which IEEE standard defines Wi-Fi networking?",
+      "options": [
+        "802.3",
+        "802.11",
+        "802.15",
+        "802.5"
+      ],
+      "answer": 1,
+      "explain": "IEEE 802.11 is the family of standards for wireless LANs commonly known as Wi-Fi.",
+      "optionExplanations": [
+        "802.3 defines Ethernet.",
+        "802.11 defines Wi-Fi networking.",
+        "802.15 covers personal area networking technologies such as Bluetooth-related standards.",
+        "802.5 is associated with Token Ring."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "ICMP is primarily used for:",
+      "options": [
+        "File sharing",
+        "Sending error messages and diagnostics",
+        "Assigning IP addresses",
+        "Streaming video"
+      ],
+      "answer": 1,
+      "explain": "ICMP supports network diagnostics and error reporting, such as ping and unreachable notifications.",
+      "optionExplanations": [
+        "File sharing uses other protocols and services.",
+        "ICMP is used for diagnostics and error messages.",
+        "DHCP assigns IP addresses.",
+        "Streaming video uses application-layer protocols, not ICMP as its primary purpose."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which cable type is most immune to electromagnetic interference?",
+      "options": [
+        "UTP",
+        "STP",
+        "Fiber optic",
+        "Coaxial"
+      ],
+      "answer": 2,
+      "explain": "Fiber optic cable carries data as light rather than electrical signals, so it is highly immune to electromagnetic interference.",
+      "optionExplanations": [
+        "UTP is more susceptible to EMI than shielded or optical media.",
+        "STP adds shielding but still uses electrical signaling.",
+        "Fiber optic is most immune to electromagnetic interference because it uses light.",
+        "Coaxial offers shielding but is still an electrical medium."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which device regenerates and amplifies a signal in a network?",
+      "options": [
+        "Router",
+        "Repeater",
+        "Hub",
+        "Firewall"
+      ],
+      "answer": 1,
+      "explain": "A repeater restores weakened signals so they can travel farther across a network medium.",
+      "optionExplanations": [
+        "A router forwards packets between networks.",
+        "A repeater regenerates or boosts a signal for extended transmission.",
+        "A hub repeats incoming traffic to all ports but is not described primarily as a signal regenerator in this context.",
+        "A firewall filters traffic."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which connector type is used for Ethernet cables?",
+      "options": [
+        "RJ45",
+        "RJ11",
+        "BNC",
+        "SC"
+      ],
+      "answer": 0,
+      "explain": "Standard twisted-pair Ethernet patch cables typically use an 8P8C modular connector commonly referred to as RJ45.",
+      "optionExplanations": [
+        "RJ45 is the common connector used for twisted-pair Ethernet cables.",
+        "RJ11 is commonly used for telephone lines.",
+        "BNC is associated with coaxial connections.",
+        "SC is a fiber optic connector type."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A network technician needs to connect a wireless network to a wired network. Which device should they use?",
+      "options": [
+        "Router",
+        "Access point",
+        "Switch",
+        "Hub"
+      ],
+      "answer": 1,
+      "explain": "An access point bridges wireless clients onto a wired Ethernet network, extending network access over Wi-Fi.",
+      "optionExplanations": [
+        "A router connects networks and can include Wi-Fi, but the specific bridging device described is an access point.",
+        "An access point connects wireless devices to a wired network.",
+        "A switch expands wired port connectivity only.",
+        "A hub is an outdated shared-media device."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which cable type uses light to transmit data?",
+      "options": [
+        "Fiber optic",
+        "Coaxial",
+        "UTP",
+        "STP"
+      ],
+      "answer": 0,
+      "explain": "Fiber optic cabling carries data as pulses of light through glass or plastic strands.",
+      "optionExplanations": [
+        "Fiber optic uses light to transmit data.",
+        "Coaxial uses electrical signals over copper.",
+        "UTP uses electrical signaling on twisted copper pairs.",
+        "STP also uses electrical signaling on shielded copper pairs."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which hardware device stores MAC addresses to forward data to the correct port?",
+      "options": [
+        "Switch",
+        "Hub",
+        "Repeater",
+        "Router"
+      ],
+      "answer": 0,
+      "explain": "A switch learns MAC addresses on its ports and forwards frames only where needed within the LAN.",
+      "optionExplanations": [
+        "A switch stores learned MAC-to-port mappings and forwards frames accordingly.",
+        "A hub does not maintain MAC address tables and simply repeats traffic.",
+        "A repeater regenerates signals rather than making forwarding decisions by MAC.",
+        "A router uses IP routing between networks rather than a switch's MAC table forwarding role."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which tool is used to test the integrity of network cables?",
+      "options": [
+        "Punch-down tool",
+        "Cable tester",
+        "Crimping tool",
+        "Multimeter"
+      ],
+      "answer": 1,
+      "explain": "A cable tester checks continuity, pinout, and sometimes faults such as opens, shorts, and crossed pairs in network cabling.",
+      "optionExplanations": [
+        "A punch-down tool seats wires into IDC terminals.",
+        "A cable tester is used to verify cable integrity and correct pinout.",
+        "A crimping tool attaches connectors to cable ends.",
+        "A multimeter measures electrical properties but is not the standard dedicated tool for network cable integrity testing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which antenna type is most suitable for long-distance point-to-point wireless communication?",
+      "options": [
+        "Omnidirectional",
+        "Yagi",
+        "Dipole",
+        "Patch"
+      ],
+      "answer": 1,
+      "explain": "A Yagi antenna is directional and focuses signal energy, making it useful for longer point-to-point wireless links.",
+      "optionExplanations": [
+        "An omnidirectional antenna radiates broadly in many directions.",
+        "A Yagi antenna is directional and suitable for long-distance point-to-point communication.",
+        "A dipole is a basic antenna with broader pattern than a Yagi.",
+        "A patch antenna is directional but typically used for shorter, focused coverage areas than a Yagi in this context."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which subnet mask is commonly used for a Class C sized network with up to 254 usable host addresses?",
+      "options": [
+        "255.255.0.0",
+        "255.255.255.0",
+        "255.255.255.128",
+        "255.0.0.0"
+      ],
+      "answer": 1,
+      "explain": "A /24 mask, written as 255.255.255.0, leaves 8 host bits, allowing 254 usable IPv4 host addresses.",
+      "optionExplanations": [
+        "255.255.0.0 is a /16 and supports far more hosts.",
+        "255.255.255.0 is a /24 with 254 usable host addresses.",
+        "255.255.255.128 is a /25 with 126 usable host addresses.",
+        "255.0.0.0 is a /8 and supports many more hosts."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the default port number for HTTPS?",
+      "options": [
+        "21",
+        "22",
+        "80",
+        "443"
+      ],
+      "answer": 3,
+      "explain": "HTTPS conventionally uses TCP port 443 for encrypted web traffic.",
+      "optionExplanations": [
+        "Port 21 is commonly used for FTP control.",
+        "Port 22 is commonly used for SSH.",
+        "Port 80 is the default for unencrypted HTTP.",
+        "Port 443 is the default port for HTTPS."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which command-line utility is commonly used to test reachability between two IP devices?",
+      "options": [
+        "ping",
+        "format",
+        "mkdir",
+        "nslookup"
+      ],
+      "answer": 0,
+      "explain": "Ping sends ICMP echo requests and checks whether a host responds, making it a basic reachability test.",
+      "optionExplanations": [
+        "Ping tests basic network reachability using ICMP.",
+        "Format prepares storage media and is unrelated.",
+        "Mkdir creates directories.",
+        "Nslookup queries DNS records rather than directly testing reachability."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary purpose of NAT on a router?",
+      "options": [
+        "To convert domain names to IP addresses",
+        "To map private addresses to public addresses",
+        "To encrypt all outbound traffic",
+        "To block every inbound packet"
+      ],
+      "answer": 1,
+      "explain": "NAT allows private internal IP addresses to be translated to public addresses for communication across the internet.",
+      "optionExplanations": [
+        "DNS resolves names, not NAT.",
+        "NAT maps private addresses to public addresses or other translated addresses.",
+        "Encryption is not NAT's primary purpose.",
+        "Routers using NAT do not necessarily block every inbound packet."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which wireless security standard is generally stronger than WPA2 because it improves authentication and protection against password guessing?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA3",
+        "Open"
+      ],
+      "answer": 2,
+      "explain": "WPA3 improves authentication features and provides stronger protections than earlier Wi-Fi security modes.",
+      "optionExplanations": [
+        "WEP is obsolete and weak.",
+        "WPA was an older improvement over WEP but is outdated.",
+        "WPA3 is the newer, stronger wireless security standard in this comparison.",
+        "Open networks provide no encryption."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does SSID stand for in wireless networking?",
+      "options": [
+        "Secure Session Identifier",
+        "Service Set Identifier",
+        "System Security ID",
+        "Shared Signal Interface Definition"
+      ],
+      "answer": 1,
+      "explain": "SSID is the network name used to identify a wireless LAN service set.",
+      "optionExplanations": [
+        "This is not the meaning of SSID.",
+        "SSID stands for Service Set Identifier.",
+        "This is not a standard wireless term.",
+        "This expansion is fabricated and incorrect."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which device operates primarily at the Data Link layer and forwards frames based on MAC addresses?",
+      "options": [
+        "Switch",
+        "Router",
+        "Modem",
+        "Firewall"
+      ],
+      "answer": 0,
+      "explain": "A switch is a Layer 2 device that forwards Ethernet frames based on learned MAC addresses.",
+      "optionExplanations": [
+        "A switch forwards frames based on MAC addresses at Layer 2.",
+        "A router primarily operates at Layer 3 using IP information.",
+        "A modem handles signal modulation and ISP connectivity.",
+        "A firewall filters traffic but is not defined by MAC-based frame switching."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which IPv4 address range is reserved for private addressing in the 192.168 block?",
+      "options": [
+        "192.168.0.0 to 192.168.255.255",
+        "192.0.0.0 to 192.255.255.255",
+        "172.0.0.0 to 172.255.255.255",
+        "10.10.10.0 to 10.10.10.255 only"
+      ],
+      "answer": 0,
+      "explain": "The RFC 1918 private 192.168 range spans 192.168.0.0 through 192.168.255.255, which is 192.168.0.0/16.",
+      "optionExplanations": [
+        "192.168.0.0 through 192.168.255.255 is the private 192.168.0.0/16 range.",
+        "192.0.0.0 through 192.255.255.255 is much broader and not all private.",
+        "Most 172.x.x.x addresses are public; only 172.16.0.0 through 172.31.255.255 is private.",
+        "10.10.10.0/24 is private, but it is only one small subset of the 10.0.0.0/8 private range."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which protocol is commonly used to automatically synchronize time on networked devices?",
+      "options": [
+        "NTP",
+        "ARP",
+        "SNMP",
+        "LDAP"
+      ],
+      "answer": 0,
+      "explain": "NTP, Network Time Protocol, keeps clocks synchronized across systems, which is important for logs, authentication, and troubleshooting.",
+      "optionExplanations": [
+        "NTP synchronizes time across networked devices.",
+        "ARP resolves IPv4 addresses to MAC addresses on a LAN.",
+        "SNMP is used for monitoring and management.",
+        "LDAP provides directory services and authentication support."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which record type in DNS is used to map a hostname to an IPv4 address?",
+      "options": [
+        "MX",
+        "A",
+        "PTR",
+        "TXT"
+      ],
+      "answer": 1,
+      "explain": "An A record maps a hostname to an IPv4 address in DNS.",
+      "optionExplanations": [
+        "MX records specify mail exchangers.",
+        "An A record maps a name to an IPv4 address.",
+        "PTR records are used for reverse lookups.",
+        "TXT records store arbitrary text data."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which cable standard uses the same pinout on both ends of an Ethernet patch cable for typical device-to-switch connections?",
+      "options": [
+        "Straight-through",
+        "Crossover",
+        "Rollover",
+        "Serial"
+      ],
+      "answer": 0,
+      "explain": "A straight-through Ethernet cable uses matching pinouts on both ends and is typical for unlike-device connections such as PC-to-switch.",
+      "optionExplanations": [
+        "A straight-through cable uses the same pinout on both ends.",
+        "A crossover cable swaps transmit and receive pairs for certain like-device connections.",
+        "A rollover cable is commonly associated with console connections, not Ethernet patching.",
+        "Serial is not the standard Ethernet twisted-pair pinout type here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does PoE allow a network cable to provide in addition to data?",
+      "options": [
+        "Cooling",
+        "Electrical power",
+        "Fiber conversion",
+        "Encryption"
+      ],
+      "answer": 1,
+      "explain": "Power over Ethernet allows compatible devices to receive power over the same twisted-pair Ethernet cable used for data.",
+      "optionExplanations": [
+        "Ethernet cabling does not provide device cooling.",
+        "PoE provides electrical power along with data.",
+        "Fiber conversion requires media converters, not PoE.",
+        "PoE does not encrypt traffic."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which routing protocol is classified as a link-state protocol?",
+      "options": [
+        "RIP",
+        "OSPF",
+        "FTP",
+        "ARP"
+      ],
+      "answer": 1,
+      "explain": "OSPF is a link-state routing protocol that builds a topology map and calculates best paths using cost.",
+      "optionExplanations": [
+        "RIP is a distance-vector routing protocol.",
+        "OSPF is a link-state routing protocol.",
+        "FTP is a file transfer protocol, not a routing protocol.",
+        "ARP resolves IP addresses to MAC addresses on a local network."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a default gateway on a host?",
+      "options": [
+        "To store passwords",
+        "To send traffic to remote networks",
+        "To assign MAC addresses",
+        "To terminate all local sessions"
+      ],
+      "answer": 1,
+      "explain": "The default gateway is the router interface a host uses when sending packets to destinations outside its local subnet.",
+      "optionExplanations": [
+        "A gateway does not store passwords as its core purpose.",
+        "It forwards traffic destined for remote networks outside the local subnet.",
+        "MAC addresses are assigned by hardware vendors, not gateways.",
+        "A default gateway does not terminate all local sessions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which port is commonly used by DNS queries over UDP?",
+      "options": [
+        "25",
+        "53",
+        "110",
+        "3389"
+      ],
+      "answer": 1,
+      "explain": "DNS commonly uses port 53, especially UDP 53 for standard queries and responses.",
+      "optionExplanations": [
+        "Port 25 is SMTP.",
+        "Port 53 is the standard DNS port.",
+        "Port 110 is POP3.",
+        "Port 3389 is Remote Desktop Protocol."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes unwanted broadcast traffic that consumes bandwidth and processing resources on a LAN?",
+      "options": [
+        "Broadcast storm",
+        "Link aggregation",
+        "Load balancing",
+        "Port mirroring"
+      ],
+      "answer": 0,
+      "explain": "A broadcast storm is excessive broadcast traffic that can overwhelm a network segment and degrade performance.",
+      "optionExplanations": [
+        "A broadcast storm is excessive broadcast traffic on a LAN.",
+        "Link aggregation combines multiple links for bandwidth and redundancy.",
+        "Load balancing distributes traffic or workload across resources.",
+        "Port mirroring copies traffic for monitoring or analysis."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary role of ARP in IPv4 networking?",
+      "options": [
+        "Assign IP addresses automatically",
+        "Translate IP addresses to MAC addresses on a local network",
+        "Encrypt packets at Layer 2",
+        "Route packets across the internet"
+      ],
+      "answer": 1,
+      "explain": "ARP resolves a known IPv4 address to the corresponding MAC address so a frame can be delivered on the local LAN.",
+      "optionExplanations": [
+        "DHCP assigns IP addresses automatically, not ARP.",
+        "ARP maps IPv4 addresses to MAC addresses on the local network.",
+        "ARP does not provide encryption.",
+        "Routing across networks is performed by routers, not ARP."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which Wi-Fi frequency band generally offers longer range but fewer non-overlapping channels than 5 GHz?",
+      "options": [
+        "2.4 GHz",
+        "6 GHz",
+        "60 GHz",
+        "Infrared"
+      ],
+      "answer": 0,
+      "explain": "The 2.4 GHz band typically travels farther and penetrates obstacles better than 5 GHz, but it offers fewer clean non-overlapping channels.",
+      "optionExplanations": [
+        "2.4 GHz generally provides longer range but more congestion and fewer non-overlapping channels.",
+        "6 GHz offers more spectrum but shorter range than 2.4 GHz in typical environments.",
+        "60 GHz has very short range and poor obstacle penetration.",
+        "Infrared is not the standard Wi-Fi radio band in this comparison."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which tool is most commonly used to attach an RJ45 connector to twisted-pair cable?",
+      "options": [
+        "Tone generator",
+        "Crimping tool",
+        "Punch-down tool",
+        "Loopback plug"
+      ],
+      "answer": 1,
+      "explain": "A crimping tool secures an RJ45 connector onto twisted-pair conductors in a patch cable.",
+      "optionExplanations": [
+        "A tone generator helps trace cables.",
+        "A crimping tool attaches modular connectors such as RJ45.",
+        "A punch-down tool seats wires into patch panels or keystone jacks.",
+        "A loopback plug is for testing interfaces, not attaching connectors."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the function of a patch panel in structured cabling?",
+      "options": [
+        "It converts copper to fiber",
+        "It centralizes cable terminations for organization and management",
+        "It filters malicious traffic",
+        "It assigns IP addresses"
+      ],
+      "answer": 1,
+      "explain": "A patch panel provides an organized termination point for horizontal cabling, making moves, adds, and changes easier.",
+      "optionExplanations": [
+        "Media conversion is not the role of a patch panel.",
+        "A patch panel centralizes cable terminations for cleaner management.",
+        "Traffic filtering is a firewall role.",
+        "IP address assignment is handled by DHCP, not a patch panel."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes full-duplex Ethernet communication?",
+      "options": [
+        "Data can move in only one direction at a time",
+        "Devices must take turns transmitting",
+        "Data can be sent and received simultaneously",
+        "Only wireless devices can use it"
+      ],
+      "answer": 2,
+      "explain": "Full-duplex means a device can transmit and receive at the same time, eliminating collisions on properly switched Ethernet links.",
+      "optionExplanations": [
+        "One direction at a time describes simplex, not full duplex.",
+        "Taking turns characterizes half-duplex behavior.",
+        "Full duplex allows simultaneous send and receive.",
+        "Full duplex is not limited to wireless devices."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which network monitoring protocol is commonly used to collect device performance data and interface statistics?",
+      "options": [
+        "SNMP",
+        "SMTP",
+        "SMB",
+        "NFS"
+      ],
+      "answer": 0,
+      "explain": "SNMP is widely used to query and monitor network devices for counters, status, and alerts.",
+      "optionExplanations": [
+        "SNMP is used for network monitoring and management.",
+        "SMTP sends email.",
+        "SMB is a file-sharing protocol.",
+        "NFS is a network file system protocol."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does CIDR stand for?",
+      "options": [
+        "Central Internet Data Routing",
+        "Classless Inter-Domain Routing",
+        "Classified Internal Domain Resolution",
+        "Configurable Interface Data Range"
+      ],
+      "answer": 1,
+      "explain": "CIDR stands for Classless Inter-Domain Routing and allows flexible network prefix lengths such as /24 or /27.",
+      "optionExplanations": [
+        "This is not the recognized expansion.",
+        "CIDR stands for Classless Inter-Domain Routing.",
+        "This is not a standard networking term.",
+        "This is not the recognized expansion."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which device would you configure with an ACL to permit or deny specific IP traffic between networks?",
+      "options": [
+        "Router",
+        "Patch panel",
+        "Hub",
+        "Cable tester"
+      ],
+      "answer": 0,
+      "explain": "Access control lists are commonly configured on routers and Layer 3 devices to filter traffic based on IP criteria.",
+      "optionExplanations": [
+        "A router can enforce ACL rules on routed traffic.",
+        "A patch panel is passive cabling hardware.",
+        "A hub cannot apply Layer 3 filtering logic.",
+        "A cable tester is a diagnostic tool, not a packet-filtering device."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which network service automatically provides hostnames and IP address mappings on many local networks?",
+      "options": [
+        "DHCP only",
+        "DNS only",
+        "DHCP and DNS together",
+        "FTP and TFTP together"
+      ],
+      "answer": 2,
+      "explain": "On many managed networks, DHCP assigns addresses while DNS maintains or updates hostname-to-address mappings so systems can be found by name.",
+      "optionExplanations": [
+        "DHCP alone assigns addresses but does not by itself provide all hostname mapping functions.",
+        "DNS alone resolves names but does not automatically assign IP leases.",
+        "DHCP and DNS are commonly used together for addressing and name resolution.",
+        "FTP and TFTP are file transfer protocols."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A user can access websites by IP address but not by domain name. Which service is the most likely problem?",
+      "options": [
+        "DNS",
+        "NAT",
+        "VLAN",
+        "UPS"
+      ],
+      "answer": 0,
+      "explain": "If IP access works but names do not, name resolution is failing, which points to DNS.",
+      "optionExplanations": [
+        "DNS problems commonly cause failures when domain names do not resolve but raw IP access still works.",
+        "NAT translates addresses and is not the most direct explanation here.",
+        "VLAN issues would not specifically cause name-only failure in this way.",
+        "A UPS provides backup power."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a loopback address such as 127.0.0.1?",
+      "options": [
+        "To test the local TCP/IP stack on the same machine",
+        "To reach the default gateway",
+        "To identify the broadcast domain",
+        "To connect to the nearest DNS server"
+      ],
+      "answer": 0,
+      "explain": "The loopback address points back to the local host and is used to test networking software without leaving the machine.",
+      "optionExplanations": [
+        "A loopback address tests the local host's own TCP/IP stack.",
+        "The default gateway is usually a router interface on the subnet.",
+        "Broadcast domains are defined by switching and routing boundaries, not loopback addresses.",
+        "127.0.0.1 does not point to an external DNS server."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term refers to the delay experienced by packets traveling across a network?",
+      "options": [
+        "Throughput",
+        "Latency",
+        "Topology",
+        "Checksum"
+      ],
+      "answer": 1,
+      "explain": "Latency is the time delay between transmission and reception or between request and response.",
+      "optionExplanations": [
+        "Throughput is the amount of data transferred over time.",
+        "Latency is the delay experienced in network communication.",
+        "Topology describes arrangement of network components.",
+        "A checksum is used for error detection."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which technology combines multiple physical links into one logical link for higher throughput or redundancy?",
+      "options": [
+        "Link aggregation",
+        "Token passing",
+        "Port scanning",
+        "Subnetting"
+      ],
+      "answer": 0,
+      "explain": "Link aggregation bundles multiple interfaces so they operate as one logical connection for added bandwidth and or resilience.",
+      "optionExplanations": [
+        "Link aggregation combines multiple physical links into one logical link.",
+        "Token passing is a media access method.",
+        "Port scanning probes services on hosts.",
+        "Subnetting divides address space into smaller networks."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main advantage of fiber optic backbone cabling in an enterprise building?",
+      "options": [
+        "It is easier to tap without detection",
+        "It supports high bandwidth over longer distances",
+        "It requires no transceivers",
+        "It is affected more by EMI"
+      ],
+      "answer": 1,
+      "explain": "Fiber is favored for backbones because it supports high data rates over longer distances and resists electromagnetic interference.",
+      "optionExplanations": [
+        "Fiber is not easier to tap securely; that would be a disadvantage, not an advantage.",
+        "Fiber supports high bandwidth over longer distances, ideal for backbones.",
+        "Fiber installations still require optical transceivers or interfaces.",
+        "Fiber is less affected by EMI, not more."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which protocol securely encrypts remote command-line administration traffic?",
+      "options": [
+        "Telnet",
+        "SSH",
+        "HTTP",
+        "SNMPv1"
+      ],
+      "answer": 1,
+      "explain": "SSH encrypts remote shell sessions, unlike Telnet which sends data in plaintext.",
+      "optionExplanations": [
+        "Telnet is plaintext and insecure by modern standards.",
+        "SSH securely encrypts remote command-line administration.",
+        "HTTP is for web traffic.",
+        "SNMPv1 lacks modern security and is not a remote shell protocol."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which IPv4 private address block begins with 10?",
+      "options": [
+        "10.0.0.0/8",
+        "10.0.0.0/24 only",
+        "100.64.0.0/10",
+        "11.0.0.0/8"
+      ],
+      "answer": 0,
+      "explain": "The 10.0.0.0/8 block is one of the RFC 1918 private IPv4 address ranges.",
+      "optionExplanations": [
+        "10.0.0.0/8 is the private 10.x.x.x address block.",
+        "10.0.0.0/24 is only one subnet inside the larger private /8 range.",
+        "100.64.0.0/10 is shared address space used by carriers, not standard RFC 1918 private space.",
+        "11.0.0.0/8 is public space."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary reason to disable unused switch ports?",
+      "options": [
+        "To increase monitor size",
+        "To reduce attack surface",
+        "To improve screen brightness",
+        "To eliminate DNS"
+      ],
+      "answer": 1,
+      "explain": "Unused active ports can provide unauthorized physical access opportunities, so disabling them improves security.",
+      "optionExplanations": [
+        "Monitor size is unrelated to switch port configuration.",
+        "Disabling unused ports reduces the attack surface and limits unauthorized access points.",
+        "Screen brightness is unrelated.",
+        "DNS is unaffected by disabling unused switch ports."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which wireless network design practice helps reduce co-channel interference in an office?",
+      "options": [
+        "Using the same channel on every access point",
+        "Careful channel planning across nearby access points",
+        "Disabling all encryption",
+        "Increasing packet size"
+      ],
+      "answer": 1,
+      "explain": "Selecting channels strategically across nearby APs reduces interference and improves wireless performance.",
+      "optionExplanations": [
+        "Using the same channel everywhere increases contention and interference.",
+        "Channel planning helps nearby APs avoid overlapping excessively and reduces co-channel interference.",
+        "Encryption settings do not solve channel overlap.",
+        "Packet size is not the primary control for co-channel interference."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which address is used to send a frame to all devices on an Ethernet LAN segment?",
+      "options": [
+        "Unicast address",
+        "Broadcast address",
+        "Loopback address",
+        "Anycast address"
+      ],
+      "answer": 1,
+      "explain": "A broadcast address targets all hosts on the local broadcast domain or all devices on a LAN segment for the frame type in question.",
+      "optionExplanations": [
+        "A unicast address targets one destination.",
+        "A broadcast address targets all devices in the broadcast domain or segment.",
+        "A loopback address points back to the same host.",
+        "Anycast is not the Ethernet all-hosts addressing concept here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of a DMZ in network design?",
+      "options": [
+        "To place public-facing services in a separate network zone",
+        "To increase battery life of laptops",
+        "To convert IPv6 to IPv4 automatically",
+        "To replace all firewalls"
+      ],
+      "answer": 0,
+      "explain": "A DMZ isolates internet-facing servers from the internal LAN to reduce risk if those public services are compromised.",
+      "optionExplanations": [
+        "A DMZ separates public-facing systems from the internal network for security.",
+        "Battery life is unrelated to DMZ design.",
+        "IPv6 to IPv4 conversion is not the main purpose of a DMZ.",
+        "A DMZ complements firewall design rather than replacing all firewalls."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of IP address assignment remains manually configured and does not change unless an administrator edits it?",
+      "options": [
+        "Dynamic address",
+        "Static address",
+        "APIPA address",
+        "Leased address"
+      ],
+      "answer": 1,
+      "explain": "A static IP address is manually configured and stays the same until changed by an administrator.",
+      "optionExplanations": [
+        "A dynamic address may change based on DHCP leasing.",
+        "A static address is manually configured and remains fixed until changed.",
+        "APIPA is automatic self-assignment when DHCP fails, not deliberate manual addressing.",
+        "A leased address refers to dynamic DHCP behavior."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a workstation shows a 169.254.x.x address, what is the most likely issue?",
+      "options": [
+        "It successfully contacted the DHCP server",
+        "It assigned itself an APIPA address because DHCP failed",
+        "It joined an IPv6-only network",
+        "It is using a valid public address"
+      ],
+      "answer": 1,
+      "explain": "An address in 169.254.0.0/16 usually indicates APIPA self-assignment after the host could not obtain a DHCP lease.",
+      "optionExplanations": [
+        "This usually indicates DHCP did not succeed, not that it succeeded.",
+        "The host self-assigned an APIPA address because it could not reach or obtain service from DHCP.",
+        "APIPA is an IPv4 behavior, not an IPv6-only indication.",
+        "169.254.x.x is not a normal public internet address assignment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the function of a MAC address on a NIC?",
+      "options": [
+        "It provides a physical layer voltage",
+        "It identifies the network interface at Layer 2",
+        "It assigns domain names to hosts",
+        "It replaces the need for IP"
+      ],
+      "answer": 1,
+      "explain": "A MAC address is the hardware-based identifier used for local frame delivery on Ethernet and similar Layer 2 networks.",
+      "optionExplanations": [
+        "Voltage signaling is not the purpose of a MAC address.",
+        "A MAC address identifies the interface at the data link layer.",
+        "DNS assigns domain names, not MAC addresses.",
+        "IP is still needed for routed communication beyond the local segment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which command is most appropriate for displaying the path packets take to a remote host?",
+      "options": [
+        "tracert",
+        "mkdir",
+        "copy",
+        "arp -d"
+      ],
+      "answer": 0,
+      "explain": "Tracert or traceroute reveals the sequence of router hops a packet traverses toward a destination.",
+      "optionExplanations": [
+        "Tracert shows the path and hops to a remote host.",
+        "Mkdir creates directories.",
+        "Copy duplicates files.",
+        "Arp -d deletes ARP cache entries and does not trace routes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which network documentation item shows how devices, links, and addressing fit together visually?",
+      "options": [
+        "Topology diagram",
+        "Acceptable use policy",
+        "Help desk ticket",
+        "Password vault"
+      ],
+      "answer": 0,
+      "explain": "A topology diagram visually documents devices, connections, and often addressing or logical segmentation.",
+      "optionExplanations": [
+        "A topology diagram shows network devices and their interconnections.",
+        "An acceptable use policy is a rules document for users.",
+        "A help desk ticket records an issue or request.",
+        "A password vault stores credentials."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which port is typically used for SMTP email submission or relay in basic exam contexts?",
+      "options": [
+        "53",
+        "80",
+        "25",
+        "161"
+      ],
+      "answer": 2,
+      "explain": "SMTP is commonly associated with port 25 in basic networking exam questions, though other submission ports also exist in practice.",
+      "optionExplanations": [
+        "53 is DNS.",
+        "80 is HTTP.",
+        "25 is the classic SMTP port tested in many networking contexts.",
+        "161 is SNMP."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does a UPS provide to critical network equipment during a power outage?",
+      "options": [
+        "Wireless roaming",
+        "Backup power",
+        "Automatic DNS resolution",
+        "More public IP addresses"
+      ],
+      "answer": 1,
+      "explain": "A UPS supplies temporary backup power so network devices can continue running or shut down gracefully during an outage.",
+      "optionExplanations": [
+        "Roaming is a wireless client mobility function.",
+        "A UPS provides backup power during outages.",
+        "DNS resolution is unrelated to UPS hardware.",
+        "A UPS does not allocate public IP addresses."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best protects switch management interfaces from unauthorized remote access?",
+      "options": [
+        "Leaving default passwords in place",
+        "Using strong credentials and limiting management access",
+        "Enabling every service on the switch",
+        "Broadcasting management VLAN details publicly"
+      ],
+      "answer": 1,
+      "explain": "Strong authentication and restricted management access reduce the chance of administrative compromise.",
+      "optionExplanations": [
+        "Default passwords are a serious security risk.",
+        "Strong credentials and restricted management access are best practice.",
+        "Enabling unnecessary services increases the attack surface.",
+        "Publicizing management details weakens security."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about hubs is true?",
+      "options": [
+        "They forward traffic only to the intended port",
+        "They create separate collision domains per port",
+        "They repeat incoming traffic out all ports",
+        "They route between VLANs"
+      ],
+      "answer": 2,
+      "explain": "A hub is a Layer 1 device that repeats traffic to all ports, unlike a switch that forwards selectively.",
+      "optionExplanations": [
+        "Selective forwarding is a switch behavior, not a hub behavior.",
+        "Hubs do not create separate collision domains per port.",
+        "Hubs repeat incoming traffic to all other ports.",
+        "Routing between VLANs requires Layer 3 capability, not a hub."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of inter-VLAN routing?",
+      "options": [
+        "To allow communication between different VLANs",
+        "To convert copper to fiber",
+        "To amplify wireless signals",
+        "To replace DNS"
+      ],
+      "answer": 0,
+      "explain": "Because VLANs are separate Layer 2 broadcast domains, Layer 3 routing is needed for hosts in different VLANs to communicate.",
+      "optionExplanations": [
+        "Inter-VLAN routing enables communication between hosts on different VLANs.",
+        "Media conversion is unrelated.",
+        "Wireless signal amplification is unrelated.",
+        "DNS is a separate network service."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which metric describes how much data can be transferred across a link per second?",
+      "options": [
+        "Bandwidth",
+        "Latency",
+        "Jitter",
+        "Uptime"
+      ],
+      "answer": 0,
+      "explain": "Bandwidth refers to the capacity of a network link, commonly expressed in bits per second.",
+      "optionExplanations": [
+        "Bandwidth is the data-carrying capacity of a link.",
+        "Latency is delay.",
+        "Jitter is variation in delay.",
+        "Uptime is the duration a system remains operational."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which security concept separates guest Wi-Fi users from internal corporate resources?",
+      "options": [
+        "Network segmentation",
+        "Overclocking",
+        "Port mirroring",
+        "Token ring"
+      ],
+      "answer": 0,
+      "explain": "Network segmentation isolates guest traffic from internal systems, limiting access and reducing risk.",
+      "optionExplanations": [
+        "Network segmentation isolates groups of devices and access levels.",
+        "Overclocking affects hardware speed, not access separation.",
+        "Port mirroring copies traffic for analysis.",
+        "Token Ring is an older networking technology, not the security concept here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which protocol version provides a much larger address space than IPv4?",
+      "options": [
+        "IPv2",
+        "IPv5",
+        "IPv6",
+        "IPX"
+      ],
+      "answer": 2,
+      "explain": "IPv6 uses 128-bit addressing, providing vastly more addresses than IPv4's 32-bit scheme.",
+      "optionExplanations": [
+        "IPv2 is not the modern address-space expansion successor.",
+        "IPv5 was not adopted as the internet addressing standard.",
+        "IPv6 provides a much larger address space than IPv4.",
+        "IPX is a different historical protocol suite."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which troubleshooting step should come first when a user's wired PC has no network connection?",
+      "options": [
+        "Replace every switch in the building",
+        "Check the physical link, cable, and NIC status",
+        "Reinstall the operating system immediately",
+        "Change the company's public IP block"
+      ],
+      "answer": 1,
+      "explain": "Troubleshooting should begin with basic physical checks such as cable connection, link lights, and NIC status before more disruptive actions.",
+      "optionExplanations": [
+        "Replacing all switches is excessive and not the first step.",
+        "Checking physical connectivity and NIC status is the correct first troubleshooting step.",
+        "Reinstalling the OS is far too drastic as an initial action.",
+        "Changing the public IP block is unrelated to a single PC's first-line troubleshooting."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}

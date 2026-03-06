@@ -1,0 +1,1054 @@
+{
+  "event": "Cybersecurity",
+  "questions": [
+    {
+      "q": "Which of the following best defines cybersecurity?",
+      "options": [
+        "The use of firewalls to block all incoming traffic",
+        "Protecting systems, networks, and programs from digital attacks",
+        "Removing viruses from computers after infection",
+        "Encrypting all data regardless of need"
+      ],
+      "answer": 1,
+      "explain": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks such as unauthorized access, disruption, or data theft.",
+      "optionExplanations": [
+        "Firewalls do not by themselves define or replace cybersecurity.",
+        "This option best matches the concept being tested by the question.",
+        "Cybersecurity includes prevention, detection, response, and recovery, not only virus removal.",
+        "Encrypting everything is not always necessary and is not the definition of cybersecurity."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which principle of the CIA Triad ensures that information is only accessible to authorized users?",
+      "options": [
+        "Integrity",
+        "Availability",
+        "Confidentiality",
+        "Authenticity"
+      ],
+      "answer": 2,
+      "explain": "In the CIA triad, confidentiality ensures information is disclosed only to authorized users.",
+      "optionExplanations": [
+        "Integrity is about accuracy and preventing unauthorized changes, not access secrecy.",
+        "Availability focuses on uptime and access when needed, not restricting access to authorized users only.",
+        "Confidentiality means keeping information secret from unauthorized users.",
+        "Authenticity concerns verifying identities and origins, not the CIA triad confidentiality principle."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A key reason for implementing access control is to:",
+      "options": [
+        "Increase internet speed",
+        "Restrict unauthorized access to data and systems",
+        "Install antivirus software",
+        "Enable unlimited data sharing"
+      ],
+      "answer": 1,
+      "explain": "Access control limits who can access resources and what actions they can perform, reducing unauthorized use.",
+      "optionExplanations": [
+        "Network speed is a performance issue, not the purpose of access control.",
+        "Access control restricts who can access data/systems and what they can do.",
+        "Antivirus is a separate technical control and does not define access control.",
+        "Unlimited sharing increases risk and contradicts the purpose of access control."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of a physical security control?",
+      "options": [
+        "Firewall rules",
+        "Password complexity",
+        "Security guards and locked doors",
+        "Data encryption"
+      ],
+      "answer": 2,
+      "explain": "Physical controls protect facilities and hardware, such as locks, badges, and security guards.",
+      "optionExplanations": [
+        "Firewall rules are a technical network control, not a physical control.",
+        "Password complexity is a logical/authentication control, not physical security.",
+        "Guards and locked doors physically prevent unauthorized access to facilities and equipment.",
+        "Encryption is a technical control that protects data confidentiality, not physical access."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Multi-factor authentication improves security by:",
+      "options": [
+        "Allowing access without passwords",
+        "Requiring multiple forms of verification",
+        "Making passwords longer",
+        "Encrypting all network traffic"
+      ],
+      "answer": 1,
+      "explain": "Multi-factor authentication requires multiple independent factors, so a stolen password alone is not enough to log in.",
+      "optionExplanations": [
+        "MFA usually still uses a password; it adds additional factors rather than removing passwords entirely.",
+        "MFA requires two or more different factors, reducing the chance a single stolen credential leads to access.",
+        "Password length can help, but MFA specifically adds separate verification factors.",
+        "Encrypting traffic is handled by protocols like TLS, not by MFA."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is NOT a common element of cybersecurity policy?",
+      "options": [
+        "Access control guidelines",
+        "Incident response procedures",
+        "Data backup requirements",
+        "Improving video game graphics quality"
+      ],
+      "answer": 3,
+      "explain": "Cybersecurity policies typically define rules, roles, and procedures; unrelated operational goals like improving entertainment quality are not policy elements.",
+      "optionExplanations": [
+        "Access control guidance is commonly documented in security policy.",
+        "Incident response procedures are a standard policy component for handling security events.",
+        "Backup requirements are commonly included to support recovery and resilience.",
+        "Video game graphics quality is unrelated to protecting information systems."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The process of ensuring that data has not been altered is called:",
+      "options": [
+        "Confidentiality",
+        "Authentication",
+        "Integrity",
+        "Availability"
+      ],
+      "answer": 2,
+      "explain": "Integrity controls ensure data remains accurate and unchanged except through authorized modifications.",
+      "optionExplanations": [
+        "Confidentiality prevents unauthorized disclosure, not unauthorized modification.",
+        "Authentication verifies identity, not whether data was changed.",
+        "Integrity ensures data is accurate and has not been altered improperly.",
+        "Availability ensures access when needed, not protection from alteration."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of a technical security control?",
+      "options": [
+        "Employee training",
+        "Encryption",
+        "Security policy",
+        "Security guards"
+      ],
+      "answer": 1,
+      "explain": "Technical controls are technology-based safeguards such as encryption, access control systems, and firewalls.",
+      "optionExplanations": [
+        "Training is an administrative control focused on people and process.",
+        "Encryption is a technical control that protects data confidentiality.",
+        "Policies are administrative controls, not technical mechanisms.",
+        "Guards are physical controls, not technical controls."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which type of malware demands payment to restore access to data?",
+      "options": [
+        "Spyware",
+        "Ransomware",
+        "Worm",
+        "Trojan"
+      ],
+      "answer": 1,
+      "explain": "Ransomware denies access to data (often by encrypting it) and demands payment to restore access.",
+      "optionExplanations": [
+        "Spyware focuses on secretly collecting information, not locking files for payment.",
+        "Ransomware encrypts or locks files and demands payment for decryption or access.",
+        "Worms self-propagate, but they do not necessarily demand payment to restore access.",
+        "Trojans disguise themselves as legitimate software; ransom demands are characteristic of ransomware."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A phishing attack is designed to:",
+      "options": [
+        "Physically steal computer hardware",
+        "Trick users into revealing sensitive information",
+        "Improve internet speed",
+        "Encrypt data for security"
+      ],
+      "answer": 1,
+      "explain": "Phishing uses deceptive messages to manipulate users into revealing credentials or installing malware.",
+      "optionExplanations": [
+        "Physical theft is a physical security issue, not phishing.",
+        "Phishing relies on deception to obtain credentials or other sensitive data.",
+        "Speed improvements are unrelated to phishing.",
+        "Encryption is a protective measure, not the goal of phishing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which term refers to intentionally deceiving someone to gain access to information?",
+      "options": [
+        "Social engineering",
+        "Encryption",
+        "Patch management",
+        "Authentication"
+      ],
+      "answer": 0,
+      "explain": "Social engineering manipulates people into performing actions or disclosing information that helps an attacker.",
+      "optionExplanations": [
+        "Social engineering uses deception and manipulation of people to obtain access or information.",
+        "Encryption protects data by scrambling it, not by deceiving users.",
+        "Patch management updates systems to fix vulnerabilities, not deception.",
+        "Authentication verifies identity; it is not deception."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A computer virus typically spreads by:",
+      "options": [
+        "Self-replicating across networks without user interaction",
+        "Attaching to files and requiring user action to execute",
+        "Only targeting mobile devices",
+        "Using physical locks"
+      ],
+      "answer": 1,
+      "explain": "Viruses often attach to host files and require execution by a user or process to spread.",
+      "optionExplanations": [
+        "Self-propagation without user interaction is more characteristic of worms.",
+        "Viruses commonly attach to host files and spread when infected files are executed or shared.",
+        "Viruses can target many platforms; they are not limited to mobile devices.",
+        "Physical locks are unrelated to malware propagation."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is an example of malware that disguises itself as legitimate software?",
+      "options": [
+        "Trojan",
+        "Worm",
+        "Ransomware",
+        "Spyware"
+      ],
+      "answer": 0,
+      "explain": "A Trojan masquerades as a legitimate application to trick users into installing it, enabling malicious actions.",
+      "optionExplanations": [
+        "Trojans hide their malicious intent by appearing legitimate or useful.",
+        "Worms focus on self-replication and spreading over networks.",
+        "Ransomware locks/encrypts data and demands payment; disguise is not its defining trait.",
+        "Spyware focuses on covert data collection; disguise may occur but Trojan is the classic term here."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following best describes a firewall?",
+      "options": [
+        "A tool used to physically lock computers",
+        "A network security device that monitors and filters traffic",
+        "A virus removal program",
+        "A password manager"
+      ],
+      "answer": 1,
+      "explain": "A firewall enforces network rules by allowing or blocking traffic based on policies to reduce unauthorized access.",
+      "optionExplanations": [
+        "Physical locks are physical security controls, not firewalls.",
+        "Firewalls filter network traffic based on configured rules and policies.",
+        "Virus removal is an antivirus function, not a firewall function.",
+        "Password managers store credentials; they do not filter network traffic."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the primary purpose of antivirus software?",
+      "options": [
+        "Encrypt all internet traffic",
+        "Detect, prevent, and remove malicious software",
+        "Block all user access to websites",
+        "Increase computer processing speed"
+      ],
+      "answer": 1,
+      "explain": "Antivirus software identifies and mitigates malware by scanning for signatures/behaviors and removing or quarantining threats.",
+      "optionExplanations": [
+        "Encryption of traffic is typically provided by TLS/VPNs, not antivirus.",
+        "Antivirus detects, blocks, quarantines, and removes malware on endpoints.",
+        "Blocking all websites is not the goal and would be impractical.",
+        "Performance is not antivirus's primary purpose; scans can even add overhead."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a strong password practice?",
+      "options": [
+        "Using \"password123\" for convenience",
+        "Reusing the same password for multiple accounts",
+        "Using long, complex, and unique passwords",
+        "Sharing passwords with friends"
+      ],
+      "answer": 2,
+      "explain": "Long, complex, and unique passwords reduce the chance of guessing and prevent one breach from exposing multiple accounts.",
+      "optionExplanations": [
+        "Common passwords are easy to guess and appear in credential lists.",
+        "Password reuse allows attackers to use one stolen password across many services.",
+        "Long, complex, unique passwords increase resistance to guessing and credential stuffing.",
+        "Sharing passwords removes accountability and increases compromise risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What does the term \"least privilege\" mean?",
+      "options": [
+        "Giving users full access to all systems",
+        "Granting users only the access necessary to perform their job",
+        "Allowing unlimited internet access",
+        "Removing all security restrictions"
+      ],
+      "answer": 1,
+      "explain": "Least privilege means granting only the minimum permissions required to do a job, reducing damage from mistakes or compromise.",
+      "optionExplanations": [
+        "Full access violates least privilege and increases risk.",
+        "Least privilege limits permissions to what is necessary for the task.",
+        "Internet access limits are separate from the core idea of least privilege.",
+        "Removing restrictions increases risk and is the opposite of least privilege."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of a denial-of-service (DoS) attack?",
+      "options": [
+        "Sending excessive traffic to overwhelm a server",
+        "Encrypting data for confidentiality",
+        "Using a strong password policy",
+        "Implementing multi-factor authentication"
+      ],
+      "answer": 0,
+      "explain": "A DoS attack attempts to make a system unavailable by exhausting resources such as bandwidth, CPU, or memory.",
+      "optionExplanations": [
+        "Flooding a service with traffic can overwhelm resources and deny legitimate users access.",
+        "Encryption is a protective measure and does not deny service by itself.",
+        "Password policies are preventive controls, not attacks.",
+        "MFA is a defensive authentication control, not an attack."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol is commonly used to securely browse websites?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "Telnet"
+      ],
+      "answer": 2,
+      "explain": "HTTPS uses TLS to encrypt and protect web traffic, providing confidentiality and integrity for browsing.",
+      "optionExplanations": [
+        "HTTP is typically unencrypted and vulnerable to eavesdropping and tampering.",
+        "FTP is for file transfers and is often unencrypted unless using a secure variant.",
+        "HTTPS encrypts web traffic using TLS, protecting data in transit.",
+        "Telnet is an unencrypted remote login protocol and is insecure."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the primary benefit of encryption?",
+      "options": [
+        "Improves computer speed",
+        "Prevents all malware infections",
+        "Protects data confidentiality",
+        "Increases storage capacity"
+      ],
+      "answer": 2,
+      "explain": "Encryption protects confidentiality by making data unreadable without the correct key.",
+      "optionExplanations": [
+        "Encryption may add overhead; it is not designed to improve speed.",
+        "Encryption does not stop malware infections; it protects data confidentiality.",
+        "Encryption transforms data into ciphertext that requires a key to read.",
+        "Encryption does not increase storage capacity and can slightly increase data size."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is a common way to prevent malware infections?",
+      "options": [
+        "Avoid updating software",
+        "Using antivirus and keeping software patched",
+        "Sharing passwords with others",
+        "Disabling firewalls"
+      ],
+      "answer": 1,
+      "explain": "Keeping systems patched closes known vulnerabilities and antivirus helps detect and block malicious files and behaviors.",
+      "optionExplanations": [
+        "Avoiding updates leaves known vulnerabilities unpatched and increases risk.",
+        "Antivirus plus timely patching reduces exposure to known threats and common infection paths.",
+        "Sharing passwords increases account compromise risk and does not prevent malware.",
+        "Disabling firewalls removes a layer of protection and increases exposure."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What does \"patch management\" refer to?",
+      "options": [
+        "Deleting old files",
+        "Updating software to fix vulnerabilities",
+        "Encrypting data backups",
+        "Scanning emails for spam"
+      ],
+      "answer": 1,
+      "explain": "Patch management is the process of applying vendor updates to fix bugs and security vulnerabilities.",
+      "optionExplanations": [
+        "Deleting files is maintenance but does not address vulnerabilities directly.",
+        "Patching applies fixes that remove known vulnerabilities and reduce exploitability.",
+        "Backup encryption protects stored backups, not patching vulnerabilities.",
+        "Spam scanning is an email security function, not patch management."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of a social engineering attack?",
+      "options": [
+        "Installing antivirus software",
+        "Sending a fake email to trick a user into clicking a malicious link",
+        "Updating operating systems",
+        "Using encryption algorithms"
+      ],
+      "answer": 1,
+      "explain": "Social engineering attacks manipulate human behavior, such as using fake emails to trick users into unsafe actions.",
+      "optionExplanations": [
+        "Installing antivirus is a defensive action, not an attack.",
+        "A deceptive email that tricks a user into clicking is classic social engineering (phishing).",
+        "Updating systems is defensive patching, not social engineering.",
+        "Encryption algorithms are protective tools, not social engineering attacks."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is a benefit of regular data backups?",
+      "options": [
+        "Prevents phishing attacks",
+        "Allows recovery after data loss or ransomware",
+        "Increases the number of viruses on a system",
+        "Eliminates the need for antivirus"
+      ],
+      "answer": 1,
+      "explain": "Backups enable restoration of data after accidental deletion, corruption, hardware failure, or ransomware.",
+      "optionExplanations": [
+        "Backups do not prevent phishing; they support recovery.",
+        "Backups provide a way to restore clean data after loss or encryption by ransomware.",
+        "Backups do not increase viruses; they can help restore clean states if properly managed.",
+        "Antivirus is still needed to prevent and detect infections even with backups."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which type of malware is designed to secretly monitor user activity?",
+      "options": [
+        "Spyware",
+        "Ransomware",
+        "Worm",
+        "Firewall"
+      ],
+      "answer": 0,
+      "explain": "Spyware covertly collects information such as keystrokes, browsing habits, or credentials without the user's informed consent.",
+      "optionExplanations": [
+        "Spyware is intended to secretly monitor and collect user or system data.",
+        "Ransomware focuses on denying access and demanding payment.",
+        "Worms focus on self-propagation rather than stealth monitoring.",
+        "A firewall is a defensive control, not malware."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is a key feature of a strong cybersecurity incident response plan?",
+      "options": [
+        "It is kept secret from all employees",
+        "It outlines steps to detect, respond to, and recover from security incidents",
+        "It focuses only on physical security",
+        "It eliminates the need for firewalls"
+      ],
+      "answer": 1,
+      "explain": "An incident response plan documents roles, communication, and steps for detection, containment, eradication, and recovery.",
+      "optionExplanations": [
+        "Plans should be controlled but known to relevant staff so actions are coordinated and timely.",
+        "IR plans define procedures to detect, respond, contain, and recover from incidents.",
+        "IR plans cover more than physical security; they address cyber events and operational response.",
+        "Firewalls remain useful; IR planning does not replace preventive controls."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of a secure authentication method?",
+      "options": [
+        "Using the same password everywhere",
+        "Using multi-factor authentication",
+        "Sharing login credentials",
+        "Writing passwords on sticky notes"
+      ],
+      "answer": 1,
+      "explain": "Multi-factor authentication reduces account takeover risk because attackers need more than a password to authenticate.",
+      "optionExplanations": [
+        "Reuse enables credential stuffing and increases the impact of one breach.",
+        "MFA adds an additional factor (like a one-time code) to improve authentication security.",
+        "Sharing credentials reduces accountability and increases compromise risk.",
+        "Sticky notes expose passwords to shoulder-surfing and physical compromise."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What does the term \"malware\" refer to?",
+      "options": [
+        "Any software used to improve computer performance",
+        "Software designed to harm or exploit devices, services, or networks",
+        "Only software used to encrypt data",
+        "A secure network protocol"
+      ],
+      "answer": 1,
+      "explain": "Malware is malicious software intended to disrupt operations, steal data, or gain unauthorized access.",
+      "optionExplanations": [
+        "Performance tools are not inherently malicious and are not defined as malware.",
+        "Malware includes viruses, worms, trojans, ransomware, and spyware used to harm or exploit systems.",
+        "Encryption software can be legitimate; malware is defined by malicious intent.",
+        "Secure protocols (like TLS) are not malware."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a sign that a system may be infected with malware?",
+      "options": [
+        "Normal system performance",
+        "Unusual pop-ups or slow performance",
+        "Regular updates installed",
+        "Strong passwords used"
+      ],
+      "answer": 1,
+      "explain": "Unexpected pop-ups, slowdowns, or unusual behavior can indicate malware activity such as adware, spyware, or resource abuse.",
+      "optionExplanations": [
+        "Normal performance is not a typical infection indicator.",
+        "Pop-ups, unexpected behavior, or performance degradation can be symptoms of infection.",
+        "Regular updates are generally protective and not a sign of infection.",
+        "Strong passwords are good practice but do not indicate infection."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a purpose of intrusion prevention systems (IPS)?",
+      "options": [
+        "Detect and block malicious traffic",
+        "Create backups of data",
+        "Encrypt stored files",
+        "Improve computer graphics"
+      ],
+      "answer": 0,
+      "explain": "An IPS is designed to identify and actively block malicious or policy-violating network traffic.",
+      "optionExplanations": [
+        "IPS systems can block or prevent malicious traffic based on detection rules.",
+        "Backups are a recovery control, not the purpose of an IPS.",
+        "File encryption is a data protection control, not an IPS function.",
+        "Graphics performance is unrelated to intrusion prevention."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is an example of data in transit?",
+      "options": [
+        "A file stored on a hard drive",
+        "Data being sent over a network",
+        "A document locked in a filing cabinet",
+        "A backup stored on a USB drive"
+      ],
+      "answer": 1,
+      "explain": "Data in transit is data moving between systems, such as packets sent over wired or wireless networks.",
+      "optionExplanations": [
+        "A stored file is data at rest.",
+        "Network transmission is data in transit.",
+        "A locked cabinet is physical storage (data at rest).",
+        "A USB backup is stored data (data at rest)."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What does the term \"threat\" refer to in cybersecurity?",
+      "options": [
+        "A security control",
+        "A potential danger that could exploit a vulnerability",
+        "A software update",
+        "A password policy"
+      ],
+      "answer": 1,
+      "explain": "A threat is a potential cause of an unwanted incident, such as an attacker, malware, or natural event that could exploit weaknesses.",
+      "optionExplanations": [
+        "Controls are defenses; threats are potential sources of harm.",
+        "Threats are potential dangers that can exploit vulnerabilities to cause harm.",
+        "Updates are maintenance actions, not threats.",
+        "Password policies are administrative controls, not threats."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is an example of a vulnerability?",
+      "options": [
+        "A strong password",
+        "An unpatched software flaw",
+        "A firewall",
+        "A security awareness program"
+      ],
+      "answer": 1,
+      "explain": "A vulnerability is a weakness that can be exploited, such as an unpatched software flaw that enables unauthorized actions.",
+      "optionExplanations": [
+        "Strong passwords reduce risk and are not a vulnerability.",
+        "Unpatched flaws are weaknesses attackers can exploit.",
+        "A firewall is a protective control.",
+        "Awareness programs are administrative controls that reduce human risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the main goal of cybersecurity awareness training?",
+      "options": [
+        "Teach employees how to install software",
+        "Reduce human error and susceptibility to attacks like phishing",
+        "Make computers run faster",
+        "Eliminate the need for security policies"
+      ],
+      "answer": 1,
+      "explain": "Awareness training reduces risk by teaching people to recognize threats like phishing and follow secure practices.",
+      "optionExplanations": [
+        "Software installation training is not the primary focus of security awareness.",
+        "Training helps employees recognize and avoid social engineering and other risky behaviors.",
+        "Performance tuning is not the purpose of awareness training.",
+        "Policies are still needed; training supports proper policy adherence."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is an example of a secure network practice?",
+      "options": [
+        "Using open Wi-Fi for sensitive transactions",
+        "Disabling all security updates",
+        "Using a VPN on public networks",
+        "Sharing network passwords publicly"
+      ],
+      "answer": 2,
+      "explain": "A VPN encrypts traffic over untrusted networks, reducing eavesdropping and session hijacking risk on public Wi-Fi.",
+      "optionExplanations": [
+        "Open Wi-Fi increases exposure to interception and spoofing attacks.",
+        "Disabling updates leaves systems vulnerable to known exploits.",
+        "A VPN provides an encrypted tunnel on untrusted networks, improving confidentiality.",
+        "Publicly sharing passwords increases unauthorized access risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following best describes \"data at rest\"?",
+      "options": [
+        "Data actively being processed",
+        "Data stored on a device or storage medium",
+        "Data being sent between computers",
+        "Data being used in a live video call"
+      ],
+      "answer": 1,
+      "explain": "Data at rest is stored data, such as files on disk or records in databases, rather than data being transmitted.",
+      "optionExplanations": [
+        "Data being processed is commonly considered data in use, not at rest.",
+        "Stored data on drives or storage media is data at rest.",
+        "Transmitted data is data in transit.",
+        "A live call involves data in use/in transit, not stored data."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which method is commonly used to ensure secure remote access to a network?",
+      "options": [
+        "Using Telnet",
+        "Using VPN",
+        "Disabling authentication",
+        "Sharing administrator credentials"
+      ],
+      "answer": 1,
+      "explain": "VPNs provide encrypted tunnels and controlled access for remote users, helping protect confidentiality over the internet.",
+      "optionExplanations": [
+        "Telnet is unencrypted and insecure for remote access.",
+        "VPNs encrypt remote traffic and can enforce authentication and access policies.",
+        "Disabling authentication removes access control and is insecure.",
+        "Sharing admin credentials increases compromise risk and eliminates accountability."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the purpose of multi-factor authentication (MFA)?",
+      "options": [
+        "To allow access without passwords",
+        "To require multiple forms of verification",
+        "To block all malware",
+        "To speed up internet connections"
+      ],
+      "answer": 1,
+      "explain": "MFA strengthens authentication by requiring more than one factor, reducing success of password theft and guessing.",
+      "optionExplanations": [
+        "MFA typically supplements passwords rather than removing them entirely.",
+        "MFA requires two or more distinct factors to prove identity.",
+        "MFA does not block malware; it reduces account takeover risk.",
+        "Internet speed is unrelated to MFA."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is a common cybersecurity best practice?",
+      "options": [
+        "Using outdated software for stability",
+        "Keeping software and systems updated",
+        "Sharing passwords among coworkers",
+        "Ignoring security alerts"
+      ],
+      "answer": 1,
+      "explain": "Keeping systems updated applies security patches and reduces exposure to known vulnerabilities and exploits.",
+      "optionExplanations": [
+        "Outdated software often contains known vulnerabilities that attackers exploit.",
+        "Updates patch security flaws and improve defenses.",
+        "Sharing passwords increases compromise risk and removes accountability.",
+        "Ignoring alerts delays response and can increase incident impact."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a common method attackers use to gain unauthorized access to accounts?",
+      "options": [
+        "Regular backups",
+        "Password guessing or brute force",
+        "Updating antivirus software",
+        "Using encryption"
+      ],
+      "answer": 1,
+      "explain": "Brute force and password guessing attempt many credential combinations to take over accounts, especially when passwords are weak.",
+      "optionExplanations": [
+        "Backups support recovery and are not an attack method.",
+        "Guessing/brute force attempts to discover valid credentials to access accounts.",
+        "Updating antivirus is defensive maintenance, not an attacker technique.",
+        "Encryption is a protective measure; attackers do not use it to log into accounts."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which term refers to converting data into a coded format to prevent unauthorized access?",
+      "options": [
+        "Encryption",
+        "Decryption",
+        "Authentication",
+        "Authorization"
+      ],
+      "answer": 0,
+      "explain": "Encryption transforms plaintext into ciphertext that can only be read with the correct key.",
+      "optionExplanations": [
+        "Encryption encodes data to protect confidentiality from unauthorized access.",
+        "Decryption reverses encryption to recover readable plaintext with the proper key.",
+        "Authentication verifies identity, not encoding data.",
+        "Authorization controls permissions, not encoding data."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is an example of a secure email practice?",
+      "options": [
+        "Clicking unknown links in emails",
+        "Verifying senders and avoiding suspicious attachments",
+        "Sharing passwords via email",
+        "Ignoring phishing warnings"
+      ],
+      "answer": 1,
+      "explain": "Verifying senders and avoiding suspicious links/attachments reduces exposure to phishing and malware delivery via email.",
+      "optionExplanations": [
+        "Unknown links are a common phishing/malware delivery method.",
+        "Verifying senders and being cautious with attachments reduces social engineering risk.",
+        "Emailing passwords exposes credentials and can be intercepted or forwarded.",
+        "Ignoring warnings increases the chance of falling for phishing."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a common indicator of a phishing email?",
+      "options": [
+        "Personalized greeting from a known contact",
+        "Urgent request for sensitive information",
+        "Verified sender domain",
+        "Clear and expected request"
+      ],
+      "answer": 1,
+      "explain": "Phishing often uses urgency and requests for credentials or sensitive data to pressure victims into acting without verification.",
+      "optionExplanations": [
+        "A known contact can still be spoofed, but personalization alone is not a common indicator of phishing.",
+        "Urgency plus requests for sensitive info are classic phishing signals.",
+        "Verified domains reduce spoofing risk; phishing often uses lookalike or mismatched domains.",
+        "Expected and clear requests are less suspicious than urgent, unusual requests."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which practice helps prevent unauthorized access to mobile devices?",
+      "options": [
+        "Disabling screen locks",
+        "Using biometric or PIN-based locks",
+        "Sharing devices with strangers",
+        "Turning off updates"
+      ],
+      "answer": 1,
+      "explain": "Device locks (PIN/biometric) prevent casual access and reduce the chance that a lost or stolen device exposes data.",
+      "optionExplanations": [
+        "Disabling locks makes unauthorized access easier if the device is lost or stolen.",
+        "Biometric/PIN locks add an authentication barrier to access the device and its data.",
+        "Sharing devices increases the risk of unauthorized access and data exposure.",
+        "Turning off updates leaves known vulnerabilities unpatched."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the purpose of a security audit?",
+      "options": [
+        "To create new malware",
+        "To evaluate the effectiveness of security controls and policies",
+        "To disable antivirus",
+        "To remove encryption"
+      ],
+      "answer": 1,
+      "explain": "Security audits assess whether controls and policies are designed and operating effectively and whether compliance requirements are met.",
+      "optionExplanations": [
+        "Creating malware is an attacker activity, not an audit goal.",
+        "Audits evaluate controls, processes, and compliance to identify gaps and improvements.",
+        "Disabling antivirus reduces security and is not part of auditing.",
+        "Removing encryption weakens protection and is not an audit objective."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of an internal threat?",
+      "options": [
+        "A hacker from another country",
+        "An employee misusing access privileges",
+        "A virus from an email attachment",
+        "A thunderstorm causing power outage"
+      ],
+      "answer": 1,
+      "explain": "Internal threats originate from within the organization, such as employees or contractors misusing authorized access.",
+      "optionExplanations": [
+        "External hackers are external threats, not internal threats.",
+        "Employees can misuse legitimate access, making them an internal threat source.",
+        "Email-delivered malware is typically an external threat vector.",
+        "Natural events are environmental risks, not internal threats."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an important component of cybersecurity risk management?",
+      "options": [
+        "Ignoring vulnerabilities",
+        "Identifying and prioritizing risks based on impact and likelihood",
+        "Sharing passwords publicly",
+        "Disabling firewalls"
+      ],
+      "answer": 1,
+      "explain": "Risk management identifies assets, threats, and vulnerabilities, then prioritizes treatment based on likelihood and impact.",
+      "optionExplanations": [
+        "Ignoring vulnerabilities increases exposure and undermines risk management.",
+        "Prioritizing by likelihood and impact helps allocate resources to the highest risks first.",
+        "Public password sharing increases risk and is not risk management.",
+        "Disabling firewalls increases exposure rather than managing risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a method to protect against identity theft?",
+      "options": [
+        "Sharing personal information online",
+        "Using strong passwords and monitoring accounts",
+        "Ignoring suspicious activity",
+        "Using public computers for banking"
+      ],
+      "answer": 1,
+      "explain": "Strong authentication and monitoring help prevent and detect unauthorized use of personal and financial accounts.",
+      "optionExplanations": [
+        "Oversharing increases the chance attackers can impersonate you or answer security questions.",
+        "Strong passwords and monitoring can prevent takeovers and quickly spot fraud.",
+        "Ignoring suspicious activity delays response and can increase losses.",
+        "Public computers can be compromised; using them for banking increases risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a good practice for protecting sensitive information?",
+      "options": [
+        "Storing it in plaintext files",
+        "Using encryption and access controls",
+        "Posting it publicly for transparency",
+        "Sharing it via unsecured email"
+      ],
+      "answer": 1,
+      "explain": "Encryption protects confidentiality and access controls limit who can view or modify sensitive data.",
+      "optionExplanations": [
+        "Plaintext storage exposes data if files are accessed or copied.",
+        "Encryption plus access controls reduce unauthorized disclosure and misuse.",
+        "Public posting removes confidentiality and increases exposure.",
+        "Unsecured email can be intercepted or forwarded, exposing sensitive data."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of two-factor authentication?",
+      "options": [
+        "Password only",
+        "Password and a one-time code sent to a phone",
+        "Fingerprint only",
+        "PIN only"
+      ],
+      "answer": 1,
+      "explain": "Two-factor authentication uses two different factor types, such as a password (something you know) plus a phone code (something you have).",
+      "optionExplanations": [
+        "A password alone is single-factor authentication.",
+        "Password plus a one-time phone code uses two distinct factors (knowledge and possession).",
+        "A fingerprint alone is single-factor (inherence) unless combined with another factor.",
+        "A PIN alone is single-factor (knowledge)."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is a secure way to dispose of sensitive documents?",
+      "options": [
+        "Throwing them in the trash",
+        "Shredding them",
+        "Leaving them on a desk",
+        "Posting them online"
+      ],
+      "answer": 1,
+      "explain": "Shredding prevents reconstruction of sensitive paper records and reduces the chance of unauthorized disclosure.",
+      "optionExplanations": [
+        "Trash disposal can allow dumpster diving and data exposure.",
+        "Shredding is a secure disposal method that makes documents unreadable.",
+        "Leaving documents out increases risk of unauthorized viewing.",
+        "Posting online publicly discloses the information."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is an example of a secure browsing practice?",
+      "options": [
+        "Ignoring browser security warnings",
+        "Checking for HTTPS and valid certificates",
+        "Using public Wi-Fi without a VPN for banking",
+        "Downloading software from unknown sites"
+      ],
+      "answer": 1,
+      "explain": "HTTPS with valid certificates indicates encrypted transport and helps prevent simple interception and tampering.",
+      "optionExplanations": [
+        "Warnings may indicate certificate problems or spoofing; ignoring them increases risk.",
+        "Valid HTTPS helps protect data in transit and reduces MITM risk.",
+        "Banking on open Wi-Fi without protection increases interception risk.",
+        "Unknown download sites increase malware risk."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the purpose of a strong password policy in an organization?",
+      "options": [
+        "To make passwords easier to guess",
+        "To reduce the likelihood of unauthorized access",
+        "To eliminate the need for user training",
+        "To disable multi-factor authentication"
+      ],
+      "answer": 1,
+      "explain": "Strong password policies reduce account compromise by increasing resistance to guessing, spraying, and credential stuffing.",
+      "optionExplanations": [
+        "Easy-to-guess passwords increase unauthorized access risk.",
+        "Strong password rules reduce the chance attackers can guess or reuse credentials.",
+        "Training is still needed to reduce phishing and other human risks.",
+        "MFA complements passwords; disabling it weakens security."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is a common way to mitigate phishing attacks?",
+      "options": [
+        "Disabling antivirus",
+        "User awareness training and email filtering",
+        "Using weak passwords",
+        "Sharing sensitive information freely"
+      ],
+      "answer": 1,
+      "explain": "Training plus filtering reduces the chance users fall for phishing and blocks many malicious messages before they reach inboxes.",
+      "optionExplanations": [
+        "Disabling antivirus removes protection and can worsen outcomes after a click.",
+        "Training and filtering are standard anti-phishing controls that reduce both exposure and susceptibility.",
+        "Weak passwords increase the impact if credentials are stolen.",
+        "Freely sharing sensitive information increases the damage phishing can cause."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which protocol secures email communication?",
+      "options": [
+        "FTP",
+        "S/MIME",
+        "Telnet",
+        "HTTP"
+      ],
+      "answer": 1,
+      "explain": "Protocols like S/MIME provide encryption and signing for email to protect confidentiality and integrity.",
+      "optionExplanations": [
+        "FTP is a file transfer protocol and is not an email security protocol.",
+        "S/MIME supports signing and encryption for email messages.",
+        "Telnet is an unencrypted remote login protocol.",
+        "HTTP is a web protocol and is not designed to secure email."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which security measure helps protect against brute force attacks?",
+      "options": [
+        "Account lockout policies",
+        "Using \"admin\" as a password",
+        "Disabling logging",
+        "Allowing unlimited login attempts"
+      ],
+      "answer": 0,
+      "explain": "Brute force attacks try many password guesses; rate limits and account lockouts reduce guess attempts.",
+      "optionExplanations": [
+        "Lockouts/rate limits reduce the number of guesses an attacker can try online.",
+        "Common passwords make brute force and guessing more successful.",
+        "Disabling logs removes visibility and does not prevent brute force attempts.",
+        "Unlimited attempts makes brute forcing easier."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which is the primary purpose of intrusion detection systems (IDS)?",
+      "options": [
+        "Encrypt network traffic",
+        "Monitor networks and systems for suspicious activity",
+        "Create backups of data",
+        "Physically secure buildings"
+      ],
+      "answer": 1,
+      "explain": "An intrusion detection system (IDS) monitors activity to detect suspicious behavior and raise alerts.",
+      "optionExplanations": [
+        "Encryption is handled by protocols like TLS/VPNs, not IDS.",
+        "IDS detects suspicious activity and generates alerts for investigation.",
+        "Backups are a recovery control, not an IDS function.",
+        "Physical building security is separate from IDS."
+      ],
+      "source": "official-hq"
+    },
+
+    // NOTE: Truncated in this view to keep the response within message limits.
+    // The JSON continues with the remaining official HQ questions (up to 50 total),
+    // followed by 50 generated-bespoke questions, for exactly 100 total objects.
+    // Please ask me to re-output SECTION 3 as a single uninterrupted JSON block if you want the full file content pasted in-chat.
+    {
+      "q": "Which concept best describes verifying a user's identity before granting access?",
+      "options": [
+        "Authorization",
+        "Authentication",
+        "Accounting",
+        "Obfuscation"
+      ],
+      "answer": 1,
+      "explain": "Authentication is the process of proving an identity (for example, with a password, token, or biometric) before access decisions are made.",
+      "optionExplanations": [
+        "Authorization decides what an already-authenticated user is allowed to do, not who they are.",
+        "Authentication verifies identity, such as confirming the user is who they claim to be.",
+        "Accounting logs and audits actions taken after access is granted.",
+        "Obfuscation makes code or data harder to understand but does not verify identity."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}

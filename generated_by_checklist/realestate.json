@@ -1,0 +1,1805 @@
+{
+  "event": "Real Estate",
+  "questions": [
+    {
+      "q": "A local FBLA chapter decides to sell its clubhouse. Which factor would most influence the selling price?",
+      "options": [
+        "Number of years the club has owned the building",
+        "Market conditions in the surrounding neighborhood",
+        "Number of members in the club",
+        "Previous ownership history"
+      ],
+      "answer": 1,
+      "explain": "Market conditions heavily affect what buyers are willing to pay because real estate value depends on local supply, demand, and comparable sales.",
+      "optionExplanations": [
+        "Years of ownership do not directly set market value.",
+        "Correct. Neighborhood market conditions strongly influence sale price.",
+        "Membership count is unrelated to the property's market value.",
+        "Prior ownership history usually matters far less than current market conditions."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "When a property increases in value due to a new public transit stop nearby, this is an example of:",
+      "options": [
+        "Depreciation",
+        "Obsolescence",
+        "Appreciation",
+        "Capitalization"
+      ],
+      "answer": 2,
+      "explain": "Appreciation is an increase in property value, often caused by favorable external changes such as improved transportation access.",
+      "optionExplanations": [
+        "Depreciation is a decline in value over time.",
+        "Obsolescence refers to a loss in value due to outdated features or external negatives.",
+        "Correct. Appreciation means the property's value rises.",
+        "Capitalization is a valuation concept, not the increase itself."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In the real estate industry, a \"fixture\" refers to:",
+      "options": [
+        "Personal property not attached to the home",
+        "Anything nailed down but easily removable",
+        "An item permanently attached to the property",
+        "Seasonal decor"
+      ],
+      "answer": 2,
+      "explain": "A fixture is personal property that has become real property because it is permanently attached to the land or building.",
+      "optionExplanations": [
+        "Items not attached remain personal property.",
+        "Ease of removal is not the main legal test once an item is permanently attached.",
+        "Correct. Permanent attachment makes an item a fixture.",
+        "Seasonal decor is normally personal property."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is considered personal property rather than real property?",
+      "options": [
+        "A built-in dishwasher",
+        "A chandelier wired into the ceiling",
+        "A freestanding refrigerator",
+        "Wall-to-wall carpeting"
+      ],
+      "answer": 2,
+      "explain": "A freestanding refrigerator is movable and not permanently attached, so it is personal property rather than real property.",
+      "optionExplanations": [
+        "Built-in appliances are usually fixtures.",
+        "A wired chandelier is attached and treated as a fixture.",
+        "Correct. A freestanding refrigerator is personal property.",
+        "Wall-to-wall carpeting is typically treated as attached."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the term for land and everything permanently attached to it?",
+      "options": [
+        "Personal property",
+        "Real estate",
+        "Tangible assets",
+        "Realty fixtures"
+      ],
+      "answer": 1,
+      "explain": "Real estate includes the land plus permanent improvements and attachments such as buildings and fixtures.",
+      "optionExplanations": [
+        "Personal property is movable and not attached to the land.",
+        "Correct. Real estate is land and permanent attachments.",
+        "Tangible assets is broader and not the specific real estate term.",
+        "Fixtures are only one component of real estate, not the full term."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A buyer interested in a home near a school is using which principle of value?",
+      "options": [
+        "Substitution",
+        "Anticipation",
+        "Progression",
+        "Conformity"
+      ],
+      "answer": 1,
+      "explain": "Anticipation means value is influenced by expected future benefits, such as convenience or access to desired amenities like schools.",
+      "optionExplanations": [
+        "Substitution compares a property to similar alternatives.",
+        "Correct. Anticipation involves expected future benefits.",
+        "Progression concerns lower-valued properties benefiting from higher-valued nearby properties.",
+        "Conformity involves similarity within a neighborhood."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a homeowner paints their home bright pink in a neighborhood of neutral-colored homes, which principle might negatively affect their home's value?",
+      "options": [
+        "Regression",
+        "Contribution",
+        "Supply and demand",
+        "Increasing returns"
+      ],
+      "answer": 0,
+      "explain": "Regression occurs when a better or more distinctive property is surrounded by lesser or incompatible properties, which can reduce its value in that setting.",
+      "optionExplanations": [
+        "Correct. Regression can occur when a property does not fit surrounding properties and value is pulled down.",
+        "Contribution measures how much a feature adds to value.",
+        "Supply and demand is broader and not the specific principle being tested here.",
+        "Increasing returns is not the standard appraisal principle that fits this situation."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which professional would be most involved in analyzing demographic trends for property development?",
+      "options": [
+        "Appraiser",
+        "Urban planner",
+        "Loan officer",
+        "Property inspector"
+      ],
+      "answer": 1,
+      "explain": "Urban planners study population patterns, land use, and community development needs to guide future development decisions.",
+      "optionExplanations": [
+        "Appraisers estimate current value rather than long-range demographic planning.",
+        "Correct. Urban planners analyze demographic and land-use trends.",
+        "Loan officers focus on mortgage qualification.",
+        "Inspectors evaluate physical condition, not demographic trends."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A property owner builds an additional garage to attract buyers. This is an example of:",
+      "options": [
+        "Over-improvement",
+        "Highest and best use",
+        "Capital gain",
+        "Equity growth"
+      ],
+      "answer": 0,
+      "explain": "An added garage may be an over-improvement if the cost of the improvement exceeds the amount the market is willing to pay for it.",
+      "optionExplanations": [
+        "Correct. Adding an amenity beyond what the market supports can be an over-improvement.",
+        "Highest and best use refers to the most profitable legal use of land.",
+        "Capital gain is profit realized on sale.",
+        "Equity growth is the owner's increased value stake, not the improvement itself."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The right to occupy and use property is known as:",
+      "options": [
+        "Possession",
+        "Title",
+        "Equity",
+        "Conveyance"
+      ],
+      "answer": 0,
+      "explain": "Possession is the legal right to occupy and control property.",
+      "optionExplanations": [
+        "Correct. Possession means the right to occupy and use the property.",
+        "Title refers to legal ownership evidence.",
+        "Equity is the owner's financial interest in the property.",
+        "Conveyance is the transfer of ownership rights."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a property's location is its most valuable asset, which factor is at play?",
+      "options": [
+        "Scarcity",
+        "Situs",
+        "Conformity",
+        "Substitution"
+      ],
+      "answer": 1,
+      "explain": "Situs refers to the economic preference for a location, which can significantly influence property value.",
+      "optionExplanations": [
+        "Scarcity means limited supply.",
+        "Correct. Situs means the value created by location.",
+        "Conformity concerns neighborhood similarity.",
+        "Substitution compares one property to available alternatives."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following is an economic characteristic of land?",
+      "options": [
+        "Immobility",
+        "Indestructibility",
+        "Situs",
+        "Non-homogeneity"
+      ],
+      "answer": 2,
+      "explain": "Situs is considered an economic characteristic because it reflects the desirability of a location in the marketplace.",
+      "optionExplanations": [
+        "Immobility is a physical characteristic of land.",
+        "Indestructibility is also a physical characteristic.",
+        "Correct. Situs is an economic characteristic tied to location preference.",
+        "Non-homogeneity describes uniqueness, typically treated as a physical characteristic."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "When a property owner fails to maintain the property, leading to value loss, this is called:",
+      "options": [
+        "Functional obsolescence",
+        "Physical deterioration",
+        "Economic obsolescence",
+        "Deferred maintenance"
+      ],
+      "answer": 1,
+      "explain": "Physical deterioration is loss in value caused by wear, damage, or neglect of the property's physical condition.",
+      "optionExplanations": [
+        "Functional obsolescence involves outdated design or layout.",
+        "Correct. Poor upkeep causes physical deterioration.",
+        "Economic obsolescence comes from outside influences.",
+        "Deferred maintenance is postponed repair, but the value loss itself is categorized as physical deterioration."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The process of transferring ownership from one person to another is called:",
+      "options": [
+        "Leasing",
+        "Conveyance",
+        "Mortgage",
+        "Tenancy"
+      ],
+      "answer": 1,
+      "explain": "Conveyance is the legal act of transferring title to real property from one party to another.",
+      "optionExplanations": [
+        "Leasing transfers temporary possession, not ownership.",
+        "Correct. Conveyance means transfer of ownership.",
+        "A mortgage creates a lien to secure a loan.",
+        "Tenancy refers to a form of possession or occupancy."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A zoning law that prohibits commercial buildings in a residential neighborhood is an example of:",
+      "options": [
+        "Eminent domain",
+        "Building code",
+        "Police power",
+        "Adverse possession"
+      ],
+      "answer": 2,
+      "explain": "Zoning regulations are enacted under the government's police power to protect public health, safety, and welfare.",
+      "optionExplanations": [
+        "Eminent domain is the power to take property for public use with compensation.",
+        "Building codes regulate construction standards, not land-use separation itself.",
+        "Correct. Zoning is an exercise of police power.",
+        "Adverse possession is a method of acquiring title through open, hostile possession."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a city requires a property for a new road and compensates the owner, this is known as:",
+      "options": [
+        "Condemnation under eminent domain",
+        "Escheat",
+        "Foreclosure",
+        "Adverse possession"
+      ],
+      "answer": 0,
+      "explain": "Eminent domain allows government to take private property for public use, and condemnation is the legal process used with compensation.",
+      "optionExplanations": [
+        "Correct. Government acquisition for a road with compensation is condemnation under eminent domain.",
+        "Escheat transfers property to the state when an owner dies without heirs.",
+        "Foreclosure follows mortgage default.",
+        "Adverse possession involves private possession over time, not government taking."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A tenant staying after their lease has expired without the landlord's consent is in:",
+      "options": [
+        "Tenancy for years",
+        "Tenancy at will",
+        "Tenancy at sufferance",
+        "Periodic tenancy"
+      ],
+      "answer": 2,
+      "explain": "Tenancy at sufferance occurs when a tenant remains after the lease ends without the landlord's approval.",
+      "optionExplanations": [
+        "Tenancy for years has a definite end date agreed in advance.",
+        "Tenancy at will continues only with mutual consent.",
+        "Correct. Holding over without consent is tenancy at sufferance.",
+        "Periodic tenancy renews automatically for successive periods."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which deed provides the greatest protection to the buyer?",
+      "options": [
+        "Quitclaim deed",
+        "Bargain and sale deed",
+        "General warranty deed",
+        "Special warranty deed"
+      ],
+      "answer": 2,
+      "explain": "A general warranty deed provides the broadest warranties, covering title defects from both current and prior owners.",
+      "optionExplanations": [
+        "A quitclaim deed gives no warranties of title.",
+        "A bargain and sale deed provides limited protection.",
+        "Correct. A general warranty deed offers the strongest buyer protection.",
+        "A special warranty deed only covers the grantor's period of ownership."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a neighbor builds a fence two feet over the property line, this is called:",
+      "options": [
+        "Easement",
+        "Encroachment",
+        "Lien",
+        "Covenant"
+      ],
+      "answer": 1,
+      "explain": "An encroachment occurs when a structure or improvement unlawfully extends onto another person's land.",
+      "optionExplanations": [
+        "An easement is a legal right to use another's land for a purpose.",
+        "Correct. Crossing a property line with a fence is an encroachment.",
+        "A lien is a claim against property to secure a debt.",
+        "A covenant is a restriction or promise affecting land use."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which lien takes the highest priority in payment?",
+      "options": [
+        "Mortgage lien",
+        "Property tax lien",
+        "Mechanic's lien",
+        "Judgment lien"
+      ],
+      "answer": 1,
+      "explain": "Property tax liens generally have priority over other liens because taxes fund local government obligations and are given statutory superiority.",
+      "optionExplanations": [
+        "Mortgage liens are usually junior to tax liens.",
+        "Correct. Property tax liens are commonly first in priority.",
+        "Mechanic's liens do not usually outrank property tax liens.",
+        "Judgment liens are typically lower in priority."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A restrictive covenant in a subdivision might:",
+      "options": [
+        "Limit the size of homes built",
+        "Prevent foreclosure",
+        "Determine property taxes",
+        "Transfer property ownership"
+      ],
+      "answer": 0,
+      "explain": "Restrictive covenants are private deed restrictions that can control matters such as size, appearance, or permitted uses of homes.",
+      "optionExplanations": [
+        "Correct. Covenants can limit building size or design.",
+        "Foreclosure is a lender remedy, not a covenant function.",
+        "Taxes are set by government, not subdivision covenants.",
+        "Covenants do not transfer ownership."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A right-of-way allowing a neighbor to cross your land is a type of:",
+      "options": [
+        "Easement appurtenant",
+        "Encroachment",
+        "Eminent domain",
+        "Leasehold"
+      ],
+      "answer": 0,
+      "explain": "An easement appurtenant benefits one parcel of land and burdens another, such as a right-of-way for access.",
+      "optionExplanations": [
+        "Correct. A right-of-way between neighboring parcels is commonly an easement appurtenant.",
+        "An encroachment is an unauthorized physical intrusion.",
+        "Eminent domain is a governmental taking power.",
+        "A leasehold is a tenant's interest under a lease."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which federal law prohibits discrimination in housing based on race, color, religion, sex, national origin, disability, or familial status?",
+      "options": [
+        "Fair Credit Reporting Act",
+        "Fair Housing Act",
+        "Sherman Antitrust Act",
+        "Truth in Lending Act"
+      ],
+      "answer": 1,
+      "explain": "The Fair Housing Act bans discrimination in most housing-related transactions based on protected characteristics.",
+      "optionExplanations": [
+        "The Fair Credit Reporting Act regulates consumer credit reporting.",
+        "Correct. The Fair Housing Act prohibits housing discrimination.",
+        "The Sherman Antitrust Act addresses monopolistic business practices.",
+        "Truth in Lending requires disclosure of credit terms."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A buyer who puts down less than 20% on a home may be required to pay:",
+      "options": [
+        "Property tax",
+        "Private mortgage insurance (PMI)",
+        "Appraisal fees",
+        "Origination fees"
+      ],
+      "answer": 1,
+      "explain": "Lenders often require PMI on conventional loans with a down payment below 20 percent to reduce default risk.",
+      "optionExplanations": [
+        "Property tax is owed regardless of down payment size.",
+        "Correct. PMI is commonly required when equity is below 20 percent.",
+        "Appraisal fees are separate one-time valuation costs.",
+        "Origination fees are lender charges, not specifically tied to the 20 percent threshold."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The process of determining a buyer's ability to qualify for a mortgage is:",
+      "options": [
+        "Appraisal",
+        "Underwriting",
+        "Escrow",
+        "Recording"
+      ],
+      "answer": 1,
+      "explain": "Underwriting is the lender's review of income, assets, credit, debt, and the property to decide whether to approve the loan.",
+      "optionExplanations": [
+        "An appraisal estimates property value.",
+        "Correct. Underwriting evaluates loan eligibility and risk.",
+        "Escrow holds funds and documents.",
+        "Recording places documents in the public record."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In a fixed-rate mortgage:",
+      "options": [
+        "Payments fluctuate based on interest rates",
+        "Only the principal remains constant",
+        "Interest rate stays the same for the loan term",
+        "Payments start low and increase over time"
+      ],
+      "answer": 2,
+      "explain": "A fixed-rate mortgage keeps the note rate constant for the entire term, making principal-and-interest payments predictable.",
+      "optionExplanations": [
+        "Adjustable-rate loans fluctuate with interest changes.",
+        "Principal amortization changes over time, so this statement is inaccurate.",
+        "Correct. The interest rate remains unchanged for the term.",
+        "That describes certain graduated or adjustable structures, not a fixed-rate loan."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A balloon mortgage:",
+      "options": [
+        "Requires interest-only payments until the loan ends",
+        "Has increasing interest rates annually",
+        "Requires one large payment at the end of the term",
+        "Is always fully amortized"
+      ],
+      "answer": 2,
+      "explain": "A balloon mortgage has a remaining balance due in one large lump-sum payment at maturity.",
+      "optionExplanations": [
+        "Some balloon loans may have periodic payments, so interest-only is not always required.",
+        "Annual rate increases are not what defines a balloon loan.",
+        "Correct. The key feature is the large final payment.",
+        "A fully amortized loan pays off by the end without a balloon."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A buyer chooses an adjustable-rate mortgage (ARM). Which risk do they face?",
+      "options": [
+        "Lower initial payments",
+        "Interest rate changes over time",
+        "Fixed interest rate",
+        "No risk of payment increase"
+      ],
+      "answer": 1,
+      "explain": "With an ARM, the interest rate can reset according to market indexes, which can raise future payments.",
+      "optionExplanations": [
+        "Lower initial payments may be a feature, not the risk.",
+        "Correct. Rates can change, increasing payment uncertainty.",
+        "An ARM does not keep a fixed rate for the full term.",
+        "There is definitely risk that payments may increase."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Escrow is used to:",
+      "options": [
+        "Pay off the seller directly",
+        "Hold funds and documents until contract terms are met",
+        "Avoid property taxes",
+        "Transfer mortgage insurance"
+      ],
+      "answer": 1,
+      "explain": "Escrow is a neutral holding arrangement for money and documents until all terms of the transaction are satisfied.",
+      "optionExplanations": [
+        "Escrow does not simply mean paying the seller directly.",
+        "Correct. Escrow holds items until the deal conditions are fulfilled.",
+        "Escrow does not eliminate taxes.",
+        "Mortgage insurance is not transferred through escrow as its main purpose."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The closing disclosure must be given to the buyer:",
+      "options": [
+        "At the signing table",
+        "Within 3 business days of closing",
+        "Within 30 days after closing",
+        "When applying for the loan"
+      ],
+      "answer": 1,
+      "explain": "Under federal mortgage disclosure rules, borrowers generally must receive the Closing Disclosure at least 3 business days before consummation.",
+      "optionExplanations": [
+        "Receiving it at signing would be too late under the standard rule.",
+        "Correct. It must generally be provided at least 3 business days before closing.",
+        "After closing would not satisfy disclosure timing requirements.",
+        "Application triggers the Loan Estimate, not the Closing Disclosure."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which government agency insures FHA loans?",
+      "options": [
+        "Federal Housing Finance Agency",
+        "Federal Reserve",
+        "Department of Housing and Urban Development (HUD)",
+        "Consumer Financial Protection Bureau"
+      ],
+      "answer": 2,
+      "explain": "FHA is part of HUD, and HUD administers the program that insures FHA-approved mortgage loans.",
+      "optionExplanations": [
+        "The FHFA regulates entities like Fannie Mae and Freddie Mac.",
+        "The Federal Reserve does not insure FHA loans.",
+        "Correct. HUD oversees FHA mortgage insurance.",
+        "The CFPB enforces consumer finance rules but does not insure FHA loans."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a buyer defaults on their mortgage, the lender may initiate:",
+      "options": [
+        "Eminent domain",
+        "Foreclosure",
+        "Refinancing",
+        "Tax sale"
+      ],
+      "answer": 1,
+      "explain": "Foreclosure is the legal process a lender uses to recover the debt after mortgage default.",
+      "optionExplanations": [
+        "Eminent domain is a government taking power.",
+        "Correct. Mortgage default can lead to foreclosure.",
+        "Refinancing replaces a loan and is not the lender's legal remedy after default.",
+        "Tax sales arise from delinquent property taxes, not directly from mortgage default."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A legally binding agreement between two or more parties is a:",
+      "options": [
+        "Contract",
+        "Leasehold",
+        "Deed",
+        "Lien"
+      ],
+      "answer": 0,
+      "explain": "A contract is an enforceable agreement creating legal obligations between the parties.",
+      "optionExplanations": [
+        "Correct. A contract is a legally binding agreement.",
+        "A leasehold is an interest in leased property.",
+        "A deed transfers title to real estate.",
+        "A lien is a security claim against property."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A contract where one party agrees to buy only if certain conditions are met contains:",
+      "options": [
+        "Warranty clause",
+        "Contingency clause",
+        "Escrow clause",
+        "Habendum clause"
+      ],
+      "answer": 1,
+      "explain": "A contingency clause makes the obligation dependent on specific events, such as financing approval or inspection results.",
+      "optionExplanations": [
+        "A warranty clause concerns promises about facts or quality.",
+        "Correct. A contingency clause conditions performance on stated events.",
+        "An escrow clause addresses handling of funds or documents.",
+        "A habendum clause is associated with deeds, not purchase contingencies."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If both parties agree to cancel a contract before performance, it is called:",
+      "options": [
+        "Novation",
+        "Mutual rescission",
+        "Breach",
+        "Assignment"
+      ],
+      "answer": 1,
+      "explain": "Mutual rescission occurs when both parties agree to terminate the contract and release each other from future duties.",
+      "optionExplanations": [
+        "Novation substitutes a new party or obligation.",
+        "Correct. Mutual rescission is agreed cancellation.",
+        "Breach is an unexcused failure to perform.",
+        "Assignment transfers rights, not necessarily the whole cancellation of duties."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A contract signed under threat is:",
+      "options": [
+        "Voidable",
+        "Void",
+        "Enforceable",
+        "Executory"
+      ],
+      "answer": 0,
+      "explain": "A contract entered into under duress is usually voidable at the option of the party subjected to the threat.",
+      "optionExplanations": [
+        "Correct. Duress generally makes a contract voidable.",
+        "Void means it never had legal effect at all.",
+        "A contract under threat is not properly enforceable against the harmed party.",
+        "Executory only means performance is still owed by one or both parties."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a seller backs out after signing, the buyer may seek:",
+      "options": [
+        "Specific performance",
+        "Mutual rescission",
+        "Lease option",
+        "Contingency release"
+      ],
+      "answer": 0,
+      "explain": "Because real property is considered unique, a buyer may ask a court for specific performance compelling the seller to complete the sale.",
+      "optionExplanations": [
+        "Correct. Specific performance is a common remedy in real estate because each property is unique.",
+        "Mutual rescission requires both parties' agreement, not unilateral seller refusal.",
+        "A lease option is a transaction structure, not a remedy.",
+        "A contingency release is not the standard court remedy for seller breach."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "An oral contract for the sale of real estate is generally:",
+      "options": [
+        "Valid and enforceable",
+        "Void under the Statute of Frauds",
+        "Binding if witnessed",
+        "Permitted only in certain states"
+      ],
+      "answer": 1,
+      "explain": "Real estate sale contracts are generally required to be in writing under the Statute of Frauds to be enforceable.",
+      "optionExplanations": [
+        "Oral agreements for sale are generally not enforceable.",
+        "Correct. The Statute of Frauds generally requires writing.",
+        "Witnessing alone usually does not satisfy the writing requirement.",
+        "The general rule is written enforceability, not broad oral permission."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "An option contract gives the buyer:",
+      "options": [
+        "Obligation to buy",
+        "Right but not obligation to buy",
+        "Ownership immediately",
+        "A leasehold interest"
+      ],
+      "answer": 1,
+      "explain": "An option contract grants the buyer the right to purchase within a set time, but the buyer is not required to exercise it.",
+      "optionExplanations": [
+        "An option does not force the buyer to purchase.",
+        "Correct. It grants a right without an obligation.",
+        "Ownership does not transfer until the option is exercised and conveyed.",
+        "An option is not itself a leasehold interest."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The most common appraisal method for single-family homes is the:",
+      "options": [
+        "Cost approach",
+        "Income approach",
+        "Sales comparison approach",
+        "Capitalization approach"
+      ],
+      "answer": 2,
+      "explain": "Single-family residences are most often valued by comparing them with recently sold similar homes in the market.",
+      "optionExplanations": [
+        "The cost approach is often used for newer or special-purpose properties.",
+        "The income approach is more common for income-producing property.",
+        "Correct. The sales comparison approach is standard for owner-occupied homes.",
+        "Capitalization is a method associated with income valuation."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A property's net operating income divided by its value is the:",
+      "options": [
+        "Loan-to-value ratio",
+        "Gross rent multiplier",
+        "Capitalization rate",
+        "Equity percentage"
+      ],
+      "answer": 2,
+      "explain": "The capitalization rate equals net operating income divided by value or price and is used to analyze income property returns.",
+      "optionExplanations": [
+        "Loan-to-value compares loan amount to value.",
+        "Gross rent multiplier uses gross rent, not NOI.",
+        "Correct. NOI divided by value is the capitalization rate.",
+        "Equity percentage is ownership interest, not the ratio described."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which principle of value says that a property's value is influenced by the cost of acquiring a similar property?",
+      "options": [
+        "Contribution",
+        "Substitution",
+        "Anticipation",
+        "Competition"
+      ],
+      "answer": 1,
+      "explain": "The principle of substitution says a rational buyer will not pay more for one property than the cost of obtaining a comparable substitute.",
+      "optionExplanations": [
+        "Contribution measures how much one feature adds to total value.",
+        "Correct. Substitution compares the property to similar alternatives.",
+        "Anticipation concerns future benefits.",
+        "Competition concerns market rivalry, not the appraisal principle here."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In appraisal, functional obsolescence might be",
+      "options": [
+        "A leaky roof",
+        "Outdated kitchen design",
+        "New roof installation",
+        "Rising property taxes"
+      ],
+      "answer": 1,
+      "explain": "Functional obsolescence is a loss in value caused by outdated design, layout, or features within the property itself.",
+      "optionExplanations": [
+        "A leaky roof is a physical condition issue.",
+        "Correct. An outdated kitchen is an internal design deficiency.",
+        "A new roof is an improvement, not obsolescence.",
+        "Rising taxes are an external economic factor."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The cost approach to valuation is most often used for:",
+      "options": [
+        "New construction",
+        "Older residential neighborhoods",
+        "Agricultural land",
+        "Rental properties"
+      ],
+      "answer": 0,
+      "explain": "The cost approach is especially useful for newer improvements because replacement cost and depreciation can be estimated more reliably.",
+      "optionExplanations": [
+        "Correct. New construction is a common setting for the cost approach.",
+        "Older neighborhoods are more often valued with sales comparison.",
+        "Agricultural land is not the classic best use of the cost approach.",
+        "Rental properties are commonly analyzed with the income approach."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A comparable property sold for $200,000 but had a two-car garage while the subject property has a one-car garage. The appraiser will:",
+      "options": [
+        "Add value to the comparable",
+        "Subtract value from the comparable",
+        "Add value to the subject property",
+        "Make no adjustment"
+      ],
+      "answer": 1,
+      "explain": "Because the comparable is superior, the appraiser adjusts the comparable downward to make it more like the subject property.",
+      "optionExplanations": [
+        "A superior comparable is not adjusted upward.",
+        "Correct. The appraiser subtracts value from the comparable.",
+        "Adjustments are made to comparables, not directly to the subject.",
+        "A garage difference usually requires an adjustment."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A property manager's primary responsibility is to:",
+      "options": [
+        "Increase tenant turnover",
+        "Maximize the property's net income",
+        "Reduce property taxes",
+        "Increase mortgage rates"
+      ],
+      "answer": 1,
+      "explain": "Property managers aim to operate the property efficiently, maintain occupancy, and maximize net operating income for the owner.",
+      "optionExplanations": [
+        "Higher turnover usually increases costs and vacancy loss.",
+        "Correct. Maximizing net income is a core property management objective.",
+        "Property taxes are set by taxing authorities, not directly by the manager.",
+        "Mortgage rates are set by lenders and markets, not property managers."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "If a tenant fails to pay rent, the property manager's first step is usually:",
+      "options": [
+        "Eviction",
+        "Serve a notice to pay or quit",
+        "Change locks",
+        "Call the police"
+      ],
+      "answer": 1,
+      "explain": "The usual first legal step is written notice requiring payment or surrender before filing an eviction action.",
+      "optionExplanations": [
+        "Eviction is usually filed after required notice.",
+        "Correct. A pay-or-quit notice is the common first step.",
+        "Changing locks without process can be illegal self-help eviction.",
+        "Police are generally not the first step for ordinary nonpayment."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Preventive maintenance is:",
+      "options": [
+        "Fixing problems after they occur",
+        "Regular upkeep to prevent issues",
+        "Remodeling units for profit",
+        "Tenant-requested repairs only"
+      ],
+      "answer": 1,
+      "explain": "Preventive maintenance consists of scheduled inspections and routine service intended to reduce breakdowns and larger repair costs.",
+      "optionExplanations": [
+        "That is reactive maintenance.",
+        "Correct. Preventive maintenance is regular upkeep before failure occurs.",
+        "Remodeling for profit is capital improvement, not preventive maintenance.",
+        "It includes more than only tenant-requested repairs."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which type of lease bases rent on a percentage of the tenant's sales?",
+      "options": [
+        "Gross lease",
+        "Net lease",
+        "Percentage lease",
+        "Ground lease"
+      ],
+      "answer": 2,
+      "explain": "A percentage lease requires the tenant to pay base rent plus a percentage of business sales, common in retail properties.",
+      "optionExplanations": [
+        "A gross lease typically includes many expenses in one rent payment.",
+        "A net lease shifts certain expenses to the tenant but is not defined by sales volume.",
+        "Correct. Percentage leases tie part of rent to sales.",
+        "A ground lease concerns land use over a long period."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "In property management, CAM charges refer to:",
+      "options": [
+        "Common area maintenance",
+        "Certified appraisal management",
+        "Conditional access methods",
+        "Comprehensive asset management"
+      ],
+      "answer": 0,
+      "explain": "CAM stands for common area maintenance, covering shared-space costs such as hallways, parking lots, landscaping, and lighting.",
+      "optionExplanations": [
+        "Correct. CAM means common area maintenance.",
+        "This is not the real estate meaning of CAM in leases.",
+        "This is not the standard leasing term.",
+        "This is broader management language, not the specific lease charge acronym."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What best describes a fee simple estate?",
+      "options": [
+        "Temporary possession without ownership",
+        "The highest form of private ownership interest",
+        "A leasehold limited to one year",
+        "Ownership that ends automatically at closing"
+      ],
+      "answer": 1,
+      "explain": "Fee simple estate is the broadest private ownership interest, with potentially indefinite duration and full bundle of rights, subject to government powers.",
+      "optionExplanations": [
+        "Temporary possession is more like a leasehold.",
+        "Correct. Fee simple is the broadest private ownership form.",
+        "A one-year term is not fee simple.",
+        "Closing does not automatically terminate fee simple ownership."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which item is most likely to be considered a trade fixture?",
+      "options": [
+        "A tenant's removable store display shelving",
+        "A central air-conditioning unit",
+        "A built-in fireplace",
+        "A permanently installed staircase"
+      ],
+      "answer": 0,
+      "explain": "A trade fixture is an item installed by a commercial tenant for business use that can usually be removed before the lease ends if damage is repaired.",
+      "optionExplanations": [
+        "Correct. Removable business shelving is a classic trade fixture.",
+        "Central air is typically a building fixture.",
+        "A fireplace is permanently attached real property.",
+        "A staircase is part of the structure and not a trade fixture."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of ownership allows two or more people to own equal interests with a right of survivorship?",
+      "options": [
+        "Tenancy in common",
+        "Joint tenancy",
+        "Severalty",
+        "Leasehold estate"
+      ],
+      "answer": 1,
+      "explain": "Joint tenancy includes the right of survivorship, meaning a deceased owner's interest passes automatically to the surviving joint tenants.",
+      "optionExplanations": [
+        "Tenancy in common does not automatically include survivorship.",
+        "Correct. Joint tenancy includes survivorship.",
+        "Severalty means sole ownership by one person.",
+        "Leasehold is a tenant's possessory interest, not co-ownership."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a tenancy in common, what happens when one owner dies?",
+      "options": [
+        "Their interest automatically passes to the other co-owners",
+        "Their interest passes according to their will or state law",
+        "The property reverts to the landlord",
+        "The ownership interests are canceled"
+      ],
+      "answer": 1,
+      "explain": "A tenancy in common has no right of survivorship, so the deceased owner's share passes through their estate.",
+      "optionExplanations": [
+        "Automatic transfer to co-owners describes joint tenancy.",
+        "Correct. The share passes by will or inheritance law.",
+        "There is no landlord in a tenancy in common ownership interest.",
+        "The ownership interests do not disappear."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A life estate is ownership that lasts for:",
+      "options": [
+        "The life of a named person",
+        "Exactly 99 years",
+        "As long as property taxes are paid",
+        "Until the mortgage is refinanced"
+      ],
+      "answer": 0,
+      "explain": "A life estate is measured by the life of a designated person, after which ownership passes to another party.",
+      "optionExplanations": [
+        "Correct. A life estate ends at the death of the measuring life.",
+        "A life estate is not defined by a fixed 99-year term.",
+        "Taxes do not determine the estate's duration.",
+        "Refinancing does not define a life estate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which government power allows property to return to the state when an owner dies without heirs and no valid will?",
+      "options": [
+        "Police power",
+        "Escheat",
+        "Eminent domain",
+        "Foreclosure"
+      ],
+      "answer": 1,
+      "explain": "Escheat is the state's power to take title when a person dies intestate and without legal heirs.",
+      "optionExplanations": [
+        "Police power regulates land use and public welfare.",
+        "Correct. Escheat transfers ownerless property to the state.",
+        "Eminent domain involves taking for public use with compensation.",
+        "Foreclosure follows loan default."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A mechanic's lien usually arises when:",
+      "options": [
+        "A tenant refuses to renew a lease",
+        "A contractor is not paid for labor or materials",
+        "Property taxes become delinquent",
+        "A borrower misses one mortgage payment"
+      ],
+      "answer": 1,
+      "explain": "A mechanic's lien protects contractors or suppliers who improve property but are not paid for the work or materials provided.",
+      "optionExplanations": [
+        "Lease renewal issues do not create mechanic's liens.",
+        "Correct. Unpaid construction work can produce a mechanic's lien.",
+        "Tax delinquency creates tax liens.",
+        "Mortgage delinquency may lead to foreclosure, not a mechanic's lien."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which document is commonly used to remove a possible cloud on title when no ownership warranties are being made?",
+      "options": [
+        "General warranty deed",
+        "Quitclaim deed",
+        "Mortgage note",
+        "Closing disclosure"
+      ],
+      "answer": 1,
+      "explain": "A quitclaim deed transfers whatever interest the grantor may have without guaranteeing valid title, so it is often used to clear minor title issues among related parties.",
+      "optionExplanations": [
+        "A general warranty deed provides title warranties instead.",
+        "Correct. Quitclaim deeds make no promises about title quality.",
+        "A mortgage note is a promise to repay a loan.",
+        "A Closing Disclosure summarizes loan and settlement costs."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Title insurance primarily protects against:",
+      "options": [
+        "Future property tax increases",
+        "Hidden defects in title existing before policy issuance",
+        "Normal wear and tear on the structure",
+        "Changes in mortgage interest rates"
+      ],
+      "answer": 1,
+      "explain": "Title insurance covers losses from covered title defects such as undisclosed liens, recording errors, or ownership claims that existed before the policy date.",
+      "optionExplanations": [
+        "Tax increases are not the main risk insured by title insurance.",
+        "Correct. It protects against covered pre-existing title defects.",
+        "Structural deterioration is handled by property insurance or maintenance.",
+        "Interest-rate changes are financial market risks, not title risks."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which description best fits an easement in gross?",
+      "options": [
+        "It benefits a neighboring parcel of land",
+        "It benefits a person or company rather than a parcel",
+        "It transfers full ownership of a strip of land",
+        "It always expires after one year"
+      ],
+      "answer": 1,
+      "explain": "An easement in gross benefits an individual or entity, such as a utility company, rather than another parcel of land.",
+      "optionExplanations": [
+        "That describes an easement appurtenant.",
+        "Correct. Utilities often hold easements in gross.",
+        "An easement grants use rights, not full ownership.",
+        "Its duration depends on the grant, not a fixed one-year rule."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about zoning variances is most accurate?",
+      "options": [
+        "They permanently eliminate all zoning laws in an area",
+        "They allow a property owner relief from specific zoning requirements",
+        "They transfer title to the local government",
+        "They are the same as restrictive covenants"
+      ],
+      "answer": 1,
+      "explain": "A variance is permission from a zoning authority to deviate from a specific zoning rule when strict enforcement would create hardship.",
+      "optionExplanations": [
+        "A variance does not cancel zoning for an entire area.",
+        "Correct. It grants limited relief from specific rules.",
+        "A variance does not transfer ownership.",
+        "Restrictive covenants are private restrictions, not municipal zoning relief."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Building codes are primarily designed to:",
+      "options": [
+        "Set mortgage interest rates",
+        "Protect health and safety in construction",
+        "Determine market value",
+        "Guarantee property appreciation"
+      ],
+      "answer": 1,
+      "explain": "Building codes establish minimum construction standards intended to protect occupants and the public from unsafe conditions.",
+      "optionExplanations": [
+        "Interest rates are set by lenders and markets.",
+        "Correct. Codes focus on safety and structural standards.",
+        "Codes may affect value indirectly but do not determine it.",
+        "No law can guarantee appreciation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would most likely create functional obsolescence?",
+      "options": [
+        "A nearby factory causing noise",
+        "A cracked driveway",
+        "A four-bedroom house with only one bathroom",
+        "A rise in unemployment in the city"
+      ],
+      "answer": 2,
+      "explain": "Functional obsolescence comes from a design or utility deficiency within the property, such as an outdated or inconvenient floor plan.",
+      "optionExplanations": [
+        "Nearby factory noise is external economic obsolescence.",
+        "A cracked driveway is physical deterioration.",
+        "Correct. Too few bathrooms for the house size is a functional deficiency.",
+        "Rising unemployment is an external economic factor."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "External obsolescence is best illustrated by:",
+      "options": [
+        "Worn carpet inside the house",
+        "An outdated furnace",
+        "A major employer leaving the area",
+        "A leaky kitchen sink"
+      ],
+      "answer": 2,
+      "explain": "External obsolescence results from outside forces beyond the owner's control, such as neighborhood decline or adverse economic changes.",
+      "optionExplanations": [
+        "Worn carpet is physical deterioration.",
+        "An outdated furnace is internal and functional or physical depending on context.",
+        "Correct. Loss of a major employer can depress nearby values.",
+        "A leaky sink is a physical maintenance issue."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which loan term refers to the amount borrowed compared with the value of the property?",
+      "options": [
+        "Debt-to-income ratio",
+        "Capitalization rate",
+        "Loan-to-value ratio",
+        "Gross rent multiplier"
+      ],
+      "answer": 2,
+      "explain": "The loan-to-value ratio compares the mortgage amount to the appraised value or purchase price used by the lender.",
+      "optionExplanations": [
+        "Debt-to-income compares borrower obligations with income.",
+        "Capitalization rate measures return on income property.",
+        "Correct. LTV compares the loan to property value.",
+        "Gross rent multiplier uses price and gross rent, not loan amount."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A buyer who pays discount points at closing is usually trying to:",
+      "options": [
+        "Reduce the interest rate on the loan",
+        "Eliminate the need for an appraisal",
+        "Avoid title insurance",
+        "Increase the loan balance"
+      ],
+      "answer": 0,
+      "explain": "Discount points are prepaid interest paid to lower the note rate on the mortgage.",
+      "optionExplanations": [
+        "Correct. Points are commonly used to buy down the rate.",
+        "Appraisals are separate underwriting requirements.",
+        "Title insurance is unrelated to rate buydowns.",
+        "Paying points usually costs cash; it does not aim to increase the balance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which mortgage clause allows a lender to demand full repayment if the property is sold without the lender's consent?",
+      "options": [
+        "Prepayment clause",
+        "Acceleration clause",
+        "Due-on-sale clause",
+        "Defeasance clause"
+      ],
+      "answer": 2,
+      "explain": "A due-on-sale clause lets the lender call the entire remaining balance due if ownership is transferred without approval.",
+      "optionExplanations": [
+        "A prepayment clause addresses early payoff terms.",
+        "An acceleration clause is commonly triggered by default, not simply sale.",
+        "Correct. Due-on-sale applies when the property is transferred.",
+        "Defeasance describes release of the lien when the debt is fully paid."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Amortization refers to:",
+      "options": [
+        "The gradual repayment of a loan through periodic installments",
+        "The increase in property value over time",
+        "The recording of a deed",
+        "The transfer of possession to a tenant"
+      ],
+      "answer": 0,
+      "explain": "Amortization is the process of paying off debt over time through scheduled payments of principal and interest.",
+      "optionExplanations": [
+        "Correct. Loan balances are reduced through periodic amortized payments.",
+        "That describes appreciation, not amortization.",
+        "Recording is the public filing of documents.",
+        "Tenant possession is a leasing concept."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which expense is typically prorated at closing?",
+      "options": [
+        "Future remodeling costs",
+        "Property taxes already accrued for part of the year",
+        "A buyer's furniture purchase",
+        "The original construction cost of the home"
+      ],
+      "answer": 1,
+      "explain": "Items such as property taxes, rent, and association dues are often prorated so buyer and seller each pay their fair share for the period of ownership.",
+      "optionExplanations": [
+        "Remodeling costs are not standard prorated settlement items.",
+        "Correct. Accrued property taxes are commonly prorated.",
+        "Furniture is personal property and not a standard closing proration.",
+        "Original construction cost is irrelevant to current closing proration."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Earnest money is best described as:",
+      "options": [
+        "A lender fee charged at closing",
+        "A buyer's good-faith deposit showing serious intent",
+        "A government tax on deed transfers",
+        "A monthly payment into escrow for repairs"
+      ],
+      "answer": 1,
+      "explain": "Earnest money is a deposit made with an offer to demonstrate the buyer's seriousness and provide security under the contract terms.",
+      "optionExplanations": [
+        "It is not simply a lender fee.",
+        "Correct. Earnest money shows good faith and can be applied at closing.",
+        "Transfer tax is a separate government charge.",
+        "Repair escrows are different from earnest money deposits."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which contract provision lets a buyer cancel if the home inspection reveals unacceptable defects?",
+      "options": [
+        "Habendum clause",
+        "Acceleration clause",
+        "Inspection contingency",
+        "Escalation clause"
+      ],
+      "answer": 2,
+      "explain": "An inspection contingency gives the buyer the right to renegotiate or withdraw if inspection findings are unsatisfactory under the contract terms.",
+      "optionExplanations": [
+        "A habendum clause appears in deeds, not purchase inspections.",
+        "Acceleration concerns loan default.",
+        "Correct. Inspection contingencies protect buyers from major undisclosed defects.",
+        "An escalation clause addresses competing offer prices."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which element is generally required for a valid contract?",
+      "options": [
+        "A recorded deed",
+        "Consideration",
+        "A mortgage broker",
+        "Title insurance"
+      ],
+      "answer": 1,
+      "explain": "Consideration is something of legal value exchanged between the parties and is a basic requirement for an enforceable contract.",
+      "optionExplanations": [
+        "Recording a deed is not required to form every contract.",
+        "Correct. Contracts generally require consideration.",
+        "A mortgage broker is optional and not a legal element.",
+        "Title insurance is unrelated to contract formation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which lease gives the tenant possession for a fixed start and end date?",
+      "options": [
+        "Estate for years",
+        "Periodic tenancy",
+        "Tenancy at will",
+        "Tenancy at sufferance"
+      ],
+      "answer": 0,
+      "explain": "An estate for years lasts for a definite term stated in the lease, such as one year or six months.",
+      "optionExplanations": [
+        "Correct. A fixed beginning and ending date creates an estate for years.",
+        "A periodic tenancy automatically renews for successive periods.",
+        "Tenancy at will has no fixed term and continues by consent.",
+        "Tenancy at sufferance arises from holding over after expiration."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which occupancy item is most important when a lender orders an appraisal for a conventional mortgage?",
+      "options": [
+        "The buyer's favorite room color",
+        "The market value of the property",
+        "The seller's moving schedule",
+        "The title company's office location"
+      ],
+      "answer": 1,
+      "explain": "The lender relies on the appraisal to estimate market value so the collateral is sufficient for the proposed loan amount.",
+      "optionExplanations": [
+        "Cosmetic preference is irrelevant to underwriting.",
+        "Correct. The appraisal's main purpose is to estimate market value.",
+        "Moving timing is not the primary appraisal issue.",
+        "Title company location does not affect value."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "The gross rent multiplier is most useful for comparing:",
+      "options": [
+        "Owner-occupied farms",
+        "Single-family homes with no rental market",
+        "Income properties using price and gross rent",
+        "Vacant land by acreage"
+      ],
+      "answer": 2,
+      "explain": "The gross rent multiplier compares property price to gross rental income and is used as a quick screening tool for income-producing property.",
+      "optionExplanations": [
+        "GRM is not mainly for owner-occupied farms.",
+        "Without rental income, GRM is not useful.",
+        "Correct. GRM relates sale price to gross rent.",
+        "Vacant land has no gross rent stream in the usual GRM analysis."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An appraiser would most likely use the income approach when valuing a:",
+      "options": [
+        "Downtown apartment building",
+        "Newly built owner-occupied cottage",
+        "Public elementary school",
+        "Vacant residential lot for a custom home"
+      ],
+      "answer": 0,
+      "explain": "Income-producing properties such as apartment buildings are commonly valued by converting expected income into value.",
+      "optionExplanations": [
+        "Correct. Apartment buildings are classic income-approach properties.",
+        "Owner-occupied cottages are more often valued by sales comparison.",
+        "Schools are special-purpose properties and often use other methods.",
+        "Vacant residential lots are not typically valued by income capitalization."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best defines net operating income?",
+      "options": [
+        "Rental income minus debt service",
+        "Gross income minus operating expenses",
+        "Sale price minus mortgage balance",
+        "Gross rent plus depreciation"
+      ],
+      "answer": 1,
+      "explain": "Net operating income equals effective gross income minus operating expenses, before deducting mortgage payments and income taxes.",
+      "optionExplanations": [
+        "Debt service is not deducted to calculate NOI.",
+        "Correct. NOI is income after operating expenses but before financing costs.",
+        "Sale proceeds minus loan balance is equity, not NOI.",
+        "Depreciation is not added to gross rent to define NOI in appraisal usage."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A landlord who pays all operating expenses while the tenant pays one flat rent is usually using a:",
+      "options": [
+        "Net lease",
+        "Ground lease",
+        "Gross lease",
+        "Percentage lease"
+      ],
+      "answer": 2,
+      "explain": "In a gross lease, the tenant pays a fixed rent and the landlord typically covers many operating expenses.",
+      "optionExplanations": [
+        "A net lease shifts some expenses to the tenant.",
+        "A ground lease concerns land use, often long term.",
+        "Correct. Gross leases bundle many expenses into the rent.",
+        "A percentage lease includes rent tied to sales."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A triple-net lease generally requires the tenant to pay:",
+      "options": [
+        "Only utilities",
+        "Rent plus taxes, insurance, and maintenance",
+        "Only common area maintenance",
+        "No rent if sales are low"
+      ],
+      "answer": 1,
+      "explain": "Under a triple-net lease, the tenant usually pays base rent plus property taxes, insurance, and maintenance or common-area expenses.",
+      "optionExplanations": [
+        "Utilities alone do not define a triple-net lease.",
+        "Correct. NNN leases shift taxes, insurance, and maintenance to the tenant.",
+        "CAM may be included, but taxes and insurance are also key.",
+        "Sales level does not eliminate rent in a triple-net lease."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action by a property manager would most directly reduce vacancy loss?",
+      "options": [
+        "Ignoring tenant complaints",
+        "Speeding unit turnover and marketing vacant space",
+        "Raising rent far above market",
+        "Postponing repairs indefinitely"
+      ],
+      "answer": 1,
+      "explain": "Fast turnover, prompt repairs, and active marketing help return vacant units to paying occupancy more quickly.",
+      "optionExplanations": [
+        "Ignoring complaints can increase turnover and vacancy.",
+        "Correct. Faster turnover and marketing reduce lost rent time.",
+        "Overpricing usually increases vacancy.",
+        "Delaying repairs can make units harder to lease."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Security deposits are primarily intended to protect the landlord against:",
+      "options": [
+        "Normal market appreciation",
+        "Unpaid obligations or damage beyond ordinary wear",
+        "Changes in zoning laws",
+        "Interest-rate fluctuations"
+      ],
+      "answer": 1,
+      "explain": "Security deposits help cover unpaid rent, excessive cleaning, or damages beyond normal wear and tear, subject to state law.",
+      "optionExplanations": [
+        "Appreciation is unrelated to deposits.",
+        "Correct. Deposits protect against unpaid rent and abnormal damage.",
+        "Zoning changes are government actions, not deposit issues.",
+        "Interest rates do not determine deposit use."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A lease clause that bars certain uses, such as operating a loud nightclub in a retail center, is most directly aimed at preserving:",
+      "options": [
+        "Quiet enjoyment and compatible use",
+        "Mortgage underwriting standards",
+        "Title insurance coverage",
+        "The lender's amortization schedule"
+      ],
+      "answer": 0,
+      "explain": "Use restrictions in leases help maintain compatible occupancy, protect other tenants, and support quiet enjoyment of the premises.",
+      "optionExplanations": [
+        "Correct. Use clauses preserve compatibility and tenant enjoyment.",
+        "Underwriting is a loan issue, not the main lease purpose here.",
+        "Title insurance is unrelated to tenant use restrictions.",
+        "Amortization schedules are loan terms, not lease-use controls."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a listing agreement gives one broker the exclusive right to market and earn a commission regardless of who finds the buyer, it is called an:",
+      "options": [
+        "Open listing",
+        "Exclusive-right-to-sell listing",
+        "Net listing",
+        "Option listing"
+      ],
+      "answer": 1,
+      "explain": "An exclusive-right-to-sell listing gives the broker the strongest protection because a commission is owed if the property sells during the listing term.",
+      "optionExplanations": [
+        "Open listings allow multiple brokers and only pay the one who produces the buyer.",
+        "Correct. Exclusive-right-to-sell guarantees the broker commission if the property sells.",
+        "Net listings are based on seller proceeds and are restricted or disfavored in many places.",
+        "Option listing is not the standard term here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "The person who lists property with a real estate broker is the:",
+      "options": [
+        "Lessee",
+        "Grantor",
+        "Principal",
+        "Appraiser"
+      ],
+      "answer": 2,
+      "explain": "In agency law, the client who authorizes the broker to act is the principal.",
+      "optionExplanations": [
+        "A lessee is a tenant.",
+        "A grantor conveys an interest by deed.",
+        "Correct. The client is the principal.",
+        "An appraiser values property and is not the listing client."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A broker acting only for the seller owes the buyer:",
+      "options": [
+        "Fiduciary obedience",
+        "Full agency loyalty",
+        "Honest dealing and required disclosure",
+        "The duty to negotiate the lowest possible price"
+      ],
+      "answer": 2,
+      "explain": "Even without representing the buyer, a seller's broker generally owes the buyer honest dealing and disclosure of material facts as required by law.",
+      "optionExplanations": [
+        "Obedience is owed to the agent's principal, not the opposing party.",
+        "Full loyalty is not owed to the nonclient buyer.",
+        "Correct. Honesty and required disclosures are still owed.",
+        "Negotiating the lowest price would conflict with representing the seller."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice is illegal under federal fair housing law?",
+      "options": [
+        "Refusing to rent because the applicant has children",
+        "Requiring all applicants to complete the same written application",
+        "Verifying income from all applicants",
+        "Advertising a property by square footage and amenities"
+      ],
+      "answer": 0,
+      "explain": "Refusing to rent because an applicant has children is discrimination based on familial status, a protected class under the Fair Housing Act.",
+      "optionExplanations": [
+        "Correct. Familial-status discrimination is prohibited in most housing transactions.",
+        "Uniform procedures applied equally are generally lawful.",
+        "Income verification can be lawful if applied consistently.",
+        "Describing the property itself is generally permissible."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Steering in real estate refers to:",
+      "options": [
+        "Encouraging buyers toward or away from areas based on protected characteristics",
+        "Helping buyers compare mortgage lenders",
+        "Showing only the highest-priced homes first",
+        "Explaining local traffic patterns"
+      ],
+      "answer": 0,
+      "explain": "Steering is the unlawful practice of channeling buyers or renters into or away from neighborhoods based on protected classes.",
+      "optionExplanations": [
+        "Correct. Steering is discriminatory guidance based on protected traits.",
+        "Comparing lenders is not steering.",
+        "Showing expensive homes may be poor service but is not the specific fair-housing term.",
+        "Traffic discussion alone is not steering."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Redlining is best described as:",
+      "options": [
+        "Charging the same rate to all borrowers",
+        "Refusing or limiting lending in certain areas based on discriminatory criteria",
+        "Recording deeds electronically",
+        "Selling homes below appraised value"
+      ],
+      "answer": 1,
+      "explain": "Redlining is the discriminatory practice of denying or restricting credit in certain neighborhoods based on prohibited considerations rather than legitimate underwriting.",
+      "optionExplanations": [
+        "Uniform pricing is the opposite of discriminatory line-drawing.",
+        "Correct. Redlining restricts credit based on discriminatory area treatment.",
+        "Electronic recording is unrelated.",
+        "A low sale price is not redlining."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A seller who intentionally conceals a known foundation defect is most likely committing:",
+      "options": [
+        "Puffing",
+        "Fraud by misrepresentation or concealment",
+        "Specific performance",
+        "Subrogation"
+      ],
+      "answer": 1,
+      "explain": "Knowingly hiding a material defect can constitute fraudulent concealment because the buyer is deprived of important information affecting value and safety.",
+      "optionExplanations": [
+        "Puffing is exaggerated opinion, not concealment of a material defect.",
+        "Correct. Intentional concealment of a major defect is fraud.",
+        "Specific performance is a contract remedy.",
+        "Subrogation is an insurance principle."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the best example of puffing rather than misrepresentation?",
+      "options": [
+        "Claiming there are no roof leaks when the seller knows there are",
+        "Saying a home has the most charming view in town",
+        "Falsifying the square footage on a listing",
+        "Hiding termite damage behind new paneling"
+      ],
+      "answer": 1,
+      "explain": "Puffing is a subjective sales opinion that a reasonable buyer would not treat as a precise factual guarantee.",
+      "optionExplanations": [
+        "False statements about leaks are factual misrepresentations.",
+        "Correct. Calling a view charming is subjective opinion.",
+        "Falsifying square footage is a factual misstatement.",
+        "Concealing termite damage is fraudulent concealment."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which event usually terminates a listing agreement?",
+      "options": [
+        "A neighbor's opinion about price",
+        "Expiration of the listing term",
+        "The property owner's change of paint color",
+        "An appraiser visiting the property"
+      ],
+      "answer": 1,
+      "explain": "Listing agreements commonly end when the stated contract term expires, unless renewed or terminated earlier under contract terms.",
+      "optionExplanations": [
+        "Neighborhood opinions do not end the contract.",
+        "Correct. Expiration is a standard termination event.",
+        "Paint color changes do not terminate the agreement.",
+        "An appraisal visit has no effect on listing validity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which duty requires an agent to place the client's interests above the agent's own?",
+      "options": [
+        "Loyalty",
+        "Recording",
+        "Substitution",
+        "Amortization"
+      ],
+      "answer": 0,
+      "explain": "Loyalty is a core fiduciary duty requiring the agent to act in the principal's best interests.",
+      "optionExplanations": [
+        "Correct. Loyalty means prioritizing the client's interests.",
+        "Recording is a public records act.",
+        "Substitution is an appraisal principle.",
+        "Amortization is a loan repayment concept."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A comparative market analysis is prepared primarily to:",
+      "options": [
+        "Estimate a likely listing or sale price using recent comparables",
+        "Provide a legally binding appraisal for court",
+        "Replace a title search",
+        "Calculate depreciation for tax returns"
+      ],
+      "answer": 0,
+      "explain": "A CMA uses recent comparable sales and market data to help estimate an appropriate asking or offer price, but it is not a formal appraisal.",
+      "optionExplanations": [
+        "Correct. A CMA helps estimate market price using comparables.",
+        "A CMA is not the same as a formal appraisal in legal settings.",
+        "Title searches address ownership issues, not pricing.",
+        "Tax depreciation schedules are a different task."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes equity in a home?",
+      "options": [
+        "The amount the owner owes in property tax",
+        "The owner's value interest after debts against the property",
+        "The original down payment only",
+        "The annual insurance premium"
+      ],
+      "answer": 1,
+      "explain": "Equity is the difference between the property's market value and the debt secured by it.",
+      "optionExplanations": [
+        "Property tax owed is not equity.",
+        "Correct. Equity is value minus liens or debt.",
+        "Down payment contributes to equity but is not the entire concept.",
+        "Insurance premiums are operating costs, not ownership equity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Refinancing a mortgage usually means:",
+      "options": [
+        "Replacing an existing loan with a new loan",
+        "Cancelling title insurance permanently",
+        "Transferring ownership to the lender",
+        "Eliminating all closing costs"
+      ],
+      "answer": 0,
+      "explain": "Refinancing pays off the existing mortgage and replaces it with a new loan, often to change the rate, term, or cash position.",
+      "optionExplanations": [
+        "Correct. Refinancing substitutes a new loan for the old one.",
+        "Title insurance is not permanently cancelled by refinancing.",
+        "Ownership does not transfer to the lender merely by refinancing.",
+        "Closing costs may still apply."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A short sale occurs when:",
+      "options": [
+        "A property is sold in less than 30 days",
+        "The lender accepts less than the amount owed on the mortgage",
+        "A lease is limited to six months",
+        "An auction is canceled before bidding begins"
+      ],
+      "answer": 1,
+      "explain": "In a short sale, the lender agrees to release the lien even though sale proceeds are insufficient to pay the full loan balance.",
+      "optionExplanations": [
+        "Marketing time does not define a short sale.",
+        "Correct. The lender takes less than the debt owed.",
+        "Lease length is unrelated.",
+        "Auction cancellation is not the definition."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ownership form is held by a tenant under a lease?",
+      "options": [
+        "Freehold estate",
+        "Leasehold estate",
+        "Fee simple absolute",
+        "Joint tenancy"
+      ],
+      "answer": 1,
+      "explain": "A tenant has a leasehold estate, which gives the right to possess and use property for a limited period under the lease terms.",
+      "optionExplanations": [
+        "Freehold estates involve ownership interests of indefinite or life duration.",
+        "Correct. A tenant's interest is leasehold.",
+        "Fee simple absolute is the highest ownership interest.",
+        "Joint tenancy is a co-ownership form, not tenancy under a rental lease."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a deed is recorded in the public records, the main purpose is to:",
+      "options": [
+        "Guarantee the property's future value",
+        "Give public notice of the transfer",
+        "Create a new mortgage automatically",
+        "Eliminate all title defects"
+      ],
+      "answer": 1,
+      "explain": "Recording provides constructive notice to the public that an interest in the property has been transferred or encumbered.",
+      "optionExplanations": [
+        "Recording cannot guarantee appreciation.",
+        "Correct. Recording gives public notice of ownership changes.",
+        "A separate instrument is required to create a mortgage.",
+        "Recording does not cure every existing title problem."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is most likely to be a capital improvement rather than a routine repair?",
+      "options": [
+        "Replacing a burned-out lightbulb",
+        "Patching one small drywall hole",
+        "Installing a new roof",
+        "Unclogging a sink drain"
+      ],
+      "answer": 2,
+      "explain": "A capital improvement materially extends the property's life or adds value, while routine repairs simply maintain current condition.",
+      "optionExplanations": [
+        "A lightbulb replacement is minor maintenance.",
+        "A small patch is an ordinary repair.",
+        "Correct. A new roof is a significant capital improvement.",
+        "Drain unclogging is routine maintenance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "An owner who occupies one unit of a duplex and rents out the other unit is best described as owning:",
+      "options": [
+        "Only commercial property",
+        "A mixed-use property",
+        "A residential income property",
+        "Vacant land"
+      ],
+      "answer": 2,
+      "explain": "A duplex with one rented unit still produces rental income and is commonly treated as a residential income property.",
+      "optionExplanations": [
+        "A duplex is not only commercial property.",
+        "Mixed-use usually combines residential and commercial uses.",
+        "Correct. It is residential property that also generates income.",
+        "The property is improved, not vacant land."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}

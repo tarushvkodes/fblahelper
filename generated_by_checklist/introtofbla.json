@@ -1,0 +1,1679 @@
+{
+  "event": "Introduction to FBLA",
+  "questions": [
+    {
+      "q": "Which of FBLA's programs focuses on members enhancing their knowledge with world-recognized skills certifications?",
+      "options": [
+        "educational programs",
+        "academic competitions",
+        "membership benefits",
+        "leadership development"
+      ],
+      "answer": 0,
+      "explain": "FBLA's educational programs include opportunities for members to earn and build skills through recognized certifications.",
+      "optionExplanations": [
+        "Correct: educational programs is the keyed answer for this sample question.",
+        "Not correct: academic competitions does not match the keyed answer for this sample question.",
+        "Not correct: membership benefits does not match the keyed answer for this sample question.",
+        "Not correct: leadership development does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "FBLA has the goal of preparing students to be financially sound. The goal for this characteristic is _____.",
+      "options": [
+        "encourage scholarship and promote school loyalty",
+        "assist students in the establishment of occupational goals",
+        "facilitate the transition from school to work",
+        "encourage and practice efficient money management"
+      ],
+      "answer": 3,
+      "explain": "One FBLA goal is to encourage and practice efficient money management, supporting financial responsibility.",
+      "optionExplanations": [
+        "Not correct: encourage scholarship and promote school loyalty does not match the keyed answer for this sample question.",
+        "Not correct: assist students in the establishment of occupational goals does not match the keyed answer for this sample question.",
+        "Not correct: facilitate the transition from school to work does not match the keyed answer for this sample question.",
+        "Correct: encourage and practice efficient money management is the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A refusal to lie, steal, or deceive in any way.",
+      "options": [
+        "anger",
+        "honesty",
+        "viability",
+        "deception"
+      ],
+      "answer": 1,
+      "explain": "Honesty is the ethical principle of refusing to lie, steal, or deceive.",
+      "optionExplanations": [
+        "Not correct: anger does not match the keyed answer for this sample question.",
+        "Correct: honesty is the keyed answer for this sample question.",
+        "Not correct: viability does not match the keyed answer for this sample question.",
+        "Not correct: deception does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "A change or addition by which a thing is made more desirable or acceptable.",
+      "options": [
+        "contributing",
+        "responsibilities",
+        "improvement",
+        "high standard"
+      ],
+      "answer": 2,
+      "explain": "An improvement is a change or addition that makes something more desirable or acceptable.",
+      "optionExplanations": [
+        "Not correct: contributing does not match the keyed answer for this sample question.",
+        "Not correct: responsibilities does not match the keyed answer for this sample question.",
+        "Correct: improvement is the keyed answer for this sample question.",
+        "Not correct: high standard does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which competitive event focuses on monetary and fiscal policy, market structures, and investments?",
+      "options": [
+        "Supply Chain Management",
+        "Database Management",
+        "Economics",
+        "Healthcare Administration"
+      ],
+      "answer": 2,
+      "explain": "Economics covers topics like fiscal and monetary policy, market structures, and investments.",
+      "optionExplanations": [
+        "Not correct: Supply Chain Management does not match the keyed answer for this sample question.",
+        "Not correct: Database Management does not match the keyed answer for this sample question.",
+        "Correct: Economics is the keyed answer for this sample question.",
+        "Not correct: Healthcare Administration does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What competitive event falls under the objective test category?",
+      "options": [
+        "Publication Design",
+        "Agribusiness",
+        "Computer Applications",
+        "Introduction to Business Presentation"
+      ],
+      "answer": 1,
+      "explain": "Agribusiness is the keyed correct answer in the provided sample question set.",
+      "optionExplanations": [
+        "Not correct: Publication Design does not match the keyed answer for this sample question.",
+        "Correct: Agribusiness is the keyed answer for this sample question.",
+        "Not correct: Computer Applications does not match the keyed answer for this sample question.",
+        "Not correct: Introduction to Business Presentation does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "TBL is the FBLA magazine. TBL stands for:",
+      "options": [
+        "Tomorrow's Business Leader",
+        "Today's Business Leadership",
+        "Together Building Leaders",
+        "Tomorrow's Budding Leadership"
+      ],
+      "answer": 0,
+      "explain": "TBL is the abbreviation for the publication titled Tomorrow's Business Leader in the sample question set.",
+      "optionExplanations": [
+        "Correct: Tomorrow's Business Leader is the keyed answer for this sample question.",
+        "Not correct: Today's Business Leadership does not match the keyed answer for this sample question.",
+        "Not correct: Together Building Leaders does not match the keyed answer for this sample question.",
+        "Not correct: Tomorrow's Budding Leadership does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which of the following events is best for individuals interested in planning and financial research?",
+      "options": [
+        "Financial Statement Analysis",
+        "Digital Animation",
+        "Electronic Career Portfolio",
+        "Banking & Financial Systems"
+      ],
+      "answer": 0,
+      "explain": "Financial Statement Analysis is the keyed correct answer and directly relates to analyzing financial data and planning decisions.",
+      "optionExplanations": [
+        "Correct: Financial Statement Analysis is the keyed answer for this sample question.",
+        "Not correct: Digital Animation does not match the keyed answer for this sample question.",
+        "Not correct: Electronic Career Portfolio does not match the keyed answer for this sample question.",
+        "Not correct: Banking & Financial Systems does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Professional attire is required at the National Leadership Conference for ______.",
+      "options": [
+        "guests only",
+        "advisers and members only",
+        "members only",
+        "everyone in attendance"
+      ],
+      "answer": 3,
+      "explain": "The sample answer key indicates professional attire is required for everyone in attendance.",
+      "optionExplanations": [
+        "Not correct: guests only does not match the keyed answer for this sample question.",
+        "Not correct: advisers and members only does not match the keyed answer for this sample question.",
+        "Not correct: members only does not match the keyed answer for this sample question.",
+        "Correct: everyone in attendance is the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "All of the following programs are part of the FBLA experience except _____.",
+      "options": [
+        "BAA",
+        "Champion Chapter",
+        "CMAP",
+        "competitive events"
+      ],
+      "answer": 2,
+      "explain": "BAA, Champion Chapter, and competitive events are listed as part of the FBLA experience in the sample context; CMAP is the exception per the answer key.",
+      "optionExplanations": [
+        "Not correct: BAA does not match the keyed exception in this sample question.",
+        "Not correct: Champion Chapter does not match the keyed exception in this sample question.",
+        "Correct: CMAP is the keyed exception for this sample question.",
+        "Not correct: competitive events does not match the keyed exception in this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The FBLA official emblem and insignia item designs are described and protected from infringement by registration in the U. S. Patent Office under the _____.",
+      "options": [
+        "Electronic Communications Privacy Act of 1986",
+        "Media Communications Act of 1976",
+        "Trademark Act of 1946",
+        "Patent Act of 1888"
+      ],
+      "answer": 2,
+      "explain": "The keyed answer identifies the Trademark Act of 1946 as the legal basis referenced for protecting emblem and insignia designs.",
+      "optionExplanations": [
+        "Not correct: Electronic Communications Privacy Act of 1986 does not match the keyed answer for this sample question.",
+        "Not correct: Media Communications Act of 1976 does not match the keyed answer for this sample question.",
+        "Correct: Trademark Act of 1946 is the keyed answer for this sample question.",
+        "Not correct: Patent Act of 1888 does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "FBLA provides an integral part of the instructional program for students in grades _____ in business.",
+      "options": [
+        "9-16",
+        "7-12",
+        "5-",
+        "12-16"
+      ],
+      "answer": 2,
+      "explain": "The provided sample answer key marks the option '5-' as correct for this question.",
+      "optionExplanations": [
+        "Not correct: 9-16 does not match the keyed answer for this sample question.",
+        "Not correct: 7-12 does not match the keyed answer for this sample question.",
+        "Correct: 5- is the keyed answer for this sample question.",
+        "Not correct: 12-16 does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "\"Members build a portfolio of accomplishments with a wide range of awards programs\" is an example of FBLA's programs focus on _____.",
+      "options": [
+        "membership benefits",
+        "educational programs",
+        "awards & recognition",
+        "academic competitions"
+      ],
+      "answer": 2,
+      "explain": "A portfolio of accomplishments through awards programs fits the awards and recognition focus area.",
+      "optionExplanations": [
+        "Not correct: membership benefits does not match the keyed answer for this sample question.",
+        "Not correct: educational programs does not match the keyed answer for this sample question.",
+        "Correct: awards & recognition is the keyed answer for this sample question.",
+        "Not correct: academic competitions does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "The FBLA bylaws are defined and interpreted by the FBLA _____.",
+      "options": [
+        "Executive Director",
+        "Board of Directors",
+        "Awards Program Committee Chair",
+        "Divisional Presidents"
+      ],
+      "answer": 1,
+      "explain": "The sample answer key indicates the Board of Directors defines and interprets the FBLA bylaws.",
+      "optionExplanations": [
+        "Not correct: Executive Director does not match the keyed answer for this sample question.",
+        "Correct: Board of Directors is the keyed answer for this sample question.",
+        "Not correct: Awards Program Committee Chair does not match the keyed answer for this sample question.",
+        "Not correct: Divisional Presidents does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "There are five administrative regions for FBLA. Texas would be a member of the _____ region.",
+      "options": [
+        "North Central Region",
+        "Southern Region",
+        "Mountain Plains Region",
+        "Western Region"
+      ],
+      "answer": 2,
+      "explain": "In the five-region model referenced by the sample question, Texas is placed in the Mountain Plains Region per the answer key.",
+      "optionExplanations": [
+        "Not correct: North Central Region does not match the keyed answer for this sample question.",
+        "Not correct: Southern Region does not match the keyed answer for this sample question.",
+        "Correct: Mountain Plains Region is the keyed answer for this sample question.",
+        "Not correct: Western Region does not match the keyed answer for this sample question."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What does FBLA stand for?",
+      "options": [
+        "Future Business Leaders of America",
+        "Federation of Business and Leadership Associations",
+        "Future Business Learning Academy",
+        "Foundation for Business Leadership Advancement"
+      ],
+      "answer": 0,
+      "explain": "FBLA is the acronym for Future Business Leaders of America, the national student business organization.",
+      "optionExplanations": [
+        "Correct: FBLA stands for Future Business Leaders of America.",
+        "Not correct: This is not the official name of the organization.",
+        "Not correct: FBLA is not an academy name.",
+        "Not correct: This expansion is not used by FBLA."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "FBLA's mission emphasizes preparing students to become what kind of leaders?",
+      "options": [
+        "Community-minded business leaders in a global society",
+        "Military officers in a global society",
+        "Professional athletes and entertainers",
+        "Political party leaders"
+      ],
+      "answer": 0,
+      "explain": "FBLA's mission statement focuses on inspiring and preparing students to become community-minded business leaders in a global society through career preparation and leadership experiences.",
+      "optionExplanations": [
+        "Correct: This wording matches FBLA's mission statement.",
+        "Not correct: FBLA is a business CTSO, not a military program.",
+        "Not correct: FBLA is not focused on sports/entertainment careers specifically.",
+        "Not correct: FBLA is nonpartisan and not a political party organization."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which division is designed for students in grades 9-12?",
+      "options": [
+        "FBLA High School",
+        "FBLA Middle School",
+        "FBLA Collegiate",
+        "FBLA Alumni & Professional"
+      ],
+      "answer": 0,
+      "explain": "FBLA High School serves secondary students, commonly defined as grades 9-12.",
+      "optionExplanations": [
+        "Correct: FBLA High School corresponds to grades 9-12.",
+        "Not correct: FBLA Middle School is generally grades 5-8.",
+        "Not correct: Collegiate is for college/postsecondary members.",
+        "Not correct: Alumni & Professional is for graduates/supporters."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which division is designed for students in grades 5-8?",
+      "options": [
+        "FBLA Middle School",
+        "FBLA High School",
+        "FBLA Collegiate",
+        "FBLA Professional Educators"
+      ],
+      "answer": 0,
+      "explain": "FBLA Middle School is for middle/junior high students, commonly grades 5-8.",
+      "optionExplanations": [
+        "Correct: FBLA Middle School corresponds to grades 5-8.",
+        "Not correct: High School is grades 9-12.",
+        "Not correct: Collegiate is for postsecondary members.",
+        "Not correct: Professional Educators is not a student division."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which FBLA program is an individual achievement award program for high school members?",
+      "options": [
+        "Business Achievement Awards (BAA)",
+        "LEAD Awards",
+        "Champion Chapter",
+        "National Officer Program"
+      ],
+      "answer": 0,
+      "explain": "The Business Achievement Awards (BAA) are the individual achievement award program for FBLA High School members.",
+      "optionExplanations": [
+        "Correct: BAA is the high school individual achievement award program.",
+        "Not correct: LEAD Awards are for FBLA Middle School members.",
+        "Not correct: Champion Chapter is a chapter recognition program.",
+        "Not correct: The national officer program is a leadership role, not an achievement award program."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which FBLA program is an individual achievement award program for middle school members?",
+      "options": [
+        "LEAD Awards",
+        "Business Achievement Awards (BAA)",
+        "Competitive Events",
+        "TBL"
+      ],
+      "answer": 0,
+      "explain": "The LEAD Awards are the individual achievement award program for FBLA Middle School members.",
+      "optionExplanations": [
+        "Correct: LEAD Awards are for middle school members.",
+        "Not correct: BAA is for high school members.",
+        "Not correct: Competitive Events are competitions, not an award program for progress levels.",
+        "Not correct: TBL is the publication, not an award program."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which conference is typically the culminating national competitive event conference for FBLA High School?",
+      "options": [
+        "National Leadership Conference (NLC)",
+        "National Fall Leadership Conference (NFLC)",
+        "Career Connections Conference",
+        "State Leadership Conference (SLC)"
+      ],
+      "answer": 0,
+      "explain": "The National Leadership Conference (NLC) is the flagship national conference where national competitive events and leadership activities take place.",
+      "optionExplanations": [
+        "Correct: NLC is the national flagship conference for FBLA competition and leadership.",
+        "Not correct: NFLC is a fall conference but not the main national competition finale.",
+        "Not correct: Career Connections is a collegiate-focused conference.",
+        "Not correct: SLC is a state-level conference."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "At the chapter level, which officer position typically keeps meeting minutes and handles correspondence?",
+      "options": [
+        "Secretary",
+        "President",
+        "Treasurer",
+        "Reporter"
+      ],
+      "answer": 0,
+      "explain": "In standard officer duties, the secretary records minutes and manages official correspondence and records.",
+      "optionExplanations": [
+        "Correct: The secretary is responsible for minutes and records.",
+        "Not correct: The president presides over meetings.",
+        "Not correct: The treasurer manages funds and financial records.",
+        "Not correct: The reporter handles publicity and news in many chapter officer structures."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which officer is primarily responsible for managing chapter funds and financial records?",
+      "options": [
+        "Treasurer",
+        "Secretary",
+        "Parliamentarian",
+        "Historian"
+      ],
+      "answer": 0,
+      "explain": "The treasurer handles receipts, payments, and financial recordkeeping for the chapter.",
+      "optionExplanations": [
+        "Correct: Treasurer is the finance officer.",
+        "Not correct: Secretary focuses on minutes and records.",
+        "Not correct: Parliamentarian advises on meeting procedure.",
+        "Not correct: Historian documents chapter activities and history, not finances."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main purpose of parliamentary procedure in an organization like FBLA?",
+      "options": [
+        "To conduct meetings in an orderly, fair, and efficient way",
+        "To replace written bylaws with verbal agreements",
+        "To eliminate voting and let the president decide",
+        "To make meetings longer so more people can speak"
+      ],
+      "answer": 0,
+      "explain": "Parliamentary procedure provides standardized rules so meetings run fairly and efficiently while protecting members' rights.",
+      "optionExplanations": [
+        "Correct: Orderly and fair meeting process is the purpose.",
+        "Not correct: Bylaws remain the governing document.",
+        "Not correct: Voting is a core part of parliamentary procedure.",
+        "Not correct: The goal is efficiency, not making meetings longer."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which document typically outlines how a chapter operates, including officer duties and meeting procedures?",
+      "options": [
+        "Bylaws",
+        "Flyer",
+        "Agenda",
+        "Press release"
+      ],
+      "answer": 0,
+      "explain": "Bylaws are the rules adopted by an organization to govern its internal operations.",
+      "optionExplanations": [
+        "Correct: Bylaws define governance rules.",
+        "Not correct: Flyers are promotional materials.",
+        "Not correct: An agenda is for one meeting, not governance rules.",
+        "Not correct: A press release is a public announcement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a typical meeting agenda, which item usually occurs before new business?",
+      "options": [
+        "Old business",
+        "Adjournment",
+        "Announcements",
+        "Unfinished elections"
+      ],
+      "answer": 0,
+      "explain": "Old (unfinished) business is usually addressed before new business in standard meeting order.",
+      "optionExplanations": [
+        "Correct: Old business precedes new business.",
+        "Not correct: Adjournment ends the meeting.",
+        "Not correct: Announcements are often near the end.",
+        "Not correct: Elections may be a special order, not the standard item listed here."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a measurable chapter goal?",
+      "options": [
+        "Increase paid membership by 15% by December 1",
+        "Be the best chapter ever",
+        "Try to do more service",
+        "Improve leadership a lot"
+      ],
+      "answer": 0,
+      "explain": "A measurable goal includes a clear metric and deadline (for example, a percentage increase by a specific date).",
+      "optionExplanations": [
+        "Correct: Specific metric and deadline make it measurable.",
+        "Not correct: Vague and not measurable.",
+        "Not correct: No metric or deadline.",
+        "Not correct: Too vague to measure objectively."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of FBLA event typically uses a written objective test as the only competitive component?",
+      "options": [
+        "Objective test event",
+        "Role play event",
+        "Presentation event",
+        "Production event"
+      ],
+      "answer": 0,
+      "explain": "Objective test events are designed to be evaluated via a multiple-choice test on knowledge areas and objectives.",
+      "optionExplanations": [
+        "Correct: Objective test events are test-only.",
+        "Not correct: Role play events include a scenario component.",
+        "Not correct: Presentation events involve presenting to judges.",
+        "Not correct: Production events require creating a product, often in advance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which type of FBLA event commonly combines an objective test with an interactive scenario component?",
+      "options": [
+        "Role play event",
+        "Objective test event",
+        "Chapter event",
+        "Recognition ceremony"
+      ],
+      "answer": 0,
+      "explain": "Many role play events include an objective test plus a judged role play scenario.",
+      "optionExplanations": [
+        "Correct: Role play events often have a test plus a scenario.",
+        "Not correct: Objective test events are test-only.",
+        "Not correct: Chapter events are chapter-based competitions, not a format type here.",
+        "Not correct: Recognition ceremonies are not competitive event formats."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In FBLA competitive events, what does a 'rating sheet' primarily provide?",
+      "options": [
+        "A scoring rubric used by judges",
+        "A list of chapter dues",
+        "A schedule of workshop rooms",
+        "A list of officer candidates"
+      ],
+      "answer": 0,
+      "explain": "A rating sheet is the rubric that judges use to score a performance, presentation, or role play.",
+      "optionExplanations": [
+        "Correct: Judges use it to score components and points.",
+        "Not correct: Dues are handled through membership resources.",
+        "Not correct: Schedules are separate from scoring tools.",
+        "Not correct: Officer candidates are not determined by rating sheets."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes 'networking' at an FBLA conference?",
+      "options": [
+        "Building professional connections through conversations and shared interests",
+        "Connecting Ethernet cables to switches",
+        "Memorizing the FBLA creed",
+        "Submitting a competitive event appeal"
+      ],
+      "answer": 0,
+      "explain": "Networking in a career context means meeting people, exchanging information, and creating relationships that may help career development.",
+      "optionExplanations": [
+        "Correct: Professional connection-building definition.",
+        "Not correct: That is computer networking hardware work.",
+        "Not correct: Memorizing the creed is not networking.",
+        "Not correct: Appeals are administrative, not networking."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which item is most appropriate for professional business attire at an FBLA conference?",
+      "options": [
+        "Blazer and dress shirt",
+        "Beach sandals and shorts",
+        "Gym sweatpants",
+        "Graphic hoodie and flip-flops"
+      ],
+      "answer": 0,
+      "explain": "Professional attire typically includes items like a blazer, dress shirt, slacks or skirt, and closed-toe shoes.",
+      "optionExplanations": [
+        "Correct: A blazer and dress shirt are standard professional attire.",
+        "Not correct: Not considered professional business attire.",
+        "Not correct: Not considered professional business attire.",
+        "Not correct: Not considered professional business attire."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a benefit of participating in competitive events?",
+      "options": [
+        "Applying classroom knowledge to business scenarios",
+        "Avoiding teamwork completely",
+        "Receiving automatic college credit",
+        "Guaranteeing a paid internship"
+      ],
+      "answer": 0,
+      "explain": "Competitive events allow members to practice and demonstrate business knowledge and skills in simulated contexts.",
+      "optionExplanations": [
+        "Correct: That is a core purpose of competitive events.",
+        "Not correct: Many events require teamwork.",
+        "Not correct: College credit is not automatic.",
+        "Not correct: Participation does not guarantee internships."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which communication channel is most appropriate for an official chapter announcement to members?",
+      "options": [
+        "A written message through the chapter's official communication platform",
+        "A rumor shared in the hallway",
+        "A private text to one member only",
+        "An anonymous note without details"
+      ],
+      "answer": 0,
+      "explain": "Official announcements should be clear, documented, and distributed through an agreed-upon channel so all members receive the same information.",
+      "optionExplanations": [
+        "Correct: Official, documented communication is best.",
+        "Not correct: Rumors are unreliable.",
+        "Not correct: Only one member is not sufficient.",
+        "Not correct: Anonymous notes are unclear and not accountable."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main reason an organization uses a budget?",
+      "options": [
+        "To plan and control income and expenses",
+        "To avoid tracking money",
+        "To replace financial records",
+        "To guarantee profits"
+      ],
+      "answer": 0,
+      "explain": "A budget is a financial plan that helps an organization allocate resources and monitor spending versus expected income.",
+      "optionExplanations": [
+        "Correct: Planning and control is the purpose of budgeting.",
+        "Not correct: Budgets require tracking, not avoiding it.",
+        "Not correct: Budgets complement, not replace, records.",
+        "Not correct: Budgets do not guarantee profits."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which financial document summarizes money received and money spent over a period of time for a chapter?",
+      "options": [
+        "Income statement",
+        "Balance sheet",
+        "Purchase order",
+        "Memo"
+      ],
+      "answer": 0,
+      "explain": "An income statement (profit and loss statement) summarizes revenues and expenses over a specific period.",
+      "optionExplanations": [
+        "Correct: Income statement covers revenues and expenses over time.",
+        "Not correct: Balance sheet is a snapshot at a point in time.",
+        "Not correct: Purchase orders authorize purchases.",
+        "Not correct: A memo is a communication, not a financial statement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which activity best demonstrates 'service' as a core part of FBLA involvement?",
+      "options": [
+        "Organizing a community donation drive",
+        "Skipping meetings to study",
+        "Only practicing test questions",
+        "Arguing to cancel chapter events"
+      ],
+      "answer": 0,
+      "explain": "Service activities involve contributing time and effort to benefit the community or school beyond the chapter itself.",
+      "optionExplanations": [
+        "Correct: A donation drive is a service activity.",
+        "Not correct: Skipping meetings is not service.",
+        "Not correct: Practice is valuable but not service.",
+        "Not correct: Canceling events is not service."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is an example of ethical behavior for an FBLA competitor during testing?",
+      "options": [
+        "Not using unauthorized materials",
+        "Sharing answers with a friend",
+        "Taking photos of the test",
+        "Using a hidden note sheet"
+      ],
+      "answer": 0,
+      "explain": "Ethical testing behavior includes following rules and avoiding cheating or sharing secure materials.",
+      "optionExplanations": [
+        "Correct: Following rules and not using unauthorized aids is ethical.",
+        "Not correct: Sharing answers is cheating.",
+        "Not correct: Photographing test content is typically prohibited.",
+        "Not correct: Hidden notes are unauthorized aids."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes 'leadership development' in FBLA?",
+      "options": [
+        "Building skills to guide teams and make responsible decisions",
+        "Learning only accounting formulas",
+        "Working alone to avoid conflict",
+        "Avoiding public speaking entirely"
+      ],
+      "answer": 0,
+      "explain": "Leadership development focuses on communication, decision-making, teamwork, ethics, and guiding others toward shared goals.",
+      "optionExplanations": [
+        "Correct: Leadership development is about guiding teams and decisions.",
+        "Not correct: Accounting formulas are just one content area, not leadership development.",
+        "Not correct: Leadership requires collaboration.",
+        "Not correct: Communication is often part of leadership."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a chapter wants to increase member engagement, which action is most effective?",
+      "options": [
+        "Offer varied meeting activities and clear roles for members",
+        "Hold meetings without any agenda",
+        "Avoid asking members for feedback",
+        "Only communicate once per semester"
+      ],
+      "answer": 0,
+      "explain": "Engagement improves when meetings are purposeful, interactive, and members have ownership through roles and feedback.",
+      "optionExplanations": [
+        "Correct: Varied, purposeful engagement strategies help involvement.",
+        "Not correct: No agenda reduces clarity and engagement.",
+        "Not correct: Feedback helps improve engagement.",
+        "Not correct: Infrequent communication reduces engagement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term refers to the group that governs an organization through adopted rules and policies?",
+      "options": [
+        "Board of Directors",
+        "Marketing team",
+        "Study group",
+        "Customer base"
+      ],
+      "answer": 0,
+      "explain": "A board of directors is a governing body that sets policy and oversees the organization.",
+      "optionExplanations": [
+        "Correct: A board of directors provides governance.",
+        "Not correct: Marketing teams focus on promotion.",
+        "Not correct: Study groups are informal learning groups.",
+        "Not correct: Customers are not a governing body."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most accurate definition of a 'charter' for a local chapter?",
+      "options": [
+        "Official authorization to operate as part of the national organization",
+        "A list of individual test scores",
+        "A type of competitive event",
+        "A sponsor donation receipt"
+      ],
+      "answer": 0,
+      "explain": "A chapter charter is the formal recognition and authorization that establishes a local chapter within the larger organization.",
+      "optionExplanations": [
+        "Correct: A charter authorizes a chapter to operate officially.",
+        "Not correct: Test scores are unrelated.",
+        "Not correct: Charters are not events.",
+        "Not correct: Receipts document donations, not authorization."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which activity best fits the meaning of 'career preparation' in FBLA's mission?",
+      "options": [
+        "Developing skills like interviewing and professional communication",
+        "Practicing only video games",
+        "Avoiding all teamwork",
+        "Ignoring deadlines"
+      ],
+      "answer": 0,
+      "explain": "Career preparation includes developing employability skills such as communication, planning, and professionalism.",
+      "optionExplanations": [
+        "Correct: Employability and professional skills align with career prep.",
+        "Not correct: Video games are not inherently career prep in this context.",
+        "Not correct: Teamwork is often required in careers.",
+        "Not correct: Deadlines are essential in careers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most likely reason FBLA protects its emblem and insignia through trademark registration?",
+      "options": [
+        "To prevent unauthorized use that could confuse or misrepresent the organization",
+        "To stop members from wearing business attire",
+        "To require chapters to pay fines for logos",
+        "To make competitive events harder"
+      ],
+      "answer": 0,
+      "explain": "Trademark protection helps ensure the emblem is used appropriately and prevents infringement or misrepresentation.",
+      "optionExplanations": [
+        "Correct: Trademarks prevent confusing or unauthorized use.",
+        "Not correct: This is unrelated to attire.",
+        "Not correct: The purpose is protection, not fines.",
+        "Not correct: Trademarks do not affect competition difficulty."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action is the best example of 'efficient money management' for a student organization?",
+      "options": [
+        "Tracking income and expenses and comparing them to the budget",
+        "Spending all funds immediately to avoid paperwork",
+        "Keeping no records to save time",
+        "Borrowing money without approval"
+      ],
+      "answer": 0,
+      "explain": "Efficient money management includes careful tracking, budgeting, and oversight of chapter finances.",
+      "optionExplanations": [
+        "Correct: Tracking and budgeting are efficient practices.",
+        "Not correct: Spending immediately is not management.",
+        "Not correct: No records increases risk.",
+        "Not correct: Borrowing without approval is poor practice."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is most likely part of a chapter officer election process?",
+      "options": [
+        "Nominations followed by a vote",
+        "Assigning officers by coin flip",
+        "Letting only seniors vote regardless of rules",
+        "Choosing officers based on social media followers"
+      ],
+      "answer": 0,
+      "explain": "Officer elections generally involve nominations and voting according to chapter bylaws.",
+      "optionExplanations": [
+        "Correct: Nominations and voting align with standard procedure.",
+        "Not correct: Coin flips are not a formal election method.",
+        "Not correct: Voting eligibility is governed by bylaws, not age alone.",
+        "Not correct: Popularity metrics are not a formal criterion."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes the role of an adviser in an FBLA chapter?",
+      "options": [
+        "Guiding and supporting the chapter while students lead",
+        "Making all decisions without student input",
+        "Serving as the national president",
+        "Only managing social media posts"
+      ],
+      "answer": 0,
+      "explain": "Advisers provide supervision and guidance, but student officers and members lead chapter operations.",
+      "optionExplanations": [
+        "Correct: Advisers support student leadership.",
+        "Not correct: FBLA is student-led with adviser support.",
+        "Not correct: Advisers are not national presidents by default.",
+        "Not correct: Advisers may help, but their role is broader than social media."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Tomorrow's Business Leader (TBL) is best described as which of the following?",
+      "options": [
+        "FBLA's official magazine/publication",
+        "A type of competitive event",
+        "A required accounting textbook",
+        "A chapter budget form"
+      ],
+      "answer": 0,
+      "explain": "TBL is referenced as the FBLA magazine in the provided HQ sample questions.",
+      "optionExplanations": [
+        "Correct: TBL is the FBLA publication.",
+        "Not correct: TBL is not an event.",
+        "Not correct: TBL is not a textbook title requirement.",
+        "Not correct: TBL is not a budget form."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the purpose of a chapter agenda?",
+      "options": [
+        "To list the planned order of items for a meeting",
+        "To record the minutes after the meeting",
+        "To advertise a fundraiser to the public",
+        "To assign competitive event topics randomly"
+      ],
+      "answer": 0,
+      "explain": "An agenda is a plan for a meeting that lists items in the order they will be considered.",
+      "optionExplanations": [
+        "Correct: Agendas outline meeting order.",
+        "Not correct: Minutes are the record of what happened.",
+        "Not correct: Advertising is different from an agenda.",
+        "Not correct: Topic assignment is not the purpose of an agenda."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which term describes an official record of what occurred during a meeting?",
+      "options": [
+        "Minutes",
+        "Receipt",
+        "Invoice",
+        "Blueprint"
+      ],
+      "answer": 0,
+      "explain": "Minutes are the written record of motions, votes, and key discussion points from a meeting.",
+      "optionExplanations": [
+        "Correct: Minutes record meeting actions.",
+        "Not correct: Receipts document payments.",
+        "Not correct: Invoices request payment.",
+        "Not correct: Blueprints are design plans."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a motion is on the floor in a meeting, what does that mean?",
+      "options": [
+        "It is being considered by the assembly",
+        "It has been permanently rejected",
+        "The meeting is over",
+        "Only the president can vote"
+      ],
+      "answer": 0,
+      "explain": "A motion on the floor is currently before the group for debate, amendment, and voting.",
+      "optionExplanations": [
+        "Correct: The motion is under consideration.",
+        "Not correct: Rejected motions are no longer pending.",
+        "Not correct: A motion can be pending during a meeting.",
+        "Not correct: Voting rights are not limited to the president."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which vote threshold is typically required for a motion to pass in most cases?",
+      "options": [
+        "A majority vote",
+        "A unanimous vote",
+        "A two-thirds vote for all motions",
+        "A vote by only officers"
+      ],
+      "answer": 0,
+      "explain": "Most ordinary motions pass by a majority vote, unless special rules require a different threshold.",
+      "optionExplanations": [
+        "Correct: Majority is the usual requirement.",
+        "Not correct: Unanimity is not usually required.",
+        "Not correct: Two-thirds is reserved for certain motions.",
+        "Not correct: Members (not only officers) vote in most organizations."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a chapter fundraising activity?",
+      "options": [
+        "Selling chapter merchandise to raise money",
+        "Submitting a competitive event appeal",
+        "Taking the objective test early",
+        "Changing the national bylaws"
+      ],
+      "answer": 0,
+      "explain": "Fundraising involves generating income for the chapter through legal, approved activities such as sales or events.",
+      "optionExplanations": [
+        "Correct: Selling merchandise is a common fundraiser.",
+        "Not correct: Appeals are administrative.",
+        "Not correct: Tests are not fundraising.",
+        "Not correct: Chapters do not change national bylaws directly."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which practice best protects a chapter from financial errors?",
+      "options": [
+        "Keeping detailed receipts and requiring approval for expenses",
+        "Letting one person handle money without records",
+        "Paying expenses with cash and no documentation",
+        "Never reviewing the treasurer's reports"
+      ],
+      "answer": 0,
+      "explain": "Internal controls like documentation and approvals reduce errors and misuse of funds.",
+      "optionExplanations": [
+        "Correct: Documentation and approvals are key controls.",
+        "Not correct: No records increases risk.",
+        "Not correct: Undocumented cash spending increases risk.",
+        "Not correct: Regular review is necessary."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a professional email to a sponsor, which element is most important to include?",
+      "options": [
+        "A clear request and what the sponsor receives in return",
+        "Only emojis",
+        "No contact information",
+        "A message with no subject line"
+      ],
+      "answer": 0,
+      "explain": "Professional outreach should clearly state the purpose, request, value proposition, and contact details.",
+      "optionExplanations": [
+        "Correct: Clear request and benefits make the email actionable.",
+        "Not correct: Emojis alone are unprofessional and unclear.",
+        "Not correct: Contact info is important for follow-up.",
+        "Not correct: A subject line helps the email get read and understood."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action is most appropriate when representing FBLA at a conference?",
+      "options": [
+        "Following the conference code of conduct and being respectful",
+        "Ignoring event rules",
+        "Posting confidential test content online",
+        "Interrupting speakers repeatedly"
+      ],
+      "answer": 0,
+      "explain": "Representing the organization involves professionalism, respect, and rule-following.",
+      "optionExplanations": [
+        "Correct: Respect and compliance reflect professionalism.",
+        "Not correct: Ignoring rules is inappropriate.",
+        "Not correct: Sharing confidential content violates rules and ethics.",
+        "Not correct: Disruptive behavior is unprofessional."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is a primary reason FBLA emphasizes ethics?",
+      "options": [
+        "To promote integrity and trust in business leadership",
+        "To allow competitors to cheat",
+        "To avoid learning business skills",
+        "To require members to join political parties"
+      ],
+      "answer": 0,
+      "explain": "Ethical behavior is essential for responsible leadership and long-term trust in business and communities.",
+      "optionExplanations": [
+        "Correct: Integrity and trust are core reasons.",
+        "Not correct: Cheating is unethical.",
+        "Not correct: FBLA promotes learning business skills.",
+        "Not correct: FBLA is nonpartisan."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which item is most likely to be found in a chapter's annual plan of work?",
+      "options": [
+        "A calendar of activities with timelines and responsibilities",
+        "A list of random jokes",
+        "Only a single meeting agenda",
+        "A password list for social media accounts"
+      ],
+      "answer": 0,
+      "explain": "A plan of work documents goals, activities, timelines, and responsibilities for the year.",
+      "optionExplanations": [
+        "Correct: Plans of work include calendars and responsibilities.",
+        "Not correct: Jokes are unrelated.",
+        "Not correct: A single agenda is too narrow.",
+        "Not correct: Password lists are a security risk and not the purpose of a plan of work."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes a 'committee' in an organization?",
+      "options": [
+        "A group assigned to handle a specific task or project",
+        "A single officer acting alone",
+        "A legal contract with a sponsor",
+        "A type of competitive event test"
+      ],
+      "answer": 0,
+      "explain": "Committees divide work by assigning groups to plan and complete specific tasks.",
+      "optionExplanations": [
+        "Correct: Committees are task-focused groups.",
+        "Not correct: Committees involve multiple members.",
+        "Not correct: Contracts are legal agreements, not committees.",
+        "Not correct: Committees are not event tests."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which role most commonly leads a committee and reports progress to the chapter?",
+      "options": [
+        "Committee chair",
+        "Treasurer",
+        "Sergeant-at-arms",
+        "Guest speaker"
+      ],
+      "answer": 0,
+      "explain": "A committee chair coordinates committee work and reports updates to the organization.",
+      "optionExplanations": [
+        "Correct: Chair leads and reports.",
+        "Not correct: Treasurer manages finances.",
+        "Not correct: Sergeant-at-arms manages order or room setup in some structures.",
+        "Not correct: Guest speakers are not chapter leadership roles."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the main advantage of setting SMART goals for a chapter?",
+      "options": [
+        "They are specific and measurable, making progress easier to track",
+        "They guarantee national awards",
+        "They eliminate the need for meetings",
+        "They require no deadlines"
+      ],
+      "answer": 0,
+      "explain": "SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) help chapters track progress and stay focused.",
+      "optionExplanations": [
+        "Correct: Tracking and clarity are key benefits.",
+        "Not correct: Goals do not guarantee awards.",
+        "Not correct: Meetings are still needed for planning and execution.",
+        "Not correct: SMART goals include time-bound deadlines."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which FBLA activity best demonstrates 'recognition' opportunities?",
+      "options": [
+        "Earning awards through programs like BAA or LEAD",
+        "Skipping competitive events",
+        "Refusing to participate in service",
+        "Ignoring chapter achievements"
+      ],
+      "answer": 0,
+      "explain": "Awards programs recognize member accomplishments through structured activities and requirements.",
+      "optionExplanations": [
+        "Correct: Awards programs are designed for recognition.",
+        "Not correct: Skipping reduces opportunities.",
+        "Not correct: Refusing service reduces opportunities.",
+        "Not correct: Ignoring achievements eliminates recognition."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best explains why a dress code exists at conferences like NLC?",
+      "options": [
+        "To maintain a professional environment and prepare members for business settings",
+        "To make competition harder",
+        "To prevent members from talking to each other",
+        "To require everyone to wear the same color"
+      ],
+      "answer": 0,
+      "explain": "Dress codes reinforce professionalism and help members practice workplace expectations.",
+      "optionExplanations": [
+        "Correct: Professional environment and preparation are the goals.",
+        "Not correct: Dress codes are not meant to increase difficulty.",
+        "Not correct: Dress codes do not prevent networking.",
+        "Not correct: Professional dress codes do not usually require the same color for everyone."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a good example of networking follow-up after meeting someone at a conference?",
+      "options": [
+        "Sending a brief thank-you message and connecting professionally",
+        "Ignoring them after the conference",
+        "Asking for money immediately",
+        "Sending multiple messages every hour"
+      ],
+      "answer": 0,
+      "explain": "Professional follow-up is polite, brief, and maintains the connection without being pushy.",
+      "optionExplanations": [
+        "Correct: Thank-you and professional connection is appropriate.",
+        "Not correct: Ignoring loses the connection.",
+        "Not correct: Asking for money immediately is unprofessional.",
+        "Not correct: Excessive messaging is inappropriate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does 'CTSO' stand for in the context of organizations like FBLA?",
+      "options": [
+        "Career and Technical Student Organization",
+        "Certified Technical Safety Officer",
+        "College Testing Standards Office",
+        "Creative Team Support Organization"
+      ],
+      "answer": 0,
+      "explain": "FBLA is commonly described as a business Career and Technical Student Organization (CTSO).",
+      "optionExplanations": [
+        "Correct: CTSO stands for Career and Technical Student Organization.",
+        "Not correct: Not the meaning in this context.",
+        "Not correct: Not the meaning in this context.",
+        "Not correct: Not the meaning in this context."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which activity is most likely to help a member improve objective test performance?",
+      "options": [
+        "Studying the event's knowledge areas and objectives",
+        "Only watching unrelated videos",
+        "Avoiding practice questions",
+        "Studying a different event's rubric only"
+      ],
+      "answer": 0,
+      "explain": "Objective tests are based on the event's knowledge areas and objectives, so targeted studying is most effective.",
+      "optionExplanations": [
+        "Correct: Aligning study to objectives improves performance.",
+        "Not correct: Unrelated content is inefficient.",
+        "Not correct: Practice supports learning.",
+        "Not correct: Rubrics are for judged events, not objective tests."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which competitive event category typically requires creating a product such as a design or report?",
+      "options": [
+        "Production event",
+        "Objective test event",
+        "Interview-only event",
+        "Social event"
+      ],
+      "answer": 0,
+      "explain": "Production events evaluate a created product using guidelines and rubrics.",
+      "optionExplanations": [
+        "Correct: Production events center on a created deliverable.",
+        "Not correct: Objective test events are test-only.",
+        "Not correct: Interview-only is not a standard category name here.",
+        "Not correct: Social events are not competitive categories."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which competitive event category most commonly involves presenting to judges live?",
+      "options": [
+        "Presentation event",
+        "Objective test event",
+        "Membership dues event",
+        "Region assignment event"
+      ],
+      "answer": 0,
+      "explain": "Presentation events require competitors to present content to judges and are scored with rating sheets.",
+      "optionExplanations": [
+        "Correct: Presentation events involve live presenting.",
+        "Not correct: Objective tests do not involve presenting.",
+        "Not correct: Dues are administrative, not competitive events.",
+        "Not correct: Region assignment is not an event category."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a chapter event rather than an individual event?",
+      "options": [
+        "A project completed and submitted by the chapter as a whole",
+        "A single-person objective test",
+        "A one-person interview with a judge",
+        "A two-person role play only"
+      ],
+      "answer": 0,
+      "explain": "Chapter events are completed by the chapter (as an organization) and submitted as a chapter-level entry.",
+      "optionExplanations": [
+        "Correct: Chapter events are chapter-level submissions.",
+        "Not correct: Individual objective tests are not chapter events.",
+        "Not correct: A single interview is not a chapter event by itself.",
+        "Not correct: A team role play is not a chapter event category."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which item is most likely included in a competitor's event guidelines?",
+      "options": [
+        "Knowledge areas and objectives",
+        "A list of random trivia",
+        "Personal diary entries",
+        "Shopping coupons"
+      ],
+      "answer": 0,
+      "explain": "Event guidelines outline what content the test or performance is based on, including knowledge areas and objectives.",
+      "optionExplanations": [
+        "Correct: Guidelines specify objectives and content scope.",
+        "Not correct: Trivia is not the purpose.",
+        "Not correct: Diaries are unrelated.",
+        "Not correct: Coupons are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most appropriate action if a competitor is unsure about an event rule on-site?",
+      "options": [
+        "Ask event officials or consult the written guidelines",
+        "Guess and ignore the rule",
+        "Argue with other competitors",
+        "Change the rule themselves"
+      ],
+      "answer": 0,
+      "explain": "Event officials and written guidelines are the authoritative sources for rules and procedures.",
+      "optionExplanations": [
+        "Correct: Consult officials and guidelines.",
+        "Not correct: Guessing can lead to violations.",
+        "Not correct: Competitors cannot resolve rules by arguing.",
+        "Not correct: Competitors cannot change rules."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a leadership experience in FBLA?",
+      "options": [
+        "Serving as a chapter officer or committee chair",
+        "Skipping all meetings",
+        "Only watching others compete",
+        "Refusing to collaborate"
+      ],
+      "answer": 0,
+      "explain": "Leadership experiences include roles where members plan, coordinate, and guide others in chapter activities.",
+      "optionExplanations": [
+        "Correct: Officer and chair roles are leadership experiences.",
+        "Not correct: Skipping is not leadership.",
+        "Not correct: Observing is not a leadership role.",
+        "Not correct: Refusing collaboration is not leadership."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the best definition of 'occupational goals' in the context of FBLA goals?",
+      "options": [
+        "Career objectives a student plans to pursue",
+        "Grades a student wants in a class",
+        "The number of trophies a chapter wants",
+        "A list of meeting snacks"
+      ],
+      "answer": 0,
+      "explain": "Occupational goals are career-related objectives, such as a desired field, job role, or career pathway.",
+      "optionExplanations": [
+        "Correct: Occupational goals are career objectives.",
+        "Not correct: Grades are academic goals, not occupational goals.",
+        "Not correct: Trophies are awards, not occupational goals.",
+        "Not correct: Snacks are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement best describes why FBLA encourages scholarship and school loyalty?",
+      "options": [
+        "To motivate academic success and positive involvement in the school community",
+        "To discourage students from learning business skills",
+        "To make conferences mandatory for everyone",
+        "To replace classroom teachers"
+      ],
+      "answer": 0,
+      "explain": "Encouraging scholarship and school loyalty supports academic achievement and constructive participation in school life.",
+      "optionExplanations": [
+        "Correct: Academic success and involvement are the goal.",
+        "Not correct: FBLA promotes business learning.",
+        "Not correct: Conferences are opportunities, not universal mandates.",
+        "Not correct: FBLA supplements teachers, not replaces them."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What does it mean to 'facilitate the transition from school to work'?",
+      "options": [
+        "Helping students build skills and experiences that prepare them for careers",
+        "Requiring students to get a job immediately",
+        "Eliminating homework",
+        "Canceling all exams"
+      ],
+      "answer": 0,
+      "explain": "This goal means supporting students with employability skills, career exploration, and professional experiences to move from school into the workforce successfully.",
+      "optionExplanations": [
+        "Correct: Career preparation and skills-building define the transition.",
+        "Not correct: It does not require immediate employment.",
+        "Not correct: Homework policy is unrelated.",
+        "Not correct: Exams are unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a best practice for creating a professional resume for FBLA opportunities?",
+      "options": [
+        "Use clear sections like education, skills, and experience",
+        "Use slang and inside jokes",
+        "Omit contact information",
+        "List false achievements to look impressive"
+      ],
+      "answer": 0,
+      "explain": "A professional resume is organized, truthful, and easy to scan with standard sections and accurate content.",
+      "optionExplanations": [
+        "Correct: Clear, standard sections improve readability.",
+        "Not correct: Slang reduces professionalism.",
+        "Not correct: Contact information is essential.",
+        "Not correct: Falsifying achievements is unethical."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a competitive event, what is the primary purpose of a study guide or objective list?",
+      "options": [
+        "To define the topics the test can cover",
+        "To provide the correct answers to the test",
+        "To replace the event rules",
+        "To list which judges will be assigned"
+      ],
+      "answer": 0,
+      "explain": "Study guides and objective lists define the content scope so competitors know what to study.",
+      "optionExplanations": [
+        "Correct: They define the testable topics.",
+        "Not correct: They do not provide official test answers.",
+        "Not correct: Rules are separate from content objectives.",
+        "Not correct: Judge assignments are not part of study guides."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which behavior best demonstrates sportsmanship at an FBLA competition?",
+      "options": [
+        "Congratulating other competitors and following rules",
+        "Mocking other competitors for mistakes",
+        "Spreading false rumors about another team",
+        "Trying to distract others during testing"
+      ],
+      "answer": 0,
+      "explain": "Sportsmanship means respectful, fair behavior before, during, and after competition.",
+      "optionExplanations": [
+        "Correct: Respect and rule-following are sportsmanship.",
+        "Not correct: Mocking is disrespectful.",
+        "Not correct: Rumors are unethical.",
+        "Not correct: Distracting others is unfair."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the most likely purpose of a chapter's social media account?",
+      "options": [
+        "To share chapter news, promote events, and celebrate achievements",
+        "To post confidential competitive event materials",
+        "To replace official membership registration",
+        "To avoid communication with advisers"
+      ],
+      "answer": 0,
+      "explain": "Chapter social media is typically used for publicity and communication about activities and achievements, not confidential materials or registration.",
+      "optionExplanations": [
+        "Correct: Publicity and updates are appropriate uses.",
+        "Not correct: Confidential materials should not be shared.",
+        "Not correct: Registration is handled through official systems.",
+        "Not correct: Social media should not bypass adviser communication."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best aligns with protecting members' privacy and safety online?",
+      "options": [
+        "Getting consent before posting identifiable photos of members",
+        "Posting student addresses to promote an event",
+        "Sharing private phone numbers publicly",
+        "Uploading screenshots of private messages"
+      ],
+      "answer": 0,
+      "explain": "Privacy protection includes seeking consent and avoiding sharing personal or private information publicly.",
+      "optionExplanations": [
+        "Correct: Consent before posting is good practice.",
+        "Not correct: Sharing addresses is unsafe.",
+        "Not correct: Publicly sharing phone numbers violates privacy.",
+        "Not correct: Sharing private messages is inappropriate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the best example of a clear event announcement?",
+      "options": [
+        "Meeting Thursday at 3:00 PM in Room 214; bring $5 dues by Friday",
+        "Meeting sometime soon; be there",
+        "Stuff is happening; ask someone",
+        "No details, just show up"
+      ],
+      "answer": 0,
+      "explain": "Clear announcements include date, time, location, and any required items or deadlines.",
+      "optionExplanations": [
+        "Correct: Includes specifics and action items.",
+        "Not correct: Missing specifics.",
+        "Not correct: Vague and unclear.",
+        "Not correct: No actionable details."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the primary reason competitors should avoid plagiarism in any written or production event work?",
+      "options": [
+        "It violates ethical standards and competition rules",
+        "It makes the font look better",
+        "It guarantees higher scores",
+        "It is required for citations to work"
+      ],
+      "answer": 0,
+      "explain": "Plagiarism is unethical and typically prohibited by competition rules; work must be original or properly credited where allowed.",
+      "optionExplanations": [
+        "Correct: Ethics and rules prohibit plagiarism.",
+        "Not correct: Font appearance is unrelated.",
+        "Not correct: Plagiarism risks penalties, not higher scores.",
+        "Not correct: Citations are used to avoid plagiarism, not require it."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the best description of professionalism at an FBLA event?",
+      "options": [
+        "Respectful behavior, appropriate attire, and responsible communication",
+        "Being loud to get attention",
+        "Ignoring schedules and deadlines",
+        "Using informal language with judges"
+      ],
+      "answer": 0,
+      "explain": "Professionalism includes respectful conduct, preparedness, and appropriate communication in a business setting.",
+      "optionExplanations": [
+        "Correct: Conduct, attire, and communication define professionalism.",
+        "Not correct: Loudness is not professionalism.",
+        "Not correct: Ignoring schedules is unprofessional.",
+        "Not correct: Informal language with judges can reduce professionalism."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In the context of chapters, what does member engagement most directly refer to?",
+      "options": [
+        "How actively members participate in meetings, projects, and events",
+        "How many pages are in the bylaws",
+        "How long the meeting lasts",
+        "How expensive the chapter shirt is"
+      ],
+      "answer": 0,
+      "explain": "Engagement is about participation and involvement, not documents, duration, or merchandise cost.",
+      "optionExplanations": [
+        "Correct: Engagement equals active participation.",
+        "Not correct: Bylaw length is unrelated.",
+        "Not correct: Meeting length does not guarantee engagement.",
+        "Not correct: Shirt cost is unrelated."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the best reason to keep a chapter's records organized (minutes, budgets, plans)?",
+      "options": [
+        "It supports continuity and accountability from year to year",
+        "It makes meetings less important",
+        "It prevents new members from joining",
+        "It eliminates the need for officers"
+      ],
+      "answer": 0,
+      "explain": "Organized records help future officers understand past decisions, track finances, and maintain accountability.",
+      "optionExplanations": [
+        "Correct: Continuity and accountability are key benefits.",
+        "Not correct: Records do not replace meetings.",
+        "Not correct: Good records can help onboarding, not prevent it.",
+        "Not correct: Officers are still needed."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action best demonstrates school loyalty in a positive way?",
+      "options": [
+        "Supporting school initiatives and representing the school well at events",
+        "Starting conflicts with other clubs",
+        "Disrespecting school staff",
+        "Skipping classes to attend meetings without permission"
+      ],
+      "answer": 0,
+      "explain": "School loyalty involves constructive support and respectful representation, not conflict or rule-breaking.",
+      "optionExplanations": [
+        "Correct: Positive representation and support show loyalty.",
+        "Not correct: Conflict harms the school community.",
+        "Not correct: Disrespect is negative.",
+        "Not correct: Skipping classes without permission is inappropriate."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is the most appropriate way to resolve a disagreement within a chapter committee?",
+      "options": [
+        "Discuss options respectfully and use a vote or consensus process",
+        "Insult the other members until they agree",
+        "Quit without telling anyone",
+        "Post the argument publicly online"
+      ],
+      "answer": 0,
+      "explain": "Professional conflict resolution involves respectful discussion and agreed decision-making processes like voting.",
+      "optionExplanations": [
+        "Correct: Respectful discussion and voting or consensus resolve disagreements.",
+        "Not correct: Insults are unprofessional.",
+        "Not correct: Quitting without communication harms the team.",
+        "Not correct: Public posting escalates conflict and harms reputations."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In an FBLA chapter, what does 'dues' most commonly refer to?",
+      "options": [
+        "Membership fees paid to belong to the organization",
+        "Money earned from a fundraiser",
+        "A judge's score on a rating sheet",
+        "A penalty for missing a meeting"
+      ],
+      "answer": 0,
+      "explain": "Dues are the membership fees members pay so the chapter can register them and fund participation.",
+      "optionExplanations": [
+        "Correct: Dues are membership fees.",
+        "Not correct: Fundraiser money is income, not dues.",
+        "Not correct: Scores are not dues.",
+        "Not correct: Penalties are not what 'dues' means in this context."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which abbreviation most commonly refers to the State Leadership Conference?",
+      "options": [
+        "SLC",
+        "NLC",
+        "TBL",
+        "BAA"
+      ],
+      "answer": 0,
+      "explain": "SLC is a common abbreviation for State Leadership Conference, a state-level conference for FBLA members.",
+      "optionExplanations": [
+        "Correct: SLC stands for State Leadership Conference.",
+        "Not correct: NLC refers to the National Leadership Conference.",
+        "Not correct: TBL is the FBLA publication abbreviation.",
+        "Not correct: BAA is an awards program abbreviation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which abbreviation most commonly refers to the National Leadership Conference?",
+      "options": [
+        "NLC",
+        "SLC",
+        "ROI",
+        "KPI"
+      ],
+      "answer": 0,
+      "explain": "NLC is commonly used to refer to the National Leadership Conference.",
+      "optionExplanations": [
+        "Correct: NLC stands for National Leadership Conference.",
+        "Not correct: SLC is the state conference.",
+        "Not correct: ROI is a finance metric, not a conference abbreviation.",
+        "Not correct: KPI is a performance metric, not a conference abbreviation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "What is the best definition of integrity in a leadership context?",
+      "options": [
+        "Doing what is right even when it is difficult",
+        "Changing your opinion to match the crowd",
+        "Winning at any cost",
+        "Avoiding responsibility"
+      ],
+      "answer": 0,
+      "explain": "Integrity means acting ethically and consistently with values, even under pressure.",
+      "optionExplanations": [
+        "Correct: Integrity is ethical consistency under pressure.",
+        "Not correct: Conforming to the crowd is not integrity.",
+        "Not correct: 'Any cost' conflicts with ethics.",
+        "Not correct: Avoiding responsibility is the opposite of integrity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which action is the best example of effective time management for an FBLA competitor?",
+      "options": [
+        "Creating a study schedule and sticking to deadlines",
+        "Waiting until the night before to prepare",
+        "Skipping practice because it feels hard",
+        "Ignoring the event start time"
+      ],
+      "answer": 0,
+      "explain": "Effective time management involves planning ahead, allocating time for preparation, and meeting deadlines.",
+      "optionExplanations": [
+        "Correct: Planning and meeting deadlines is effective time management.",
+        "Not correct: Last-minute preparation increases risk.",
+        "Not correct: Skipping practice reduces readiness.",
+        "Not correct: Ignoring start times is poor time management."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}

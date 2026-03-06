@@ -1,0 +1,1805 @@
+{
+  "event": "Advanced Accounting",
+  "questions": [
+    {
+      "q": "What is the primary purpose of the statement of retained earnings?",
+      "options": [
+        "To show net income",
+        "To show the company's cash flows",
+        "To reconcile beginning and ending retained earnings",
+        "To calculate earnings per share"
+      ],
+      "answer": 2,
+      "explain": "A statement of retained earnings reconciles the beginning balance, adds net income, subtracts dividends, and arrives at ending retained earnings.",
+      "optionExplanations": [
+        "Net income is shown on the income statement, not the main purpose of the retained earnings statement.",
+        "Cash flows are reported on the statement of cash flows, not the retained earnings statement.",
+        "Correct: it bridges beginning and ending retained earnings by showing changes during the period.",
+        "EPS is computed separately; this statement does not calculate earnings per share."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which account would you debit to record the issuance of common stock for cash?",
+      "options": [
+        "Retained Earnings",
+        "Cash",
+        "Common Stock",
+        "Paid-in Capital"
+      ],
+      "answer": 1,
+      "explain": "When common stock is issued for cash, the company receives cash, so Cash is debited; equity accounts are credited.",
+      "optionExplanations": [
+        "Retained earnings changes with net income and dividends, not stock issuance.",
+        "Correct: Cash increases and is debited.",
+        "Common Stock is an equity account and is credited, not debited, on issuance.",
+        "Paid-in capital accounts are credited for amounts received, not debited."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which financial ratio best indicates a company's ability to pay short-term obligations?",
+      "options": [
+        "Return on Equity",
+        "Current Ratio",
+        "Debt-to-Equity Ratio",
+        "Inventory Turnover"
+      ],
+      "answer": 1,
+      "explain": "The current ratio (current assets divided by current liabilities) measures liquidity for paying short-term obligations.",
+      "optionExplanations": [
+        "Return on equity measures profitability relative to shareholders' equity, not short-term liquidity.",
+        "Correct: current ratio is a primary short-term liquidity measure.",
+        "Debt-to-equity measures leverage, not ability to cover current liabilities.",
+        "Inventory turnover measures inventory efficiency, not short-term solvency."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the primary distinction between stock splits and stock dividends?",
+      "options": [
+        "Stock splits increase total equity",
+        "Stock dividends change par value",
+        "Stock dividends transfer retained earnings to paid-in capital",
+        "Stock splits require journal entries"
+      ],
+      "answer": 2,
+      "explain": "A stock dividend transfers an amount from retained earnings to paid-in capital, while a stock split only changes share count and par value with no equity transfer.",
+      "optionExplanations": [
+        "A split does not increase total equity; it only reclassifies shares and par value per share.",
+        "Par value typically changes in a stock split, not because of a stock dividend.",
+        "Correct: a stock dividend reclassifies part of retained earnings into paid-in capital.",
+        "Stock splits are typically memorandum entries and do not require journal entries like stock dividends."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the correct classification of treasury stock on the balance sheet?",
+      "options": [
+        "As a current asset",
+        "As a long-term investment",
+        "As a contra-equity account",
+        "As an expense"
+      ],
+      "answer": 2,
+      "explain": "Treasury stock is a contra-equity account that reduces total shareholders' equity.",
+      "optionExplanations": [
+        "Treasury stock does not create an asset; it represents the company's own shares held in treasury.",
+        "Treasury stock reduces equity; it is not a liability.",
+        "Correct: it is a contra-equity account that decreases total equity.",
+        "Treasury stock is not reported as revenue or an expense."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the primary feature of straight-line bond amortization?",
+      "options": [
+        "Interest expense varies with the carrying value",
+        "Premium or discount is amortized equally each period",
+        "Interest paid changes each period",
+        "Bond carrying value remains constant"
+      ],
+      "answer": 1,
+      "explain": "Straight-line bond amortization recognizes equal interest expense each period when using straight-line.",
+      "optionExplanations": [
+        "Effective-interest method produces varying interest expense, not equal amounts each period.",
+        "Correct: straight-line allocates premium/discount evenly, yielding equal amortization amounts.",
+        "Interest paid depends on coupon rate, not on amortization method; cash interest is the same either way.",
+        "Bond carrying value changes over time under any amortization; straight-line does not keep it constant."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "How does the equity method account for investor income from an investee?",
+      "options": [
+        "Recognize dividends as income",
+        "Record investment at fair value each period",
+        "Recognize share of investee's net income as income",
+        "Do not recognize investee income until the investment is sold"
+      ],
+      "answer": 2,
+      "explain": "Under the equity method, the investor recognizes its share of the investee's net income by increasing the Investment account and recognizing investment income.",
+      "optionExplanations": [
+        "Dividends received under equity method reduce the Investment balance, not increase income directly.",
+        "Market value adjustments apply to fair value options, not the equity method.",
+        "Correct: investor records its share of investee earnings as income and increases the investment.",
+        "Equity method recognizes earnings as they are earned by the investee, not only on sale."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the key characteristic of a capital lease (finance lease)?",
+      "options": [
+        "Lease payments are expensed as rent only",
+        "No asset or liability is recorded",
+        "Lease is disclosed only in footnotes",
+        "Lease is recorded as an asset and liability"
+      ],
+      "answer": 3,
+      "explain": "A capital lease (finance lease) is recorded as an asset and a lease liability at the present value of lease payments at inception.",
+      "optionExplanations": [
+        "Operating leases recognize rent expense, but the key finance lease feature is recording an asset and liability at inception.",
+        "Finance leases recognize a balance sheet asset and liability; it is not off-balance-sheet.",
+        "Footnote disclosure exists, but finance leases are recognized on the balance sheet.",
+        "Correct: finance lease is recognized as both an asset and a liability at the PV of payments."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which statement best describes the purpose of the statement of cash flows?",
+      "options": [
+        "To report changes in retained earnings",
+        "To explain changes in cash by classifying cash flows",
+        "To calculate net income",
+        "To compute earnings per share"
+      ],
+      "answer": 1,
+      "explain": "The statement of cash flows categorizes cash receipts/payments into operating, investing, and financing activities.",
+      "optionExplanations": [
+        "Retained earnings changes are shown in equity statements, not the cash flow statement's main purpose.",
+        "Correct: it explains changes in cash by classifying cash flows into operating, investing, and financing.",
+        "Net income is computed on the income statement; cash flow starts from net income only under the indirect method.",
+        "EPS is not a cash flow statement output."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Under the indirect method, operating cash flow begins with:",
+      "options": [
+        "Cash received from customers",
+        "Total cash inflows",
+        "Net income",
+        "Ending cash balance"
+      ],
+      "answer": 2,
+      "explain": "Under the indirect method, operating cash flow starts with net income and adjusts for noncash items and changes in working capital.",
+      "optionExplanations": [
+        "Direct method lists cash receipts/payments; it does not start with net income.",
+        "Total cash inflows is not the starting point for operating cash flow under the indirect method.",
+        "Correct: indirect method begins with net income and adjusts to net cash provided by operating activities.",
+        "Ending cash is the final result, not the starting point."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which inventory method assumes the oldest inventory costs are sold first?",
+      "options": [
+        "LIFO",
+        "Weighted-average",
+        "FIFO",
+        "Specific identification"
+      ],
+      "answer": 2,
+      "explain": "FIFO assumes the oldest inventory costs are sold first, so in rising prices it yields lower COGS and higher ending inventory than LIFO.",
+      "optionExplanations": [
+        "LIFO assumes the newest costs are sold first.",
+        "Weighted-average uses an average cost for units sold and in ending inventory.",
+        "Correct: FIFO assigns the oldest costs to cost of goods sold.",
+        "Specific identification tracks specific items; it is not the FIFO assumption."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What causes a deferred tax liability?",
+      "options": [
+        "Permanent differences only",
+        "Temporary differences that create future taxable amounts",
+        "An increase in cash flows",
+        "A decrease in retained earnings"
+      ],
+      "answer": 1,
+      "explain": "A deferred tax liability arises when taxable income is less than pretax book income due to temporary differences, implying higher taxes payable in the future.",
+      "optionExplanations": [
+        "Permanent differences do not create deferred tax balances because they never reverse.",
+        "Correct: future taxable amounts from temporary differences create deferred tax liabilities.",
+        "Cash flows are not the basis for deferred tax recognition.",
+        "Retained earnings changes do not by themselves create deferred taxes."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "How is goodwill calculated in a business combination?",
+      "options": [
+        "Fair value of net assets acquired minus purchase price",
+        "Book value of net assets acquired minus purchase price",
+        "Purchase price minus fair value of identifiable net assets acquired",
+        "Purchase price minus par value of acquired stock"
+      ],
+      "answer": 2,
+      "explain": "Goodwill in a business combination equals the excess of the purchase price over the fair value of identifiable net assets acquired.",
+      "optionExplanations": [
+        "This reverses the correct calculation; goodwill is purchase price less net identifiable assets at fair value.",
+        "Book value is not the acquisition measurement basis for purchase accounting.",
+        "Correct: goodwill = purchase price - fair value of identifiable net assets acquired.",
+        "Par value of stock is unrelated to goodwill computation."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which statement best defines comprehensive income?",
+      "options": [
+        "Net income only",
+        "Cash flows from operations plus investing",
+        "Net income plus other comprehensive income",
+        "Change in retained earnings plus dividends"
+      ],
+      "answer": 2,
+      "explain": "Comprehensive income includes net income plus other comprehensive income items (e.g., certain unrealized gains/losses).",
+      "optionExplanations": [
+        "Net income is only one component of comprehensive income.",
+        "Cash flow totals are not comprehensive income.",
+        "Correct: comprehensive income combines net income with other comprehensive income items.",
+        "Change in retained earnings includes dividends and other items; it is not the definition of comprehensive income."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "What is the difference between basic EPS and diluted EPS?",
+      "options": [
+        "Basic EPS includes potential shares; diluted EPS does not",
+        "Diluted EPS includes potential dilutive securities",
+        "Basic EPS uses cash flows; diluted EPS uses accruals",
+        "Diluted EPS ignores preferred dividends"
+      ],
+      "answer": 1,
+      "explain": "Diluted EPS reflects the potential dilution from convertible securities, options, and warrants, unlike basic EPS which uses actual common shares outstanding.",
+      "optionExplanations": [
+        "Basic EPS excludes potential shares; it uses actual weighted-average common shares.",
+        "Correct: diluted EPS includes the effect of dilutive potential common shares.",
+        "Both EPS measures are based on accrual net income, not cash flows.",
+        "Preferred dividends are considered when determining income available to common for EPS."
+      ],
+      "source": "official-hq"
+    },
+    {
+      "q": "Which statement reports a company's assets, liabilities, and shareholders' equity at a point in time?",
+      "options": [
+        "Balance sheet",
+        "Income statement",
+        "Statement of cash flows",
+        "Statement of retained earnings"
+      ],
+      "answer": 0,
+      "explain": "The balance sheet (statement of financial position) is a snapshot of assets, liabilities, and equity at a specific date.",
+      "optionExplanations": [
+        "Correct: it reports assets, liabilities, and equity at a point in time.",
+        "The income statement reports revenues and expenses over a period.",
+        "Cash flows reports cash inflows/outflows over a period.",
+        "Retained earnings reports changes in retained earnings over a period."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Under accrual accounting, revenue is generally recognized when it is:",
+      "options": [
+        "Earned and realizable (or realizable and earned)",
+        "Collected in cash",
+        "Billed to the customer",
+        "Matched to dividend payments"
+      ],
+      "answer": 0,
+      "explain": "Accrual accounting recognizes revenue when the earning process is substantially complete and collection is probable, not merely when cash is received.",
+      "optionExplanations": [
+        "Correct: recognition is based on earning and realizability/probable collection.",
+        "Cash collection may occur before or after revenue recognition.",
+        "Billing alone does not determine when revenue is earned.",
+        "Dividends are distributions, not a basis for revenue recognition."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which account is a contra-asset that reduces accounts receivable to its net realizable value?",
+      "options": [
+        "Allowance for doubtful accounts",
+        "Sales returns and allowances",
+        "Unearned revenue",
+        "Accounts payable"
+      ],
+      "answer": 0,
+      "explain": "The allowance for doubtful accounts is a contra-asset used to estimate uncollectible receivables and report receivables at net realizable value.",
+      "optionExplanations": [
+        "Correct: it offsets Accounts Receivable for expected credit losses.",
+        "Sales returns and allowances offsets sales revenue, not receivables directly.",
+        "Unearned revenue is a liability for cash received before earning revenue.",
+        "Accounts payable is a liability to suppliers."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a company declares a cash dividend, which account is credited on the declaration date?",
+      "options": [
+        "Cash",
+        "Dividends payable",
+        "Retained earnings",
+        "Dividend expense"
+      ],
+      "answer": 1,
+      "explain": "At declaration, a liability is created: Dividends Payable is credited (and retained earnings is debited).",
+      "optionExplanations": [
+        "Cash is not credited until payment; cash decreases when the dividend is paid.",
+        "Correct: declaration creates a liability, Dividends Payable.",
+        "Retained earnings is debited, not credited, at declaration.",
+        "Dividends are not an expense under GAAP; they are distributions."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a bond is issued at a premium, the stated (coupon) rate is:",
+      "options": [
+        "Equal to the market rate",
+        "Lower than the market rate",
+        "Higher than the market rate",
+        "Always 0%"
+      ],
+      "answer": 2,
+      "explain": "Investors pay a premium when the bond's coupon rate exceeds the market yield at issuance.",
+      "optionExplanations": [
+        "If rates are equal, the bond sells at par, not a premium.",
+        "If coupon is lower, the bond sells at a discount.",
+        "Correct: higher coupon than market yield leads to a premium price.",
+        "A 0% coupon would not cause a premium by itself."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Under the effective-interest method for a bond issued at a discount, interest expense each period is:",
+      "options": [
+        "Equal to cash interest paid",
+        "Less than cash interest paid",
+        "Greater than cash interest paid",
+        "Always zero until maturity"
+      ],
+      "answer": 2,
+      "explain": "For a discount bond, the carrying value is below face value, but interest expense is computed using the market rate on carrying value, which exceeds the cash interest based on the coupon rate.",
+      "optionExplanations": [
+        "Cash interest equals face value times coupon rate; it is not the same as effective interest expense for a discount bond.",
+        "For a premium bond, interest expense is less than cash interest, not for a discount bond.",
+        "Correct: discount bonds have interest expense greater than cash interest paid.",
+        "Interest expense is recognized each period, not deferred to maturity."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which inventory costing method results in the highest ending inventory during periods of rising prices (all else equal)?",
+      "options": [
+        "FIFO",
+        "LIFO",
+        "Weighted-average",
+        "Specific identification always yields the highest ending inventory"
+      ],
+      "answer": 0,
+      "explain": "With rising costs, FIFO leaves the newest (higher) costs in ending inventory, producing the highest ending inventory compared with LIFO.",
+      "optionExplanations": [
+        "Correct: FIFO retains higher recent costs in ending inventory when prices rise.",
+        "LIFO leaves older (lower) costs in ending inventory during rising prices.",
+        "Weighted-average typically falls between FIFO and LIFO.",
+        "Specific identification depends on which items are sold; it is not guaranteed to be highest."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A correcting entry is needed when a company:",
+      "options": [
+        "Changes an accounting estimate",
+        "Discovers an error in previously issued financial statements",
+        "Adopts a new accounting standard prospectively",
+        "Records a routine adjusting entry"
+      ],
+      "answer": 1,
+      "explain": "Error corrections require correcting entries and (often) restatement, whereas changes in estimates are handled prospectively.",
+      "optionExplanations": [
+        "Changes in estimate are not errors and are handled prospectively.",
+        "Correct: prior-period errors require correction.",
+        "A prospective adoption is not an error correction.",
+        "Adjusting entries are normal end-of-period accruals/deferrals, not necessarily error corrections."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ratio is computed as net income divided by average total assets?",
+      "options": [
+        "Return on assets (ROA)",
+        "Current ratio",
+        "Gross margin",
+        "Times interest earned"
+      ],
+      "answer": 0,
+      "explain": "ROA measures profitability relative to the assets used to generate earnings and is net income divided by average total assets.",
+      "optionExplanations": [
+        "Correct: ROA = net income / average total assets.",
+        "Current ratio = current assets / current liabilities.",
+        "Gross margin = (sales - COGS) / sales.",
+        "Times interest earned = EBIT / interest expense."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following increases operating cash flow under the indirect method?",
+      "options": [
+        "An increase in accounts receivable",
+        "A decrease in accounts payable",
+        "A decrease in inventory",
+        "A gain on sale of equipment"
+      ],
+      "answer": 2,
+      "explain": "A decrease in inventory means less cash was tied up in inventory, which increases operating cash flow under the indirect method.",
+      "optionExplanations": [
+        "An increase in accounts receivable means sales not collected in cash, reducing operating cash flow.",
+        "A decrease in accounts payable means cash paid to suppliers, reducing operating cash flow.",
+        "Correct: lower inventory frees cash and increases operating cash flow.",
+        "A gain is subtracted from net income in operating section because the cash from sale is investing."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a company sells equipment for cash, the cash received is reported in which section of the statement of cash flows?",
+      "options": [
+        "Operating activities",
+        "Investing activities",
+        "Financing activities",
+        "Supplemental disclosure only"
+      ],
+      "answer": 1,
+      "explain": "Cash received from the sale of long-term assets is an investing cash inflow.",
+      "optionExplanations": [
+        "Operating relates to core revenue/expense cash effects.",
+        "Correct: investing includes purchases and sales of long-term assets.",
+        "Financing includes borrowing, repaying debt, and issuing/repurchasing stock.",
+        "Supplemental disclosures are for significant noncash items and interest/taxes paid."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A company issues $100,000 of 10-year bonds at 98. The amount credited to Bonds Payable is:",
+      "options": [
+        "$98,000",
+        "$100,000",
+        "$102,000",
+        "$2,000"
+      ],
+      "answer": 1,
+      "explain": "Bonds Payable is recorded at face value; the discount is recorded separately in a contra-liability account.",
+      "optionExplanations": [
+        "$98,000 is the cash proceeds, not the Bonds Payable face amount.",
+        "Correct: Bonds Payable is credited for the $100,000 face value.",
+        "$102,000 would be a premium issuance, not a discount.",
+        "$2,000 is the discount amount, recorded as a separate debit."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which item would create a deferred tax asset (all else equal)?",
+      "options": [
+        "Tax depreciation greater than book depreciation in early years",
+        "Warranty expense recognized for book before deductible for tax",
+        "Tax-exempt municipal bond interest",
+        "Fines and penalties expensed for book and tax"
+      ],
+      "answer": 1,
+      "explain": "A deferred tax asset arises when book expense is recognized before the related tax deduction (future deductible amount), such as warranty accruals.",
+      "optionExplanations": [
+        "This situation often creates a deferred tax liability because taxes are lower now and higher later.",
+        "Correct: book recognizes warranty expense now; tax deduction occurs when paid, creating a future tax benefit (DTA).",
+        "Tax-exempt interest is a permanent difference, not a deferred tax asset.",
+        "Fines are typically nondeductible, a permanent difference, not a deferred tax asset."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which accounting change is treated prospectively with no prior-period restatement?",
+      "options": [
+        "Change from FIFO to LIFO",
+        "Change in estimated useful life of equipment",
+        "Correction of an error in depreciation",
+        "Change from cost method to equity method for an investment"
+      ],
+      "answer": 1,
+      "explain": "A change in estimate (like useful life) is applied prospectively because it reflects new information rather than a correction or principle change requiring retrospective treatment.",
+      "optionExplanations": [
+        "A change in inventory method is a change in principle, generally handled retrospectively (with certain exceptions).",
+        "Correct: changes in estimates are handled prospectively.",
+        "Errors are corrected by restating prior periods when material.",
+        "Changing investment accounting due to influence can require retrospective adjustment depending on guidance."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which financial statement is most directly used to compute free cash flow?",
+      "options": [
+        "Balance sheet",
+        "Income statement",
+        "Statement of cash flows",
+        "Statement of retained earnings"
+      ],
+      "answer": 2,
+      "explain": "Free cash flow is typically based on cash from operations minus capital expenditures, both derived from the statement of cash flows.",
+      "optionExplanations": [
+        "Balance sheet provides components but not cash flow totals directly.",
+        "Income statement is accrual-based and does not show cash from operations.",
+        "Correct: operating cash flow and capital spending are from the cash flow statement.",
+        "Retained earnings statement does not show cash flows."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In consolidation accounting, a noncontrolling interest represents:",
+      "options": [
+        "The parent's share of subsidiary net assets",
+        "The portion of subsidiary equity not owned by the parent",
+        "Intercompany profit eliminated in consolidation",
+        "Goodwill impairment allocated to the parent"
+      ],
+      "answer": 1,
+      "explain": "Noncontrolling interest is the equity in a subsidiary attributable to shareholders other than the parent.",
+      "optionExplanations": [
+        "Parent's share is controlling interest, not noncontrolling.",
+        "Correct: it is the portion of subsidiary equity not owned by the parent.",
+        "Intercompany profit elimination is a consolidation adjustment, not NCI.",
+        "Goodwill impairment allocation is separate from defining NCI."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which cost is included in the initial measurement of a lease liability under ASC 842/IFRS 16 (in general)?",
+      "options": [
+        "Variable lease payments based on usage",
+        "Lease payments fixed in substance",
+        "Maintenance services provided by the lessor",
+        "Insurance paid to third parties unrelated to lease terms"
+      ],
+      "answer": 1,
+      "explain": "Lease liabilities include fixed (or in-substance fixed) payments and certain other specified payments; purely usage-based variable payments are excluded from initial liability measurement.",
+      "optionExplanations": [
+        "Usage-based variable payments are expensed as incurred and generally excluded from lease liability.",
+        "Correct: fixed or in-substance fixed payments are included in the lease liability.",
+        "Non-lease components like maintenance services are generally separated and not included in the lease liability.",
+        "Unrelated insurance payments are not part of the lease liability calculation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company repurchases its own shares, the most common immediate effect on the balance sheet is to:",
+      "options": [
+        "Increase total assets",
+        "Increase total liabilities",
+        "Decrease total shareholders' equity",
+        "Increase retained earnings"
+      ],
+      "answer": 2,
+      "explain": "Repurchasing shares reduces cash (asset) and increases treasury stock (contra-equity), reducing total equity.",
+      "optionExplanations": [
+        "Assets decrease because cash is paid out, not increase.",
+        "Liabilities are not necessarily affected by a stock repurchase.",
+        "Correct: treasury stock reduces shareholders' equity.",
+        "Retained earnings is not increased by a repurchase; equity decreases overall."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is classified as an extraordinary item under current U.S. GAAP?",
+      "options": [
+        "A discontinued operation",
+        "An unusual and infrequent gain",
+        "None; extraordinary item presentation is not permitted",
+        "A change in accounting estimate"
+      ],
+      "answer": 2,
+      "explain": "U.S. GAAP eliminated the separate presentation of extraordinary items; unusual or infrequent items are disclosed but not labeled extraordinary.",
+      "optionExplanations": [
+        "Discontinued operations are reported separately, but not as extraordinary items.",
+        "Unusual/infrequent items are disclosed but not presented as extraordinary under current GAAP.",
+        "Correct: extraordinary items are not permitted under current U.S. GAAP.",
+        "Changes in estimates are handled prospectively and are not extraordinary."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which method is used to account for investments when the investor has significant influence (but not control) over the investee?",
+      "options": [
+        "Cost method",
+        "Equity method",
+        "Consolidation",
+        "Proportionate consolidation for all industries"
+      ],
+      "answer": 1,
+      "explain": "Significant influence typically leads to equity method accounting, where the investment is adjusted for the investor's share of the investee's earnings and dividends.",
+      "optionExplanations": [
+        "Cost method is used when influence is not significant (or for certain election options).",
+        "Correct: equity method applies for significant influence without control.",
+        "Consolidation applies when the investor controls the investee.",
+        "Proportionate consolidation is not the general method under U.S. GAAP for such investments."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which inventory error causes both net income and ending inventory to be overstated in the current year?",
+      "options": [
+        "Overstating ending inventory",
+        "Understating ending inventory",
+        "Overstating beginning inventory",
+        "Understating purchases"
+      ],
+      "answer": 0,
+      "explain": "Ending inventory enters COGS as (Beg Inv + Purchases - End Inv). If ending inventory is overstated, COGS is understated and net income is overstated; ending inventory itself is also overstated.",
+      "optionExplanations": [
+        "Correct: overstated ending inventory understates COGS and overstates net income and inventory.",
+        "Understated ending inventory overstates COGS and understates net income.",
+        "Overstated beginning inventory overstates COGS and understates net income (but doesn't overstate ending inventory).",
+        "Understated purchases understates COGS but does not necessarily overstate ending inventory."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ratio is most directly used to assess long-term solvency/leverage?",
+      "options": [
+        "Current ratio",
+        "Quick ratio",
+        "Debt-to-equity ratio",
+        "Inventory turnover"
+      ],
+      "answer": 2,
+      "explain": "Debt-to-equity compares total debt to shareholders' equity and is a common leverage/solvency measure.",
+      "optionExplanations": [
+        "Current ratio measures short-term liquidity.",
+        "Quick ratio measures short-term liquidity excluding inventory.",
+        "Correct: debt-to-equity is a leverage ratio for long-term solvency.",
+        "Inventory turnover measures how quickly inventory is sold."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which item is added back to net income in the operating section under the indirect method?",
+      "options": [
+        "Depreciation expense",
+        "Cash paid for dividends",
+        "Purchase of equipment",
+        "Repayment of long-term debt principal"
+      ],
+      "answer": 0,
+      "explain": "Depreciation is a noncash expense that reduced net income but did not use cash, so it is added back under the indirect method.",
+      "optionExplanations": [
+        "Correct: depreciation is noncash and is added back.",
+        "Dividends paid are financing cash outflows, not operating adjustments.",
+        "Equipment purchases are investing cash outflows.",
+        "Debt principal repayments are financing cash outflows."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company has an unrealized gain on available-for-sale debt securities (under legacy GAAP), it is reported in:",
+      "options": [
+        "Net income",
+        "Other comprehensive income",
+        "Retained earnings directly",
+        "Operating cash flow"
+      ],
+      "answer": 1,
+      "explain": "Unrealized gains/losses on AFS debt securities are reported in other comprehensive income (OCI) until realized (legacy classification; newer standards may reclassify categories).",
+      "optionExplanations": [
+        "Trading securities' unrealized gains go to net income, not AFS under legacy GAAP.",
+        "Correct: AFS unrealized gains are reported in OCI (accumulated in equity).",
+        "Retained earnings is not adjusted directly for OCI items; they flow through AOCI.",
+        "Unrealized gains are noncash and not operating cash flow."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a business combination, identifiable intangible assets acquired are generally recorded at:",
+      "options": [
+        "Book value",
+        "Historical cost of the acquiree",
+        "Fair value at acquisition date",
+        "Zero unless legally registered"
+      ],
+      "answer": 2,
+      "explain": "Purchase accounting requires identifiable assets and liabilities, including many intangibles, to be recorded at fair value at the acquisition date.",
+      "optionExplanations": [
+        "Book value is not used for acquisition-date measurement.",
+        "Acquiree historical cost is not used; fair value is used.",
+        "Correct: fair value at acquisition date.",
+        "Many intangibles are recognized even if not legally registered, if identifiable."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would be classified as a financing cash inflow?",
+      "options": [
+        "Issuing common stock for cash",
+        "Collecting accounts receivable",
+        "Selling merchandise for cash",
+        "Receiving interest on a note receivable"
+      ],
+      "answer": 0,
+      "explain": "Issuing equity instruments for cash provides financing to the company and is classified as a financing inflow.",
+      "optionExplanations": [
+        "Correct: issuing common stock is a financing activity.",
+        "Collecting receivables is operating cash inflow.",
+        "Cash from customers for sales is operating inflow.",
+        "Interest received is generally operating under U.S. GAAP."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A bond's carrying value equals face value at maturity because:",
+      "options": [
+        "The market rate becomes zero at maturity",
+        "The premium or discount has been fully amortized",
+        "Cash interest equals interest expense at maturity only",
+        "Bonds payable is remeasured to fair value at maturity"
+      ],
+      "answer": 1,
+      "explain": "Over the bond's life, any premium or discount is amortized to bring the carrying value to face value at maturity, when the face amount is repaid.",
+      "optionExplanations": [
+        "Market rates do not become zero at maturity.",
+        "Correct: amortization eliminates the premium/discount by maturity.",
+        "Cash interest can differ from interest expense throughout; the key is full amortization.",
+        "Bonds payable is not required to be remeasured to fair value at maturity under amortized cost accounting."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about treasury stock under the cost method is correct?",
+      "options": [
+        "Treasury stock is recorded as an asset",
+        "Treasury stock is recorded at par value",
+        "Treasury stock is recorded at repurchase cost as a contra-equity",
+        "Treasury stock increases retained earnings upon repurchase"
+      ],
+      "answer": 2,
+      "explain": "Under the cost method, treasury stock is recorded at the cost paid to repurchase the shares and reported as a contra-equity account.",
+      "optionExplanations": [
+        "Treasury stock is not an asset; it reduces equity.",
+        "Par value is used in the par value method, not the cost method.",
+        "Correct: recorded at repurchase cost as a contra-equity.",
+        "Repurchasing shares does not increase retained earnings."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes a contingent liability that should be accrued?",
+      "options": [
+        "A possible obligation with remote chance of loss",
+        "A probable obligation with a reasonably estimable loss",
+        "A probable obligation with no estimate possible",
+        "A reasonably possible obligation with an estimable loss"
+      ],
+      "answer": 1,
+      "explain": "A contingent loss is accrued when it is probable and the amount can be reasonably estimated; otherwise it is disclosed (if reasonably possible) or ignored (if remote).",
+      "optionExplanations": [
+        "Remote contingencies are generally not accrued or disclosed.",
+        "Correct: probable and reasonably estimable requires accrual.",
+        "If probable but not estimable, disclose but do not accrue.",
+        "Reasonably possible is disclosed, not accrued."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In segment reporting, a company must generally disclose separate segment information when a segment's revenue is at least:",
+      "options": [
+        "1% of combined revenue",
+        "5% of combined revenue",
+        "10% of combined revenue",
+        "25% of combined revenue"
+      ],
+      "answer": 2,
+      "explain": "A common quantitative threshold for reportable segments is 10% for revenue, profit/loss, or assets (with additional tests).",
+      "optionExplanations": [
+        "1% is not the standard threshold for reportable segments.",
+        "5% is not the typical reportable segment threshold under the 10% tests.",
+        "Correct: 10% is the common reportable-segment threshold.",
+        "25% is used in certain concentration and major customer disclosures, not segment identification."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a permanent difference for income taxes?",
+      "options": [
+        "Installment sales for tax but accrual for book",
+        "Tax-exempt interest income",
+        "Warranty accruals",
+        "Depreciation using MACRS for tax and straight-line for book"
+      ],
+      "answer": 1,
+      "explain": "Permanent differences affect book income or taxable income but never reverse in future periods; tax-exempt interest is never taxable.",
+      "optionExplanations": [
+        "Installment vs accrual timing reverses, so it is a temporary difference.",
+        "Correct: tax-exempt interest is excluded from taxable income permanently.",
+        "Warranty accrual reverses when paid/deducted, so it is temporary.",
+        "Different depreciation methods reverse over time, so they are temporary."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If ending inventory is understated in Year 1, what is the effect on Year 2 net income (assuming the error is not corrected)?",
+      "options": [
+        "Year 2 net income is understated",
+        "Year 2 net income is overstated",
+        "Year 2 net income is unaffected",
+        "Year 2 net income is zero"
+      ],
+      "answer": 1,
+      "explain": "An understated ending inventory in Year 1 becomes an understated beginning inventory in Year 2, which understates COGS in Year 2 and overstates net income.",
+      "optionExplanations": [
+        "In Year 2, COGS is understated, so net income is not understated.",
+        "Correct: understated beginning inventory in Year 2 reduces COGS and overstates net income.",
+        "There is an effect; the error reverses across periods.",
+        "Net income is not forced to zero by an inventory error."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which measure best describes earnings before interest and taxes (EBIT)?",
+      "options": [
+        "Net income plus income tax expense",
+        "Operating income (income from operations)",
+        "Gross profit minus interest expense",
+        "Cash flow from operations"
+      ],
+      "answer": 1,
+      "explain": "EBIT is commonly equivalent to operating income (income from operations) before financing (interest) and taxes.",
+      "optionExplanations": [
+        "Net income plus taxes still includes interest and other items; not a standard EBIT definition.",
+        "Correct: EBIT is typically operating income before interest and taxes.",
+        "Gross profit minus interest ignores operating expenses; it is not EBIT.",
+        "Operating cash flow is a cash measure, not EBIT."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which method of cash flow presentation lists major classes of gross cash receipts and gross cash payments?",
+      "options": [
+        "Indirect method",
+        "Direct method",
+        "Equity method",
+        "Cost method"
+      ],
+      "answer": 1,
+      "explain": "The direct method shows cash received from customers, cash paid to suppliers/employees, etc., as gross amounts.",
+      "optionExplanations": [
+        "Indirect method starts with net income and adjusts to operating cash flow.",
+        "Correct: direct method lists gross receipts and payments.",
+        "Equity method is for investments, not cash flow presentation.",
+        "Cost method is for certain investments, not cash flow presentation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Under the allowance method, writing off an uncollectible account receivable:",
+      "options": [
+        "Decreases Accounts Receivable and decreases Allowance for Doubtful Accounts",
+        "Decreases Accounts Receivable and increases Bad Debt Expense",
+        "Increases Cash and decreases Accounts Receivable",
+        "Increases Allowance for Doubtful Accounts and increases Bad Debt Expense"
+      ],
+      "answer": 0,
+      "explain": "A write-off reduces both Accounts Receivable and the Allowance; it does not affect expense at the time of write-off because expense was estimated earlier.",
+      "optionExplanations": [
+        "Correct: debit Allowance, credit Accounts Receivable.",
+        "Bad debt expense is recognized when estimating, not when writing off under allowance method.",
+        "No cash is collected in a write-off.",
+        "The allowance is reduced, not increased, when a specific account is written off."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes the purpose of an impairment test for goodwill (U.S. GAAP conceptually)?",
+      "options": [
+        "To amortize goodwill over its useful life",
+        "To determine whether goodwill's carrying amount exceeds its recoverable amount",
+        "To revalue all assets to fair value each year",
+        "To recognize goodwill as a liability if market rates rise"
+      ],
+      "answer": 1,
+      "explain": "Goodwill is not amortized under U.S. GAAP; instead it is tested for impairment and written down if its carrying amount is not recoverable based on reporting unit value.",
+      "optionExplanations": [
+        "Goodwill is generally not amortized under U.S. GAAP (public companies).",
+        "Correct: impairment testing identifies when goodwill is overstated relative to value.",
+        "Annual full revaluation is not required.",
+        "Goodwill is not a liability and is not tied to interest rates in that way."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would increase diluted EPS relative to basic EPS?",
+      "options": [
+        "Including dilutive options",
+        "Including antidilutive securities",
+        "Excluding potential common shares",
+        "Diluted EPS can never be higher than basic EPS"
+      ],
+      "answer": 1,
+      "explain": "Antidilutive securities are excluded from diluted EPS calculations because including them would increase EPS; diluted EPS includes only dilutive effects.",
+      "optionExplanations": [
+        "Including dilutive options typically decreases EPS, not increase it.",
+        "Correct: if a security is antidilutive, including it would increase EPS, so it is excluded.",
+        "Excluding potential shares would tend to keep EPS at basic levels, not increase diluted relative to basic.",
+        "Diluted EPS can be higher if only antidilutive securities exist, but they are excluded; reported diluted is not higher."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which account is used to record the difference between the fair value and carrying amount of a hedged item for a fair value hedge (conceptually)?",
+      "options": [
+        "Accumulated other comprehensive income",
+        "Gain or loss in earnings",
+        "Retained earnings directly",
+        "Deferred tax expense"
+      ],
+      "answer": 1,
+      "explain": "Fair value hedge accounting generally recognizes changes in fair value of both the derivative and the hedged item in current earnings.",
+      "optionExplanations": [
+        "AOCI is typically associated with cash flow hedges (effective portion), not fair value hedges.",
+        "Correct: fair value hedge changes go to earnings (gain/loss).",
+        "Retained earnings is not directly adjusted for hedge fair value changes.",
+        "Deferred taxes may arise, but they are not the primary account for hedge fair value changes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company uses LIFO and prices are rising, compared with FIFO the company will generally report:",
+      "options": [
+        "Higher net income and higher ending inventory",
+        "Lower net income and lower ending inventory",
+        "Higher net income and lower ending inventory",
+        "Lower net income and higher ending inventory"
+      ],
+      "answer": 1,
+      "explain": "With rising prices, LIFO assigns newer higher costs to COGS, reducing net income and leaving older lower costs in inventory, reducing ending inventory compared with FIFO.",
+      "optionExplanations": [
+        "FIFO would generally yield higher net income and higher inventory under rising prices.",
+        "Correct: LIFO yields lower net income and lower ending inventory in rising price environments.",
+        "LIFO does not increase net income in rising prices.",
+        "LIFO does not produce higher ending inventory than FIFO in rising prices."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is a characteristic of a finance (capital) lease for the lessee (traditional concept)?",
+      "options": [
+        "No asset or liability is recorded",
+        "A right-of-use asset and a lease liability are recognized",
+        "Lease payments are classified only as investing cash outflows",
+        "Only the lessor records the lease"
+      ],
+      "answer": 1,
+      "explain": "A finance lease results in recognizing a right-of-use asset and a corresponding lease liability on the lessee's balance sheet.",
+      "optionExplanations": [
+        "Operating leases under older rules avoided balance sheet recognition; modern rules generally recognize ROU assets/liabilities for most leases.",
+        "Correct: the lessee recognizes an asset and liability.",
+        "Lease payments are typically operating (and interest/financing components may be separated) under U.S. GAAP; not only investing.",
+        "Lessee accounting is required; it is not only the lessor."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a company issues preferred stock, dividends on preferred stock are:",
+      "options": [
+        "An operating expense",
+        "A distribution of equity, not an expense",
+        "Recorded as interest expense",
+        "Always tax-deductible"
+      ],
+      "answer": 1,
+      "explain": "Dividends are distributions to owners and do not reduce net income as expenses do; they reduce retained earnings when declared.",
+      "optionExplanations": [
+        "Dividends are not operating expenses.",
+        "Correct: they are equity distributions, not expenses.",
+        "Interest expense relates to debt, not equity dividends.",
+        "Dividends are generally not tax-deductible to the payer."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes 'par value' of common stock?",
+      "options": [
+        "The market price of a share",
+        "A legal capital amount assigned per share in the charter",
+        "The amount paid-in capital in excess of par",
+        "The liquidation value of common stock"
+      ],
+      "answer": 1,
+      "explain": "Par value is a nominal amount assigned to shares in the corporate charter and is used for legal capital presentation.",
+      "optionExplanations": [
+        "Market price is determined by trading, not par value.",
+        "Correct: par value is the stated legal capital per share.",
+        "Paid-in capital in excess of par is additional paid-in capital, a separate account.",
+        "Liquidation value typically relates to preferred stock terms, not common stock par value."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In a statement of cash flows, issuing bonds for cash is classified as:",
+      "options": [
+        "Operating inflow",
+        "Investing inflow",
+        "Financing inflow",
+        "Operating outflow"
+      ],
+      "answer": 2,
+      "explain": "Borrowing money by issuing bonds increases debt and provides financing cash inflow.",
+      "optionExplanations": [
+        "Operating relates to core business cash flows.",
+        "Investing relates to long-term assets, not borrowing.",
+        "Correct: issuing debt is a financing inflow.",
+        "It is not an outflow; cash increases."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is true about accumulated other comprehensive income (AOCI)?",
+      "options": [
+        "It is an asset account",
+        "It is a component of equity that accumulates OCI items",
+        "It is a liability for unrealized losses",
+        "It replaces retained earnings"
+      ],
+      "answer": 1,
+      "explain": "AOCI is an equity account that accumulates other comprehensive income items that have not been reclassified to net income.",
+      "optionExplanations": [
+        "AOCI is not an asset.",
+        "Correct: it is an equity component accumulating OCI.",
+        "It is not a liability; it is within equity.",
+        "Retained earnings is separate and reflects net income less dividends."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which cost flow assumption best matches the physical flow of many perishable goods?",
+      "options": [
+        "LIFO",
+        "FIFO",
+        "Weighted-average",
+        "Gross profit method"
+      ],
+      "answer": 1,
+      "explain": "Perishable goods are typically sold oldest first to avoid spoilage, which aligns with FIFO as a physical flow assumption.",
+      "optionExplanations": [
+        "LIFO assumes newest sold first, which is less consistent with perishables.",
+        "Correct: FIFO aligns with selling oldest inventory first.",
+        "Weighted-average is a costing method, not a physical flow assumption match.",
+        "Gross profit method is an estimation technique, not a cost flow assumption."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Under the equity method, which entry is made when the investee pays a dividend to the investor?",
+      "options": [
+        "Debit Cash; credit Dividend Revenue",
+        "Debit Cash; credit Investment in Investee",
+        "Debit Investment in Investee; credit Cash",
+        "Debit Retained Earnings; credit Cash"
+      ],
+      "answer": 1,
+      "explain": "Dividends received are treated as a return of investment under the equity method, reducing the investment carrying amount.",
+      "optionExplanations": [
+        "Dividend revenue recognition is typical under the cost method, not equity method.",
+        "Correct: cash increases and the investment account decreases.",
+        "This entry would reduce cash, which is incorrect when receiving dividends.",
+        "Retained earnings is not directly affected by receiving a dividend."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would be included in 'cash and cash equivalents'?",
+      "options": [
+        "A 2-year certificate of deposit",
+        "A 60-day Treasury bill purchased 10 days before year-end",
+        "Accounts receivable",
+        "Inventory held for sale"
+      ],
+      "answer": 1,
+      "explain": "Cash equivalents are short-term, highly liquid investments with original maturities of three months or less; a 60-day T-bill qualifies.",
+      "optionExplanations": [
+        "A 2-year CD is not a cash equivalent due to long maturity.",
+        "Correct: a short-term Treasury bill with short original maturity is a cash equivalent.",
+        "Accounts receivable are not cash equivalents.",
+        "Inventory is not cash or a cash equivalent."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ratio is computed as (net sales - cost of goods sold) / net sales?",
+      "options": [
+        "Gross margin percentage",
+        "Net profit margin",
+        "Asset turnover",
+        "Current ratio"
+      ],
+      "answer": 0,
+      "explain": "Gross margin percentage measures the portion of sales remaining after COGS and is gross profit divided by net sales.",
+      "optionExplanations": [
+        "Correct: gross margin = (sales - COGS) / sales.",
+        "Net profit margin uses net income / sales.",
+        "Asset turnover uses sales / average assets.",
+        "Current ratio uses current assets / current liabilities."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a noncash investing and financing activity that must be disclosed?",
+      "options": [
+        "Paying cash dividends",
+        "Purchasing equipment by issuing a note payable",
+        "Collecting interest on bonds",
+        "Selling inventory for cash"
+      ],
+      "answer": 1,
+      "explain": "Acquiring an asset by incurring a debt (note payable) is a significant noncash transaction disclosed separately from the main cash flow sections.",
+      "optionExplanations": [
+        "Paying dividends is a cash financing outflow, not noncash.",
+        "Correct: issuing a note to acquire equipment is noncash investing/financing.",
+        "Interest collected is cash, typically operating.",
+        "Selling inventory for cash is cash operating inflow."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would decrease retained earnings?",
+      "options": [
+        "Issuing common stock at a premium",
+        "Declaring a cash dividend",
+        "Recording net income",
+        "Recording other comprehensive income gains"
+      ],
+      "answer": 1,
+      "explain": "Cash dividends reduce retained earnings when declared because they are distributions of earnings to shareholders.",
+      "optionExplanations": [
+        "Issuing stock increases contributed capital, not retained earnings.",
+        "Correct: dividends decrease retained earnings.",
+        "Net income increases retained earnings through closing entries.",
+        "OCI generally accumulates in AOCI, not retained earnings (unless reclassified)."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement is true about interest paid under U.S. GAAP cash flow classification?",
+      "options": [
+        "Always investing",
+        "Always financing",
+        "Generally operating",
+        "Never reported on the statement of cash flows"
+      ],
+      "answer": 2,
+      "explain": "Under U.S. GAAP, interest paid is generally classified as an operating cash outflow (IFRS allows alternatives).",
+      "optionExplanations": [
+        "Investing relates to asset transactions, not interest paid on debt.",
+        "Financing relates to principal and equity/debt issuance, but GAAP generally treats interest paid as operating.",
+        "Correct: interest paid is generally operating under U.S. GAAP.",
+        "Interest paid is reported in the statement of cash flows (often as supplemental disclosure)."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes 'comprehensive income'?",
+      "options": [
+        "Net income only",
+        "Net income plus other comprehensive income",
+        "Cash from operations plus cash from investing",
+        "Total change in cash during the period"
+      ],
+      "answer": 1,
+      "explain": "Comprehensive income includes all changes in equity from nonowner sources: net income plus OCI items.",
+      "optionExplanations": [
+        "Net income is only one component.",
+        "Correct: comprehensive income = net income + OCI.",
+        "Cash flow totals are not comprehensive income.",
+        "Change in cash is reported on the cash flow statement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is typically considered a current liability?",
+      "options": [
+        "Bonds payable due in 10 years",
+        "Accounts payable",
+        "Common stock",
+        "Land"
+      ],
+      "answer": 1,
+      "explain": "Accounts payable is generally due within the operating cycle or within one year, so it is a current liability.",
+      "optionExplanations": [
+        "Long-term bonds are not current unless due within one year.",
+        "Correct: accounts payable is a current liability.",
+        "Common stock is equity, not a liability.",
+        "Land is a long-term asset."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company records depreciation expense, which accounts are typically affected?",
+      "options": [
+        "Debit Depreciation Expense; credit Accumulated Depreciation",
+        "Debit Accumulated Depreciation; credit Depreciation Expense",
+        "Debit Cash; credit Depreciation Expense",
+        "Debit Equipment; credit Accumulated Depreciation"
+      ],
+      "answer": 0,
+      "explain": "Depreciation is recorded by debiting Depreciation Expense and crediting Accumulated Depreciation (a contra-asset).",
+      "optionExplanations": [
+        "Correct: this records noncash expense and increases contra-asset.",
+        "This reverses the correct entry.",
+        "Depreciation does not directly affect cash.",
+        "Equipment is not increased by depreciation."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which ratio uses average inventory in the denominator?",
+      "options": [
+        "Inventory turnover",
+        "Current ratio",
+        "Debt-to-equity",
+        "Return on equity"
+      ],
+      "answer": 0,
+      "explain": "Inventory turnover is commonly computed as COGS divided by average inventory.",
+      "optionExplanations": [
+        "Correct: inventory turnover uses average inventory.",
+        "Current ratio uses current liabilities in denominator.",
+        "Debt-to-equity uses equity in denominator.",
+        "ROE uses average equity in denominator."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "A gain on the sale of equipment is reported on the income statement because:",
+      "options": [
+        "It increases cash from investing",
+        "It represents the difference between proceeds and book value",
+        "It is recorded directly in retained earnings",
+        "It is always operating revenue"
+      ],
+      "answer": 1,
+      "explain": "A gain equals sale proceeds minus the asset's carrying (book) value and is recognized in income even though the related cash flow is investing.",
+      "optionExplanations": [
+        "Cash flow classification does not determine whether a gain is recognized in income.",
+        "Correct: gain is proceeds minus book value.",
+        "Gains flow through net income, not directly to retained earnings.",
+        "Gains are typically nonoperating, not operating revenue."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following securities would be included in diluted EPS if it is dilutive?",
+      "options": [
+        "Convertible preferred stock",
+        "Treasury stock already repurchased",
+        "Unissued authorized shares",
+        "Shares held by an employee but not vested"
+      ],
+      "answer": 0,
+      "explain": "Convertible preferred stock can increase the number of common shares upon conversion; if dilutive, it is included in diluted EPS.",
+      "optionExplanations": [
+        "Correct: convertible preferred can create additional common shares upon conversion.",
+        "Treasury stock is already issued and repurchased; it is not a potential common share.",
+        "Authorized but unissued shares are not included unless tied to options/convertibles.",
+        "Unvested shares may be treated under specific guidance, but the classic dilutive securities are convertibles and options."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which method is commonly used to estimate ending inventory when a physical count is not feasible and gross margin is stable?",
+      "options": [
+        "Retail inventory method",
+        "Gross profit method",
+        "LIFO liquidation method",
+        "Effective-interest method"
+      ],
+      "answer": 1,
+      "explain": "The gross profit method estimates ending inventory using an assumed gross margin to estimate cost of goods sold, then backs into ending inventory.",
+      "optionExplanations": [
+        "Retail method uses retail-to-cost ratios; it is different from gross profit estimation.",
+        "Correct: gross profit method uses gross margin to estimate COGS and ending inventory.",
+        "LIFO liquidation is not an estimation method for inventory counts.",
+        "Effective-interest method applies to bonds."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is required for revenue recognition under the core ASC 606 framework?",
+      "options": [
+        "A signed invoice is always required",
+        "A contract with a customer and performance obligations",
+        "Cash collection before delivery",
+        "A fixed price with no variability"
+      ],
+      "answer": 1,
+      "explain": "ASC 606 focuses on identifying a contract and performance obligations and recognizing revenue when control transfers; invoices and cash timing are not always required.",
+      "optionExplanations": [
+        "Invoices may support evidence of a contract but are not always required.",
+        "Correct: contract identification and performance obligations are required steps.",
+        "Cash collection before delivery is not required under accrual accounting.",
+        "Variable consideration is allowed subject to constraints; fixed price is not required."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company recognizes warranty obligations at the time of sale, the typical entry includes:",
+      "options": [
+        "Debit Warranty Expense; credit Estimated Warranty Liability",
+        "Debit Estimated Warranty Liability; credit Warranty Expense",
+        "Debit Cash; credit Warranty Revenue",
+        "Debit Sales Returns; credit Cash"
+      ],
+      "answer": 0,
+      "explain": "Expected warranty costs are accrued when the related revenue is recognized: warranty expense is recorded and a liability is set up for expected claims.",
+      "optionExplanations": [
+        "Correct: accrue expected warranty cost as expense and liability.",
+        "This reverses the correct accrual.",
+        "Warranty revenue is not a typical separate revenue account for standard assurance-type warranties.",
+        "Sales returns relate to returned goods, not warranty obligations."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes the 'quick ratio'?",
+      "options": [
+        "Current assets divided by current liabilities",
+        "(Cash + marketable securities + receivables) divided by current liabilities",
+        "Net income divided by average equity",
+        "EBIT divided by interest expense"
+      ],
+      "answer": 1,
+      "explain": "The quick ratio (acid-test) measures liquidity using the most liquid assets: cash, short-term investments, and receivables, divided by current liabilities.",
+      "optionExplanations": [
+        "This is the current ratio, not the quick ratio.",
+        "Correct: quick ratio excludes inventory and other less liquid current assets.",
+        "This is return on equity.",
+        "This is times interest earned."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which statement about LIFO reserve is correct?",
+      "options": [
+        "It is the difference between FIFO and LIFO cost of goods sold",
+        "It equals FIFO inventory minus LIFO inventory",
+        "It is recorded as a liability under LIFO",
+        "It never changes over time"
+      ],
+      "answer": 1,
+      "explain": "The LIFO reserve is a disclosure that reconciles FIFO and LIFO inventory: LIFO reserve = FIFO inventory - LIFO inventory.",
+      "optionExplanations": [
+        "The reserve is based on inventory difference, not directly COGS difference (though related).",
+        "Correct: it is FIFO inventory minus LIFO inventory.",
+        "It is not recorded as a liability; it is a disclosure and can be reflected in inventory/COGS computations.",
+        "It can change as prices and inventory levels change."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Under U.S. GAAP, which approach is commonly used to value property, plant, and equipment after acquisition?",
+      "options": [
+        "Always fair value revaluation each period",
+        "Historical cost less accumulated depreciation and impairment",
+        "Lower of cost or market for all PPE",
+        "Replacement cost is required"
+      ],
+      "answer": 1,
+      "explain": "PPE is generally carried at historical cost and then reduced by accumulated depreciation and any impairment losses (no general revaluation model under U.S. GAAP).",
+      "optionExplanations": [
+        "U.S. GAAP does not generally permit upward revaluation of PPE to fair value.",
+        "Correct: cost model (cost minus depreciation/impairment).",
+        "Lower of cost or market applies to inventory, not PPE broadly.",
+        "Replacement cost is not the required measurement basis for PPE."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is true about the effective-interest method for amortizing a bond premium?",
+      "options": [
+        "Interest expense is greater than cash interest",
+        "Interest expense is less than cash interest",
+        "The carrying value increases over time",
+        "Premium amortization increases the carrying value"
+      ],
+      "answer": 1,
+      "explain": "For a premium bond, the coupon rate exceeds the market rate, so cash interest exceeds effective interest expense; the premium is amortized to reduce carrying value toward face.",
+      "optionExplanations": [
+        "This is true for a discount bond, not a premium bond.",
+        "Correct: premium bonds have interest expense less than cash interest.",
+        "For a premium bond, carrying value decreases toward face, not increases.",
+        "Amortizing a premium decreases (not increases) the carrying value."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would be classified as an operating cash outflow?",
+      "options": [
+        "Payment of accounts payable to suppliers",
+        "Purchase of a building",
+        "Repayment of bond principal",
+        "Issuance of common stock"
+      ],
+      "answer": 0,
+      "explain": "Paying suppliers to settle accounts payable relates to operating activities because it arises from day-to-day operations.",
+      "optionExplanations": [
+        "Correct: paying suppliers is operating.",
+        "Buying a building is investing.",
+        "Repaying principal is financing.",
+        "Issuing stock is financing inflow, not an outflow."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of an adjusting entry at period end?",
+      "options": [
+        "Recording the issuance of stock for cash",
+        "Accruing interest expense on a note payable",
+        "Recording the purchase of equipment for cash",
+        "Recording a stock split memorandum"
+      ],
+      "answer": 1,
+      "explain": "Adjusting entries record accruals and deferrals to match revenues and expenses to the correct period, such as interest accrued but not yet paid.",
+      "optionExplanations": [
+        "Issuing stock is a transactional entry, not an adjusting entry.",
+        "Correct: accrued interest is a classic adjusting entry.",
+        "Purchasing equipment is a transactional entry.",
+        "A stock split is typically a memo entry, not an adjusting accrual/deferral."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When a company records amortization of a patent, the entry is most similar to:",
+      "options": [
+        "Debit Patent; credit Cash",
+        "Debit Amortization Expense; credit Accumulated Amortization",
+        "Debit Accumulated Amortization; credit Amortization Expense",
+        "Debit Cash; credit Amortization Revenue"
+      ],
+      "answer": 1,
+      "explain": "Amortization of intangible assets is recorded like depreciation: expense is debited and accumulated amortization (contra-asset) is credited.",
+      "optionExplanations": [
+        "Amortization does not increase the patent asset or credit cash.",
+        "Correct: debit expense, credit accumulated amortization.",
+        "This reverses the correct entry.",
+        "There is no amortization revenue."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes 'times interest earned'?",
+      "options": [
+        "Net income divided by interest expense",
+        "EBIT divided by interest expense",
+        "Interest expense divided by EBIT",
+        "Cash interest paid divided by total debt"
+      ],
+      "answer": 1,
+      "explain": "Times interest earned measures ability to cover interest using operating earnings: EBIT / interest expense.",
+      "optionExplanations": [
+        "Net income is after interest and taxes, so it is not the standard numerator.",
+        "Correct: EBIT divided by interest expense.",
+        "This is the inverse of the standard ratio.",
+        "Not a standard definition of times interest earned."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company classifies a long-term note payable as current, it should do so when:",
+      "options": [
+        "The note was issued to a bank",
+        "The note is due within one year (or operating cycle) from the balance sheet date",
+        "The interest rate is variable",
+        "The note is secured by collateral"
+      ],
+      "answer": 1,
+      "explain": "Classification depends on maturity: obligations due within one year (or operating cycle) are current liabilities.",
+      "optionExplanations": [
+        "Issuer/holder type does not determine current vs long-term.",
+        "Correct: due within one year/operating cycle is current.",
+        "Interest rate type does not determine classification.",
+        "Collateral does not determine current vs long-term classification."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes a 'noncash charge' often added back in the indirect method?",
+      "options": [
+        "Depreciation",
+        "Accounts receivable",
+        "Sales revenue",
+        "Cash dividends paid"
+      ],
+      "answer": 0,
+      "explain": "Depreciation reduces net income but does not use cash, so it is a noncash charge added back in the operating section under the indirect method.",
+      "optionExplanations": [
+        "Correct: depreciation is a noncash expense.",
+        "Accounts receivable is a working-capital balance; changes affect cash flow but it is not a noncash 'charge' itself.",
+        "Sales revenue is not a charge; it increases net income.",
+        "Dividends paid are cash flows, not noncash charges."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following events would typically increase a deferred tax liability?",
+      "options": [
+        "Recognizing revenue for tax before book (e.g., certain advance payments)",
+        "Recognizing an expense for tax before book",
+        "Tax-exempt income",
+        "A permanent nondeductible expense"
+      ],
+      "answer": 0,
+      "explain": "A deferred tax liability arises when taxable income is lower now (or revenue is recognized earlier for tax) leading to higher taxable income later when the difference reverses.",
+      "optionExplanations": [
+        "Correct: tax revenue recognized earlier can create future taxable amounts (DTL).",
+        "Tax expense recognized earlier can create a deferred tax asset, not liability.",
+        "Tax-exempt income is permanent and does not create deferred taxes.",
+        "Permanent differences do not create deferred taxes."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "In consolidations, why are intercompany sales eliminated?",
+      "options": [
+        "To increase consolidated revenue",
+        "To avoid double-counting revenue and profit within the consolidated entity",
+        "To recognize goodwill",
+        "To convert LIFO to FIFO"
+      ],
+      "answer": 1,
+      "explain": "Intercompany transactions are internal to the group; eliminating them prevents overstating consolidated revenue, expenses, and profit.",
+      "optionExplanations": [
+        "Eliminations reduce, not increase, consolidated revenue.",
+        "Correct: they prevent double-counting internal transactions and unrealized profit.",
+        "Goodwill is addressed at acquisition, not by eliminating intercompany sales.",
+        "Inventory method conversion is unrelated to intercompany elimination."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is a key difference between a stock dividend and a cash dividend?",
+      "options": [
+        "Stock dividends decrease total shareholders' equity",
+        "Cash dividends reduce assets and equity; stock dividends reclassify equity",
+        "Cash dividends increase paid-in capital",
+        "Stock dividends create a liability on payment date only"
+      ],
+      "answer": 1,
+      "explain": "Cash dividends reduce cash (assets) and retained earnings (equity). Stock dividends transfer amounts within equity (retained earnings to paid-in capital) without reducing total equity.",
+      "optionExplanations": [
+        "Stock dividends generally do not decrease total equity; they reclassify within equity.",
+        "Correct: cash dividends reduce assets and equity; stock dividends reclassify within equity.",
+        "Cash dividends do not increase paid-in capital; they reduce retained earnings.",
+        "Stock dividends are recorded at declaration; the key is equity reclassification, not a payment-date liability concept like cash dividends."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following best describes an 'accounting estimate'?",
+      "options": [
+        "A correction of a prior-period error",
+        "A management judgment about future outcomes, such as bad debt percentage",
+        "A change from FIFO to LIFO",
+        "A restatement of prior financials"
+      ],
+      "answer": 1,
+      "explain": "Accounting estimates involve management judgment about uncertain future events (e.g., uncollectibles, warranty costs, useful lives) and are updated as new information arises.",
+      "optionExplanations": [
+        "Error corrections are not estimates.",
+        "Correct: estimates reflect judgment about uncertain outcomes.",
+        "Changing inventory methods is a change in accounting principle.",
+        "Restatements relate to errors or retrospective changes, not routine estimate updates."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which is the correct formula for working capital?",
+      "options": [
+        "Current assets - current liabilities",
+        "Total assets - total liabilities",
+        "Current liabilities - current assets",
+        "Cash + receivables - inventory"
+      ],
+      "answer": 0,
+      "explain": "Working capital measures short-term liquidity and equals current assets minus current liabilities.",
+      "optionExplanations": [
+        "Correct: working capital = current assets - current liabilities.",
+        "Total assets - total liabilities equals total equity, not working capital.",
+        "This is the negative of working capital.",
+        "This excludes other current assets and does not subtract current liabilities."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which item is typically excluded from the quick ratio numerator?",
+      "options": [
+        "Cash",
+        "Accounts receivable",
+        "Inventory",
+        "Short-term investments"
+      ],
+      "answer": 2,
+      "explain": "The quick ratio excludes inventory because it is generally less liquid and may not be readily convertible to cash at stated amounts.",
+      "optionExplanations": [
+        "Cash is included because it is the most liquid asset.",
+        "Accounts receivable is included as a near-cash asset (net of allowance).",
+        "Correct: inventory is excluded from quick assets.",
+        "Short-term marketable securities are included."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Under the lower of cost or net realizable value rule (LCNRV), inventory is written down when:",
+      "options": [
+        "NRV exceeds cost",
+        "NRV is less than cost",
+        "Selling price increases",
+        "COGS decreases"
+      ],
+      "answer": 1,
+      "explain": "LCNRV requires inventory to be reported at the lower of its cost or net realizable value (estimated selling price less completion/disposal costs).",
+      "optionExplanations": [
+        "If NRV exceeds cost, no write-down is needed.",
+        "Correct: write down when NRV < cost.",
+        "Higher selling price can increase NRV, which would not cause a write-down.",
+        "COGS changes are not the trigger; NRV vs cost is."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is most likely to be disclosed as a subsequent event requiring adjustment?",
+      "options": [
+        "A major acquisition after year-end",
+        "Settlement of a lawsuit for an amount different from the year-end estimate when the conditions existed at year-end",
+        "Issuing stock after year-end",
+        "A natural disaster after year-end in a new location"
+      ],
+      "answer": 1,
+      "explain": "Adjusting subsequent events provide additional evidence about conditions that existed at the balance sheet date, such as a lawsuit outcome that confirms the liability amount.",
+      "optionExplanations": [
+        "Acquisitions after year-end are typically nonadjusting but disclosed.",
+        "Correct: it provides evidence about a year-end condition and requires adjustment.",
+        "Issuing stock after year-end is typically nonadjusting but disclosed.",
+        "A disaster occurring after year-end in a new location is typically nonadjusting."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is true about the statement of retained earnings?",
+      "options": [
+        "It reports cash inflows and outflows",
+        "It reconciles beginning retained earnings to ending retained earnings",
+        "It is prepared only for nonprofit entities",
+        "It replaces the income statement"
+      ],
+      "answer": 1,
+      "explain": "The statement of retained earnings shows how retained earnings change during a period: beginning RE + net income - dividends +/- adjustments = ending RE.",
+      "optionExplanations": [
+        "Cash flows are shown on the statement of cash flows.",
+        "Correct: it bridges beginning and ending retained earnings.",
+        "Both for-profit and some other entities may present similar equity statements.",
+        "It supplements, not replaces, the income statement."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "If a company reports a loss from discontinued operations, it is presented:",
+      "options": [
+        "As part of operating income",
+        "Net of tax, separately from continuing operations",
+        "Only in OCI",
+        "Only in the statement of cash flows"
+      ],
+      "answer": 1,
+      "explain": "Discontinued operations are reported separately from continuing operations, net of tax, to help users assess ongoing performance.",
+      "optionExplanations": [
+        "Discontinued operations are separated from continuing operations.",
+        "Correct: presented net of tax and separately from continuing operations.",
+        "OCI is for certain unrealized items, not discontinued operations.",
+        "Cash flows for discontinued operations may be disclosed, but income statement presentation is required."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would increase the current ratio (all else equal)?",
+      "options": [
+        "Paying a current liability with cash",
+        "Purchasing inventory with cash",
+        "Taking on additional accounts payable to buy inventory",
+        "Recording depreciation expense"
+      ],
+      "answer": 0,
+      "explain": "Paying a current liability with cash reduces both current assets and current liabilities by the same amount, which increases the current ratio when the current ratio is greater than 1.",
+      "optionExplanations": [
+        "Correct: reducing current liabilities using current assets can increase the ratio (when CA > CL).",
+        "This swaps one current asset (cash) for another (inventory), often leaving the ratio similar.",
+        "Increasing accounts payable increases current liabilities, typically decreasing the ratio.",
+        "Depreciation affects noncurrent assets and net income, not current ratio directly."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is generally included in the denominator of basic EPS?",
+      "options": [
+        "Weighted-average common shares outstanding",
+        "Ending common shares outstanding only",
+        "Total shares authorized",
+        "Preferred shares outstanding"
+      ],
+      "answer": 0,
+      "explain": "Basic EPS uses net income available to common shareholders divided by the weighted-average number of common shares outstanding during the period.",
+      "optionExplanations": [
+        "Correct: weighted-average shares reflect changes in shares during the period.",
+        "Ending shares ignores share changes during the year.",
+        "Authorized shares are not issued and do not affect EPS.",
+        "Preferred shares are not common shares and are not in the basic EPS denominator."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "When calculating net income available to common shareholders for EPS, a company generally subtracts:",
+      "options": [
+        "Common stock dividends declared",
+        "Preferred stock dividends (whether declared or cumulative requirement)",
+        "Treasury stock purchases",
+        "Interest expense"
+      ],
+      "answer": 1,
+      "explain": "EPS for common shareholders is based on income after subtracting preferred dividends because those earnings are not available to common shareholders.",
+      "optionExplanations": [
+        "Common dividends are distributions to common shareholders and do not reduce income available to them for EPS.",
+        "Correct: preferred dividends are subtracted to get income available to common.",
+        "Treasury stock purchases are equity transactions, not part of net income available for EPS.",
+        "Interest expense is already included in net income."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following would be classified as a long-term asset?",
+      "options": [
+        "Prepaid insurance expiring next month",
+        "Accounts receivable",
+        "Land held for use in operations",
+        "Accounts payable"
+      ],
+      "answer": 2,
+      "explain": "Land used in operations is a noncurrent (long-term) asset because it provides benefits over many periods.",
+      "optionExplanations": [
+        "Short-term prepaid insurance is a current asset.",
+        "Accounts receivable is typically a current asset.",
+        "Correct: land is a long-term asset.",
+        "Accounts payable is a liability."
+      ],
+      "source": "generated-bespoke"
+    },
+    {
+      "q": "Which of the following is an example of a complex accounting area often tested in advanced accounting?",
+      "options": [
+        "Counting cash in a register",
+        "Preparing a simple invoice",
+        "Accounting for pensions and other postretirement benefits",
+        "Recording daily sales in a cash journal"
+      ],
+      "answer": 2,
+      "explain": "Advanced accounting commonly includes complex topics such as pensions, consolidations, leases, and income taxes beyond routine bookkeeping tasks.",
+      "optionExplanations": [
+        "Cash counts are basic accounting procedures.",
+        "Invoices are basic sales documentation.",
+        "Correct: pension accounting is a complex advanced topic.",
+        "Daily cash journal entries are basic bookkeeping."
+      ],
+      "source": "generated-bespoke"
+    }
+  ]
+}
