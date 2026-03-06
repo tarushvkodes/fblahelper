@@ -1105,6 +1105,17 @@ function renderPrep(eventName) {
 function bindUi() {
   eventSearchEl.addEventListener("input", renderEventList);
 
+  /* Mobile rail toggle */
+  const railToggle = document.getElementById("railToggle");
+  const eventRailEl = document.getElementById("eventRail");
+  if (railToggle && eventRailEl) {
+    eventRailEl.classList.add("collapsed");
+    railToggle.addEventListener("click", () => {
+      eventRailEl.classList.toggle("collapsed");
+      railToggle.classList.toggle("open");
+    });
+  }
+
   wsTabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       if (!state.currentEvent && tab.dataset.wsTab !== "overview") return;
