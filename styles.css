@@ -888,6 +888,8 @@ button.btn-outline:hover {
 
 .rp-subtab:hover {
   color: var(--ink);
+  background: none;
+  box-shadow: none;
 }
 
 .rp-subtab.active {
