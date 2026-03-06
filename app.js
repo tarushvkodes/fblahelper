@@ -14,7 +14,7 @@ const EVENTS = [
   "Parliamentary Procedure Individual", "Parliamentary Procedure Team", "Personal Finance", "Project Management",
   "Public Administration & Management", "Public Service Announcement", "Public Speaking", "Real Estate", "Retail Management",
   "Sales Presentation", "Securities & Investments", "Social Media Strategies", "Sports & Entertainment Management",
-  "Supply Chain Management", "Technology Support & Services", "Visual Design", "Website Coding & Development"
+  "Supply Chain Management", "Technology Support & Services", "Visual Design", "Website Coding & Development", "Website Design"
 ];
 
 const RESOURCE_DATA = window.RESOURCE_INTERACTIVE_DATA || { objectiveQuizzes: {}, roleplayScenarios: [], productionTests: {} };
