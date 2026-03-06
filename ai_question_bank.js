@@ -30760,10 +30760,3054 @@ window.AI_QUESTION_BANK = {
         "source": "generated-bespoke"
       }
     ]
+,
+    "Business Plan": [
+      {
+        "q": "What is the primary purpose of an executive summary in a business plan?",
+        "options": [
+          "To list all employees",
+          "To provide a concise overview of the entire business plan",
+          "To detail the manufacturing process",
+          "To present historical financial data"
+        ],
+        "answer": 1,
+        "explain": "The executive summary provides a brief, compelling overview of the key points in the entire business plan, designed to capture reader interest.",
+        "optionExplanations": [
+          "Employee listings belong in the management section, not the executive summary.",
+          "Correct: The executive summary is a concise snapshot of the full plan's highlights.",
+          "Manufacturing details appear in the operations section.",
+          "Historical financials are part of the financial section, not the executive summary."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which section of a business plan typically includes a SWOT analysis?",
+        "options": [
+          "Financial projections",
+          "Company description",
+          "Market analysis",
+          "Appendix"
+        ],
+        "answer": 2,
+        "explain": "A SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is commonly found in the market analysis section to evaluate competitive positioning.",
+        "optionExplanations": [
+          "Financial projections focus on revenue and expenses, not competitive analysis.",
+          "Company description gives an overview of the business, not a strategic analysis.",
+          "Correct: Market analysis evaluates the competitive landscape using tools like SWOT.",
+          "The appendix contains supplementary documents, not core analysis."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a break-even analysis used for in a business plan?",
+        "options": [
+          "Determining the point where total revenue equals total costs",
+          "Calculating employee benefits",
+          "Projecting market share growth",
+          "Evaluating customer satisfaction"
+        ],
+        "answer": 0,
+        "explain": "Break-even analysis identifies the sales volume at which a business covers all its costs, meaning revenue equals expenses with zero profit or loss.",
+        "optionExplanations": [
+          "Correct: Break-even is the point where revenue exactly covers all costs.",
+          "Employee benefits are part of HR planning, not break-even analysis.",
+          "Market share projections are part of marketing strategy, not break-even.",
+          "Customer satisfaction is measured through surveys, not break-even analysis."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which financial statement shows a company's assets, liabilities, and equity at a specific point in time?",
+        "options": [
+          "Income statement",
+          "Cash flow statement",
+          "Balance sheet",
+          "Statement of retained earnings"
+        ],
+        "answer": 2,
+        "explain": "The balance sheet provides a snapshot of a company's financial position at a specific date, showing assets, liabilities, and owner's equity.",
+        "optionExplanations": [
+          "The income statement shows revenue and expenses over a period.",
+          "The cash flow statement tracks cash inflows and outflows over a period.",
+          "Correct: The balance sheet is a point-in-time snapshot of financial position.",
+          "The statement of retained earnings tracks changes in retained earnings."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What does a target market description in a business plan identify?",
+        "options": [
+          "All possible customers worldwide",
+          "The specific group of consumers most likely to buy the product or service",
+          "Only competitors in the industry",
+          "Government regulations affecting the business"
+        ],
+        "answer": 1,
+        "explain": "A target market description defines the specific demographic, geographic, and psychographic characteristics of the ideal customer segment.",
+        "optionExplanations": [
+          "Targeting all customers worldwide is unrealistic and unfocused.",
+          "Correct: Target market identifies the specific customer segment most likely to purchase.",
+          "Competitor analysis is separate from target market identification.",
+          "Regulatory analysis is part of the legal/environmental scan, not target market."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a competitive analysis in a business plan?",
+        "options": [
+          "To copy competitors' strategies exactly",
+          "To identify competitors' strengths and weaknesses relative to your business",
+          "To list all businesses in your city",
+          "To calculate your tax obligations"
+        ],
+        "answer": 1,
+        "explain": "Competitive analysis evaluates direct and indirect competitors to understand their strengths, weaknesses, and how your business can differentiate itself.",
+        "optionExplanations": [
+          "Copying competitors defeats the purpose of strategic differentiation.",
+          "Correct: Competitive analysis identifies how rivals operate and where opportunities exist.",
+          "Listing all local businesses is not strategic competitive analysis.",
+          "Tax calculations are part of financial planning, not competitive analysis."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which of the following best describes a value proposition?",
+        "options": [
+          "The price of the product",
+          "A statement explaining why a customer should choose your product over competitors",
+          "The company's mission statement",
+          "A list of product features"
+        ],
+        "answer": 1,
+        "explain": "A value proposition clearly communicates the unique benefit a product or service provides and why it is better than alternatives.",
+        "optionExplanations": [
+          "Price alone does not convey the full value proposition.",
+          "Correct: A value proposition explains the unique benefit and competitive advantage.",
+          "A mission statement describes the company's purpose, not specific product value.",
+          "Feature lists don't communicate the benefit to the customer."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What type of business structure provides personal liability protection to its owners?",
+        "options": [
+          "Sole proprietorship",
+          "General partnership",
+          "Limited liability company (LLC)",
+          "Informal business"
+        ],
+        "answer": 2,
+        "explain": "An LLC provides personal liability protection, separating the owner's personal assets from business debts and obligations.",
+        "optionExplanations": [
+          "Sole proprietors have unlimited personal liability for business debts.",
+          "General partners share unlimited personal liability.",
+          "Correct: LLCs protect owners' personal assets from business liabilities.",
+          "Informal businesses have no legal structure or protection."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a pro forma financial statement?",
+        "options": [
+          "A historical accounting record",
+          "A projected or forecasted financial statement",
+          "A tax filing document",
+          "An employee payroll report"
+        ],
+        "answer": 1,
+        "explain": "Pro forma financial statements are projected statements that forecast future financial performance based on assumptions and planned activities.",
+        "optionExplanations": [
+          "Historical records show past performance, not projections.",
+          "Correct: Pro forma statements project future financial performance.",
+          "Tax filings are regulatory documents, not projections.",
+          "Payroll reports are operational documents, not financial forecasts."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which marketing strategy involves setting a low initial price to attract customers quickly?",
+        "options": [
+          "Price skimming",
+          "Penetration pricing",
+          "Premium pricing",
+          "Bundle pricing"
+        ],
+        "answer": 1,
+        "explain": "Penetration pricing sets a low initial price to rapidly gain market share and attract price-sensitive customers.",
+        "optionExplanations": [
+          "Price skimming starts high and lowers price over time.",
+          "Correct: Penetration pricing uses low initial prices to build market share fast.",
+          "Premium pricing sets high prices to signal quality.",
+          "Bundle pricing combines multiple products at a discount."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What does ROI stand for in business planning?",
+        "options": [
+          "Rate of Inflation",
+          "Return on Investment",
+          "Revenue of Industry",
+          "Record of Income"
+        ],
+        "answer": 1,
+        "explain": "ROI (Return on Investment) measures the profitability of an investment relative to its cost, expressed as a percentage.",
+        "optionExplanations": [
+          "Rate of inflation measures price level changes, not investment returns.",
+          "Correct: ROI measures the gain or loss from an investment relative to its cost.",
+          "Revenue of industry is not a standard business term.",
+          "Record of income is not what ROI stands for."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the main purpose of an operations plan in a business plan?",
+        "options": [
+          "To describe how the business will produce and deliver its products or services",
+          "To outline the marketing budget",
+          "To list shareholders",
+          "To describe the company history"
+        ],
+        "answer": 0,
+        "explain": "The operations plan details the day-to-day processes, facilities, equipment, and logistics needed to produce and deliver products or services.",
+        "optionExplanations": [
+          "Correct: The operations plan covers production, delivery, and daily business processes.",
+          "Marketing budgets belong in the marketing plan section.",
+          "Shareholder information is in the ownership/management section.",
+          "Company history is part of the company description."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which funding source requires giving up partial ownership of the business?",
+        "options": [
+          "Bank loan",
+          "Line of credit",
+          "Equity financing from investors",
+          "Personal savings"
+        ],
+        "answer": 2,
+        "explain": "Equity financing involves selling ownership shares to investors in exchange for capital, diluting the original owner's ownership percentage.",
+        "optionExplanations": [
+          "Bank loans are debt financing — no ownership is exchanged.",
+          "Lines of credit are also debt instruments with no ownership transfer.",
+          "Correct: Equity financing trades ownership shares for investment capital.",
+          "Personal savings don't involve outside ownership."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a management team section in a business plan?",
+        "options": [
+          "To list customer testimonials",
+          "To describe the qualifications and roles of key team members",
+          "To outline product specifications",
+          "To present competitor pricing"
+        ],
+        "answer": 1,
+        "explain": "The management team section showcases the experience, skills, and roles of key personnel to demonstrate the team's ability to execute the business plan.",
+        "optionExplanations": [
+          "Customer testimonials belong in marketing materials.",
+          "Correct: This section highlights team qualifications and organizational structure.",
+          "Product specifications are in the products/services section.",
+          "Competitor pricing is part of competitive analysis."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a unique selling proposition (USP)?",
+        "options": [
+          "The lowest price in the market",
+          "A feature or benefit that makes a product distinct from competitors",
+          "A type of business license",
+          "The total number of products sold"
+        ],
+        "answer": 1,
+        "explain": "A USP is the distinct feature, benefit, or quality that differentiates a product or service from its competitors in the marketplace.",
+        "optionExplanations": [
+          "Lowest price is just one possible differentiator, not the definition of USP.",
+          "Correct: A USP is what makes your offering uniquely valuable compared to alternatives.",
+          "A business license is a legal requirement, not a selling proposition.",
+          "Sales volume is a metric, not a differentiator."
+        ],
+        "source": "ai"
+      }
+    ],
+    "Career Portfolio": [
+      {
+        "q": "What is the primary purpose of a career portfolio?",
+        "options": [
+          "To replace a job application",
+          "To showcase skills, accomplishments, and professional development",
+          "To store personal photos",
+          "To track daily work hours"
+        ],
+        "answer": 1,
+        "explain": "A career portfolio is a collection of documents and artifacts that demonstrate a person's skills, education, accomplishments, and professional growth.",
+        "optionExplanations": [
+          "A portfolio supplements, not replaces, a job application.",
+          "Correct: Portfolios showcase evidence of skills and professional development.",
+          "Personal photos are not appropriate portfolio content.",
+          "Time tracking is separate from portfolio development."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which of the following should be included in a career portfolio?",
+        "options": [
+          "Social media passwords",
+          "A professional resume and cover letter",
+          "Personal diary entries",
+          "Video game achievements"
+        ],
+        "answer": 1,
+        "explain": "A career portfolio should include professional documents such as resumes, cover letters, certifications, work samples, and letters of recommendation.",
+        "optionExplanations": [
+          "Passwords should never be shared in any document.",
+          "Correct: Resumes and cover letters are essential portfolio components.",
+          "Personal diary entries are not professional portfolio content.",
+          "Video game achievements are not relevant to a career portfolio."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the STAR method used for in job interviews?",
+        "options": [
+          "Rating employee performance",
+          "Structuring behavioral interview responses: Situation, Task, Action, Result",
+          "Creating a business plan",
+          "Calculating sales revenue"
+        ],
+        "answer": 1,
+        "explain": "The STAR method (Situation, Task, Action, Result) provides a structured framework for answering behavioral interview questions effectively.",
+        "optionExplanations": [
+          "Performance ratings use different evaluation methods.",
+          "Correct: STAR structures responses around Situation, Task, Action, and Result.",
+          "Business plans use different frameworks.",
+          "Sales calculations use financial formulas."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the appropriate length for a professional resume for a high school student?",
+        "options": [
+          "5 pages minimum",
+          "One page",
+          "10 pages",
+          "No limit"
+        ],
+        "answer": 1,
+        "explain": "High school students and entry-level candidates should typically keep their resume to one page, highlighting the most relevant experiences and skills.",
+        "optionExplanations": [
+          "Five pages is far too long for a student resume.",
+          "Correct: One page is standard for students and entry-level candidates.",
+          "Ten pages would be excessive even for experienced professionals.",
+          "There are practical conventions even if no hard rule exists."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which section of a resume lists your work history in reverse chronological order?",
+        "options": [
+          "Education",
+          "Skills",
+          "Experience/Work History",
+          "Objective"
+        ],
+        "answer": 2,
+        "explain": "The experience or work history section lists previous jobs, internships, and volunteer work in reverse chronological order (most recent first).",
+        "optionExplanations": [
+          "Education lists schools attended and degrees earned.",
+          "Skills lists abilities and competencies without dates.",
+          "Correct: Experience/Work History presents jobs in reverse chronological order.",
+          "An objective states career goals, not work history."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a letter of recommendation?",
+        "options": [
+          "A letter requesting a job interview",
+          "A letter from someone vouching for your character, skills, or work ethic",
+          "A thank-you letter sent after an interview",
+          "A resignation letter"
+        ],
+        "answer": 1,
+        "explain": "A letter of recommendation is written by a professional reference (teacher, employer, mentor) endorsing your qualifications and character.",
+        "optionExplanations": [
+          "A job interview request is a different type of correspondence.",
+          "Correct: A recommendation letter vouches for your abilities and character.",
+          "Thank-you letters are post-interview courtesies.",
+          "Resignation letters notify an employer of departure."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What should you wear to a professional job interview?",
+        "options": [
+          "Casual jeans and a t-shirt",
+          "Professional business attire appropriate to the industry",
+          "Athletic wear",
+          "Costume clothing"
+        ],
+        "answer": 1,
+        "explain": "Professional business attire shows respect for the interviewer and demonstrates your understanding of workplace professionalism.",
+        "optionExplanations": [
+          "Casual clothing may appear unprofessional for most interviews.",
+          "Correct: Professional attire appropriate to the industry is standard.",
+          "Athletic wear is inappropriate for professional interviews.",
+          "Costume clothing is never appropriate for job interviews."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a career goal statement?",
+        "options": [
+          "To describe your hobbies",
+          "To articulate your professional objectives and career direction",
+          "To list your GPA",
+          "To provide your contact information"
+        ],
+        "answer": 1,
+        "explain": "A career goal statement clearly communicates your professional aspirations, helping employers understand your ambition and fit for a role.",
+        "optionExplanations": [
+          "Hobbies are separate from career goal statements.",
+          "Correct: Career goals articulate your professional direction and objectives.",
+          "GPA is listed in the education section.",
+          "Contact info appears in the header of a resume."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Why are action verbs important in resume writing?",
+        "options": [
+          "They make the resume longer",
+          "They demonstrate initiative and clearly describe accomplishments",
+          "They are required by law",
+          "They replace the need for a cover letter"
+        ],
+        "answer": 1,
+        "explain": "Action verbs like 'managed,' 'created,' 'led,' and 'developed' make resume bullet points more dynamic and clearly communicate achievements.",
+        "optionExplanations": [
+          "Length is not the goal; clarity and impact matter.",
+          "Correct: Action verbs convey initiative and describe accomplishments clearly.",
+          "There is no legal requirement for action verbs.",
+          "Cover letters serve a different purpose from resume bullet points."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is professional networking?",
+        "options": [
+          "Setting up computer networks",
+          "Building relationships with professionals to exchange information and opportunities",
+          "Using only social media",
+          "Memorizing phone numbers"
+        ],
+        "answer": 1,
+        "explain": "Professional networking involves building and maintaining relationships with other professionals to share knowledge, advice, and career opportunities.",
+        "optionExplanations": [
+          "Computer networking is a technical field, not professional relationship building.",
+          "Correct: Professional networking is about building career-advancing relationships.",
+          "Social media is one tool, but networking extends beyond it.",
+          "Memorizing phone numbers is not networking."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which of the following is a transferable skill?",
+        "options": [
+          "Operating a specific proprietary machine",
+          "Communication skills",
+          "Knowledge of one company's internal software",
+          "Familiarity with one store's layout"
+        ],
+        "answer": 1,
+        "explain": "Transferable skills like communication, leadership, and problem-solving apply across industries and jobs, making them valuable in any career.",
+        "optionExplanations": [
+          "Operating specific machines is a technical skill tied to one workplace.",
+          "Correct: Communication is a transferable skill valued in all careers.",
+          "Company-specific software knowledge doesn't transfer broadly.",
+          "Store layout knowledge is specific to one location."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What should you do within 24 hours after a job interview?",
+        "options": [
+          "Call to demand the job",
+          "Send a thank-you email or note to the interviewer",
+          "Post about the interview on social media",
+          "Forget about it and move on"
+        ],
+        "answer": 1,
+        "explain": "Sending a thank-you note within 24 hours shows professionalism, reinforces your interest, and leaves a positive impression.",
+        "optionExplanations": [
+          "Demanding the job would be unprofessional and counterproductive.",
+          "Correct: A prompt thank-you note demonstrates professionalism and interest.",
+          "Posting interview details publicly could be seen as unprofessional.",
+          "Ignoring follow-up misses an opportunity to reinforce your candidacy."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a professional reference?",
+        "options": [
+          "A family member who can vouch for you",
+          "A person who can speak to your work ethic, skills, and professional character",
+          "A celebrity endorsement",
+          "Your social media follower count"
+        ],
+        "answer": 1,
+        "explain": "Professional references are individuals such as former employers, teachers, or mentors who can attest to your qualifications and work ethic.",
+        "optionExplanations": [
+          "Family members are typically considered personal, not professional references.",
+          "Correct: Professional references speak to your work-related abilities and character.",
+          "Celebrity endorsements are not professional references.",
+          "Social media followers are not professional references."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a cover letter?",
+        "options": [
+          "To repeat everything on your resume",
+          "To introduce yourself and explain why you are a strong fit for the position",
+          "To list your social media accounts",
+          "To provide salary history"
+        ],
+        "answer": 1,
+        "explain": "A cover letter introduces you to the employer, highlights relevant qualifications, and explains your interest in and fit for the specific position.",
+        "optionExplanations": [
+          "A cover letter should complement, not duplicate, the resume.",
+          "Correct: Cover letters introduce you and explain your fit for the role.",
+          "Social media accounts may be on a resume but aren't the focus of a cover letter.",
+          "Salary history is typically discussed later in the hiring process."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What does FBLA stand for?",
+        "options": [
+          "Federal Business Leadership Academy",
+          "Future Business Leaders of America",
+          "Foundation for Business and Liberal Arts",
+          "Forum for Business Law Advancement"
+        ],
+        "answer": 1,
+        "explain": "FBLA stands for Future Business Leaders of America, a career and technical student organization for students interested in business.",
+        "optionExplanations": [
+          "This is not what FBLA stands for.",
+          "Correct: Future Business Leaders of America.",
+          "This is not the correct expansion of FBLA.",
+          "This is not what FBLA stands for."
+        ],
+        "source": "ai"
+      }
+    ],
+    "Coding & Programming": [
+      {
+        "q": "What is the time complexity of a binary search algorithm?",
+        "options": [
+          "O(n)",
+          "O(n²)",
+          "O(log n)",
+          "O(1)"
+        ],
+        "answer": 2,
+        "explain": "Binary search divides the search space in half each iteration, resulting in O(log n) time complexity.",
+        "optionExplanations": [
+          "O(n) is linear search, not binary search.",
+          "O(n²) is typical of nested loops, not binary search.",
+          "Correct: Binary search has O(log n) complexity by halving the search space.",
+          "O(1) is constant time — binary search requires multiple comparisons."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What does IDE stand for in programming?",
+        "options": [
+          "Internet Development Environment",
+          "Integrated Development Environment",
+          "Internal Data Exchange",
+          "Interactive Design Engine"
+        ],
+        "answer": 1,
+        "explain": "An IDE (Integrated Development Environment) is a software application that provides tools for coding, debugging, and testing programs.",
+        "optionExplanations": [
+          "IDE does not stand for Internet Development Environment.",
+          "Correct: Integrated Development Environment.",
+          "Internal Data Exchange is not what IDE means.",
+          "Interactive Design Engine is not the correct expansion."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which data structure uses FIFO (First In, First Out) ordering?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Binary tree",
+          "Hash map"
+        ],
+        "answer": 1,
+        "explain": "A queue follows FIFO ordering — the first element added is the first one removed, like a line at a checkout counter.",
+        "optionExplanations": [
+          "A stack uses LIFO (Last In, First Out) ordering.",
+          "Correct: A queue processes elements in FIFO order.",
+          "Binary trees organize data hierarchically, not by insertion order.",
+          "Hash maps provide key-value access, not ordered retrieval."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a variable in programming?",
+        "options": [
+          "A fixed value that cannot change",
+          "A named storage location in memory that holds a value",
+          "A type of function",
+          "A syntax error"
+        ],
+        "answer": 1,
+        "explain": "A variable is a named container in memory that stores a value which can be referenced and modified during program execution.",
+        "optionExplanations": [
+          "Fixed values that cannot change are called constants.",
+          "Correct: Variables are named storage locations that hold changeable values.",
+          "Functions are reusable blocks of code, not storage locations.",
+          "Syntax errors are mistakes in code structure."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a loop in programming?",
+        "options": [
+          "To execute a block of code only once",
+          "To repeat a block of code multiple times based on a condition",
+          "To define a variable",
+          "To import a library"
+        ],
+        "answer": 1,
+        "explain": "Loops (for, while, do-while) repeat a block of code as long as a specified condition is true, automating repetitive tasks.",
+        "optionExplanations": [
+          "Executing code once doesn't require a loop.",
+          "Correct: Loops repeat code based on conditions.",
+          "Variable definition uses declaration statements.",
+          "Library imports use import/include statements."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is debugging?",
+        "options": [
+          "Writing new code from scratch",
+          "The process of finding and fixing errors in code",
+          "Deleting all code",
+          "Compiling code into machine language"
+        ],
+        "answer": 1,
+        "explain": "Debugging is the systematic process of identifying, analyzing, and removing bugs (errors) from a program to make it work correctly.",
+        "optionExplanations": [
+          "Writing new code is development, not debugging.",
+          "Correct: Debugging is finding and fixing errors in existing code.",
+          "Deleting code is not debugging.",
+          "Compiling is translating code, not fixing errors."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which sorting algorithm has the best average-case time complexity?",
+        "options": [
+          "Bubble sort — O(n²)",
+          "Selection sort — O(n²)",
+          "Merge sort — O(n log n)",
+          "Insertion sort — O(n²)"
+        ],
+        "answer": 2,
+        "explain": "Merge sort consistently achieves O(n log n) time complexity in all cases, making it more efficient than quadratic sorting algorithms.",
+        "optionExplanations": [
+          "Bubble sort's O(n²) is significantly slower for large datasets.",
+          "Selection sort's O(n²) is also slow for large datasets.",
+          "Correct: Merge sort's O(n log n) is among the fastest general-purpose sorts.",
+          "Insertion sort's O(n²) is slower on average than merge sort."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is an array?",
+        "options": [
+          "A type of loop",
+          "A collection of elements stored at contiguous memory locations",
+          "A single variable that holds one value",
+          "A function that returns nothing"
+        ],
+        "answer": 1,
+        "explain": "An array is a data structure that stores a fixed-size collection of elements of the same type in contiguous memory locations, accessed by index.",
+        "optionExplanations": [
+          "Loops control repetition, not data storage.",
+          "Correct: Arrays store multiple elements in contiguous memory locations.",
+          "Single variables hold one value; arrays hold multiple.",
+          "A void function returns nothing, but that's unrelated to arrays."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What does the term 'recursion' mean in programming?",
+        "options": [
+          "A function that calls itself",
+          "A loop that runs infinitely",
+          "A variable that changes type",
+          "A method of compiling code"
+        ],
+        "answer": 0,
+        "explain": "Recursion occurs when a function calls itself to solve smaller instances of a problem until reaching a base case.",
+        "optionExplanations": [
+          "Correct: Recursion is a function calling itself with modified parameters.",
+          "An infinite loop is a bug, not recursion (recursion has a base case).",
+          "Type changing is called type coercion, not recursion.",
+          "Compilation is a separate process from recursion."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the software development life cycle (SDLC)?",
+        "options": [
+          "A programming language",
+          "A structured process for planning, creating, testing, and deploying software",
+          "A type of database",
+          "A hardware component"
+        ],
+        "answer": 1,
+        "explain": "SDLC is a systematic framework that defines phases for software development: planning, analysis, design, implementation, testing, and maintenance.",
+        "optionExplanations": [
+          "SDLC is a process methodology, not a programming language.",
+          "Correct: SDLC is a structured approach to software development phases.",
+          "Databases store data; SDLC is a development process.",
+          "Hardware components are physical; SDLC is a methodology."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is an algorithm?",
+        "options": [
+          "A programming language",
+          "A step-by-step procedure for solving a problem",
+          "A type of computer hardware",
+          "A database management tool"
+        ],
+        "answer": 1,
+        "explain": "An algorithm is a finite, well-defined sequence of steps or instructions designed to solve a specific problem or accomplish a task.",
+        "optionExplanations": [
+          "Programming languages implement algorithms but are not algorithms themselves.",
+          "Correct: An algorithm is a step-by-step problem-solving procedure.",
+          "Hardware is physical equipment, not a procedure.",
+          "Database tools manage data but are not algorithms per se."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is object-oriented programming (OOP)?",
+        "options": [
+          "A programming paradigm based on objects containing data and methods",
+          "A type of database",
+          "A web design framework",
+          "A hardware specification"
+        ],
+        "answer": 0,
+        "explain": "OOP is a programming paradigm that organizes code around objects that encapsulate data (attributes) and behavior (methods).",
+        "optionExplanations": [
+          "Correct: OOP centers on objects with data and methods.",
+          "Databases store data but OOP is a programming paradigm.",
+          "Web design frameworks may use OOP but aren't OOP themselves.",
+          "Hardware specifications are unrelated to programming paradigms."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What does API stand for?",
+        "options": [
+          "Application Programming Interface",
+          "Automated Process Integration",
+          "Advanced Program Installation",
+          "Application Protocol Interchange"
+        ],
+        "answer": 0,
+        "explain": "API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other.",
+        "optionExplanations": [
+          "Correct: Application Programming Interface.",
+          "Automated Process Integration is not what API stands for.",
+          "Advanced Program Installation is incorrect.",
+          "Application Protocol Interchange is not the correct expansion."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is version control in software development?",
+        "options": [
+          "A way to track and manage changes to code over time",
+          "A method of increasing software price with each update",
+          "A technique for encrypting passwords",
+          "A type of programming language"
+        ],
+        "answer": 0,
+        "explain": "Version control systems (like Git) track changes to code, enable collaboration, and allow developers to revert to previous versions when needed.",
+        "optionExplanations": [
+          "Correct: Version control tracks and manages code changes over time.",
+          "Pricing strategies are unrelated to version control.",
+          "Password encryption is a security practice, not version control.",
+          "Version control is a tool/system, not a programming language."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a conditional statement?",
+        "options": [
+          "A statement that always executes",
+          "A statement that executes code based on whether a condition is true or false",
+          "A type of variable declaration",
+          "A comment in the code"
+        ],
+        "answer": 1,
+        "explain": "Conditional statements (if/else, switch) execute different code blocks depending on whether a specified condition evaluates to true or false.",
+        "optionExplanations": [
+          "Unconditional execution doesn't use conditional logic.",
+          "Correct: Conditional statements branch based on true/false evaluation.",
+          "Variable declarations create storage, not decision logic.",
+          "Comments are non-executable documentation."
+        ],
+        "source": "ai"
+      }
+    ],
+    "Community Service Project": [
+      {
+        "q": "What is the first step in planning a community service project?",
+        "options": [
+          "Purchasing supplies",
+          "Identifying a community need",
+          "Writing the final report",
+          "Celebrating completion"
+        ],
+        "answer": 1,
+        "explain": "Successful community service projects begin by identifying a genuine need in the community that the project can address meaningfully.",
+        "optionExplanations": [
+          "Supplies come after planning, not before identifying the need.",
+          "Correct: Identifying a community need is the essential first step.",
+          "The final report is written after the project is completed.",
+          "Celebration comes at the end of the project."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What does SMART stand for when setting project goals?",
+        "options": [
+          "Simple, Measured, Achievable, Reliable, Tested",
+          "Specific, Measurable, Achievable, Relevant, Time-bound",
+          "Strategic, Meaningful, Actionable, Realistic, Trackable",
+          "Standard, Monitored, Approved, Required, Transparent"
+        ],
+        "answer": 1,
+        "explain": "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound — a framework for setting clear and actionable objectives.",
+        "optionExplanations": [
+          "This is not the correct SMART acronym.",
+          "Correct: Specific, Measurable, Achievable, Relevant, Time-bound.",
+          "This is a plausible but incorrect version.",
+          "This is not the standard SMART framework."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Why is it important to evaluate a community service project after completion?",
+        "options": [
+          "To assign blame for problems",
+          "To determine what worked well and what could be improved for future projects",
+          "To increase project costs",
+          "To reduce volunteer involvement"
+        ],
+        "answer": 1,
+        "explain": "Post-project evaluation assesses effectiveness, identifies lessons learned, and provides insights for improving future community service efforts.",
+        "optionExplanations": [
+          "Evaluation is about improvement, not blame.",
+          "Correct: Evaluation identifies successes and areas for improvement.",
+          "Evaluation aims to optimize resources, not increase costs.",
+          "Good evaluation typically encourages more volunteer engagement."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is stakeholder engagement in community service?",
+        "options": [
+          "Ignoring community members' input",
+          "Involving affected individuals and groups in project planning and execution",
+          "Hiring paid contractors for all tasks",
+          "Limiting participation to chapter officers"
+        ],
+        "answer": 1,
+        "explain": "Stakeholder engagement involves including community members, partners, and beneficiaries in the planning and implementation process.",
+        "optionExplanations": [
+          "Ignoring input leads to projects that miss community needs.",
+          "Correct: Stakeholder engagement includes affected groups in the process.",
+          "Volunteers, not contractors, are the backbone of community service.",
+          "Broad participation strengthens projects beyond just officers."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of documenting a community service project?",
+        "options": [
+          "To create busywork for volunteers",
+          "To provide evidence of impact and support future planning",
+          "To make the project more expensive",
+          "To satisfy personal curiosity"
+        ],
+        "answer": 1,
+        "explain": "Documentation creates a record of activities, outcomes, and impact that supports accountability, reporting, and planning for future projects.",
+        "optionExplanations": [
+          "Documentation serves practical purposes, not busywork.",
+          "Correct: Documentation provides evidence of impact and aids future planning.",
+          "Good documentation helps optimize costs, not increase them.",
+          "Documentation serves organizational purposes beyond curiosity."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which of the following demonstrates effective project leadership?",
+        "options": [
+          "Making all decisions without input from team members",
+          "Delegating tasks based on team members' strengths and providing clear direction",
+          "Avoiding communication with the team",
+          "Completing all tasks yourself"
+        ],
+        "answer": 1,
+        "explain": "Effective leaders delegate based on strengths, communicate clearly, and empower team members to take ownership of their responsibilities.",
+        "optionExplanations": [
+          "Autocratic decision-making fails to leverage team strengths.",
+          "Correct: Good leadership involves delegation and clear communication.",
+          "Avoiding communication leads to confusion and poor results.",
+          "Doing everything yourself prevents team development."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a needs assessment?",
+        "options": [
+          "A financial audit",
+          "A systematic process to determine community needs and gaps in services",
+          "A personality test for volunteers",
+          "A building inspection"
+        ],
+        "answer": 1,
+        "explain": "A needs assessment systematically gathers data about community conditions to identify problems, gaps, and priorities for service projects.",
+        "optionExplanations": [
+          "Financial audits examine finances, not community needs.",
+          "Correct: Needs assessments identify community gaps and priorities.",
+          "Personality tests assess individuals, not community needs.",
+          "Building inspections assess structures, not community needs."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "How should a community service project measure its impact?",
+        "options": [
+          "By counting only the number of volunteers",
+          "By using both quantitative data and qualitative feedback",
+          "By spending the most money",
+          "By avoiding any measurement"
+        ],
+        "answer": 1,
+        "explain": "Impact measurement should include quantitative metrics (numbers served, hours donated) and qualitative feedback (testimonials, surveys).",
+        "optionExplanations": [
+          "Volunteer count alone doesn't measure impact on the community.",
+          "Correct: Both quantitative and qualitative measures provide a complete picture.",
+          "Spending more money doesn't equate to greater impact.",
+          "Without measurement, you can't demonstrate effectiveness."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is a project timeline?",
+        "options": [
+          "A list of project costs",
+          "A schedule showing when project activities will be completed",
+          "A volunteer sign-up sheet",
+          "A mission statement"
+        ],
+        "answer": 1,
+        "explain": "A project timeline maps out the sequence and deadlines for all activities, helping teams stay organized and on track.",
+        "optionExplanations": [
+          "Costs are tracked in a budget, not a timeline.",
+          "Correct: A timeline schedules activities and milestones.",
+          "Volunteer sign-ups are part of recruitment, not scheduling.",
+          "A mission statement defines purpose, not schedule."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Why should community service projects include partnerships with local organizations?",
+        "options": [
+          "To shift all responsibility to others",
+          "To leverage additional resources, expertise, and community connections",
+          "To create unnecessary complexity",
+          "To avoid doing any work"
+        ],
+        "answer": 1,
+        "explain": "Partnerships with local organizations provide access to resources, expertise, established networks, and credibility that strengthen project impact.",
+        "optionExplanations": [
+          "Partnerships share responsibility, not shift it entirely.",
+          "Correct: Partnerships add resources, expertise, and connections.",
+          "Good partnerships simplify rather than complicate projects.",
+          "Partnerships multiply effort, not eliminate it."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What role does budgeting play in a community service project?",
+        "options": [
+          "It is unnecessary for volunteer projects",
+          "It helps plan and track financial resources needed for the project",
+          "It limits creativity",
+          "It is only needed for profit-making ventures"
+        ],
+        "answer": 1,
+        "explain": "Even volunteer-driven projects need budgeting to plan for materials, supplies, transportation, and other costs.",
+        "optionExplanations": [
+          "Even volunteer projects have costs that need budgeting.",
+          "Correct: Budgets help plan and track resource allocation.",
+          "Good budgeting actually enables creative resource use.",
+          "Non-profits and service projects also require financial planning."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is the benefit of creating a project presentation for judges?",
+        "options": [
+          "To waste time",
+          "To clearly communicate the project's goals, process, impact, and lessons learned",
+          "To hide problems in the project",
+          "To show off technology skills"
+        ],
+        "answer": 1,
+        "explain": "A well-structured presentation clearly communicates what the project accomplished and demonstrates the team's professional communication skills.",
+        "optionExplanations": [
+          "Presentations are essential for demonstrating impact.",
+          "Correct: Presentations communicate goals, process, impact, and learning.",
+          "Good presentations are honest about challenges faced.",
+          "Technology should support content, not be the focus."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What is sustainability in the context of a community service project?",
+        "options": [
+          "Using only recycled materials",
+          "Ensuring the project's benefits continue after the initial effort ends",
+          "Completing the project as quickly as possible",
+          "Reducing the number of volunteers"
+        ],
+        "answer": 1,
+        "explain": "Sustainability means designing the project so its positive effects continue beyond the initial implementation through lasting structures or partnerships.",
+        "optionExplanations": [
+          "Recycled materials relate to environmental sustainability, not project sustainability.",
+          "Correct: Project sustainability means lasting benefits beyond the initial effort.",
+          "Speed is about efficiency, not sustainability.",
+          "Fewer volunteers doesn't relate to project sustainability."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "Which of the following is the best example of measurable impact?",
+        "options": [
+          "We helped the community",
+          "We collected 500 pounds of food serving 200 families over 3 months",
+          "Everyone had fun",
+          "The project was big"
+        ],
+        "answer": 1,
+        "explain": "Measurable impact uses specific numbers and data points to demonstrate the tangible results of the project.",
+        "optionExplanations": [
+          "This is too vague to measure.",
+          "Correct: Specific numbers (500 lbs, 200 families, 3 months) are measurable.",
+          "Fun is subjective and not a measure of impact.",
+          "Size is vague without specific metrics."
+        ],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a community service project successful in FBLA competition?",
+        "options": [
+          "Only the amount of money spent",
+          "Clear planning, strong execution, measurable impact, professional presentation, and chapter involvement",
+          "Having the most volunteers",
+          "Choosing the easiest project possible"
+        ],
+        "answer": 1,
+        "explain": "FBLA judges evaluate projects on planning quality, execution, documented impact, professional presentation, and breadth of chapter participation.",
+        "optionExplanations": [
+          "Money spent doesn't determine project quality.",
+          "Correct: Multiple factors contribute to a successful FBLA project.",
+          "Volunteer numbers alone don't indicate project quality.",
+          "Easy projects may not demonstrate the depth judges look for."
+        ],
+        "source": "ai"
+      }
+    ]
+,
+    "Computer Game & Simulation Programming": [
+      {
+        "q": "What is a game loop?",
+        "options": ["A type of level design", "The core cycle that processes input, updates game state, and renders frames", "A marketing strategy for games", "A bug in game code"],
+        "answer": 1,
+        "explain": "The game loop is the fundamental cycle that continuously processes player input, updates game logic, and renders the display.",
+        "optionExplanations": ["Level design is about creating game environments.", "Correct: The game loop handles input, update, and render each frame.", "Marketing is unrelated to the technical game loop.", "A bug is an error, not a core architecture pattern."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a sprite in game development?",
+        "options": ["A type of sound effect", "A 2D image or animation used to represent a game object", "A network protocol", "A scoring mechanism"],
+        "answer": 1,
+        "explain": "A sprite is a 2D bitmap image or animation that represents characters, objects, or other visual elements in a game.",
+        "optionExplanations": ["Sound effects are audio assets, not sprites.", "Correct: Sprites are 2D images representing game objects.", "Network protocols handle communication, not graphics.", "Scoring is a game mechanic, not a visual element."],
+        "source": "ai"
+      },
+      {
+        "q": "What is collision detection?",
+        "options": ["Detecting when a game crashes", "Determining when two game objects overlap or interact", "A method for saving game progress", "A type of user interface design"],
+        "answer": 1,
+        "explain": "Collision detection algorithms determine when game objects intersect, triggering appropriate responses like damage, bouncing, or blocking.",
+        "optionExplanations": ["Game crashes are errors, not collision detection.", "Correct: Collision detection identifies when objects overlap.", "Saving progress is persistence, not collision detection.", "UI design is about user interface layout."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a physics engine in game development?",
+        "options": ["Software that handles realistic movement, gravity, and collisions", "A game's storyline generator", "A sound processing system", "A level editor tool"],
+        "answer": 0,
+        "explain": "A physics engine simulates real-world physical behaviors like gravity, momentum, friction, and collisions in the game world.",
+        "optionExplanations": ["Correct: Physics engines simulate realistic physical behaviors.", "Storyline generators are narrative tools, not physics.", "Sound processing handles audio, not physics.", "Level editors create environments, not physics simulations."],
+        "source": "ai"
+      },
+      {
+        "q": "What is frame rate (FPS)?",
+        "options": ["The number of players in a game", "The number of individual images displayed per second", "The size of the game file", "The number of levels in a game"],
+        "answer": 1,
+        "explain": "Frame rate (frames per second) measures how many individual images are rendered and displayed each second, affecting visual smoothness.",
+        "optionExplanations": ["Player count is unrelated to frame rate.", "Correct: FPS measures images rendered per second.", "File size is about storage, not display rate.", "Level count is game design, not rendering speed."],
+        "source": "ai"
+      },
+      {
+        "q": "What is an event handler in game programming?",
+        "options": ["A calendar application", "A function that responds to specific user actions like key presses or mouse clicks", "A graphics rendering tool", "A file storage system"],
+        "answer": 1,
+        "explain": "Event handlers are functions triggered by specific events such as keyboard input, mouse clicks, or touch interactions.",
+        "optionExplanations": ["Calendar apps are unrelated to game programming.", "Correct: Event handlers respond to user actions.", "Graphics rendering is separate from event handling.", "File storage is unrelated to event processing."],
+        "source": "ai"
+      },
+      {
+        "q": "What is pathfinding in game AI?",
+        "options": ["Creating game menus", "An algorithm that calculates the optimal route between two points", "Designing game levels", "Playing sound effects"],
+        "answer": 1,
+        "explain": "Pathfinding algorithms (like A*) calculate efficient routes for game characters to navigate from one point to another around obstacles.",
+        "optionExplanations": ["Menu creation is UI design, not pathfinding.", "Correct: Pathfinding calculates optimal routes around obstacles.", "Level design creates environments, not navigation algorithms.", "Sound effects are audio, not navigation."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a game state?",
+        "options": ["The physical condition of a game console", "The current status of all game variables and objects at any point", "A game's price tag", "The number of downloads"],
+        "answer": 1,
+        "explain": "Game state encompasses all current data including player position, score, health, inventory, and world conditions at any given moment.",
+        "optionExplanations": ["Console condition is hardware, not game state.", "Correct: Game state is the current status of all game data.", "Price is a business detail, not game state.", "Downloads measure popularity, not in-game state."],
+        "source": "ai"
+      },
+      {
+        "q": "What is user experience (UX) testing in game development?",
+        "options": ["Testing the game's profitability", "Evaluating how intuitive and enjoyable the game is for players", "Checking hardware compatibility only", "Testing marketing materials"],
+        "answer": 1,
+        "explain": "UX testing evaluates how players interact with the game to ensure intuitive controls, clear feedback, and enjoyable gameplay.",
+        "optionExplanations": ["Profitability is a business metric, not UX.", "Correct: UX testing evaluates player experience and intuitiveness.", "Hardware testing is QA, not specifically UX.", "Marketing material testing is separate from game UX."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a storyboard in game design?",
+        "options": ["To write the game's source code", "To visually plan sequences of events, scenes, and interactions", "To test the game for bugs", "To market the game"],
+        "answer": 1,
+        "explain": "Storyboards visually plan the flow of game scenes, character actions, and narrative sequences before development begins.",
+        "optionExplanations": ["Source code is written by programmers, not in storyboards.", "Correct: Storyboards visually plan game sequences and flow.", "Bug testing is QA, not storyboarding.", "Marketing uses different planning tools."],
+        "source": "ai"
+      },
+      {
+        "q": "What is procedural generation?",
+        "options": ["Writing code step by step", "Using algorithms to automatically create game content like levels or terrain", "A manual design process", "A type of game controller"],
+        "answer": 1,
+        "explain": "Procedural generation uses algorithms and rules to automatically create game content such as maps, levels, items, or terrain.",
+        "optionExplanations": ["Step-by-step coding is just programming methodology.", "Correct: Procedural generation creates content algorithmically.", "Manual design is the opposite of procedural generation.", "Controllers are input devices, not content generation."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a game design document (GDD)?",
+        "options": ["The game's source code", "A comprehensive document describing the game's concept, mechanics, and specifications", "A player's instruction manual", "A marketing brochure"],
+        "answer": 1,
+        "explain": "A GDD is a detailed reference document that outlines the game's vision, mechanics, story, art style, technical specs, and development plan.",
+        "optionExplanations": ["Source code is the implementation, not the design document.", "Correct: A GDD comprehensively describes the game's design.", "Instruction manuals are for players after release.", "Marketing brochures promote the game, not define its design."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between 2D and 3D game development?",
+        "options": ["2D games cost more", "2D uses two axes (x, y) while 3D adds depth (z axis)", "3D games always run faster", "There is no difference"],
+        "answer": 1,
+        "explain": "2D games render on two axes (x and y) while 3D games add a z-axis for depth, requiring more complex rendering and physics.",
+        "optionExplanations": ["Cost depends on scope, not dimensionality.", "Correct: 2D uses x,y coordinates; 3D adds z-axis depth.", "3D games typically require more processing power.", "There are significant technical differences between 2D and 3D."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of playtesting?",
+        "options": ["To advertise the game", "To identify bugs, balance issues, and areas for improvement through player feedback", "To finalize the game's price", "To design the game's logo"],
+        "answer": 1,
+        "explain": "Playtesting involves having people play the game to discover bugs, evaluate difficulty balance, and gather feedback for improvements.",
+        "optionExplanations": ["Advertising is marketing, not playtesting.", "Correct: Playtesting reveals bugs and improvement areas.", "Pricing is a business decision, not a testing outcome.", "Logo design is a branding activity."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a tilemap in 2D game development?",
+        "options": ["A list of game achievements", "A grid-based system for building game levels using reusable tile images", "A type of scoreboard", "A player inventory system"],
+        "answer": 1,
+        "explain": "A tilemap is a technique where game levels are built from a grid of small, reusable tile images, enabling efficient level design.",
+        "optionExplanations": ["Achievements are game rewards, not tilemap components.", "Correct: Tilemaps use grids of reusable tiles for level design.", "Scoreboards display scores, not level layouts.", "Inventory systems track player items, not level tiles."],
+        "source": "ai"
+      }
+    ],
+    "Data Analysis": [
+      {
+        "q": "What is the primary purpose of data visualization?",
+        "options": ["To make data harder to understand", "To present data in graphical formats that reveal patterns and trends", "To delete unnecessary data", "To encrypt sensitive information"],
+        "answer": 1,
+        "explain": "Data visualization transforms raw data into visual representations like charts and graphs that make patterns and insights easier to understand.",
+        "optionExplanations": ["Visualization makes data easier, not harder, to understand.", "Correct: Visualization presents data graphically to reveal patterns.", "Deleting data is data management, not visualization.", "Encryption is a security practice, not visualization."],
+        "source": "ai"
+      },
+      {
+        "q": "What does the mean represent in statistics?",
+        "options": ["The middle value in a dataset", "The arithmetic average of all values", "The most frequently occurring value", "The range of values"],
+        "answer": 1,
+        "explain": "The mean is calculated by summing all values and dividing by the number of values, providing the arithmetic average.",
+        "optionExplanations": ["The middle value is the median.", "Correct: The mean is the sum of values divided by the count.", "The most frequent value is the mode.", "The range is the difference between max and min values."],
+        "source": "ai"
+      },
+      {
+        "q": "Which chart type is best for showing parts of a whole?",
+        "options": ["Line chart", "Scatter plot", "Pie chart", "Histogram"],
+        "answer": 2,
+        "explain": "Pie charts display proportional data, showing how individual categories contribute to the total (parts of a whole).",
+        "optionExplanations": ["Line charts show trends over time.", "Scatter plots show relationships between two variables.", "Correct: Pie charts show proportional composition of a whole.", "Histograms show frequency distributions."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a spreadsheet pivot table used for?",
+        "options": ["Creating documents", "Summarizing, grouping, and analyzing large datasets interactively", "Sending emails", "Playing videos"],
+        "answer": 1,
+        "explain": "Pivot tables reorganize and summarize large datasets, allowing users to group, filter, and aggregate data dynamically.",
+        "optionExplanations": ["Document creation uses word processors.", "Correct: Pivot tables summarize and analyze data interactively.", "Email is a communication tool.", "Video playback is a media function."],
+        "source": "ai"
+      },
+      {
+        "q": "What does correlation measure?",
+        "options": ["The exact cause of an event", "The strength and direction of a relationship between two variables", "The total number of data points", "The date data was collected"],
+        "answer": 1,
+        "explain": "Correlation measures how strongly two variables are related and whether they move in the same (positive) or opposite (negative) directions.",
+        "optionExplanations": ["Correlation does not prove causation.", "Correct: Correlation measures relationship strength and direction.", "Data point count is sample size, not correlation.", "Collection dates are metadata, not statistical measures."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a data outlier?",
+        "options": ["The most common value", "A data point significantly different from other observations", "A type of chart", "The average value"],
+        "answer": 1,
+        "explain": "An outlier is a data point that falls far outside the normal range of the dataset, potentially skewing analysis results.",
+        "optionExplanations": ["The most common value is the mode.", "Correct: Outliers are significantly different from other data points.", "Charts are visual tools, not data points.", "The average is the mean, not an outlier."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between qualitative and quantitative data?",
+        "options": ["There is no difference", "Qualitative is descriptive; quantitative is numerical", "Qualitative is always more accurate", "Quantitative cannot be graphed"],
+        "answer": 1,
+        "explain": "Qualitative data describes characteristics and qualities (categories), while quantitative data consists of numerical measurements.",
+        "optionExplanations": ["They are fundamentally different types of data.", "Correct: Qualitative is descriptive; quantitative is numerical.", "Accuracy depends on collection method, not data type.", "Quantitative data is frequently graphed."],
+        "source": "ai"
+      },
+      {
+        "q": "What does a line chart best represent?",
+        "options": ["Proportional data", "Trends over time", "Categorical comparisons", "Geographic data"],
+        "answer": 1,
+        "explain": "Line charts connect data points chronologically, making them ideal for displaying trends and changes over time.",
+        "optionExplanations": ["Pie charts show proportions.", "Correct: Line charts show trends over time.", "Bar charts are better for categorical comparisons.", "Maps display geographic data."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a primary source of data?",
+        "options": ["Data collected from a published report", "Data collected firsthand through surveys, experiments, or observations", "Data found on social media", "Data that has been previously analyzed"],
+        "answer": 1,
+        "explain": "Primary data is collected firsthand by the researcher through methods like surveys, interviews, experiments, or direct observation.",
+        "optionExplanations": ["Published reports contain secondary data.", "Correct: Primary data is collected directly by the researcher.", "Social media data may be primary or secondary depending on collection.", "Previously analyzed data is secondary data."],
+        "source": "ai"
+      },
+      {
+        "q": "What is standard deviation?",
+        "options": ["The average of all data values", "A measure of how spread out data values are from the mean", "The largest value in a dataset", "The number of data points"],
+        "answer": 1,
+        "explain": "Standard deviation measures the dispersion of data points around the mean — a higher value indicates greater spread.",
+        "optionExplanations": ["The average is the mean, not standard deviation.", "Correct: Standard deviation measures data spread from the mean.", "The largest value is the maximum.", "The data point count is sample size."],
+        "source": "ai"
+      },
+      {
+        "q": "Which function in spreadsheets calculates the total of a range of cells?",
+        "options": ["AVERAGE", "COUNT", "SUM", "MAX"],
+        "answer": 2,
+        "explain": "The SUM function adds up all numerical values in a specified range of cells.",
+        "optionExplanations": ["AVERAGE calculates the mean of values.", "COUNT tallies the number of cells with data.", "Correct: SUM totals all values in a range.", "MAX returns the largest value in a range."],
+        "source": "ai"
+      },
+      {
+        "q": "What is data cleaning?",
+        "options": ["Deleting all data", "The process of detecting and correcting inaccurate, incomplete, or irrelevant data", "Making data look pretty", "Copying data to a backup"],
+        "answer": 1,
+        "explain": "Data cleaning identifies and fixes errors, removes duplicates, handles missing values, and standardizes formats to ensure data quality.",
+        "optionExplanations": ["Deleting all data destroys information.", "Correct: Data cleaning corrects errors and improves data quality.", "Aesthetics are separate from data quality.", "Backup is data preservation, not cleaning."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a bar chart best used for?",
+        "options": ["Showing trends over time", "Comparing values across different categories", "Displaying geographic regions", "Showing statistical distributions"],
+        "answer": 1,
+        "explain": "Bar charts use rectangular bars of varying lengths to compare quantities across different categories side by side.",
+        "optionExplanations": ["Line charts are better for time trends.", "Correct: Bar charts compare values across categories.", "Maps show geographic data.", "Histograms show distributions."],
+        "source": "ai"
+      },
+      {
+        "q": "What does the VLOOKUP function do in a spreadsheet?",
+        "options": ["Counts the number of cells", "Searches for a value in the first column and returns a value from a specified column", "Sorts data alphabetically", "Creates a chart automatically"],
+        "answer": 1,
+        "explain": "VLOOKUP searches vertically through the first column of a table for a value and returns corresponding data from another column.",
+        "optionExplanations": ["COUNT counts cells, not VLOOKUP.", "Correct: VLOOKUP searches and retrieves data from tables.", "Sorting uses the SORT function.", "Chart creation uses chart tools, not VLOOKUP."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is sample size important in data analysis?",
+        "options": ["Larger samples always cost less", "Larger samples generally provide more reliable and representative results", "Sample size doesn't matter", "Smaller samples are always preferred"],
+        "answer": 1,
+        "explain": "Larger sample sizes typically produce more accurate estimates and more reliable conclusions by reducing the impact of random variation.",
+        "optionExplanations": ["Larger samples generally cost more to collect.", "Correct: Larger samples improve reliability and representativeness.", "Sample size significantly impacts result quality.", "Smaller samples may miss important patterns."],
+        "source": "ai"
+      }
+    ],
+    "Digital Animation": [
+      {
+        "q": "Which of the following is one of the 12 principles of animation?",
+        "options": ["Color theory", "Squash and stretch", "Typography", "Market analysis"],
+        "answer": 1,
+        "explain": "Squash and stretch is one of Disney's 12 principles of animation, giving characters and objects a sense of weight and flexibility.",
+        "optionExplanations": ["Color theory is a design principle, not one of the 12 animation principles.", "Correct: Squash and stretch conveys weight and flexibility.", "Typography is about text design.", "Market analysis is a business concept."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a keyframe in animation?",
+        "options": ["A password for software", "A frame that defines the start or end point of a smooth transition", "A type of file format", "A rendering engine"],
+        "answer": 1,
+        "explain": "Keyframes are the critical frames where important changes occur; the software interpolates frames between them (tweening).",
+        "optionExplanations": ["Software passwords are unrelated to animation.", "Correct: Keyframes define transition start/end points.", "File formats are about data storage, not animation technique.", "Rendering engines process graphics, not define animation points."],
+        "source": "ai"
+      },
+      {
+        "q": "What is tweening?",
+        "options": ["Creating sound effects", "Generating intermediate frames between two keyframes automatically", "Designing game levels", "Writing dialogue"],
+        "answer": 1,
+        "explain": "Tweening (in-betweening) is the process of generating intermediate frames between keyframes to create smooth animation transitions.",
+        "optionExplanations": ["Sound effects are audio production.", "Correct: Tweening creates intermediate frames for smooth transitions.", "Level design is about creating game environments.", "Dialogue writing is scriptwriting."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the standard frame rate for film animation?",
+        "options": ["12 fps", "24 fps", "60 fps", "120 fps"],
+        "answer": 1,
+        "explain": "The standard frame rate for film animation is 24 frames per second, which provides smooth motion suitable for cinema.",
+        "optionExplanations": ["12 fps appears choppy for standard film.", "Correct: 24 fps is the industry standard for film animation.", "60 fps is common for video games and smooth video.", "120 fps is used for slow-motion and high-end gaming."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a storyboard?",
+        "options": ["The final animation output", "A sequence of drawings representing planned shots and scenes", "A type of rendering software", "An audio mixing tool"],
+        "answer": 1,
+        "explain": "A storyboard is a visual planning tool that maps out each scene with sketches, camera angles, actions, and timing notes.",
+        "optionExplanations": ["The final output is the rendered animation.", "Correct: Storyboards visually plan scenes and shots.", "Rendering software processes final output.", "Audio mixing handles sound, not visual planning."],
+        "source": "ai"
+      },
+      {
+        "q": "What does 'anticipation' mean as an animation principle?",
+        "options": ["Waiting for software to render", "A preparatory movement before a main action occurs", "The time between keyframes", "The anxiety of presenting work"],
+        "answer": 1,
+        "explain": "Anticipation is a preparatory movement (like winding up before a throw) that signals to the viewer that a major action is about to happen.",
+        "optionExplanations": ["Render waiting is a technical process, not a principle.", "Correct: Anticipation is a preparatory movement before main action.", "Time between keyframes relates to timing, not anticipation.", "Presentation anxiety is unrelated to animation principles."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between vector and raster animation?",
+        "options": ["There is no difference", "Vector uses mathematical paths; raster uses pixels", "Raster is always better quality", "Vector cannot be animated"],
+        "answer": 1,
+        "explain": "Vector animation uses mathematical paths that scale without quality loss, while raster animation uses pixel grids at fixed resolutions.",
+        "optionExplanations": ["They use fundamentally different approaches.", "Correct: Vector uses paths; raster uses pixels.", "Quality depends on use case and resolution.", "Vector graphics can absolutely be animated."],
+        "source": "ai"
+      },
+      {
+        "q": "What is onion skinning in animation?",
+        "options": ["A food preparation technique", "A feature showing faint images of previous and next frames to guide drawing", "A rendering technique", "A texture mapping method"],
+        "answer": 1,
+        "explain": "Onion skinning displays semi-transparent views of adjacent frames, helping animators maintain consistent movement and spacing.",
+        "optionExplanations": ["Onion skinning in animation is not about food.", "Correct: It shows adjacent frames as guides for consistent animation.", "Rendering processes final output, not frame guides.", "Texture mapping applies surfaces to 3D objects."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of an animatic?",
+        "options": ["To replace the final animation", "To test timing and flow by combining storyboard frames with audio", "To create special effects", "To generate 3D models"],
+        "answer": 1,
+        "explain": "An animatic is a rough video created from storyboard frames set to audio/timing, used to test pacing before full animation production.",
+        "optionExplanations": ["Animatics are previews, not replacements.", "Correct: Animatics test timing and flow before production.", "Special effects are added during post-production.", "3D modeling is a separate process."],
+        "source": "ai"
+      },
+      {
+        "q": "Which file format is commonly used for animation with transparency?",
+        "options": ["JPEG", "PNG or GIF", "MP3", "DOCX"],
+        "answer": 1,
+        "explain": "PNG supports transparency with high quality, and GIF supports animated sequences with transparency (though limited to 256 colors).",
+        "optionExplanations": ["JPEG does not support transparency.", "Correct: PNG and GIF both support transparency.", "MP3 is an audio format, not an image format.", "DOCX is a document format."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the 'follow-through' principle in animation?",
+        "options": ["Completing a project on time", "Parts of a character continuing to move after the main body stops", "Following instructions precisely", "The animation pipeline process"],
+        "answer": 1,
+        "explain": "Follow-through means that different parts of a character (hair, clothes, appendages) continue moving after the main body stops.",
+        "optionExplanations": ["Project management is unrelated to animation principles.", "Correct: Follow-through shows continued motion of secondary elements.", "Following instructions is not an animation principle.", "Pipeline processes are production management."],
+        "source": "ai"
+      },
+      {
+        "q": "What is motion capture (mocap)?",
+        "options": ["Taking photographs of motion", "Recording real-world movement to drive animated characters", "A type of camera filter", "Freezing animation frames"],
+        "answer": 1,
+        "explain": "Motion capture records real human movements using sensors and translates them into digital animation data for character movement.",
+        "optionExplanations": ["Photography captures still images or video, not animation data.", "Correct: Mocap records real movement to animate digital characters.", "Camera filters modify image appearance.", "Frame freezing is a pause effect."],
+        "source": "ai"
+      },
+      {
+        "q": "What does 'timing' refer to as an animation principle?",
+        "options": ["Meeting deadlines", "The number of frames allocated to an action, affecting perceived speed and weight", "Synchronizing audio with video", "The project schedule"],
+        "answer": 1,
+        "explain": "In animation, timing refers to how many frames are used for an action — fewer frames create faster movement, more frames create slower, weightier motion.",
+        "optionExplanations": ["Deadlines are project management.", "Correct: Timing controls the speed and feel of animated actions.", "Audio sync is separate from the timing principle.", "Project scheduling is not an animation principle."],
+        "source": "ai"
+      },
+      {
+        "q": "What is rendering in animation?",
+        "options": ["Drawing rough sketches", "The process of generating the final image or video from the animation data", "Writing the animation script", "Testing the animation for bugs"],
+        "answer": 1,
+        "explain": "Rendering is the computational process that converts animation data (models, textures, lighting, motion) into final output frames or video.",
+        "optionExplanations": ["Rough sketches are part of pre-production.", "Correct: Rendering generates the final visual output.", "Scriptwriting is pre-production.", "Bug testing is quality assurance."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of an animation rubric in FBLA competition?",
+        "options": ["To grade the competitor's outfit", "To define scoring criteria for technical skill, creativity, and presentation quality", "To determine the animation software used", "To count the number of frames"],
+        "answer": 1,
+        "explain": "The FBLA rubric outlines specific criteria judges use to evaluate the quality, creativity, technical skill, and professionalism of the animation.",
+        "optionExplanations": ["Attire may factor into professionalism but not a rubric focus.", "Correct: The rubric defines scoring criteria for judging.", "Software choice is typically flexible.", "Frame count alone doesn't determine quality."],
+        "source": "ai"
+      }
+    ],
+    "Digital Video Production": [
+      {
+        "q": "What is the rule of thirds in video composition?",
+        "options": ["Using three cameras", "Dividing the frame into a 3×3 grid and placing subjects along the lines or intersections", "Recording in three-minute segments", "Using three actors per scene"],
+        "answer": 1,
+        "explain": "The rule of thirds divides the frame into nine equal sections; placing subjects along gridlines or at intersections creates more dynamic compositions.",
+        "optionExplanations": ["Camera count is unrelated to composition rules.", "Correct: The rule of thirds uses a 3×3 grid for composition.", "Segment length is editing, not composition.", "Actor count is casting, not composition."],
+        "source": "ai"
+      },
+      {
+        "q": "What is B-roll footage?",
+        "options": ["The main interview footage", "Supplementary footage that provides context and visual variety", "Footage that was recorded incorrectly", "Behind-the-scenes footage only"],
+        "answer": 1,
+        "explain": "B-roll is supplementary footage intercut with primary footage (A-roll) to add visual interest, context, and smooth transitions.",
+        "optionExplanations": ["Main interview footage is typically called A-roll.", "Correct: B-roll supplements primary footage with additional visuals.", "B-roll is intentionally recorded supplementary footage.", "Behind-the-scenes may be B-roll but isn't the only type."],
+        "source": "ai"
+      },
+      {
+        "q": "What does white balance adjust in video production?",
+        "options": ["Audio levels", "Color temperature so whites appear neutral under different lighting", "Frame rate", "Video resolution"],
+        "answer": 1,
+        "explain": "White balance adjusts color temperature to ensure whites appear truly white, preventing unwanted color casts from different light sources.",
+        "optionExplanations": ["Audio levels are separate from color settings.", "Correct: White balance corrects color temperature for accurate colors.", "Frame rate controls playback speed.", "Resolution affects image detail, not color."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a shot list?",
+        "options": ["To track camera equipment inventory", "To plan every shot needed for a production before filming begins", "To list actors' names", "To record audio levels"],
+        "answer": 1,
+        "explain": "A shot list is a pre-production document that details every shot needed, including angle, framing, movement, and duration.",
+        "optionExplanations": ["Equipment inventory is separate from shot planning.", "Correct: Shot lists plan every shot before filming.", "Actor lists are part of casting, not shot planning.", "Audio levels are recorded during production."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a jump cut?",
+        "options": ["A camera movement", "An abrupt transition between two shots of the same subject from similar angles", "A slow-motion effect", "Cutting between different scenes"],
+        "answer": 1,
+        "explain": "A jump cut is an edit that abruptly jumps forward in time within the same shot, creating a jarring visual effect often used intentionally.",
+        "optionExplanations": ["Camera movements are pans, tilts, etc.", "Correct: Jump cuts create abrupt transitions within the same subject.", "Slow motion changes playback speed, not editing.", "Scene transitions are cross-cuts or transitions."],
+        "source": "ai"
+      },
+      {
+        "q": "What is three-point lighting?",
+        "options": ["Using three colors of light", "A standard setup using key light, fill light, and back light", "Lighting from three buildings", "Using three light switches"],
+        "answer": 1,
+        "explain": "Three-point lighting uses a key light (main), fill light (reduces shadows), and back light (separates subject from background).",
+        "optionExplanations": ["Light colors relate to color temperature, not three-point setup.", "Correct: Key, fill, and back light comprise three-point lighting.", "Building locations are irrelevant.", "Light switches are not a lighting technique."],
+        "source": "ai"
+      },
+      {
+        "q": "What does aspect ratio refer to in video?",
+        "options": ["The volume level of audio", "The proportional relationship between the width and height of the frame", "The number of scenes in a video", "The color depth of the image"],
+        "answer": 1,
+        "explain": "Aspect ratio describes the proportional relationship between width and height (e.g., 16:9 widescreen, 4:3 standard).",
+        "optionExplanations": ["Volume is audio, not visual framing.", "Correct: Aspect ratio is the width-to-height proportion.", "Scene count is part of editing structure.", "Color depth relates to color information per pixel."],
+        "source": "ai"
+      },
+      {
+        "q": "What is color grading?",
+        "options": ["Rating the quality of colors", "The process of adjusting colors in post-production to create a desired visual mood", "Choosing camera brands based on color accuracy", "Painting props for a scene"],
+        "answer": 1,
+        "explain": "Color grading manipulates color, contrast, and tones in post-production to create visual consistency and establish mood or style.",
+        "optionExplanations": ["Rating colors is not a production technique.", "Correct: Color grading adjusts colors for mood and consistency.", "Camera selection is pre-production equipment choice.", "Prop painting is art direction, not post-production."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a dolly shot?",
+        "options": ["A shot of a toy doll", "A smooth camera movement where the camera moves toward or away from the subject on a wheeled platform", "A still photograph", "A slow-motion shot"],
+        "answer": 1,
+        "explain": "A dolly shot moves the camera smoothly toward or away from the subject using a wheeled platform (dolly) along a track.",
+        "optionExplanations": ["The name refers to the wheeled platform, not a toy.", "Correct: A dolly shot moves the camera on a wheeled platform.", "Still photos don't involve camera movement.", "Slow motion changes speed, not camera position."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a lavalier microphone best used for?",
+        "options": ["Recording music concerts", "Clipping onto a speaker's clothing for hands-free audio recording", "Capturing ambient sound outdoors", "Recording sound effects in a studio"],
+        "answer": 1,
+        "explain": "A lavalier (lav) microphone is a small clip-on mic worn on clothing, ideal for interviews and presentations with hands-free operation.",
+        "optionExplanations": ["Concert recording typically uses larger microphones.", "Correct: Lav mics clip to clothing for hands-free recording.", "Ambient sound uses shotgun or omnidirectional mics.", "Studio sound effects often use specialized mics."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a transition in video editing?",
+        "options": ["To increase file size", "To smoothly connect two clips and indicate a change in time, location, or idea", "To add random visual effects", "To speed up the video"],
+        "answer": 1,
+        "explain": "Transitions (cuts, dissolves, wipes) connect clips smoothly and communicate changes in time, place, or narrative flow to the viewer.",
+        "optionExplanations": ["File size is a technical concern, not a creative choice.", "Correct: Transitions connect clips and signal changes.", "Effects should serve the story, not be random.", "Speed changes use time remapping, not transitions."],
+        "source": "ai"
+      },
+      {
+        "q": "What resolution is considered Full HD?",
+        "options": ["720 × 480", "1280 × 720", "1920 × 1080", "3840 × 2160"],
+        "answer": 2,
+        "explain": "Full HD (1080p) has a resolution of 1920 × 1080 pixels, providing high-quality standard for modern video production.",
+        "optionExplanations": ["720×480 is standard definition (SD).", "1280×720 is HD (720p), not Full HD.", "Correct: 1920×1080 is Full HD (1080p).", "3840×2160 is 4K Ultra HD."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a close-up shot used for?",
+        "options": ["Showing a wide landscape", "Emphasizing details, facial expressions, or specific objects", "Recording a group of people", "Capturing a building's exterior"],
+        "answer": 1,
+        "explain": "Close-up shots tightly frame a subject's face or an object detail, emphasizing emotion or important visual information.",
+        "optionExplanations": ["Wide landscapes use wide or establishing shots.", "Correct: Close-ups emphasize detail and emotion.", "Group shots use medium or wide framing.", "Building exteriors use establishing shots."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of sound design in video production?",
+        "options": ["To make the video louder", "To create an immersive audio experience that enhances storytelling", "To eliminate all background noise", "To add as many sound effects as possible"],
+        "answer": 1,
+        "explain": "Sound design thoughtfully combines dialogue, music, sound effects, and ambient audio to support the narrative and create atmosphere.",
+        "optionExplanations": ["Volume alone doesn't constitute sound design.", "Correct: Sound design enhances storytelling through audio.", "Some background sound adds atmosphere.", "Overuse of effects can distract from the story."],
+        "source": "ai"
+      },
+      {
+        "q": "What should a video production team create during pre-production?",
+        "options": ["The final edited video", "A script, storyboard, shot list, and production schedule", "Only the sound effects", "The marketing plan"],
+        "answer": 1,
+        "explain": "Pre-production planning includes script, storyboard, shot list, casting, location scouting, and scheduling before filming begins.",
+        "optionExplanations": ["The final video comes from post-production.", "Correct: Pre-production creates planning documents.", "Sound effects are typically post-production.", "Marketing plans are made separately."],
+        "source": "ai"
+      }
+    ],
+    "Event Planning": [
+      {
+        "q": "What is the first step in event planning?",
+        "options": ["Booking the venue", "Defining the event's purpose, goals, and target audience", "Hiring entertainment", "Sending invitations"],
+        "answer": 1,
+        "explain": "Successful event planning begins with clearly defining the event's purpose, objectives, target audience, and desired outcomes.",
+        "optionExplanations": ["Venue booking comes after understanding the event's needs.", "Correct: Defining purpose and goals is the essential first step.", "Entertainment is booked after the event concept is set.", "Invitations are sent after planning is complete."],
+        "source": "ai"
+      },
+      {
+        "q": "What is an event budget?",
+        "options": ["A list of attendees", "A financial plan detailing expected income and expenses for the event", "A timeline of activities", "A decorating guide"],
+        "answer": 1,
+        "explain": "An event budget is a financial plan that estimates all costs and potential revenue to ensure the event is financially feasible.",
+        "optionExplanations": ["Attendee lists are part of registration.", "Correct: An event budget tracks income and expenses.", "Activity timelines are scheduling tools.", "Decorating guides are design documents."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a run-of-show document?",
+        "options": ["A list of performers only", "A detailed timeline of every activity and responsibility during the event", "A marketing brochure", "An attendee feedback form"],
+        "answer": 1,
+        "explain": "A run-of-show is a minute-by-minute timeline that details every activity, cue, and responsibility throughout the event.",
+        "optionExplanations": ["It includes more than just performers.", "Correct: A run-of-show details every activity and timing.", "Marketing brochures promote events.", "Feedback forms collect post-event opinions."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a post-event evaluation?",
+        "options": ["To plan the menu for the next event", "To assess what went well and identify improvements for future events", "To finalize the guest list", "To send thank-you gifts"],
+        "answer": 1,
+        "explain": "Post-event evaluation gathers feedback and reviews outcomes against goals to identify successes and areas for improvement.",
+        "optionExplanations": ["Menu planning is a logistics task.", "Correct: Evaluation assesses outcomes and identifies improvements.", "Guest lists are finalized before the event.", "Thank-you gifts are a follow-up courtesy."],
+        "source": "ai"
+      },
+      {
+        "q": "What is venue capacity and why is it important?",
+        "options": ["The venue's address", "The maximum number of people a venue can safely hold, critical for safety and planning", "The venue's rental price", "The venue's parking layout"],
+        "answer": 1,
+        "explain": "Venue capacity is the maximum number of occupants allowed by fire code, essential for safety compliance and event sizing.",
+        "optionExplanations": ["The address is the location, not capacity.", "Correct: Capacity is the maximum safe occupancy.", "Rental price is a cost, not a safety measure.", "Parking layout is accessibility, not capacity."],
+        "source": "ai"
+      },
+      {
+        "q": "What is event sponsorship?",
+        "options": ["Attending an event for free", "Financial or in-kind support from organizations in exchange for exposure or branding", "Volunteering at an event", "Canceling an event"],
+        "answer": 1,
+        "explain": "Sponsorship is a partnership where organizations provide financial support or resources in exchange for promotional benefits.",
+        "optionExplanations": ["Free attendance is a comp ticket, not sponsorship.", "Correct: Sponsorship trades support for exposure.", "Volunteering is service, not sponsorship.", "Canceling is termination, not sponsorship."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a contingency plan in event management?",
+        "options": ["The primary event schedule", "A backup plan for handling unexpected issues or emergencies", "A list of vendors", "A promotional strategy"],
+        "answer": 1,
+        "explain": "A contingency plan outlines backup procedures for dealing with unexpected situations like weather, equipment failure, or cancellations.",
+        "optionExplanations": ["The primary schedule is the main plan.", "Correct: Contingency plans address unexpected issues.", "Vendor lists are procurement documents.", "Promotional strategies are marketing plans."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the role of an event coordinator?",
+        "options": ["To attend the event as a guest", "To oversee all aspects of event planning, execution, and follow-up", "To provide security", "To serve food"],
+        "answer": 1,
+        "explain": "An event coordinator manages the planning, logistics, execution, and post-event activities to ensure a successful event.",
+        "optionExplanations": ["Guests attend but don't manage the event.", "Correct: Coordinators oversee all event aspects.", "Security is one specialized role.", "Food service is catering, not coordination."],
+        "source": "ai"
+      },
+      {
+        "q": "What is risk management in event planning?",
+        "options": ["Ignoring potential problems", "Identifying, assessing, and mitigating potential risks to the event", "Only purchasing insurance", "Canceling events that seem risky"],
+        "answer": 1,
+        "explain": "Risk management systematically identifies potential threats, evaluates their likelihood and impact, and develops mitigation strategies.",
+        "optionExplanations": ["Ignoring problems increases risk.", "Correct: Risk management identifies, assesses, and mitigates risks.", "Insurance is one tool, but risk management is broader.", "Cancellation is a last resort, not risk management."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is attendee registration important?",
+        "options": ["To make events more complicated", "To track headcount, manage logistics, and communicate with attendees", "To increase costs", "To limit attendance unnecessarily"],
+        "answer": 1,
+        "explain": "Registration tracks expected attendance for logistics planning, enables communication, and helps manage food, seating, and materials.",
+        "optionExplanations": ["Good registration simplifies, not complicates, planning.", "Correct: Registration supports headcount tracking and communication.", "Registration helps optimize costs.", "Registration manages capacity, not arbitrarily limits it."],
+        "source": "ai"
+      },
+      {
+        "q": "What should be included in a post-event report?",
+        "options": ["Only financial data", "Event summary, attendance, budget analysis, feedback, and recommendations", "Just photographs", "Only negative feedback"],
+        "answer": 1,
+        "explain": "A comprehensive post-event report covers event highlights, attendance data, financial review, stakeholder feedback, and improvement recommendations.",
+        "optionExplanations": ["Financial data is important but not the only component.", "Correct: Reports should be comprehensive covering all aspects.", "Photos supplement but don't constitute a full report.", "Reports should include both positive and negative feedback."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of an event theme?",
+        "options": ["To increase costs unnecessarily", "To create a cohesive experience that ties all event elements together", "To confuse attendees", "To limit decoration options"],
+        "answer": 1,
+        "explain": "An event theme provides a unifying concept that guides decor, activities, marketing, and attendee experience for a cohesive event.",
+        "optionExplanations": ["Themes can be executed at any budget level.", "Correct: Themes unify all event elements.", "Good themes enhance, not confuse, the experience.", "Themes guide decoration choices, not limit them."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a vendor contract?",
+        "options": ["A verbal agreement", "A written agreement outlining services, costs, deliverables, and terms between the event and a vendor", "A guest list", "An event invitation"],
+        "answer": 1,
+        "explain": "Vendor contracts are legally binding written agreements that specify services, costs, delivery dates, cancellation terms, and responsibilities.",
+        "optionExplanations": ["Verbal agreements are unreliable and unenforceable.", "Correct: Vendor contracts formalize service agreements.", "Guest lists track attendees, not vendor agreements.", "Invitations are for attendees, not vendors."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of site visits before an event?",
+        "options": ["They are unnecessary", "To assess the venue's suitability, layout, accessibility, and logistics firsthand", "To take vacation photos", "To avoid planning"],
+        "answer": 1,
+        "explain": "Site visits allow planners to assess the venue's space, equipment, accessibility, and potential issues before committing.",
+        "optionExplanations": ["Site visits are essential for good planning.", "Correct: Site visits assess venue suitability firsthand.", "Site visits serve professional purposes.", "Site visits are part of thorough planning."],
+        "source": "ai"
+      },
+      {
+        "q": "What is event marketing?",
+        "options": ["Selling products at the event", "Promoting the event to attract the target audience through various channels", "Decorating the venue", "Managing event volunteers"],
+        "answer": 1,
+        "explain": "Event marketing uses promotional strategies across channels (social media, email, print) to build awareness and drive attendance.",
+        "optionExplanations": ["Product sales are a revenue activity, not event marketing.", "Correct: Event marketing promotes the event to attract attendees.", "Decoration is part of event design.", "Volunteer management is a logistics function."],
+        "source": "ai"
+      }
+    ]
+,
+    "Graphic Design": [
+      {
+        "q": "What are the three primary colors in the RGB color model?",
+        "options": ["Red, Yellow, Blue", "Red, Green, Blue", "Cyan, Magenta, Yellow", "Red, Green, Black"],
+        "answer": 1,
+        "explain": "RGB (Red, Green, Blue) is the additive color model used for digital screens where combining all three produces white light.",
+        "optionExplanations": ["Red, Yellow, Blue are traditional art primaries (RYB), not RGB.", "Correct: RGB uses Red, Green, and Blue for digital displays.", "Cyan, Magenta, Yellow are CMYK subtractive primaries for print.", "Black is used in CMYK (K) but not in RGB primaries."],
+        "source": "ai"
+      },
+      {
+        "q": "What is kerning in typography?",
+        "options": ["The space between lines of text", "The adjustment of space between individual letter pairs", "The thickness of a font", "The size of a font"],
+        "answer": 1,
+        "explain": "Kerning adjusts the horizontal spacing between specific letter pairs to achieve visually even spacing.",
+        "optionExplanations": ["Line spacing is called leading.", "Correct: Kerning adjusts space between individual letter pairs.", "Font thickness is called weight.", "Font size is measured in points."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between a raster and vector image?",
+        "options": ["There is no difference", "Raster images are pixel-based; vector images are math-based and infinitely scalable", "Raster is always higher quality", "Vector images cannot be printed"],
+        "answer": 1,
+        "explain": "Raster images use pixels that lose quality when scaled up, while vector images use mathematical paths that scale infinitely without quality loss.",
+        "optionExplanations": ["They are fundamentally different formats.", "Correct: Raster uses pixels; vector uses scalable math paths.", "Quality depends on resolution and use case.", "Vector images print excellently at any size."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a complementary color scheme?",
+        "options": ["Using only one color", "Using colors directly opposite each other on the color wheel", "Using three adjacent colors", "Using only black and white"],
+        "answer": 1,
+        "explain": "Complementary colors sit opposite each other on the color wheel (e.g., blue and orange), creating high contrast and visual energy.",
+        "optionExplanations": ["One color is a monochromatic scheme.", "Correct: Complementary colors are opposite on the color wheel.", "Adjacent colors form an analogous scheme.", "Black and white is an achromatic scheme."],
+        "source": "ai"
+      },
+      {
+        "q": "What does CMYK stand for?",
+        "options": ["Computer Managed Yellow Key", "Cyan, Magenta, Yellow, Key (Black)", "Color Mode for Your Kit", "Calibrated Monitor for Yellow and Kolor"],
+        "answer": 1,
+        "explain": "CMYK (Cyan, Magenta, Yellow, Key/Black) is the subtractive color model used for print production.",
+        "optionExplanations": ["This is not the correct expansion.", "Correct: Cyan, Magenta, Yellow, Key (Black) for print.", "This is not what CMYK stands for.", "This is not the correct expansion."],
+        "source": "ai"
+      },
+      {
+        "q": "What is visual hierarchy in design?",
+        "options": ["Placing all elements at the same size", "Arranging elements to guide the viewer's eye through content in order of importance", "Using only text without images", "Randomizing element placement"],
+        "answer": 1,
+        "explain": "Visual hierarchy uses size, color, contrast, and placement to guide viewers through content from most to least important.",
+        "optionExplanations": ["Same-size elements create no hierarchy.", "Correct: Visual hierarchy guides the eye through content by importance.", "Text-only design can still have hierarchy.", "Random placement creates confusion, not hierarchy."],
+        "source": "ai"
+      },
+      {
+        "q": "What is white space (negative space) in design?",
+        "options": ["A design mistake", "The empty area around and between design elements that improves readability", "Space that must be filled with content", "The background color of a design"],
+        "answer": 1,
+        "explain": "White space is the intentional empty area that provides breathing room, improves readability, and creates visual balance.",
+        "optionExplanations": ["White space is an intentional design choice.", "Correct: White space is the intentional empty area that improves design.", "Filling all space creates clutter.", "White space refers to empty areas, regardless of background color."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a serif font?",
+        "options": ["A handwritten font", "A font with small decorative strokes at the ends of letter strokes", "A font without any decorative elements", "A font used only for headlines"],
+        "answer": 1,
+        "explain": "Serif fonts (like Times New Roman) have small decorative lines or strokes attached to the ends of larger strokes in letters.",
+        "optionExplanations": ["Handwritten fonts are script fonts.", "Correct: Serif fonts have decorative strokes at stroke ends.", "Fonts without decorative strokes are called sans-serif.", "Serifs are used for both body text and headlines."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a design brief?",
+        "options": ["To showcase the final design", "To outline the project goals, target audience, requirements, and constraints", "To list all fonts available", "To display the designer's portfolio"],
+        "answer": 1,
+        "explain": "A design brief documents the project scope, goals, target audience, brand guidelines, timeline, and deliverables.",
+        "optionExplanations": ["Final designs come after the brief.", "Correct: A brief outlines project goals and requirements.", "Font selection is one design detail, not the brief.", "Portfolios showcase past work, not project requirements."],
+        "source": "ai"
+      },
+      {
+        "q": "What does DPI stand for in printing?",
+        "options": ["Digital Processing Index", "Dots Per Inch", "Design Pixel Integration", "Document Print Interface"],
+        "answer": 1,
+        "explain": "DPI (Dots Per Inch) measures print resolution — higher DPI produces sharper, more detailed printed output (300 DPI is standard for quality print).",
+        "optionExplanations": ["This is not what DPI stands for.", "Correct: Dots Per Inch measures print resolution.", "This is not the correct expansion.", "This is not what DPI stands for."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a brand style guide?",
+        "options": ["A fashion magazine", "A document defining the visual and messaging standards for a brand", "A social media profile", "A website template"],
+        "answer": 1,
+        "explain": "A brand style guide defines standards for logo usage, colors, typography, imagery, and tone of voice to ensure brand consistency.",
+        "optionExplanations": ["Fashion magazines are publications.", "Correct: Style guides define brand visual and messaging standards.", "Social media profiles are online presences.", "Templates are design frameworks."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of alignment in graphic design?",
+        "options": ["To make everything centered", "To create visual connections between elements for a clean, organized layout", "To use only left-aligned text", "To increase the file size"],
+        "answer": 1,
+        "explain": "Alignment creates visual order by connecting elements along invisible lines, making layouts look professional and organized.",
+        "optionExplanations": ["Centering everything is one alignment but not the only option.", "Correct: Alignment creates visual connections and organized layouts.", "Left alignment is one type but not the only option.", "File size is unrelated to alignment."],
+        "source": "ai"
+      },
+      {
+        "q": "What file format is best for logos that need to scale to any size?",
+        "options": ["JPEG", "GIF", "SVG or EPS (vector formats)", "BMP"],
+        "answer": 2,
+        "explain": "Vector formats like SVG and EPS use mathematical paths that scale infinitely without quality loss, making them ideal for logos.",
+        "optionExplanations": ["JPEG is raster and loses quality when scaled up.", "GIF is raster with limited colors.", "Correct: SVG/EPS are vector formats that scale without quality loss.", "BMP is raster and produces very large file sizes."],
+        "source": "ai"
+      },
+      {
+        "q": "What is contrast in design?",
+        "options": ["Making everything the same color", "The difference between elements that makes them visually distinct", "Using only dark colors", "Avoiding bright colors"],
+        "answer": 1,
+        "explain": "Contrast uses differences in color, size, shape, or texture to make elements stand out and create visual interest.",
+        "optionExplanations": ["Same colors create no contrast.", "Correct: Contrast creates visual distinction between elements.", "Dark colors alone don't create contrast.", "Bright colors can be essential for contrast."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a grid system in graphic design?",
+        "options": ["A pattern of squares on the final design", "A framework of lines used to organize and align content consistently", "A type of color palette", "A printing technique"],
+        "answer": 1,
+        "explain": "A grid system provides a structural framework of columns, rows, and margins to consistently organize content and maintain alignment.",
+        "optionExplanations": ["Grids are invisible guides, not visible patterns.", "Correct: Grids organize content with consistent structure.", "Color palettes define color choices.", "Printing techniques are production methods."],
+        "source": "ai"
+      }
+    ],
+    "Impromptu Speaking": [
+      {
+        "q": "What is the recommended structure for an impromptu speech?",
+        "options": ["Random thoughts in any order", "Introduction with a hook, 2-3 main points with support, and a strong conclusion", "Only reading from notes", "Repeating the topic multiple times"],
+        "answer": 1,
+        "explain": "A well-structured impromptu speech has an engaging opening, organized body points with supporting details, and a memorable conclusion.",
+        "optionExplanations": ["Random thoughts lack structure and clarity.", "Correct: A clear intro, body, and conclusion structure works best.", "Impromptu speaking typically doesn't allow prepared notes.", "Repetition without substance doesn't demonstrate speaking ability."],
+        "source": "ai"
+      },
+      {
+        "q": "How much preparation time is typically given for FBLA impromptu speaking?",
+        "options": ["No preparation time", "1 minute", "30 minutes", "1 hour"],
+        "answer": 1,
+        "explain": "FBLA typically gives competitors about 1 minute of preparation time after receiving their topic before beginning their speech.",
+        "optionExplanations": ["Some preparation time is typically provided.", "Correct: About 1 minute of preparation time is standard.", "30 minutes would make it a prepared speech.", "An hour exceeds impromptu speaking parameters."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the best way to begin an impromptu speech?",
+        "options": ["Apologize for not being prepared", "Open with a relevant hook such as a question, quote, or bold statement", "Start with 'um' and 'uh'", "Read the topic card aloud and say nothing else"],
+        "answer": 1,
+        "explain": "A strong opening hook captures the audience's attention and sets the tone for the rest of the speech.",
+        "optionExplanations": ["Apologizing shows lack of confidence.", "Correct: A hook engages the audience from the start.", "Filler words undermine credibility.", "Simply reading the topic doesn't demonstrate speaking skill."],
+        "source": "ai"
+      },
+      {
+        "q": "What should you do if you lose your train of thought during an impromptu speech?",
+        "options": ["Stop speaking immediately", "Pause briefly, summarize your last point, and transition to your next idea", "Apologize repeatedly", "Start the entire speech over"],
+        "answer": 1,
+        "explain": "A brief pause appears natural and confident; summarizing your last point gives you time to reorganize and continue smoothly.",
+        "optionExplanations": ["Stopping abruptly appears unprepared.", "Correct: Pause, summarize, and transition smoothly.", "Repeated apologies draw attention to the mistake.", "Restarting wastes time and appears disorganized."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is eye contact important in public speaking?",
+        "options": ["It helps you read the audience's notes", "It builds connection, credibility, and shows confidence", "It is not important", "It intimidates the audience"],
+        "answer": 1,
+        "explain": "Eye contact creates a personal connection with the audience, demonstrates confidence, and helps engage listeners.",
+        "optionExplanations": ["You shouldn't try to read audience notes.", "Correct: Eye contact builds connection and shows confidence.", "Eye contact is a fundamental speaking skill.", "Good eye contact engages, not intimidates."],
+        "source": "ai"
+      },
+      {
+        "q": "What are filler words and why should they be minimized?",
+        "options": ["Important vocabulary words", "Words like 'um,' 'uh,' 'like' that distract from the message and reduce credibility", "Required parts of any speech", "Words that improve speech flow"],
+        "answer": 1,
+        "explain": "Filler words are verbal pauses that, when overused, distract listeners and make the speaker appear less confident and prepared.",
+        "optionExplanations": ["Filler words are not substantive vocabulary.", "Correct: Fillers distract and reduce speaker credibility.", "Fillers should be minimized, not required.", "Fillers break flow rather than improve it."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of using examples in an impromptu speech?",
+        "options": ["To make the speech longer", "To support and illustrate your main points with concrete evidence", "To confuse the audience", "To show off your knowledge"],
+        "answer": 1,
+        "explain": "Examples provide concrete support for abstract ideas, making your arguments more persuasive and relatable to the audience.",
+        "optionExplanations": ["Length should serve content, not the other way around.", "Correct: Examples provide concrete support for your points.", "Good examples clarify, not confuse.", "Examples should serve the speech, not ego."],
+        "source": "ai"
+      },
+      {
+        "q": "What is vocal variety?",
+        "options": ["Speaking in a monotone voice", "Changing pitch, pace, volume, and tone to keep the audience engaged", "Speaking as fast as possible", "Whispering the entire speech"],
+        "answer": 1,
+        "explain": "Vocal variety involves modulating pitch, pace, volume, and tone to emphasize key points and maintain audience interest.",
+        "optionExplanations": ["Monotone delivery loses audience attention.", "Correct: Varying vocal qualities keeps the audience engaged.", "Speaking too fast makes content hard to follow.", "Whispering is not appropriate for public speaking."],
+        "source": "ai"
+      },
+      {
+        "q": "How should you conclude an impromptu speech?",
+        "options": ["Say 'that's all I've got'", "Summarize key points and end with a strong closing statement or call to action", "Trail off into silence", "Introduce a new topic"],
+        "answer": 1,
+        "explain": "A strong conclusion summarizes main points and leaves the audience with a memorable final thought or call to action.",
+        "optionExplanations": ["Casual endings appear unprofessional.", "Correct: Summarize and close with a strong statement.", "Trailing off suggests lack of preparation.", "New topics in the conclusion create confusion."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the significance of body language in speaking?",
+        "options": ["Body language is irrelevant", "Gestures, posture, and movement reinforce the message and show confidence", "Only hand gestures matter", "Standing still is always best"],
+        "answer": 1,
+        "explain": "Effective body language — confident posture, purposeful gestures, and controlled movement — reinforces verbal messages.",
+        "optionExplanations": ["Body language communicates as much as words.", "Correct: Body language reinforces messages and shows confidence.", "Posture and movement are also important.", "Some movement can enhance delivery."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the 'rule of three' in speech-making?",
+        "options": ["Speaking for exactly three minutes", "Organizing ideas into three main points for clarity and memorability", "Using three different languages", "Having three speakers"],
+        "answer": 1,
+        "explain": "The rule of three states that ideas presented in threes are more memorable, satisfying, and effective than other groupings.",
+        "optionExplanations": ["Time limits vary by event.", "Correct: Three main points create a clear, memorable structure.", "Multilingual speaking is not the rule of three.", "Speaker count is unrelated to speech structure."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a transition in a speech?",
+        "options": ["To confuse the audience", "To smoothly connect ideas and signal movement from one point to the next", "To end the speech abruptly", "To repeat the same point"],
+        "answer": 1,
+        "explain": "Transitions are verbal bridges that connect ideas, help the audience follow the speech structure, and create smooth flow between points.",
+        "optionExplanations": ["Transitions should clarify, not confuse.", "Correct: Transitions connect ideas and signal movement.", "Abrupt endings are not transitions.", "Repetition is not the purpose of transitions."],
+        "source": "ai"
+      },
+      {
+        "q": "What does 'speaking to the topic' mean in impromptu speaking?",
+        "options": ["Ignoring the given topic", "Directly addressing the assigned topic with relevant, focused content", "Choosing your own topic", "Speaking about personal hobbies only"],
+        "answer": 1,
+        "explain": "Speaking to the topic means directly and relevantly addressing the assigned subject matter throughout the speech.",
+        "optionExplanations": ["Ignoring the topic would result in a poor score.", "Correct: Directly addressing the topic with relevant content.", "You must address the assigned topic, not choose your own.", "Personal content should only be used if it supports the topic."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is practicing impromptu speaking beneficial?",
+        "options": ["It makes you memorize speeches", "It builds quick thinking, confidence, and the ability to organize thoughts rapidly", "It is not helpful", "It only improves reading ability"],
+        "answer": 1,
+        "explain": "Regular impromptu practice develops the ability to think on your feet, organize ideas quickly, and speak confidently under pressure.",
+        "optionExplanations": ["Impromptu speaking avoids memorization.", "Correct: Practice builds quick thinking and confidence.", "Impromptu practice is highly beneficial.", "It improves speaking, not just reading."],
+        "source": "ai"
+      },
+      {
+        "q": "What is appropriate professional attire for an FBLA speaking event?",
+        "options": ["Casual clothes and sneakers", "Professional business attire such as a suit, dress shirt, or business dress", "Athletic wear", "Costume clothing"],
+        "answer": 1,
+        "explain": "FBLA speaking events require professional business attire that demonstrates professionalism and respect for the competition.",
+        "optionExplanations": ["Casual clothes are inappropriate for FBLA competition.", "Correct: Professional business attire is required.", "Athletic wear is not professional.", "Costumes are inappropriate for business events."],
+        "source": "ai"
+      }
+    ],
+    "Introduction to Public Speaking": [
+      {
+        "q": "What are the three main purposes of a speech?",
+        "options": ["To read, write, and memorize", "To inform, persuade, or entertain", "To sing, dance, and act", "To whisper, shout, and murmur"],
+        "answer": 1,
+        "explain": "Speeches generally aim to inform (educate the audience), persuade (change beliefs or actions), or entertain (engage and amuse).",
+        "optionExplanations": ["These are literacy skills, not speech purposes.", "Correct: Inform, persuade, and entertain are the three main purposes.", "These are performing arts, not speech purposes.", "These describe volume levels, not purposes."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of an attention-getter in a speech introduction?",
+        "options": ["To waste time", "To capture the audience's interest and motivate them to listen", "To confuse the audience", "To introduce the next speaker"],
+        "answer": 1,
+        "explain": "An attention-getter (hook) captures audience interest immediately, motivating them to listen to the rest of the speech.",
+        "optionExplanations": ["Attention-getters serve a strategic purpose.", "Correct: Hooks capture interest and motivate listening.", "Good hooks clarify, not confuse.", "Speaker introductions are separate from hooks."],
+        "source": "ai"
+      },
+      {
+        "q": "What is speech anxiety (glossophobia)?",
+        "options": ["A love of public speaking", "Fear or nervousness about speaking in front of an audience", "A type of speech impediment", "An advanced speaking technique"],
+        "answer": 1,
+        "explain": "Speech anxiety (glossophobia) is the fear of public speaking, one of the most common fears that can be managed through practice.",
+        "optionExplanations": ["Love of speaking is the opposite of glossophobia.", "Correct: Glossophobia is fear of public speaking.", "Speech impediments are physical conditions.", "It's a challenge to overcome, not a technique."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between an informative and a persuasive speech?",
+        "options": ["There is no difference", "Informative teaches factual content; persuasive aims to change beliefs or actions", "Persuasive speeches are always longer", "Informative speeches don't need research"],
+        "answer": 1,
+        "explain": "Informative speeches educate with factual information, while persuasive speeches advocate for a position and aim to change audience attitudes.",
+        "optionExplanations": ["They have distinctly different goals.", "Correct: Informative educates; persuasive aims to change beliefs.", "Length depends on the topic, not the type.", "Both types require thorough research."],
+        "source": "ai"
+      },
+      {
+        "q": "What is audience analysis?",
+        "options": ["Testing the audience's intelligence", "Researching the audience's demographics, interests, and knowledge to tailor your speech", "Counting the number of audience members", "Asking the audience to analyze your speech"],
+        "answer": 1,
+        "explain": "Audience analysis involves understanding your audience's characteristics, interests, and knowledge level to make your speech relevant and engaging.",
+        "optionExplanations": ["Intelligence testing is inappropriate and unrelated.", "Correct: Audience analysis tailors content to the audience.", "Counting is logistics, not analysis.", "Audience feedback comes after, not before, the speech."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes an effective speech conclusion?",
+        "options": ["Introducing new information", "Summarizing key points and ending with a memorable final thought", "Saying 'I'm done' and sitting down", "Asking the audience for their opinion"],
+        "answer": 1,
+        "explain": "A strong conclusion reviews main points, reinforces the central message, and leaves the audience with a lasting impression.",
+        "optionExplanations": ["New information belongs in the body, not conclusion.", "Correct: Summarize and close with a memorable thought.", "Abrupt endings are unprofessional.", "Q&A is separate from the conclusion."],
+        "source": "ai"
+      },
+      {
+        "q": "What is ethos in persuasive speaking?",
+        "options": ["Emotional appeal", "The speaker's credibility and trustworthiness", "Logical reasoning", "The use of statistics"],
+        "answer": 1,
+        "explain": "Ethos refers to the speaker's credibility, character, and trustworthiness — an appeal based on the speaker's authority on the topic.",
+        "optionExplanations": ["Emotional appeal is pathos.", "Correct: Ethos is the speaker's credibility and trustworthiness.", "Logical reasoning is logos.", "Statistics support logos, not ethos."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of practice in public speaking?",
+        "options": ["Practice is unnecessary for good speakers", "Practice builds confidence, improves delivery, and helps manage speaking anxiety", "Practice makes speeches sound robotic", "Only beginners need to practice"],
+        "answer": 1,
+        "explain": "Consistent practice refines delivery, builds muscle memory, increases confidence, and helps speakers manage anxiety effectively.",
+        "optionExplanations": ["Even skilled speakers benefit from practice.", "Correct: Practice builds confidence and improves delivery.", "Good practice enhances natural delivery.", "All speakers benefit from regular practice."],
+        "source": "ai"
+      },
+      {
+        "q": "What is pathos in public speaking?",
+        "options": ["A logical argument", "An emotional appeal that connects with the audience's feelings", "The speaker's credentials", "A type of speech outline"],
+        "answer": 1,
+        "explain": "Pathos is a persuasive technique that appeals to the audience's emotions through stories, vivid language, and personal connections.",
+        "optionExplanations": ["Logical arguments are logos.", "Correct: Pathos appeals to the audience's emotions.", "Speaker credentials relate to ethos.", "Speech outlines are organizational tools."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of an outline in speech preparation?",
+        "options": ["To write out every word of the speech", "To organize main ideas, supporting points, and the logical flow of the speech", "To decorate the speech notes", "To time the speech"],
+        "answer": 1,
+        "explain": "A speech outline organizes main ideas and supporting details in a logical structure, ensuring clear and coherent delivery.",
+        "optionExplanations": ["Word-for-word scripts are manuscripts, not outlines.", "Correct: Outlines organize ideas and logical flow.", "Decoration is not the purpose of an outline.", "Timing is done during practice, not outlining."],
+        "source": "ai"
+      },
+      {
+        "q": "What is logos in persuasive speaking?",
+        "options": ["The company logo on slides", "A logical appeal using facts, data, and reasoning", "The volume of the speaker's voice", "The speaker's personal story"],
+        "answer": 1,
+        "explain": "Logos is a persuasive appeal based on logic, using evidence, facts, statistics, and sound reasoning to support arguments.",
+        "optionExplanations": ["Company logos are visual branding.", "Correct: Logos uses facts and reasoning to persuade.", "Voice volume is a delivery technique.", "Personal stories relate more to pathos."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is knowing your audience important before giving a speech?",
+        "options": ["It's not important", "It helps you tailor content, examples, and language to be relevant and engaging", "So you can use technical jargon", "To know their names"],
+        "answer": 1,
+        "explain": "Understanding your audience allows you to select relevant examples, appropriate language, and content that resonates with them.",
+        "optionExplanations": ["Audience awareness is essential for effective speaking.", "Correct: Audience knowledge helps tailor relevant content.", "Jargon may confuse rather than engage.", "Names are nice but not the primary purpose."],
+        "source": "ai"
+      },
+      {
+        "q": "What are supporting materials in a speech?",
+        "options": ["The podium and microphone", "Evidence such as facts, statistics, examples, and expert testimony that support main points", "The speaker's outfit", "Background music"],
+        "answer": 1,
+        "explain": "Supporting materials include evidence and examples that substantiate main points and make arguments more convincing.",
+        "optionExplanations": ["Physical items are equipment, not supporting materials.", "Correct: Facts, statistics, and examples support main points.", "Attire is important but not supporting material.", "Music is entertainment, not speech support."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between extemporaneous and impromptu speaking?",
+        "options": ["They are the same", "Extemporaneous is prepared but delivered from notes; impromptu has minimal preparation time", "Impromptu requires a manuscript", "Extemporaneous means reading word for word"],
+        "answer": 1,
+        "explain": "Extemporaneous speeches are researched and practiced but delivered conversationally from notes, while impromptu speeches have little preparation time.",
+        "optionExplanations": ["They differ in preparation level.", "Correct: Extemporaneous is prepared with notes; impromptu has minimal prep.", "Impromptu speaking doesn't use manuscripts.", "Reading word-for-word is manuscript delivery."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a speech topic effective?",
+        "options": ["It is extremely broad and vague", "It is focused, relevant to the audience, and the speaker is knowledgeable about it", "It is controversial and divisive", "It is randomly chosen without thought"],
+        "answer": 1,
+        "explain": "Effective speech topics are focused, relevant to the audience's interests, and within the speaker's area of knowledge or passion.",
+        "optionExplanations": ["Broad topics lack focus and depth.", "Correct: Focused, relevant topics with speaker knowledge work best.", "Controversial topics may alienate without proper handling.", "Random selection doesn't ensure relevance."],
+        "source": "ai"
+      }
+    ],
+    "Introduction to Social Media Strategy": [
+      {
+        "q": "What is a social media strategy?",
+        "options": ["Posting randomly on all platforms", "A planned approach for using social media to achieve specific business or organizational goals", "Only using one social media platform", "Avoiding social media entirely"],
+        "answer": 1,
+        "explain": "A social media strategy is a comprehensive plan that outlines goals, target audiences, content plans, and metrics for social media use.",
+        "optionExplanations": ["Random posting lacks strategy.", "Correct: A strategy is a planned approach with goals and metrics.", "Limiting to one platform may miss opportunities.", "Avoidance is not a strategy for leveraging social media."],
+        "source": "ai"
+      },
+      {
+        "q": "What is engagement rate on social media?",
+        "options": ["The number of followers", "A metric measuring the level of interaction (likes, comments, shares) relative to audience size", "The cost of advertising", "The number of posts published"],
+        "answer": 1,
+        "explain": "Engagement rate measures how actively an audience interacts with content, calculated as interactions divided by reach or followers.",
+        "optionExplanations": ["Follower count is reach, not engagement.", "Correct: Engagement rate measures interaction relative to audience size.", "Advertising cost is a financial metric.", "Post count measures output, not interaction."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a content calendar?",
+        "options": ["A list of holidays", "A schedule that plans when and what content will be published on each platform", "A type of social media platform", "A calendar app for personal use"],
+        "answer": 1,
+        "explain": "A content calendar organizes and schedules planned social media posts across platforms, ensuring consistent and strategic publishing.",
+        "optionExplanations": ["Holiday lists may inform content but aren't calendars.", "Correct: Content calendars schedule and organize planned posts.", "It's a planning tool, not a platform.", "Content calendars are for business content planning."],
+        "source": "ai"
+      },
+      {
+        "q": "What does ROI mean in social media marketing?",
+        "options": ["Rate of Interaction", "Return on Investment", "Reach of Impressions", "Range of Influence"],
+        "answer": 1,
+        "explain": "ROI (Return on Investment) measures the financial return generated from social media marketing efforts relative to their cost.",
+        "optionExplanations": ["Rate of Interaction is not what ROI stands for.", "Correct: Return on Investment.", "Reach of Impressions is not the standard definition.", "Range of Influence is not what ROI means."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a target audience in social media marketing?",
+        "options": ["Everyone on the internet", "A specific group of people most likely to be interested in your content or product", "Only your existing customers", "People who dislike your brand"],
+        "answer": 1,
+        "explain": "A target audience is the specific demographic and psychographic group most likely to engage with your content and become customers.",
+        "optionExplanations": ["Everyone is too broad to target effectively.", "Correct: Target audiences are specific groups likely to be interested.", "Existing customers are one segment but not the full target.", "Brand detractors are not a target audience."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between organic and paid social media reach?",
+        "options": ["There is no difference", "Organic reach is free distribution; paid reach involves advertising spend", "Organic is always better", "Paid reach doesn't work"],
+        "answer": 1,
+        "explain": "Organic reach comes from unpaid content distribution through followers and shares, while paid reach comes from advertising investment.",
+        "optionExplanations": ["They differ in how content reaches users.", "Correct: Organic is free; paid uses advertising spend.", "Each has advantages depending on goals.", "Paid reach can be highly effective when well-targeted."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is analytics important in social media strategy?",
+        "options": ["It's not important", "It provides data-driven insights to measure performance and optimize future content", "It only counts followers", "It replaces the need for good content"],
+        "answer": 1,
+        "explain": "Analytics data helps measure what's working, identify trends, optimize content strategy, and demonstrate ROI to stakeholders.",
+        "optionExplanations": ["Analytics are essential for effective strategy.", "Correct: Analytics provide data-driven insights for optimization.", "Analytics measure many metrics beyond followers.", "Good content and analytics work together."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a hashtag used for?",
+        "options": ["Decorating posts", "Categorizing content and making it discoverable to people searching for that topic", "Hiding content from public view", "Encrypting messages"],
+        "answer": 1,
+        "explain": "Hashtags categorize content by topic, making it discoverable to users who search for or follow specific hashtags.",
+        "optionExplanations": ["Hashtags serve a functional purpose beyond decoration.", "Correct: Hashtags categorize content for discoverability.", "Hashtags make content more visible, not hidden.", "Hashtags are not encryption tools."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a call to action (CTA) in social media?",
+        "options": ["A phone call to the company", "A prompt that encourages the audience to take a specific desired action", "A type of social media platform", "A government regulation"],
+        "answer": 1,
+        "explain": "A CTA directs the audience to take a specific action like 'Sign up now,' 'Learn more,' or 'Share this post.'",
+        "optionExplanations": ["CTAs are digital prompts, not phone calls.", "Correct: CTAs prompt specific audience actions.", "CTAs are content elements, not platforms.", "CTAs are marketing tools, not regulations."],
+        "source": "ai"
+      },
+      {
+        "q": "What is influencer marketing?",
+        "options": ["Marketing without influence", "Partnering with individuals who have significant social media followings to promote products", "Automated advertising", "Ignoring social media trends"],
+        "answer": 1,
+        "explain": "Influencer marketing leverages partnerships with individuals who have established credibility and audiences on social media.",
+        "optionExplanations": ["Influencer marketing leverages social influence.", "Correct: It partners with influential social media personalities.", "Influencer marketing requires human partnerships.", "Trend awareness is important in influencer selection."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a social media audit?",
+        "options": ["A financial tax audit", "A comprehensive review of all social media accounts, performance, and strategy effectiveness", "Deleting all social media accounts", "Creating new accounts"],
+        "answer": 1,
+        "explain": "A social media audit reviews account performance, audience demographics, content effectiveness, and competitive positioning.",
+        "optionExplanations": ["Tax audits are financial reviews.", "Correct: A social media audit reviews accounts and performance.", "Deleting accounts is not an audit.", "Creating accounts is setup, not auditing."],
+        "source": "ai"
+      },
+      {
+        "q": "What is user-generated content (UGC)?",
+        "options": ["Content created by the company's marketing team", "Content created by customers or users about a brand", "Automated content from bots", "Government-published content"],
+        "answer": 1,
+        "explain": "UGC is any content — reviews, photos, videos, testimonials — created by customers or users rather than the brand itself.",
+        "optionExplanations": ["Company content is branded content, not UGC.", "Correct: UGC is created by customers or users.", "Bot content is automated, not user-generated.", "Government content is public information."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of A/B testing in social media?",
+        "options": ["Testing internet speed", "Comparing two versions of content to determine which performs better", "Grading social media posts", "Testing computer hardware"],
+        "answer": 1,
+        "explain": "A/B testing compares two variations of content (different headlines, images, or CTAs) to identify which resonates more with the audience.",
+        "optionExplanations": ["Internet speed is a technical test.", "Correct: A/B testing compares content variations for performance.", "Grading is evaluation, not testing variations.", "Hardware testing is unrelated to content."],
+        "source": "ai"
+      },
+      {
+        "q": "What is brand voice in social media?",
+        "options": ["The CEO's personal speaking voice", "The consistent tone, style, and personality used in all brand communications", "The volume of audio in videos", "A voiceover in advertisements"],
+        "answer": 1,
+        "explain": "Brand voice is the distinctive personality and tone consistently expressed across all brand communications and social media content.",
+        "optionExplanations": ["Brand voice goes beyond any one person.", "Correct: Brand voice is consistent tone and personality in communications.", "Audio volume is a technical setting.", "Voiceovers are one content element, not brand voice."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is consistency important in social media marketing?",
+        "options": ["It's not important", "It builds brand recognition, trust, and keeps the audience engaged over time", "It means posting the same content repeatedly", "It limits creativity"],
+        "answer": 1,
+        "explain": "Consistent posting schedules, visual branding, and messaging build audience trust, recognition, and sustained engagement.",
+        "optionExplanations": ["Consistency is a key success factor.", "Correct: Consistency builds recognition, trust, and engagement.", "Consistency refers to regular posting, not repetitive content.", "Consistent branding still allows creative expression."],
+        "source": "ai"
+      }
+    ]
+,
+    "Job Interview": [
+      {
+        "q": "What is the STAR method used for in job interviews?",
+        "options": ["Rating employee performance", "Structuring behavioral interview responses: Situation, Task, Action, Result", "Creating a business plan", "Calculating sales revenue"],
+        "answer": 1,
+        "explain": "The STAR method (Situation, Task, Action, Result) provides a structured framework for answering behavioral interview questions effectively.",
+        "optionExplanations": ["Performance ratings use different evaluation methods.", "Correct: STAR structures responses around Situation, Task, Action, and Result.", "Business plans use different frameworks.", "Sales calculations use financial formulas."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the most important thing to research before a job interview?",
+        "options": ["The interviewer's personal life", "The company's mission, values, products, and recent news", "The building's architecture", "Other candidates being interviewed"],
+        "answer": 1,
+        "explain": "Researching the company demonstrates genuine interest and allows you to tailor your responses to align with the organization's goals and culture.",
+        "optionExplanations": ["Personal information about interviewers is inappropriate to research.", "Correct: Company research shows preparedness and genuine interest.", "Building details are irrelevant to interview performance.", "Other candidates are not your concern."],
+        "source": "ai"
+      },
+      {
+        "q": "How should you answer the question 'Tell me about yourself' in an interview?",
+        "options": ["Share your entire life story", "Give a brief professional summary highlighting relevant skills, experience, and career goals", "List all your hobbies", "Recite your resume word for word"],
+        "answer": 1,
+        "explain": "A concise professional summary focusing on relevant experience, key achievements, and how they connect to the role is the best approach.",
+        "optionExplanations": ["Life stories are too personal and unfocused.", "Correct: A brief professional summary with relevant highlights works best.", "Hobbies are generally not the focus of this question.", "Reciting a resume lacks personality and narrative."],
+        "source": "ai"
+      },
+      {
+        "q": "What is appropriate attire for a professional job interview?",
+        "options": ["Casual jeans and a t-shirt", "Professional business attire appropriate to the industry", "Athletic wear", "Costume clothing"],
+        "answer": 1,
+        "explain": "Professional business attire demonstrates respect for the interview process and shows you understand workplace professionalism.",
+        "optionExplanations": ["Casual clothing may appear unprofessional.", "Correct: Professional attire appropriate to the industry is standard.", "Athletic wear is not professional.", "Costume clothing is never appropriate."],
+        "source": "ai"
+      },
+      {
+        "q": "Why should you send a follow-up thank-you note after an interview?",
+        "options": ["It is required by law", "It demonstrates professionalism, reinforces your interest, and keeps you top of mind", "To negotiate salary immediately", "To ask about other candidates"],
+        "answer": 1,
+        "explain": "A thank-you note within 24 hours shows professionalism, gratitude, and continued interest in the position.",
+        "optionExplanations": ["Thank-you notes are courteous, not legally required.", "Correct: It demonstrates professionalism and reinforces interest.", "Salary negotiation comes later in the process.", "Asking about other candidates is inappropriate."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a behavioral interview question?",
+        "options": ["A question about your behavior outside of work", "A question asking you to describe how you handled a past situation relevant to the job", "A psychological test", "A question about your salary expectations"],
+        "answer": 1,
+        "explain": "Behavioral questions ask candidates to describe specific past experiences to predict future performance (e.g., 'Tell me about a time when...').",
+        "optionExplanations": ["Personal behavior outside work is generally not asked about.", "Correct: Behavioral questions ask about past situations and how you handled them.", "Psychological tests are separate assessments.", "Salary questions are not behavioral questions."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the best way to handle a question about your weaknesses?",
+        "options": ["Say you have no weaknesses", "Be honest about a genuine area for improvement and explain steps you are taking to address it", "List many serious weaknesses", "Refuse to answer the question"],
+        "answer": 1,
+        "explain": "Discussing a genuine weakness with self-awareness and showing steps you take to improve demonstrates maturity and growth mindset.",
+        "optionExplanations": ["Claiming no weaknesses appears dishonest or lacking self-awareness.", "Correct: Honest self-assessment with improvement steps shows maturity.", "Listing many weaknesses is excessive and damaging.", "Refusing to answer appears evasive."],
+        "source": "ai"
+      },
+      {
+        "q": "What is nonverbal communication in an interview?",
+        "options": ["Only written communication", "Body language, eye contact, posture, and facial expressions that convey messages without words", "Speaking very softly", "Text messaging during the interview"],
+        "answer": 1,
+        "explain": "Nonverbal communication includes body language, eye contact, posture, handshake, and facial expressions that significantly influence impressions.",
+        "optionExplanations": ["Written communication is a different form.", "Correct: Body language, eye contact, and posture are nonverbal communication.", "Speaking softly is still verbal communication.", "Texting during interviews is inappropriate."],
+        "source": "ai"
+      },
+      {
+        "q": "Why should you prepare questions to ask the interviewer?",
+        "options": ["To waste time", "To demonstrate genuine interest and evaluate whether the role is right for you", "To challenge the interviewer", "Questions are not necessary"],
+        "answer": 1,
+        "explain": "Asking thoughtful questions shows engagement, genuine interest in the role, and helps you determine if the company is a good fit.",
+        "optionExplanations": ["Good questions use time productively.", "Correct: Questions show interest and help evaluate fit.", "Questions should be collaborative, not challenging.", "Having no questions may signal disinterest."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of an elevator pitch?",
+        "options": ["To sell elevators", "A brief, persuasive summary of who you are and what value you offer, delivered in 30-60 seconds", "A long presentation", "A written essay about yourself"],
+        "answer": 1,
+        "explain": "An elevator pitch is a concise, compelling self-introduction that can be delivered in the time of an elevator ride (30-60 seconds).",
+        "optionExplanations": ["Elevator pitches have nothing to do with selling elevators.", "Correct: A brief persuasive summary delivered in 30-60 seconds.", "Long presentations are not elevator pitches.", "Written essays are different from verbal pitches."],
+        "source": "ai"
+      },
+      {
+        "q": "How should you handle an unexpected or difficult interview question?",
+        "options": ["Panic and leave", "Take a moment to think, stay calm, and provide a thoughtful response", "Refuse to answer", "Make up an answer quickly"],
+        "answer": 1,
+        "explain": "Taking a brief pause to collect your thoughts shows composure and leads to a more thoughtful, genuine response.",
+        "optionExplanations": ["Panicking shows inability to handle pressure.", "Correct: Staying calm and thinking before responding shows composure.", "Refusing to answer appears uncooperative.", "Rushed answers may lack substance or accuracy."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between hard skills and soft skills?",
+        "options": ["Hard skills are more important", "Hard skills are technical abilities; soft skills are interpersonal qualities like communication and teamwork", "Soft skills cannot be learned", "They are the same thing"],
+        "answer": 1,
+        "explain": "Hard skills are specific technical competencies, while soft skills are interpersonal abilities like communication, leadership, and adaptability.",
+        "optionExplanations": ["Both types are valued by employers.", "Correct: Hard skills are technical; soft skills are interpersonal.", "Soft skills can be developed through practice.", "They are distinctly different categories."],
+        "source": "ai"
+      },
+      {
+        "q": "What is appropriate body language during an interview?",
+        "options": ["Crossing arms and looking down", "Sitting upright, maintaining eye contact, and using open gestures", "Fidgeting constantly", "Slouching in the chair"],
+        "answer": 1,
+        "explain": "Positive body language — upright posture, eye contact, open gestures, and a firm handshake — conveys confidence and engagement.",
+        "optionExplanations": ["Crossed arms and avoiding eye contact signal defensiveness.", "Correct: Upright posture and eye contact show confidence and engagement.", "Fidgeting signals nervousness and distraction.", "Slouching appears unprofessional and disinterested."],
+        "source": "ai"
+      },
+      {
+        "q": "What should you bring to a job interview?",
+        "options": ["Nothing", "Extra copies of your resume, a list of references, a notepad, and a pen", "Your lunch", "Your entire portfolio of every project you have ever done"],
+        "answer": 1,
+        "explain": "Bringing extra resumes, references, a notepad, and questions shows preparedness and professionalism.",
+        "optionExplanations": ["Coming empty-handed appears unprepared.", "Correct: Extra resumes, references, and a notepad show preparedness.", "Lunch is not needed for most interviews.", "Bringing everything is excessive; select relevant samples."],
+        "source": "ai"
+      },
+      {
+        "q": "How early should you arrive for a job interview?",
+        "options": ["Exactly on time", "10-15 minutes early", "1 hour early", "It doesn't matter"],
+        "answer": 1,
+        "explain": "Arriving 10-15 minutes early shows punctuality and gives you time to compose yourself, but arriving too early can inconvenience the interviewer.",
+        "optionExplanations": ["Exactly on time leaves no buffer for unexpected delays.", "Correct: 10-15 minutes early is the professional standard.", "Arriving an hour early can be inconvenient.", "Arrival time reflects professionalism."],
+        "source": "ai"
+      }
+    ],
+    "Mobile Application Development": [
+      {
+        "q": "What is the difference between native and cross-platform mobile development?",
+        "options": ["There is no difference", "Native apps are built for one specific OS; cross-platform works on multiple OSes from one codebase", "Cross-platform always performs better", "Native apps cannot access device features"],
+        "answer": 1,
+        "explain": "Native development creates apps for a specific platform (iOS/Android) using platform-specific tools, while cross-platform uses shared code for multiple platforms.",
+        "optionExplanations": ["They differ significantly in approach and capabilities.", "Correct: Native targets one OS; cross-platform targets multiple from one codebase.", "Native apps typically have better performance.", "Native apps have full access to device features."],
+        "source": "ai"
+      },
+      {
+        "q": "What is UI/UX design in mobile app development?",
+        "options": ["Only the app's color scheme", "UI is the visual interface design; UX is the overall user experience and usability", "A programming language", "A type of database"],
+        "answer": 1,
+        "explain": "UI (User Interface) focuses on visual design elements, while UX (User Experience) encompasses the entire user journey and satisfaction.",
+        "optionExplanations": ["Color is just one aspect of UI.", "Correct: UI is visual design; UX is overall experience and usability.", "UI/UX is a design discipline, not a language.", "Databases store data, not design."],
+        "source": "ai"
+      },
+      {
+        "q": "What is responsive design in mobile development?",
+        "options": ["Making apps respond faster", "Designing interfaces that adapt to different screen sizes and orientations", "Using only one screen layout", "Making the app respond to voice commands"],
+        "answer": 1,
+        "explain": "Responsive design ensures the app's interface adjusts and looks good across different device sizes, resolutions, and orientations.",
+        "optionExplanations": ["Response speed is performance optimization.", "Correct: Responsive design adapts to different screen sizes.", "One layout doesn't fit all devices.", "Voice commands are a separate feature."],
+        "source": "ai"
+      },
+      {
+        "q": "What is an API in mobile app development?",
+        "options": ["A type of smartphone", "A set of protocols allowing the app to communicate with servers or other services", "A mobile operating system", "A design tool"],
+        "answer": 1,
+        "explain": "An API (Application Programming Interface) enables mobile apps to communicate with backend servers, databases, and third-party services.",
+        "optionExplanations": ["APIs are software interfaces, not hardware.", "Correct: APIs enable communication between apps and services.", "Operating systems run devices; APIs connect services.", "Design tools create visuals, not communication protocols."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of wireframing in app development?",
+        "options": ["Writing the final code", "Creating a basic visual blueprint of the app's layout and navigation before development", "Testing the app for bugs", "Marketing the app"],
+        "answer": 1,
+        "explain": "Wireframes are low-fidelity visual guides that represent the skeletal framework of an app, showing layout, navigation, and functionality.",
+        "optionExplanations": ["Code comes after wireframing.", "Correct: Wireframes are visual blueprints of app layout.", "Testing happens after development.", "Marketing is a separate phase."],
+        "source": "ai"
+      },
+      {
+        "q": "What is user testing in mobile app development?",
+        "options": ["Testing if users can lift the phone", "Having real users interact with the app to identify usability issues and gather feedback", "Running automated code tests only", "Testing internet speed"],
+        "answer": 1,
+        "explain": "User testing involves observing real users interacting with the app to discover usability problems, confusion points, and improvement opportunities.",
+        "optionExplanations": ["Physical testing is not user testing.", "Correct: User testing has real people interact with the app.", "User testing focuses on real human experience, not just automated tests.", "Internet speed testing is performance, not usability."],
+        "source": "ai"
+      },
+      {
+        "q": "What are push notifications?",
+        "options": ["Notifications you push away", "Messages sent from a server to a mobile app that appear even when the app isn't actively open", "Text messages between users", "Email alerts"],
+        "answer": 1,
+        "explain": "Push notifications are server-sent messages that appear on a user's device, even when the app isn't running, to re-engage users.",
+        "optionExplanations": ["Push refers to the delivery method, not dismissal.", "Correct: Push notifications are server-sent messages appearing on devices.", "Text messages are SMS, not push notifications.", "Emails are a separate communication channel."],
+        "source": "ai"
+      },
+      {
+        "q": "What is version control important in app development?",
+        "options": ["It tracks app store ratings", "It manages code changes, enables collaboration, and allows reverting to previous versions", "It controls the app's version number only", "It's not important"],
+        "answer": 1,
+        "explain": "Version control (like Git) tracks all code changes, enables team collaboration, and provides the ability to revert to any previous state.",
+        "optionExplanations": ["App store ratings are separate from version control.", "Correct: Version control manages code changes and collaboration.", "Version numbers are one aspect, but control systems do much more.", "Version control is essential for professional development."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between iOS and Android development?",
+        "options": ["They are identical", "iOS uses Swift/Xcode on Apple platforms; Android uses Kotlin/Java with Android Studio", "Android doesn't support apps", "iOS is only for games"],
+        "answer": 1,
+        "explain": "iOS development primarily uses Swift with Xcode, while Android uses Kotlin or Java with Android Studio, each with distinct design guidelines.",
+        "optionExplanations": ["They have different languages, tools, and guidelines.", "Correct: iOS uses Swift/Xcode; Android uses Kotlin/Java with Android Studio.", "Android has a vast app ecosystem.", "iOS supports all types of applications."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a prototype in app development?",
+        "options": ["The final released app", "An early interactive model of the app used to test concepts and gather feedback", "A marketing document", "A financial plan"],
+        "answer": 1,
+        "explain": "A prototype is an interactive mockup that simulates the app's functionality, used to test ideas and gather user feedback before full development.",
+        "optionExplanations": ["Prototypes precede the final product.", "Correct: Prototypes are interactive models for testing concepts.", "Marketing documents promote products.", "Financial plans cover budgets and revenue."],
+        "source": "ai"
+      },
+      {
+        "q": "What is app accessibility?",
+        "options": ["Making the app free", "Designing the app so people with disabilities can use it effectively", "Making the app available in all countries", "Making the app load fast"],
+        "answer": 1,
+        "explain": "Accessibility ensures that people with visual, auditory, motor, or cognitive disabilities can use the app through features like screen readers and high contrast.",
+        "optionExplanations": ["Free apps are about pricing, not accessibility.", "Correct: Accessibility makes apps usable for people with disabilities.", "Global availability is localization/distribution.", "Loading speed is performance optimization."],
+        "source": "ai"
+      },
+      {
+        "q": "What is local storage in mobile apps?",
+        "options": ["A physical storage room", "Data stored directly on the user's device for offline access", "Cloud storage only", "A type of database server"],
+        "answer": 1,
+        "explain": "Local storage saves data on the device itself, enabling offline functionality and faster access to frequently used information.",
+        "optionExplanations": ["Local storage is digital, not physical.", "Correct: Data stored on the device for offline access.", "Cloud storage is remote, not local.", "Database servers are remote infrastructure."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a splash screen?",
+        "options": ["To display advertisements", "A brief introductory screen shown while the app loads, featuring the app's branding", "To collect user data", "To test the screen display"],
+        "answer": 1,
+        "explain": "A splash screen provides a branded loading screen while the app initializes, creating a polished first impression.",
+        "optionExplanations": ["Splash screens are for branding, not ads.", "Correct: Splash screens show branding while the app loads.", "Data collection happens through forms, not splash screens.", "Screen testing is a QA activity."],
+        "source": "ai"
+      },
+      {
+        "q": "What is mobile-first design?",
+        "options": ["Designing only for mobile", "Designing for the smallest screen first, then adapting for larger screens", "Ignoring desktop users", "Using mobile phones to design"],
+        "answer": 1,
+        "explain": "Mobile-first design starts with the mobile experience and progressively enhances for larger screens, ensuring core functionality works on small devices.",
+        "optionExplanations": ["Mobile-first still considers larger screens.", "Correct: Design starts small and enhances for larger screens.", "Desktop users are considered in progressive enhancement.", "Mobile-first is a design philosophy, not a tool."],
+        "source": "ai"
+      },
+      {
+        "q": "What is app deployment?",
+        "options": ["Deleting the app", "The process of releasing the app to users through app stores or distribution platforms", "Writing the first line of code", "Designing the app icon"],
+        "answer": 1,
+        "explain": "Deployment is the process of packaging, submitting, and releasing the app to platforms like the Apple App Store or Google Play Store.",
+        "optionExplanations": ["Deletion removes apps, not deploys them.", "Correct: Deployment releases the app through distribution channels.", "Writing code is development, not deployment.", "Icon design is part of branding."],
+        "source": "ai"
+      }
+    ],
+    "Public Service Announcement": [
+      {
+        "q": "What is the primary purpose of a public service announcement (PSA)?",
+        "options": ["To advertise a product for profit", "To inform and educate the public about important social issues", "To entertain the audience", "To report breaking news"],
+        "answer": 1,
+        "explain": "PSAs are non-commercial messages designed to raise awareness, educate, and promote behavioral change on important public issues.",
+        "optionExplanations": ["PSAs are non-commercial; they don't sell products.", "Correct: PSAs inform and educate about social issues.", "While PSAs can be engaging, entertainment isn't the primary goal.", "News reporting is journalism, not PSA production."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a PSA effective?",
+        "options": ["Using complex technical language", "A clear message, emotional appeal, and a specific call to action", "Making it as long as possible", "Avoiding any visual elements"],
+        "answer": 1,
+        "explain": "Effective PSAs have a focused message, connect emotionally with the audience, and include a clear call to action.",
+        "optionExplanations": ["Complex language reduces accessibility.", "Correct: Clear message, emotional connection, and call to action.", "Concise PSAs are typically more impactful.", "Visual elements enhance engagement and understanding."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a call to action in a PSA?",
+        "options": ["A phone number to call", "A specific instruction telling the audience what to do after receiving the message", "A legal disclaimer", "Background music"],
+        "answer": 1,
+        "explain": "A call to action directs the audience to take specific steps, such as 'visit our website,' 'volunteer today,' or 'call this helpline.'",
+        "optionExplanations": ["Phone numbers may be part of a CTA but aren't the full concept.", "Correct: CTAs tell the audience exactly what action to take.", "Legal disclaimers are regulatory requirements.", "Music is an audio element, not a call to action."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the target audience for a PSA?",
+        "options": ["Only elderly people", "The specific group of people the PSA is designed to reach and influence", "Only children", "Only government officials"],
+        "answer": 1,
+        "explain": "The target audience is the specific demographic group the PSA aims to reach, defined by age, location, behavior, or other characteristics.",
+        "optionExplanations": ["PSAs can target any age group.", "Correct: The target audience is the specific group intended to receive the message.", "Children are one possible target, not the only one.", "PSAs reach the general public, not just officials."],
+        "source": "ai"
+      },
+      {
+        "q": "Which of the following is an important element of PSA scriptwriting?",
+        "options": ["Using as many words as possible", "Keeping the message concise, clear, and impactful", "Including product placement", "Avoiding emotional appeal"],
+        "answer": 1,
+        "explain": "Effective PSA scripts are concise, using powerful language and emotional connection to deliver a memorable message in a short time.",
+        "optionExplanations": ["Wordiness dilutes the message.", "Correct: Concise, clear, and impactful messaging works best.", "Product placement is commercial, not appropriate for PSAs.", "Emotional appeal is often key to PSA effectiveness."],
+        "source": "ai"
+      },
+      {
+        "q": "What role does music play in a PSA?",
+        "options": ["It is always unnecessary", "It sets the emotional tone and reinforces the message", "It should overpower the narration", "It is only used in radio PSAs"],
+        "answer": 1,
+        "explain": "Music in PSAs establishes mood, enhances emotional impact, and supports the overall message without overpowering the content.",
+        "optionExplanations": ["Music can significantly enhance PSA effectiveness.", "Correct: Music sets the emotional tone and reinforces the message.", "Music should support, not overpower, the content.", "Music is used in both video and audio PSAs."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between a PSA and a commercial advertisement?",
+        "options": ["There is no difference", "PSAs promote public welfare; commercials promote products for profit", "PSAs are always longer", "Commercials are always more creative"],
+        "answer": 1,
+        "explain": "PSAs are non-profit messages about public health, safety, or welfare, while commercials promote products or services for revenue.",
+        "optionExplanations": ["They have fundamentally different purposes.", "Correct: PSAs serve public welfare; commercials serve commercial interests.", "Length varies for both formats.", "Creativity exists in both PSAs and commercials."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of research when creating a PSA?",
+        "options": ["Research is unnecessary", "Research provides accurate facts, statistics, and understanding of the issue and audience", "Research only makes the process longer", "Research is only needed for scientific PSAs"],
+        "answer": 1,
+        "explain": "Thorough research ensures the PSA presents accurate information, resonates with the target audience, and addresses the issue effectively.",
+        "optionExplanations": ["Research is essential for credible PSAs.", "Correct: Research provides accurate facts and audience understanding.", "Research improves quality, not just lengthens the process.", "All PSA topics benefit from research."],
+        "source": "ai"
+      },
+      {
+        "q": "What is storyboarding in PSA production?",
+        "options": ["Writing the final script", "Creating a visual plan showing the sequence of scenes, shots, and transitions", "Recording the voiceover", "Editing the final video"],
+        "answer": 1,
+        "explain": "A storyboard is a visual blueprint that maps out each scene with sketches, camera directions, dialogue, and timing before production begins.",
+        "optionExplanations": ["Scriptwriting is a separate pre-production step.", "Correct: Storyboards visually plan scenes and shot sequences.", "Voiceover recording is part of production.", "Video editing happens in post-production."],
+        "source": "ai"
+      },
+      {
+        "q": "What visual techniques are commonly used in effective PSAs?",
+        "options": ["Only text on a blank screen", "Compelling imagery, graphics, statistics, and real-life footage", "Random stock photos", "No visuals at all"],
+        "answer": 1,
+        "explain": "Effective PSAs use powerful visuals — real footage, infographics, compelling images — to capture attention and reinforce the message.",
+        "optionExplanations": ["Text-only is less engaging.", "Correct: Compelling visuals strengthen the PSA's impact.", "Random photos lack purpose and relevance.", "Visuals are important for video PSAs."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the typical length of a PSA?",
+        "options": ["10 minutes", "15, 30, or 60 seconds", "5 minutes minimum", "No specific length"],
+        "answer": 1,
+        "explain": "Most PSAs are 15, 30, or 60 seconds long, designed to deliver a focused message concisely for broadcast media.",
+        "optionExplanations": ["10 minutes is far too long for a PSA.", "Correct: Standard PSA lengths are 15, 30, or 60 seconds.", "PSAs are meant to be brief and impactful.", "Industry standards exist for PSA lengths."],
+        "source": "ai"
+      },
+      {
+        "q": "Why is audience awareness important in PSA creation?",
+        "options": ["It is not important", "Understanding the audience helps craft messages that resonate and drive behavior change", "Only the creator's opinion matters", "Audiences don't affect the message"],
+        "answer": 1,
+        "explain": "Knowing your audience's demographics, values, and media habits helps create a PSA that connects and motivates action.",
+        "optionExplanations": ["Audience awareness is crucial for effectiveness.", "Correct: Understanding the audience helps craft resonant messages.", "The audience's perspective is central to effective communication.", "Audiences significantly influence message design."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the role of narration in a PSA?",
+        "options": ["To fill time", "To guide the audience through the message and provide context for the visuals", "To read legal disclaimers only", "Narration is never used"],
+        "answer": 1,
+        "explain": "Narration provides the verbal storyline, guides viewers through the message, and adds emotional depth and context to the visuals.",
+        "optionExplanations": ["Every element should serve the message.", "Correct: Narration guides the audience and provides context.", "Narration serves the entire message, not just disclaimers.", "Narration is a common and effective PSA element."],
+        "source": "ai"
+      },
+      {
+        "q": "What social issues are commonly addressed in PSAs?",
+        "options": ["Only environmental issues", "Health, safety, education, anti-bullying, substance abuse, and community welfare", "Only political campaigns", "Only financial topics"],
+        "answer": 1,
+        "explain": "PSAs address a wide range of issues including public health, safety, education, anti-bullying, environmental awareness, and community engagement.",
+        "optionExplanations": ["Environmental issues are one of many PSA topics.", "Correct: PSAs cover health, safety, education, and many other topics.", "Political campaigns are not PSAs.", "Financial literacy is one possible topic among many."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a PSA's message memorable?",
+        "options": ["Using confusing language", "A strong emotional hook, relatable content, and a clear takeaway", "Including as much data as possible", "Making the PSA very long"],
+        "answer": 1,
+        "explain": "Memorable PSAs combine emotional appeal with relatable stories and a clear, simple takeaway message that sticks with the audience.",
+        "optionExplanations": ["Confusing language reduces memorability.", "Correct: Emotional hooks and clear takeaways create memorable messages.", "Too much data overwhelms viewers.", "Longer PSAs may lose audience attention."],
+        "source": "ai"
+      }
+    ],
+    "Sales Presentation": [
+      {
+        "q": "What is the primary goal of a sales presentation?",
+        "options": ["To entertain the audience", "To persuade potential customers to purchase a product or service by demonstrating its value", "To present financial reports", "To train employees"],
+        "answer": 1,
+        "explain": "A sales presentation aims to convince prospects of a product's value and motivate them to make a purchasing decision.",
+        "optionExplanations": ["Entertainment may engage, but selling is the primary goal.", "Correct: Sales presentations persuade by demonstrating value.", "Financial reports are presented to stakeholders, not customers.", "Training is an internal function, not sales."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a value proposition in sales?",
+        "options": ["The lowest price available", "A clear statement explaining how your product solves customer problems and delivers benefits", "A discount coupon", "A product warranty"],
+        "answer": 1,
+        "explain": "A value proposition communicates the unique benefit customers receive, how the product solves their problem, and why it's better than alternatives.",
+        "optionExplanations": ["Price alone doesn't communicate full value.", "Correct: A value proposition explains unique benefits and problem-solving.", "Coupons are promotional tools, not value propositions.", "Warranties are guarantees, not value propositions."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of knowing your audience in a sales presentation?",
+        "options": ["It's not important", "It helps tailor the presentation to address their specific needs, pain points, and interests", "Only to know their names", "To avoid eye contact"],
+        "answer": 1,
+        "explain": "Understanding your audience's needs, challenges, and preferences allows you to customize your message for maximum relevance and persuasion.",
+        "optionExplanations": ["Audience knowledge is critical for sales success.", "Correct: Knowing the audience allows you to address their specific needs.", "Names are basic; understanding needs is what matters.", "Eye contact builds connection in presentations."],
+        "source": "ai"
+      },
+      {
+        "q": "What is an objection in sales?",
+        "options": ["A legal complaint", "A concern or hesitation expressed by a prospect about buying", "A type of product defect", "A sales quota"],
+        "answer": 1,
+        "explain": "Sales objections are concerns, questions, or hesitations prospects raise about price, timing, need, or trust that must be addressed.",
+        "optionExplanations": ["Legal complaints are different from sales objections.", "Correct: Objections are prospect concerns about purchasing.", "Product defects are quality issues.", "Sales quotas are targets, not objections."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the best way to handle customer objections?",
+        "options": ["Ignore them", "Listen carefully, acknowledge the concern, and provide a relevant solution or clarification", "Argue with the customer", "Lower the price immediately"],
+        "answer": 1,
+        "explain": "Effective objection handling involves active listening, empathy, validation of the concern, and a thoughtful response that addresses the issue.",
+        "optionExplanations": ["Ignoring objections loses customer trust.", "Correct: Listen, acknowledge, and provide relevant solutions.", "Arguing damages the relationship.", "Instant price drops suggest the original price wasn't justified."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a closing technique in sales?",
+        "options": ["Closing the store", "A method used to guide the prospect toward making a purchase decision", "Ending the presentation abruptly", "A way to end business operations"],
+        "answer": 1,
+        "explain": "Closing techniques are strategies that help transition the prospect from consideration to purchase, such as assumptive or summary closes.",
+        "optionExplanations": ["Closing refers to finalizing the sale, not the store.", "Correct: Closing techniques guide prospects toward purchasing.", "Abrupt endings damage sales relationships.", "Business closure is unrelated to sales closing."],
+        "source": "ai"
+      },
+      {
+        "q": "Why are product demonstrations important in sales presentations?",
+        "options": ["They are not important", "They allow prospects to see the product in action and understand its benefits firsthand", "They replace the need for a sales pitch", "They are only for technology products"],
+        "answer": 1,
+        "explain": "Demonstrations let prospects experience the product's features and benefits directly, increasing understanding and purchase confidence.",
+        "optionExplanations": ["Demos are highly effective sales tools.", "Correct: Demonstrations show the product in action.", "Demos complement the pitch, not replace it.", "Demonstrations work for many types of products."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the features-advantages-benefits (FAB) framework?",
+        "options": ["A manufacturing process", "A sales technique that connects product features to advantages and then to customer benefits", "A type of financial analysis", "A marketing acronym for social media"],
+        "answer": 1,
+        "explain": "FAB connects what the product has (features), what those features do (advantages), and how they help the customer (benefits).",
+        "optionExplanations": ["FAB is a sales communication framework.", "Correct: FAB links features to advantages to customer benefits.", "FAB is not financial analysis.", "FAB is a sales technique, not a social media strategy."],
+        "source": "ai"
+      },
+      {
+        "q": "What is active listening in a sales context?",
+        "options": ["Waiting for your turn to speak", "Fully focusing on the customer, understanding their needs, and responding thoughtfully", "Listening to music during the presentation", "Taking notes without making eye contact"],
+        "answer": 1,
+        "explain": "Active listening means giving full attention to the customer, understanding their words and emotions, and responding with relevant solutions.",
+        "optionExplanations": ["Waiting to speak is passive, not active listening.", "Correct: Active listening focuses fully on understanding the customer.", "Music is a distraction during sales conversations.", "Good listening includes both notes and eye contact."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a needs assessment in sales?",
+        "options": ["A financial audit", "The process of identifying a prospect's specific problems, needs, and desired outcomes", "A product warranty check", "A background check on the customer"],
+        "answer": 1,
+        "explain": "A needs assessment uses questions and discovery to understand the customer's situation, challenges, and goals before presenting solutions.",
+        "optionExplanations": ["Financial audits review accounts, not customer needs.", "Correct: Needs assessments identify prospect problems and goals.", "Warranty checks are post-sale activities.", "Background checks are unrelated to sales discovery."],
+        "source": "ai"
+      },
+      {
+        "q": "What role does storytelling play in sales presentations?",
+        "options": ["It wastes time", "It makes the product relatable through real-world examples and customer success stories", "It replaces product knowledge", "It is only for children's products"],
+        "answer": 1,
+        "explain": "Stories and case studies make products relatable, create emotional connections, and help prospects envision using the product themselves.",
+        "optionExplanations": ["Good stories enhance presentations.", "Correct: Storytelling makes products relatable through examples.", "Stories complement, not replace, product knowledge.", "Storytelling works in all sales contexts."],
+        "source": "ai"
+      },
+      {
+        "q": "What is rapport building in sales?",
+        "options": ["Building a physical structure", "Establishing a positive relationship and trust with the prospect before pitching", "Reporting sales numbers", "A type of discount"],
+        "answer": 1,
+        "explain": "Rapport building creates trust and connection through genuine interest, finding common ground, and demonstrating reliability.",
+        "optionExplanations": ["Rapport is a relationship concept, not construction.", "Correct: Rapport building establishes trust before the sales pitch.", "Reporting is data sharing, not relationship building.", "Discounts are pricing strategies, not rapport."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a competitive advantage?",
+        "options": ["Being the cheapest option", "A unique quality or capability that makes your product superior to competitors", "Having the most salespeople", "Being the oldest company"],
+        "answer": 1,
+        "explain": "A competitive advantage is what differentiates your product from competitors, such as innovation, quality, service, or unique features.",
+        "optionExplanations": ["Price is one factor, but not the only advantage.", "Correct: Competitive advantage is what makes your product uniquely superior.", "Salesforce size doesn't guarantee advantage.", "Age doesn't ensure competitive superiority."],
+        "source": "ai"
+      },
+      {
+        "q": "What visual aids are effective in sales presentations?",
+        "options": ["None — words are enough", "Product samples, slides, charts, videos, and infographics", "Only text-heavy documents", "Personal photos"],
+        "answer": 1,
+        "explain": "Visual aids like product samples, professional slides, data charts, and videos make presentations more engaging and persuasive.",
+        "optionExplanations": ["Visuals significantly enhance presentations.", "Correct: Multiple visual aid types enhance engagement and persuasion.", "Text-heavy materials can overwhelm audiences.", "Personal photos are not professional sales tools."],
+        "source": "ai"
+      },
+      {
+        "q": "What is follow-up in the sales process?",
+        "options": ["Stalking the customer", "Continuing communication after the initial presentation to nurture the relationship and close the sale", "Forgetting about the prospect", "Only sending invoices"],
+        "answer": 1,
+        "explain": "Sales follow-up involves timely, relevant communication after the presentation to address questions, provide information, and move toward closing.",
+        "optionExplanations": ["Professional follow-up is courteous, not intrusive.", "Correct: Follow-up nurtures the relationship toward closing.", "Forgetting prospects loses potential sales.", "Invoices are post-sale, not follow-up."],
+        "source": "ai"
+      }
+    ],
+    "Visual Design": [
+      {
+        "q": "What are the fundamental principles of visual design?",
+        "options": ["Only color selection", "Balance, contrast, emphasis, movement, pattern, rhythm, and unity", "Only font choice", "Only layout"],
+        "answer": 1,
+        "explain": "Visual design principles — balance, contrast, emphasis, movement, pattern, rhythm, and unity — guide how elements are arranged effectively.",
+        "optionExplanations": ["Color is one element, not all principles.", "Correct: Multiple principles work together in visual design.", "Typography is one design element.", "Layout incorporates multiple principles."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a mood board in visual design?",
+        "options": ["To track employee moods", "To collect visual inspiration and establish the aesthetic direction for a project", "To list project deadlines", "To calculate the budget"],
+        "answer": 1,
+        "explain": "A mood board is a collection of images, colors, textures, and typography that establishes the visual tone and direction for a design project.",
+        "optionExplanations": ["Mood boards are design tools, not HR tools.", "Correct: Mood boards collect visual inspiration for project direction.", "Deadlines are tracked in project management tools.", "Budgets are financial documents."],
+        "source": "ai"
+      },
+      {
+        "q": "What is color theory?",
+        "options": ["A music theory", "The study of how colors interact, combine, and affect perception and emotion", "A type of painting technique", "A brand name"],
+        "answer": 1,
+        "explain": "Color theory studies how colors relate to each other on the color wheel, how they combine, and how they affect human perception and emotions.",
+        "optionExplanations": ["Music theory is about sound, not color.", "Correct: Color theory studies color interactions and emotional effects.", "Painting techniques apply color theory but aren't the theory itself.", "Color theory is a design discipline, not a brand."],
+        "source": "ai"
+      },
+      {
+        "q": "What is typography in visual design?",
+        "options": ["Drawing maps", "The art and technique of arranging type to make text readable, legible, and visually appealing", "A printing machine", "A type of photography"],
+        "answer": 1,
+        "explain": "Typography encompasses font selection, sizing, spacing, and arrangement to create readable, aesthetically pleasing text in design.",
+        "optionExplanations": ["Map drawing is cartography.", "Correct: Typography is the art of arranging type for readability and aesthetics.", "Printing machines produce physical output.", "Photography captures images, not type."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the golden ratio in design?",
+        "options": ["A financial term", "A mathematical ratio (approximately 1:1.618) that creates naturally pleasing proportions", "A type of gold paint", "A design software"],
+        "answer": 1,
+        "explain": "The golden ratio (~1:1.618) appears in nature and art, creating proportions that humans find naturally balanced and aesthetically pleasing.",
+        "optionExplanations": ["The golden ratio is a design/math concept.", "Correct: The golden ratio creates naturally pleasing proportions.", "It refers to proportions, not paint color.", "It's a mathematical concept, not software."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between symmetrical and asymmetrical balance?",
+        "options": ["There is no difference", "Symmetrical has equal elements on both sides; asymmetrical uses different elements that still feel balanced", "Asymmetrical balance is always wrong", "Symmetrical balance is outdated"],
+        "answer": 1,
+        "explain": "Symmetrical balance mirrors elements equally on both sides, while asymmetrical balance achieves equilibrium through varied but visually weighted elements.",
+        "optionExplanations": ["They are different approaches to visual balance.", "Correct: Symmetrical mirrors both sides; asymmetrical balances different elements.", "Asymmetrical balance is a valid and common design choice.", "Both types remain effective design approaches."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a design mockup?",
+        "options": ["Making fun of a design", "A realistic visual representation of how a design will look when implemented", "A rough sketch only", "A financial estimate"],
+        "answer": 1,
+        "explain": "A mockup is a high-fidelity representation showing how the final design will appear, including colors, typography, and imagery.",
+        "optionExplanations": ["Mockup is a design term, not ridicule.", "Correct: Mockups show realistic design implementation previews.", "Sketches are lower fidelity than mockups.", "Financial estimates are not design deliverables."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a design system?",
+        "options": ["A computer operating system", "A collection of reusable components, standards, and guidelines for consistent design", "A single design file", "A type of printer"],
+        "answer": 1,
+        "explain": "A design system includes reusable components, patterns, guidelines, and standards that ensure visual and functional consistency across projects.",
+        "optionExplanations": ["Operating systems run computers, not design.", "Correct: Design systems provide reusable components and guidelines.", "A system encompasses multiple files and standards.", "Printers produce physical output."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a style guide in visual design?",
+        "options": ["To list employee dress codes", "To document design standards including colors, fonts, spacing, and usage rules", "To grade student work", "To track sales performance"],
+        "answer": 1,
+        "explain": "A style guide documents the specific colors, typography, spacing, imagery, and usage rules that maintain brand consistency.",
+        "optionExplanations": ["Dress codes are HR documents.", "Correct: Style guides document design standards for consistency.", "Grading rubrics are educational tools.", "Sales tracking is a business function."],
+        "source": "ai"
+      },
+      {
+        "q": "What is visual hierarchy?",
+        "options": ["A corporate organizational chart", "The arrangement of design elements to guide the viewer's eye from most to least important", "A filing system", "A type of display screen"],
+        "answer": 1,
+        "explain": "Visual hierarchy uses size, color, contrast, and placement to direct the viewer's attention through content in order of importance.",
+        "optionExplanations": ["Org charts show reporting structures.", "Correct: Visual hierarchy guides the eye through content by importance.", "Filing systems organize documents.", "Display screens are hardware."],
+        "source": "ai"
+      },
+      {
+        "q": "What is whitespace in visual design?",
+        "options": ["A design error", "Empty space around and between elements that improves readability and visual clarity", "Space that must always be filled", "White-colored backgrounds only"],
+        "answer": 1,
+        "explain": "Whitespace (negative space) is the empty area between design elements that provides breathing room and improves comprehension.",
+        "optionExplanations": ["Whitespace is intentional, not an error.", "Correct: Whitespace improves readability and visual clarity.", "Good design uses whitespace strategically.", "Whitespace can be any color, not just white."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a grid in visual design?",
+        "options": ["To trap elements", "To provide a consistent framework for aligning and organizing content", "To make the design look like a spreadsheet", "To limit creativity"],
+        "answer": 1,
+        "explain": "Grids provide a structural framework that helps designers align content consistently and create organized, professional layouts.",
+        "optionExplanations": ["Grids organize, not trap, elements.", "Correct: Grids provide consistent alignment and organization.", "Grids are invisible guides, not visible spreadsheet lines.", "Grids enable creativity within consistent structure."],
+        "source": "ai"
+      },
+      {
+        "q": "What file format preserves layers and editing capability in design software?",
+        "options": ["JPEG", "PNG", "PSD (Photoshop) or AI (Illustrator) native formats", "GIF"],
+        "answer": 2,
+        "explain": "Native formats like PSD (Photoshop) and AI (Illustrator) preserve layers, effects, and full editing capability for future modifications.",
+        "optionExplanations": ["JPEG flattens layers and loses editing capability.", "PNG preserves transparency but flattens layers.", "Correct: Native formats preserve layers and full editing capability.", "GIF is a limited web format."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the principle of repetition in design?",
+        "options": ["Making the same design multiple times", "Using consistent visual elements throughout a design to create cohesion and unity", "Repeating mistakes", "Copying other designers' work"],
+        "answer": 1,
+        "explain": "Repetition strengthens design by reusing consistent elements like colors, fonts, shapes, and spacing throughout the project.",
+        "optionExplanations": ["Repetition is about consistent elements, not duplicating designs.", "Correct: Consistent visual elements create cohesion and unity.", "Repeating mistakes is poor practice.", "Copying others is plagiarism, not the repetition principle."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the role of color psychology in visual design?",
+        "options": ["Colors have no effect on people", "Different colors evoke specific emotions and associations that influence audience perception", "Only warm colors are effective", "Color psychology is not real"],
+        "answer": 1,
+        "explain": "Color psychology studies how colors affect human emotions and behavior — red can signal urgency, blue conveys trust, green suggests growth.",
+        "optionExplanations": ["Colors significantly affect perception and emotion.", "Correct: Colors evoke specific emotions that influence perception.", "Both warm and cool colors have psychological effects.", "Color psychology is a well-researched field."],
+        "source": "ai"
+      }
+    ],
+    "Website Coding & Development": [
+      {
+        "q": "What are the three core technologies of web development?",
+        "options": ["Python, Java, C++", "HTML, CSS, and JavaScript", "Swift, Kotlin, Ruby", "PHP, SQL, MongoDB"],
+        "answer": 1,
+        "explain": "HTML provides structure, CSS handles presentation/styling, and JavaScript adds interactivity — forming the foundation of all websites.",
+        "optionExplanations": ["These are general programming languages, not web core technologies.", "Correct: HTML (structure), CSS (style), and JavaScript (interactivity).", "Swift and Kotlin are mobile development languages.", "These are backend/database technologies."],
+        "source": "ai"
+      },
+      {
+        "q": "What does HTML stand for?",
+        "options": ["High Tech Machine Language", "HyperText Markup Language", "Home Tool Markup Language", "Hyperlink Text Management Language"],
+        "answer": 1,
+        "explain": "HTML (HyperText Markup Language) is the standard markup language for creating web page structure and content.",
+        "optionExplanations": ["This is not what HTML stands for.", "Correct: HyperText Markup Language.", "This is not the correct expansion.", "This is not what HTML means."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of CSS in web development?",
+        "options": ["To create databases", "To style and visually format HTML content including colors, fonts, and layouts", "To handle server requests", "To manage user authentication"],
+        "answer": 1,
+        "explain": "CSS (Cascading Style Sheets) controls the visual presentation of HTML elements including colors, typography, spacing, and responsive layouts.",
+        "optionExplanations": ["Databases use SQL or NoSQL technologies.", "Correct: CSS styles the visual appearance of web pages.", "Server requests are handled by backend technologies.", "Authentication uses server-side logic and security frameworks."],
+        "source": "ai"
+      },
+      {
+        "q": "What is responsive web design?",
+        "options": ["A website that loads quickly", "Designing websites that adapt their layout to different screen sizes and devices", "A type of server configuration", "A JavaScript framework"],
+        "answer": 1,
+        "explain": "Responsive design uses flexible grids, media queries, and fluid images to make websites look and work well on any device size.",
+        "optionExplanations": ["Load speed is performance, not responsive design.", "Correct: Responsive design adapts layouts to different screen sizes.", "Server configuration is backend infrastructure.", "It's a design approach, not a specific framework."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the DOM in web development?",
+        "options": ["A web browser brand", "The Document Object Model — a tree-like representation of a web page that JavaScript can manipulate", "A CSS property", "A database system"],
+        "answer": 1,
+        "explain": "The DOM represents an HTML document as a tree of objects that JavaScript can access and modify to dynamically update page content.",
+        "optionExplanations": ["DOM is not a browser brand.", "Correct: The DOM is a tree-like representation JavaScript can manipulate.", "The DOM is not a CSS property.", "The DOM is not a database."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the difference between frontend and backend development?",
+        "options": ["There is no difference", "Frontend is the user-facing interface; backend handles server-side logic and data", "Frontend is always easier", "Backend doesn't use programming"],
+        "answer": 1,
+        "explain": "Frontend development creates the visual interface users interact with, while backend handles server logic, databases, and business rules.",
+        "optionExplanations": ["They are distinct but complementary areas.", "Correct: Frontend is user-facing; backend handles server-side logic.", "Complexity varies by project and technology.", "Backend uses programming languages extensively."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a media query in CSS?",
+        "options": ["A way to play media files", "A CSS technique that applies styles based on device characteristics like screen width", "A JavaScript function", "A database query"],
+        "answer": 1,
+        "explain": "Media queries allow CSS to apply different styles based on device properties like width, height, and orientation for responsive design.",
+        "optionExplanations": ["Media queries control CSS, not media playback.", "Correct: Media queries apply styles based on device characteristics.", "Media queries are CSS features, not JavaScript.", "Database queries retrieve data, not apply styles."],
+        "source": "ai"
+      },
+      {
+        "q": "What is web accessibility (a11y)?",
+        "options": ["Making websites free to access", "Designing websites so people with disabilities can perceive, navigate, and interact with them", "Making websites load faster", "Allowing access from any country"],
+        "answer": 1,
+        "explain": "Web accessibility ensures all users, including those with disabilities, can access and use web content through assistive technologies.",
+        "optionExplanations": ["Free access is about pricing, not accessibility.", "Correct: Accessibility makes websites usable for people with disabilities.", "Performance optimization is separate from accessibility.", "Geographic access is about distribution."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a CSS flexbox?",
+        "options": ["A type of exercise equipment", "A CSS layout module for arranging elements in flexible rows or columns", "A JavaScript library", "A web browser"],
+        "answer": 1,
+        "explain": "Flexbox is a CSS layout model that provides efficient ways to align, distribute, and space elements within a container.",
+        "optionExplanations": ["Flexbox is a CSS concept, not fitness equipment.", "Correct: Flexbox arranges elements in flexible rows or columns.", "Flexbox is native CSS, not a JavaScript library.", "Flexbox is a layout tool, not a browser."],
+        "source": "ai"
+      },
+      {
+        "q": "What is semantic HTML?",
+        "options": ["HTML with more colors", "Using HTML elements that clearly describe their meaning and content purpose", "A new version of HTML", "HTML that runs faster"],
+        "answer": 1,
+        "explain": "Semantic HTML uses elements like <header>, <nav>, <main>, <article>, and <footer> that describe content meaning, improving accessibility and SEO.",
+        "optionExplanations": ["Colors are CSS, not semantic HTML.", "Correct: Semantic elements describe their content's meaning and purpose.", "Semantic HTML is a practice, not a separate version.", "Semantics improve structure, not loading speed."],
+        "source": "ai"
+      },
+      {
+        "q": "What is version control and why is it important for web development?",
+        "options": ["Controlling browser versions", "A system that tracks code changes, enables collaboration, and allows reverting mistakes", "A web hosting service", "A CSS framework"],
+        "answer": 1,
+        "explain": "Version control (like Git) tracks every change to code, enables team collaboration, and provides the ability to undo mistakes.",
+        "optionExplanations": ["Browser version management is separate.", "Correct: Version control tracks changes and enables collaboration.", "Hosting serves websites; version control manages code.", "CSS frameworks provide pre-built styles."],
+        "source": "ai"
+      },
+      {
+        "q": "What is cross-browser compatibility?",
+        "options": ["Using multiple browsers simultaneously", "Ensuring a website works correctly across different web browsers", "A browser plugin", "A type of HTML element"],
+        "answer": 1,
+        "explain": "Cross-browser compatibility ensures websites function and appear consistently across Chrome, Firefox, Safari, Edge, and other browsers.",
+        "optionExplanations": ["Using multiple browsers is just browsing.", "Correct: Cross-browser compatibility ensures consistent behavior across browsers.", "It's a development practice, not a plugin.", "It's a testing consideration, not an HTML element."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a JavaScript event listener?",
+        "options": ["A person who listens to JavaScript", "A function that waits for and responds to specific user interactions or events", "A CSS property", "A database connection"],
+        "answer": 1,
+        "explain": "Event listeners are functions attached to elements that execute when specific events occur, like clicks, key presses, or page loads.",
+        "optionExplanations": ["Event listeners are code, not people.", "Correct: Event listeners respond to user interactions and events.", "Event listeners are JavaScript, not CSS.", "Database connections are backend functionality."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a CSS reset or normalize stylesheet?",
+        "options": ["To delete all CSS", "To establish consistent baseline styles by removing browser default styling differences", "To make all text the same size", "To add animations"],
+        "answer": 1,
+        "explain": "CSS resets/normalizers remove or standardize browser default styles so designs appear consistent across different browsers.",
+        "optionExplanations": ["Resets standardize, not delete, base styles.", "Correct: They establish consistent baseline styles across browsers.", "They normalize all defaults, not just text size.", "Animations are separate from CSS resets."],
+        "source": "ai"
+      },
+      {
+        "q": "What is SEO in web development?",
+        "options": ["A programming language", "Search Engine Optimization — practices that help websites rank higher in search results", "A type of database", "A web hosting provider"],
+        "answer": 1,
+        "explain": "SEO involves optimizing website content, structure, and technical elements to improve visibility and ranking in search engine results.",
+        "optionExplanations": ["SEO is a practice, not a language.", "Correct: SEO optimizes websites for search engine ranking.", "SEO is not a database technology.", "SEO is an optimization practice, not a hosting service."],
+        "source": "ai"
+      }
+    ],
+    "Website Design": [
+      {
+        "q": "What is the purpose of a wireframe in website design?",
+        "options": ["To write the website's code", "To create a basic visual blueprint of the website's layout and structure", "To test the website for security", "To host the website"],
+        "answer": 1,
+        "explain": "A wireframe is a low-fidelity visual guide showing the skeletal layout of a webpage, including element placement and navigation flow.",
+        "optionExplanations": ["Code comes after wireframing.", "Correct: Wireframes are visual blueprints of layout and structure.", "Security testing is a separate process.", "Hosting makes the site available online."],
+        "source": "ai"
+      },
+      {
+        "q": "What is user experience (UX) design?",
+        "options": ["Making websites look colorful", "The process of designing products that provide meaningful, relevant, and enjoyable experiences to users", "A programming language", "A type of web hosting"],
+        "answer": 1,
+        "explain": "UX design focuses on the entire experience a user has with a website, including usability, accessibility, and emotional satisfaction.",
+        "optionExplanations": ["Color is one visual element, not the entirety of UX.", "Correct: UX design creates meaningful and enjoyable user experiences.", "UX is a design discipline, not a programming language.", "Web hosting is infrastructure, not design."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a sitemap?",
+        "options": ["A map to the server room", "A visual or textual representation of a website's page hierarchy and navigation structure", "A type of website template", "A CSS file"],
+        "answer": 1,
+        "explain": "A sitemap outlines all pages on a website and their relationships, helping plan navigation and content organization.",
+        "optionExplanations": ["Sitemaps are digital planning tools.", "Correct: Sitemaps show page hierarchy and navigation structure.", "Templates provide pre-built designs, not site structure.", "CSS files style pages, not map structure."],
+        "source": "ai"
+      },
+      {
+        "q": "What is above-the-fold content?",
+        "options": ["Content at the bottom of the page", "The portion of the webpage visible without scrolling", "Content hidden behind a paywall", "Folded content that cannot be read"],
+        "answer": 1,
+        "explain": "Above the fold refers to the content visible in the browser window when a page first loads, before any scrolling occurs.",
+        "optionExplanations": ["Bottom content is below the fold.", "Correct: Above the fold is content visible without scrolling.", "Paywalls restrict access, not fold position.", "The fold refers to the visible area, not physical folding."],
+        "source": "ai"
+      },
+      {
+        "q": "What makes a website navigation effective?",
+        "options": ["Having as many menu items as possible", "Being clear, consistent, intuitive, and easy to find on every page", "Hiding the navigation menu", "Using only icons without labels"],
+        "answer": 1,
+        "explain": "Effective navigation is clear, consistent across pages, intuitive for users, and helps visitors find content quickly and easily.",
+        "optionExplanations": ["Too many items overwhelm users.", "Correct: Clear, consistent, and intuitive navigation works best.", "Hidden navigation frustrates users.", "Icons without labels can confuse users."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of a call-to-action (CTA) on a website?",
+        "options": ["To call the website developer", "To guide visitors toward a desired action like signing up, buying, or contacting", "To display legal information", "To slow down the user"],
+        "answer": 1,
+        "explain": "CTAs are prominent buttons or links that direct users to take specific actions, such as 'Sign Up,' 'Learn More,' or 'Buy Now.'",
+        "optionExplanations": ["CTAs are design elements, not phone calls.", "Correct: CTAs guide visitors toward desired actions.", "Legal info is typically in footers or separate pages.", "CTAs should facilitate, not hinder, user flow."],
+        "source": "ai"
+      },
+      {
+        "q": "What is mobile-first design?",
+        "options": ["Designing only for mobile phones", "Starting the design process for the smallest screen and progressively enhancing for larger devices", "Ignoring desktop users", "Using mobile phones to design websites"],
+        "answer": 1,
+        "explain": "Mobile-first design begins with the mobile experience, then adapts and enhances for tablets and desktops using media queries.",
+        "optionExplanations": ["Mobile-first still includes larger screens.", "Correct: Design starts with mobile and enhances for larger screens.", "Desktop experiences are still designed.", "Mobile-first is a methodology, not a tool."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a hero section on a website?",
+        "options": ["A section about superheroes", "A large, prominent banner area at the top of a webpage with a key message and imagery", "A small footer element", "A hidden admin panel"],
+        "answer": 1,
+        "explain": "The hero section is the prominent top area of a webpage, typically featuring a large image/video, headline, and call-to-action.",
+        "optionExplanations": ["Hero refers to the design term, not comic heroes.", "Correct: The hero section is the prominent top banner area.", "Footers are at the bottom, not the top.", "Admin panels are backend interfaces."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the importance of page load speed?",
+        "options": ["It doesn't matter", "Faster load times improve user experience, SEO rankings, and conversion rates", "Slower sites look more professional", "Speed only matters for mobile"],
+        "answer": 1,
+        "explain": "Page speed directly impacts user satisfaction, bounce rates, search engine rankings, and business conversion rates.",
+        "optionExplanations": ["Speed significantly affects user experience.", "Correct: Faster load times improve UX, SEO, and conversions.", "Slow loading frustrates users and increases bounce rates.", "Speed matters on all devices."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a favicon?",
+        "options": ["A favorite website", "A small icon that appears in browser tabs and bookmarks representing the website", "A type of web server", "A CSS animation"],
+        "answer": 1,
+        "explain": "A favicon is a small 16x16 or 32x32 pixel icon displayed in browser tabs, bookmarks, and address bars to identify the website.",
+        "optionExplanations": ["Favorites/bookmarks are user preferences.", "Correct: A favicon is a small icon in browser tabs and bookmarks.", "Web servers host websites, not display icons.", "CSS animations are visual effects."],
+        "source": "ai"
+      },
+      {
+        "q": "What is web typography?",
+        "options": ["Typing on a website", "The selection, sizing, and arrangement of typefaces on a website for readability and aesthetics", "A web browser feature", "A type of domain name"],
+        "answer": 1,
+        "explain": "Web typography involves choosing appropriate fonts, sizes, line heights, and spacing to create readable and visually appealing text on websites.",
+        "optionExplanations": ["Typing is user input, not typography.", "Correct: Web typography is the art of arranging text on websites.", "Typography is a design discipline, not a browser feature.", "Domain names are web addresses."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a breadcrumb navigation?",
+        "options": ["Crumbs from bread on the keyboard", "A secondary navigation showing the user's location within the website hierarchy", "The main navigation menu", "A type of footer"],
+        "answer": 1,
+        "explain": "Breadcrumbs show a trail of the user's path through the site (e.g., Home > Products > Category), helping with orientation and navigation.",
+        "optionExplanations": ["Breadcrumbs in web design are navigation aids.", "Correct: Breadcrumbs show the user's location in the site hierarchy.", "Breadcrumbs supplement, not replace, main navigation.", "Breadcrumbs are typically near the top of the page."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the purpose of alt text for images?",
+        "options": ["To make images larger", "To provide text descriptions for screen readers and when images fail to load", "To add image filters", "To encrypt images"],
+        "answer": 1,
+        "explain": "Alt text provides descriptive text for images that screen readers can read aloud and that displays when images cannot load.",
+        "optionExplanations": ["Image sizing uses CSS, not alt text.", "Correct: Alt text describes images for accessibility and fallback.", "Filters modify appearance, not provide descriptions.", "Encryption is a security measure."],
+        "source": "ai"
+      },
+      {
+        "q": "What is a content management system (CMS)?",
+        "options": ["A programming language", "Software that allows users to create and manage website content without coding", "A type of web browser", "A design tool for graphics"],
+        "answer": 1,
+        "explain": "A CMS (like WordPress or Drupal) provides a user-friendly interface for creating, editing, and managing website content without writing code.",
+        "optionExplanations": ["CMSs use programming languages but aren't languages themselves.", "Correct: CMSs allow content management without coding.", "Browsers display websites; CMSs manage content.", "Graphics tools create visuals, not manage web content."],
+        "source": "ai"
+      },
+      {
+        "q": "What is the F-pattern in web design?",
+        "options": ["A pattern using the letter F as decoration", "The typical eye movement pattern users follow when scanning web content", "A type of website layout grid", "A font style"],
+        "answer": 1,
+        "explain": "Eye-tracking studies show users typically scan web pages in an F-shaped pattern — reading across the top, then down the left side.",
+        "optionExplanations": ["The F-pattern describes eye movement, not decoration.", "Correct: The F-pattern describes how users scan web content.", "It's a behavior pattern, not a grid system.", "It's about reading behavior, not typography."],
+        "source": "ai"
+      }
+    ]
   },
   "meta": {
-    "events": 17,
-    "questions": 1707,
+    "events": 37,
+    "questions": 2007,
     "generatedAt": "2026-03-06T04:05:03.989Z",
     "sourceFolder": "generated_by_checklist"
   }
