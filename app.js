@@ -20,6 +20,43 @@ const EVENTS = [
 const RESOURCE_DATA = window.RESOURCE_INTERACTIVE_DATA || { objectiveQuizzes: {}, roleplayScenarios: [], productionTests: {} };
 const COMBINED_DATA = window.COMBINED_QUESTION_BANK || { banks: {} };
 const AI_DATA = window.AI_QUESTION_BANK || { banks: {} };
+const ROLEPLAY_REFERENCE = window.ROLEPLAY_REFERENCE || { officialRoleplayEvents: [], pdfLinks: {}, curatedScenarios: {} };
+
+const ROLEPLAY_EVENTS = new Set(ROLEPLAY_REFERENCE.officialRoleplayEvents || []);
+const PARLIAMENTARY_EVENTS = new Set([
+  "Introduction to Parliamentary Procedure",
+  "Parliamentary Procedure Individual",
+  "Parliamentary Procedure Team"
+]);
+const PRESENTATION_EVENTS = new Set([
+  "Career Portfolio",
+  "Data Analysis",
+  "Future Business Educator",
+  "Impromptu Speaking",
+  "Introduction to Business Presentation",
+  "Introduction to Public Speaking",
+  "Introduction to Social Media Strategy",
+  "Job Interview",
+  "Public Service Announcement",
+  "Public Speaking",
+  "Sales Presentation",
+  "Social Media Strategies"
+]);
+const PRODUCTION_EVENTS = new Set([
+  "Coding & Programming",
+  "Computer Game & Simulation Programming",
+  "Digital Animation",
+  "Digital Video Production",
+  "Graphic Design",
+  "Mobile Application Development",
+  "Visual Design",
+  "Website Coding & Development"
+]);
+const REPORT_EVENTS = new Set([
+  "Business Plan",
+  "Community Service Project",
+  "Event Planning"
+]);
 
 const MEMORY_TACTICS = [
   "Split misses by concept, not by test date.",
@@ -61,6 +98,29 @@ const eventSearchEl = document.getElementById("eventSearch");
 
 const wsTabs = document.querySelectorAll(".ws-tab");
 const wsPanels = document.querySelectorAll(".ws-panel");
+const quizUi = {
+  bankMode: document.getElementById("quizBankMode"),
+  count: document.getElementById("quizCount"),
+  progress: document.getElementById("quizProgress"),
+  timer: document.getElementById("quizTimer"),
+  scoreLive: document.getElementById("quizScoreLive"),
+  card: document.getElementById("quizCard"),
+  results: document.getElementById("examResults"),
+  aiHelp: document.getElementById("quizAiHelp"),
+  aiHelpNote: document.getElementById("quizAiHelpNote"),
+  aiPrompt: document.getElementById("quizAiPrompt")
+};
+const roleplayUi = {
+  select: document.getElementById("scenarioSelect"),
+  prompt: document.getElementById("scenarioPrompt"),
+  judgeQuestion: document.getElementById("judgeQuestion"),
+  indicators: document.getElementById("roleplayIndicators"),
+  score: document.getElementById("roleplayScore"),
+  docs: document.getElementById("roleplayDocLinks"),
+  docsHint: document.getElementById("roleplayDocHint"),
+  aiPrompt: document.getElementById("roleplayAiPrompt"),
+  response: document.getElementById("roleplayResponse")
+};
 const FBLA_SECONDS_PER_QUESTION = 60;
 
 function norm(s) {
@@ -119,11 +179,16 @@ const OFFICIAL_BANKS = mergeBanks(COMBINED_DATA.banks, RESOURCE_DATA.objectiveQu
 const AI_BANKS = mergeBanks(AI_DATA.banks);
 
 function inferFormat(eventName) {
-  const lower = eventName.toLowerCase();
-  if (lower.includes("interview") || lower.includes("speaking") || lower.includes("presentation") || lower.includes("announcement")) return "presentation";
-  if (lower.includes("applications") || lower.includes("coding") || lower.includes("design") || lower.includes("development") || lower.includes("animation") || lower.includes("visual")) return "production";
-  if (lower.includes("service") || lower.includes("management") || lower.includes("hospitality") || lower.includes("entrepreneurship") || lower.includes("international") || lower.includes("sales") || lower.includes("parliamentary")) return "roleplay";
+  if (ROLEPLAY_EVENTS.has(eventName)) return "roleplay";
+  if (PARLIAMENTARY_EVENTS.has(eventName)) return "parliamentary";
+  if (PRESENTATION_EVENTS.has(eventName)) return "presentation";
+  if (PRODUCTION_EVENTS.has(eventName)) return "production";
+  if (REPORT_EVENTS.has(eventName)) return "report";
   return "objective";
+}
+
+function hasOfficialRoleplay(eventName) {
+  return ROLEPLAY_EVENTS.has(eventName);
 }
 
 function findBestKey(keys, eventName) {
@@ -160,7 +225,7 @@ function getAIDeck(eventName) {
 }
 
 function getQuizBankMode() {
-  return document.getElementById("quizBankMode")?.value || "hq";
+  return quizUi.bankMode?.value || "hq";
 }
 
 function getDeckForMode(eventName, mode) {
@@ -182,7 +247,200 @@ function getEventBankBreakdown(eventName) {
   };
 }
 
+function isOfficialQuestionSource(source) {
+  const value = String(source || "").toLowerCase().trim();
+  if (!value) return true;
+  if (value === "official-hq") return true;
+  return !/generated|bespoke|pregenerated|\bai\b/.test(value);
+}
+
+function buildQuizAiPrompt(eventName, question, chosenIndex) {
+  const options = (question?.options || []).map((option, index) => `${String.fromCharCode(65 + index)}. ${option}`).join("\n");
+  const keyedAnswer = Number.isInteger(question?.answer)
+    ? `${String.fromCharCode(65 + question.answer)}. ${question.options[question.answer]}`
+    : "No keyed answer available.";
+  const selectedAnswer = Number.isInteger(chosenIndex) && question?.options?.[chosenIndex]
+    ? `${String.fromCharCode(65 + chosenIndex)}. ${question.options[chosenIndex]}`
+    : "I did not select an answer.";
+
+  return [
+    `You are tutoring an FBLA competitor on an official ${eventName} multiple-choice question from a packaged HQ bank.`,
+    "",
+    "Do not give a shallow answer. Teach the concept behind the question clearly and concretely.",
+    "",
+    "Question:",
+    question?.q || "",
+    "",
+    "Answer choices:",
+    options,
+    "",
+    `Official keyed answer: ${keyedAnswer}`,
+    `My selected answer: ${selectedAnswer}`,
+    "",
+    "Please respond in this format:",
+    "1. Why the official answer is correct",
+    "2. Why each incorrect option is wrong or less correct",
+    "3. The underlying business/accounting/economics/management concept being tested",
+    "4. The clue words or logic pattern that should have pointed me to the answer",
+    "5. A short memory trick or rule so I do not miss a similar question again",
+    "6. One new practice question of the same concept with answer and explanation"
+  ].join("\n");
+}
+
+function updateQuizAiHelp(question, questionIndex) {
+  if (!state.quiz.submitted || !question || !isOfficialQuestionSource(question.source)) {
+    setControlVisibility(quizUi.aiHelp, false);
+    quizUi.aiHelpNote.textContent = "Submit an exam and review an HQ question to generate a tutoring prompt you can paste into another AI chat.";
+    quizUi.aiPrompt.value = "";
+    return;
+  }
+
+  const chosenIndex = state.quiz.answers[questionIndex];
+  quizUi.aiPrompt.value = buildQuizAiPrompt(state.currentEvent, question, chosenIndex);
+  quizUi.aiHelpNote.textContent = "This question came from the official packaged bank. Paste the prompt below into another AI chat to get a deeper explanation than the HQ key alone provides.";
+  setControlVisibility(quizUi.aiHelp, true);
+}
+
+function resetRoleplayPanel(eventName, message) {
+  roleplayUi.select.innerHTML = "";
+  roleplayUi.prompt.innerHTML = `<p><strong>${eventName}</strong></p><p>${message}</p>`;
+  roleplayUi.judgeQuestion.textContent = "";
+  roleplayUi.indicators.innerHTML = "";
+  roleplayUi.docs.innerHTML = "";
+  roleplayUi.docsHint.textContent = "";
+  roleplayUi.aiPrompt.value = "No AI grading prompt is needed because this event does not include a roleplay round.";
+  roleplayUi.score.textContent = "";
+}
+
+async function copyTextWithFeedback(text, successTarget, successMessage, failureMessage) {
+  if (!text) return;
+
+  try {
+    await navigator.clipboard.writeText(text);
+    successTarget.textContent = successMessage;
+  } catch (err) {
+    successTarget.textContent = failureMessage;
+  }
+}
+
+function cleanRoleplayLabel(value) {
+  return String(value || "")
+    .replace(/^\s*PERFORMANCE INDICATORS\s*$/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function canonicalRoleplayEvent(rawEvent, sourcePath) {
+  const sourceName = String(sourcePath || "")
+    .split(/[\\/]/)
+    .pop()
+    .replace(/\.[^.]+$/, "")
+    .replace(/---Sample-\d+$/i, "")
+    .replace(/--/g, " & ")
+    .replace(/-/g, " ")
+    .trim();
+  const rawName = String(rawEvent || "")
+    .replace(/& Sample\s*\d+/i, "")
+    .replace(/Sample Roleplay/i, "")
+    .replace(/\d+$/g, "")
+    .trim();
+
+  const exact = {
+    "Banking and Financial Systems": "Banking & Financial Systems",
+    "Sports and Entertainment Management": "Sports & Entertainment Management",
+    "Insurance and Risk Management": "Insurance & Risk Management"
+  };
+
+  const sourceCandidate = exact[sourceName] || sourceName;
+  const rawCandidate = exact[rawName] || rawName;
+
+  return findBestKey(Array.from(ROLEPLAY_EVENTS), sourceCandidate) || findBestKey(Array.from(ROLEPLAY_EVENTS), rawCandidate);
+}
+
+function resolveRoleplaySourcePath(sourcePath) {
+  if (!sourcePath) return "";
+  if (/^(fblaresources|FBLA Time)\//.test(sourcePath)) return sourcePath;
+  return `fblaresources/${sourcePath}`;
+}
+
+function normalizeRoleplayScenarioRuntime(scenario) {
+  const eventName = canonicalRoleplayEvent(scenario?.event, scenario?.source);
+  if (!eventName) return null;
+
+  const prompt = String(scenario?.prompt || "").trim();
+  if (!prompt) return null;
+
+  return {
+    name: String(scenario?.name || `${eventName} Sample Roleplay`).trim(),
+    event: eventName,
+    prompt,
+    sourceNote: scenario?.source ? `Source document: ${scenario.source}` : "",
+    indicators: (Array.isArray(scenario?.indicators) ? scenario.indicators : [])
+      .map(cleanRoleplayLabel)
+      .filter(Boolean),
+    judgeQuestions: (Array.isArray(scenario?.judgeQuestions) ? scenario.judgeQuestions : [])
+      .map((value) => String(value || "").trim())
+      .filter(Boolean),
+    sourcePath: resolveRoleplaySourcePath(scenario?.source)
+  };
+}
+
+function dedupeRoleplayScenarios(deck) {
+  const seen = new Set();
+  return deck.filter((scenario) => {
+    const key = norm(`${scenario.event} ${scenario.name} ${scenario.prompt}`);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function getRoleplayDocs(eventName) {
+  return (ROLEPLAY_REFERENCE.pdfLinks?.[eventName] || []).map((doc) => ({
+    label: doc.label,
+    path: doc.path
+  }));
+}
+
+function buildRoleplayAIPrompt(eventName, scenario, responseText) {
+  const indicators = (scenario?.indicators || []).map((item) => `- ${item}`).join("\n") || "- No explicit performance indicators were packaged for this scenario.";
+  const responseBlock = responseText && responseText.trim()
+    ? responseText.trim()
+    : "[PASTE THE COMPETITOR RESPONSE HERE]";
+
+  return [
+    `You are grading an FBLA ${eventName} interactive roleplay response.`,
+    "",
+    "Score the response on a 100-point scale.",
+    "Weight the evaluation across:",
+    "- Problem diagnosis and event accuracy",
+    "- Quality of recommendation and business judgment",
+    "- Organization, clarity, and timing discipline",
+    "- Judge interaction readiness and defense of the plan",
+    "- Professionalism, specificity, and actionability",
+    "",
+    "Scenario:",
+    scenario?.prompt || "No packaged scenario prompt available.",
+    "",
+    "Performance indicators:",
+    indicators,
+    "",
+    "Return your evaluation in this format:",
+    "1. Overall score out of 100",
+    "2. One-sentence verdict",
+    "3. Top strengths",
+    "4. Top weaknesses or missing content",
+    "5. Event-specific corrections",
+    "6. Three judge questions the competitor should be ready for",
+    "7. A sharper 30-second opening and 20-second close",
+    "",
+    "Competitor response:",
+    responseBlock
+  ].join("\n");
+}
+
 function setControlVisibility(el, show) {
+  if (!el) return;
   el.classList.toggle("is-hidden", !show);
 }
 
@@ -241,31 +499,19 @@ function updateQuizAvailability() {
 }
 
 function getRoleplayDeck(eventName) {
-  const ev = norm(eventName);
-  const scenarios = (RESOURCE_DATA.roleplayScenarios || []).filter((s) => {
-    const n = norm(s.event || s.name || "");
-    return n.includes(ev) || ev.includes(n);
-  });
+  if (!hasOfficialRoleplay(eventName)) return [];
 
-  if (scenarios.length) return scenarios;
+  const extracted = (RESOURCE_DATA.roleplayScenarios || [])
+    .map(normalizeRoleplayScenarioRuntime)
+    .filter((scenario) => scenario?.event === eventName);
+  const curated = (ROLEPLAY_REFERENCE.curatedScenarios?.[eventName] || []).map((scenario) => ({
+    ...scenario,
+    event: eventName,
+    sourcePath: "",
+    sourceNote: scenario.sourceNote || ""
+  }));
 
-  return [
-    {
-      name: `${eventName} Scenario`,
-      event: eventName,
-      prompt: `You are competing in ${eventName}. Deliver a focused recommendation, defend it, and close with measurable next steps.`,
-      indicators: [
-        "State objective and constraints clearly",
-        "Give a structured recommendation",
-        "Respond to judge questions with evidence"
-      ],
-      judgeQuestions: [
-        "What is your first step?",
-        "How do you measure success?",
-        "What is your contingency plan?"
-      ]
-    }
-  ];
+  return dedupeRoleplayScenarios([...curated, ...extracted]);
 }
 
 function getProductionTasks(eventName) {
@@ -277,9 +523,10 @@ function getProductionTasks(eventName) {
 function setStats() {
   const mode = getQuizBankMode();
   const questions = EVENTS.reduce((sum, eventName) => sum + getDeckForMode(eventName, mode).length, 0);
+  const roleplays = EVENTS.reduce((sum, eventName) => sum + getRoleplayDeck(eventName).length, 0);
   document.getElementById("statEvents").textContent = EVENTS.length;
   document.getElementById("statQuestions").textContent = questions;
-  document.getElementById("statRoleplays").textContent = (RESOURCE_DATA.roleplayScenarios || []).length;
+  document.getElementById("statRoleplays").textContent = roleplays;
 }
 
 function renderEventList() {
@@ -290,7 +537,9 @@ function renderEventList() {
     { key: "objective", label: "Objective Focus" },
     { key: "roleplay", label: "Roleplay Focus" },
     { key: "presentation", label: "Presentation Focus" },
-    { key: "production", label: "Production Focus" }
+    { key: "production", label: "Production Focus" },
+    { key: "report", label: "Report Focus" },
+    { key: "parliamentary", label: "Parliamentary Focus" }
   ];
 
   const html = groups.map((group) => {
@@ -299,14 +548,14 @@ function renderEventList() {
 
     const cards = events.map((event) => {
       const total = getDeckForMode(event, mode).length;
-      const roleplays = getRoleplayDeck(event).length;
+      const roleplays = hasOfficialRoleplay(event) ? getRoleplayDeck(event).length : 0;
       const active = state.currentEvent === event ? "active" : "";
       return `
         <button class="event-item ${active}" data-event="${event}">
           <h4>${event}</h4>
           <div class="event-meta">
             <span class="badge">${total} questions</span>
-            <span class="badge">${roleplays} roleplay</span>
+            ${roleplays ? `<span class="badge">${roleplays} roleplay</span>` : ""}
           </div>
         </button>
       `;
@@ -337,15 +586,33 @@ function openEvent(eventName, tabName = "overview") {
 
   const breakdown = getEventBankBreakdown(eventName);
   const combinedCount = getDeckForMode(eventName, getQuizBankMode()).length;
-  const roleplayCount = getRoleplayDeck(eventName).length;
+  const roleplayEnabled = hasOfficialRoleplay(eventName);
+  const roleplayCount = roleplayEnabled ? getRoleplayDeck(eventName).length : 0;
+  const roleplayTabBtn = document.querySelector('.ws-tab[data-ws-tab="roleplay"]');
+  const roleplayOpenBtn = document.getElementById("openRoleplayBtn");
 
-  document.getElementById("activeEventMeta").textContent = `${combinedCount} available quiz questions, ${roleplayCount} roleplay variants, and packaged study tools for ${eventName}.`;
-  document.getElementById("overviewRoleplayCount").textContent = `${roleplayCount} roleplay variants available.`;
-  document.getElementById("overviewRoleplayHint").textContent = `Use scenario variants to practice different judge angles for ${eventName}.`;
+  setControlVisibility(roleplayTabBtn, roleplayEnabled);
+  setControlVisibility(roleplayOpenBtn, roleplayEnabled);
+
+  if (!roleplayEnabled && tabName === "roleplay") {
+    tabName = "overview";
+  }
+
+  document.getElementById("activeEventMeta").textContent = roleplayEnabled
+    ? `${combinedCount} available quiz questions, ${roleplayCount} roleplay variants, and packaged study tools for ${eventName}.`
+    : `${combinedCount} available quiz questions and packaged study tools for ${eventName}. This event does not include an interactive roleplay round.`;
+  document.getElementById("overviewRoleplayCount").textContent = roleplayEnabled
+    ? `${roleplayCount} roleplay variants available.`
+    : "No interactive roleplay round for this event.";
+  document.getElementById("overviewRoleplayHint").textContent = roleplayEnabled
+    ? `Use scenario variants to practice different judge angles for ${eventName}.`
+    : `Roleplay Lab is hidden for ${eventName} because the official format guide does not list a roleplay round.`;
   document.getElementById("overviewSourceCoverage").textContent = `Official packaged: ${breakdown.official}. Pregenerated AI: ${breakdown.ai}. Combined deduped: ${breakdown.combined}.`;
   document.getElementById("overviewQuestionAdvice").textContent = breakdown.combined >= 100
     ? `This event has enough packaged questions for a full 100-question rep. Use Official mode first, then mix in AI for breadth.`
-    : `This event is still below 100 combined packaged questions. Start with Official mode, then use Flashcards and Roleplay Lab to reinforce gaps.`;
+    : roleplayEnabled
+      ? `This event is still below 100 combined packaged questions. Start with Official mode, then use Flashcards and Roleplay Lab to reinforce gaps.`
+      : `This event is still below 100 combined packaged questions. Start with Official mode, then use Flashcards and the Prep Checklist to reinforce gaps.`;
   document.getElementById("overviewToolkit").innerHTML = [
     `Run Official mode first to learn the canonical phrasing for ${eventName}.`,
     `Use Official + Pregenerated AI mode only for additional reps from packaged banks already in the repo.`,
@@ -387,12 +654,12 @@ function formatTimer(seconds) {
 function startExam() {
   if (!state.currentEvent) return;
 
-  const countValue = document.getElementById("quizCount").value;
+  const countValue = quizUi.count.value;
   const mode = getQuizBankMode();
 
   const base = getDeckForMode(state.currentEvent, mode);
   if (!base.length) {
-    document.getElementById("quizCard").innerHTML = "<p>No question bank available for this event yet.</p>";
+    quizUi.card.innerHTML = "<p>No question bank available for this event yet.</p>";
     return;
   }
 
@@ -408,14 +675,14 @@ function startExam() {
   stopQuizTimer();
   state.quiz.timerId = setInterval(() => {
     state.quiz.secondsLeft -= 1;
-    document.getElementById("quizTimer").textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
+    quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
     if (state.quiz.secondsLeft <= 0) {
       submitExam();
     }
   }, 1000);
 
-  document.getElementById("examResults").innerHTML = "";
-  document.getElementById("examResults").innerHTML = "<p>Submit exam to see full right/wrong explanations for every question and option.</p>";
+  quizUi.results.innerHTML = "<p>Submit exam to see full right/wrong explanations for every question and option.</p>";
+  updateQuizAiHelp(null, null);
   renderQuestion();
   setWorkspaceTab("quiz");
 }
@@ -427,8 +694,8 @@ function renderQuestion() {
   const item = deck[idx];
   const chosen = state.quiz.answers[idx];
 
-  document.getElementById("quizProgress").textContent = `Question ${idx + 1} of ${deck.length}`;
-  document.getElementById("quizTimer").textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
+  quizUi.progress.textContent = `Question ${idx + 1} of ${deck.length}`;
+  quizUi.timer.textContent = formatTimer(Math.max(0, state.quiz.secondsLeft));
 
   const optionsHtml = item.options.map((opt, oIdx) => {
     let cls = "option";
@@ -440,7 +707,7 @@ function renderQuestion() {
     return `<button class="${cls}" data-opt="${oIdx}">${String.fromCharCode(65 + oIdx)}. ${opt}</button>`;
   }).join("");
 
-  document.getElementById("quizCard").innerHTML = `
+  quizUi.card.innerHTML = `
     <p class="eyebrow">${item.source || "question-bank"}</p>
     <h3>Q${idx + 1}. ${item.q}</h3>
     <div>${optionsHtml}</div>
@@ -456,6 +723,7 @@ function renderQuestion() {
   });
 
   updateLiveScore();
+  updateQuizAiHelp(item, idx);
 }
 
 function updateLiveScore() {
@@ -466,7 +734,7 @@ function updateLiveScore() {
     const q = deck[i];
     if (Number.isInteger(q?.answer) && q.answer === state.quiz.answers[i]) correct += 1;
   });
-  document.getElementById("quizScoreLive").textContent = `${correct} / ${answeredIdx.length}`;
+  quizUi.scoreLive.textContent = `${correct} / ${answeredIdx.length}`;
 }
 
 function changeQuestion(delta) {
@@ -544,10 +812,11 @@ function submitExam() {
     ? `<p><strong>Missed prompts to revisit:</strong> ${missedTopics.slice(0, 3).join(" | ")}${missedTopics.length > 3 ? " ..." : ""}</p>`
     : "";
 
-  document.getElementById("examResults").innerHTML = `
+  quizUi.results.innerHTML = `
     <h3>Exam Result</h3>
     <p><strong>${correct}/${total}</strong> (${pct}%) - ${verdict}</p>
     <p><strong>Recovery advice:</strong> ${recoveryAdvice}</p>
+    <p class="module-note">When you review an official HQ question above, the app now generates a tutoring prompt you can paste into another AI chat for a fuller explanation.</p>
     ${missPreview}
     <p class="eyebrow">Question Review</p>
     <div class="exam-review">${reviewRows.join("")}</div>
@@ -558,31 +827,47 @@ function submitExam() {
 
 function renderRoleplay(eventName) {
   const scenarios = getRoleplayDeck(eventName);
-  const select = document.getElementById("scenarioSelect");
-  select.innerHTML = scenarios.map((s, i) => `<option value="${i}">${s.name}</option>`).join("");
+  if (!hasOfficialRoleplay(eventName) || !scenarios.length) {
+    resetRoleplayPanel(eventName, "This event does not include an interactive roleplay round in the current official format guide.");
+    return;
+  }
+
+  roleplayUi.select.innerHTML = scenarios.map((s, i) => `<option value="${i}">${s.name}</option>`).join("");
+
+  const updateAiPrompt = (scenario) => {
+    roleplayUi.aiPrompt.value = buildRoleplayAIPrompt(eventName, scenario, roleplayUi.response.value);
+  };
 
   const apply = (idx) => {
     const s = scenarios[idx] || scenarios[0];
-    document.getElementById("scenarioPrompt").innerHTML = `<p><strong>${s.event}</strong></p><p>${s.prompt}</p>`;
-    document.getElementById("judgeQuestion").textContent = s.judgeQuestions[0] || "What is your first step?";
-    document.getElementById("roleplayIndicators").innerHTML = (s.indicators || []).map((i) => `<li>${i}</li>`).join("");
-    document.getElementById("roleplayScore").textContent = "";
+    const sourceLine = s.sourceNote ? `<p class="module-note">${s.sourceNote}</p>` : "";
+    roleplayUi.prompt.innerHTML = `<p><strong>${s.event}</strong></p><p>${s.prompt}</p>${sourceLine}`;
+    roleplayUi.judgeQuestion.textContent = s.judgeQuestions[0] || "What is your first step?";
+    roleplayUi.indicators.innerHTML = (s.indicators || []).map((item) => `<li>${item}</li>`).join("");
+    roleplayUi.docs.innerHTML = getRoleplayDocs(eventName)
+      .map((doc) => `<a class="doc-link" href="${encodeURI(doc.path)}" target="_blank" rel="noreferrer">${doc.label}</a>`)
+      .join("");
+    roleplayUi.docsHint.textContent = roleplayUi.docs.innerHTML
+      ? "Open the event PDF before practicing so your response stays anchored to the repo's official materials."
+      : "";
+    roleplayUi.score.textContent = "";
+    updateAiPrompt(s);
   };
 
   apply(0);
 
-  select.onchange = () => apply(Number(select.value));
+  roleplayUi.select.onchange = () => apply(Number(roleplayUi.select.value));
   document.getElementById("newJudgeQuestionBtn").onclick = () => {
-    const s = scenarios[Number(select.value)] || scenarios[0];
+    const s = scenarios[Number(roleplayUi.select.value)] || scenarios[0];
     const q = s.judgeQuestions[Math.floor(Math.random() * s.judgeQuestions.length)] || "What is your first step?";
-    document.getElementById("judgeQuestion").textContent = q;
+    roleplayUi.judgeQuestion.textContent = q;
   };
 
   document.getElementById("gradeRoleplayBtn").onclick = () => {
-    const s = scenarios[Number(select.value)] || scenarios[0];
-    const text = document.getElementById("roleplayResponse").value.trim();
+    const s = scenarios[Number(roleplayUi.select.value)] || scenarios[0];
+    const text = roleplayUi.response.value.trim();
     if (!text) {
-      document.getElementById("roleplayScore").textContent = "Write your draft first.";
+      roleplayUi.score.textContent = "Write your draft first.";
       return;
     }
 
@@ -602,12 +887,24 @@ function renderRoleplay(eventName) {
     score = Math.min(100, score);
 
     const band = score >= 85 ? "Final-round ready" : score >= 70 ? "Strong base" : "Needs structure";
-    document.getElementById("roleplayScore").textContent = `Draft Score: ${score}/100 - ${band}. Indicator coverage: ${indicatorHits}/${(s.indicators || []).length}.`;
+    roleplayUi.score.textContent = `Draft Score: ${score}/100 - ${band}. Indicator coverage: ${indicatorHits}/${(s.indicators || []).length}.`;
+    updateAiPrompt(s);
   };
 
   document.getElementById("clearRoleplayBtn").onclick = () => {
-    document.getElementById("roleplayResponse").value = "";
-    document.getElementById("roleplayScore").textContent = "";
+    roleplayUi.response.value = "";
+    roleplayUi.score.textContent = "";
+    updateAiPrompt(scenarios[Number(roleplayUi.select.value)] || scenarios[0]);
+  };
+
+  roleplayUi.response.oninput = () => updateAiPrompt(scenarios[Number(roleplayUi.select.value)] || scenarios[0]);
+  document.getElementById("copyRoleplayPromptBtn").onclick = async () => {
+    await copyTextWithFeedback(
+      roleplayUi.aiPrompt.value,
+      roleplayUi.score,
+      "AI grading prompt copied to clipboard.",
+      "Copy failed. Select the AI prompt text and copy it manually."
+    );
   };
 }
 
@@ -672,26 +969,36 @@ function bindUi() {
 
   document.getElementById("openOverviewBtn").onclick = () => setWorkspaceTab("overview");
   document.getElementById("openQuizBtn").onclick = () => setWorkspaceTab("quiz");
-  document.getElementById("openRoleplayBtn").onclick = () => setWorkspaceTab("roleplay");
+  document.getElementById("openRoleplayBtn").onclick = () => {
+    if (!hasOfficialRoleplay(state.currentEvent)) return;
+    setWorkspaceTab("roleplay");
+  };
+  document.getElementById("copyQuizAiPromptBtn").onclick = async () => {
+    await copyTextWithFeedback(
+      quizUi.aiPrompt.value,
+      quizUi.aiHelpNote,
+      "AI help prompt copied to clipboard.",
+      "Copy failed. Select the AI help prompt text and copy it manually."
+    );
+  };
 
   document.getElementById("startExamBtn").onclick = startExam;
-  document.getElementById("quizBankMode").onchange = () => {
+  quizUi.bankMode.onchange = () => {
     const currentTab = document.querySelector(".ws-tab.active")?.dataset.wsTab || "overview";
     updateQuizAvailability();
     setStats();
     if (state.currentEvent) openEvent(state.currentEvent, currentTab);
   };
-  document.getElementById("quizCount").onchange = () => updateQuizAvailability();
+  quizUi.count.onchange = () => updateQuizAvailability();
   document.getElementById("prevQuestionBtn").onclick = () => changeQuestion(-1);
   document.getElementById("nextQuestionBtn").onclick = () => changeQuestion(1);
   document.getElementById("submitExamBtn").onclick = submitExam;
 
   const launchWith = (countValue) => {
     if (!state.currentEvent) return;
-    const select = document.getElementById("quizCount");
-    const candidate = select.querySelector(`option[value="${countValue}"]`);
+    const candidate = quizUi.count.querySelector(`option[value="${countValue}"]`);
     if (!candidate || candidate.disabled) return;
-    document.getElementById("quizCount").value = countValue;
+    quizUi.count.value = countValue;
     startExam();
   };
 

@@ -144,6 +144,15 @@
           <p>Generate an exam to begin.</p>
         </article>
 
+        <article id="quizAiHelp" class="quiz-card is-hidden">
+          <h3>AI Help For HQ Questions</h3>
+          <p id="quizAiHelpNote" class="module-note">Submit an exam and review an HQ question to generate a tutoring prompt you can paste into another AI chat.</p>
+          <textarea id="quizAiPrompt" rows="11" readonly></textarea>
+          <div class="row">
+            <button id="copyQuizAiPromptBtn">Copy AI Help Prompt</button>
+          </div>
+        </article>
+
         <div class="row">
           <button id="prevQuestionBtn">Previous</button>
           <button id="nextQuestionBtn">Next</button>
@@ -159,6 +168,8 @@
             <label for="scenarioSelect">Scenario Variant</label>
             <select id="scenarioSelect"></select>
             <div id="scenarioPrompt" class="scenario-box"></div>
+            <div id="roleplayDocLinks" class="doc-link-list"></div>
+            <p id="roleplayDocHint" class="module-note"></p>
             <button id="newJudgeQuestionBtn">New Judge Question</button>
             <p id="judgeQuestion" class="judge-q"></p>
           </article>
@@ -172,6 +183,12 @@
             </div>
             <p id="roleplayScore"></p>
             <ul id="roleplayIndicators" class="indicator-list"></ul>
+            <h3>AI Grading Prompt</h3>
+            <p class="module-note">Paste this prompt into an AI grader with your response to get a fuller critique.</p>
+            <textarea id="roleplayAiPrompt" rows="12" readonly></textarea>
+            <div class="row">
+              <button id="copyRoleplayPromptBtn">Copy AI Prompt</button>
+            </div>
           </article>
         </div>
       </section>
@@ -211,6 +228,7 @@
   <script src="resource_data.js"></script>
   <script src="combined_question_bank.js"></script>
   <script src="ai_question_bank.js"></script>
+  <script src="roleplay_reference.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

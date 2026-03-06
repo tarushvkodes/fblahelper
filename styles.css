@@ -440,6 +440,12 @@ button.ghost,
   padding: 1rem;
 }
 
+#quizAiPrompt {
+  margin-top: 0.7rem;
+  min-height: 220px;
+  line-height: 1.45;
+}
+
 .option {
   width: 100%;
   text-align: left;
@@ -535,6 +541,28 @@ button.ghost,
 .indicator-list {
   margin: 0.7rem 0 0;
   padding-left: 1rem;
+}
+
+.doc-link-list {
+  margin-top: 0.7rem;
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.doc-link {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.doc-link:hover {
+  border-color: rgba(191, 47, 35, 0.6);
+  color: var(--accent);
 }
 
 .flash-card {
