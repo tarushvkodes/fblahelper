@@ -9,8 +9,8 @@ const EVENTS = [
   "Introduction to Business Concepts", "Introduction to Business Presentation", "Introduction to Business Procedures", "Introduction to FBLA",
   "Introduction to Information Technology", "Introduction to Marketing Concepts", "Introduction to Parliamentary Procedure",
   "Introduction to Programming", "Introduction to Public Speaking", "Introduction to Retail & Merchandising",
-  "Introduction to Social Media Strategy", "Introduction to Supply Chain Management", "Job Interview", "Journalism", "Marketing",
-  "Mobile Application Development", "Network Design", "Networking Infrastructures", "Organizational Leadership",
+  "Introduction to Social Media Strategy", "Introduction to Supply Chain Management", "Job Interview", "Journalism",
+  "Management Information Systems", "Marketing", "Mobile Application Development", "Network Design", "Networking Infrastructures", "Organizational Leadership",
   "Parliamentary Procedure Individual", "Parliamentary Procedure Team", "Personal Finance", "Project Management",
   "Public Administration & Management", "Public Service Announcement", "Public Speaking", "Real Estate", "Retail Management",
   "Sales Presentation", "Securities & Investments", "Social Media Strategies", "Sports & Entertainment Management",
@@ -121,7 +121,7 @@ const roleplayUi = {
   aiPrompt: document.getElementById("roleplayAiPrompt"),
   response: document.getElementById("roleplayResponse")
 };
-const FBLA_SECONDS_PER_QUESTION = 60;
+const FBLA_SECONDS_PER_QUESTION = 30;
 
 function norm(s) {
   return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();

@@ -21714,6 +21714,1844 @@ window.AI_QUESTION_BANK = {
         "source": "generated-bespoke"
       }
     ],
+    "Management Information Systems": [
+      {
+        "q": "Which of the following best describes a Management Information System (MIS)?",
+        "options": [
+          "A system that only handles financial transactions",
+          "An integrated system that provides information to support operations, management, and decision-making",
+          "A software program used exclusively for word processing",
+          "A network of computers used only for email communication"
+        ],
+        "answer": 1,
+        "explain": "An MIS is an integrated, user-machine system for providing information to support operations, management, and decision-making functions in an organization.",
+        "optionExplanations": [
+          "Financial transactions are only one aspect of what an MIS can handle.",
+          "Correct because MIS integrates people, technology, and processes to support organizational decision-making at all levels.",
+          "Word processing is a single application, not an information system.",
+          "Email is one communication tool, not a comprehensive management information system."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The System Development Life Cycle (SDLC) typically begins with which phase?",
+        "options": [
+          "Implementation",
+          "System design",
+          "Systems planning and investigation",
+          "Maintenance"
+        ],
+        "answer": 2,
+        "explain": "The SDLC begins with the planning and investigation phase, where the problem or opportunity is identified and the feasibility of the project is assessed.",
+        "optionExplanations": [
+          "Implementation occurs after the system has been designed and developed.",
+          "System design comes after the requirements have been analyzed during preliminary investigation.",
+          "Correct because this initial phase defines the scope, identifies problems, and evaluates feasibility before any design work begins.",
+          "Maintenance is the final phase, occurring after the system is deployed."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which type of information system is primarily used by senior management to support strategic decision-making?",
+        "options": [
+          "Transaction Processing System (TPS)",
+          "Executive Information System (EIS)",
+          "Office Automation System (OAS)",
+          "Knowledge Management System (KMS)"
+        ],
+        "answer": 1,
+        "explain": "An Executive Information System (EIS) provides senior executives with easy access to internal and external information relevant to strategic goals.",
+        "optionExplanations": [
+          "TPS handles routine daily transactions at the operational level, not strategic decisions.",
+          "Correct because EIS is designed specifically to serve the information needs of top executives for strategic planning.",
+          "OAS supports general office tasks like word processing and scheduling, not strategic decision-making.",
+          "KMS focuses on capturing and sharing organizational knowledge, but is not specifically designed for executive strategy."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In database management, a primary key is best described as:",
+        "options": [
+          "A field that allows duplicate values in a table",
+          "A unique identifier for each record in a table",
+          "A password used to access the database",
+          "The first column in any database table"
+        ],
+        "answer": 1,
+        "explain": "A primary key is a field (or combination of fields) that uniquely identifies each record in a database table, ensuring no duplicates exist.",
+        "optionExplanations": [
+          "A primary key must be unique and cannot contain duplicate values.",
+          "Correct because the primary key guarantees that each record can be uniquely distinguished from all others.",
+          "A primary key is a data integrity concept, not a security credential.",
+          "The primary key can be any column and does not have to be the first one."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is an example of a Decision Support System (DSS)?",
+        "options": [
+          "A payroll processing application",
+          "A spreadsheet model that helps managers evaluate what-if scenarios",
+          "An email server that routes company messages",
+          "A barcode scanner at a retail checkout"
+        ],
+        "answer": 1,
+        "explain": "A DSS helps managers make semi-structured and unstructured decisions by providing analytical models, data access, and what-if analysis capabilities.",
+        "optionExplanations": [
+          "Payroll processing is a Transaction Processing System function.",
+          "Correct because what-if analysis models are a core feature of Decision Support Systems used by managers.",
+          "An email server is a communication tool, not a decision support tool.",
+          "A barcode scanner is part of a Transaction Processing System at the point of sale."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "ERP stands for:",
+        "options": [
+          "Enterprise Resource Planning",
+          "Electronic Resource Protocol",
+          "Efficient Retrieval Process",
+          "Enterprise Routing Platform"
+        ],
+        "answer": 0,
+        "explain": "ERP stands for Enterprise Resource Planning, which is software that integrates core business processes such as finance, HR, manufacturing, and supply chain into a single system.",
+        "optionExplanations": [
+          "Correct because Enterprise Resource Planning systems unify business processes across the organization.",
+          "This is not a recognized technology term.",
+          "This is not the correct expansion of ERP.",
+          "This is not a recognized term in information systems."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which network topology connects each device to a central hub or switch?",
+        "options": [
+          "Ring topology",
+          "Bus topology",
+          "Star topology",
+          "Mesh topology"
+        ],
+        "answer": 2,
+        "explain": "In a star topology, every device connects to a central hub or switch, which manages data traffic between nodes.",
+        "optionExplanations": [
+          "In a ring topology, devices are connected in a circular loop.",
+          "In a bus topology, all devices share a single communication line.",
+          "Correct because each device has a dedicated connection to a central hub or switch.",
+          "In a mesh topology, each device connects to every other device."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes cloud computing?",
+        "options": [
+          "Storing data on local hard drives",
+          "Delivering computing services over the internet on a pay-as-you-go basis",
+          "Using only open-source software",
+          "Connecting computers through Bluetooth"
+        ],
+        "answer": 1,
+        "explain": "Cloud computing delivers computing resources—servers, storage, databases, networking, software—over the internet, often on a pay-as-you-go basis.",
+        "optionExplanations": [
+          "Local storage is the opposite of cloud computing.",
+          "Correct because cloud computing provides on-demand computing resources delivered via the internet.",
+          "Open-source software can be used locally or in the cloud; it does not define cloud computing.",
+          "Bluetooth is a short-range wireless technology, not related to cloud computing."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In a relational database, a foreign key is used to:",
+        "options": [
+          "Encrypt data within a table",
+          "Establish a link between two tables",
+          "Create a backup copy of a table",
+          "Sort records in descending order"
+        ],
+        "answer": 1,
+        "explain": "A foreign key is a field in one table that references the primary key of another table, creating a relationship between the two tables.",
+        "optionExplanations": [
+          "Encryption is a security measure, not related to foreign keys.",
+          "Correct because foreign keys enforce referential integrity by linking records between tables.",
+          "Backups are a maintenance operation, not a function of foreign keys.",
+          "Sorting is a query operation and has nothing to do with foreign keys."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What does SQL stand for?",
+        "options": [
+          "Structured Query Language",
+          "System Quality Level",
+          "Standard Question Logic",
+          "Sequential Query Listing"
+        ],
+        "answer": 0,
+        "explain": "SQL stands for Structured Query Language, the standard language used to communicate with and manipulate relational databases.",
+        "optionExplanations": [
+          "Correct because Structured Query Language is the industry-standard database query language.",
+          "This is not a recognized technology term.",
+          "This is not the correct expansion of SQL.",
+          "This is not the correct expansion of SQL."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which SQL command is used to retrieve data from a database?",
+        "options": [
+          "INSERT",
+          "UPDATE",
+          "SELECT",
+          "DELETE"
+        ],
+        "answer": 2,
+        "explain": "The SELECT statement is used to query and retrieve data from one or more tables in a database.",
+        "optionExplanations": [
+          "INSERT adds new records to a table.",
+          "UPDATE modifies existing records in a table.",
+          "Correct because SELECT is the SQL command that queries the database and returns specified data.",
+          "DELETE removes records from a table."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a benefit of using a Customer Relationship Management (CRM) system?",
+        "options": [
+          "Reduced need for electricity",
+          "Improved tracking of customer interactions and sales pipelines",
+          "Elimination of all business competition",
+          "Automatic generation of product patents"
+        ],
+        "answer": 1,
+        "explain": "CRM systems help businesses manage customer data, track interactions, streamline sales processes, and improve customer retention.",
+        "optionExplanations": [
+          "CRM systems do not reduce electricity consumption.",
+          "Correct because CRM systems centralize customer data and interactions to improve sales and service.",
+          "No software can eliminate competition.",
+          "CRM systems do not generate patents."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The process of converting data into a coded format to prevent unauthorized access is called:",
+        "options": [
+          "Compression",
+          "Encryption",
+          "Defragmentation",
+          "Indexing"
+        ],
+        "answer": 1,
+        "explain": "Encryption converts readable data (plaintext) into an unreadable format (ciphertext) to protect it from unauthorized access.",
+        "optionExplanations": [
+          "Compression reduces file size but does not protect data from unauthorized access.",
+          "Correct because encryption scrambles data so that only authorized parties with the decryption key can read it.",
+          "Defragmentation reorganizes disk storage for efficiency.",
+          "Indexing speeds up data retrieval but does not secure data."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is the best example of a Transaction Processing System (TPS)?",
+        "options": [
+          "A CEO dashboard showing annual revenue trends",
+          "A point-of-sale system that records each customer purchase",
+          "A strategic planning tool for market expansion",
+          "A project management tool tracking team assignments"
+        ],
+        "answer": 1,
+        "explain": "A TPS processes routine, high-volume business transactions such as sales, payroll, and inventory updates in real time or batches.",
+        "optionExplanations": [
+          "A CEO dashboard is an Executive Information System.",
+          "Correct because a POS system records individual transactions as they occur, which is the core function of a TPS.",
+          "Strategic planning tools serve upper management, not operational transaction processing.",
+          "Project management tools assist with coordination, not routine transaction processing."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the primary purpose of a firewall in a network?",
+        "options": [
+          "To speed up internet connections",
+          "To monitor and control incoming and outgoing network traffic based on security rules",
+          "To store backup copies of data",
+          "To convert analog signals to digital signals"
+        ],
+        "answer": 1,
+        "explain": "A firewall acts as a barrier between a trusted internal network and untrusted external networks, filtering traffic based on predefined security rules.",
+        "optionExplanations": [
+          "Firewalls do not increase connection speed; they may slightly reduce it due to traffic inspection.",
+          "Correct because firewalls filter network traffic to block unauthorized access while permitting legitimate communication.",
+          "Backup storage is handled by backup systems, not firewalls.",
+          "Signal conversion is done by modems, not firewalls."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Data normalization in database design is used to:",
+        "options": [
+          "Increase data redundancy for faster queries",
+          "Organize data to reduce redundancy and improve integrity",
+          "Delete all unused tables from the database",
+          "Convert the database to a flat-file format"
+        ],
+        "answer": 1,
+        "explain": "Normalization is the process of organizing data in a relational database to minimize redundancy and dependency, improving data integrity.",
+        "optionExplanations": [
+          "Normalization reduces, not increases, redundancy.",
+          "Correct because normalization structures data to eliminate redundant copies and ensure consistent, accurate records.",
+          "Normalization reorganizes data structure; it does not delete tables.",
+          "Normalization is specific to relational databases, not flat files."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which type of software allows multiple users to access and modify a shared database simultaneously?",
+        "options": [
+          "Spreadsheet application",
+          "Database Management System (DBMS)",
+          "Word processor",
+          "Media player"
+        ],
+        "answer": 1,
+        "explain": "A DBMS provides multi-user access, data integrity controls, and concurrent modification capabilities for shared databases.",
+        "optionExplanations": [
+          "Spreadsheets can share files but lack true multi-user concurrent database management features.",
+          "Correct because a DBMS is specifically designed to manage shared databases with concurrent user access and data integrity.",
+          "Word processors handle documents, not databases.",
+          "Media players play audio/video and have no database capabilities."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The Agile methodology in systems development is characterized by:",
+        "options": [
+          "Completing all planning before any coding begins",
+          "Iterative development with frequent feedback and short development cycles",
+          "Avoiding user involvement until the final product is delivered",
+          "Writing extensive documentation before each phase"
+        ],
+        "answer": 1,
+        "explain": "Agile development emphasizes iterative progress through short sprints, continuous feedback from stakeholders, and adaptability to changing requirements.",
+        "optionExplanations": [
+          "This describes the Waterfall approach, where all planning precedes development.",
+          "Correct because Agile uses sprints or iterations to deliver working software incrementally with ongoing user feedback.",
+          "Agile actively involves users and stakeholders throughout the development process.",
+          "Agile values working software over comprehensive documentation."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is an advantage of using a wide area network (WAN)?",
+        "options": [
+          "It connects devices only within a single room",
+          "It enables communication between geographically distant locations",
+          "It is always faster than a local area network",
+          "It does not require any networking hardware"
+        ],
+        "answer": 1,
+        "explain": "A WAN connects networks across large geographic areas, enabling communication between offices, cities, or even countries.",
+        "optionExplanations": [
+          "A single room would use a Local Area Network (LAN).",
+          "Correct because WANs span large distances, connecting branch offices and remote locations.",
+          "LANs are typically faster than WANs because of shorter distances and less latency.",
+          "WANs require extensive networking hardware including routers, switches, and leased lines."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Business intelligence (BI) systems are primarily designed to:",
+        "options": [
+          "Automate payroll calculations",
+          "Analyze large volumes of data to identify trends and support decision-making",
+          "Replace human managers entirely",
+          "Handle email routing for a company"
+        ],
+        "answer": 1,
+        "explain": "BI systems collect, integrate, analyze, and present business data to help organizations make informed, data-driven decisions.",
+        "optionExplanations": [
+          "Payroll is handled by transaction processing or HR systems.",
+          "Correct because BI tools are designed to transform raw data into meaningful insights through analysis, dashboards, and reporting.",
+          "BI supports managers but does not replace them.",
+          "Email routing is handled by mail servers, not BI systems."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following describes the Waterfall model of systems development?",
+        "options": [
+          "Development phases overlap and repeat continuously",
+          "Each phase is completed sequentially before the next begins",
+          "Users write the code directly without developer involvement",
+          "Testing is performed only by end users"
+        ],
+        "answer": 1,
+        "explain": "The Waterfall model follows a linear, sequential approach where each phase (requirements, design, implementation, testing, maintenance) must be completed before moving to the next.",
+        "optionExplanations": [
+          "Overlapping and repeating phases describe iterative or Agile approaches.",
+          "Correct because Waterfall proceeds in a strict sequence from one phase to the next.",
+          "Developers are always involved in building the system.",
+          "Testing in Waterfall is typically done by QA teams, not only end users."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In the context of MIS, what does the term 'data mining' refer to?",
+        "options": [
+          "Physically extracting minerals from the earth",
+          "The process of discovering patterns and relationships in large datasets",
+          "Deleting old data from storage devices",
+          "Creating new databases from scratch"
+        ],
+        "answer": 1,
+        "explain": "Data mining uses statistical techniques, machine learning, and pattern recognition to find meaningful trends and correlations in large datasets.",
+        "optionExplanations": [
+          "Data mining is a technology term, not a physical mining activity.",
+          "Correct because data mining extracts useful patterns, anomalies, and insights from large volumes of data.",
+          "Deleting data is data purging or archiving, not data mining.",
+          "Creating databases is database development, not data mining."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "A Virtual Private Network (VPN) is used to:",
+        "options": [
+          "Increase a computer's processing speed",
+          "Create a secure, encrypted connection over a public network",
+          "Permanently delete files from a hard drive",
+          "Convert video files to audio format"
+        ],
+        "answer": 1,
+        "explain": "A VPN creates a secure, encrypted tunnel over a public network (like the internet) to protect data in transit and provide private access to organizational resources.",
+        "optionExplanations": [
+          "VPNs do not affect processing speed.",
+          "Correct because a VPN encrypts internet traffic and provides secure remote access through a public network.",
+          "File deletion is unrelated to VPN functionality.",
+          "Media conversion is unrelated to VPN functionality."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a characteristic of Software as a Service (SaaS)?",
+        "options": [
+          "Users must install and maintain the software on their own servers",
+          "Software is accessed via a web browser and hosted by a third-party provider",
+          "It requires purchasing a permanent license for each user",
+          "It is only available for mobile devices"
+        ],
+        "answer": 1,
+        "explain": "SaaS delivers software applications over the internet, hosted by the provider, and accessed by users through a web browser without local installation.",
+        "optionExplanations": [
+          "SaaS eliminates the need for local installation and server maintenance.",
+          "Correct because SaaS is web-based, hosted externally, and typically offered on a subscription model.",
+          "SaaS uses subscription pricing, not permanent licenses.",
+          "SaaS is accessible on any device with a web browser, not just mobile."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the purpose of a data warehouse?",
+        "options": [
+          "To handle real-time transaction processing",
+          "To store and consolidate large volumes of historical data for analysis",
+          "To route network traffic between servers",
+          "To develop new software applications"
+        ],
+        "answer": 1,
+        "explain": "A data warehouse is a central repository that stores integrated data from multiple sources for historical analysis, reporting, and business intelligence.",
+        "optionExplanations": [
+          "Real-time transactions are handled by OLTP (Online Transaction Processing) systems.",
+          "Correct because data warehouses consolidate historical data from various sources for analytics and reporting.",
+          "Routing network traffic is a function of network infrastructure devices.",
+          "Software development uses IDEs and development tools, not data warehouses."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following protocols is used for secure web browsing?",
+        "options": [
+          "FTP",
+          "SMTP",
+          "HTTPS",
+          "SNMP"
+        ],
+        "answer": 2,
+        "explain": "HTTPS (HyperText Transfer Protocol Secure) encrypts data exchanged between a browser and a web server, providing secure web browsing.",
+        "optionExplanations": [
+          "FTP is used for file transfers, not secure web browsing.",
+          "SMTP is used for sending email.",
+          "Correct because HTTPS adds SSL/TLS encryption to HTTP for secure web communication.",
+          "SNMP is used for network management and monitoring."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "An entity-relationship (ER) diagram is primarily used in:",
+        "options": [
+          "Network security planning",
+          "Database design to model data relationships",
+          "Creating marketing campaign budgets",
+          "Scheduling employee work shifts"
+        ],
+        "answer": 1,
+        "explain": "An ER diagram visually represents entities (tables), their attributes (fields), and the relationships between them during database design.",
+        "optionExplanations": [
+          "ER diagrams are not used for security planning.",
+          "Correct because ER diagrams are a fundamental tool for designing relational database structures.",
+          "Marketing budgets use financial planning tools, not ER diagrams.",
+          "Employee scheduling uses HR or workforce management tools."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes phishing?",
+        "options": [
+          "A method of compressing files for faster transmission",
+          "A social engineering attack that tricks users into revealing sensitive information",
+          "A technique for encrypting data in transit",
+          "A process for testing software for bugs"
+        ],
+        "answer": 1,
+        "explain": "Phishing is a type of social engineering attack where attackers impersonate legitimate entities (typically via email) to trick victims into revealing passwords, credit card numbers, or other sensitive data.",
+        "optionExplanations": [
+          "File compression is a data management technique, not a security threat.",
+          "Correct because phishing uses deceptive communications to steal personal or organizational information.",
+          "Encryption protects data; phishing is an attack method.",
+          "Software testing (debugging) is a development activity, not a security attack."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In project management, a Gantt chart is used to:",
+        "options": [
+          "Display the organizational hierarchy of a company",
+          "Show project tasks, their durations, and dependencies over time",
+          "Calculate the total cost of a project",
+          "Identify security vulnerabilities in a system"
+        ],
+        "answer": 1,
+        "explain": "A Gantt chart is a horizontal bar chart that visually represents a project schedule, showing tasks, durations, milestones, and dependencies.",
+        "optionExplanations": [
+          "An organizational hierarchy is shown in an org chart.",
+          "Correct because Gantt charts map tasks across a timeline, showing start/end dates and interdependencies.",
+          "Cost calculations use budget spreadsheets or cost estimation tools.",
+          "Security vulnerabilities are identified through penetration testing or vulnerability scans."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is an example of Infrastructure as a Service (IaaS)?",
+        "options": [
+          "Google Docs",
+          "Amazon Web Services (AWS) EC2 virtual servers",
+          "Salesforce CRM",
+          "Microsoft Office 365"
+        ],
+        "answer": 1,
+        "explain": "IaaS provides virtualized computing resources—servers, storage, networking—on demand. AWS EC2 lets users rent virtual machines.",
+        "optionExplanations": [
+          "Google Docs is a SaaS application.",
+          "Correct because AWS EC2 provides virtual server infrastructure that customers manage themselves.",
+          "Salesforce is a SaaS CRM platform.",
+          "Office 365 is a SaaS productivity suite."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The term 'bandwidth' in networking refers to:",
+        "options": [
+          "The physical width of a network cable",
+          "The maximum rate of data transfer across a network connection",
+          "The number of computers on a network",
+          "The amount of RAM in a server"
+        ],
+        "answer": 1,
+        "explain": "Bandwidth measures the maximum data transfer capacity of a network connection, typically expressed in bits per second (bps).",
+        "optionExplanations": [
+          "Bandwidth is not a physical measurement of cable size.",
+          "Correct because bandwidth describes the data-carrying capacity of a network link.",
+          "The number of devices on a network is the network's size, not its bandwidth.",
+          "RAM is a computer's memory capacity, not a network characteristic."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which systems development approach involves building a working model of the system for user evaluation before final development?",
+        "options": [
+          "Waterfall model",
+          "Prototyping",
+          "Outsourcing",
+          "End-user development"
+        ],
+        "answer": 1,
+        "explain": "Prototyping creates an early working model of the system so that users can interact with it, provide feedback, and refine requirements before final development.",
+        "optionExplanations": [
+          "Waterfall proceeds sequentially without an early working model for user testing.",
+          "Correct because prototyping builds a preliminary version to gather user feedback iteratively.",
+          "Outsourcing delegates development to an external firm; it is not a development methodology.",
+          "End-user development means users build their own applications, not that a model is built for evaluation."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the main purpose of an access control list (ACL) in a network?",
+        "options": [
+          "To compress data packets for faster transmission",
+          "To define which users or systems are granted or denied access to resources",
+          "To convert domain names to IP addresses",
+          "To synchronize clocks across network devices"
+        ],
+        "answer": 1,
+        "explain": "An ACL is a set of rules that specifies which users or system processes are permitted or denied access to specific resources or network traffic.",
+        "optionExplanations": [
+          "Data compression is handled by compression algorithms, not ACLs.",
+          "Correct because ACLs regulate permissions and access control for network resources.",
+          "Converting domain names to IP addresses is the function of DNS.",
+          "Clock synchronization is handled by NTP (Network Time Protocol)."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "A data flow diagram (DFD) is used to:",
+        "options": [
+          "Show the physical layout of network devices",
+          "Illustrate how data moves through a system's processes",
+          "Create financial balance sheets",
+          "Schedule project tasks and milestones"
+        ],
+        "answer": 1,
+        "explain": "A DFD is a graphical representation showing how data flows into, through, and out of a system, highlighting processes, data stores, and external entities.",
+        "optionExplanations": [
+          "Network physical layout is shown in network diagrams, not DFDs.",
+          "Correct because DFDs map data flows between processes, data stores, and external entities in a system.",
+          "Balance sheets are financial statements, not system diagrams.",
+          "Project scheduling uses Gantt charts or similar tools."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a key benefit of implementing an ERP system?",
+        "options": [
+          "It eliminates the need for employees",
+          "It integrates various business functions into a unified system",
+          "It guarantees zero downtime",
+          "It replaces the need for internet connectivity"
+        ],
+        "answer": 1,
+        "explain": "ERP integrates core business processes such as finance, HR, manufacturing, and supply chain into one unified platform, improving efficiency and data consistency.",
+        "optionExplanations": [
+          "ERP automates processes but still requires human oversight and management.",
+          "Correct because the primary benefit of ERP is unifying disparate business processes into a single integrated system.",
+          "No system can guarantee zero downtime.",
+          "Many modern ERP systems are cloud-based and require internet connectivity."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In information security, the CIA triad stands for:",
+        "options": [
+          "Cost, Integration, Analysis",
+          "Confidentiality, Integrity, Availability",
+          "Communication, Innovation, Automation",
+          "Centralization, Infrastructure, Architecture"
+        ],
+        "answer": 1,
+        "explain": "The CIA triad is a widely used model in information security representing the three core principles: Confidentiality, Integrity, and Availability of data.",
+        "optionExplanations": [
+          "These terms are not part of the CIA triad.",
+          "Correct because Confidentiality, Integrity, and Availability are the three foundational principles of information security.",
+          "These are general business terms, not security principles.",
+          "These are IT infrastructure terms, not the components of the CIA triad."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which type of e-commerce involves transactions between businesses?",
+        "options": [
+          "B2C (Business-to-Consumer)",
+          "B2B (Business-to-Business)",
+          "C2C (Consumer-to-Consumer)",
+          "B2G (Business-to-Government)"
+        ],
+        "answer": 1,
+        "explain": "B2B e-commerce involves transactions between two businesses, such as a manufacturer selling components to another company.",
+        "optionExplanations": [
+          "B2C involves a business selling directly to individual consumers.",
+          "Correct because B2B is the model where businesses conduct transactions with other businesses.",
+          "C2C involves transactions between individual consumers, such as on auction sites.",
+          "B2G involves businesses selling products or services to government agencies."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the primary function of a router in a network?",
+        "options": [
+          "To provide electrical power to network devices",
+          "To forward data packets between different networks",
+          "To store application software for users",
+          "To display web content on a monitor"
+        ],
+        "answer": 1,
+        "explain": "A router directs data packets between networks using IP addresses, determining the best path for data to travel from source to destination.",
+        "optionExplanations": [
+          "Power supply is provided by electrical infrastructure, not routers.",
+          "Correct because routers route data packets between networks, connecting LANs to WANs or the internet.",
+          "Application storage is handled by file servers or cloud storage.",
+          "Displaying web content is the function of a web browser."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes 'big data'?",
+        "options": [
+          "A standard relational database with 100 records",
+          "Extremely large and complex datasets that traditional tools cannot efficiently process",
+          "A single spreadsheet file used for budgeting",
+          "A small collection of customer emails"
+        ],
+        "answer": 1,
+        "explain": "Big data refers to extremely large, varied, and fast-growing datasets that require advanced tools and techniques for storage, processing, and analysis.",
+        "optionExplanations": [
+          "100 records can easily be handled by traditional database tools.",
+          "Correct because big data is defined by its volume, velocity, and variety, requiring specialized processing.",
+          "A single spreadsheet is not big data.",
+          "A small email collection does not qualify as big data."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Multifactor authentication (MFA) enhances security by:",
+        "options": [
+          "Requiring only a username for login",
+          "Requiring two or more verification methods from different categories",
+          "Eliminating the need for passwords entirely",
+          "Allowing anyone to access the system without credentials"
+        ],
+        "answer": 1,
+        "explain": "MFA requires users to verify their identity using at least two different factors: something they know (password), something they have (phone/token), or something they are (biometrics).",
+        "optionExplanations": [
+          "A username alone provides single-factor authentication.",
+          "Correct because MFA combines multiple verification factors to significantly reduce unauthorized access.",
+          "MFA often includes passwords as one factor but adds additional verification.",
+          "MFA restricts access and would never allow unrestricted entry."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is an open-source database management system?",
+        "options": [
+          "Microsoft Access",
+          "MySQL",
+          "Oracle DB Enterprise Edition",
+          "IBM Db2"
+        ],
+        "answer": 1,
+        "explain": "MySQL is one of the most popular open-source relational database management systems, widely used in web applications.",
+        "optionExplanations": [
+          "Microsoft Access is proprietary software included in Microsoft Office.",
+          "Correct because MySQL is free and open-source, maintained by the community and Oracle.",
+          "Oracle DB Enterprise Edition is a proprietary, commercially licensed database.",
+          "IBM Db2 is a proprietary database from IBM."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Systems analysis involves:",
+        "options": [
+          "Writing code for a new application",
+          "Studying an existing system to determine requirements for a new or improved system",
+          "Selling software to customers",
+          "Backing up data to an external drive"
+        ],
+        "answer": 1,
+        "explain": "Systems analysis examines an existing system or business process to identify problems, needs, and requirements that will guide the design of a new or improved system.",
+        "optionExplanations": [
+          "Writing code is part of the implementation phase, not analysis.",
+          "Correct because systems analysis focuses on understanding current processes and defining requirements for improvement.",
+          "Selling software is a sales function, not analysis.",
+          "Data backup is an operational task, not systems analysis."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following technologies allows businesses to run multiple virtual machines on a single physical server?",
+        "options": [
+          "Blockchain",
+          "Virtualization",
+          "Social media",
+          "GPS tracking"
+        ],
+        "answer": 1,
+        "explain": "Virtualization uses software to create multiple virtual instances of servers, storage, and networks on a single physical machine, improving resource utilization.",
+        "optionExplanations": [
+          "Blockchain is a distributed ledger technology, not a virtualization tool.",
+          "Correct because virtualization enables multiple virtual machines to run on a single physical host.",
+          "Social media is a communication platform, not a server technology.",
+          "GPS tracking is a location-based service, not server virtualization."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In the context of databases, ACID stands for:",
+        "options": [
+          "Application, Communication, Integration, Deployment",
+          "Atomicity, Consistency, Isolation, Durability",
+          "Analysis, Coding, Implementation, Documentation",
+          "Authentication, Certification, Identification, Decryption"
+        ],
+        "answer": 1,
+        "explain": "ACID properties ensure reliable database transactions: Atomicity (all-or-nothing), Consistency (valid state), Isolation (independent transactions), and Durability (permanent results).",
+        "optionExplanations": [
+          "These are software lifecycle terms, not database transaction properties.",
+          "Correct because ACID guarantees the reliability of each database transaction.",
+          "These relate to the systems development process, not transaction integrity.",
+          "These are security concepts, not database transaction properties."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "A disaster recovery plan in MIS is designed to:",
+        "options": [
+          "Increase the company's advertising budget",
+          "Ensure business operations can resume quickly after a disruption",
+          "Replace all employees with automated systems",
+          "Reduce the number of computers in the organization"
+        ],
+        "answer": 1,
+        "explain": "A disaster recovery plan outlines procedures and strategies to quickly restore IT systems, data, and operations after a natural disaster, cyberattack, or other disruption.",
+        "optionExplanations": [
+          "Advertising budgets are unrelated to disaster recovery.",
+          "Correct because disaster recovery focuses on restoring operations, data, and IT systems after an incident.",
+          "Disaster recovery is about system resilience, not workforce replacement.",
+          "Reducing computers is not the goal of disaster recovery."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a characteristic of a relational database?",
+        "options": [
+          "Data is stored in documents with nested structures",
+          "Data is organized into tables with rows and columns linked by keys",
+          "Data is stored on magnetic tape in sequential order",
+          "Each record is stored in a completely separate file"
+        ],
+        "answer": 1,
+        "explain": "Relational databases organize data into structured tables (relations) with rows (records) and columns (fields), linked through primary and foreign keys.",
+        "optionExplanations": [
+          "Document-based storage with nested structures describes NoSQL document databases.",
+          "Correct because relational databases use tables with defined relationships through keys.",
+          "Sequential tape storage is an outdated storage method, not a relational database feature.",
+          "Storing each record in a separate file describes a flat-file system."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The Internet of Things (IoT) refers to:",
+        "options": [
+          "A new type of social media platform",
+          "A network of physical devices embedded with sensors and software that connect and exchange data",
+          "A method for encrypting all internet traffic",
+          "A type of database used by online retailers"
+        ],
+        "answer": 1,
+        "explain": "IoT describes the network of everyday physical objects—vehicles, appliances, sensors—that are connected to the internet, collecting and sharing data.",
+        "optionExplanations": [
+          "IoT is not a social media platform.",
+          "Correct because IoT connects physical devices with embedded technology to the internet for data exchange.",
+          "IoT is about device connectivity, not encryption.",
+          "IoT is a connectivity concept, not a type of database."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes 'total cost of ownership' (TCO) in IT?",
+        "options": [
+          "The initial purchase price of hardware only",
+          "The complete cost of acquiring, operating, and maintaining a technology system over its lifetime",
+          "The annual revenue generated by an IT department",
+          "The salary of the chief information officer"
+        ],
+        "answer": 1,
+        "explain": "TCO includes all direct and indirect costs associated with a technology asset throughout its entire life cycle, including purchase, deployment, operation, support, and disposal.",
+        "optionExplanations": [
+          "TCO goes far beyond the initial purchase price to include ongoing costs.",
+          "Correct because TCO accounts for every cost from acquisition through disposal of a technology system.",
+          "Revenue generation is a separate financial metric.",
+          "A single salary is not representative of total technology ownership costs."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the purpose of a use case diagram in systems analysis?",
+        "options": [
+          "To show the physical network topology",
+          "To illustrate how users (actors) interact with a system's functions",
+          "To calculate the financial return on investment",
+          "To create a company's marketing strategy"
+        ],
+        "answer": 1,
+        "explain": "A use case diagram is a UML diagram that visually represents the interactions between external actors (users, other systems) and the functions (use cases) of a system.",
+        "optionExplanations": [
+          "Network topology is shown in network diagrams, not use case diagrams.",
+          "Correct because use case diagrams model the functional requirements by showing actors and their interactions with system use cases.",
+          "ROI is calculated through financial analysis, not use case diagrams.",
+          "Marketing strategy is a business function, not a systems analysis diagram."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following describes the role of a Chief Information Officer (CIO)?",
+        "options": [
+          "Managing the company's accounting and tax filings",
+          "Overseeing the organization's IT strategy and technology infrastructure",
+          "Designing the company's physical office space",
+          "Leading sales and marketing campaigns"
+        ],
+        "answer": 1,
+        "explain": "The CIO is a senior executive responsible for the management, implementation, and usability of information and computer technologies within an organization.",
+        "optionExplanations": [
+          "Accounting and tax are managed by the CFO or controller.",
+          "Correct because the CIO is responsible for aligning IT strategy with business objectives and managing technology infrastructure.",
+          "Office design is handled by facilities management.",
+          "Sales and marketing are led by the CMO or VP of Sales."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Ransomware is a type of malicious software that:",
+        "options": [
+          "Speeds up computer performance",
+          "Encrypts a victim's data and demands payment for the decryption key",
+          "Provides free antivirus protection",
+          "Backs up data to the cloud automatically"
+        ],
+        "answer": 1,
+        "explain": "Ransomware is malware that encrypts files on a victim's system and demands a ransom payment in exchange for the decryption key to restore access.",
+        "optionExplanations": [
+          "Ransomware degrades system usability; it does not improve performance.",
+          "Correct because ransomware holds data hostage by encrypting it until a ransom is paid.",
+          "Ransomware is the opposite of protection—it is an attack.",
+          "Ransomware does not back up data; it locks users out of their own data."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "A feasibility study in systems development evaluates:",
+        "options": [
+          "Only the financial cost of a proposed system",
+          "The technical, economic, operational, and schedule viability of a proposed project",
+          "Only whether the technology exists to build the system",
+          "Only whether end users will like the interface"
+        ],
+        "answer": 1,
+        "explain": "A feasibility study assesses a proposed project from multiple angles: technical feasibility, economic viability, operational impact, and schedule constraints.",
+        "optionExplanations": [
+          "Economic cost is only one dimension of feasibility.",
+          "Correct because a comprehensive feasibility study examines technical, economic, operational, and scheduling factors.",
+          "Technical feasibility is only one component.",
+          "User acceptance is part of operational feasibility but not the entire study."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a NoSQL database?",
+        "options": [
+          "Microsoft SQL Server",
+          "MongoDB",
+          "PostgreSQL",
+          "Oracle Database"
+        ],
+        "answer": 1,
+        "explain": "MongoDB is a popular NoSQL document database that stores data in flexible, JSON-like documents rather than traditional relational tables.",
+        "optionExplanations": [
+          "Microsoft SQL Server is a relational database management system.",
+          "Correct because MongoDB is a document-oriented NoSQL database designed for flexible schemas.",
+          "PostgreSQL is a relational database (though it has some NoSQL features).",
+          "Oracle Database is primarily a relational database."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In IT governance, COBIT is primarily used for:",
+        "options": [
+          "Designing website user interfaces",
+          "Providing a framework for IT management and governance",
+          "Writing source code for applications",
+          "Creating marketing materials"
+        ],
+        "answer": 1,
+        "explain": "COBIT (Control Objectives for Information and Related Technologies) is a framework for developing, implementing, monitoring, and improving IT management and governance practices.",
+        "optionExplanations": [
+          "UI design uses design tools and frameworks, not COBIT.",
+          "Correct because COBIT guides organizations in aligning IT with business goals through governance and management practices.",
+          "COBIT is a governance framework, not a programming tool.",
+          "Marketing materials are created by marketing teams, not through IT governance frameworks."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is an output device?",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Scanner",
+          "Microphone"
+        ],
+        "answer": 1,
+        "explain": "A monitor is an output device because it displays processed information to the user.",
+        "optionExplanations": [
+          "A keyboard is an input device used to enter data.",
+          "Correct because a monitor outputs visual information from the computer to the user.",
+          "A scanner is an input device used to digitize physical documents.",
+          "A microphone is an input device used to capture audio."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Supply chain management (SCM) systems help organizations:",
+        "options": [
+          "Design employee uniforms",
+          "Coordinate the flow of materials, information, and finances from supplier to customer",
+          "Write annual financial reports",
+          "Create employee training videos"
+        ],
+        "answer": 1,
+        "explain": "SCM systems manage the entire supply chain from raw material acquisition through production to delivery, optimizing logistics, inventory, and costs.",
+        "optionExplanations": [
+          "Uniform design is not a supply chain management function.",
+          "Correct because SCM systems integrate the planning and management of all supply chain activities.",
+          "Financial reports are produced by accounting systems.",
+          "Training videos are created by HR or learning departments."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the primary advantage of using RAID (Redundant Array of Independent Disks)?",
+        "options": [
+          "It makes computers more portable",
+          "It provides data redundancy and/or improved performance through multiple disks",
+          "It increases the brightness of a monitor",
+          "It eliminates the need for an operating system"
+        ],
+        "answer": 1,
+        "explain": "RAID uses multiple disks together to provide redundancy (protection against drive failure) and/or improved read/write performance, depending on the RAID level.",
+        "optionExplanations": [
+          "RAID adds disks, which if anything makes systems less portable.",
+          "Correct because RAID configurations protect against data loss and can improve storage performance.",
+          "Monitor brightness is unrelated to disk storage.",
+          "RAID is a storage technology and does not replace an operating system."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which type of system conversion involves running both the old and new systems simultaneously?",
+        "options": [
+          "Direct conversion",
+          "Parallel conversion",
+          "Pilot conversion",
+          "Phased conversion"
+        ],
+        "answer": 1,
+        "explain": "Parallel conversion runs the old and new systems side by side to ensure the new system works correctly before the old one is retired.",
+        "optionExplanations": [
+          "Direct conversion immediately replaces the old system with the new one (also called 'cold turkey').",
+          "Correct because parallel conversion operates both systems at the same time to verify the new system's accuracy.",
+          "Pilot conversion introduces the new system to a small group or department first.",
+          "Phased conversion introduces the new system in stages or modules."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In MIS, the term 'scalability' refers to:",
+        "options": [
+          "The color scheme of a user interface",
+          "A system's ability to handle growing workloads or expand capacity",
+          "The number of employees in a company",
+          "The size of a computer monitor"
+        ],
+        "answer": 1,
+        "explain": "Scalability describes how well a system can adapt to increased demand by adding resources (scaling up/out) without significant performance loss.",
+        "optionExplanations": [
+          "UI color schemes are a design consideration, not scalability.",
+          "Correct because scalability measures a system's capacity to grow and handle higher demand.",
+          "Employee count is an organizational metric, not a system capability.",
+          "Monitor size is a physical hardware specification unrelated to scalability."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the function of middleware in an information system?",
+        "options": [
+          "To serve as the user interface for end users",
+          "To act as a bridge that enables communication between different software applications",
+          "To manufacture computer hardware components",
+          "To provide electrical power to a network"
+        ],
+        "answer": 1,
+        "explain": "Middleware is software that sits between applications or between an application and the operating system, facilitating communication, data exchange, and integration.",
+        "optionExplanations": [
+          "The user interface is the front-end layer that users interact with directly.",
+          "Correct because middleware enables disparate systems and applications to communicate and share data.",
+          "Hardware manufacturing is a physical process, not a software function.",
+          "Electrical power is provided by UPS and power infrastructure, not middleware."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes the function of an operating system?",
+        "options": [
+          "It creates presentation slides",
+          "It manages hardware resources and provides services for application software",
+          "It designs web pages",
+          "It scans documents into digital format"
+        ],
+        "answer": 1,
+        "explain": "An operating system (OS) manages computer hardware and software resources, providing common services like memory management, process scheduling, and file system access for applications.",
+        "optionExplanations": [
+          "Presentation slides are created by application software like PowerPoint.",
+          "Correct because the OS is the fundamental system software that manages hardware and serves as a platform for applications.",
+          "Web design is done through web development software.",
+          "Document scanning is performed by scanner hardware and driver software."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "An intranet differs from the internet in that an intranet:",
+        "options": [
+          "Is accessible to anyone worldwide",
+          "Is a private network accessible only to an organization's members",
+          "Does not use internet protocols",
+          "Cannot display web pages"
+        ],
+        "answer": 1,
+        "explain": "An intranet is a private network that uses internet technology (TCP/IP, web browsers) but is restricted to authorized users within an organization.",
+        "optionExplanations": [
+          "Worldwide access describes the internet, not an intranet.",
+          "Correct because an intranet is restricted to an organization's employees and authorized users.",
+          "Intranets use the same TCP/IP protocols as the internet.",
+          "Intranets display web pages internally using web browsers."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The 'systems design' phase of the SDLC focuses on:",
+        "options": [
+          "Identifying the problem and determining project feasibility",
+          "Creating detailed specifications for how the system will be built",
+          "Writing and testing the program code",
+          "Training users and deploying the finished system"
+        ],
+        "answer": 1,
+        "explain": "Systems design translates the requirements gathered during analysis into detailed technical specifications for hardware, software, data structures, user interfaces, and system architecture.",
+        "optionExplanations": [
+          "Problem identification and feasibility occur during the planning/investigation phase.",
+          "Correct because the design phase defines the technical blueprint including architecture, interfaces, and data structures.",
+          "Writing and testing code occurs during the implementation/development phase.",
+          "Training and deployment happen during the implementation/deployment phase."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which SQL clause is used to filter query results based on a condition?",
+        "options": [
+          "ORDER BY",
+          "WHERE",
+          "GROUP BY",
+          "JOIN"
+        ],
+        "answer": 1,
+        "explain": "The WHERE clause in SQL specifies conditions that rows must meet to be included in the query results, effectively filtering the data.",
+        "optionExplanations": [
+          "ORDER BY sorts the results but does not filter them.",
+          "Correct because WHERE restricts which rows are returned based on specified conditions.",
+          "GROUP BY groups rows with the same values in specified columns for aggregate functions.",
+          "JOIN combines rows from two or more tables based on related columns."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is a key disadvantage of the direct (plunge) conversion method?",
+        "options": [
+          "It is the most expensive conversion method",
+          "There is high risk because there is no fallback to the old system",
+          "It takes the longest time to implement",
+          "It requires running two systems simultaneously"
+        ],
+        "answer": 1,
+        "explain": "Direct conversion immediately replaces the old system with the new one, which is risky because if the new system fails, there is no old system to fall back on.",
+        "optionExplanations": [
+          "Direct conversion is actually the least expensive method since it avoids running two systems.",
+          "Correct because the old system is completely replaced, leaving no safety net if the new system encounters problems.",
+          "Direct conversion is typically the fastest method.",
+          "Running two systems simultaneously describes parallel conversion."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a benefit of cloud-based ERP systems compared to on-premises ERP?",
+        "options": [
+          "They require no internet connection",
+          "They have lower upfront costs and offer easier scalability",
+          "They cannot be accessed remotely",
+          "They provide no automatic updates"
+        ],
+        "answer": 1,
+        "explain": "Cloud-based ERP eliminates large upfront hardware and software costs, offers subscription pricing, automatic updates, and can scale resources up or down as needed.",
+        "optionExplanations": [
+          "Cloud-based systems specifically require internet connectivity.",
+          "Correct because cloud ERP reduces capital expenditure and allows flexible scaling based on demand.",
+          "Cloud ERP is specifically designed for remote access from anywhere with internet.",
+          "Cloud ERP providers typically handle updates automatically."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The term 'legacy system' refers to:",
+        "options": [
+          "The newest system implemented by an organization",
+          "An outdated system still in use that may be difficult to maintain or extend",
+          "A system that has never been used",
+          "Open-source software available for free download"
+        ],
+        "answer": 1,
+        "explain": "A legacy system is an older technology, software, or computer system that is still in operation despite being outdated, often because it is critical to business operations.",
+        "optionExplanations": [
+          "A newly implemented system is not a legacy system.",
+          "Correct because legacy systems are older, often outdated systems still in use due to organizational dependency.",
+          "A system that has never been used is not a legacy system.",
+          "Open-source software can be modern or legacy; the term is about age and continued use."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What does TCP/IP stand for?",
+        "options": [
+          "Transfer Control Process / Internet Platform",
+          "Transmission Control Protocol / Internet Protocol",
+          "Technical Communication Policy / Internal Processing",
+          "Total Computing Power / Integrated Program"
+        ],
+        "answer": 1,
+        "explain": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational suite of communication protocols that governs how data is transmitted across the internet.",
+        "optionExplanations": [
+          "This is not the correct expansion of TCP/IP.",
+          "Correct because TCP handles reliable data delivery while IP handles addressing and routing.",
+          "This is not the correct expansion of TCP/IP.",
+          "This is not the correct expansion of TCP/IP."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a function of a Knowledge Management System (KMS)?",
+        "options": [
+          "Processing payroll transactions",
+          "Capturing, storing, and distributing organizational knowledge for reuse",
+          "Monitoring employee attendance",
+          "Managing the company's physical inventory"
+        ],
+        "answer": 1,
+        "explain": "A KMS helps organizations capture, organize, store, and distribute intellectual capital and knowledge to improve learning, collaboration, and decision-making.",
+        "optionExplanations": [
+          "Payroll is handled by transaction processing systems.",
+          "Correct because a KMS is designed to help organizations leverage their collective knowledge assets.",
+          "Attendance monitoring is an HR function.",
+          "Inventory management is a supply chain function."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In a database, a query is:",
+        "options": [
+          "A security password for accessing the database",
+          "A request for data or information from a database",
+          "A physical storage device for data",
+          "The process of deleting all records from a table"
+        ],
+        "answer": 1,
+        "explain": "A query is a structured request used to retrieve, insert, update, or delete specific data from a database, typically written in SQL.",
+        "optionExplanations": [
+          "Passwords are authentication credentials, not queries.",
+          "Correct because a query is a formal request to access or manipulate data in a database.",
+          "Physical storage devices are hardware, not queries.",
+          "Deleting all records is one possible operation, but a query is any request for data."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is most closely associated with the concept of 'digital transformation'?",
+        "options": [
+          "Printing more paper documents",
+          "Integrating digital technology into all areas of a business to fundamentally change how it operates",
+          "Reducing IT staff to cut costs",
+          "Using only desktop computers instead of mobile devices"
+        ],
+        "answer": 1,
+        "explain": "Digital transformation is the process of using digital technologies to create new or modify existing business processes, culture, and customer experiences.",
+        "optionExplanations": [
+          "Increasing paper usage is the opposite of digital transformation.",
+          "Correct because digital transformation involves leveraging technology to reshape operations, culture, and value delivery.",
+          "Reducing IT staff contradicts the investment in technology that digital transformation requires.",
+          "Limiting to desktop computers restricts rather than transforms operations."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "An extranet is best described as:",
+        "options": [
+          "A network available to the general public worldwide",
+          "A private network that allows limited access to authorized external partners",
+          "A network that operates only within a single building",
+          "A type of antivirus software"
+        ],
+        "answer": 1,
+        "explain": "An extranet extends an organization's intranet to provide limited, controlled access to external partners, suppliers, or customers for collaboration.",
+        "optionExplanations": [
+          "A publicly available worldwide network is the internet.",
+          "Correct because an extranet provides controlled external access to specific organizational resources for authorized partners.",
+          "A single-building network is a LAN.",
+          "Antivirus software protects against malware, not related to network types."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which IT role is primarily responsible for designing and maintaining an organization's database systems?",
+        "options": [
+          "Web developer",
+          "Database administrator (DBA)",
+          "Help desk technician",
+          "Marketing analyst"
+        ],
+        "answer": 1,
+        "explain": "A DBA is responsible for the performance, integrity, and security of an organization's databases, including design, implementation, maintenance, and optimization.",
+        "optionExplanations": [
+          "Web developers build websites and web applications, not manage databases.",
+          "Correct because a DBA specializes in database design, security, performance tuning, and maintenance.",
+          "Help desk technicians provide end-user technical support.",
+          "Marketing analysts analyze market data but do not manage databases."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following describes machine learning in the context of MIS?",
+        "options": [
+          "Manually entering data into a spreadsheet",
+          "Algorithms that allow computers to learn from data and improve predictions without explicit programming",
+          "A method for physically repairing hardware",
+          "A technique for printing documents wirelessly"
+        ],
+        "answer": 1,
+        "explain": "Machine learning is a subset of artificial intelligence where algorithms analyze data, learn patterns, and make decisions or predictions with minimal human intervention.",
+        "optionExplanations": [
+          "Manual data entry is a human task, not machine learning.",
+          "Correct because machine learning uses data-driven algorithms to identify patterns and improve performance automatically.",
+          "Hardware repair is a physical maintenance task.",
+          "Wireless printing is a connectivity feature, not machine learning."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "RPA (Robotic Process Automation) is primarily used to:",
+        "options": [
+          "Build physical robots for manufacturing",
+          "Automate repetitive, rule-based digital tasks typically performed by humans",
+          "Replace all management decisions with AI",
+          "Design logos and graphics for companies"
+        ],
+        "answer": 1,
+        "explain": "RPA uses software bots to automate repetitive, routine digital tasks—such as data entry, invoice processing, and report generation—freeing employees for higher-value work.",
+        "optionExplanations": [
+          "RPA deals with software automation, not physical robotics.",
+          "Correct because RPA automates routine digital tasks that follow consistent, rule-based patterns.",
+          "RPA handles operational tasks, not strategic management decisions.",
+          "Graphic design requires creativity and is not a typical RPA function."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes a Service Level Agreement (SLA)?",
+        "options": [
+          "A company's annual financial report",
+          "A formal agreement between a service provider and customer defining expected service quality",
+          "A technical specification for building hardware",
+          "An employee's job description"
+        ],
+        "answer": 1,
+        "explain": "An SLA defines the level of service expected from a provider, including metrics like uptime, response time, and responsibilities, along with remedies for non-compliance.",
+        "optionExplanations": [
+          "Financial reports are accounting documents, not service agreements.",
+          "Correct because an SLA formally sets expectations for service quality, availability, and accountability.",
+          "Hardware specifications are engineering documents, not service agreements.",
+          "A job description outlines employee duties, not service commitments between provider and customer."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In information systems, 'data governance' refers to:",
+        "options": [
+          "The speed at which data is transmitted across a network",
+          "The overall management of data availability, usability, integrity, and security across an organization",
+          "The physical storage location of data centers",
+          "The programming language used to develop applications"
+        ],
+        "answer": 1,
+        "explain": "Data governance encompasses the policies, procedures, standards, and roles that ensure data is managed effectively, consistently, and securely across the organization.",
+        "optionExplanations": [
+          "Data transmission speed is bandwidth, not governance.",
+          "Correct because data governance is the framework for managing data quality, security, and compliance.",
+          "Physical data center location is an infrastructure decision, not data governance.",
+          "Programming languages are development tools, not governance frameworks."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is an advantage of using an open-source software solution?",
+        "options": [
+          "It always comes with professional technical support",
+          "The source code is available for modification and there are no licensing fees",
+          "It is always more secure than proprietary software",
+          "It requires less computing power than proprietary alternatives"
+        ],
+        "answer": 1,
+        "explain": "Open-source software provides access to the source code, allowing users to modify and distribute it freely without paying licensing fees.",
+        "optionExplanations": [
+          "Open-source may not include guaranteed professional support; community support is typical.",
+          "Correct because open-source software allows free access, modification, and redistribution of source code.",
+          "Security depends on many factors; open-source is not automatically more secure.",
+          "Computing requirements depend on the software design, not whether it is open-source."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Business Process Reengineering (BPR) involves:",
+        "options": [
+          "Making minor adjustments to existing processes",
+          "Radically redesigning core business processes to achieve dramatic improvements",
+          "Purchasing new office furniture",
+          "Hiring additional employees for every department"
+        ],
+        "answer": 1,
+        "explain": "BPR involves fundamentally rethinking and radically redesigning business processes from the ground up to achieve significant improvements in cost, quality, service, and speed.",
+        "optionExplanations": [
+          "Minor adjustments are continuous improvement, not the radical change of BPR.",
+          "Correct because BPR seeks dramatic improvements through fundamental process redesign.",
+          "Office furniture is a facilities matter, not business process redesign.",
+          "Simply adding staff does not constitute process reengineering."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the main purpose of an API (Application Programming Interface)?",
+        "options": [
+          "To physically connect two computers with a cable",
+          "To allow different software applications to communicate with each other",
+          "To display images on a computer screen",
+          "To increase the speed of a CPU"
+        ],
+        "answer": 1,
+        "explain": "An API defines the rules and protocols that allow different software applications or systems to interact, share data, and use each other's functions.",
+        "optionExplanations": [
+          "Physical connections use hardware cables and ports, not APIs.",
+          "Correct because APIs enable software systems to communicate and exchange data through defined interfaces.",
+          "Displaying images is a function of graphics hardware and software.",
+          "CPU speed is determined by hardware, not APIs."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes a data lake?",
+        "options": [
+          "A small database with only structured financial data",
+          "A centralized repository that stores raw data in its native format until needed for analysis",
+          "A spreadsheet used for budgeting",
+          "An antivirus program that scans network data"
+        ],
+        "answer": 1,
+        "explain": "A data lake stores vast amounts of raw, unprocessed data in its native (structured, semi-structured, or unstructured) format, allowing flexible analysis later.",
+        "optionExplanations": [
+          "A small structured database is not a data lake.",
+          "Correct because a data lake stores raw data of any type and format for future processing and analysis.",
+          "A spreadsheet is a simple data management tool, not a data lake.",
+          "Antivirus programs are security tools, not data storage solutions."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "A help desk is most commonly associated with which function?",
+        "options": [
+          "Developing new software applications",
+          "Providing technical support and troubleshooting to end users",
+          "Designing the company's marketing campaigns",
+          "Conducting annual financial audits"
+        ],
+        "answer": 1,
+        "explain": "A help desk provides first-level technical support to end users, resolving IT issues, answering questions, and escalating complex problems to specialized teams.",
+        "optionExplanations": [
+          "Software development is done by development teams.",
+          "Correct because help desks are the primary point of contact for end-user IT support and troubleshooting.",
+          "Marketing campaigns are handled by the marketing department.",
+          "Financial audits are conducted by accounting or audit firms."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Blockchain technology is best described as:",
+        "options": [
+          "A type of computer virus",
+          "A decentralized, distributed digital ledger that records transactions across multiple computers",
+          "A tool for designing website layouts",
+          "Software used to compress video files"
+        ],
+        "answer": 1,
+        "explain": "Blockchain is a distributed ledger technology that records transactions in a secure, transparent, and tamper-resistant manner across a network of computers.",
+        "optionExplanations": [
+          "Blockchain is a security and record-keeping technology, not a virus.",
+          "Correct because blockchain creates a decentralized, immutable record of transactions across distributed nodes.",
+          "Website layout design uses web development tools.",
+          "Video compression uses media encoding software."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a characteristic of structured data?",
+        "options": [
+          "It does not follow a predefined format",
+          "It is organized in rows and columns with a clear, defined schema",
+          "It includes only images and videos",
+          "It cannot be stored in a database"
+        ],
+        "answer": 1,
+        "explain": "Structured data has a predefined format and is organized into tabular form with rows, columns, and defined data types, making it easy to search and analyze.",
+        "optionExplanations": [
+          "Data without a predefined format is unstructured data.",
+          "Correct because structured data conforms to a schema and fits neatly into relational database tables.",
+          "Images and videos are forms of unstructured data.",
+          "Structured data is ideally suited for storage in relational databases."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "ITIL (Information Technology Infrastructure Library) is best known as:",
+        "options": [
+          "A programming language for web development",
+          "A set of best practices for IT service management",
+          "A type of network hardware",
+          "A government regulation on data privacy"
+        ],
+        "answer": 1,
+        "explain": "ITIL provides a comprehensive set of best practices and guidelines for IT service management (ITSM), helping organizations deliver value through technology services.",
+        "optionExplanations": [
+          "ITIL is a service management framework, not a programming language.",
+          "Correct because ITIL defines processes, procedures, and best practices for managing IT services efficiently.",
+          "ITIL is a framework, not a physical device.",
+          "ITIL is not legislation; it is a voluntary best-practice framework."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a disadvantage of outsourcing IT services?",
+        "options": [
+          "Lower costs in all cases",
+          "Potential loss of control over quality and security of IT operations",
+          "Guaranteed faster development times",
+          "Increased internal staffing requirements"
+        ],
+        "answer": 1,
+        "explain": "Outsourcing IT services can lead to reduced control over data security, service quality, and response times since a third party manages operations.",
+        "optionExplanations": [
+          "Outsourcing does not always lower costs; hidden expenses may arise.",
+          "Correct because relying on external providers can reduce visibility and control over operations and sensitive data.",
+          "Outsourcing may not always speed development due to communication overhead.",
+          "Outsourcing is often intended to reduce internal staffing, not increase it."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "In MIS, the concept of 'competitive advantage' through technology means:",
+        "options": [
+          "Having the most expensive computers in the industry",
+          "Using information systems strategically to outperform competitors",
+          "Hiring only technology experts for all positions",
+          "Avoiding all use of social media"
+        ],
+        "answer": 1,
+        "explain": "Competitive advantage through technology involves leveraging information systems to improve efficiency, reduce costs, enhance customer service, or create innovative products that give the organization an edge over competitors.",
+        "optionExplanations": [
+          "Expensive hardware does not guarantee competitive advantage.",
+          "Correct because strategic use of IS can differentiate a company and create lasting advantages over rivals.",
+          "All-tech hiring is not a feasible or effective strategy.",
+          "Social media avoidance often puts organizations at a disadvantage."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The term 'uptime' in IT service management refers to:",
+        "options": [
+          "The amount of time employees spend commuting",
+          "The period during which a system or service is operational and available",
+          "The speed at which a computer boots up",
+          "The duration of a software development project"
+        ],
+        "answer": 1,
+        "explain": "Uptime is the measure of time that a system, service, or network is operational and accessible to users, often expressed as a percentage (e.g., 99.9% uptime).",
+        "optionExplanations": [
+          "Commuting time is unrelated to IT service metrics.",
+          "Correct because uptime measures system availability and reliability.",
+          "Boot time is a startup metric, not overall system availability.",
+          "Project duration is a project management metric."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following describes Platform as a Service (PaaS)?",
+        "options": [
+          "Renting physical office space for IT staff",
+          "A cloud service that provides a platform for developing, testing, and deploying applications",
+          "Purchasing desktop computers in bulk",
+          "Hiring temporary IT employees"
+        ],
+        "answer": 1,
+        "explain": "PaaS offers a cloud-based platform that provides the hardware, software, and infrastructure for developers to build, test, and deploy applications without managing the underlying infrastructure.",
+        "optionExplanations": [
+          "Office space rental is a facility matter, not a cloud service.",
+          "Correct because PaaS provides developers with an environment and tools to create applications without infrastructure management.",
+          "Buying computers is a capital expense, not PaaS.",
+          "Hiring staff is an HR function, not a cloud service."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is the primary purpose of a business continuity plan (BCP)?",
+        "options": [
+          "To increase quarterly sales revenue",
+          "To ensure critical business functions continue during and after a disaster",
+          "To redesign the company's website",
+          "To schedule employee vacation time"
+        ],
+        "answer": 1,
+        "explain": "A BCP outlines the procedures and systems necessary to maintain or quickly resume business operations in the event of a major disruption or disaster.",
+        "optionExplanations": [
+          "Sales revenue targets are part of sales strategy, not continuity planning.",
+          "Correct because a BCP ensures the organization can continue operating during disruptions and recover quickly.",
+          "Website redesign is a marketing or IT project.",
+          "Vacation scheduling is an HR function."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The process of testing a system using real-world data and scenarios before full deployment is called:",
+        "options": [
+          "Unit testing",
+          "Acceptance testing",
+          "Compilation",
+          "Data entry"
+        ],
+        "answer": 1,
+        "explain": "Acceptance testing (or user acceptance testing / UAT) evaluates a system with real-world data and conditions to verify it meets business requirements before going live.",
+        "optionExplanations": [
+          "Unit testing tests individual components or modules in isolation.",
+          "Correct because acceptance testing validates the complete system with realistic data to confirm it meets user requirements.",
+          "Compilation converts source code into executable code, not a testing method.",
+          "Data entry is inputting information, not a testing process."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a key ethical concern in MIS?",
+        "options": [
+          "The color of a company's logo",
+          "Privacy of personal data collected by information systems",
+          "The font size used in reports",
+          "The location of the company's headquarters"
+        ],
+        "answer": 1,
+        "explain": "Data privacy is a major ethical concern in MIS, as organizations collect and store vast amounts of personal information that must be handled responsibly and in compliance with regulations.",
+        "optionExplanations": [
+          "Logo color is a branding decision, not an ethical concern.",
+          "Correct because the collection, storage, and use of personal data raises significant ethical and legal considerations.",
+          "Font size is a formatting choice, not an ethical issue.",
+          "Headquarters location is a business decision, not an MIS ethics concern."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What is a key characteristic of a flat-file database?",
+        "options": [
+          "It uses multiple related tables with primary and foreign keys",
+          "It stores all data in a single table or file with no relationships between records",
+          "It requires a powerful server to operate",
+          "It can only store numerical data"
+        ],
+        "answer": 1,
+        "explain": "A flat-file database stores data in a single table or plain text file, without the relational structure or linked tables found in relational databases.",
+        "optionExplanations": [
+          "Multiple related tables are a characteristic of relational databases.",
+          "Correct because flat-file databases lack relationships and structure all data in one table.",
+          "Flat-file databases are simple and do not require powerful hardware.",
+          "Flat-file databases can store any type of data, not just numbers."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a primary goal of IT strategic planning?",
+        "options": [
+          "To select office furniture for the IT department",
+          "To align technology investments with the organization's business objectives",
+          "To determine the cafeteria menu",
+          "To set the dress code for employees"
+        ],
+        "answer": 1,
+        "explain": "IT strategic planning ensures that technology initiatives and investments support the organization's overall business goals, mission, and competitive strategy.",
+        "optionExplanations": [
+          "Office furniture is a facilities decision, not IT strategy.",
+          "Correct because IT strategic planning aligns technology with business goals to maximize value.",
+          "Cafeteria menus are unrelated to IT strategy.",
+          "Dress codes are HR policies, not IT strategic decisions."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "What does OLAP stand for?",
+        "options": [
+          "Online Analytical Processing",
+          "Offline Application Programming",
+          "Open Link Access Protocol",
+          "Operational Legacy Audit Process"
+        ],
+        "answer": 0,
+        "explain": "OLAP (Online Analytical Processing) enables complex analysis of multidimensional data from data warehouses, supporting fast querying, reporting, and what-if analysis.",
+        "optionExplanations": [
+          "Correct because OLAP supports complex, multidimensional data analysis for business intelligence.",
+          "This is not a recognized technology term.",
+          "This is not the correct expansion of OLAP.",
+          "This is not the correct expansion of OLAP."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes a denial-of-service (DoS) attack?",
+        "options": [
+          "An attack that strengthens network security",
+          "An attempt to overwhelm a system with traffic so legitimate users cannot access it",
+          "A method of backing up data securely",
+          "A technique for compressing large files"
+        ],
+        "answer": 1,
+        "explain": "A DoS attack floods a system, server, or network with excessive traffic or requests, making it unavailable to legitimate users.",
+        "optionExplanations": [
+          "DoS attacks weaken security and disrupt services, not strengthen them.",
+          "Correct because a DoS attack aims to make a resource unavailable by overwhelming it with malicious traffic.",
+          "Secure backup is a data protection practice, not an attack.",
+          "File compression is a storage optimization technique, not a cyberattack."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following is a benefit of using dashboards in MIS?",
+        "options": [
+          "They replace the need for all data storage",
+          "They provide visual, real-time summaries of key performance indicators",
+          "They automatically write software code",
+          "They eliminate the need for internet connectivity"
+        ],
+        "answer": 1,
+        "explain": "Dashboards provide at-a-glance visual displays of key metrics and KPIs, enabling managers to quickly monitor performance, identify trends, and make data-driven decisions.",
+        "optionExplanations": [
+          "Dashboards display data; they do not replace storage systems.",
+          "Correct because dashboards consolidate KPIs into visual summaries that enable quick, informed decisions.",
+          "Dashboards are visualization tools, not code generators.",
+          "Dashboards often require data connectivity to pull real-time information."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following best describes the concept of 'data integrity'?",
+        "options": [
+          "The speed at which data can be transferred",
+          "The accuracy, consistency, and reliability of data throughout its lifecycle",
+          "The amount of data stored in a database",
+          "The visual appearance of data in a report"
+        ],
+        "answer": 1,
+        "explain": "Data integrity ensures that data is accurate, consistent, and trustworthy from creation through disposal, maintaining its quality for decision-making.",
+        "optionExplanations": [
+          "Data transfer speed is a bandwidth metric.",
+          "Correct because data integrity means data remains accurate, unaltered, and reliable throughout its lifecycle.",
+          "The volume of stored data is data capacity, not integrity.",
+          "Visual formatting is a presentation concern, not data integrity."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "The Sarbanes-Oxley Act (SOX) affects MIS primarily by:",
+        "options": [
+          "Requiring companies to use only open-source software",
+          "Mandating that publicly traded companies maintain accurate financial records and internal controls over IT systems",
+          "Prohibiting the use of cloud computing",
+          "Requiring all employees to hold IT certifications"
+        ],
+        "answer": 1,
+        "explain": "SOX requires publicly traded companies to implement internal controls and procedures for financial reporting, which directly impacts IT systems that process and store financial data.",
+        "optionExplanations": [
+          "SOX does not mandate specific software types.",
+          "Correct because SOX requires robust internal controls over financial reporting systems, including IT.",
+          "SOX does not prohibit cloud computing.",
+          "SOX does not require IT certifications for all employees."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which of the following describes the role of a systems analyst?",
+        "options": [
+          "Setting up employee email accounts",
+          "Analyzing business needs and designing information systems solutions",
+          "Repairing broken computer hardware",
+          "Managing the company's social media accounts"
+        ],
+        "answer": 1,
+        "explain": "A systems analyst bridges the gap between business needs and IT solutions by analyzing requirements, designing system solutions, and working with developers to implement them.",
+        "optionExplanations": [
+          "Email setup is an IT support task.",
+          "Correct because systems analysts define business requirements and translate them into system designs.",
+          "Hardware repair is handled by technicians.",
+          "Social media management is a marketing role."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "GDPR (General Data Protection Regulation) primarily relates to:",
+        "options": [
+          "Managing office supplies",
+          "Protecting personal data and privacy of individuals in the European Union",
+          "Setting minimum wage requirements for IT workers",
+          "Standardizing computer hardware specifications"
+        ],
+        "answer": 1,
+        "explain": "GDPR is an EU regulation that sets strict rules for the collection, processing, and storage of personal data, giving individuals greater control over their personal information.",
+        "optionExplanations": [
+          "Office supply management is unrelated to data protection regulation.",
+          "Correct because GDPR is the EU's comprehensive data protection regulation governing personal data rights and handling.",
+          "Wage requirements are labor laws, not data protection regulations.",
+          "Hardware standardization is an engineering topic, not a privacy regulation."
+        ],
+        "source": "generated-bespoke"
+      },
+      {
+        "q": "Which backup method copies only the data that has changed since the last full backup?",
+        "options": [
+          "Full backup",
+          "Incremental backup",
+          "Mirror backup",
+          "Image backup"
+        ],
+        "answer": 1,
+        "explain": "An incremental backup saves only the data that has been modified since the last backup (full or incremental), reducing backup time and storage requirements.",
+        "optionExplanations": [
+          "A full backup copies all data regardless of changes.",
+          "Correct because incremental backups capture only changes since the last backup, making them faster and smaller.",
+          "A mirror backup creates an exact copy of the source at the current moment.",
+          "An image backup captures the entire state of a disk or partition."
+        ],
+        "source": "generated-bespoke"
+      }
+    ],
     "Networking Infrastructures": [
       {
         "q": "A school's IT department is planning to connect all computers within one building to share printers and files. Which type of network are they creating?",
@@ -28924,9 +30762,9 @@ window.AI_QUESTION_BANK = {
     ]
   },
   "meta": {
-    "events": 16,
-    "questions": 1605,
-    "generatedAt": "2026-03-06T02:02:53.302Z",
+    "events": 17,
+    "questions": 1707,
+    "generatedAt": "2026-03-06T04:05:03.989Z",
     "sourceFolder": "generated_by_checklist"
   }
 };
