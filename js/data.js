@@ -843,6 +843,7 @@ function normalizeRoleplayScenarioRuntime(scenario) {
 
   const prompt = String(scenario?.prompt || "").trim();
   if (!prompt) return null;
+  if (/^Disclaimer:\s/i.test(prompt) || /^COMPETITOR INSTRUCTIONS$/i.test(prompt)) return null;
 
   return {
     name: String(scenario?.name || `${eventName} Sample Roleplay`).trim(),
