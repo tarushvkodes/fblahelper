@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#b92d1f">
   <title>FBLA Helper — Competitive Event Prep</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -87,6 +89,13 @@
               <button id="launchHundredBtn">100Q</button>
               <button id="launchMaxBtn">Max</button>
             </div>
+            <div class="row quick-mode-row">
+              <button id="adaptiveDrillBtn" class="btn-outline">Adaptive Drill</button>
+              <button id="spacedReviewBtn" class="btn-outline">Spaced Review</button>
+              <button id="tenMinuteCramBtn" class="btn-outline">10-Min Cram</button>
+              <button id="stateSimBtn" class="btn-outline">State Sim</button>
+              <button id="closestModeBtn" class="btn-outline">Closest to Comp</button>
+            </div>
             <p class="module-note">Timed at FBLA pace — 30 seconds per question.</p>
             <p id="officialFormatNote" class="module-note"></p>
           </article>
@@ -107,6 +116,28 @@
             <div class="row">
               <button id="reviewMissesBtn" class="btn-accent" disabled>Drill Missed Questions</button>
               <button id="clearMissesBtn" class="btn-outline">Clear Misses</button>
+            </div>
+          </article>
+          <article class="module-card">
+            <h3>Question of the Day</h3>
+            <p id="questionOfDayPrompt" class="module-note">Select an event to load the daily challenge.</p>
+            <p id="questionOfDayMeta" class="eyebrow"></p>
+            <div class="row">
+              <button id="practiceQuestionOfDayBtn" class="btn-outline">Practice It</button>
+              <button id="bookmarkQuestionOfDayBtn" class="btn-outline">Save It</button>
+            </div>
+          </article>
+          <article class="module-card">
+            <h3>Study Queue</h3>
+            <div id="studyQueueStats" class="stacked-stat-list"></div>
+            <p id="studyQueueHint" class="module-note">Your queue combines misses, low-confidence answers, and spaced review due today.</p>
+          </article>
+          <article class="module-card">
+            <h3>Saved Study</h3>
+            <div id="savedStudyStats" class="stacked-stat-list"></div>
+            <div class="row">
+              <button id="openBookmarksBtn" class="btn-outline">Saved Questions</button>
+              <button id="exportEventSummaryBtn" class="btn-outline">Export Event Summary</button>
             </div>
           </article>
         </div>
@@ -162,6 +193,22 @@
         <article id="quizCard" class="quiz-card">
           <p>Configure your exam above and press Start.</p>
         </article>
+        <div id="quizQuestionActions" class="module-card quiz-actions-card is-hidden">
+          <div class="quiz-actions-head">
+            <h3>Question Tools</h3>
+            <p id="quizSourceBadge" class="source-pill">Source</p>
+          </div>
+          <div class="row confidence-row">
+            <button id="confidenceSureBtn" class="btn-outline">Sure</button>
+            <button id="confidenceUnsureBtn" class="btn-outline">Unsure</button>
+            <button id="confidenceGuessBtn" class="btn-outline">Guess</button>
+          </div>
+          <div class="row">
+            <button id="bookmarkQuestionBtn" class="btn-outline">Bookmark</button>
+            <button id="reportQuestionBtn" class="btn-outline">Report Question</button>
+          </div>
+          <p id="quizActionStatus" class="module-note">Use these tools to build your local study queue and review list.</p>
+        </div>
 
         <article id="quizAiHelp" class="quiz-card is-hidden">
           <h3>AI Tutor Prompt</h3>
@@ -215,6 +262,7 @@
               <div class="row">
                 <button id="rpTimerStartBtn" class="btn-accent">Start Timer</button>
                 <button id="rpTimerResetBtn" class="btn-outline">Reset</button>
+                <button id="judgeModeBtn" class="btn-outline">Judge Mode</button>
               </div>
             </div>
           </article>
@@ -227,6 +275,10 @@
               <p id="roleplayDocHint" class="module-note"></p>
               <button id="newJudgeQuestionBtn" class="btn-outline">Random Judge Question</button>
               <p id="judgeQuestion" class="judge-q"></p>
+              <div id="judgeModePanel" class="judge-mode-panel is-hidden">
+                <h3>Judge Mode Queue</h3>
+                <div id="judgeModeQueue"></div>
+              </div>
             </article>
 
             <article class="module-card">
@@ -244,6 +296,16 @@
               <div class="row">
                 <button id="copyRoleplayPromptBtn">Copy Prompt</button>
               </div>
+            </article>
+            <article class="module-card">
+              <h3>Self-Score Rubric</h3>
+              <div id="roleplayRubric" class="rubric-sliders">
+                <label>Structure <input type="range" id="rubricStructure" min="1" max="5" value="3"></label>
+                <label>Clarity <input type="range" id="rubricClarity" min="1" max="5" value="3"></label>
+                <label>Indicators <input type="range" id="rubricIndicators" min="1" max="5" value="3"></label>
+                <label>Professionalism <input type="range" id="rubricProfessionalism" min="1" max="5" value="3"></label>
+              </div>
+              <p id="rubricSummary" class="module-note">Score yourself after each practice round.</p>
             </article>
           </div>
         </div>
@@ -270,6 +332,11 @@
         <div class="module-grid">
           <article class="module-card">
             <h3 id="flashDeckTitle">Flashcards</h3>
+            <div class="row compact-row">
+              <button id="flashOfficialBtn" class="btn-outline">Quiz Cards</button>
+              <button id="flashMissedBtn" class="btn-outline">Missed Cards</button>
+              <button id="flashSpacedBtn" class="btn-outline">Spaced Cards</button>
+            </div>
             <div id="flashCard" class="flash-card" tabindex="0" role="button" aria-label="Flip flashcard"></div>
             <div class="row">
               <button id="flipCardBtn" class="btn-outline">Flip</button>
@@ -360,6 +427,14 @@
             <h3>Weakest Areas</h3>
             <div id="weakestAreas"></div>
             <p id="weakestEmpty" class="module-note">Complete exams across events to identify weak areas.</p>
+          </article>
+          <article class="module-card">
+            <h3>Mastery Snapshot</h3>
+            <div id="eventMasteryGrid" class="stacked-stat-list"></div>
+          </article>
+          <article class="module-card">
+            <h3>Saved Feedback Queue</h3>
+            <div id="reportQueueList" class="stacked-stat-list"></div>
           </article>
         </div>
 

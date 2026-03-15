@@ -1,7 +1,12 @@
 /* ─── workspace.js ─── Flashcards, prep, stats, history, streak, missed questions, resources. ─── */
 
 function buildFlashcards(eventName) {
-  const base = getDeckForMode(eventName, getQuizBankMode()).slice(0, FLASHCARD_DECK_LIMIT).map(shuffleOptions);
+  const sourceDeck = state.flash.mode === "missed"
+    ? loadMissedQuestions(eventName)
+    : state.flash.mode === "spaced"
+      ? getSpacedReviewDeck(eventName)
+      : getDeckForMode(eventName, getQuizBankMode());
+  const base = sourceDeck.slice(0, FLASHCARD_DECK_LIMIT).map(shuffleOptions);
   const generated = base.map((q) => {
     const answerLine = Number.isInteger(q.answer)
       ? q.options[q.answer]
@@ -18,7 +23,10 @@ function buildFlashcards(eventName) {
   ];
   state.flash.index = 0;
   state.flash.flipped = false;
-  document.getElementById("flashDeckTitle").textContent = `${eventName} — Flashcards`;
+  document.getElementById("flashDeckTitle").textContent = `${eventName} — ${state.flash.mode === "missed" ? "Missed" : state.flash.mode === "spaced" ? "Spaced Review" : "Flashcards"}`;
+  document.getElementById("flashOfficialBtn")?.classList.toggle("active-confidence", state.flash.mode === "quiz");
+  document.getElementById("flashMissedBtn")?.classList.toggle("active-confidence", state.flash.mode === "missed");
+  document.getElementById("flashSpacedBtn")?.classList.toggle("active-confidence", state.flash.mode === "spaced");
   renderFlashcard();
   document.getElementById("memoryTactics").innerHTML = STRATEGY_TIPS.slice(0, 5).map((m) => `<li>${m}</li>`).join("");
 }
@@ -116,6 +124,111 @@ function renderPrep(eventName) {
 
 const HISTORY_KEY = "fbla-exam-history";
 const STREAK_KEY = "fbla-streak";
+const APP_PREFS_KEY = "fbla-app-prefs";
+const BOOKMARKS_KEY = "fbla-bookmarks";
+const QUESTION_REPORTS_KEY = "fbla-question-reports";
+const CONFIDENCE_LOG_KEY = "fbla-confidence-log";
+const SPACED_REVIEW_KEY = "fbla-spaced-review";
+
+function loadAppPrefs() {
+  return readStorage(APP_PREFS_KEY, {});
+}
+
+function saveAppPrefs(prefs) {
+  writeStorage(APP_PREFS_KEY, { ...loadAppPrefs(), ...prefs });
+}
+
+function loadBookmarks() {
+  return readStorage(BOOKMARKS_KEY, {});
+}
+
+function isQuestionBookmarked(eventName, question) {
+  return Boolean(loadBookmarks()[questionStorageId(eventName, question)]);
+}
+
+function toggleBookmarkedQuestion(eventName, question) {
+  const bookmarks = loadBookmarks();
+  const id = questionStorageId(eventName, question);
+  if (bookmarks[id]) delete bookmarks[id];
+  else {
+    bookmarks[id] = {
+      event: eventName,
+      q: question.q,
+      savedAt: Date.now(),
+      source: question.source || ""
+    };
+  }
+  writeStorage(BOOKMARKS_KEY, bookmarks);
+}
+
+function loadQuestionReports() {
+  return readStorage(QUESTION_REPORTS_KEY, []);
+}
+
+function reportQuestionIssue(eventName, question, reportType) {
+  const reports = loadQuestionReports();
+  reports.push({
+    id: questionStorageId(eventName, question),
+    event: eventName,
+    q: question.q,
+    type: reportType,
+    source: question.source || "",
+    timestamp: Date.now()
+  });
+  writeStorage(QUESTION_REPORTS_KEY, reports.slice(-250));
+}
+
+function loadConfidenceLog() {
+  return readStorage(CONFIDENCE_LOG_KEY, {});
+}
+
+function saveQuestionConfidence(eventName, question, confidence) {
+  const log = loadConfidenceLog();
+  log[questionStorageId(eventName, question)] = {
+    event: eventName,
+    q: question.q,
+    confidence,
+    timestamp: Date.now()
+  };
+  writeStorage(CONFIDENCE_LOG_KEY, log);
+}
+
+function getSavedQuestionConfidence(eventName, question) {
+  return loadConfidenceLog()[questionStorageId(eventName, question)]?.confidence || "";
+}
+
+function loadSpacedReview() {
+  return readStorage(SPACED_REVIEW_KEY, {});
+}
+
+function scheduleSpacedReviewItem(eventName, question, confidence, wasCorrect) {
+  const queue = loadSpacedReview();
+  const id = questionStorageId(eventName, question);
+  const existing = queue[id] || { intervalDays: 1, streak: 0 };
+  const hard = !wasCorrect || confidence === "guess" || confidence === "unsure";
+  const nextInterval = hard ? 1 : Math.min((existing.intervalDays || 1) * 2, 21);
+  queue[id] = {
+    event: eventName,
+    q: question.q,
+    options: question.options,
+    answer: question.answer,
+    explain: question.explain || "",
+    optionExplanations: question.optionExplanations || [],
+    source: question.source || "",
+    confidence: confidence || "",
+    streak: hard ? 0 : (existing.streak || 0) + 1,
+    intervalDays: nextInterval,
+    dueAt: Date.now() + nextInterval * 86400000,
+    updatedAt: Date.now()
+  };
+  writeStorage(SPACED_REVIEW_KEY, queue);
+}
+
+function getSpacedReviewDeck(eventName) {
+  const now = Date.now();
+  return Object.values(loadSpacedReview())
+    .filter((item) => item.event === eventName && (!item.dueAt || item.dueAt <= now));
+}
 
 function loadHistory() {
   try { return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }
@@ -302,6 +415,9 @@ function renderStats() {
   } else {
     recentEl.innerHTML = "<p class='module-note'>No exams taken yet.</p>";
   }
+
+  renderMasterySnapshots();
+  renderReportQueue();
 }
 
 function renderOverviewProgress() {
@@ -332,6 +448,9 @@ function renderOverviewProgress() {
   }
   const reviewBtn = document.getElementById("reviewMissesBtn");
   if (reviewBtn) reviewBtn.disabled = !missed.length;
+  renderStudyQueue(state.currentEvent);
+  renderSavedStudy(state.currentEvent);
+  renderQuestionOfDay(state.currentEvent);
 }
 
 function exportHistory() {
@@ -348,6 +467,108 @@ function exportHistory() {
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
   } catch (_) { /* export failure is non-critical */ }
+}
+
+function getQuestionOfDay(eventName) {
+  const deck = getDeckForMode(eventName, "hq-ai");
+  if (!deck.length) return null;
+  const today = todayStr().replace(/-/g, "");
+  const seed = Number(today.slice(-4)) + eventName.length;
+  return deck[seed % deck.length];
+}
+
+function renderQuestionOfDay(eventName) {
+  const promptEl = document.getElementById("questionOfDayPrompt");
+  const metaEl = document.getElementById("questionOfDayMeta");
+  if (!promptEl || !metaEl || !eventName) return;
+  const question = getQuestionOfDay(eventName);
+  if (!question) {
+    promptEl.textContent = "No question available for this event yet.";
+    metaEl.textContent = "";
+    return;
+  }
+  promptEl.textContent = question.q;
+  metaEl.textContent = `${todayStr()} · ${question.source || "study bank"}`;
+}
+
+function adaptiveDeckForEvent(eventName) {
+  const missed = loadMissedQuestions(eventName);
+  const spaced = getSpacedReviewDeck(eventName);
+  const bookmarks = Object.values(loadBookmarks()).filter((item) => item.event === eventName)
+    .map((item) => getDeckForMode(eventName, "hq-ai").find((q) => norm(q.q) === norm(item.q)))
+    .filter(Boolean);
+  const confidenceEntries = Object.values(loadConfidenceLog())
+    .filter((item) => item.event === eventName && item.confidence !== "sure")
+    .map((item) => getDeckForMode(eventName, "hq-ai").find((q) => norm(q.q) === norm(item.q)))
+    .filter(Boolean);
+  return dedupeDeck([...spaced, ...missed, ...confidenceEntries, ...bookmarks]);
+}
+
+function renderStudyQueue(eventName) {
+  const el = document.getElementById("studyQueueStats");
+  if (!el || !eventName) return;
+  const adaptive = adaptiveDeckForEvent(eventName);
+  const spaced = getSpacedReviewDeck(eventName);
+  const missed = loadMissedQuestions(eventName);
+  el.innerHTML = [
+    { label: "Adaptive drill", value: `${adaptive.length} queued` },
+    { label: "Spaced review", value: `${spaced.length} due now` },
+    { label: "Missed bank", value: `${missed.length} saved` }
+  ].map((item) => `<div class="stacked-stat"><strong>${item.label}</strong><span>${item.value}</span></div>`).join("");
+}
+
+function renderSavedStudy(eventName) {
+  const el = document.getElementById("savedStudyStats");
+  if (!el || !eventName) return;
+  const bookmarks = Object.values(loadBookmarks()).filter((item) => item.event === eventName);
+  const reports = loadQuestionReports().filter((item) => item.event === eventName);
+  const confidence = Object.values(loadConfidenceLog()).filter((item) => item.event === eventName && item.confidence !== "sure");
+  el.innerHTML = [
+    { label: "Bookmarks", value: `${bookmarks.length} saved` },
+    { label: "Reported items", value: `${reports.length} flagged` },
+    { label: "Low-confidence", value: `${confidence.length} to revisit` }
+  ].map((item) => `<div class="stacked-stat"><strong>${item.label}</strong><span>${item.value}</span></div>`).join("");
+}
+
+function exportEventSummary(eventName) {
+  const history = loadHistory().filter((item) => item.event === eventName);
+  const summary = {
+    event: eventName,
+    generatedAt: new Date().toISOString(),
+    history,
+    missedQuestions: loadMissedQuestions(eventName),
+    bookmarks: Object.values(loadBookmarks()).filter((item) => item.event === eventName),
+    reports: loadQuestionReports().filter((item) => item.event === eventName),
+    spacedReviewDue: getSpacedReviewDeck(eventName)
+  };
+  downloadTextFile(`fbla-${norm(eventName).replace(/\s+/g, "-")}-summary.json`, JSON.stringify(summary, null, 2), "application/json");
+}
+
+function renderMasterySnapshots() {
+  const el = document.getElementById("eventMasteryGrid");
+  if (!el) return;
+  const history = loadHistory();
+  const grouped = {};
+  history.forEach((entry) => {
+    if (!grouped[entry.event]) grouped[entry.event] = [];
+    grouped[entry.event].push(entry.score);
+  });
+  const rows = Object.entries(grouped)
+    .map(([event, scores]) => ({ event, avg: Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length) }))
+    .sort((a, b) => b.avg - a.avg)
+    .slice(0, 6);
+  el.innerHTML = rows.length
+    ? rows.map((item) => `<div class="stacked-stat"><strong>${item.event}</strong><span>${item.avg}%</span></div>`).join("")
+    : "<p class='module-note'>Take a few exams to build mastery snapshots.</p>";
+}
+
+function renderReportQueue() {
+  const el = document.getElementById("reportQueueList");
+  if (!el) return;
+  const reports = loadQuestionReports().slice(-6).reverse();
+  el.innerHTML = reports.length
+    ? reports.map((item) => `<div class="stacked-stat"><strong>${item.event}</strong><span>${item.type}</span></div>`).join("")
+    : "<p class='module-note'>No locally reported questions yet.</p>";
 }
 
 /* ─── Resource Document Links ─── */

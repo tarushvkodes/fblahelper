@@ -1,0 +1,17 @@
+{
+  "name": "FBLA Helper",
+  "short_name": "FBLA Helper",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#b92d1f",
+  "description": "Static FBLA study app with quizzes, roleplays, flashcards, and offline review tools.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

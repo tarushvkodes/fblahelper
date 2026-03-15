@@ -14,6 +14,7 @@ function resetRoleplayPanel(eventName, message) {
   const voiceOutput = document.getElementById("voicePromptOutput");
   if (voiceSelect) voiceSelect.innerHTML = "";
   if (voiceOutput) voiceOutput.value = "Voice practice is not available — this event does not include a roleplay round.";
+  document.getElementById("judgeModePanel")?.classList.add("is-hidden");
 }
 
 function buildVoicePracticePrompt(eventName, scenario) {
@@ -108,6 +109,23 @@ function renderRoleplay(eventName) {
     roleplayUi.aiPrompt.value = buildRoleplayAIPrompt(eventName, scenario, roleplayUi.response.value);
   };
 
+  const renderJudgeModeQueue = (scenario) => {
+    const panel = document.getElementById("judgeModePanel");
+    const queueEl = document.getElementById("judgeModeQueue");
+    if (!panel || !queueEl) return;
+    const followUps = (scenario.judgeQuestions || []).slice(0, 3);
+    queueEl.innerHTML = followUps.length
+      ? followUps.map((question, index) => `<div class="judge-queue-item"><strong>${index + 1}.</strong> ${question}</div>`).join("")
+      : "<p class='module-note'>No follow-up queue available for this scenario yet.</p>";
+    panel.classList.remove("is-hidden");
+  };
+
+  const updateRubricSummary = () => {
+    const ids = ["rubricStructure", "rubricClarity", "rubricIndicators", "rubricProfessionalism"];
+    const total = ids.reduce((sum, id) => sum + Number(document.getElementById(id)?.value || 3), 0);
+    document.getElementById("rubricSummary").textContent = `Self-score: ${total}/20 (${Math.round((total / 20) * 100)}%)`;
+  };
+
   const apply = (idx) => {
     const s = scenarios[idx] || scenarios[0];
     roleplayUi.prompt.innerHTML = `<p><strong>${s.event}</strong></p><p>${s.prompt}</p>`;
@@ -131,6 +149,15 @@ function renderRoleplay(eventName) {
     const q = s.judgeQuestions[Math.floor(Math.random() * s.judgeQuestions.length)] || "What is your first step?";
     roleplayUi.judgeQuestion.textContent = q;
   };
+  document.getElementById("judgeModeBtn").onclick = () => {
+    const s = scenarios[Number(roleplayUi.select.value)] || scenarios[0];
+    renderJudgeModeQueue(s);
+  };
+  ["rubricStructure", "rubricClarity", "rubricIndicators", "rubricProfessionalism"].forEach((id) => {
+    const input = document.getElementById(id);
+    if (input) input.oninput = updateRubricSummary;
+  });
+  updateRubricSummary();
 
   document.getElementById("gradeRoleplayBtn").onclick = () => {
     const s = scenarios[Number(roleplayUi.select.value)] || scenarios[0];

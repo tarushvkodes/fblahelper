@@ -712,6 +712,101 @@ button.btn-outline:hover {
   margin-top: 0.7rem;
 }
 
+.compact-row {
+  margin-top: 0;
+}
+
+.quick-mode-row button,
+.compact-row button {
+  flex: 1 1 140px;
+}
+
+.stacked-stat-list {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 0.55rem;
+}
+
+.stacked-stat {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(244,241,234,0.72));
+}
+
+.stacked-stat strong {
+  font-size: 0.95rem;
+}
+
+.source-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.quiz-actions-card {
+  margin-top: 0.75rem;
+}
+
+.quiz-actions-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.confidence-row button.active-confidence,
+.quick-mode-row button.active-confidence,
+.compact-row button.active-confidence {
+  background: var(--signal);
+  color: #fff;
+  border-color: var(--signal);
+}
+
+.judge-mode-panel {
+  margin-top: 0.85rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
+}
+
+.judge-queue-item {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--panel-warm);
+  margin-top: 0.5rem;
+}
+
+.rubric-sliders {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.7rem;
+}
+
+.rubric-sliders label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.bookmark-hit {
+  color: var(--flag);
+  font-weight: 700;
+}
+
 .row button {
   flex: 1 1 120px;
 }

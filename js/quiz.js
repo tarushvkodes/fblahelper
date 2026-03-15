@@ -101,6 +101,55 @@ function updateQuizAvailability() {
     : `Official + AI bank active — ${hqAiAvailable} questions.`;
 }
 
+function sourceBadgeLabel(source) {
+  const value = String(source || "").toLowerCase();
+  if (!value || value === "official-hq") return "Official HQ";
+  if (value.includes("manual-curated")) return "Curated";
+  if (value.includes("generated") || value.includes("ai")) return "Generated";
+  return "Manual Fix";
+}
+
+function syncQuestionTools(item, idx) {
+  const actions = document.getElementById("quizQuestionActions");
+  if (!actions || !item) return;
+  setControlVisibility(actions, true);
+  const confidence = state.quiz.confidence?.[idx] || getSavedQuestionConfidence(state.currentEvent, item);
+  document.getElementById("quizSourceBadge").textContent = sourceBadgeLabel(item.source);
+  document.getElementById("bookmarkQuestionBtn").textContent = isQuestionBookmarked(state.currentEvent, item) ? "Bookmarked" : "Bookmark";
+  document.getElementById("confidenceSureBtn").classList.toggle("active-confidence", confidence === "sure");
+  document.getElementById("confidenceUnsureBtn").classList.toggle("active-confidence", confidence === "unsure");
+  document.getElementById("confidenceGuessBtn").classList.toggle("active-confidence", confidence === "guess");
+  document.getElementById("quizActionStatus").textContent = confidence
+    ? `Confidence saved as ${confidence}.`
+    : "Use these tools to build your local study queue and review list.";
+
+  document.getElementById("confidenceSureBtn").onclick = () => setQuestionConfidence(idx, "sure");
+  document.getElementById("confidenceUnsureBtn").onclick = () => setQuestionConfidence(idx, "unsure");
+  document.getElementById("confidenceGuessBtn").onclick = () => setQuestionConfidence(idx, "guess");
+  document.getElementById("bookmarkQuestionBtn").onclick = () => {
+    toggleBookmarkedQuestion(state.currentEvent, item);
+    syncQuestionTools(item, idx);
+    renderOverviewProgress();
+    renderStats();
+  };
+  document.getElementById("reportQuestionBtn").onclick = () => {
+    reportQuestionIssue(state.currentEvent, item, "needs-review");
+    document.getElementById("quizActionStatus").textContent = "Question saved to your local feedback queue.";
+    renderStats();
+    renderOverviewProgress();
+  };
+}
+
+function setQuestionConfidence(idx, confidence) {
+  const item = state.quiz.deck[idx];
+  if (!item) return;
+  if (!state.quiz.confidence) state.quiz.confidence = {};
+  state.quiz.confidence[idx] = confidence;
+  saveQuestionConfidence(state.currentEvent, item, confidence);
+  syncQuestionTools(item, idx);
+  renderOverviewProgress();
+}
+
 function stopQuizTimer() {
   if (state.quiz.timerId) {
     clearInterval(state.quiz.timerId);
@@ -115,6 +164,7 @@ function initQuizSession(deck) {
   state.quiz.submitted = false;
   state.quiz.running = true;
   state.quiz.flagged = new Set();
+  state.quiz.confidence = {};
   state.quiz.secondsLeft = deck.length * FBLA_SECONDS_PER_QUESTION;
 
   stopQuizTimer();
@@ -186,6 +236,7 @@ function renderQuestion() {
       <button class="flag-btn${state.quiz.flagged?.has(idx) ? ' flagged' : ''}" data-flag="${idx}" title="${state.quiz.flagged?.has(idx) ? 'Unflag' : 'Flag for review'}" aria-label="Flag question">⚑</button>
     </div>
     <div>${optionsHtml}</div>
+    <p class="module-note">Source: ${sourceBadgeLabel(item.source)}</p>
   `;
 
   quizUi.card.querySelector("[data-flag]")?.addEventListener("click", (e) => {
@@ -207,6 +258,7 @@ function renderQuestion() {
 
   updateLiveScore();
   updateQuizAiHelp(item, idx);
+  syncQuestionTools(item, idx);
 }
 
 function updateLiveScore() {
@@ -294,6 +346,7 @@ function submitExam() {
       <article class="exam-review-item">
         <strong>Q${i + 1}. ${q.q}${flagged}</strong>
         <p class="${isCorrect ? "answer-good" : "answer-bad"}">${isCorrect ? "Correct" : "Incorrect"}</p>
+        <p><strong>Source:</strong> ${sourceBadgeLabel(q.source)}</p>
         <p><strong>Your answer:</strong> ${toAnswerLabel(q, picked)}</p>
         <p><strong>Right answer:</strong> ${toAnswerLabel(q, q.answer)}</p>
         <p><strong>Why:</strong> ${toExplanation(q)}</p>
@@ -339,6 +392,7 @@ function submitExam() {
     if (Number.isInteger(q.answer) && state.quiz.answers[i] !== q.answer) {
       missedQs.push({ q: q.q, options: q.options, answer: q.answer, explain: q.explain || "", optionExplanations: q.optionExplanations || [], source: q.source || "" });
     }
+    scheduleSpacedReviewItem(state.currentEvent, q, state.quiz.confidence?.[i] || "", state.quiz.answers[i] === q.answer);
   });
   if (missedQs.length) addMissedQuestions(state.currentEvent, missedQs);
 
@@ -356,6 +410,77 @@ function startMissedQuestionsDrill() {
   if (!missed.length) return;
   haptic("success");
   initQuizSession(shuffle(missed).map(shuffleOptions));
+}
+
+function startAdaptiveDrill() {
+  if (!state.currentEvent) return;
+  const deck = adaptiveDeckForEvent(state.currentEvent);
+  if (!deck.length) return startExam();
+  haptic("success");
+  initQuizSession(shuffle(deck).slice(0, Math.min(20, deck.length)).map(shuffleOptions));
+}
+
+function startSpacedReview() {
+  if (!state.currentEvent) return;
+  const deck = getSpacedReviewDeck(state.currentEvent);
+  if (!deck.length) return;
+  haptic("success");
+  initQuizSession(shuffle(deck).slice(0, Math.min(20, deck.length)).map(shuffleOptions));
+}
+
+function startTenMinuteCram() {
+  if (!state.currentEvent) return;
+  const deck = adaptiveDeckForEvent(state.currentEvent).length
+    ? adaptiveDeckForEvent(state.currentEvent)
+    : getDeckForMode(state.currentEvent, getQuizBankMode());
+  if (!deck.length) return;
+  haptic("success");
+  initQuizSession(shuffle(deck).slice(0, Math.min(20, deck.length)).map(shuffleOptions));
+  state.quiz.secondsLeft = 600;
+}
+
+function startStateSimulation() {
+  if (!state.currentEvent) return;
+  const deck = getDeckForMode(state.currentEvent, "hq");
+  if (!deck.length) return;
+  haptic("success");
+  initQuizSession(shuffle(deck).slice(0, Math.min(50, deck.length)).map(shuffleOptions));
+}
+
+function startClosestCompetitionMode() {
+  if (!state.currentEvent) return;
+  quizUi.bankMode.value = "hq";
+  saveAppPrefs({ bankMode: "hq" });
+  updateQuizAvailability();
+  startStateSimulation();
+}
+
+function startQuestionOfDay() {
+  if (!state.currentEvent) return;
+  const qod = getQuestionOfDay(state.currentEvent);
+  if (!qod) return;
+  haptic("success");
+  initQuizSession([shuffleOptions(qod)]);
+}
+
+function bookmarkQuestionOfDay() {
+  if (!state.currentEvent) return;
+  const qod = getQuestionOfDay(state.currentEvent);
+  if (!qod) return;
+  toggleBookmarkedQuestion(state.currentEvent, qod);
+  renderOverviewProgress();
+  renderStats();
+}
+
+function startBookmarkedQuestionsDrill() {
+  if (!state.currentEvent) return;
+  const deck = Object.values(loadBookmarks())
+    .filter((item) => item.event === state.currentEvent)
+    .map((item) => getDeckForMode(state.currentEvent, "hq-ai").find((q) => norm(q.q) === norm(item.q)))
+    .filter(Boolean);
+  if (!deck.length) return;
+  haptic("success");
+  initQuizSession(shuffle(deck).slice(0, Math.min(20, deck.length)).map(shuffleOptions));
 }
 
 /* ─── Question Flagging ─── */

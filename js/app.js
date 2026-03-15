@@ -11,12 +11,14 @@ const state = {
     timerId: null,
     secondsLeft: 0,
     submitted: false,
-    flagged: new Set()
+    flagged: new Set(),
+    confidence: {}
   },
   flash: {
     deck: [],
     index: 0,
-    flipped: false
+    flipped: false,
+    mode: "quiz"
   }
 };
 
@@ -114,11 +116,13 @@ function setWorkspaceTab(tabName) {
     t.setAttribute("aria-selected", String(isActive));
   });
   wsPanels.forEach((p) => p.classList.toggle("active", p.id === tabName));
+  saveAppPrefs({ workspaceTab: tabName });
 }
 
 function openEvent(eventName, tabName = "overview") {
   haptic("nudge");
   state.currentEvent = eventName;
+  saveAppPrefs({ currentEvent: eventName });
 
   /* Always close the event panel */
   if (window.__closeRail) {
@@ -250,6 +254,7 @@ function bindQuizControls() {
   document.getElementById("startExamBtn").onclick = startExam;
   quizUi.bankMode.onchange = () => {
     const currentTab = document.querySelector(".ws-tab.active")?.dataset.wsTab || "overview";
+    saveAppPrefs({ bankMode: quizUi.bankMode.value });
     updateQuizAvailability();
     setStats();
     if (state.currentEvent) openEvent(state.currentEvent, currentTab);
@@ -292,6 +297,18 @@ function bindFlashcardControls() {
   document.getElementById("flipCardBtn").onclick = flip;
   document.getElementById("flashCard").onclick = flip;
   document.getElementById("nextCardBtn").onclick = () => advanceCard(1);
+  document.getElementById("flashOfficialBtn").onclick = () => {
+    state.flash.mode = "quiz";
+    if (state.currentEvent) buildFlashcards(state.currentEvent);
+  };
+  document.getElementById("flashMissedBtn").onclick = () => {
+    state.flash.mode = "missed";
+    if (state.currentEvent) buildFlashcards(state.currentEvent);
+  };
+  document.getElementById("flashSpacedBtn").onclick = () => {
+    state.flash.mode = "spaced";
+    if (state.currentEvent) buildFlashcards(state.currentEvent);
+  };
 
   return { flip, advanceCard };
 }
@@ -310,6 +327,17 @@ function bindMiscControls() {
   document.getElementById("rpPresentTime").onchange = resetRpTimer;
   document.getElementById("clearHistoryBtn").onclick = clearAllHistory;
   document.getElementById("exportHistoryBtn").onclick = exportHistory;
+  document.getElementById("adaptiveDrillBtn").onclick = startAdaptiveDrill;
+  document.getElementById("spacedReviewBtn").onclick = startSpacedReview;
+  document.getElementById("tenMinuteCramBtn").onclick = startTenMinuteCram;
+  document.getElementById("stateSimBtn").onclick = startStateSimulation;
+  document.getElementById("closestModeBtn").onclick = startClosestCompetitionMode;
+  document.getElementById("practiceQuestionOfDayBtn").onclick = startQuestionOfDay;
+  document.getElementById("bookmarkQuestionOfDayBtn").onclick = bookmarkQuestionOfDay;
+  document.getElementById("openBookmarksBtn").onclick = startBookmarkedQuestionsDrill;
+  document.getElementById("exportEventSummaryBtn").onclick = () => {
+    if (state.currentEvent) exportEventSummary(state.currentEvent);
+  };
 }
 
 /* ─── UI Binding: Keyboard Shortcuts ─── */
@@ -356,15 +384,24 @@ function bindUi() {
 }
 
 function init() {
+  const prefs = loadAppPrefs();
+  if (prefs.bankMode && quizUi.bankMode.querySelector(`option[value="${prefs.bankMode}"]`)) {
+    quizUi.bankMode.value = prefs.bankMode;
+  }
   setStats();
   bindUi();
   renderEventList();
   updateStreakDisplay();
   resetRpTimer();
 
-  // Open first event to avoid dead-end interface.
-  openEvent(EVENTS[0], "overview");
+  const preferredEvent = EVENTS.includes(prefs.currentEvent) ? prefs.currentEvent : EVENTS[0];
+  const preferredTab = prefs.workspaceTab || "overview";
+  openEvent(preferredEvent, preferredTab);
   renderStats();
+
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js").catch(() => {});
+  }
 }
 
 init();
