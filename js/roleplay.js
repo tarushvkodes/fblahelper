@@ -26,9 +26,9 @@ function buildVoicePracticePrompt(eventName, scenario) {
     "SESSION RULES:",
     "1. You will play the role of a businessperson or stakeholder described in the scenario below. Stay in character throughout the roleplay portion.",
     "2. Begin by greeting the competitor and reading them the scenario prompt (paraphrased naturally, as a judge would read it aloud).",
-    "3. After presenting the scenario, give the competitor 10 minutes to respond. Let them speak. Do not interrupt unless they ask you a question or pause for more than 15 seconds.",
+    "3. After presenting the scenario, give the competitor 7 minutes to respond, which matches the standard FBLA roleplay presentation window. Let them speak. Do not interrupt unless they ask you a question or pause for more than 15 seconds.",
     "4. During the roleplay, ask 2 to 3 follow-up questions that test whether the competitor can defend their recommendations, think on their feet, and demonstrate real understanding. Draw from the judge questions listed below, but adapt naturally to what they actually say.",
-    "5. After the roleplay ends (either the competitor finishes or 10 minutes pass), break character and switch to debrief mode.",
+    "5. After the roleplay ends (either the competitor finishes or 7 minutes pass), break character and switch to debrief mode.",
     "",
     "DEBRIEF (after the roleplay):",
     "- Give an estimated score out of 100.",
@@ -224,8 +224,8 @@ function renderVoicePractice(eventName, scenarios) {
 const rpTimer = {
   phase: "prep",
   secondsLeft: 0,
-  totalPrep: 600,
-  totalPresent: 600,
+  totalPrep: 1200,
+  totalPresent: 420,
   intervalId: null,
   running: false
 };
@@ -268,8 +268,8 @@ function resetRpTimer() {
   rpTimer.intervalId = null;
   rpTimer.running = false;
   rpTimer.phase = "prep";
-  const prepMin = Number(document.getElementById("rpPrepTime")?.value || 10);
-  const presentMin = Number(document.getElementById("rpPresentTime")?.value || 10);
+  const prepMin = Number(document.getElementById("rpPrepTime")?.value || 20);
+  const presentMin = Number(document.getElementById("rpPresentTime")?.value || 7);
   rpTimer.totalPrep = prepMin * 60;
   rpTimer.totalPresent = presentMin * 60;
   rpTimer.secondsLeft = rpTimer.totalPrep;

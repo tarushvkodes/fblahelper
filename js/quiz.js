@@ -92,8 +92,8 @@ function updateQuizAvailability() {
   btn100.classList.remove("official-target");
   btnMax.classList.remove("official-target");
 
-  const officialLength = 100;
-  if (available >= officialLength) btn100.classList.add("official-target");
+  const officialLength = 50;
+  if (available >= officialLength) btn50.classList.add("official-target");
   else btnMax.classList.add("official-target");
 
   document.getElementById("officialFormatNote").textContent = mode === "hq"

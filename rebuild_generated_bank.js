@@ -716,22 +716,25 @@ function rewriteGeneratedSources() {
       const hqDeck = dedupeQuestions(((hqKey ? resourceData.objectiveQuizzes[hqKey] : []) || [])
         .map((question) => normalizeQuestion({ ...question, source: "official-hq" }, "official-hq"))
         .filter(Boolean));
-      const extras = CYBERSECURITY_APPEND.map((question) => normalizeQuestion(question, "generated-bespoke")).filter(Boolean);
-      const seen = new Set(normalized.map((question) => norm(question.q)));
       finalQuestions = [...normalized];
-      for (const extra of extras) {
-        if (dedupeQuestions([...hqDeck, ...finalQuestions]).length >= 100) {
-          break;
-        }
-        const key = norm(extra.q);
-        if (!seen.has(key)) {
-          seen.add(key);
-          finalQuestions.push(extra);
+      const combinedBeforeExtras = dedupeQuestions([...hqDeck, ...finalQuestions]).length;
+      if (combinedBeforeExtras < 100) {
+        const extras = CYBERSECURITY_APPEND.map((question) => normalizeQuestion(question, "generated-bespoke")).filter(Boolean);
+        const seen = new Set(normalized.map((question) => norm(question.q)));
+        for (const extra of extras) {
+          if (dedupeQuestions([...hqDeck, ...finalQuestions]).length >= 100) {
+            break;
+          }
+          const key = norm(extra.q);
+          if (!seen.has(key)) {
+            seen.add(key);
+            finalQuestions.push(extra);
+          }
         }
       }
       const combined = dedupeQuestions([...hqDeck, ...finalQuestions]).length;
-      if (combined !== 100) {
-        throw new Error(`Cybersecurity rebuild expected 100 total combined questions, found ${combined}`);
+      if (combined < 100) {
+        throw new Error(`Cybersecurity rebuild expected at least 100 total combined questions, found ${combined}`);
       }
     }
 

@@ -705,7 +705,7 @@ function mergeBanks(...banks) {
   return merged;
 }
 
-const OFFICIAL_BANKS = mergeBanks(COMBINED_DATA.banks, RESOURCE_DATA.objectiveQuizzes);
+const OFFICIAL_BANKS = mergeBanks(RESOURCE_DATA.objectiveQuizzes, COMBINED_DATA.banks);
 const AI_BANKS = mergeBanks(AI_DATA.banks);
 
 function inferFormat(eventName) {

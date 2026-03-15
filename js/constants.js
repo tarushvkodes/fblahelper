@@ -74,7 +74,7 @@ const FORMAT_PREP = {
   roleplay: {
     label: "Objective Test + Roleplay",
     desc: "You'll take an objective test, then perform an interactive roleplay scenario judged on communication, decisions, and applied business thinking.",
-    rounds: ["Timed objective exam", "Interactive roleplay with judges (7 min prep + 5 min present)"],
+    rounds: ["Timed objective exam", "Interactive roleplay with judges (20 min prep + 7 min presentation)"],
     tasks: [
       "Complete a timed practice exam and review all misses.",
       "Run through a roleplay scenario and record yourself.",
