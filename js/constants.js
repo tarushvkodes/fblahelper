@@ -57,6 +57,14 @@ const REPORT_EVENTS = new Set([
   "Community Service Project",
   "Event Planning"
 ]);
+const EVENT_FORMAT_GROUPS = [
+  { key: "objective", label: "Objective Focus" },
+  { key: "roleplay", label: "Roleplay Focus" },
+  { key: "presentation", label: "Presentation Focus" },
+  { key: "production", label: "Production Focus" },
+  { key: "report", label: "Report Focus" },
+  { key: "parliamentary", label: "Parliamentary Focus" }
+];
 
 const FORMAT_PREP = {
   objective: {

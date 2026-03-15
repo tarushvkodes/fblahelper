@@ -62,16 +62,8 @@ function renderEventList() {
   const q = eventSearchEl.value.trim().toLowerCase();
   const mode = getQuizBankMode();
   const filtered = EVENTS.filter((event) => !q || event.toLowerCase().includes(q));
-  const groups = [
-    { key: "objective", label: "Objective Focus" },
-    { key: "roleplay", label: "Roleplay Focus" },
-    { key: "presentation", label: "Presentation Focus" },
-    { key: "production", label: "Production Focus" },
-    { key: "report", label: "Report Focus" },
-    { key: "parliamentary", label: "Parliamentary Focus" }
-  ];
 
-  const html = groups.map((group) => {
+  const html = EVENT_FORMAT_GROUPS.map((group) => {
     const events = filtered.filter((eventName) => inferFormat(eventName) === group.key).sort((a, b) => a.localeCompare(b));
     if (!events.length) return "";
 

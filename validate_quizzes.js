@@ -23,7 +23,7 @@ function loadRuntime() {
     vm.runInContext(fs.readFileSync(path.join(ROOT, file), "utf8"), sandbox, { filename: file });
   }
   sandbox.ROLEPLAY_REFERENCE = sandbox.window.ROLEPLAY_REFERENCE;
-  for (const file of ["js/constants.js", "js/utils.js", "js/data.js"]) {
+  for (const file of ["js/constants.js", "js/utils.js", "js/manual-quiz-data.js", "js/data.js"]) {
     vm.runInContext(fs.readFileSync(path.join(ROOT, file), "utf8"), sandbox, { filename: file });
   }
   return {
