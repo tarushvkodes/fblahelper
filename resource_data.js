@@ -1865,7 +1865,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Physically placing the product in a store",
           "Pricing the product lower than competitors",
           "Creating a distinct image in the consumer's mind",
-          "Deciding which sales promotions to use Personal Selling & Sales Promotion"
+          "Deciding which sales promotions to use"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -1873,7 +1873,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Physically placing the product in a store is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Pricing the product lower than competitors is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Creating a distinct image in the consumer's mind matches the official FBLA HQ answer key.",
-          "Not correct. Deciding which sales promotions to use Personal Selling & Sales Promotion is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Deciding which sales promotions to use is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -1901,7 +1901,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Replace long-term advertising campaigns",
           "Generate immediate consumer action",
           "Reduce overall brand awareness",
-          "Eliminate personal selling needs Traditional & Alternative Advertising Media"
+          "Eliminate personal selling needs"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -1909,7 +1909,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Replace long-term advertising campaigns is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Generate immediate consumer action matches the official FBLA HQ answer key.",
           "Not correct. Reduce overall brand awareness is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate personal selling needs Traditional & Alternative Advertising Media is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eliminate personal selling needs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -1937,7 +1937,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Traditional media",
           "Outdoor media",
           "Alternative media",
-          "Direct marketing"
+          "Direct"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -1945,7 +1945,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Traditional media is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Outdoor media is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Alternative media matches the official FBLA HQ answer key.",
-          "Not correct. Direct marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Direct is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -1955,7 +1955,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "High flexibility in changing creative designs daily",
           "Captive audience in high-traffic areas",
           "Lower cost per impression than online advertising",
-          "High audience selectivity Branding, Positioning & the Economy"
+          "High audience selectivity"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -1963,7 +1963,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. High flexibility in changing creative designs daily is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Captive audience in high-traffic areas matches the official FBLA HQ answer key.",
           "Not correct. Lower cost per impression than online advertising is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. High audience selectivity Branding, Positioning & the Economy is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. High audience selectivity is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -1991,7 +1991,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Economic boom",
           "Inflation",
           "Recession",
-          "Deflation Promotion & Public Relations"
+          "Deflation"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -1999,7 +1999,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Economic boom is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Inflation is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Recession matches the official FBLA HQ answer key.",
-          "Not correct. Deflation Promotion & Public Relations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Deflation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2027,7 +2027,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Lower cost",
           "Greater message control",
           "Higher credibility",
-          "Faster audience trust building The Advertising Plan"
+          "Faster audience trust building"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2035,7 +2035,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Lower cost is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Greater message control matches the official FBLA HQ answer key.",
           "Not correct. Higher credibility is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Faster audience trust building The Advertising Plan is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Faster audience trust building is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2063,7 +2063,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Determine shipping costs",
           "Identify strengths, weaknesses, opportunities, and threats",
           "Select supply chain partners",
-          "Choose the best pricing strategy Creation of the Advertisement"
+          "Choose the best pricing strategy"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2071,7 +2071,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Determine shipping costs is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Identify strengths, weaknesses, opportunities, and threats matches the official FBLA HQ answer key.",
           "Not correct. Select supply chain partners is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Choose the best pricing strategy Creation of the Advertisement is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Choose the best pricing strategy is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2099,7 +2099,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Art",
           "Copywriting",
           "Storyboarding",
-          "Layout design Financial Planning for Advertising"
+          "Layout design"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2107,7 +2107,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Art is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Copywriting matches the official FBLA HQ answer key.",
           "Not correct. Storyboarding is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Layout design Financial Planning for Advertising is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Layout design is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2135,7 +2135,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Budget allocation",
           "Return on advertising investment",
           "Creative strategy development",
-          "Market segmentation Consumer Behavior & Purchase Classifications"
+          "Market segmentation"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2143,7 +2143,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Budget allocation is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Return on advertising investment matches the official FBLA HQ answer key.",
           "Not correct. Creative strategy development is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Market segmentation Consumer Behavior & Purchase Classifications is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Market segmentation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2171,7 +2171,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Requires extensive research before purchase",
           "Is purchased frequently with minimal effort",
           "Has a high price and limited availability",
-          "Is bought infrequently but with high involvement Target Market & Segmentation"
+          "Is bought infrequently but with high involvement"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2179,7 +2179,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Requires extensive research before purchase is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Is purchased frequently with minimal effort matches the official FBLA HQ answer key.",
           "Not correct. Has a high price and limited availability is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Is bought infrequently but with high involvement Target Market & Segmentation is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Is bought infrequently but with high involvement is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2207,7 +2207,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A narrow audience with specific needs",
           "Broad audiences with a single marketing strategy",
           "Customers segmented by behavior",
-          "Businesses instead of consumers Product Development & Life Cycle"
+          "Businesses instead of consumers"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2215,7 +2215,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A narrow audience with specific needs is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Broad audiences with a single marketing strategy matches the official FBLA HQ answer key.",
           "Not correct. Customers segmented by behavior is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Businesses instead of consumers Product Development & Life Cycle is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Businesses instead of consumers is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2243,7 +2243,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Introduction",
           "Growth",
           "Maturity",
-          "Decline Price Planning"
+          "Decline"
         ],
         "answer": 3,
         "explain": "Official FBLA HQ sample question. The answer key marks D as correct.",
@@ -2251,7 +2251,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Introduction is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Growth is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Maturity is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Decline Price Planning matches the official FBLA HQ answer key."
+          "Correct. Decline matches the official FBLA HQ answer key."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2261,7 +2261,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A product is introduced into a highly competitive market",
           "There is strong demand and limited competition",
           "A company wants to quickly gain market share",
-          "The product has a long life cycle Channels of Distribution"
+          "The product has a long life cycle"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2269,7 +2269,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A product is introduced into a highly competitive market is not the keyed answer in the FBLA HQ sample set.",
           "Correct. There is strong demand and limited competition matches the official FBLA HQ answer key.",
           "Not correct. A company wants to quickly gain market share is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. The product has a long life cycle Channels of Distribution is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. The product has a long life cycle is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2297,7 +2297,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Online marketplaces",
           "Wholesalers",
           "Direct mail",
-          "Big-box retailers Promotion Types & Marketing Research"
+          "Big-box retailers"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -2305,7 +2305,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Online marketplaces matches the official FBLA HQ answer key.",
           "Not correct. Wholesalers is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Direct mail is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Big-box retailers Promotion Types & Marketing Research is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Big-box retailers is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2333,7 +2333,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Data collected specifically for the current study",
           "Data collected by other researchers for general use",
           "Sales figures from past years",
-          "Government census data Sales Promotion Strategy & Communication"
+          "Government census data"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -2341,7 +2341,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Data collected specifically for the current study matches the official FBLA HQ answer key.",
           "Not correct. Data collected by other researchers for general use is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Sales figures from past years is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Government census data Sales Promotion Strategy & Communication is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Government census data is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2369,7 +2369,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Audience applause",
           "Anything that interferes with the message",
           "The sender's tone",
-          "Feedback delay Effective Messaging & Legal/Ethical Issues"
+          "Feedback delay"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2377,7 +2377,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Audience applause is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Anything that interferes with the message matches the official FBLA HQ answer key.",
           "Not correct. The sender's tone is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Feedback delay Effective Messaging & Legal/Ethical Issues is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Feedback delay is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2405,7 +2405,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Federal Trade Commission",
           "Department of Commerce",
           "Food and Drug Administration",
-          "Federal Communications Commission Multicultural & Diversity Advertising"
+          "Federal Communications Commission"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -2413,7 +2413,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Federal Trade Commission matches the official FBLA HQ answer key.",
           "Not correct. Department of Commerce is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Food and Drug Administration is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Federal Communications Commission Multicultural & Diversity Advertising is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Federal Communications Commission is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2441,7 +2441,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Native American",
           "Hispanic/Latino",
           "Middle Eastern",
-          "Eastern European History & Influences"
+          "Eastern European"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2449,7 +2449,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Native American is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Hispanic/Latino matches the official FBLA HQ answer key.",
           "Not correct. Middle Eastern is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eastern European History & Influences is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eastern European is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2477,7 +2477,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reducing the need for branding",
           "Encouraging eco-friendly product promotion",
           "Eliminating competitive advertising",
-          "Limiting distribution channels Careers, Internet, & Self-Regulation"
+          "Limiting distribution channels"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2485,7 +2485,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Reducing the need for branding is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Encouraging eco-friendly product promotion matches the official FBLA HQ answer key.",
           "Not correct. Eliminating competitive advertising is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Limiting distribution channels Careers, Internet, & Self-Regulation is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Limiting distribution channels is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2510,7 +2510,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Pay-per-click advertising is most associated with:",
         "options": [
-          "Email marketing",
+          "Email",
           "Search engine advertising",
           "Product placement",
           "Direct mail"
@@ -2518,7 +2518,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
-          "Not correct. Email marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Email is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Search engine advertising matches the official FBLA HQ answer key.",
           "Not correct. Product placement is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Direct mail is not the keyed answer in the FBLA HQ sample set."
@@ -2531,7 +2531,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Government monitors ads",
           "Industry groups establish and enforce their own standards",
           "Consumers boycott unethical ads",
-          "Only nonprofits advertise Cross-Cultural Communication"
+          "Only nonprofits advertise"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2539,7 +2539,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Government monitors ads is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Industry groups establish and enforce their own standards matches the official FBLA HQ answer key.",
           "Not correct. Consumers boycott unethical ads is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Only nonprofits advertise Cross-Cultural Communication is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Only nonprofits advertise is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2567,7 +2567,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Brand positioning",
           "Supply chain management",
           "Packaging efficiency",
-          "Pricing strategy Higher-Order Analysis & Application"
+          "Pricing strategy"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -2575,7 +2575,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Brand positioning matches the official FBLA HQ answer key.",
           "Not correct. Supply chain management is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Packaging efficiency is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Pricing strategy Higher-Order Analysis & Application is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Pricing strategy is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Advertising-Sample-Questions.pdf"
       },
@@ -2785,7 +2785,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Notify suppliers",
           "Call emergency services",
           "Contact insurance agents",
-          "File a government report Management Analysis and Decision Making"
+          "File a government report"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2793,7 +2793,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Notify suppliers is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Call emergency services matches the official FBLA HQ answer key.",
           "Not correct. Contact insurance agents is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. File a government report Management Analysis and Decision Making is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. File a government report is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
       },
@@ -2875,7 +2875,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Maximizing pesticide use",
           "Reducing soil erosion and water contamination",
           "Increasing fossil fuel consumption",
-          "Avoiding renewable energy Marketing"
+          "Avoiding renewable energy"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2883,7 +2883,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Maximizing pesticide use is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Reducing soil erosion and water contamination matches the official FBLA HQ answer key.",
           "Not correct. Increasing fossil fuel consumption is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoiding renewable energy Marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoiding renewable energy is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
       },
@@ -2965,7 +2965,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Ignore consumer demand",
           "Be adaptable to changing market conditions",
           "Focus exclusively on production efficiency",
-          "Avoid promotion Economics"
+          "Avoid promotion"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -2973,7 +2973,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Ignore consumer demand is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Be adaptable to changing market conditions matches the official FBLA HQ answer key.",
           "Not correct. Focus exclusively on production efficiency is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoid promotion Economics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoid promotion is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
       },
@@ -3055,7 +3055,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Avoid innovation",
           "Take calculated risks",
           "Ignore market changes",
-          "Avoid long-term planning Finance and Accounting"
+          "Avoid long-term planning"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -3063,7 +3063,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Avoid innovation is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Take calculated risks matches the official FBLA HQ answer key.",
           "Not correct. Ignore market changes is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoid long-term planning Finance and Accounting is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoid long-term planning is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
       },
@@ -3235,7 +3235,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Idle assets always increase profitability",
           "Assets should be utilized for maximum return",
           "Asset use should be avoided to reduce wear and tear",
-          "Assets and liabilities are unrelated Terminology and Trends"
+          "Assets and liabilities are unrelated"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -3243,7 +3243,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Idle assets always increase profitability is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Assets should be utilized for maximum return matches the official FBLA HQ answer key.",
           "Not correct. Asset use should be avoided to reduce wear and tear is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Assets and liabilities are unrelated Terminology and Trends is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Assets and liabilities are unrelated is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
       },
@@ -3288,7 +3288,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Declining interest in technology",
           "Climate change impacts on crop production",
-          "Decrease in global trade",
+          "Decrease in",
           "Abundance of unused farmland"
         ],
         "answer": 1,
@@ -3296,7 +3296,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "optionExplanations": [
           "Not correct. Declining interest in technology is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Climate change impacts on crop production matches the official FBLA HQ answer key.",
-          "Not correct. Decrease in global trade is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Decrease in is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Abundance of unused farmland is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
@@ -3415,7 +3415,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Clean Water Act",
           "Freedom of Information Act",
           "Patriot Act",
-          "Fair Labor Standards Act Higher-Order Application"
+          "Fair Labor Standards Act"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -3423,7 +3423,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Clean Water Act matches the official FBLA HQ answer key.",
           "Not correct. Freedom of Information Act is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Patriot Act is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Fair Labor Standards Act Higher-Order Application is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Fair Labor Standards Act is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
       },
@@ -3503,7 +3503,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "An AFNR enterprise outsourcing processing to another country is engaging in:",
         "options": [
           "Global supply chain management",
-          "Domestic marketing",
+          "Domestic",
           "Niche production",
           "Sole proprietorship"
         ],
@@ -3511,7 +3511,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
           "Correct. Global supply chain management matches the official FBLA HQ answer key.",
-          "Not correct. Domestic marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Domestic is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Niche production is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Sole proprietorship is not the keyed answer in the FBLA HQ sample set."
         ],
@@ -3559,7 +3559,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Risk management",
           "Market research",
           "Sole proprietorship",
-          "Niche marketing"
+          "Niche"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -3567,7 +3567,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Risk management matches the official FBLA HQ answer key.",
           "Not correct. Market research is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Sole proprietorship is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Niche marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Niche is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
       },
@@ -3592,7 +3592,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "A farm using blockchain to track produce from field to consumer is adopting:",
         "options": [
-          "Traditional marketing",
+          "Traditional",
           "Supply chain transparency technology",
           "Sole proprietorship",
           "Market segmentation"
@@ -3600,914 +3600,12 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
-          "Not correct. Traditional marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Traditional is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Supply chain transparency technology matches the official FBLA HQ answer key.",
           "Not correct. Sole proprietorship is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Market segmentation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Agribusiness-Sample-Questions.pdf"
-      }
-    ],
-    "Banking Financial Systems (1)": [
-      {
-        "q": "Which statement best describes the primary purpose of a cash flow statement?",
-        "options": [
-          "Reports profitability over a period",
-          "Shows assets, liabilities, and equity at a point in time",
-          "Details cash inflows and outflows from operating, investing, and financing activities",
-          "Reconciles the bank statement to the general ledger"
-        ],
-        "answer": 2,
-        "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
-        "optionExplanations": [
-          "Not correct. Reports profitability over a period is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Shows assets, liabilities, and equity at a point in time is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Details cash inflows and outflows from operating, investing, and financing activities matches the official FBLA HQ answer key.",
-          "Not correct. Reconciles the bank statement to the general ledger is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "The FDIC's core role in banking is to:",
-        "options": [
-          "Supervise securities markets",
-          "Insure deposits at member banks up to statutory limits",
-          "Set the federal funds rate",
-          "Enforce antitrust laws in finance"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Supervise securities markets is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Insure deposits at member banks up to statutory limits matches the official FBLA HQ answer key.",
-          "Not correct. Set the federal funds rate is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Enforce antitrust laws in finance is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A check clearing system exists primarily to:",
-        "options": [
-          "Issue new currency into circulation",
-          "Transfer funds between depository institutions to settle check payments",
-          "Issue mortgage-backed securities",
-          "Approve wire transfers for consumers"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Issue new currency into circulation is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Transfer funds between depository institutions to settle check payments matches the official FBLA HQ answer key.",
-          "Not correct. Issue mortgage-backed securities is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Approve wire transfers for consumers is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Which document is used to open and close a teller station at a bank?",
-        "options": [
-          "Suspicious activity report",
-          "Teller proof sheet/cash control sheet",
-          "Bank secrecy form",
-          "Loan transmittal form"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Suspicious activity report is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Teller proof sheet/cash control sheet matches the official FBLA HQ answer key.",
-          "Not correct. Bank secrecy form is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Loan transmittal form is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "In account servicing, KYC primarily involves:",
-        "options": [
-          "Reviewing annual reports",
-          "Verifying customer identity and assessing risk",
-          "Setting loan interest rates",
-          "Posting interest to savings accounts"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Reviewing annual reports is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Verifying customer identity and assessing risk matches the official FBLA HQ answer key.",
-          "Not correct. Setting loan interest rates is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Posting interest to savings accounts is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Bank reconciliation refers to:",
-        "options": [
-          "Balancing ATMs at close of business",
-          "Matching internal cash ledgers to teller drawers",
-          "Comparing a company's check register with the bank statement to resolve differences",
-          "Posting outstanding deposits to the general ledger"
-        ],
-        "answer": 2,
-        "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
-        "optionExplanations": [
-          "Not correct. Balancing ATMs at close of business is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Matching internal cash ledgers to teller drawers is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Comparing a company's check register with the bank statement to resolve differences matches the official FBLA HQ answer key.",
-          "Not correct. Posting outstanding deposits to the general ledger is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Which is not typically part of basic bank services?",
-        "options": [
-          "Trust services",
-          "Certificates of deposit",
-          "Futures exchanges",
-          "ATMs and debit cards"
-        ],
-        "answer": 2,
-        "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
-        "optionExplanations": [
-          "Not correct. Trust services is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Certificates of deposit is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Futures exchanges matches the official FBLA HQ answer key.",
-          "Not correct. ATMs and debit cards is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A secured loan is best defined as credit:",
-        "options": [
-          "Based solely on borrower reputation",
-          "That requires collateral to reduce lender risk",
-          "Offered at variable teaser rates only",
-          "Issued only to corporations"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Based solely on borrower reputation is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. That requires collateral to reduce lender risk matches the official FBLA HQ answer key.",
-          "Not correct. Offered at variable teaser rates only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Issued only to corporations is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "In bookkeeping, posting means:",
-        "options": [
-          "Recording transactions from journals into ledgers",
-          "Printing monthly bank statements",
-          "Reconciling petty cash",
-          "Amortizing a note receivable"
-        ],
-        "answer": 0,
-        "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
-        "optionExplanations": [
-          "Correct. Recording transactions from journals into ledgers matches the official FBLA HQ answer key.",
-          "Not correct. Printing monthly bank statements is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reconciling petty cash is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Amortizing a note receivable is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "An IRA is primarily designed to:",
-        "options": [
-          "Offer FDIC insurance above legal limits",
-          "Provide tax-advantaged retirement saving",
-          "Replace employer pensions entirely",
-          "Eliminate investment risk Federal Reserve, Payments & Operations"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Offer FDIC insurance above legal limits is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Provide tax-advantaged retirement saving matches the official FBLA HQ answer key.",
-          "Not correct. Replace employer pensions entirely is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate investment risk Federal Reserve, Payments & Operations is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "The Federal Reserve most directly influences:",
-        "options": [
-          "Fiscal policy through taxation",
-          "Monetary policy via open-market operations and reserve tools",
-          "SEC enforcement actions",
-          "FDIC insurance premiums"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Fiscal policy through taxation is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Monetary policy via open-market operations and reserve tools matches the official FBLA HQ answer key.",
-          "Not correct. SEC enforcement actions is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. FDIC insurance premiums is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "The federal funds rate refers to the interest rate:",
-        "options": [
-          "Consumers pay on credit cards",
-          "Banks charge each other for overnight reserve balances",
-          "The Fed charges on discount window loans exclusively",
-          "Paid on 10-year Treasury notes"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Consumers pay on credit cards is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Banks charge each other for overnight reserve balances matches the official FBLA HQ answer key.",
-          "Not correct. The Fed charges on discount window loans exclusively is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Paid on 10-year Treasury notes is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "ACH payments are typically used for:",
-        "options": [
-          "High-value real-time settlements only",
-          "Batch electronic transfers like payroll direct deposits",
-          "Cross-border securities settlement",
-          "In-person cash withdrawals"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. High-value real-time settlements only is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Batch electronic transfers like payroll direct deposits matches the official FBLA HQ answer key.",
-          "Not correct. Cross-border securities settlement is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. In-person cash withdrawals is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A bank hold placed on a deposited check most directly manages:",
-        "options": [
-          "Interest rate risk",
-          "Liquidity and fraud risk from uncollected funds",
-          "Currency translation risk",
-          "Capital adequacy"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Interest rate risk is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Liquidity and fraud risk from uncollected funds matches the official FBLA HQ answer key.",
-          "Not correct. Currency translation risk is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Capital adequacy is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Float in payments most accurately describes:",
-        "options": [
-          "Time between loan application and closing",
-          "Time between check deposit and funds availability",
-          "Period of promotional APR on a card",
-          "The maturity extension on a CD Government Regulation of Financial Services"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Time between loan application and closing is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Time between check deposit and funds availability matches the official FBLA HQ answer key.",
-          "Not correct. Period of promotional APR on a card is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. The maturity extension on a CD Government Regulation of Financial Services is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "The primary aim of financial regulation is to:",
-        "options": [
-          "Maximize bank profits",
-          "Protect consumers, ensure safety and soundness, and promote system stability",
-          "Set market interest rates directly for all loans",
-          "Eliminate competition among banks"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Maximize bank profits is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Protect consumers, ensure safety and soundness, and promote system stability matches the official FBLA HQ answer key.",
-          "Not correct. Set market interest rates directly for all loans is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate competition among banks is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Record retention laws in finance mainly ensure that:",
-        "options": [
-          "Tax authorities can pre-fill returns",
-          "Institutions store, secure, and retrieve financial records for specified periods",
-          "Marketing departments can profile customers",
-          "Auditors avoid sampling"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Tax authorities can pre-fill returns is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Institutions store, secure, and retrieve financial records for specified periods matches the official FBLA HQ answer key.",
-          "Not correct. Marketing departments can profile customers is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Auditors avoid sampling is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Internal and external audits help a bank:",
-        "options": [
-          "Select advertising channels",
-          "Assess compliance, controls, and financial reporting accuracy",
-          "Eliminate regulatory exams",
-          "Set the prime rate"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Select advertising channels is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Assess compliance, controls, and financial reporting accuracy matches the official FBLA HQ answer key.",
-          "Not correct. Eliminate regulatory exams is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Set the prime rate is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A compliance breach most likely results from:",
-        "options": [
-          "Following KYC procedures",
-          "Violating consumer protection provisions",
-          "Reconciling teller cash daily",
-          "Using dual control for vault access"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Following KYC procedures is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Violating consumer protection provisions matches the official FBLA HQ answer key.",
-          "Not correct. Reconciling teller cash daily is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Using dual control for vault access is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Consumer protection provisions are intended to:",
-        "options": [
-          "Increase bank fee revenue",
-          "Provide transparency, fairness, and remedies for customers",
-          "Replace market competition",
-          "Eliminate credit products Technology & Cybersecurity in Financial Services"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Increase bank fee revenue is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Provide transparency, fairness, and remedies for customers matches the official FBLA HQ answer key.",
-          "Not correct. Replace market competition is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate credit products Technology & Cybersecurity in Financial Services is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A core banking system primarily enables:",
-        "options": [
-          "Social media marketing",
-          "Real-time posting of deposits, withdrawals, and loan payments",
-          "Outsourced HR functions",
-          "Physical branch security"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Social media marketing is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Real-time posting of deposits, withdrawals, and loan payments matches the official FBLA HQ answer key.",
-          "Not correct. Outsourced HR functions is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Physical branch security is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A bank database is best used to:",
-        "options": [
-          "Replace financial statements",
-          "Maintain customer and account records with controlled access",
-          "Eliminate audit trails",
-          "Serve as a word processor"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Replace financial statements is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Maintain customer and account records with controlled access matches the official FBLA HQ answer key.",
-          "Not correct. Eliminate audit trails is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Serve as a word processor is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A spreadsheet in the back office most commonly:",
-        "options": [
-          "Executes wire transfers",
-          "Models loan amortization and interest scenarios with formulas",
-          "Replaces the general ledger permanently",
-          "Prints cashier's checks automatically"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Executes wire transfers is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Models loan amortization and interest scenarios with formulas matches the official FBLA HQ answer key.",
-          "Not correct. Replaces the general ledger permanently is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Prints cashier's checks automatically is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Assisting customers with online banking aligns with which objective?",
-        "options": [
-          "Ethics and careers",
-          "Impact of technology on services",
-          "Taxation procedures",
-          "Securities underwriting"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Ethics and careers is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Impact of technology on services matches the official FBLA HQ answer key.",
-          "Not correct. Taxation procedures is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Securities underwriting is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A frontline control to minimize loss is:",
-        "options": [
-          "Ignoring counterfeit indicators",
-          "Single-person vault access",
-          "Validating currency and using dual control for cash handling",
-          "Disabling transaction logs Ethics"
-        ],
-        "answer": 2,
-        "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
-        "optionExplanations": [
-          "Not correct. Ignoring counterfeit indicators is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Single-person vault access is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Validating currency and using dual control for cash handling matches the official FBLA HQ answer key.",
-          "Not correct. Disabling transaction logs Ethics is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "An example of unethical retail banking conduct is:",
-        "options": [
-          "Explaining fee schedules clearly",
-          "Opening accounts without customer consent (\"ghost\" accounts)",
-          "Using dual control for cash shipments",
-          "Escalating a suspected fraud"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Explaining fee schedules clearly is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Opening accounts without customer consent (\"ghost\" accounts) matches the official FBLA HQ answer key.",
-          "Not correct. Using dual control for cash shipments is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Escalating a suspected fraud is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Confidentiality in banking primarily requires that staff:",
-        "options": [
-          "Share account data with vendors",
-          "Limit customer data access to business need-to-know",
-          "Post interesting cases on social media",
-          "Email statements to any requester"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Share account data with vendors is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Limit customer data access to business need-to-know matches the official FBLA HQ answer key.",
-          "Not correct. Post interesting cases on social media is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Email statements to any requester is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "\"Bait and switch\" is best described as:",
-        "options": [
-          "Offering a teaser rate and honoring it as advertised",
-          "Advertising one product but coercing a higher-priced alternative at sale",
-          "Providing a rain check when out of stock",
-          "Disclosing all material terms up front"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Offering a teaser rate and honoring it as advertised is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Advertising one product but coercing a higher-priced alternative at sale matches the official FBLA HQ answer key.",
-          "Not correct. Providing a rain check when out of stock is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Disclosing all material terms up front is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Identity theft risk rises when:",
-        "options": [
-          "Multi-factor authentication is enabled",
-          "Sensitive information is shared via insecure channels",
-          "Paper statements are shredded",
-          "Transaction alerts are active"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Multi-factor authentication is enabled is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Sensitive information is shared via insecure channels matches the official FBLA HQ answer key.",
-          "Not correct. Paper statements are shredded is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Transaction alerts are active is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A banker demonstrates professional conduct by:",
-        "options": [
-          "Back-dating loan documents to meet targets",
-          "Disclosing conflicts of interest and following policy",
-          "Sharing client portfolios at networking events",
-          "Overriding controls to \"help\" a VIP Types & Differences of Institutions"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Back-dating loan documents to meet targets is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Disclosing conflicts of interest and following policy matches the official FBLA HQ answer key.",
-          "Not correct. Sharing client portfolios at networking events is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Overriding controls to \"help\" a VIP Types & Differences of Institutions is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A credit union is typically:",
-        "options": [
-          "A for-profit bank serving the general public",
-          "A member-owned cooperative offering deposit and loan services",
-          "A government agency",
-          "A securities exchange"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. A for-profit bank serving the general public is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. A member-owned cooperative offering deposit and loan services matches the official FBLA HQ answer key.",
-          "Not correct. A government agency is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A securities exchange is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "An investment bank primarily:",
-        "options": [
-          "Takes retail deposits and offers checking",
-          "Underwrites securities and advises on M&A",
-          "Issues FDIC insurance",
-          "Operates payment networks for ACH"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Takes retail deposits and offers checking is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Underwrites securities and advises on M&A matches the official FBLA HQ answer key.",
-          "Not correct. Issues FDIC insurance is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Operates payment networks for ACH is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A thrift/savings association historically focuses on:",
-        "options": [
-          "Commercial cash management only",
-          "Consumer deposits and residential mortgages",
-          "Foreign exchange clearing",
-          "Commodities futures"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Commercial cash management only is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Consumer deposits and residential mortgages matches the official FBLA HQ answer key.",
-          "Not correct. Foreign exchange clearing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Commodities futures is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A broker-dealer mainly offers:",
-        "options": [
-          "Life insurance underwriting",
-          "Execution and custody of client securities trades",
-          "Real-estate escrow only",
-          "FDIC-insured demand deposits"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Life insurance underwriting is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Execution and custody of client securities trades matches the official FBLA HQ answer key.",
-          "Not correct. Real-estate escrow only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. FDIC-insured demand deposits is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Non-bank lenders usually:",
-        "options": [
-          "Provide insured checking accounts",
-          "Extend credit without taking retail deposits",
-          "Regulate securities markets",
-          "Manage monetary policy Customer Service & Operations"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Provide insured checking accounts is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Extend credit without taking retail deposits matches the official FBLA HQ answer key.",
-          "Not correct. Regulate securities markets is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Manage monetary policy Customer Service & Operations is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "To handle customer inquiries effectively, frontline staff should first:",
-        "options": [
-          "Quote fees immediately",
-          "Listen, restate the issue, and access relevant account information",
-          "Transfer all calls to supervisors",
-          "Request a Social Security number before greeting"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Quote fees immediately is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Listen, restate the issue, and access relevant account information matches the official FBLA HQ answer key.",
-          "Not correct. Transfer all calls to supervisors is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Request a Social Security number before greeting is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Loan processing typically begins with:",
-        "options": [
-          "Collateral liquidation",
-          "Application intake and documentation",
-          "Interest refund",
-          "Charge-off"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Collateral liquidation is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Application intake and documentation matches the official FBLA HQ answer key.",
-          "Not correct. Interest refund is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Charge-off is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "The loan closing stage most directly includes:",
-        "options": [
-          "Underwriting only",
-          "Promissory note execution, lien perfection, and funding",
-          "Credit scoring",
-          "Advertising the loan product"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Underwriting only is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Promissory note execution, lien perfection, and funding matches the official FBLA HQ answer key.",
-          "Not correct. Credit scoring is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Advertising the loan product is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A bank's loss prevention program would most likely include:",
-        "options": [
-          "Eliminating CTR/SAR filing",
-          "Cash limits, surveillance, dual control, and exception reporting",
-          "Removing teller differences logs",
-          "Turning off fraud-monitoring rules"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Eliminating CTR/SAR filing is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Cash limits, surveillance, dual control, and exception reporting matches the official FBLA HQ answer key.",
-          "Not correct. Removing teller differences logs is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Turning off fraud-monitoring rules is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Trust services most commonly provide:",
-        "options": [
-          "FDIC insurance",
-          "Fiduciary management of assets for beneficiaries according to trust terms",
-          "Mortgage servicing rights only",
-          "Credit card interchange Careers & Professional Development"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. FDIC insurance is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Fiduciary management of assets for beneficiaries according to trust terms matches the official FBLA HQ answer key.",
-          "Not correct. Mortgage servicing rights only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Credit card interchange Careers & Professional Development is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A personal banker role most often includes:",
-        "options": [
-          "Trading derivatives",
-          "Opening accounts, needs-based product recommendations, and referrals",
-          "Setting national monetary policy",
-          "Conducting SEC examinations"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Trading derivatives is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Opening accounts, needs-based product recommendations, and referrals matches the official FBLA HQ answer key.",
-          "Not correct. Setting national monetary policy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Conducting SEC examinations is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A commercial loan officer primarily evaluates:",
-        "options": [
-          "Equity index futures",
-          "Business financial statements, cash flow, collateral, and covenants",
-          "Only consumer FICO scores",
-          "Teller over/short logs"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Equity index futures is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Business financial statements, cash flow, collateral, and covenants matches the official FBLA HQ answer key.",
-          "Not correct. Only consumer FICO scores is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Teller over/short logs is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "To meet licensing/certification requirements for finance careers, students should:",
-        "options": [
-          "Ignore continuing education",
-          "Plan coursework and pursue industry credentials as required",
-          "Avoid professional organizations",
-          "Use only social media tutorials"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Ignore continuing education is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Plan coursework and pursue industry credentials as required matches the official FBLA HQ answer key.",
-          "Not correct. Avoid professional organizations is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Use only social media tutorials is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Professional development resources include:",
-        "options": [
-          "Trade journals and industry training opportunities",
-          "Anonymous blogs only",
-          "Viral videos",
-          "Casual chats Taxation"
-        ],
-        "answer": 0,
-        "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
-        "optionExplanations": [
-          "Correct. Trade journals and industry training opportunities matches the official FBLA HQ answer key.",
-          "Not correct. Anonymous blogs only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Viral videos is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Casual chats Taxation is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Taxable income best means:",
-        "options": [
-          "All gross receipts regardless of law",
-          "Income subject to tax after allowable exclusions and adjustments",
-          "Total cash deposited in a bank account",
-          "Only wages, excluding interest/dividends"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. All gross receipts regardless of law is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Income subject to tax after allowable exclusions and adjustments matches the official FBLA HQ answer key.",
-          "Not correct. Total cash deposited in a bank account is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Only wages, excluding interest/dividends is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A dependent for tax purposes is generally:",
-        "options": [
-          "Any adult friend",
-          "An individual meeting relationship, residency, and support tests",
-          "Any employee of the taxpayer",
-          "A business partner"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Any adult friend is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. An individual meeting relationship, residency, and support tests matches the official FBLA HQ answer key.",
-          "Not correct. Any employee of the taxpayer is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A business partner is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Exemptions/withholding allowances on a wage form primarily affect:",
-        "options": [
-          "Credit score",
-          "The amount of payroll tax withheld",
-          "Mortgage rates",
-          "FDIC insurance coverage"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Credit score is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. The amount of payroll tax withheld matches the official FBLA HQ answer key.",
-          "Not correct. Mortgage rates is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. FDIC insurance coverage is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "In basic U.S. tax preparation, credits differ from deductions because credits:",
-        "options": [
-          "Reduce taxable income",
-          "Reduce tax liability dollar-for-dollar",
-          "Increase AGI",
-          "Are never refundable"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Reduce taxable income is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Reduce tax liability dollar-for-dollar matches the official FBLA HQ answer key.",
-          "Not correct. Increase AGI is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Are never refundable is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "Good practice in tax return preparation requires:",
-        "options": [
-          "Estimating numbers without documents",
-          "Referencing current tax code and verifying income, deductions, and credits",
-          "Using prior-year rules only",
-          "Omitting schedules if complex Higher-Order Applications"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Estimating numbers without documents is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Referencing current tax code and verifying income, deductions, and credits matches the official FBLA HQ answer key.",
-          "Not correct. Using prior-year rules only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Omitting schedules if complex Higher-Order Applications is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
-      },
-      {
-        "q": "A team is designing a bank role-play solution. Which approach best meets event criteria?",
-        "options": [
-          "Present a single idea with no pros/cons",
-          "Describe the scenario, propose multiple alternatives with pros/cons, select a feasible solution, outline implementation and resources",
-          "Skip the problem definition and focus on delivery style",
-          "Read a script without addressing regulations or ethics"
-        ],
-        "answer": 1,
-        "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
-        "optionExplanations": [
-          "Not correct. Present a single idea with no pros/cons is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Describe the scenario, propose multiple alternatives with pros/cons, select a feasible solution, outline implementation and resources matches the official FBLA HQ answer key.",
-          "Not correct. Skip the problem definition and focus on delivery style is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Read a script without addressing regulations or ethics is not the keyed answer in the FBLA HQ sample set."
-        ],
-        "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions (1).pdf"
       }
     ],
     "Banking & Financial Systems": [
@@ -4679,7 +3777,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Offer FDIC insurance above legal limits",
           "Provide tax-advantaged retirement saving",
           "Replace employer pensions entirely",
-          "Eliminate investment risk Federal Reserve, Payments & Operations"
+          "Eliminate investment risk"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -4687,7 +3785,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Offer FDIC insurance above legal limits is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Provide tax-advantaged retirement saving matches the official FBLA HQ answer key.",
           "Not correct. Replace employer pensions entirely is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate investment risk Federal Reserve, Payments & Operations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eliminate investment risk is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -4769,7 +3867,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Time between loan application and closing",
           "Time between check deposit and funds availability",
           "Period of promotional APR on a card",
-          "The maturity extension on a CD Government Regulation of Financial Services"
+          "The maturity extension on a CD"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -4777,7 +3875,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Time between loan application and closing is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Time between check deposit and funds availability matches the official FBLA HQ answer key.",
           "Not correct. Period of promotional APR on a card is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. The maturity extension on a CD Government Regulation of Financial Services is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. The maturity extension on a CD is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -4859,7 +3957,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase bank fee revenue",
           "Provide transparency, fairness, and remedies for customers",
           "Replace market competition",
-          "Eliminate credit products Technology & Cybersecurity in Financial Services"
+          "Eliminate credit products"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -4867,14 +3965,14 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase bank fee revenue is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Provide transparency, fairness, and remedies for customers matches the official FBLA HQ answer key.",
           "Not correct. Replace market competition is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate credit products Technology & Cybersecurity in Financial Services is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eliminate credit products is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
       {
         "q": "A core banking system primarily enables:",
         "options": [
-          "Social media marketing",
+          "Social media",
           "Real-time posting of deposits, withdrawals, and loan payments",
           "Outsourced HR functions",
           "Physical branch security"
@@ -4882,7 +3980,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
-          "Not correct. Social media marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Social media is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Real-time posting of deposits, withdrawals, and loan payments matches the official FBLA HQ answer key.",
           "Not correct. Outsourced HR functions is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Physical branch security is not the keyed answer in the FBLA HQ sample set."
@@ -4949,7 +4047,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Ignoring counterfeit indicators",
           "Single-person vault access",
           "Validating currency and using dual control for cash handling",
-          "Disabling transaction logs Ethics"
+          "Disabling transaction logs"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -4957,7 +4055,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Ignoring counterfeit indicators is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Single-person vault access is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Validating currency and using dual control for cash handling matches the official FBLA HQ answer key.",
-          "Not correct. Disabling transaction logs Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Disabling transaction logs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -5039,7 +4137,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Back-dating loan documents to meet targets",
           "Disclosing conflicts of interest and following policy",
           "Sharing client portfolios at networking events",
-          "Overriding controls to \"help\" a VIP Types & Differences of Institutions"
+          "Overriding controls to \"help\" a VIP"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -5047,7 +4145,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Back-dating loan documents to meet targets is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Disclosing conflicts of interest and following policy matches the official FBLA HQ answer key.",
           "Not correct. Sharing client portfolios at networking events is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Overriding controls to \"help\" a VIP Types & Differences of Institutions is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Overriding controls to \"help\" a VIP is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -5129,7 +4227,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Provide insured checking accounts",
           "Extend credit without taking retail deposits",
           "Regulate securities markets",
-          "Manage monetary policy Customer Service & Operations"
+          "Manage monetary policy"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -5137,7 +4235,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Provide insured checking accounts is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Extend credit without taking retail deposits matches the official FBLA HQ answer key.",
           "Not correct. Regulate securities markets is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Manage monetary policy Customer Service & Operations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Manage monetary policy is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -5219,7 +4317,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "FDIC insurance",
           "Fiduciary management of assets for beneficiaries according to trust terms",
           "Mortgage servicing rights only",
-          "Credit card interchange Careers & Professional Development"
+          "Credit card interchange"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -5227,7 +4325,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. FDIC insurance is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Fiduciary management of assets for beneficiaries according to trust terms matches the official FBLA HQ answer key.",
           "Not correct. Mortgage servicing rights only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Credit card interchange Careers & Professional Development is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Credit card interchange is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -5291,7 +4389,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Trade journals and industry training opportunities",
           "Anonymous blogs only",
           "Viral videos",
-          "Casual chats Taxation"
+          "Casual chats"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -5299,7 +4397,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Trade journals and industry training opportunities matches the official FBLA HQ answer key.",
           "Not correct. Anonymous blogs only is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Viral videos is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Casual chats Taxation is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Casual chats is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -5381,7 +4479,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Estimating numbers without documents",
           "Referencing current tax code and verifying income, deductions, and credits",
           "Using prior-year rules only",
-          "Omitting schedules if complex Higher-Order Applications"
+          "Omitting schedules if complex"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -5389,7 +4487,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Estimating numbers without documents is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Referencing current tax code and verifying income, deductions, and credits matches the official FBLA HQ answer key.",
           "Not correct. Using prior-year rules only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Omitting schedules if complex Higher-Order Applications is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Omitting schedules if complex is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Banking--Financial-Systems-Sample-Questions.pdf"
       },
@@ -5491,7 +4589,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Interrupt to explain policy",
           "Listen actively to understand the issue",
           "Immediately offer a refund",
-          "Redirect them to a competitor Written & Report Applications"
+          "Redirect them to a competitor"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -5499,7 +4597,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Interrupt to explain policy is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Listen actively to understand the issue matches the official FBLA HQ answer key.",
           "Not correct. Immediately offer a refund is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Redirect them to a competitor Written & Report Applications is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Redirect them to a competitor is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -5581,7 +4679,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Executive summary",
           "Appendix",
           "Table of contents",
-          "Glossary Reading Comprehension"
+          "Glossary"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -5589,7 +4687,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Executive summary matches the official FBLA HQ answer key.",
           "Not correct. Appendix is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Table of contents is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Glossary Reading Comprehension is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Glossary is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -5671,7 +4769,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Skimming",
           "In-depth reading",
           "Scanning",
-          "Speed reading Grammar"
+          "Speed reading"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -5679,7 +4777,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Skimming is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. In-depth reading is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Scanning matches the official FBLA HQ answer key.",
-          "Not correct. Speed reading Grammar is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Speed reading is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -5761,7 +4859,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Analysises",
           "Analysis",
           "Analyses",
-          "Analys Editing & Proofreading"
+          "Analys"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -5769,7 +4867,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Analysises is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Analysis is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Analyses matches the official FBLA HQ answer key.",
-          "Not correct. Analys Editing & Proofreading is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Analys is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -5851,7 +4949,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Although",
           "Because",
           "While",
-          "Since Verbal & Nonverbal Communication"
+          "Since"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -5859,7 +4957,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Although is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Because matches the official FBLA HQ answer key.",
           "Not correct. While is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Since Verbal & Nonverbal Communication is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Since is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -5941,7 +5039,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Listing all statistics",
           "Reading from a slide word-for-word",
           "A compelling story or relevant fact",
-          "Apologizing for taking time Word Definition & Usage"
+          "Apologizing for taking time"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -5949,7 +5047,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Listing all statistics is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Reading from a slide word-for-word is not the keyed answer in the FBLA HQ sample set.",
           "Correct. A compelling story or relevant fact matches the official FBLA HQ answer key.",
-          "Not correct. Apologizing for taking time Word Definition & Usage is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Apologizing for taking time is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -6031,7 +5129,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Think outside the box",
           "Adjust our strategy",
           "Increase market share",
-          "Conduct a survey Punctuation & Capitalization"
+          "Conduct a survey"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -6039,7 +5137,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Think outside the box matches the official FBLA HQ answer key.",
           "Not correct. Adjust our strategy is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Increase market share is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Conduct a survey Punctuation & Capitalization is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Conduct a survey is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -6121,7 +5219,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "february",
           "internet",
           "president of the united states",
-          "e-mail Spelling"
+          "e-mail"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -6129,7 +5227,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. february is not the keyed answer in the FBLA HQ sample set.",
           "Correct. internet matches the official FBLA HQ answer key.",
           "Not correct. president of the united states is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. e-mail Spelling is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. e-mail is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -6211,7 +5309,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Effect",
           "Effort",
           "Afflict",
-          "Afford Digital Communication"
+          "Afford"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -6219,7 +5317,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Effect matches the official FBLA HQ answer key.",
           "Not correct. Effort is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Afflict is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Afford Digital Communication is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Afford is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Communication-Sample-Questions.pdf"
       },
@@ -6393,7 +5491,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Timely, respectful, and constructive",
           "Delayed until annual reviews",
           "Focused only on problems",
-          "Given publicly for maximum impact Self-Awareness"
+          "Given publicly for maximum impact"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -6401,7 +5499,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Timely, respectful, and constructive matches the official FBLA HQ answer key.",
           "Not correct. Delayed until annual reviews is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Focused only on problems is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Given publicly for maximum impact Self-Awareness is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Given publicly for maximum impact is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Ethics-Sample-Questions.pdf"
       },
@@ -6483,7 +5581,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Risks and consequences of personal choices",
           "Only legal restrictions",
           "Peer opinions exclusively",
-          "Company profit margins Doing the Right Thing"
+          "Company profit margins"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -6491,7 +5589,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Risks and consequences of personal choices matches the official FBLA HQ answer key.",
           "Not correct. Only legal restrictions is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Peer opinions exclusively is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Company profit margins Doing the Right Thing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Company profit margins is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Ethics-Sample-Questions.pdf"
       },
@@ -6663,7 +5761,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Acting quickly without gathering facts",
           "Considering stakeholders, consequences, and values",
           "Choosing the most profitable outcome",
-          "Following personal preference alone Teamwork Skills"
+          "Following personal preference alone"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -6671,7 +5769,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Acting quickly without gathering facts is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Considering stakeholders, consequences, and values matches the official FBLA HQ answer key.",
           "Not correct. Choosing the most profitable outcome is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Following personal preference alone Teamwork Skills is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Following personal preference alone is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Ethics-Sample-Questions.pdf"
       },
@@ -6753,7 +5851,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Assigning blame",
           "Finding mutually beneficial solutions",
           "Avoiding discussion",
-          "Voting without discussion Leadership Skills"
+          "Voting without discussion"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -6761,7 +5859,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Assigning blame is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Finding mutually beneficial solutions matches the official FBLA HQ answer key.",
           "Not correct. Avoiding discussion is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Voting without discussion Leadership Skills is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Voting without discussion is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Ethics-Sample-Questions.pdf"
       },
@@ -6933,7 +6031,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Aligning new initiatives with organizational values and stakeholder input",
           "Implementing changes without consultation",
           "Focusing only on cost reduction",
-          "Ignoring environmental or social impacts Career Readiness"
+          "Ignoring environmental or social impacts"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -6941,7 +6039,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Aligning new initiatives with organizational values and stakeholder input matches the official FBLA HQ answer key.",
           "Not correct. Implementing changes without consultation is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Focusing only on cost reduction is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Ignoring environmental or social impacts Career Readiness is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Ignoring environmental or social impacts is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Ethics-Sample-Questions.pdf"
       },
@@ -7023,7 +6121,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Being prepared to face dilemmas with integrity and sound judgment",
           "Memorizing laws without applying them",
           "Ignoring personal values",
-          "Delegating ethics to management Applied Ethics Scenarios"
+          "Delegating ethics to management"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -7031,7 +6129,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Being prepared to face dilemmas with integrity and sound judgment matches the official FBLA HQ answer key.",
           "Not correct. Memorizing laws without applying them is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Ignoring personal values is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Delegating ethics to management Applied Ethics Scenarios is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Delegating ethics to management is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Ethics-Sample-Questions.pdf"
       },
@@ -7295,7 +6393,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The Uniform Commercial Code",
           "A Federal Trade Commission regulation",
           "A Supreme Court ruling",
-          "A city ordinance Business Organization"
+          "A city ordinance"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -7303,7 +6401,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. The Uniform Commercial Code is not the keyed answer in the FBLA HQ sample set.",
           "Correct. A Federal Trade Commission regulation matches the official FBLA HQ answer key.",
           "Not correct. A Supreme Court ruling is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A city ordinance Business Organization is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. A city ordinance is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -7385,7 +6483,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Double taxation of income",
           "Limited access to capital",
           "Unlimited liability",
-          "Lack of perpetual existence Contracts and Sales"
+          "Lack of perpetual existence"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -7393,7 +6491,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Double taxation of income matches the official FBLA HQ answer key.",
           "Not correct. Limited access to capital is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Unlimited liability is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Lack of perpetual existence Contracts and Sales is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Lack of perpetual existence is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -7565,7 +6663,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Express contract",
           "Implied contract",
           "Voidable contract",
-          "Executory contract Agency and Employment Law"
+          "Executory contract"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -7573,7 +6671,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Express contract is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Implied contract matches the official FBLA HQ answer key.",
           "Not correct. Voidable contract is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Executory contract Agency and Employment Law is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Executory contract is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -7655,7 +6753,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "OSHA",
           "EEOC",
           "FTC",
-          "IRS Consumer Protection"
+          "IRS"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -7663,7 +6761,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. OSHA is not the keyed answer in the FBLA HQ sample set.",
           "Correct. EEOC matches the official FBLA HQ answer key.",
           "Not correct. FTC is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. IRS Consumer Protection is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. IRS is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -7745,7 +6843,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Credit card use",
           "Harassment by debt collectors",
           "Filing bankruptcy",
-          "Charging interest Negotiable Instruments / Insurance / Secured Transactions / Bankruptcy"
+          "Charging interest"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -7753,7 +6851,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Credit card use is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Harassment by debt collectors matches the official FBLA HQ answer key.",
           "Not correct. Filing bankruptcy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Charging interest Negotiable Instruments / Insurance / Secured Transactions / Bankruptcy is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Charging interest is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -7835,7 +6933,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Conditional and payable upon request",
           "Unconditional, in writing, signed, and payable to order or bearer",
           "Oral and witnessed",
-          "Transferable only by court approval Property Laws"
+          "Transferable only by court approval"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -7843,7 +6941,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Conditional and payable upon request is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Unconditional, in writing, signed, and payable to order or bearer matches the official FBLA HQ answer key.",
           "Not correct. Oral and witnessed is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Transferable only by court approval Property Laws is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Transferable only by court approval is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -7925,7 +7023,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Providing a property free of safety hazards",
           "Offering tenants the option to buy",
           "Charging below-market rent",
-          "Allowing subleases without approval Computer Law"
+          "Allowing subleases without approval"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -7933,7 +7031,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Providing a property free of safety hazards matches the official FBLA HQ answer key.",
           "Not correct. Offering tenants the option to buy is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Charging below-market rent is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Allowing subleases without approval Computer Law is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Allowing subleases without approval is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -7997,7 +7095,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Online harassment, hacking, and identity theft",
           "Physical theft from a store",
           "Real estate fraud only",
-          "Email marketing"
+          "Email"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -8005,7 +7103,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Online harassment, hacking, and identity theft matches the official FBLA HQ answer key.",
           "Not correct. Physical theft from a store is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Real estate fraud only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Email marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Email is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -8015,7 +7113,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "DMCA",
           "COPPA",
           "HIPAA",
-          "GDPR Domestic and Personal Law"
+          "GDPR"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -8023,7 +7121,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. DMCA is not the keyed answer in the FBLA HQ sample set.",
           "Correct. COPPA matches the official FBLA HQ answer key.",
           "Not correct. HIPAA is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. GDPR Domestic and Personal Law is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. GDPR is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Law-Sample-Questions.pdf"
       },
@@ -8142,7 +7240,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Maximizing shareholder profits at all costs",
           "Voluntary business practices to improve social and environmental well-being",
-          "Mandatory compliance with all government regulations",
+          "Mandatory compliance with all",
           "Outsourcing production to reduce expenses"
         ],
         "answer": 1,
@@ -8150,7 +7248,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "optionExplanations": [
           "Not correct. Maximizing shareholder profits at all costs is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Voluntary business practices to improve social and environmental well-being matches the official FBLA HQ answer key.",
-          "Not correct. Mandatory compliance with all government regulations is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Mandatory compliance with all is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Outsourcing production to reduce expenses is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Management-Sample-Questions.pdf"
@@ -8287,7 +7385,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sole proprietorship",
           "General partnership",
           "Limited liability company",
-          "C corporation Management Types"
+          "C corporation"
         ],
         "answer": 3,
         "explain": "Official FBLA HQ sample question. The answer key marks D as correct.",
@@ -8295,7 +7393,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Sole proprietorship is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. General partnership is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Limited liability company is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. C corporation Management Types matches the official FBLA HQ answer key."
+          "Correct. C corporation matches the official FBLA HQ answer key."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Management-Sample-Questions.pdf"
       },
@@ -8467,7 +7565,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Bureaucratic leadership",
           "Contingency theory",
           "Scientific management",
-          "Theory X management Business Finance"
+          "Theory X management"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -8475,7 +7573,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Bureaucratic leadership is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Contingency theory matches the official FBLA HQ answer key.",
           "Not correct. Scientific management is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Theory X management Business Finance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Theory X management is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Management-Sample-Questions.pdf"
       },
@@ -8647,7 +7745,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Cash outflow from buying assets",
           "Allocation of an asset's cost over its useful life",
           "Decline in market share",
-          "Increase in asset value Operations"
+          "Increase in asset value"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -8655,7 +7753,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Cash outflow from buying assets is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Allocation of an asset's cost over its useful life matches the official FBLA HQ answer key.",
           "Not correct. Decline in market share is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Increase in asset value Operations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Increase in asset value is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Management-Sample-Questions.pdf"
       },
@@ -8827,7 +7925,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Quality as the responsibility of a dedicated inspection department",
           "Quality as everyone's responsibility across the organization",
           "Outsourcing all quality checks",
-          "Reducing quality to lower costs Strategic Management"
+          "Reducing quality to lower costs"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -8835,7 +7933,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Quality as the responsibility of a dedicated inspection department is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Quality as everyone's responsibility across the organization matches the official FBLA HQ answer key.",
           "Not correct. Outsourcing all quality checks is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reducing quality to lower costs Strategic Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Reducing quality to lower costs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Business-Management-Sample-Questions.pdf"
       },
@@ -9189,7 +8287,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "cp",
           "ls",
           "mv",
-          "dir Networks"
+          "dir"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -9197,7 +8295,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. cp is not the keyed answer in the FBLA HQ sample set.",
           "Correct. ls matches the official FBLA HQ answer key.",
           "Not correct. mv is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. dir Networks is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. dir is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Computer-Problem-Solving-Sample-Questions.pdf"
       },
@@ -9369,7 +8467,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Packet switching",
           "Subnetting",
           "Modulating",
-          "Encapsulation Computer Hardware & Connectivity"
+          "Encapsulation"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -9377,7 +8475,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Packet switching is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Subnetting matches the official FBLA HQ answer key.",
           "Not correct. Modulating is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Encapsulation Computer Hardware & Connectivity is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Encapsulation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Computer-Problem-Solving-Sample-Questions.pdf"
       },
@@ -9549,7 +8647,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "VGA",
           "HDMI",
           "USB",
-          "PS/2 Security"
+          "PS/2"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -9557,7 +8655,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. VGA is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. HDMI is not the keyed answer in the FBLA HQ sample set.",
           "Correct. USB matches the official FBLA HQ answer key.",
-          "Not correct. PS/2 Security is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. PS/2 is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Computer-Problem-Solving-Sample-Questions.pdf"
       },
@@ -9693,7 +8791,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "PIN",
           "Password",
           "Fingerprint scan",
-          "Security question Laptops, Tablets, and Mobile Devices"
+          "Security question"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -9701,7 +8799,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. PIN is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Password is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Fingerprint scan matches the official FBLA HQ answer key.",
-          "Not correct. Security question Laptops, Tablets, and Mobile Devices is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Security question is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Computer-Problem-Solving-Sample-Questions.pdf"
       },
@@ -9819,7 +8917,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Gaming performance",
           "Hardware-based key management and encryption",
           "Cloud backups",
-          "Camera enhancements Printers & Peripherals"
+          "Camera enhancements"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -9827,7 +8925,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Gaming performance is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Hardware-based key management and encryption matches the official FBLA HQ answer key.",
           "Not correct. Cloud backups is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Camera enhancements Printers & Peripherals is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Camera enhancements is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Computer-Problem-Solving-Sample-Questions.pdf"
       },
@@ -10181,7 +9279,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Using all capital letters for emphasis",
           "Avoiding greetings to save time",
           "Proofreading and using proper grammar",
-          "Adding excessive emojis Emotional Intelligence"
+          "Adding excessive emojis"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -10189,7 +9287,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Using all capital letters for emphasis is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Avoiding greetings to save time is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Proofreading and using proper grammar matches the official FBLA HQ answer key.",
-          "Not correct. Adding excessive emojis Emotional Intelligence is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Adding excessive emojis is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Customer-Service-Sample-Questions.pdf"
       },
@@ -10307,7 +9405,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Building trust through consistent actions and communication",
           "Winning every argument",
           "Limiting conversation to yes/no answers",
-          "Always agreeing with the customer Conflict Resolution"
+          "Always agreeing with the customer"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -10315,7 +9413,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Building trust through consistent actions and communication matches the official FBLA HQ answer key.",
           "Not correct. Winning every argument is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Limiting conversation to yes/no answers is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Always agreeing with the customer Conflict Resolution is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Always agreeing with the customer is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Customer-Service-Sample-Questions.pdf"
       },
@@ -10523,7 +9621,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Communicate honestly and offer alternatives",
           "Ignore the situation",
           "Make unrealistic promises to please the customer",
-          "Avoid discussing the issue Customer Relationship Management"
+          "Avoid discussing the issue"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -10531,7 +9629,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Communicate honestly and offer alternatives matches the official FBLA HQ answer key.",
           "Not correct. Ignore the situation is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Make unrealistic promises to please the customer is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoid discussing the issue Customer Relationship Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoid discussing the issue is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Customer-Service-Sample-Questions.pdf"
       },
@@ -10613,7 +9711,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Stages a customer goes through from first contact to loyalty",
           "Age of the customer",
           "Duration of a product warranty",
-          "Life expectancy of company employees Sales Processes and Techniques"
+          "Life expectancy of company employees"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -10621,7 +9719,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Stages a customer goes through from first contact to loyalty matches the official FBLA HQ answer key.",
           "Not correct. Age of the customer is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Duration of a product warranty is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Life expectancy of company employees Sales Processes and Techniques is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Life expectancy of company employees is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Customer-Service-Sample-Questions.pdf"
       },
@@ -10957,7 +10055,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Employee training",
           "Antivirus software",
           "Security awareness posters",
-          "Locked filing cabinets Cyber Threats and Vulnerabilities"
+          "Locked filing cabinets"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -10965,7 +10063,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Employee training is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Antivirus software matches the official FBLA HQ answer key.",
           "Not correct. Security awareness posters is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Locked filing cabinets Cyber Threats and Vulnerabilities is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Locked filing cabinets is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Cybersecurity-Sample-Questions.pdf"
       },
@@ -11137,7 +10235,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Create strong passwords",
           "Identify weaknesses in systems and networks",
           "Remove malware",
-          "Configure firewall rules Security and Design"
+          "Configure firewall rules"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -11145,7 +10243,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Create strong passwords is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Identify weaknesses in systems and networks matches the official FBLA HQ answer key.",
           "Not correct. Remove malware is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Configure firewall rules Security and Design is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Configure firewall rules is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Cybersecurity-Sample-Questions.pdf"
       },
@@ -11317,7 +10415,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Considered from the start of the project",
           "Added after testing",
           "Optional for speed",
-          "Ignored unless mandated by law Network and Data Security"
+          "Ignored unless mandated by law"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -11325,7 +10423,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Considered from the start of the project matches the official FBLA HQ answer key.",
           "Not correct. Added after testing is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Optional for speed is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Ignored unless mandated by law Network and Data Security is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Ignored unless mandated by law is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Cybersecurity-Sample-Questions.pdf"
       },
@@ -11443,7 +10541,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "WEP",
           "WPA2/WPA3",
           "Open network",
-          "WPA with TKIP only Security Operations and Management"
+          "WPA with TKIP only"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -11451,7 +10549,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. WEP is not the keyed answer in the FBLA HQ sample set.",
           "Correct. WPA2/WPA3 matches the official FBLA HQ answer key.",
           "Not correct. Open network is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. WPA with TKIP only Security Operations and Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. WPA with TKIP only is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Cybersecurity-Sample-Questions.pdf"
       },
@@ -11533,7 +10631,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "CIO",
           "CISO",
           "CTO",
-          "CEO Security Protocols and Threat Mitigation"
+          "CEO"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -11541,7 +10639,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. CIO is not the keyed answer in the FBLA HQ sample set.",
           "Correct. CISO matches the official FBLA HQ answer key.",
           "Not correct. CTO is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. CEO Security Protocols and Threat Mitigation is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. CEO is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Cybersecurity-Sample-Questions.pdf"
       },
@@ -11859,7 +10957,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Determine if a result is statistically significant",
           "Measure the average of a data set",
           "Calculate the mean difference",
-          "Determine probability of independence Data Analysis and Statistics for AI"
+          "Determine probability of independence"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -11867,7 +10965,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Determine if a result is statistically significant matches the official FBLA HQ answer key.",
           "Not correct. Measure the average of a data set is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Calculate the mean difference is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Determine probability of independence Data Analysis and Statistics for AI is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Determine probability of independence is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12003,7 +11101,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Remove duplicate data",
           "Scale features to a similar range",
           "Convert categorical data to numerical data",
-          "Remove outliers Tools for Data and AI"
+          "Remove outliers"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -12011,7 +11109,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Remove duplicate data is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Scale features to a similar range matches the official FBLA HQ answer key.",
           "Not correct. Convert categorical data to numerical data is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Remove outliers Tools for Data and AI is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Remove outliers is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12093,7 +11191,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Jupyter Notebook",
           "Apache Hadoop",
           "GitHub",
-          "Tableau Server AI Basics"
+          "Tableau Server"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -12101,7 +11199,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Jupyter Notebook matches the official FBLA HQ answer key.",
           "Not correct. Apache Hadoop is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. GitHub is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Tableau Server AI Basics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Tableau Server is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12165,7 +11263,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Robotics",
           "Computer vision",
           "Natural language processing",
-          "Neural networks"
+          "Neural"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -12173,7 +11271,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Robotics is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Computer vision matches the official FBLA HQ answer key.",
           "Not correct. Natural language processing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Neural networks is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Neural is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12183,7 +11281,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Learning",
           "Reasoning",
           "Forgetting",
-          "Problem-solving Machine Learning"
+          "Problem-solving"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -12191,7 +11289,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Learning is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Reasoning is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Forgetting matches the official FBLA HQ answer key.",
-          "Not correct. Problem-solving Machine Learning is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Problem-solving is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12273,7 +11371,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increasing the number of features",
           "Regularization techniques",
           "Using a smaller training dataset",
-          "Ignoring validation data Perception, Representation, and Reasoning"
+          "Ignoring validation data"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -12281,7 +11379,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increasing the number of features is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Regularization techniques matches the official FBLA HQ answer key.",
           "Not correct. Using a smaller training dataset is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Ignoring validation data Perception, Representation, and Reasoning is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Ignoring validation data is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12344,7 +11442,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Represent relationships between concepts",
           "Encrypt data",
-          "Build neural networks",
+          "Build neural",
           "Store images"
         ],
         "answer": 0,
@@ -12352,7 +11450,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "optionExplanations": [
           "Correct. Represent relationships between concepts matches the official FBLA HQ answer key.",
           "Not correct. Encrypt data is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Build neural networks is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Build neural is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Store images is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
@@ -12363,7 +11461,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Inductive reasoning",
           "Deductive reasoning",
           "Abductive reasoning",
-          "Predictive reasoning Privacy and Ethics"
+          "Predictive reasoning"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -12371,7 +11469,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Inductive reasoning is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Deductive reasoning matches the official FBLA HQ answer key.",
           "Not correct. Abductive reasoning is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Predictive reasoning Privacy and Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Predictive reasoning is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12453,7 +11551,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Inclusive training datasets",
           "Regular bias audits",
           "Hiding algorithm decision-making",
-          "Clear accountability Data Literacy and Foundations"
+          "Clear accountability"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -12461,7 +11559,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Inclusive training datasets is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Regular bias audits is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Hiding algorithm decision-making matches the official FBLA HQ answer key.",
-          "Not correct. Clear accountability Data Literacy and Foundations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Clear accountability is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
       },
@@ -12470,7 +11568,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "The ability to read, work with, analyze, and communicate data",
           "Writing computer programs",
-          "Building neural networks",
+          "Building neural",
           "Encrypting data"
         ],
         "answer": 0,
@@ -12478,7 +11576,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "optionExplanations": [
           "Correct. The ability to read, work with, analyze, and communicate data matches the official FBLA HQ answer key.",
           "Not correct. Writing computer programs is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Building neural networks is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Building neural is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Encrypting data is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Data-Science--AI-Sample-Questions.pdf"
@@ -12761,7 +11859,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "As price rises, quantity supplied rises",
           "As price rises, quantity supplied falls",
           "As price falls, quantity supplied remains constant",
-          "Supply is independent of price Nature of Business"
+          "Supply is independent of price"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -12769,7 +11867,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. As price rises, quantity supplied rises matches the official FBLA HQ answer key.",
           "Not correct. As price rises, quantity supplied falls is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. As price falls, quantity supplied remains constant is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Supply is independent of price Nature of Business is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Supply is independent of price is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Economics-Sample-Questions.pdf"
       },
@@ -12905,7 +12003,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Government licensing",
           "High start-up costs",
           "Abundant competition",
-          "Control over a key resource Economic Systems"
+          "Control over a key resource"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -12913,7 +12011,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Government licensing is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. High start-up costs is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Abundant competition matches the official FBLA HQ answer key.",
-          "Not correct. Control over a key resource Economic Systems is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Control over a key resource is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Economics-Sample-Questions.pdf"
       },
@@ -13049,7 +12147,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "No government intervention",
           "Some government regulation",
           "All decisions made by central authorities",
-          "Only subsistence-level production Government's Impact on Business"
+          "Only subsistence-level production"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -13057,7 +12155,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. No government intervention matches the official FBLA HQ answer key.",
           "Not correct. Some government regulation is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. All decisions made by central authorities is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Only subsistence-level production Government's Impact on Business is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Only subsistence-level production is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Economics-Sample-Questions.pdf"
       },
@@ -13103,7 +12201,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Price floor",
           "Price ceiling",
           "Subsidy",
-          "Tariff Cost/Profit Relationships"
+          "Tariff"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -13111,7 +12209,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Price floor is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Price ceiling matches the official FBLA HQ answer key.",
           "Not correct. Subsidy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Tariff Cost/Profit Relationships is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Tariff is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Economics-Sample-Questions.pdf"
       },
@@ -13193,7 +12291,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Remain constant regardless of output",
           "Change as the level of production changes",
           "Are always higher than fixed costs",
-          "Include rent and insurance Economic Indicators"
+          "Include rent and insurance"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -13201,7 +12299,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Remain constant regardless of output is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Change as the level of production changes matches the official FBLA HQ answer key.",
           "Not correct. Are always higher than fixed costs is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Include rent and insurance Economic Indicators is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Include rent and insurance is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Economics-Sample-Questions.pdf"
       },
@@ -13337,7 +12435,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Recession",
           "Peak",
           "Expansion",
-          "Trough Global Trade"
+          "Trough"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -13345,7 +12443,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Recession is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Peak is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Expansion matches the official FBLA HQ answer key.",
-          "Not correct. Trough Global Trade is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Trough is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Economics-Sample-Questions.pdf"
       },
@@ -13663,7 +12761,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Unique, sustainable, and valued by customers",
           "Based solely on temporary pricing",
           "Easily replicated by competitors",
-          "Kept secret from stakeholders Financial Management"
+          "Kept secret from stakeholders"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -13671,7 +12769,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Unique, sustainable, and valued by customers matches the official FBLA HQ answer key.",
           "Not correct. Based solely on temporary pricing is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Easily replicated by competitors is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Kept secret from stakeholders Financial Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Kept secret from stakeholders is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -13771,7 +12869,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase cash flow",
           "Allocate the cost of a fixed asset over its useful life",
           "Increase reported profits",
-          "Avoid taxes entirely Initial Capital and Credit"
+          "Avoid taxes entirely"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -13779,7 +12877,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase cash flow is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Allocate the cost of a fixed asset over its useful life matches the official FBLA HQ answer key.",
           "Not correct. Increase reported profits is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoid taxes entirely Initial Capital and Credit is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoid taxes entirely is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -13879,7 +12977,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Low interest rates",
           "Limited spending flexibility",
           "High interest costs and potential debt accumulation",
-          "Lack of accessibility Marketing Management"
+          "Lack of accessibility"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -13887,7 +12985,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Low interest rates is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Limited spending flexibility is not the keyed answer in the FBLA HQ sample set.",
           "Correct. High interest costs and potential debt accumulation matches the official FBLA HQ answer key.",
-          "Not correct. Lack of accessibility Marketing Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Lack of accessibility is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -13987,7 +13085,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Large-scale advertising campaigns",
           "Unconventional, low-cost tactics to create maximum impact",
           "Exclusively digital channels",
-          "Reliance on television advertising Personnel Management"
+          "Reliance on television advertising"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -13995,7 +13093,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Large-scale advertising campaigns is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Unconventional, low-cost tactics to create maximum impact matches the official FBLA HQ answer key.",
           "Not correct. Exclusively digital channels is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reliance on television advertising Personnel Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Reliance on television advertising is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -14095,7 +13193,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Health insurance",
           "Flexible work hours",
           "Retirement plan contributions",
-          "Year-end bonus Taxes"
+          "Year-end bonus"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -14103,7 +13201,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Health insurance is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Flexible work hours matches the official FBLA HQ answer key.",
           "Not correct. Retirement plan contributions is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Year-end bonus Taxes is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Year-end bonus is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -14167,7 +13265,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Paid by the seller",
           "Collected from the buyer and remitted by the seller to the government",
           "Paid annually by businesses",
-          "Based on corporate profits Community/Business Relations"
+          "Based on corporate profits"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -14175,7 +13273,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Paid by the seller is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Collected from the buyer and remitted by the seller to the government matches the official FBLA HQ answer key.",
           "Not correct. Paid annually by businesses is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Based on corporate profits Community/Business Relations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Based on corporate profits is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -14239,7 +13337,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Legal enforcement for contracts",
           "Business advocacy, networking opportunities, and community promotion",
           "Free start-up capital",
-          "Product certification Government Regulations"
+          "Product certification"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -14247,7 +13345,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Legal enforcement for contracts is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Business advocacy, networking opportunities, and community promotion matches the official FBLA HQ answer key.",
           "Not correct. Free start-up capital is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Product certification Government Regulations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Product certification is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -14329,7 +13427,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "File federal income taxes",
           "Operate legally within a municipality",
           "Hire employees",
-          "Purchase inventory Legal Issues"
+          "Purchase inventory"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -14337,7 +13435,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. File federal income taxes is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Operate legally within a municipality matches the official FBLA HQ answer key.",
           "Not correct. Hire employees is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Purchase inventory Legal Issues is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Purchase inventory is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Entrepreneurship-Sample-Questions.pdf"
       },
@@ -15071,7 +14169,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Cancel all appointments immediately",
           "Notify patients, offer rescheduling, and reassign urgent cases to other providers",
           "Postpone all patient visits until the physician returns",
-          "Ask patients to wait in the lobby indefinitely Medical Terminology"
+          "Ask patients to wait in the lobby indefinitely"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15079,7 +14177,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Cancel all appointments immediately is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Notify patients, offer rescheduling, and reassign urgent cases to other providers matches the official FBLA HQ answer key.",
           "Not correct. Postpone all patient visits until the physician returns is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Ask patients to wait in the lobby indefinitely Medical Terminology is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Ask patients to wait in the lobby indefinitely is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15161,7 +14259,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Slow breathing rate",
           "Rapid heart rate",
           "High blood pressure",
-          "Low blood sugar Legal & Ethical Issues in Healthcare"
+          "Low blood sugar"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15169,7 +14267,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Slow breathing rate is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Rapid heart rate matches the official FBLA HQ answer key.",
           "Not correct. High blood pressure is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Low blood sugar Legal & Ethical Issues in Healthcare is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Low blood sugar is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15287,7 +14385,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A patient declines treatment after understanding the risks",
           "A physician refuses to treat a patient",
           "The patient does not arrive for an appointment",
-          "Insurance denies coverage Communication Skills"
+          "Insurance denies coverage"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -15295,7 +14393,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. A patient declines treatment after understanding the risks matches the official FBLA HQ answer key.",
           "Not correct. A physician refuses to treat a patient is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. The patient does not arrive for an appointment is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Insurance denies coverage Communication Skills is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Insurance denies coverage is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15377,7 +14475,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Interrupt to explain policies",
           "Listen patiently, acknowledge concerns, and offer solutions",
           "Refer them to a website for answers",
-          "Ignore them until they calm down Managing Financial Functions"
+          "Ignore them until they calm down"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15385,7 +14483,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Interrupt to explain policies is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Listen patiently, acknowledge concerns, and offer solutions matches the official FBLA HQ answer key.",
           "Not correct. Refer them to a website for answers is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Ignore them until they calm down Managing Financial Functions is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Ignore them until they calm down is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15467,7 +14565,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Record them promptly and accurately in the correct account",
           "Deposit them at the end of the month",
           "Wait until insurance pays",
-          "Combine all payments into one ledger entry Health Insurance"
+          "Combine all payments into one ledger entry"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -15475,7 +14573,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Record them promptly and accurately in the correct account matches the official FBLA HQ answer key.",
           "Not correct. Deposit them at the end of the month is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Wait until insurance pays is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Combine all payments into one ledger entry Health Insurance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Combine all payments into one ledger entry is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15557,7 +14655,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The percentage the insurer pays",
           "A fixed amount paid by the patient for a covered service",
           "The total bill for a surgery",
-          "The amount billed to insurance Records Management"
+          "The amount billed to insurance"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15565,7 +14663,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. The percentage the insurer pays is not the keyed answer in the FBLA HQ sample set.",
           "Correct. A fixed amount paid by the patient for a covered service matches the official FBLA HQ answer key.",
           "Not correct. The total bill for a surgery is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. The amount billed to insurance Records Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. The amount billed to insurance is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15647,7 +14745,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Erase the error completely",
           "Draw a single line through the error, initial, date, and add the correct information",
           "Remove the page and replace it",
-          "Use correction fluid Infection Control"
+          "Use correction fluid"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15655,7 +14753,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Erase the error completely is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Draw a single line through the error, initial, date, and add the correct information matches the official FBLA HQ answer key.",
           "Not correct. Remove the page and replace it is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Use correction fluid Infection Control is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Use correction fluid is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15737,7 +14835,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Disinfect surfaces",
           "Sterilize instruments using steam under pressure",
           "Wash surgical tools",
-          "Store sterile supplies Medical History"
+          "Store sterile supplies"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15745,7 +14843,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Disinfect surfaces is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Sterilize instruments using steam under pressure matches the official FBLA HQ answer key.",
           "Not correct. Wash surgical tools is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Store sterile supplies Medical History is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Store sterile supplies is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15809,7 +14907,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "List all vital signs",
           "Assess symptoms by body system",
           "Summarize billing codes",
-          "Identify insurance coverage Technology"
+          "Identify insurance coverage"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15817,7 +14915,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. List all vital signs is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Assess symptoms by body system matches the official FBLA HQ answer key.",
           "Not correct. Summarize billing codes is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Identify insurance coverage Technology is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Identify insurance coverage is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Healthcare-Administration-Sample-Questions.pdf"
       },
@@ -15991,7 +15089,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sending invoices to vendors",
           "Conducting a debrief meeting with the planning team",
           "Closing the registration website",
-          "Returning rental equipment Event Marketing & Promotion"
+          "Returning rental equipment"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -15999,7 +15097,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Sending invoices to vendors is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Conducting a debrief meeting with the planning team matches the official FBLA HQ answer key.",
           "Not correct. Closing the registration website is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Returning rental equipment Event Marketing & Promotion is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Returning rental equipment is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16063,7 +15161,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Brand identity",
           "Cultural inclusivity and accessibility",
           "Cost efficiency",
-          "Local government regulations"
+          "Local"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -16071,7 +15169,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Brand identity is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Cultural inclusivity and accessibility matches the official FBLA HQ answer key.",
           "Not correct. Cost efficiency is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Local government regulations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Local is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16099,7 +15197,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Free catering",
           "Access to a targeted, engaged audience through trusted voices",
           "Avoiding paid advertising",
-          "Lowering venue costs Hospitality Services"
+          "Lowering venue costs"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -16107,7 +15205,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Free catering is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Access to a targeted, engaged audience through trusted voices matches the official FBLA HQ answer key.",
           "Not correct. Avoiding paid advertising is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Lowering venue costs Hospitality Services is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Lowering venue costs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16207,7 +15305,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Evaluate service quality through anonymous visits",
           "Promote new menu items",
           "Train new employees",
-          "Provide entertainment Food & Beverage Management"
+          "Provide entertainment"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -16215,7 +15313,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Evaluate service quality through anonymous visits matches the official FBLA HQ answer key.",
           "Not correct. Promote new menu items is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Train new employees is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Provide entertainment Food & Beverage Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Provide entertainment is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16297,7 +15395,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Labor cost by total sales",
           "Cost of goods sold by food sales revenue",
           "Food waste by total inventory",
-          "Beverage sales by total sales Lodging Management"
+          "Beverage sales by total sales"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -16305,7 +15403,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Labor cost by total sales is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Cost of goods sold by food sales revenue matches the official FBLA HQ answer key.",
           "Not correct. Food waste by total inventory is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Beverage sales by total sales Lodging Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Beverage sales by total sales is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16387,7 +15485,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Rooms cleaned per shift per attendant",
           "Guest reviews alone",
           "Number of items laundered",
-          "Hours worked per week Financial Management"
+          "Hours worked per week"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -16395,7 +15493,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Rooms cleaned per shift per attendant matches the official FBLA HQ answer key.",
           "Not correct. Guest reviews alone is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Number of items laundered is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Hours worked per week Financial Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Hours worked per week is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16477,7 +15575,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Reduces staff workload",
           "Prevents fraud by separating responsibilities for receiving and recording cash",
           "Speeds up transactions",
-          "Avoids guest complaints Risk Management"
+          "Avoids guest complaints"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -16485,7 +15583,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Reduces staff workload is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Prevents fraud by separating responsibilities for receiving and recording cash matches the official FBLA HQ answer key.",
           "Not correct. Speeds up transactions is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoids guest complaints Risk Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoids guest complaints is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16567,7 +15665,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Be reactive only after problems occur",
           "Include barriers, signage, and trained staff to manage flow",
           "Limit all guests to one entrance",
-          "Focus only on VIP areas Sustainable Practices"
+          "Focus only on VIP areas"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -16575,7 +15673,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Be reactive only after problems occur is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Include barriers, signage, and trained staff to manage flow matches the official FBLA HQ answer key.",
           "Not correct. Limit all guests to one entrance is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Focus only on VIP areas Sustainable Practices is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Focus only on VIP areas is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16657,7 +15755,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Only venue energy usage",
           "Total greenhouse gas emissions from all event activities",
           "Catering expenses",
-          "Marketing impressions Professionalism & Communication"
+          "Marketing impressions"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -16665,7 +15763,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Only venue energy usage is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Total greenhouse gas emissions from all event activities matches the official FBLA HQ answer key.",
           "Not correct. Catering expenses is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Marketing impressions Professionalism & Communication is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Marketing impressions is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Hospitality--Event-Management-Sample-Questions.pdf"
       },
@@ -16911,7 +16009,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Title VII of the Civil Rights Act of 1964",
           "Fair Labor Standards Act",
           "Equal Pay Act",
-          "Family and Medical Leave Act Training and Development"
+          "Family and Medical Leave Act"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -16919,7 +16017,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Title VII of the Civil Rights Act of 1964 matches the official FBLA HQ answer key.",
           "Not correct. Fair Labor Standards Act is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Equal Pay Act is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Family and Medical Leave Act Training and Development is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Family and Medical Leave Act is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Human-Resource-Management-Sample-Questions.pdf"
       },
@@ -17037,7 +16135,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Lowering starting salaries",
           "Transferring institutional knowledge and fostering professional growth",
           "Reducing recruitment advertising costs",
-          "Replacing formal onboarding Employee Compensation and Benefits"
+          "Replacing formal onboarding"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -17045,7 +16143,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Lowering starting salaries is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Transferring institutional knowledge and fostering professional growth matches the official FBLA HQ answer key.",
           "Not correct. Reducing recruitment advertising costs is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Replacing formal onboarding Employee Compensation and Benefits is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Replacing formal onboarding is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Human-Resource-Management-Sample-Questions.pdf"
       },
@@ -17163,7 +16261,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "New hires are paid significantly more than senior employees in similar roles",
           "Pay differences between employees with different experience levels are small",
           "All employees receive the same salary",
-          "A company freezes pay for several years Performance Management"
+          "A company freezes pay for several years"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -17171,7 +16269,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. New hires are paid significantly more than senior employees in similar roles is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Pay differences between employees with different experience levels are small matches the official FBLA HQ answer key.",
           "Not correct. All employees receive the same salary is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A company freezes pay for several years Performance Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. A company freezes pay for several years is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Human-Resource-Management-Sample-Questions.pdf"
       },
@@ -17289,7 +16387,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Focus only on results",
           "Address both goal achievement and behavioral competencies",
           "Ignore interpersonal skills",
-          "Eliminate performance reviews Government Relations and Issues"
+          "Eliminate performance reviews"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -17297,7 +16395,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Focus only on results is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Address both goal achievement and behavioral competencies matches the official FBLA HQ answer key.",
           "Not correct. Ignore interpersonal skills is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate performance reviews Government Relations and Issues is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eliminate performance reviews is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Human-Resource-Management-Sample-Questions.pdf"
       },
@@ -17415,7 +16513,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Provide 60 days' notice before mass layoffs or plant closures in certain situations",
           "Pay overtime to all employees",
           "Offer health insurance",
-          "Notify OSHA of all injuries Human Resource Planning"
+          "Notify OSHA of all injuries"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -17423,7 +16521,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Provide 60 days' notice before mass layoffs or plant closures in certain situations matches the official FBLA HQ answer key.",
           "Not correct. Pay overtime to all employees is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Offer health insurance is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Notify OSHA of all injuries Human Resource Planning is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Notify OSHA of all injuries is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Human-Resource-Management-Sample-Questions.pdf"
       },
@@ -17541,7 +16639,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Missing skills or competencies needed to achieve business goals",
           "Employees eligible for retirement",
           "Future pay raises",
-          "Reasons for employee absences Labor Relations and Collective Bargaining"
+          "Reasons for employee absences"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -17549,7 +16647,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Missing skills or competencies needed to achieve business goals matches the official FBLA HQ answer key.",
           "Not correct. Employees eligible for retirement is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Future pay raises is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reasons for employee absences Labor Relations and Collective Bargaining is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Reasons for employee absences is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Human-Resource-Management-Sample-Questions.pdf"
       },
@@ -17849,7 +16947,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Risk financing",
           "Risk evaluation",
           "Risk ranking",
-          "Risk analysis Property & Liability Insurance"
+          "Risk analysis"
         ],
         "answer": 3,
         "explain": "Official FBLA HQ sample question. The answer key marks D as correct.",
@@ -17857,7 +16955,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Risk financing is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Risk evaluation is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Risk ranking is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Risk analysis Property & Liability Insurance matches the official FBLA HQ answer key."
+          "Correct. Risk analysis matches the official FBLA HQ answer key."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Insurance--Risk-Management-Sample-Questions.pdf"
       },
@@ -17993,7 +17091,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Product liability insurance",
           "Advertising injury liability coverage",
           "Property insurance",
-          "Professional liability insurance Health, Disability, & Life Insurance"
+          "Professional liability insurance"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18001,7 +17099,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Product liability insurance is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Advertising injury liability coverage matches the official FBLA HQ answer key.",
           "Not correct. Property insurance is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Professional liability insurance Health, Disability, & Life Insurance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Professional liability insurance is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Insurance--Risk-Management-Sample-Questions.pdf"
       },
@@ -18137,7 +17235,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Cosmetic surgery",
           "Nursing home care and assistance with daily activities",
           "Elective procedures",
-          "Prescription drugs only Insurance"
+          "Prescription drugs only"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18145,7 +17243,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Cosmetic surgery is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Nursing home care and assistance with daily activities matches the official FBLA HQ answer key.",
           "Not correct. Elective procedures is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Prescription drugs only Insurance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Prescription drugs only is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Insurance--Risk-Management-Sample-Questions.pdf"
       },
@@ -18281,7 +17379,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase premiums annually",
           "Seek reimbursement from a third party responsible for a loss",
           "Cancel a policy without notice",
-          "Waive coverage requirements Decision Making"
+          "Waive coverage requirements"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18289,7 +17387,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase premiums annually is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Seek reimbursement from a third party responsible for a loss matches the official FBLA HQ answer key.",
           "Not correct. Cancel a policy without notice is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Waive coverage requirements Decision Making is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Waive coverage requirements is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Insurance--Risk-Management-Sample-Questions.pdf"
       },
@@ -18389,7 +17487,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Switch companies annually",
           "Ensure coverage matches current needs and risks",
           "Avoid paying premiums",
-          "Increase deductibles automatically Ethics"
+          "Increase deductibles automatically"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18397,7 +17495,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Switch companies annually is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Ensure coverage matches current needs and risks matches the official FBLA HQ answer key.",
           "Not correct. Avoid paying premiums is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Increase deductibles automatically Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Increase deductibles automatically is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Insurance--Risk-Management-Sample-Questions.pdf"
       },
@@ -18479,7 +17577,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Delaying payments to maintain company cash flow",
           "Providing timely, fair, and transparent settlements",
           "Minimizing communication with claimants",
-          "Avoiding written documentation Careers"
+          "Avoiding written documentation"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18487,7 +17585,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Delaying payments to maintain company cash flow is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Providing timely, fair, and transparent settlements matches the official FBLA HQ answer key.",
           "Not correct. Minimizing communication with claimants is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoiding written documentation Careers is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoiding written documentation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Insurance--Risk-Management-Sample-Questions.pdf"
       },
@@ -18679,7 +17777,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Mercantilism",
           "Specialization",
           "Protectionism",
-          "Self-sufficiency Ownership & Management"
+          "Self-sufficiency"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18687,7 +17785,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Mercantilism is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Specialization matches the official FBLA HQ answer key.",
           "Not correct. Protectionism is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Self-sufficiency Ownership & Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Self-sufficiency is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -18769,7 +17867,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Standardization",
           "Localization",
           "Consolidation",
-          "Diversification Legal Issues"
+          "Diversification"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18777,7 +17875,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Standardization is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Localization matches the official FBLA HQ answer key.",
           "Not correct. Consolidation is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Diversification Legal Issues is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Diversification is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -18913,7 +18011,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Exchange rate fluctuations",
           "Stereotyping",
           "Political stability",
-          "Market saturation Marketing"
+          "Market saturation"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -18921,7 +18019,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Exchange rate fluctuations is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Stereotyping matches the official FBLA HQ answer key.",
           "Not correct. Political stability is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Market saturation Marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Market saturation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19021,7 +18119,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase tariffs",
           "Understand customer needs and market conditions in each country",
           "Set currency exchange rates",
-          "Establish foreign policy VI. Taxes & Government Regulations"
+          "Establish foreign policy"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -19029,7 +18127,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase tariffs is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Understand customer needs and market conditions in each country matches the official FBLA HQ answer key.",
           "Not correct. Set currency exchange rates is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Establish foreign policy VI. Taxes & Government Regulations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Establish foreign policy is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19075,7 +18173,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Setting prices for goods sold between subsidiaries of the same multinational corporation",
           "Pricing goods for transfer to government agencies",
           "Adjusting prices to avoid inflation",
-          "Increasing prices to match tariffs Treaties & Trade Agreements"
+          "Increasing prices to match tariffs"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -19083,7 +18181,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Setting prices for goods sold between subsidiaries of the same multinational corporation matches the official FBLA HQ answer key.",
           "Not correct. Pricing goods for transfer to government agencies is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Adjusting prices to avoid inflation is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Increasing prices to match tariffs Treaties & Trade Agreements is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Increasing prices to match tariffs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19147,7 +18245,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "African nations",
           "Southeast Asian nations",
           "South American nations",
-          "Middle Eastern nations Currency Exchange"
+          "Middle Eastern nations"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -19155,7 +18253,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. African nations is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Southeast Asian nations matches the official FBLA HQ answer key.",
           "Not correct. South American nations is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Middle Eastern nations Currency Exchange is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Middle Eastern nations is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19201,7 +18299,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Appreciated",
           "Depreciated",
           "Stabilized",
-          "Inflated Finance"
+          "Inflated"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -19209,7 +18307,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Appreciated is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Depreciated matches the official FBLA HQ answer key.",
           "Not correct. Stabilized is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Inflated Finance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Inflated is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19273,7 +18371,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Trading goods and services without using money",
           "Selling at below-cost prices",
           "Trading within domestic markets only",
-          "Futures market speculation Human Resource Management"
+          "Futures market speculation"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -19281,7 +18379,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Trading goods and services without using money matches the official FBLA HQ answer key.",
           "Not correct. Selling at below-cost prices is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Trading within domestic markets only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Futures market speculation Human Resource Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Futures market speculation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19327,7 +18425,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase product standardization",
           "Reduce culture shock and improve adaptation",
           "Replace technical skills training",
-          "Eliminate language barriers entirely Ethics"
+          "Eliminate language barriers entirely"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -19335,7 +18433,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase product standardization is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Reduce culture shock and improve adaptation matches the official FBLA HQ answer key.",
           "Not correct. Replace technical skills training is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate language barriers entirely Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eliminate language barriers entirely is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19381,7 +18479,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Prevent employees from reporting wrongdoing",
           "Protect employees who report unethical or illegal actions",
           "Increase government surveillance",
-          "Reduce trade barriers International Travel"
+          "Reduce trade barriers"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -19389,7 +18487,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Prevent employees from reporting wrongdoing is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Protect employees who report unethical or illegal actions matches the official FBLA HQ answer key.",
           "Not correct. Increase government surveillance is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reduce trade barriers International Travel is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Reduce trade barriers is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19417,7 +18515,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "High altitude sickness",
           "Time zone changes disrupting circadian rhythm",
           "Cultural differences in sleep habits",
-          "Travel-related stress only Career Development"
+          "Travel-related stress only"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -19425,7 +18523,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. High altitude sickness is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Time zone changes disrupting circadian rhythm matches the official FBLA HQ answer key.",
           "Not correct. Cultural differences in sleep habits is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Travel-related stress only Career Development is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Travel-related stress only is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
       },
@@ -19452,7 +18550,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Monolingual communication",
           "Cross-cultural negotiation skills",
-          "Domestic-only marketing",
+          "Domestic-only",
           "Avoiding foreign travel"
         ],
         "answer": 1,
@@ -19460,7 +18558,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "optionExplanations": [
           "Not correct. Monolingual communication is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Cross-cultural negotiation skills matches the official FBLA HQ answer key.",
-          "Not correct. Domestic-only marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Domestic-only is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Avoiding foreign travel is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/International-Business-Sample-Questions.pdf"
@@ -19617,7 +18715,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A noun",
           "A verb",
           "An adjective",
-          "An adverb Punctuation & Capitalization"
+          "An adverb"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -19625,7 +18723,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A noun is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. A verb is not the keyed answer in the FBLA HQ sample set.",
           "Correct. An adjective matches the official FBLA HQ answer key.",
-          "Not correct. An adverb Punctuation & Capitalization is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. An adverb is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Communication-Sample-Questions.pdf"
       },
@@ -19743,7 +18841,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "We opened a new office in south America.",
           "We opened a new office in South America.",
           "We opened a new Office in South america.",
-          "We opened a New office in south America. Spelling"
+          "We opened a New office in south America."
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -19751,7 +18849,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. We opened a new office in south America. is not the keyed answer in the FBLA HQ sample set.",
           "Correct. We opened a new office in South America. matches the official FBLA HQ answer key.",
           "Not correct. We opened a new Office in South america. is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. We opened a New office in south America. Spelling is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. We opened a New office in south America. is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Communication-Sample-Questions.pdf"
       },
@@ -19869,7 +18967,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Entrepreneur",
           "Entreprenuer",
           "Enterpreneur",
-          "Enterprenuer Proofreading & Editing"
+          "Enterprenuer"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -19877,7 +18975,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Entrepreneur matches the official FBLA HQ answer key.",
           "Not correct. Entreprenuer is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Enterpreneur is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Enterprenuer Proofreading & Editing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Enterprenuer is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Communication-Sample-Questions.pdf"
       },
@@ -19995,7 +19093,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The job requires creativity, organization, and to communicate well.",
           "The job requires creativity, organization, and good communication skills.",
           "The job requires being creative, being organized, and good communication skills.",
-          "The job requires creative, organization, and communicating well. Word Definition & Usage"
+          "The job requires creative, organization, and communicating well."
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -20003,7 +19101,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. The job requires creativity, organization, and to communicate well. is not the keyed answer in the FBLA HQ sample set.",
           "Correct. The job requires creativity, organization, and good communication skills. matches the official FBLA HQ answer key.",
           "Not correct. The job requires being creative, being organized, and good communication skills. is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. The job requires creative, organization, and communicating well. Word Definition & Usage is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. The job requires creative, organization, and communicating well. is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Communication-Sample-Questions.pdf"
       },
@@ -20121,7 +19219,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Negotiation",
           "Notification",
           "Navigation",
-          "Nomination Oral Communication Concepts"
+          "Nomination"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -20129,7 +19227,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Negotiation matches the official FBLA HQ answer key.",
           "Not correct. Notification is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Navigation is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Nomination Oral Communication Concepts is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Nomination is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Communication-Sample-Questions.pdf"
       },
@@ -20247,7 +19345,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Time zones",
           "Language barriers",
           "Internet connectivity",
-          "Company size Reading Comprehension"
+          "Company size"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -20255,7 +19353,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Time zones is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Language barriers matches the official FBLA HQ answer key.",
           "Not correct. Internet connectivity is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Company size Reading Comprehension is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Company size is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Communication-Sample-Questions.pdf"
       },
@@ -20483,7 +19581,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Consumers",
           "Businesses",
           "Government authorities",
-          "Private investors Nature of Business"
+          "Private investors"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -20491,7 +19589,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Consumers is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Businesses is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Government authorities matches the official FBLA HQ answer key.",
-          "Not correct. Private investors Nature of Business is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Private investors is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Concepts-Sample-Questions.pdf"
       },
@@ -20663,7 +19761,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Banking services",
           "Agriculture",
           "Automobile manufacturing",
-          "Marketing consulting Economic Systems"
+          "Marketing consulting"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -20671,7 +19769,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Banking services is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Agriculture matches the official FBLA HQ answer key.",
           "Not correct. Automobile manufacturing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Marketing consulting Economic Systems is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Marketing consulting is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Concepts-Sample-Questions.pdf"
       },
@@ -20807,7 +19905,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Lack of innovation and efficiency",
           "Rapid response to economic crises",
           "Equal access to goods and services",
-          "Price stability Cost/Profit Relationships"
+          "Price stability"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -20815,7 +19913,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Lack of innovation and efficiency matches the official FBLA HQ answer key.",
           "Not correct. Rapid response to economic crises is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Equal access to goods and services is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Price stability Cost/Profit Relationships is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Price stability is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Concepts-Sample-Questions.pdf"
       },
@@ -20915,7 +20013,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Operate under the franchisor's brand and systems",
           "Change the brand name freely",
           "Develop their own unrelated product line",
-          "Avoid paying royalties Types of Business Activities"
+          "Avoid paying royalties"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -20923,7 +20021,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Operate under the franchisor's brand and systems matches the official FBLA HQ answer key.",
           "Not correct. Change the brand name freely is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Develop their own unrelated product line is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoid paying royalties Types of Business Activities is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoid paying royalties is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Concepts-Sample-Questions.pdf"
       },
@@ -21131,7 +20229,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Scheduling production runs",
           "Conducting customer surveys",
           "Filing tax returns",
-          "Writing job descriptions Career Planning"
+          "Writing job descriptions"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -21139,7 +20237,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Scheduling production runs matches the official FBLA HQ answer key.",
           "Not correct. Conducting customer surveys is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Filing tax returns is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Writing job descriptions Career Planning is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Writing job descriptions is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Concepts-Sample-Questions.pdf"
       },
@@ -21203,7 +20301,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The hierarchy of positions within a specific career path",
           "All job openings in a city",
           "Steps for starting a business",
-          "Tasks involved in daily operations Job-Search Skills"
+          "Tasks involved in daily operations"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -21211,7 +20309,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. The hierarchy of positions within a specific career path matches the official FBLA HQ answer key.",
           "Not correct. All job openings in a city is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Steps for starting a business is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Tasks involved in daily operations Job-Search Skills is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Tasks involved in daily operations is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Concepts-Sample-Questions.pdf"
       },
@@ -21367,7 +20465,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Hoard information to maintain advantage",
           "Share status transparently, meet commitments, and own mistakes",
           "Volunteer others for tasks",
-          "Communicate only when prompted Technology Concepts"
+          "Communicate only when prompted"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -21375,7 +20473,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Hoard information to maintain advantage is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Share status transparently, meet commitments, and own mistakes matches the official FBLA HQ answer key.",
           "Not correct. Volunteer others for tasks is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Communicate only when prompted Technology Concepts is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Communicate only when prompted is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -21457,7 +20555,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Turn off firewall",
           "Use a VPN and avoid accessing sensitive systems",
           "Share the password widely",
-          "Disable device updates Communication Skills"
+          "Disable device updates"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -21465,7 +20563,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Turn off firewall is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Use a VPN and avoid accessing sensitive systems matches the official FBLA HQ answer key.",
           "Not correct. Share the password widely is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Disable device updates Communication Skills is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Disable device updates is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -21547,7 +20645,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Be implied",
           "Ask multiple unrelated tasks at once",
           "Specify the task, owner, and deadline",
-          "Use informal slang Decision Making/Management"
+          "Use informal slang"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -21555,7 +20653,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Be implied is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Ask multiple unrelated tasks at once is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Specify the task, owner, and deadline matches the official FBLA HQ answer key.",
-          "Not correct. Use informal slang Decision Making/Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Use informal slang is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -21637,7 +20735,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A motivational slogan",
           "A key numerical measure linked to strategic objectives",
           "A training certificate",
-          "A meeting agenda Career Development"
+          "A meeting agenda"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -21645,7 +20743,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A motivational slogan is not the keyed answer in the FBLA HQ sample set.",
           "Correct. A key numerical measure linked to strategic objectives matches the official FBLA HQ answer key.",
           "Not correct. A training certificate is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A meeting agenda Career Development is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. A meeting agenda is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -21727,7 +20825,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Vague: \"Any thoughts?\"",
           "Defensive justifications",
           "Specific: \"What should I start/stop/continue to meet X goal?\"",
-          "Only positive comments Business Operations"
+          "Only positive comments"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -21735,7 +20833,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Vague: \"Any thoughts?\" is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Defensive justifications is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Specific: \"What should I start/stop/continue to meet X goal?\" matches the official FBLA HQ answer key.",
-          "Not correct. Only positive comments Business Operations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Only positive comments is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -21817,7 +20915,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Employee bonuses",
           "Expected performance targets (e.g., response/resolution times) and remedies",
           "Marketing slogans",
-          "Dress code Database/Information Management"
+          "Dress code"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -21825,7 +20923,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Employee bonuses is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Expected performance targets (e.g., response/resolution times) and remedies matches the official FBLA HQ answer key.",
           "Not correct. Marketing slogans is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Dress code Database/Information Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Dress code is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -21907,7 +21005,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Text is faster than numbers",
           "Leading zeros must be preserved",
           "Text blocks sorting",
-          "Numbers can't be searched Ethics/Safety"
+          "Numbers can't be searched"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -21915,7 +21013,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Text is faster than numbers is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Leading zeros must be preserved matches the official FBLA HQ answer key.",
           "Not correct. Text blocks sorting is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Numbers can't be searched Ethics/Safety is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Numbers can't be searched is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -21997,7 +21095,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Ignore it if no one is hurt",
           "Immediately report and, if trained, secure the area",
           "Attempt a repair without training",
-          "Post on social media Finance"
+          "Post on social media"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -22005,7 +21103,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Ignore it if no one is hurt is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Immediately report and, if trained, secure the area matches the official FBLA HQ answer key.",
           "Not correct. Attempt a repair without training is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Post on social media Finance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Post on social media is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -22087,7 +21185,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Unlimited merchant categories",
           "Real-time spend limits and monthly audits",
           "Shared cards among teams",
-          "No receipt requirement Information Processing"
+          "No receipt requirement"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -22095,7 +21193,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Unlimited merchant categories is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Real-time spend limits and monthly audits matches the official FBLA HQ answer key.",
           "Not correct. Shared cards among teams is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. No receipt requirement Information Processing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. No receipt requirement is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Business-Procedures-Sample-Questions.pdf"
       },
@@ -22631,7 +21729,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Only the CPU",
           "Only the storage drives",
           "All main system components and connectors",
-          "Only the power supply unit Software Fundamentals"
+          "Only the power supply unit"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -22639,7 +21737,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Only the CPU is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Only the storage drives is not the keyed answer in the FBLA HQ sample set.",
           "Correct. All main system components and connectors matches the official FBLA HQ answer key.",
-          "Not correct. Only the power supply unit Software Fundamentals is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Only the power supply unit is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Information-Technology-Sample-Questions.pdf"
       },
@@ -22739,7 +21837,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Provide physical manuals",
           "Define terms for using the software",
           "Automatically renew",
-          "Apply only to hardware Operating Systems"
+          "Apply only to hardware"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -22747,7 +21845,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Provide physical manuals is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Define terms for using the software matches the official FBLA HQ answer key.",
           "Not correct. Automatically renew is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Apply only to hardware Operating Systems is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Apply only to hardware is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Information-Technology-Sample-Questions.pdf"
       },
@@ -22883,7 +21981,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Ubuntu",
           "Windows 11",
           "Android",
-          "Fedora Software Applications"
+          "Fedora"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -22891,7 +21989,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Ubuntu is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Windows 11 is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Android matches the official FBLA HQ answer key.",
-          "Not correct. Fedora Software Applications is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Fedora is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Information-Technology-Sample-Questions.pdf"
       },
@@ -22991,7 +22089,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Vector editor",
           "Photo editing software",
           "Presentation software",
-          "CAD software Modern Technologies"
+          "CAD software"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -22999,7 +22097,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Vector editor is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Photo editing software matches the official FBLA HQ answer key.",
           "Not correct. Presentation software is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. CAD software Modern Technologies is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. CAD software is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Information-Technology-Sample-Questions.pdf"
       },
@@ -23099,7 +22197,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increased battery life",
           "Reduced internet speed",
           "Security vulnerabilities",
-          "Larger device size Networking Concepts"
+          "Larger device size"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -23107,7 +22205,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increased battery life is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Reduced internet speed is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Security vulnerabilities matches the official FBLA HQ answer key.",
-          "Not correct. Larger device size Networking Concepts is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Larger device size is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Information-Technology-Sample-Questions.pdf"
       },
@@ -23243,7 +22341,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Mesh",
           "Star",
           "Bus",
-          "Ring Information Management Concepts"
+          "Ring"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -23251,7 +22349,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Mesh is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Star matches the official FBLA HQ answer key.",
           "Not correct. Bus is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Ring Information Management Concepts is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Ring is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Information-Technology-Sample-Questions.pdf"
       },
@@ -23530,18 +22628,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "The process of dividing the market into smaller groups with similar needs is called:",
         "options": [
-          "Target marketing",
+          "Target",
           "Market segmentation",
           "Market analysis",
-          "Product positioning Product/Service Management"
+          "Product positioning"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
-          "Not correct. Target marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Target is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Market segmentation matches the official FBLA HQ answer key.",
           "Not correct. Market analysis is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Product positioning Product/Service Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Product positioning is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Marketing-Concepts-Sample-Questions.pdf"
       },
@@ -23677,7 +22775,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A car company emphasizing safety as its unique selling point",
           "A store offering a limited-time sale",
           "A business using a celebrity endorsement",
-          "A manufacturer reducing production costs Channel Management"
+          "A manufacturer reducing production costs"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -23685,7 +22783,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. A car company emphasizing safety as its unique selling point matches the official FBLA HQ answer key.",
           "Not correct. A store offering a limited-time sale is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. A business using a celebrity endorsement is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A manufacturer reducing production costs Channel Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. A manufacturer reducing production costs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Marketing-Concepts-Sample-Questions.pdf"
       },
@@ -23728,7 +22826,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "Which of the following is a common method of physical distribution?",
         "options": [
-          "Social media marketing",
+          "Social media",
           "Email advertising",
           "Rail transportation",
           "Television commercials"
@@ -23736,7 +22834,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
         "optionExplanations": [
-          "Not correct. Social media marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Social media is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Email advertising is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Rail transportation matches the official FBLA HQ answer key.",
           "Not correct. Television commercials is not the keyed answer in the FBLA HQ sample set."
@@ -23749,7 +22847,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Low-cost consumer goods",
           "High-end luxury items",
           "Fast-moving consumer products",
-          "Perishable goods Marketing-Information Management"
+          "Perishable goods"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -23757,7 +22855,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Low-cost consumer goods is not the keyed answer in the FBLA HQ sample set.",
           "Correct. High-end luxury items matches the official FBLA HQ answer key.",
           "Not correct. Fast-moving consumer products is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Perishable goods Marketing-Information Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Perishable goods is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Marketing-Concepts-Sample-Questions.pdf"
       },
@@ -23821,7 +22919,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase advertising spending",
           "Manage and analyze marketing data",
           "Replace human decision-making",
-          "Conduct financial audits Pricing"
+          "Conduct financial audits"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -23829,7 +22927,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase advertising spending is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Manage and analyze marketing data matches the official FBLA HQ answer key.",
           "Not correct. Replace human decision-making is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Conduct financial audits Pricing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Conduct financial audits is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Marketing-Concepts-Sample-Questions.pdf"
       },
@@ -23875,7 +22973,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Gradually lowering prices over time",
           "Setting a high initial price for a new product",
           "Matching competitor prices exactly",
-          "Charging below production cost Promotion"
+          "Charging below production cost"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -23883,7 +22981,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Gradually lowering prices over time is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Setting a high initial price for a new product matches the official FBLA HQ answer key.",
           "Not correct. Matching competitor prices exactly is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Charging below production cost Promotion is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Charging below production cost is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Marketing-Concepts-Sample-Questions.pdf"
       },
@@ -24001,7 +23099,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase product cost",
           "Inform, persuade, or remind customers",
           "Reduce production time",
-          "Eliminate competition Selling"
+          "Eliminate competition"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -24009,7 +23107,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase product cost is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Inform, persuade, or remind customers matches the official FBLA HQ answer key.",
           "Not correct. Reduce production time is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate competition Selling is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eliminate competition is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Marketing-Concepts-Sample-Questions.pdf"
       },
@@ -25065,7 +24163,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Adjourn",
           "Recess",
           "Postpone Indefinitely",
-          "Suspend the Rules FBLA Bylaws"
+          "Suspend the Rules"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -25073,7 +24171,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Adjourn matches the official FBLA HQ answer key.",
           "Not correct. Recess is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Postpone Indefinitely is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Suspend the Rules FBLA Bylaws is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Suspend the Rules is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Parli-Pro-Sample-Questions.pdf"
       },
@@ -25301,7 +24399,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Luxury retailer",
           "Warehouse club",
           "Convenience store",
-          "Specialty boutique Customer Service and Sales"
+          "Specialty boutique"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -25309,7 +24407,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Luxury retailer is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Warehouse club matches the official FBLA HQ answer key.",
           "Not correct. Convenience store is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Specialty boutique Customer Service and Sales is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Specialty boutique is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Retail--Merchandising-Sample-Questions.pdf"
       },
@@ -25517,7 +24615,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Encouraging the purchase of related products",
           "Selling to competing stores",
           "Trading products between stores",
-          "Offering clearance deals Stock-Handling Procedures"
+          "Offering clearance deals"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -25525,7 +24623,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Encouraging the purchase of related products matches the official FBLA HQ answer key.",
           "Not correct. Selling to competing stores is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Trading products between stores is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Offering clearance deals Stock-Handling Procedures is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Offering clearance deals is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Retail--Merchandising-Sample-Questions.pdf"
       },
@@ -25661,7 +24759,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Only if a customer requests it",
           "Upon arrival",
           "Before supplier pickup",
-          "After being on the shelf for a week Inventory Storage and Control"
+          "After being on the shelf for a week"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -25669,7 +24767,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Only if a customer requests it is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Upon arrival matches the official FBLA HQ answer key.",
           "Not correct. Before supplier pickup is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. After being on the shelf for a week Inventory Storage and Control is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. After being on the shelf for a week is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Retail--Merchandising-Sample-Questions.pdf"
       },
@@ -25805,7 +24903,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Identify theft or errors",
           "Increase merchandise theft",
           "Reduce record accuracy",
-          "Eliminate stock rotation Career Opportunities"
+          "Eliminate stock rotation"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -25813,7 +24911,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Identify theft or errors matches the official FBLA HQ answer key.",
           "Not correct. Increase merchandise theft is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Reduce record accuracy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Eliminate stock rotation Career Opportunities is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Eliminate stock rotation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Retail--Merchandising-Sample-Questions.pdf"
       },
@@ -25877,7 +24975,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase sales volume",
           "Reduce theft and fraud",
           "Train new hires",
-          "Arrange store layouts Visual Merchandising"
+          "Arrange store layouts"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -25885,7 +24983,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase sales volume is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Reduce theft and fraud matches the official FBLA HQ answer key.",
           "Not correct. Train new hires is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Arrange store layouts Visual Merchandising is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Arrange store layouts is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Retail--Merchandising-Sample-Questions.pdf"
       },
@@ -25949,7 +25047,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Be clear, readable, and consistent with branding",
           "Be handwritten for authenticity",
           "Use as many fonts as possible",
-          "Display only product names Display Techniques"
+          "Display only product names"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -25957,7 +25055,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Be clear, readable, and consistent with branding matches the official FBLA HQ answer key.",
           "Not correct. Be handwritten for authenticity is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Use as many fonts as possible is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Display only product names Display Techniques is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Display only product names is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Retail--Merchandising-Sample-Questions.pdf"
       },
@@ -26167,7 +25265,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Simple supply chain",
           "Reverse logistics",
           "Horizontal integration",
-          "Outsourcing Supply Chain Topics"
+          "Outsourcing"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -26175,7 +25273,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Simple supply chain matches the official FBLA HQ answer key.",
           "Not correct. Reverse logistics is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Horizontal integration is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Outsourcing Supply Chain Topics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Outsourcing is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26257,7 +25355,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increasing inventory accuracy upstream",
           "Demand fluctuations magnifying upstream in the supply chain",
           "Supplier shortages leading to price spikes",
-          "Overproduction caused by poor forecasting Characteristics for Successful Supply Chain Managers"
+          "Overproduction caused by poor forecasting"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -26265,7 +25363,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increasing inventory accuracy upstream is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Demand fluctuations magnifying upstream in the supply chain matches the official FBLA HQ answer key.",
           "Not correct. Supplier shortages leading to price spikes is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Overproduction caused by poor forecasting Characteristics for Successful Supply Chain Managers is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Overproduction caused by poor forecasting is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26329,7 +25427,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Impulsiveness",
           "Analytical thinking",
           "Routine-following",
-          "Delegation avoidance Supply Chain Planning and Design"
+          "Delegation avoidance"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -26337,7 +25435,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Impulsiveness is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Analytical thinking matches the official FBLA HQ answer key.",
           "Not correct. Routine-following is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Delegation avoidance Supply Chain Planning and Design is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Delegation avoidance is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26419,7 +25517,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Demand planning",
           "Inventory counting",
           "Quality control",
-          "Supplier compliance Supply Chain Process"
+          "Supplier compliance"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -26427,7 +25525,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Demand planning matches the official FBLA HQ answer key.",
           "Not correct. Inventory counting is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Quality control is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Supplier compliance Supply Chain Process is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Supplier compliance is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26509,7 +25607,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Procurement",
           "Inspection and testing",
           "Distribution",
-          "Reverse logistics Product Portfolio Management"
+          "Reverse logistics"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -26517,7 +25615,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Procurement is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Inspection and testing matches the official FBLA HQ answer key.",
           "Not correct. Distribution is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reverse logistics Product Portfolio Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Reverse logistics is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26581,7 +25679,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Portfolio efficiency",
           "Logistics",
           "Supplier reliability",
-          "Warehouse size Improving Supply Chain Network Performance"
+          "Warehouse size"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -26589,7 +25687,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Portfolio efficiency matches the official FBLA HQ answer key.",
           "Not correct. Logistics is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Supplier reliability is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Warehouse size Improving Supply Chain Network Performance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Warehouse size is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26671,7 +25769,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Employee morale",
           "Order accuracy and speed",
           "Marketing reach",
-          "Product variety Production Planning and Control"
+          "Product variety"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -26679,7 +25777,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Employee morale is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Order accuracy and speed matches the official FBLA HQ answer key.",
           "Not correct. Marketing reach is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Product variety Production Planning and Control is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Product variety is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26743,7 +25841,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Lean manufacturing",
           "Mass production",
           "Just-in-time delivery",
-          "Product diversification Supply Chain Coordination & Decision Making"
+          "Product diversification"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -26751,7 +25849,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Lean manufacturing matches the official FBLA HQ answer key.",
           "Not correct. Mass production is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Just-in-time delivery is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Product diversification Supply Chain Coordination & Decision Making is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Product diversification is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26815,7 +25913,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "ERP system",
           "Social media platform",
           "Graphic design software",
-          "Point-of-sale display Contemporary Issues"
+          "Point-of-sale display"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -26823,7 +25921,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. ERP system matches the official FBLA HQ answer key.",
           "Not correct. Social media platform is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Graphic design software is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Point-of-sale display Contemporary Issues is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Point-of-sale display is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -26887,7 +25985,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Currency stability",
           "Trade wars and tariffs",
           "Local advertising costs",
-          "Sports sponsorships Channels of Distribution"
+          "Sports sponsorships"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -26895,7 +25993,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Currency stability is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Trade wars and tariffs matches the official FBLA HQ answer key.",
           "Not correct. Local advertising costs is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Sports sponsorships Channels of Distribution is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Sports sponsorships is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Intro-to-Supply-Chain-Management-Sample-Questions.pdf"
       },
@@ -27105,7 +26203,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increase audience size",
           "Generate subscription revenue",
           "Reduce printing costs",
-          "Comply with government regulations"
+          "Comply with"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -27113,7 +26211,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increase audience size is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Generate subscription revenue matches the official FBLA HQ answer key.",
           "Not correct. Reduce printing costs is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Comply with government regulations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Comply with is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Journalism-Sample-Questions.pdf"
       },
@@ -27141,7 +26239,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Loss of audience trust",
           "Increased printing costs",
           "Reduced web traffic",
-          "Higher subscription rates Grammar & Format"
+          "Higher subscription rates"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -27149,7 +26247,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Loss of audience trust matches the official FBLA HQ answer key.",
           "Not correct. Increased printing costs is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Reduced web traffic is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Higher subscription rates Grammar & Format is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Higher subscription rates is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Journalism-Sample-Questions.pdf"
       },
@@ -27321,7 +26419,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "\"We will win,\" said the coach.",
           "\"We will win,\" the coach said.",
           "a and b are both correct",
-          "\"We will win.\" the coach said. Law & Ethics"
+          "\"We will win.\" the coach said."
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -27329,7 +26427,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. \"We will win,\" said the coach. is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. \"We will win,\" the coach said. is not the keyed answer in the FBLA HQ sample set.",
           "Correct. a and b are both correct matches the official FBLA HQ answer key.",
-          "Not correct. \"We will win.\" the coach said. Law & Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. \"We will win.\" the coach said. is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Journalism-Sample-Questions.pdf"
       },
@@ -27501,7 +26599,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Seek truth and report it",
           "Minimize harm",
           "Act independently",
-          "Be accountable Basic Journalism Principles"
+          "Be accountable"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -27509,7 +26607,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Seek truth and report it matches the official FBLA HQ answer key.",
           "Not correct. Minimize harm is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Act independently is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Be accountable Basic Journalism Principles is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Be accountable is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Journalism-Sample-Questions.pdf"
       },
@@ -27681,7 +26779,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Including multiple perspectives on an issue",
           "Using loaded language to describe a source",
           "Providing direct quotes from both sides",
-          "Clearly separating facts from opinion History of Journalism"
+          "Clearly separating facts from opinion"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -27689,7 +26787,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Including multiple perspectives on an issue is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Using loaded language to describe a source matches the official FBLA HQ answer key.",
           "Not correct. Providing direct quotes from both sides is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Clearly separating facts from opinion History of Journalism is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Clearly separating facts from opinion is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Journalism-Sample-Questions.pdf"
       },
@@ -28007,7 +27105,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "MIS should align with and support strategic goals",
           "MIS determines the company's mission statement",
           "MIS replaces all business strategies with automated systems",
-          "MIS focuses only on IT infrastructure, not strategy Systems Development & Implementation"
+          "MIS focuses only on IT infrastructure, not strategy"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -28015,7 +27113,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. MIS should align with and support strategic goals matches the official FBLA HQ answer key.",
           "Not correct. MIS determines the company's mission statement is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. MIS replaces all business strategies with automated systems is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. MIS focuses only on IT infrastructure, not strategy Systems Development & Implementation is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. MIS focuses only on IT infrastructure, not strategy is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Management-Information-Systems-Sample-Questions.pdf"
       },
@@ -28169,7 +27267,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Design",
           "Testing",
           "Maintenance",
-          "Implementation Data Management & Databases"
+          "Implementation"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -28177,7 +27275,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Design is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Testing is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Maintenance matches the official FBLA HQ answer key.",
-          "Not correct. Implementation Data Management & Databases is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Implementation is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Management-Information-Systems-Sample-Questions.pdf"
       },
@@ -28313,7 +27411,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Data modeling",
           "Data normalization",
           "Data encryption",
-          "Data archiving Networks & Telecommunications"
+          "Data archiving"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -28321,7 +27419,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Data modeling is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Data normalization matches the official FBLA HQ answer key.",
           "Not correct. Data encryption is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Data archiving Networks & Telecommunications is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Data archiving is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Management-Information-Systems-Sample-Questions.pdf"
       },
@@ -28457,7 +27555,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Switch",
           "Firewall",
           "Router",
-          "Access point Security & Ethics"
+          "Access point"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -28465,7 +27563,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Switch is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Firewall matches the official FBLA HQ answer key.",
           "Not correct. Router is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Access point Security & Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Access point is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Management-Information-Systems-Sample-Questions.pdf"
       },
@@ -28619,7 +27717,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A hacker exploiting a system vulnerability from outside",
           "An employee stealing confidential company data",
           "A competitor launching a DDoS attack",
-          "A malware infection from a public website Emerging Trends in MIS"
+          "A malware infection from a public website"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -28627,7 +27725,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A hacker exploiting a system vulnerability from outside is not the keyed answer in the FBLA HQ sample set.",
           "Correct. An employee stealing confidential company data matches the official FBLA HQ answer key.",
           "Not correct. A competitor launching a DDoS attack is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A malware infection from a public website Emerging Trends in MIS is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. A malware infection from a public website is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Management-Information-Systems-Sample-Questions.pdf"
       },
@@ -28801,7 +27899,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sales orientation",
           "Market orientation",
           "Product orientation",
-          "Mass marketing"
+          "Mass"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -28809,7 +27907,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Sales orientation is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Market orientation matches the official FBLA HQ answer key.",
           "Not correct. Product orientation is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Mass marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Mass is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -28817,7 +27915,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A pet supply store creates loyalty cards to encourage repeat visits. This is an example of:",
         "options": [
           "Customer relationship management",
-          "Direct marketing",
+          "Direct",
           "Sales promotion",
           "Public relations"
         ],
@@ -28825,7 +27923,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
           "Correct. Customer relationship management matches the official FBLA HQ answer key.",
-          "Not correct. Direct marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Direct is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Sales promotion is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Public relations is not the keyed answer in the FBLA HQ sample set."
         ],
@@ -28834,18 +27932,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "A new soft drink brand decides to focus on customers aged 18\u201325 in urban areas. This is an example of:",
         "options": [
-          "Target marketing",
+          "Target",
           "Product diversification",
           "Market development",
-          "Mass marketing"
+          "Mass"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
-          "Correct. Target marketing matches the official FBLA HQ answer key.",
+          "Correct. Target matches the official FBLA HQ answer key.",
           "Not correct. Product diversification is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Market development is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Mass marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Mass is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -28889,17 +27987,17 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A sports drink company analyzes its competitors and realizes that customers want low- sugar options. It decides to launch a new formula with 50% less sugar. This decision is an example of:",
         "options": [
           "Competitive advantage strategy",
-          "Niche marketing",
+          "Niche",
           "Diversification",
-          "Mass marketing Product/Service Management"
+          "Mass"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
           "Correct. Competitive advantage strategy matches the official FBLA HQ answer key.",
-          "Not correct. Niche marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Niche is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Diversification is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Mass marketing Product/Service Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Mass is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -28943,7 +28041,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A clothing brand tests a new line in select stores before launching nationwide. This is an example of:",
         "options": [
           "Market skimming",
-          "Test marketing",
+          "Test",
           "Mass customization",
           "Product repositioning"
         ],
@@ -28951,7 +28049,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
           "Not correct. Market skimming is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Test marketing matches the official FBLA HQ answer key.",
+          "Correct. Test matches the official FBLA HQ answer key.",
           "Not correct. Mass customization is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Product repositioning is not the keyed answer in the FBLA HQ sample set."
         ],
@@ -28996,17 +28094,17 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "A makeup brand uses eco-friendly packaging to attract environmentally conscious consumers. This is an example of:",
         "options": [
-          "Green marketing",
-          "Niche marketing",
-          "Guerrilla marketing",
+          "Green",
+          "Niche",
+          "Guerrilla",
           "Sponsorship"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
-          "Correct. Green marketing matches the official FBLA HQ answer key.",
-          "Not correct. Niche marketing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Guerrilla marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Correct. Green matches the official FBLA HQ answer key.",
+          "Not correct. Niche is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Guerrilla is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Sponsorship is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
@@ -29016,16 +28114,16 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Product repositioning",
           "Service feature enhancement",
-          "Test marketing",
-          "Price bundling Channel Management"
+          "Test",
+          "Price bundling"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
           "Not correct. Product repositioning is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Service feature enhancement matches the official FBLA HQ answer key.",
-          "Not correct. Test marketing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Price bundling Channel Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Test is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Price bundling is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29123,35 +28221,35 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A bookstore offers free in-store pickup for online orders. This is an example of:",
         "options": [
           "Omnichannel retailing",
-          "Direct marketing",
+          "Direct",
           "Push strategy",
-          "Wholesaling Promotion"
+          "Wholesaling"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
           "Correct. Omnichannel retailing matches the official FBLA HQ answer key.",
-          "Not correct. Direct marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Direct is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Push strategy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Wholesaling Promotion is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Wholesaling is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
       {
         "q": "A video game company launches a midnight release event with giveaways and influencer meet-and-greets to build excitement. This is an example of:",
         "options": [
-          "Event marketing",
+          "Event",
           "Sales promotion",
           "Public relations",
-          "Guerrilla marketing"
+          "Guerrilla"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
-          "Correct. Event marketing matches the official FBLA HQ answer key.",
+          "Correct. Event matches the official FBLA HQ answer key.",
           "Not correct. Sales promotion is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Public relations is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Guerrilla marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Guerrilla is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29160,7 +28258,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "options": [
           "Sales promotion",
           "Public relations",
-          "Direct marketing",
+          "Direct",
           "Sponsorship"
         ],
         "answer": 1,
@@ -29168,7 +28266,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "optionExplanations": [
           "Not correct. Sales promotion is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Public relations matches the official FBLA HQ answer key.",
-          "Not correct. Direct marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Direct is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Sponsorship is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
@@ -29176,18 +28274,18 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "A beverage company uses a viral TikTok challenge to promote a new drink flavor. This is an example of:",
         "options": [
-          "Social media marketing",
+          "Social media",
           "Public relations",
           "Sales promotion",
-          "Guerrilla marketing"
+          "Guerrilla"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
-          "Correct. Social media marketing matches the official FBLA HQ answer key.",
+          "Correct. Social media matches the official FBLA HQ answer key.",
           "Not correct. Public relations is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Sales promotion is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Guerrilla marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Guerrilla is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29195,17 +28293,17 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A travel agency sends targeted emails with vacation packages to subscribers. This is an example of:",
         "options": [
           "Sales promotion",
-          "Direct marketing",
+          "Direct",
           "Public relations",
-          "Event marketing"
+          "Event"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
           "Not correct. Sales promotion is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Direct marketing matches the official FBLA HQ answer key.",
+          "Correct. Direct matches the official FBLA HQ answer key.",
           "Not correct. Public relations is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Event marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Event is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29231,16 +28329,16 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A sports apparel brand sponsors a major marathon to increase brand awareness. This is an example of:",
         "options": [
           "Sponsorship",
-          "Event marketing",
-          "Guerrilla marketing",
+          "Event",
+          "Guerrilla",
           "Public relations"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
         "optionExplanations": [
           "Correct. Sponsorship matches the official FBLA HQ answer key.",
-          "Not correct. Event marketing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Guerrilla marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Event is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Guerrilla is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Public relations is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
@@ -29251,7 +28349,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Publicity",
           "Advertising",
           "Public relations",
-          "Direct marketing Marketing Information Management"
+          "Direct"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -29259,7 +28357,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Publicity is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Advertising matches the official FBLA HQ answer key.",
           "Not correct. Public relations is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Direct marketing Marketing Information Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Direct is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29305,7 +28403,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Quantitative research",
           "Qualitative research",
           "Secondary research",
-          "Database marketing"
+          "Database"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -29313,7 +28411,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Quantitative research is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Qualitative research matches the official FBLA HQ answer key.",
           "Not correct. Secondary research is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Database marketing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Database is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29359,7 +28457,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sentiment analysis",
           "Predictive analytics",
           "Market segmentation",
-          "Customer relationship management Pricing"
+          "Customer relationship management"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -29367,7 +28465,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Sentiment analysis matches the official FBLA HQ answer key.",
           "Not correct. Predictive analytics is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Market segmentation is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Customer relationship management Pricing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Customer relationship management is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29467,7 +28565,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Price lining",
           "Penetration pricing",
           "Psychological pricing",
-          "Loss leader pricing Selling"
+          "Loss leader pricing"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -29475,7 +28573,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Price lining is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Penetration pricing matches the official FBLA HQ answer key.",
           "Not correct. Psychological pricing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Loss leader pricing Selling is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Loss leader pricing is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -29575,7 +28673,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Product demonstration",
           "Consultative selling",
           "Suggestive selling",
-          "Needs assessment Distribution"
+          "Needs assessment"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -29583,7 +28681,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Product demonstration matches the official FBLA HQ answer key.",
           "Not correct. Consultative selling is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Suggestive selling is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Needs assessment Distribution is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Needs assessment is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Marketing-Sample-Questions.pdf"
       },
@@ -30209,7 +29307,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "CAT6 is less expensive",
           "CAT6 supports higher speeds and frequencies",
           "CAT6 is easier to bend around corners",
-          "CAT6 has better color coding Network Requirements Analysis"
+          "CAT6 has better color coding"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -30217,7 +29315,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. CAT6 is less expensive is not the keyed answer in the FBLA HQ sample set.",
           "Correct. CAT6 supports higher speeds and frequencies matches the official FBLA HQ answer key.",
           "Not correct. CAT6 is easier to bend around corners is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. CAT6 has better color coding Network Requirements Analysis is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. CAT6 has better color coding is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Network-Design-Sample-Questions.pdf"
       },
@@ -30389,7 +29487,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Bandwidth",
           "Latency",
           "Redundancy",
-          "Fault tolerance Network Design Process"
+          "Fault tolerance"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -30397,7 +29495,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Bandwidth matches the official FBLA HQ answer key.",
           "Not correct. Latency is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Redundancy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Fault tolerance Network Design Process is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Fault tolerance is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Network-Design-Sample-Questions.pdf"
       },
@@ -30569,7 +29667,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Continuous improvement",
           "Initial planning",
           "Physical installation",
-          "Device provisioning Network Implementation and Testing"
+          "Device provisioning"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -30577,7 +29675,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Continuous improvement matches the official FBLA HQ answer key.",
           "Not correct. Initial planning is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Physical installation is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Device provisioning Network Implementation and Testing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Device provisioning is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Network-Design-Sample-Questions.pdf"
       },
@@ -30749,7 +29847,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Network documentation",
           "Cable pulling",
           "IP address assignment",
-          "Wall mounting Maintenance, Monitoring, and Optimization"
+          "Wall mounting"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -30757,7 +29855,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Network documentation matches the official FBLA HQ answer key.",
           "Not correct. Cable pulling is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. IP address assignment is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Wall mounting Maintenance, Monitoring, and Optimization is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Wall mounting is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Network-Design-Sample-Questions.pdf"
       },
@@ -31111,7 +30209,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Replacing hubs with switches",
           "Adding more hubs",
           "Disabling encryption",
-          "Reducing cable length Network Topologies and Architecture"
+          "Reducing cable length"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -31119,7 +30217,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Replacing hubs with switches matches the official FBLA HQ answer key.",
           "Not correct. Adding more hubs is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Disabling encryption is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reducing cable length Network Topologies and Architecture is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Reducing cable length is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Networking-Infrastructures-Sample-Questions.pdf"
       },
@@ -31217,7 +30315,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "q": "A peer-to-peer network is most appropriate for:",
         "options": [
           "Large corporations",
-          "Small home networks",
+          "Small home",
           "Data centers",
           "Global ISPs"
         ],
@@ -31225,7 +30323,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
           "Not correct. Large corporations is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Small home networks matches the official FBLA HQ answer key.",
+          "Correct. Small home matches the official FBLA HQ answer key.",
           "Not correct. Data centers is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Global ISPs is not the keyed answer in the FBLA HQ sample set."
         ],
@@ -31291,7 +30389,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Cloud",
           "Client-server",
           "Peer-to-peer",
-          "Virtual Network Security"
+          "Virtual"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -31299,7 +30397,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Cloud is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Client-server is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Peer-to-peer matches the official FBLA HQ answer key.",
-          "Not correct. Virtual Network Security is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Virtual is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Networking-Infrastructures-Sample-Questions.pdf"
       },
@@ -31507,7 +30605,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Network scanner",
           "Modem",
           "Switch",
-          "Hub Network Protocols and Standards"
+          "Hub"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -31515,7 +30613,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Network scanner matches the official FBLA HQ answer key.",
           "Not correct. Modem is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Switch is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Hub Network Protocols and Standards is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Hub is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Networking-Infrastructures-Sample-Questions.pdf"
       },
@@ -31687,7 +30785,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "File sharing",
           "Sending error messages and diagnostics",
           "Assigning IP addresses",
-          "Streaming video Network Hardware and Connectivity"
+          "Streaming video"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -31695,7 +30793,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. File sharing is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Sending error messages and diagnostics matches the official FBLA HQ answer key.",
           "Not correct. Assigning IP addresses is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Streaming video Network Hardware and Connectivity is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Streaming video is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Networking-Infrastructures-Sample-Questions.pdf"
       },
@@ -32049,7 +31147,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Legitimate power",
           "Referent power",
           "Coercive power",
-          "Reward power Team Development & Dynamics"
+          "Reward power"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -32057,7 +31155,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Legitimate power is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Referent power matches the official FBLA HQ answer key.",
           "Not correct. Coercive power is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Reward power Team Development & Dynamics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Reward power is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Organizational-Leadership-Sample-Questions.pdf"
       },
@@ -32229,7 +31327,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Hierarchical control",
           "Team morale",
           "Bureaucratic structure",
-          "Silos Decision-Making & Problem Solving"
+          "Silos"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -32237,7 +31335,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Hierarchical control is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Team morale matches the official FBLA HQ answer key.",
           "Not correct. Bureaucratic structure is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Silos Decision-Making & Problem Solving is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Silos is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Organizational-Leadership-Sample-Questions.pdf"
       },
@@ -32391,7 +31489,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Assess the situation and identify critical priorities",
           "Avoid taking immediate action",
           "Assign blame to suppliers",
-          "Cancel all operations Communication in Leadership"
+          "Cancel all operations"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -32399,7 +31497,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Assess the situation and identify critical priorities matches the official FBLA HQ answer key.",
           "Not correct. Avoid taking immediate action is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Assign blame to suppliers is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Cancel all operations Communication in Leadership is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Cancel all operations is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Organizational-Leadership-Sample-Questions.pdf"
       },
@@ -32535,7 +31633,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Transparency",
           "Ambiguity",
           "Secrecy",
-          "Exclusivity Ethics & Social Responsibility"
+          "Exclusivity"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -32543,7 +31641,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Transparency matches the official FBLA HQ answer key.",
           "Not correct. Ambiguity is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Secrecy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Exclusivity Ethics & Social Responsibility is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Exclusivity is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Organizational-Leadership-Sample-Questions.pdf"
       },
@@ -32643,7 +31741,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Corporate philanthropy",
           "Insider trading",
           "Coercive strategy",
-          "Conflict of interest Change Management & Innovation"
+          "Conflict of interest"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -32651,7 +31749,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Corporate philanthropy matches the official FBLA HQ answer key.",
           "Not correct. Insider trading is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Coercive strategy is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Conflict of interest Change Management & Innovation is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Conflict of interest is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Organizational-Leadership-Sample-Questions.pdf"
       },
@@ -33187,7 +32285,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "All taxpayers pay the same rate",
           "Tax rates decrease as income increases",
           "Tax rates increase as income increases",
-          "Taxes are based on spending Financial Needs and Goals"
+          "Taxes are based on spending"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -33195,7 +32293,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. All taxpayers pay the same rate is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Tax rates decrease as income increases is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Tax rates increase as income increases matches the official FBLA HQ answer key.",
-          "Not correct. Taxes are based on spending Financial Needs and Goals is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Taxes are based on spending is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Personal-Finance-Sample-Questions.pdf"
       },
@@ -33331,7 +32429,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A 10-year bond",
           "A savings account",
           "Real estate",
-          "Stocks Financial-Services Providers"
+          "Stocks"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -33339,7 +32437,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A 10-year bond is not the keyed answer in the FBLA HQ sample set.",
           "Correct. A savings account matches the official FBLA HQ answer key.",
           "Not correct. Real estate is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Stocks Financial-Services Providers is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Stocks is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Personal-Finance-Sample-Questions.pdf"
       },
@@ -33403,7 +32501,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "$50,000 per account",
           "$100,000 per bank",
           "$250,000 per depositor per bank",
-          "Unlimited amount Investment Strategies"
+          "Unlimited amount"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -33411,7 +32509,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. $50,000 per account is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. $100,000 per bank is not the keyed answer in the FBLA HQ sample set.",
           "Correct. $250,000 per depositor per bank matches the official FBLA HQ answer key.",
-          "Not correct. Unlimited amount Investment Strategies is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Unlimited amount is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Personal-Finance-Sample-Questions.pdf"
       },
@@ -33475,7 +32573,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Cashing out your investment",
           "Buying more shares automatically",
           "Reducing your portfolio size",
-          "Avoiding taxes entirely Financial Literacy"
+          "Avoiding taxes entirely"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -33483,7 +32581,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Cashing out your investment is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Buying more shares automatically matches the official FBLA HQ answer key.",
           "Not correct. Reducing your portfolio size is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Avoiding taxes entirely Financial Literacy is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoiding taxes entirely is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Personal-Finance-Sample-Questions.pdf"
       },
@@ -34161,7 +33259,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Approving final deliverables and providing resources",
           "Designing the network infrastructure",
           "Managing day-to-day team tasks",
-          "Writing detailed technical specifications Project Planning & Scheduling"
+          "Writing detailed technical specifications"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -34169,7 +33267,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Approving final deliverables and providing resources matches the official FBLA HQ answer key.",
           "Not correct. Designing the network infrastructure is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Managing day-to-day team tasks is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Writing detailed technical specifications Project Planning & Scheduling is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Writing detailed technical specifications is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Project-Management-Sample-Questions.pdf"
       },
@@ -34395,7 +33493,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sprints",
           "Phases",
           "Milestones",
-          "Gaps Project Execution & Monitoring"
+          "Gaps"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -34403,7 +33501,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Sprints matches the official FBLA HQ answer key.",
           "Not correct. Phases is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Milestones is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Gaps Project Execution & Monitoring is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Gaps is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Project-Management-Sample-Questions.pdf"
       },
@@ -34629,7 +33727,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Approve or reject proposed project changes",
           "Plan the initial project scope",
           "Review vendor proposals",
-          "Assign new team members Project Closure & Professional Responsibility"
+          "Assign new team members"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -34637,7 +33735,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Approve or reject proposed project changes matches the official FBLA HQ answer key.",
           "Not correct. Plan the initial project scope is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Review vendor proposals is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Assign new team members Project Closure & Professional Responsibility is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Assign new team members is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Project-Management-Sample-Questions.pdf"
       },
@@ -34955,7 +34053,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Congressional Budget Office",
           "Office of the Inspector General",
           "Internal Revenue Service",
-          "Federal Reserve Board Public Policy & Governance"
+          "Federal Reserve Board"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -34963,7 +34061,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Congressional Budget Office is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Office of the Inspector General matches the official FBLA HQ answer key.",
           "Not correct. Internal Revenue Service is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Federal Reserve Board Public Policy & Governance is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Federal Reserve Board is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Public-Administration--Management-Sample-Questions.pdf"
       },
@@ -35225,7 +34323,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Only elected officials",
           "Individuals or groups affected by or interested in a policy or project",
           "Government employees only",
-          "Media organizations Communication"
+          "Media organizations"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -35233,7 +34331,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Only elected officials is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Individuals or groups affected by or interested in a policy or project matches the official FBLA HQ answer key.",
           "Not correct. Government employees only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Media organizations Communication is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Media organizations is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Public-Administration--Management-Sample-Questions.pdf"
       },
@@ -35315,7 +34413,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A department head sends an email to staff",
           "A citizen submits a complaint to city hall",
           "An employee submits a report to a supervisor",
-          "A mayor delivers a public address Public Sector Fundamentals"
+          "A mayor delivers a public address"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -35323,7 +34421,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A department head sends an email to staff is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. A citizen submits a complaint to city hall is not the keyed answer in the FBLA HQ sample set.",
           "Correct. An employee submits a report to a supervisor matches the official FBLA HQ answer key.",
-          "Not correct. A mayor delivers a public address Public Sector Fundamentals is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. A mayor delivers a public address is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Public-Administration--Management-Sample-Questions.pdf"
       },
@@ -35441,7 +34539,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Awarding jobs based on merit",
           "Awarding jobs to political supporters",
           "Distributing public funds fairly",
-          "Enforcing laws strictly Public Management"
+          "Enforcing laws strictly"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -35449,7 +34547,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Awarding jobs based on merit is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Awarding jobs to political supporters matches the official FBLA HQ answer key.",
           "Not correct. Distributing public funds fairly is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Enforcing laws strictly Public Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Enforcing laws strictly is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Public-Administration--Management-Sample-Questions.pdf"
       },
@@ -35621,7 +34719,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Political campaigns run smoothly",
           "Smooth leadership transitions when key personnel leave",
           "Reduction in the size of agencies",
-          "Lower training costs Ethics"
+          "Lower training costs"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -35629,7 +34727,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Political campaigns run smoothly is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Smooth leadership transitions when key personnel leave matches the official FBLA HQ answer key.",
           "Not correct. Reduction in the size of agencies is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Lower training costs Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Lower training costs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Public-Administration--Management-Sample-Questions.pdf"
       },
@@ -35965,7 +35063,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Leasing",
           "Conveyance",
           "Mortgage",
-          "Tenancy Real Estate Law"
+          "Tenancy"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -35973,7 +35071,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Leasing is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Conveyance matches the official FBLA HQ answer key.",
           "Not correct. Mortgage is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Tenancy Real Estate Law is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Tenancy is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Real-Estate-Sample-Questions.pdf"
       },
@@ -36127,7 +35225,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Fair Credit Reporting Act",
           "Fair Housing Act",
           "Sherman Antitrust Act",
-          "Truth in Lending Act Financing and Settlement"
+          "Truth in Lending Act"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -36135,7 +35233,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Fair Credit Reporting Act is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Fair Housing Act matches the official FBLA HQ answer key.",
           "Not correct. Sherman Antitrust Act is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Truth in Lending Act Financing and Settlement is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Truth in Lending Act is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Real-Estate-Sample-Questions.pdf"
       },
@@ -36289,7 +35387,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Eminent domain",
           "Foreclosure",
           "Refinancing",
-          "Tax sale Contracts"
+          "Tax sale"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -36297,7 +35395,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Eminent domain is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Foreclosure matches the official FBLA HQ answer key.",
           "Not correct. Refinancing is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Tax sale Contracts is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Tax sale is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Real-Estate-Sample-Questions.pdf"
       },
@@ -36415,7 +35513,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Obligation to buy",
           "Right but not obligation to buy",
           "Ownership immediately",
-          "A leasehold interest Valuation and Appraisal"
+          "A leasehold interest"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -36423,7 +35521,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Obligation to buy is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Right but not obligation to buy matches the official FBLA HQ answer key.",
           "Not correct. Ownership immediately is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. A leasehold interest Valuation and Appraisal is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. A leasehold interest is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Real-Estate-Sample-Questions.pdf"
       },
@@ -36523,7 +35621,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Add value to the comparable",
           "Subtract value from the comparable",
           "Add value to the subject property",
-          "Make no adjustment Property Management"
+          "Make no adjustment"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -36531,7 +35629,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Add value to the comparable is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Subtract value from the comparable matches the official FBLA HQ answer key.",
           "Not correct. Add value to the subject property is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Make no adjustment Property Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Make no adjustment is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Real-Estate-Sample-Questions.pdf"
       },
@@ -36705,7 +35803,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A nearby store closing, freeing up market share",
           "A product recall",
           "Loss of a key supplier",
-          "Rising rent costs Retail Formats and Types"
+          "Rising rent costs"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -36713,7 +35811,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. A nearby store closing, freeing up market share matches the official FBLA HQ answer key.",
           "Not correct. A product recall is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Loss of a key supplier is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Rising rent costs Retail Formats and Types is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Rising rent costs is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -36795,7 +35893,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Warehouse club",
           "Convenience store",
           "Department store",
-          "Specialty store Selling"
+          "Specialty store"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -36803,7 +35901,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Warehouse club matches the official FBLA HQ answer key.",
           "Not correct. Convenience store is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Department store is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Specialty store Selling is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Specialty store is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -36885,7 +35983,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Upselling",
           "Cross-selling",
           "Clearance selling",
-          "Bait-and-switch Merchandising"
+          "Bait-and-switch"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -36893,7 +35991,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Upselling is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Cross-selling matches the official FBLA HQ answer key.",
           "Not correct. Clearance selling is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Bait-and-switch Merchandising is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Bait-and-switch is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -36975,7 +36073,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "End-cap merchandising",
           "Impulse item placement",
           "Product bundling",
-          "Upselling Inventory Management"
+          "Upselling"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -36983,7 +36081,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. End-cap merchandising is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Impulse item placement matches the official FBLA HQ answer key.",
           "Not correct. Product bundling is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Upselling Inventory Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Upselling is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -37065,7 +36163,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "A notebook and pencil",
           "Point-of-sale software",
           "Seasonal hiring",
-          "Vendor credit Pricing"
+          "Vendor credit"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -37073,7 +36171,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. A notebook and pencil is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Point-of-sale software matches the official FBLA HQ answer key.",
           "Not correct. Seasonal hiring is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Vendor credit Pricing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Vendor credit is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -37155,7 +36253,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Maximize short-term profit",
           "Quickly gain market share with low prices",
           "Discourage customers from buying",
-          "Increase prestige of the product Store Operations"
+          "Increase prestige of the product"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -37163,7 +36261,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Maximize short-term profit is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Quickly gain market share with low prices matches the official FBLA HQ answer key.",
           "Not correct. Discourage customers from buying is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Increase prestige of the product Store Operations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Increase prestige of the product is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -37245,7 +36343,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Hiring new staff for seasonal demand",
           "Having a backup point-of-sale system in case the main one fails",
           "Negotiating better vendor terms",
-          "Running a sales promotion Customer Service"
+          "Running a sales promotion"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -37253,7 +36351,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Hiring new staff for seasonal demand is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Having a backup point-of-sale system in case the main one fails matches the official FBLA HQ answer key.",
           "Not correct. Negotiating better vendor terms is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Running a sales promotion Customer Service is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Running a sales promotion is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -37335,7 +36433,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The time when payment is processed",
           "Any interaction where a customer forms an impression of the business",
           "When the customer reads online reviews",
-          "The time when a refund is issued Technology in Retail"
+          "The time when a refund is issued"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -37343,7 +36441,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. The time when payment is processed is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Any interaction where a customer forms an impression of the business matches the official FBLA HQ answer key.",
           "Not correct. When the customer reads online reviews is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. The time when a refund is issued Technology in Retail is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. The time when a refund is issued is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -37425,7 +36523,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Increased speed for customers",
           "Reduced labor costs",
           "Higher risk of theft or scanning errors",
-          "Improved inventory tracking Ethics and Legal Issues"
+          "Improved inventory tracking"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -37433,7 +36531,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Increased speed for customers is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Reduced labor costs is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Higher risk of theft or scanning errors matches the official FBLA HQ answer key.",
-          "Not correct. Improved inventory tracking Ethics and Legal Issues is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Improved inventory tracking is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Retail-Management-Sample-Questions.pdf"
       },
@@ -37697,7 +36795,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Growth stocks",
           "Dividend-paying stocks",
           "Penny stocks",
-          "Commodities Securities Markets"
+          "Commodities"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -37705,7 +36803,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Growth stocks is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Dividend-paying stocks matches the official FBLA HQ answer key.",
           "Not correct. Penny stocks is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Commodities Securities Markets is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Commodities is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Securities--Investments-Sample-Questions.pdf"
       },
@@ -37841,7 +36939,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Limit order",
           "Stop order",
           "Market order",
-          "Short order Investment Analysis"
+          "Short order"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -37849,7 +36947,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Limit order is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Stop order is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Market order matches the official FBLA HQ answer key.",
-          "Not correct. Short order Investment Analysis is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Short order is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Securities--Investments-Sample-Questions.pdf"
       },
@@ -38003,7 +37101,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "The liquidity of a company",
           "The leverage of a company",
           "The profitability of a company",
-          "The efficiency of a company Investment Vehicles"
+          "The efficiency of a company"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -38011,7 +37109,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. The liquidity of a company is not the keyed answer in the FBLA HQ sample set.",
           "Correct. The leverage of a company matches the official FBLA HQ answer key.",
           "Not correct. The profitability of a company is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. The efficiency of a company Investment Vehicles is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. The efficiency of a company is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Securities--Investments-Sample-Questions.pdf"
       },
@@ -38165,7 +37263,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Fixed annuity",
           "Treasury Inflation-Protected Securities (TIPS)",
           "Savings account",
-          "Corporate bond Ethics and Regulations"
+          "Corporate bond"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -38173,7 +37271,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Fixed annuity is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Treasury Inflation-Protected Securities (TIPS) matches the official FBLA HQ answer key.",
           "Not correct. Savings account is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Corporate bond Ethics and Regulations is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Corporate bond is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Securities--Investments-Sample-Questions.pdf"
       },
@@ -38291,7 +37389,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Avoiding conflicts of interest",
           "Misrepresenting investment performance",
           "Disclosing risks to clients",
-          "Following suitability standards Portfolio Management"
+          "Following suitability standards"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -38299,7 +37397,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Avoiding conflicts of interest is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Misrepresenting investment performance matches the official FBLA HQ answer key.",
           "Not correct. Disclosing risks to clients is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Following suitability standards Portfolio Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Following suitability standards is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Securities--Investments-Sample-Questions.pdf"
       },
@@ -38563,7 +37661,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Strategic planning",
           "Operational control",
           "Crisis management",
-          "Autocratic leadership Human Resources & Staffing"
+          "Autocratic leadership"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -38571,7 +37669,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Strategic planning is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Operational control matches the official FBLA HQ answer key.",
           "Not correct. Crisis management is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Autocratic leadership Human Resources & Staffing is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Autocratic leadership is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Sports--Entertainment-Management-Sample-Questions.pdf"
       },
@@ -38707,7 +37805,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Employees working in more than one role",
           "Employees working for more than one company",
           "Physical training for job fitness",
-          "Job shadowing Marketing & Sales"
+          "Job shadowing"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -38715,7 +37813,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Employees working in more than one role matches the official FBLA HQ answer key.",
           "Not correct. Employees working for more than one company is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Physical training for job fitness is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Job shadowing Marketing & Sales is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Job shadowing is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Sports--Entertainment-Management-Sample-Questions.pdf"
       },
@@ -38758,17 +37856,17 @@ window.RESOURCE_INTERACTIVE_DATA = {
       {
         "q": "A basketball team collects fan data to send targeted email offers. This represents:",
         "options": [
-          "Mass marketing",
-          "Direct marketing",
-          "Guerilla marketing",
+          "Mass",
+          "Direct",
+          "Guerilla",
           "Publicity"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
         "optionExplanations": [
-          "Not correct. Mass marketing is not the keyed answer in the FBLA HQ sample set.",
-          "Correct. Direct marketing matches the official FBLA HQ answer key.",
-          "Not correct. Guerilla marketing is not the keyed answer in the FBLA HQ sample set.",
+          "Not correct. Mass is not the keyed answer in the FBLA HQ sample set.",
+          "Correct. Direct matches the official FBLA HQ answer key.",
+          "Not correct. Guerilla is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Publicity is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Sports--Entertainment-Management-Sample-Questions.pdf"
@@ -38923,7 +38021,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Sponsorship activation",
           "Advertising",
           "Public relations",
-          "Direct selling Event & Facility Management"
+          "Direct selling"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -38931,7 +38029,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Sponsorship activation matches the official FBLA HQ answer key.",
           "Not correct. Advertising is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Public relations is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Direct selling Event & Facility Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Direct selling is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Sports--Entertainment-Management-Sample-Questions.pdf"
       },
@@ -39139,7 +38237,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Marketing strategy",
           "Emergency preparedness",
           "Event sponsorship",
-          "Revenue planning Financial Management"
+          "Revenue planning"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -39147,7 +38245,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Marketing strategy is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Emergency preparedness matches the official FBLA HQ answer key.",
           "Not correct. Event sponsorship is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Revenue planning Financial Management is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Revenue planning is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Sports--Entertainment-Management-Sample-Questions.pdf"
       },
@@ -39411,7 +38509,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "By the time they were received",
           "Based on urgency and impact",
           "Alphabetically by requestor name",
-          "Random assignment to technicians Customer Service in Technology Support"
+          "Random assignment to technicians"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -39419,7 +38517,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. By the time they were received is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Based on urgency and impact matches the official FBLA HQ answer key.",
           "Not correct. Alphabetically by requestor name is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Random assignment to technicians Customer Service in Technology Support is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Random assignment to technicians is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -39501,7 +38599,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Offer a discount on services",
           "Acknowledge the frustration and apologize",
           "Redirect the conversation to unrelated topics",
-          "Provide a detailed technical report immediately Troubleshooting and Problem Solving"
+          "Provide a detailed technical report immediately"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -39509,7 +38607,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Offer a discount on services is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Acknowledge the frustration and apologize matches the official FBLA HQ answer key.",
           "Not correct. Redirect the conversation to unrelated topics is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Provide a detailed technical report immediately Troubleshooting and Problem Solving is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Provide a detailed technical report immediately is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -39591,7 +38689,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Preventive maintenance",
           "Incident escalation",
           "Downtime response",
-          "Data migration Hardware Support"
+          "Data migration"
         ],
         "answer": 0,
         "explain": "Official FBLA HQ sample question. The answer key marks A as correct.",
@@ -39599,7 +38697,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Correct. Preventive maintenance matches the official FBLA HQ answer key.",
           "Not correct. Incident escalation is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Downtime response is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Data migration Hardware Support is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Data migration is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -39681,7 +38779,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Number of USB ports",
           "Compatibility with motherboard",
           "Keyboard layout",
-          "Monitor refresh rate Software Support"
+          "Monitor refresh rate"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -39689,7 +38787,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Number of USB ports is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Compatibility with motherboard matches the official FBLA HQ answer key.",
           "Not correct. Keyboard layout is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Monitor refresh rate Software Support is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Monitor refresh rate is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -39771,7 +38869,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Installed manually by each user",
           "Managed by the service provider",
           "Handled by third-party contractors only",
-          "Unnecessary after initial setup Networking Basics"
+          "Unnecessary after initial setup"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -39779,7 +38877,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Installed manually by each user is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Managed by the service provider matches the official FBLA HQ answer key.",
           "Not correct. Handled by third-party contractors only is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Unnecessary after initial setup Networking Basics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Unnecessary after initial setup is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -39861,7 +38959,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "HDMI",
           "Cat5e/Cat6 twisted pair",
           "Fiber optic",
-          "Coaxial Security Practices"
+          "Coaxial"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -39869,7 +38967,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. HDMI is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Cat5e/Cat6 twisted pair matches the official FBLA HQ answer key.",
           "Not correct. Fiber optic is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Coaxial Security Practices is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Coaxial is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -39951,7 +39049,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Giving everyone administrator rights",
           "Restricting access to only what's necessary for a role",
           "Denying all users network access",
-          "Disabling antivirus software Documentation and Reporting"
+          "Disabling antivirus software"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -39959,7 +39057,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Giving everyone administrator rights is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Restricting access to only what's necessary for a role matches the official FBLA HQ answer key.",
           "Not correct. Denying all users network access is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Disabling antivirus software Documentation and Reporting is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Disabling antivirus software is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -40041,7 +39139,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Flowchart",
           "Network topology diagram",
           "Bar chart",
-          "Venn diagram Professionalism and Ethics"
+          "Venn diagram"
         ],
         "answer": 1,
         "explain": "Official FBLA HQ sample question. The answer key marks B as correct.",
@@ -40049,7 +39147,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Flowchart is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Network topology diagram matches the official FBLA HQ answer key.",
           "Not correct. Bar chart is not the keyed answer in the FBLA HQ sample set.",
-          "Not correct. Venn diagram Professionalism and Ethics is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Venn diagram is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },
@@ -40131,7 +39229,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Installing unlicensed software to save money",
           "Using personal devices for company backups",
           "Following security protocols even under pressure",
-          "Avoiding documentation to save time Career Development in Technology Support"
+          "Avoiding documentation to save time"
         ],
         "answer": 2,
         "explain": "Official FBLA HQ sample question. The answer key marks C as correct.",
@@ -40139,7 +39237,7 @@ window.RESOURCE_INTERACTIVE_DATA = {
           "Not correct. Installing unlicensed software to save money is not the keyed answer in the FBLA HQ sample set.",
           "Not correct. Using personal devices for company backups is not the keyed answer in the FBLA HQ sample set.",
           "Correct. Following security protocols even under pressure matches the official FBLA HQ answer key.",
-          "Not correct. Avoiding documentation to save time Career Development in Technology Support is not the keyed answer in the FBLA HQ sample set."
+          "Not correct. Avoiding documentation to save time is not the keyed answer in the FBLA HQ sample set."
         ],
         "source": "official-hq-pdf:C:/Users/tarus/OneDrive/Documents/GitHub/fblahelper/fblaresources/objective tests/Technology-Support--Services-Sample-Questions.pdf"
       },

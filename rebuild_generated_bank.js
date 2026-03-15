@@ -595,7 +595,12 @@ function normalizeQuestion(question, fallbackSource) {
 
   const prompt = question.q.trim();
   const options = Array.isArray(question.options) ? question.options.slice(0, 4).map((value) => String(value).trim()) : [];
-  const answer = Number(question.answer);
+  const rawAnswer = question.answer;
+  const answer = typeof rawAnswer === "number"
+    ? rawAnswer
+    : /^[0-3]$/.test(String(rawAnswer).trim())
+      ? Number(rawAnswer)
+      : NaN;
   const explain = typeof question.explain === "string" && question.explain.trim()
     ? question.explain.trim()
     : `The correct answer is ${options[answer] || "the marked option"} because it best fits the scenario.`;

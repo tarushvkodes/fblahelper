@@ -66,6 +66,48 @@ ROLEPLAY_HEADINGS = {
     "objectives": "objectives",
 }
 
+OBJECTIVE_SECTION_HEADINGS = [
+    "Business Environment",
+    "Management Types",
+    "Business Finance",
+    "Strategic Management",
+    "Networks & Telecommunications",
+    "Government Regulations",
+    "Financial Needs and Goals",
+    "Price Planning",
+    "Marketing",
+    "Higher-Order Application",
+    "Reading Comprehension",
+    "Verbal & Nonverbal Communication",
+    "Spelling",
+    "Contracts and Sales",
+    "Consumer Protection",
+    "Computer Law",
+    "Global Trade",
+    "Product/Service Management",
+    "History of Journalism",
+    "Leadership Skills",
+    "Applied Ethics Scenarios",
+    "Networks",
+    "Security Protocols and Threat Mitigation",
+    "Privacy and Ethics",
+    "Law & Ethics",
+    "Security & Ethics",
+    "Professionalism and Ethics",
+    "Business Operations",
+    "Communication Skills",
+    "Technology Concepts",
+    "Decision Making/Management",
+    "Career Development",
+    "Product Portfolio Management",
+    "Federal Reserve, Payments & Operations",
+    "Careers & Professional Development",
+    "Decision Making",
+    "VI. Taxes & Government Regulations",
+]
+
+HEADING_CONNECTORS = {"&", "/", "and", "of", "the", "to", "for", "in", "on", "with"}
+
 
 def normalize_key(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
@@ -149,6 +191,61 @@ def clean_parser_noise(text: str) -> str:
     return "\n".join(lines)
 
 
+def strip_objective_heading_suffix(text: str) -> str:
+    cleaned = clean_whitespace(text)
+    for heading in OBJECTIVE_SECTION_HEADINGS:
+        if " " in heading or "&" in heading or "/" in heading or "." in heading:
+            cleaned = re.sub(rf"\s+{re.escape(heading)}$", "", cleaned, flags=re.I)
+            continue
+        suffix_match = re.search(rf"^(.*)\s+({re.escape(heading)})$", cleaned, flags=re.I)
+        if not suffix_match:
+            continue
+        prefix = clean_whitespace(suffix_match.group(1))
+        prefix_words = prefix.split()
+        if (
+            prefix
+            and len(prefix_words) <= 4
+            and not re.search(r"[,;:]", prefix)
+            and prefix_words[-1].lower() not in HEADING_CONNECTORS
+        ):
+            cleaned = prefix
+    return clean_whitespace(cleaned)
+
+
+def looks_like_heading_line(text: str) -> bool:
+    candidate = clean_whitespace(text)
+    if not candidate or len(candidate) > 80:
+        return False
+    if candidate.endswith((".", "?", "!", ":")):
+        return False
+    bare = re.sub(r"^[IVXLC]+\.\s*", "", candidate)
+    bare = re.sub(r"^[0-9]+\.\s*", "", bare)
+    words = bare.split()
+    if not words:
+        return False
+
+    titled = 0
+    for word in words:
+      if word.lower() in HEADING_CONNECTORS:
+          continue
+      if re.fullmatch(r"[A-Z0-9/&-]+", word):
+          titled += 1
+          continue
+      if word[:1].isupper():
+          titled += 1
+          continue
+      return False
+
+    return titled >= 1
+
+
+def clean_option_text(raw: str) -> str:
+    lines = [clean_whitespace(line) for line in str(raw).splitlines() if clean_whitespace(line)]
+    while len(lines) > 1 and looks_like_heading_line(lines[-1]):
+        lines.pop()
+    return strip_objective_heading_suffix(" ".join(lines))
+
+
 def canonical_event_name(raw: str) -> str:
     value = raw.replace("&", " and ")
     value = re.sub(r"^\s*fbla\b", "", value, flags=re.I)
@@ -159,6 +256,7 @@ def canonical_event_name(raw: str) -> str:
     value = re.sub(r"\btest\b", "", value, flags=re.I)
     value = value.replace("---", " ").replace("--", " ").replace("-", " ").replace("_", " ")
     value = clean_whitespace(value)
+    value = re.sub(r"\(\d+\)$", "", value).strip()
     value = re.sub(r"\b\d+\b$", "", value).strip()
     key = normalize_key(value)
     if key in EVENT_ALIASES:
@@ -193,7 +291,7 @@ def parse_options(block: str) -> tuple[str, list[str]]:
     if len(option_matches) != 4:
         return "", []
     prompt = clean_whitespace(block[: option_matches[0].start()])
-    options = [clean_whitespace(match.group(2)) for match in option_matches]
+    options = [clean_option_text(match.group(2)) for match in option_matches]
     return prompt, options
 
 

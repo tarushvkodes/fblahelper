@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer"
+  short_description: "Humanize writing and remove AI tells"
+  default_prompt: "Use $humanizer to rewrite this draft so it sounds less AI-generated and more naturally human."
