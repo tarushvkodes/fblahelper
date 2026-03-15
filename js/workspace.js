@@ -477,6 +477,17 @@ function getQuestionOfDay(eventName) {
   return deck[seed % deck.length];
 }
 
+function formatQuestionSourceLabel(source) {
+  const raw = String(source || "").trim();
+  if (!raw) return "study bank";
+  const pdfMatch = raw.match(/pdf:(.+)$/i);
+  const candidate = (pdfMatch ? pdfMatch[1] : raw).split(/[\\/]/).pop() || raw;
+  const cleaned = candidate
+    .replace(/^official-hq[-_]?/i, "")
+    .replace(/\.[^.]+$/, (ext) => ext.toLowerCase());
+  return cleaned || "study bank";
+}
+
 function renderQuestionOfDay(eventName) {
   const promptEl = document.getElementById("questionOfDayPrompt");
   const metaEl = document.getElementById("questionOfDayMeta");
@@ -488,7 +499,7 @@ function renderQuestionOfDay(eventName) {
     return;
   }
   promptEl.textContent = question.q;
-  metaEl.textContent = `${todayStr()} · ${question.source || "study bank"}`;
+  metaEl.textContent = `${todayStr()} · ${formatQuestionSourceLabel(question.source)}`;
 }
 
 function adaptiveDeckForEvent(eventName) {
